@@ -5,13 +5,9 @@
  */
 body {
 	color: #424242;
+	background-color: #d2d2d2;
 }
 
-@media (min-width: 768px) {
-	.container {
-		max-width: 730px;
-	}
-}
 /**
  * //////////////////////////
  * Font and link declarations
@@ -33,7 +29,7 @@ h2 {
 /*	font-weight: normal;*/
 	margin-bottom: 5px;
 	color: #666666;
-	border-bottom: 1px solid #E6E6E6;
+	border-bottom: 1px solid #aaaaaa;
 }
         
 h3 {
@@ -44,11 +40,11 @@ h3 {
 
 a, a:link, a:active {
 	text-decoration: none;
-	color: #8C8C8C;
+	color: #666666;
 }
 
 a:hover {
-	color: #B3B3B3;
+	color: #8C8C8C;
 	text-decoration: none;
 }
 
@@ -64,7 +60,7 @@ a:hover {
 
 
 .container-fluid {
-	width: 86%;
+	width: 89%;
 }
 
 /**
@@ -72,13 +68,8 @@ a:hover {
  * Right aka content column formatting
  * //////////////////////////////////
  */
-div.right {
-	width: 500px;
-	float: left;
-}
            
 div.content {
-	border-top: 1px solid #E6E6E6;
 	margin-top: 5px;
 	padding-top: 5px;
 }
@@ -97,36 +88,15 @@ div.content .highlight {
 }
 
 footer {
-	border-top: 1px solid #E6E6E6;
+	border-top: 1px solid #aaaaaa;
 	width: 100%;
 	height: 10px;
 	margin-top: 10px;
 	padding-top: 10px;
-	color: #C2C2C2;
+	color: #919191;
 	font-size: 11px;
 	bottom: 0;
 	padding-bottom: 10px;
-}
-
-div.right h1 {
-	margin-bottom: -2px;
-}
-
-div.right ul {
-	list-style: none;
-	margin-left: 0;
-	padding: 0;
-}
-
-div.right ul li {
-	margin-top: 5px;
-	margin-left: 0;
-	padding: 0;
-}
-
-div.right .post ul {
-	list-style: square;
-	margin-left: 15px;
 }
 
 /**
@@ -134,8 +104,13 @@ div.right .post ul {
  * Left column aka nav bar formatting
  * ///////////////////////////////////
  */
+
+.dropdown-menu {
+	background-color: #d2d2d2;
+}
+
 div.custom-nav {
-	margin-top: 100px;
+	margin-top: 15%;
 	padding-right: 5%;
 	font-size: 11px;
 	color: #666;
@@ -149,7 +124,6 @@ div.custom-nav strong {
 
 div.custom-nav div#about {
 	margin-top: 10px;
-	color: #8C8C8C;
 	margin-bottom: 2em;
 	margin-top: 1em;
 }
@@ -202,7 +176,11 @@ div.custom-nav img#about {
  */
 
 .main-content {
-	margin-top: 30px;
+	margin-top: 2%;
+}
+
+.col-main-page {
+	margin-top: 2%;
 }
 
 .description {
@@ -215,7 +193,7 @@ div.custom-nav img#about {
 
 .post-header {
 	overflow: hidden;
-	border-bottom: 1px solid #eeeeee;
+	border-bottom: 1px solid #aaaaaa;
 	margin-bottom: 10px;
 }
 
@@ -241,7 +219,11 @@ div.custom-nav img#about {
 }
 
 .horizontal-line {
-	border-bottom: 2px #E6E6E6 solid;
+	border-bottom: 2px #a2a2a2 solid;
+}
+
+.dropdown-menu .divider {
+	background-color: #a2a2a2;
 }
 
 .author {
