@@ -1,0 +1,47 @@
+<div class="row margin-one margin-top">
+	<div class="col-md-4">
+		<button class="btn btn-primary btn-xs dropdown-toggle btn-dropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			<i class="glyphicon glyphicon-sort-by-attributes"></i>
+			Pages
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="/aboutme">About Me</a></li> 
+			<!-- <li><a href="/aboutme#experience">About Me: Experience</a></li> -->			
+			<!-- <li><a href="/aboutme#education">About Me: Education</a></li>  -->
+			<!-- <li><a href="/aboutme#publications">About Me: Publications</a></li>  -->
+			<!-- <li><a href="/aboutme#projects">About Me: Projects</a></li>  -->
+			<!-- <li><a href="/aboutme#honors">About Me: Awards</a></li>  -->
+			<li role="separator" class="divider"></li>
+			<li class="dropdown-header">Categories</li>
+			{% assign sorted_cats = site.categories | sort %}
+			{% for category in sorted_cats %}   
+			<li><a href="/category/{{category[0] | uri_escape | downcase | slugify }}">{{category[0] | camelcase }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div class="col-md-4">
+		<button class="btn btn-primary btn-xs dropdown-toggle btn-dropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			<i class="glyphicon glyphicon-comment"></i> Social <b class="caret"></b>
+		</button>
+		<ul class="dropdown-menu">										
+			<li class=""><a href="http://www.twitter.com/theaxec" rel="tooltip" title="Go to twitter.com/theaxec" target="_blank">Twitter</a></li>
+			<li class=""><a href="http://github.com/theaxec" rel="tooltip" title="Go to github.com/theaxec" target="_blank">GitHub</a></li>
+			<li class=""><a href="http://be.linkedin.com/in/axelfaes" rel="tooltip" title="Go to LinkedIn profile" target="_blank">LinkedIn</a></li>										
+			<li class="divider"></li>
+			<li class=""><a href="http://feeds.feedburner.com/github/theaxe" rel="tooltip" title="Go to feedburner" target="_blank">RSS</a></li>
+			<li class=""><a href="http://theaxec.github.com/atom.xml" rel="tooltip" title="Raw RSS" target="_blank"0>Raw RSS</a></li>
+		</ul>
+	</div>
+	<div class="col-md-4">
+		<button class="btn btn-primary btn-xs dropdown-toggle btn-dropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			<i class="glyphicon glyphicon-list"></i> Projects <b class="caret"></b>
+		</button>
+		<ul class="dropdown-menu">	
+			<li class=""><a href="https://github.com/TheAxeC/Machine-learning-techniques-for-flow-based-network-intrusion-detection-systems" rel="tooltip" title="My Bachelorthesis" target="_blank">ML techniques for flow-based IDS's</a></li>					
+			<li class=""><a href="https://github.com/theaxec/AxeSki" rel="tooltip" title="Go to AxeSki on GitHub" target="_blank">AxeSki Visual Programming IDE</a></li>	
+			<li class=""><a href="https://github.com/TheAxeC/Cardinal/" rel="tooltip" title="Go to Cardinal on GitHub" target="_blank">Cardinal Scripting</a></li>
+	
+		</ul>
+	</div>
+</div>

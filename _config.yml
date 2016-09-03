@@ -1,0 +1,13 @@
+name: A Grad Story
+markdown: kramdown
+highlighter: rouge
+
+github: https://www.github.com/theaxec
+permalink: /blog/:categories/:title
+
+urls:
+    - text: github
+      url: https://github.com/theaxec
+
+gems:
+  - jekyll-sitemap

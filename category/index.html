@@ -1,0 +1,37 @@
+---
+layout: default
+title: "Axel Faes"
+---
+
+<h2>All Categories</h2>
+
+{% assign sorted_cats = site.categories | sort %}
+{% for category in sorted_cats %}
+{% assign sorted_posts = category[1] | reversed %}
+<a href="/category/{{category[0] | uri_escape | downcase | slugify }}">
+<h3 id="{{category[0] | uri_escape | downcase | slugify }}" class='category text-center'>{{category[0] | camelcase }}</h3>
+</a>
+	{% for post in sorted_posts %}
+	{% unless post.draft %}
+
+	{% if post.menutitle %}
+	{% assign title = post.menutitle %}
+	{% else %}
+	{% assign title = post.title %}
+	{% endif %}
+
+	<div class="article">
+		<article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<header class="post-header">
+				<div class="title">
+					<a itemprop="name" href="{{ post.url | prepend: site.github.url | prepend: site.baseurl }}" title="{{ title }}">{{ title }}</a>
+					<time class="date" itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%B %e, %Y"}}</time>
+				</div>
+				
+			</header>
+		</article>
+	</div>
+
+	{% endunless %}
+	{% endfor %}
+{% endfor %}
