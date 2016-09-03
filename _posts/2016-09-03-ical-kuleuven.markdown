@@ -44,4 +44,3 @@ Afterwards, I extract the necessary data from the html and pass it to an ical ge
 In about 250 lines of code, I could request and traverse webpages, parse them and construct an iCalendar.
 
 
-My personal website http://theaxec.github.io
