@@ -3,9 +3,16 @@
  * Master styling
  * //////////////
  */
+
+html {
+	height: 100%;
+	min-height: 100%;
+}
+
 body {
 	color: #424242;
-	/*background-color: #d2d2d2;*/
+	height: 100%;
+	min-height: 100%;
 }
 
 /**
@@ -53,14 +60,14 @@ a:hover {
  * Container element
  * /////////////////
  */
-/*div#container {
-	width: 700px;
-	margin: auto;
-}*/
-
 
 .container-fluid {
-	width: 89%;
+	width: 100%; /*92%;*/
+	padding-right: 0px;
+	padding-left: 0px;
+
+	height: 100%;
+	min-height: 100%;
 }
 
 /**
@@ -68,11 +75,6 @@ a:hover {
  * Right aka content column formatting
  * //////////////////////////////////
  */
-           
-div.content {
-	margin-top: 5px;
-	padding-top: 5px;
-}
 
 div.content pre {
 	background: #333333;
@@ -91,7 +93,7 @@ footer {
 	border-top: 1px solid #aaaaaa;
 	width: 100%;
 	height: 10px;
-	margin-top: 10px;
+	margin-top: 3em;
 	padding-top: 10px;
 	color: #919191;
 	font-size: 11px;
@@ -105,15 +107,31 @@ footer {
  * ///////////////////////////////////
  */
 
-.dropdown-menu {
-	/*background-color: #d2d2d2;*/
+div.custom-nav {
+	padding-top: 25%;
+	padding-right: 2%;
+	font-size: 11px;
+	color: #333;
+	background-color: #888;
+
+	padding-left: 5%;
+	padding-bottom: 3em;
 }
 
-div.custom-nav {
-	margin-top: 15%;
-	padding-right: 5%;
-	font-size: 11px;
-	color: #666;
+@media screen and (min-width: 768px) {
+    div.custom-nav {
+        height: 100%;
+		min-height: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.custom-nav {
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 5%;
+        background-color: #aaa;
+    }
 }
 
 div.custom-nav strong {
@@ -140,6 +158,10 @@ div.custom-nav img#about {
 	margin-bottom: 5em;
 }
 
+#about-title h1 {
+	color: #585858;
+}
+
 #about-title img {
 	float: left;
 	width: 75px;
@@ -151,6 +173,10 @@ div.custom-nav img#about {
 	position: relative;
 	top: 18px;
 	left: 10px;
+}
+
+.dropdown-menu {
+	background-color: #ccc
 }
 
 .margin-one {
@@ -177,10 +203,7 @@ div.custom-nav img#about {
 
 .main-content {
 	margin-top: 2%;
-}
-
-.col-main-page {
-	margin-top: 2%;
+	padding-right: 8%;
 }
 
 .description {
@@ -191,10 +214,17 @@ div.custom-nav img#about {
 	word-wrap: break-word;
 }
 
+.post-title {
+	border-top: 1px solid #aaaaaa;
+}
+
 .post-header {
 	overflow: hidden;
 	border-bottom: 1px solid #aaaaaa;
 	margin-bottom: 10px;
+
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .date {

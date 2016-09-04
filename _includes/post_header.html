@@ -12,14 +12,11 @@
 		(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
 	}());
 </script>
-	
-<div class="cleanfix">	
-	<div class="span9 column">
-		<p><h1>{{ page.title }}</h1></p>	
-	</div>
-</div>		
-<div class="cleanfix post-header">	
+
+<div class="cleanfix post-header post-title">	
 	<div class="span3 column">
+		<h1>{{ page.title }}</h1>
+
 		<h5><strong>{{ page.date | date: "%B %e, %Y" }} <small>. <a href="/category/{{ page.category }}"><u>{{ page.category }}</u></a>
 
 		{% if page.comments %}
