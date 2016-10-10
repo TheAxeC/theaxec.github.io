@@ -2,7 +2,7 @@
 layout: post
 title:  "Honoursprogramme introduction"
 category: honoursprogramme
-tags: eff, kuleuven, honoursprogramma
+tags: eff kuleuven honoursprogramma
 ---
 
 During my Masters, I chose to participate in the [Honoursprogramme of the Faculty of Engineering Science (dutch link)](https://eng.kuleuven.be/studenten/engineering-essentials-ingenieurscompetenies/honoursprogramma/honoursprogramma). The Honoursprogramme is a new programme, starting from 2016-2017, provided by the Faculty of Engineering Science of KULeuven. In the Honoursprogramme students add 18 ECTS to their education. These credits can be accumulated starting from their second bachelor year. The student can choose between two tracks. They can choose the Research track or the Interdisciplinairy track. I am most interested in research and as such, choose to participate in the Research track. In order to participate in the Honoursprogramme, students have to find a professor that is willing to be their advisor. A lot of initiative is expected from the students. 
