@@ -1,0 +1,1 @@
+add_static_plugin.sh
