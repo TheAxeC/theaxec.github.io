@@ -10,9 +10,15 @@ html {
 }
 
 body {
+	padding: 0%;
+	margin: 0%;
 	color: #424242;
 	min-height: 100%;
 	height: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	line-height: 1.5;
+  font-size: 100%;
 }
 
 /**
@@ -27,20 +33,18 @@ span.time {
 }
 
 h1 {
-	font-weight: normal;
 	color: #696969;
 	margin-bottom: 10px;
 }
 
 h2 {
-/*	font-weight: normal;*/
+	margin-top: 0;
 	margin-bottom: 5px;
 	color: #666666;
 	border-bottom: 1px solid #aaaaaa;
 }
 
 h3 {
-	/*font-weight: normal;*/
 	margin-bottom: 5px;
 	color: #666666;
 }
@@ -51,7 +55,7 @@ a, a:link, a:active {
 }
 
 a:hover {
-	color: #8C8C8C;
+	color: #B509AC;
 	text-decoration: none;
 }
 
@@ -72,7 +76,7 @@ a:hover {
 
 /**
  * //////////////////////////////////
- * Right aka content column formatting
+ * Content column formatting
  * //////////////////////////////////
  */
 
@@ -81,7 +85,6 @@ div.content pre {
 	padding: 5px;
 	color: #FFF;
 	overflow-x: auto;
-	font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
 	font-size: 12px;
 }
 
@@ -89,71 +92,111 @@ div.content .highlight {
 	background: #333333;
 }
 
+/**
+ * ///////////////////////////////////
+ * Footer
+ * ///////////////////////////////////
+ */
+
 footer {
+	position: fixed;
+	bottom: 0px;
+	width: 50%;
+
+	height: 2em;
+	min-height: 2em;
 	border-top: 1px solid #aaaaaa;
-	width: 100%;
-	height: 10px;
-	margin-top: 3em;
-	padding-top: 10px;
-	color: #919191;
-	font-size: 11px;
-	bottom: 0;
-	padding-bottom: 10px;
+
+	background-color: #424242;
+	color: #ccc;
+
+	font-size: 0.7em;
+	line-height: 2em;
+}
+
+.footer-text {
+	float: right;
+}
+
+@media screen and (min-width: 768px) {
+		footer {
+				padding-right: 25%;
+				padding-left: 25%;
+		}
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+				padding-right: 5%;
+				padding-left: 5%;
+				width: 90%;
+    }
 }
 
 /**
  * ///////////////////////////////////
- * Left column aka nav bar formatting
+ * Navigation formatting
  * ///////////////////////////////////
  */
 
 div.custom-nav {
-	padding-top: 25%;
-	padding-right: 2%;
 	font-size: 11px;
 	color: #333;
-	background-color: #888;
+	border-bottom: 1px solid #aaaaaa;
+	height: 4em;
 
-	padding-left: 3%;
-	padding-bottom: 3em;
+	background:rgba(255,255,255,0.8);
+
+	position: fixed;
+	top: 0px;
+	width: 50%;
 }
 
+nav {
+	float: right;
+	height: 100%;
+	min-height: 100%;
+}
 
+.nav-button {
+	padding-left: 1em;
+	padding-right: 1em;
+	float: right;
+	font-size: 1.5em;
+	text-align: center;
+	height: 100%;
+	min-height: 100%;
+	line-height: 2.75em;
+}
+
+.nav-home {
+	float: left;
+	font-size: 1.5em;
+	text-align: center;
+	height: 100%;
+	min-height: 100%;
+	line-height: 2.75em;
+}
 
 @media screen and (min-width: 768px) {
-	div.custom-nav {
-		height: 100%;
-		min-height: 100%;
-
-		/* Make the sidebar have a fixed position */
-		/*	position: fixed;
-		top: 0;
-		left: 0;*/
-    }
-
-    .sidebar-background {
-		position: fixed;
-		top: 0;
-		left: 0;
-
-		background-color: #888;
-		height: 100%;
-	}
+		div.custom-nav {
+				padding-right: 25%;
+				padding-left: 25%;
+		}
 }
 
 @media screen and (max-width: 768px) {
     div.custom-nav {
-        padding-right: 10%;
-        padding-left: 10%;
-        padding-top: 5%;
-        background-color: #aaa;
+				padding-right: 5%;
+				padding-left: 5%;
+				width: 90%;
     }
 }
 
 div.custom-nav strong {
 	font-size: 16px;
 	color: #4A4A4A;
-	font-weight: normal;
+	/*font-weight: normal;*/
 }
 
 div.custom-nav div#about {
@@ -175,7 +218,7 @@ div.custom-nav img#about {
 }
 
 #about-title h1 {
-	color: #585858;
+	color: #383838;
 }
 
 #about-title img {
@@ -217,15 +260,28 @@ div.custom-nav img#about {
  * ///////////////////////////////////
  */
 
-.main-content {
-	margin-top: 2%;
-	padding-right: 8%;
+ .main-content {
+ 	padding-top: 4em;
+	padding-bottom: 2em;
+ }
+
+@media screen and (min-width: 768px) {
+	.main-content {
+		padding-right: 25%;
+		padding-left: 25%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.main-content {
+		padding-right: 5%;
+		padding-left: 5%;
+	}
 }
 
 .description {
 	margin-top: 1em;
 	margin-bottom: 1em;
-
 }
 
 .description-about {
@@ -247,10 +303,8 @@ div.custom-nav img#about {
 .post-header {
 	overflow: hidden;
 	border-bottom: 1px solid #cccccc;
-	margin-bottom: 10px;
 	margin-left: 3%;
 	margin-right: 3%;
-	margin-bottom: 2em;
 }
 
 .date {
@@ -271,7 +325,7 @@ div.custom-nav img#about {
 }
 
 .location {
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 
 .horizontal-line {
@@ -297,30 +351,35 @@ div.custom-nav img#about {
 }
 
 .post-content h1 {
-	font-weight: normal;
 	color: #696969;
 	margin-bottom: 10px;
 }
 
 .post-content h2 {
-/*	font-weight: normal;*/
 	margin-bottom: 5px;
 	color: #666666;
 	border-bottom: none;
 }
 
 .post-content h3 {
-	/*font-weight: normal;*/
 	margin-bottom: 5px;
 	color: #666666;
 }
 
+.post-header-content h5 {
+	margin: 0;
+}
+
+.post-header-content h1 {
+	margin: 0;
+}
+
 .post-content a, .post-content a:link, .post-content a:active {
 	text-decoration: none;
-	color: #888888;
+	color: #B509AC;
 }
 
 .post-content a:hover {
-	color: #CCCCCC;
-	text-decoration: none;
+	color: #B509AC;
+	text-decoration: underline;
 }

@@ -9,5 +9,5 @@ urls:
     - text: github
       url: https://github.com/theaxec
 
-gems:
+plugins:
   - jekyll-sitemap
