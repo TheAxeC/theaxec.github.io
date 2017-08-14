@@ -1,5 +1,6 @@
 ---
 layout: academic
+title: "Axel Faes"
 ---
 
 <div class="academic-title">
@@ -11,9 +12,10 @@ layout: academic
 
 {% assign sorted_cats = site.categories | sort %}
 {% for category in sorted_cats %}
-{% if category[0] == page.category %}
 {% assign sorted_posts = category[1] | reversed %}
-<h3 id="{{category[0] | uri_escape | downcase | slugify }}" class='category text-center'>{{category[0] | camelcase }}</h3>
+<a href="/category/{{category[0] | uri_escape | downcase | slugify }}">
+<h3 id="{{category[0] | uri_escape | downcase | slugify }}" class='category text-center category-main-page'>Blog category: {{category[0] | camelcase }}</h3>
+</a>
 	{% for post in sorted_posts %}
 	{% unless post.draft %}
 
@@ -37,5 +39,4 @@ layout: academic
 
 	{% endunless %}
 	{% endfor %}
-{% endif %}
 {% endfor %}

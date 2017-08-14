@@ -33,20 +33,29 @@ span.time {
 }
 
 h1 {
-	color: #696969;
+	color: #585858;
 	margin-bottom: 10px;
 }
 
 h2 {
 	margin-top: 0;
 	margin-bottom: 5px;
-	color: #666666;
-	border-bottom: 1px solid #aaaaaa;
+	color: #555555;
+	/*border-bottom: 1px solid #aaaaaa;*/
 }
 
 h3 {
 	margin-bottom: 5px;
-	color: #666666;
+	color: #555555;
+}
+
+h4 {
+	margin: 0;
+	color: #555555;
+}
+
+h5 {
+	margin: 0;
 }
 
 a, a:link, a:active {
@@ -57,6 +66,10 @@ a, a:link, a:active {
 a:hover {
 	color: #B509AC;
 	text-decoration: none;
+}
+
+div.description-about a {
+	color: #B509AC;
 }
 
 /**
@@ -101,6 +114,7 @@ div.content .highlight {
 footer {
 	position: fixed;
 	bottom: 0px;
+	left: 0;
 	width: 50%;
 
 	height: 2em;
@@ -149,7 +163,7 @@ div.custom-nav {
 
 	position: fixed;
 	top: 0px;
-	width: 50%;
+	width: 76%;
 }
 
 nav {
@@ -176,12 +190,13 @@ nav {
 	height: 100%;
 	min-height: 100%;
 	line-height: 2.75em;
+	padding-left: 1em;
 }
 
 @media screen and (min-width: 768px) {
 		div.custom-nav {
-				padding-right: 25%;
-				padding-left: 25%;
+				padding-right: 12%;
+				padding-left: 12%;
 		}
 }
 
@@ -193,38 +208,25 @@ nav {
     }
 }
 
-div.custom-nav strong {
-	font-size: 16px;
-	color: #4A4A4A;
-	/*font-weight: normal;*/
-}
+/**
+ * ///////////////////////////////////
+ * Main content
+ * ///////////////////////////////////
+ */
 
-div.custom-nav div#about {
-	margin-top: 10px;
-	margin-bottom: 2em;
-	margin-top: 1em;
-}
-
-div.custom-nav img#about {
-	-webkit-border-radius: 150px;
-	margin-bottom: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	display: inline;
-}
 
 #about-title {
 	margin-bottom: 5em;
 }
 
 #about-title h1 {
-	color: #383838;
+	color: #585858;
 }
 
 #about-title img {
 	float: left;
-	width: 75px;
-	height: 75px;
+	width: 12em; /*75px;*/
+	height: 12em; /*75px;*/
 	background: #555;
 }
 
@@ -232,51 +234,6 @@ div.custom-nav img#about {
 	position: relative;
 	top: 18px;
 	left: 10px;
-}
-
-.dropdown-menu {
-	background-color: #ccc
-}
-
-.margin-one {
-	margin-bottom: 1em;
-}
-
-.margin-top {
-	margin-top: 0em;
-}
-
-.btn-dropdown {
-	margin-bottom: 0.5em;
-}
-
-.github-inline {
-	display: inline;
-}
-
-/**
- * ///////////////////////////////////
- * Main content
- * ///////////////////////////////////
- */
-
- .main-content {
- 	padding-top: 4em;
-	padding-bottom: 2em;
- }
-
-@media screen and (min-width: 768px) {
-	.main-content {
-		padding-right: 25%;
-		padding-left: 25%;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	.main-content {
-		padding-right: 5%;
-		padding-left: 5%;
-	}
 }
 
 .description {
@@ -311,17 +268,18 @@ div.custom-nav img#about {
 	float: right;
 	font-size: 12px;
 	text-transform: uppercase;
-	color: rgba(0,0,0,0.2);
+	color: rgba(0,0,0,0.4);
 	line-height: 24px;
 	margin-bottom: 0;
 }
 
 .about-content {
-	margin-left: 4em;
+	margin-left: 2em;
 }
 
-.about-link {
+a.about-link {
 	color: inherit;
+	text-decoration: underline;
 }
 
 .location {
@@ -382,4 +340,90 @@ div.custom-nav img#about {
 .post-content a:hover {
 	color: #B509AC;
 	text-decoration: underline;
+}
+
+/**
+ * ///////////////////////////////////
+ * Double column layout
+ * ///////////////////////////////////
+ */
+
+.academic-content {
+	overflow: auto;
+	background-color: #AAA;
+	padding-left: 12%;
+	padding-right: 12%;
+	height: 100%;
+	min-height: 100%;
+	width: 76%;
+}
+
+.academic-content-pdf {
+	padding-top: 4em;
+	padding-bottom: 2em;
+	float: left;
+
+	background-color: #fff;
+	width: 94%;
+
+	padding-left: 3%;
+	padding-right: 3%;
+
+	box-shadow: 1px -2px 2px black;
+
+	min-height: 100%;
+}
+
+.academic-title {
+	text-align: center;
+
+	padding-left: 11%;
+	padding-right: 11%;
+}
+
+.academic-title h1 {
+	margin-top: 0;
+}
+
+.academic-title p {
+	font-size: 1.1em;
+	/*font-weight: bolder;*/
+}
+
+h2.academic {
+	margin-top: 0;
+	margin-bottom: 5px;
+	color: #555555;
+	border-bottom: none;
+}
+
+.academic div.description {
+	margin-top: 0em;
+}
+
+
+.academic-left-column {
+	float:left;
+	width: 47%;
+
+	padding-right: 3%;
+}
+
+.academic-right-column {
+	width: 47%;
+	float:left;
+
+	padding-left: 3%;
+}
+
+@media screen and (max-width: 768px) {
+	.academic-left-column {
+		float:none;
+		width: 100%;
+	}
+
+	.academic-right-column {
+		width: 100%;
+		float:none;
+	}
 }

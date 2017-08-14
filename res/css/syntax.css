@@ -1,5 +1,6 @@
 .highlight {
 	width:fit-content;
+	margin: 0;
 }
 
 .highlight .hll { background-color: #49483e }
@@ -32,7 +33,7 @@
 .highlight .nd { color: #a6e22e } /* Name.Decorator */
 .highlight .ni { color: #f8f8f2 } /* Name.Entity */
 .highlight .ne { color: #a6e22e } /* Name.Exception */
-.highlight .nf { color: #a6e22e }  Name.Function 
+.highlight .nf { color: #a6e22e }  Name.Function
 .highlight .nl { color: #f8f8f2 } /* Name.Label */
 .highlight .nn { color: #f8f8f2 } /* Name.Namespace */
 .highlight .nx { color: #a6e22e } /* Name.Other */

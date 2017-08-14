@@ -1,37 +1,76 @@
 ---
-layout: default
+layout: academic
 title: "Axel Faes"
 ---
 
-{% include aboutme/description.html %}
+<div class="academic-title">
+  <h1>On the interests and accomplishments of Axel Faes</h1>
+  <p>
+  Axel Faes<br/>
+  Computer Science Engineering student <br/>
+  <a href="mailto:axel.faes@gmail.com" >axel.faes[at]gmail.com</a><br/>
+  <a href="mailto:axel.faes@student.kuleuven.be" >axel.faes[at]student.kuleuven.be</a>
+  </p>
+</div>
 
-{% assign sorted_cats = site.categories | sort %}
-{% for category in sorted_cats %}
-{% assign sorted_posts = category[1] | reversed %}
-<a href="/category/{{category[0] | uri_escape | downcase | slugify }}">
-<h3 id="{{category[0] | uri_escape | downcase | slugify }}" class='category text-center category-main-page'>Blog category: {{category[0] | camelcase }}</h3>
-</a>
-	{% for post in sorted_posts %}
-	{% unless post.draft %}
 
-	{% if post.menutitle %}
-	{% assign title = post.menutitle %}
-	{% else %}
-	{% assign title = post.title %}
-	{% endif %}
+<div class="academic academic-left-column">
+  <h2 class="academic">Abstract </h2>
+  {% include aboutme/description.html %}
 
-	<div class="article">
-		<article class="article" itemscope itemtype="http://schema.org/BlogPosting">
-			<header class="post-header">
-				<div class="title">
-					<a itemprop="name" href="{{ post.url | prepend: site.github.url | prepend: site.baseurl }}" title="{{ title }}">{{ title }}</a>
-					<time class="date" itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%B %e, %Y"}}</time>
-				</div>
-				
-			</header>
-		</article>
+  <h2 class="academic">Educational background</h2>
+  <ul>
+      <li>Advanced Master of Science in Engineering (M.Sc.) in Artificial Intelligence</li>
+      <li>Master of Science in Engineering (M.Sc.) in Computer Science</li>
+      <li>Bachelor of Science (B.Sc.) in Computer Science: Magna Cum Laude</li>
+      <li>Business Summer School: United in Manchester (0739), International Business</li>
+  </ul>
+
+  <h2 class="academic">Honors & Awards</h2>
+  <ul>
+      <li>Bachelor Award in Computer Science</li>
+      <li>3rd place in ACM CHI 2016 Student Design Competition</li>
+      <li>2nd place BeGDC (Belgian Game Development Championship)</li>
+      <li>IELTS: Academic Module (8.0/9.0)</li>
+  </ul>
+
+</div>
+
+
+<div class="academic academic-right-column">
+  <h2 class="academic">News </h2>
+  <ul>
+      <li>ICFP 2017: Student Research Competition</li>
+  </ul>
+
+  <h2 class="academic">Research </h2>
+  {% highlight ocaml %}
+  let honours = research row-based-effects in
+  let masterthesis = hindley-milner type inference in
+  let masterthesis = masterthesis + subtyping in
+  let masterthesis = masterthesis + algebraic effects
+
+  let masterthesis_ai = Unknown
+  {% endhighlight %}
+
+  <h2 class="academic">References </h2>
+  <div class="description-about">
+    Axel Faes, <a href="https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ">Google Scholar</a>
+    <br/>
+    Axel Faes, <a href="https://www.linkedin.com/in/axelfaes" class="about-publication">LinkedIn</a>
+    <br/>
+    TheAxeC, <a href="https://github.com/TheAxeC">Github</a>
+    <br/>
+    TheAxeC, <a href="https://twitter.com/TheAxeC">Twitter</a>
+    <br/>
+    RSS Feed Blog, <a href="http://theaxec.github.com/atom.xml">Github</a>
+  </div>
+
+  <h2 class="academic">Image </h2>
+  <div id="about-title">
+	<a href="{{ site.baseurl }}/">
+		<img id="about" src="{{ site.baseurl }}/res/img/logo.jpg" />
+		<!-- <h1>{{ site.name }}</h1> -->
+	</a>
 	</div>
-
-	{% endunless %}
-	{% endfor %}
-{% endfor %}
+</div

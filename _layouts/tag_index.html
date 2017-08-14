@@ -1,6 +1,13 @@
 ---
-layout: default
+layout: academic
 ---
+
+<div class="academic-title">
+  <h1>A Grad Story: a journey of a thousand words</h1>
+  <p>
+		Every story begins with a single word <br/>
+  </p>
+</div>
 
 <h3 class='category text-center'>{{page.title}}</h3>
 
@@ -24,7 +31,7 @@ layout: default
 				<a itemprop="name" href="{{ post.url | prepend: site.github.url | prepend: site.baseurl }}" title="{{ title }}">{{ title }}</a>
 				<time class="date" itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%B %e, %Y"}}</time>
 			</div>
-			
+
 		</header>
 	</article>
 </div>
