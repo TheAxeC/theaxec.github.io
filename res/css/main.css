@@ -45,6 +45,7 @@ h2 {
 }
 
 h3 {
+	margin-top: 0;
 	margin-bottom: 5px;
 	color: #555555;
 }
@@ -395,6 +396,10 @@ h2.academic {
 	margin-bottom: 5px;
 	color: #555555;
 	border-bottom: none;
+}
+
+a.academic {
+	color: #B509AC;
 }
 
 .academic div.description {
