@@ -1,0 +1,16 @@
+<h2 class="academic">Honors & Awards </h2>
+{% if site.data.awards.size > 0 %}
+  <div>
+  {% assign awards = site.data.awards | sort: 'date' | reverse %}
+  {% for item in awards %}
+    <div class="news">
+      <time class="news-date" itemprop="datePublished" datetime="{{ item.date | date: "%Y-%m-%d"}}">{{ item.date | date: "%b, %Y" }}</time>
+      <div class="news-announcement">
+        {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+{% else %}
+  <p class="academic">No awards so far...</p>
+{% endif %}

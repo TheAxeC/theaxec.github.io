@@ -116,7 +116,7 @@ footer {
 	position: fixed;
 	bottom: 0px;
 	left: 0;
-	width: 50%;
+	width: 76%;
 
 	height: 2em;
 	min-height: 2em;
@@ -135,8 +135,8 @@ footer {
 
 @media screen and (min-width: 768px) {
 		footer {
-				padding-right: 25%;
-				padding-left: 25%;
+				padding-right: 12%;
+				padding-left: 12%;
 		}
 }
 
@@ -389,6 +389,14 @@ a.about-link {
 	margin-top: 0;
 }
 
+@media screen and (max-width: 768px) {
+	.academic-title {
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+}
+
+
 .academic-title p {
 	font-size: 1.1em;
 	/*font-weight: bolder;*/
@@ -403,6 +411,10 @@ h2.academic {
 
 a.academic {
 	color: #B509AC;
+}
+
+p.academic {
+	margin: 0;
 }
 
 .academic div.description {
@@ -433,5 +445,38 @@ a.academic {
 	.academic-right-column {
 		width: 100%;
 		float:none;
+
+		padding-left: 0%;
+		padding-right: 3%;
 	}
+}
+
+/**
+ * ///////////////////////////////////
+ * News
+ * ///////////////////////////////////
+ */
+
+.news {
+		height: 100%;
+		display: flex;
+}
+
+.news-date {
+	float: left;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: rgba(0,0,0,0.4);
+	line-height: 24px;
+	margin-bottom: 0;
+	margin-right: 1em;
+	height: 100%;
+	width: 20%;
+	align-items: stretch;
+}
+
+.news-announcement {
+	align-items: stretch;
+	width: 80%;
+	/*float: right;*/
 }

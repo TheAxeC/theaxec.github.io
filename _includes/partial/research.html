@@ -1,0 +1,16 @@
+<h2 class="academic">Research </h2>
+{% highlight ocaml %}
+{{ site.data.research.content }}
+{% endhighlight %}
+
+<!-- {% if site.data.research.interests.size > 0 %}
+  {% assign interests = site.data.research.interests %}
+  {% for item in interests %}
+    <div class="news">
+      <div class="news-announcement">
+        {{ item.name | remove: '<p>' | remove: '</p>' | emojify }}
+      </div>
+    </div>
+  {% endfor %}
+{% else %}
+{% endif %} -->

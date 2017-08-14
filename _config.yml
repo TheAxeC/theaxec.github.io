@@ -1,13 +1,55 @@
-name: A Grad Story
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+name: Axel Faes
+intro: On the interests and accomplishments of Axel Faes
+link: https://theaxec.github.io
+position: Computer Science Engineering Student
+affiliation: KULeuven
+blog:
+  title: "A Grad Story: a journey of a thousand words"
+  subtitle: "Every story begins with a single word"
+email:
+  personal:
+    email: axel.faes@gmail.com
+    print: axel.faes[at]gmail.com
+  university:
+    email: axel.faes@student.kuleuven.be
+    print: axel.faes[at]student.kuleuven.be
+footer: Axel Faes
+
+discus:
+  name: theaxe
+  embed: //theaxe.disqus.com/embed.js
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+
+permalink: /blog/:categories/:title
+
+# -----------------------------------------------------------------------------
+# Jekyll
+# -----------------------------------------------------------------------------
+
+include: ['_pages', '_rss']
+
 markdown: kramdown
 highlighter: rouge
 
-github: https://www.github.com/theaxec
-permalink: /blog/:categories/:title
-
-urls:
-    - text: github
-      url: https://github.com/theaxec
-
 plugins:
   - jekyll-sitemap
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  news:
+    defaults:
+      layout: academic
+    output: false
+    #permalink: /news/:path/
+
+news_limit: 5

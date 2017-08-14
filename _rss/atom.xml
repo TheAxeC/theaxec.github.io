@@ -1,24 +1,25 @@
 ---
 layout: null
+permalink: /atom.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Axel Faes</title>
- <link href="http://theaxec.github.com/atom.xml" rel="self"/>
- <link href="http://theaxec.github.com/"/>
+ <title>{{ site.name }}</title>
+ <link href="{{ site.link }}/atom.xml" rel="self"/>
+ <link href="{{ site.link }}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://theaxec.github.com</id>
+ <id>{{ site.link }}</id>
  <author>
-   <name>Axel Faes</name>
+   <name>{{ site.name }}</name>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://theaxec.github.com{{ post.url }}"/>
+   <link href="{{ site.link }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://theaxec.github.com{{ post.id }}</id>
+   <id>{{ site.link }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

@@ -1,0 +1,12 @@
+content: |
+  let honours = research row-based-effects in
+  let masterthesis = hindley-milner type inference in
+  let masterthesis = masterthesis + subtyping in
+  let masterthesis = masterthesis + algebraic effects
+
+  let masterthesis_ai = Unknown
+
+interests:
+    - name: programming language
+    - name: artificial intelligence
+    - name: brain computer interfaces

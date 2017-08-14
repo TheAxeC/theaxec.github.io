@@ -1,0 +1,19 @@
+- name: Axel Faes
+  url: https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ
+  platform: Google Scholar
+
+- name: Axel Faes
+  url: https://www.linkedin.com/in/axelfaes
+  platform: LinkedIn
+
+- name: TheAxeC
+  url: https://github.com/TheAxeC
+  platform: Github
+
+- name: TheAxeC
+  url: https://twitter.com/TheAxeC
+  platform: Twitter
+
+- name: RSS Feed Blog
+  url: http://theaxec.github.com/atom.xml
+  platform: atom.xml

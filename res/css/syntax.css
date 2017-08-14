@@ -3,6 +3,20 @@
 	margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+    .highlight {
+				margin-right: 1em;
+    }
+}
+
+.highlight pre code {
+	white-space:pre;
+	white-space:pre-wrap;
+	word-break:break-all;
+	word-wrap:break-word;
+
+}
+
 .highlight .hll { background-color: #49483e }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
@@ -33,7 +47,7 @@
 .highlight .nd { color: #a6e22e } /* Name.Decorator */
 .highlight .ni { color: #f8f8f2 } /* Name.Entity */
 .highlight .ne { color: #a6e22e } /* Name.Exception */
-.highlight .nf { color: #a6e22e }  Name.Function
+.highlight .nf { color: #a6e22e }  /* Name.Function */
 .highlight .nl { color: #f8f8f2 } /* Name.Label */
 .highlight .nn { color: #f8f8f2 } /* Name.Namespace */
 .highlight .nx { color: #a6e22e } /* Name.Other */

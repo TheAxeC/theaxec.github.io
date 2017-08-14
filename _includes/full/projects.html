@@ -1,0 +1,25 @@
+
+<a name="projects" id="projects">
+<h3 id="projects" class='category'>Projects</h3>
+</a>
+<div class="about-content">
+	{% if site.data.projects.size > 0 %}
+	  {% assign exp = site.data.projects %}
+	  {% for item in exp %}
+			<h4>
+				{% if item.url != "" %}
+				<a href="{{ item.url }}" class="about-link">
+					{{ item.title }}
+				</a>
+				{% else %}
+					{{ item.title }}
+				{% endif %}
+				<br/>
+				<small> {{ item.duration }} </small>
+			</h4>
+			<div class="description-about">
+			{{ item.about }}
+			</div>
+	  {% endfor %}
+	{% endif %}
+</div>

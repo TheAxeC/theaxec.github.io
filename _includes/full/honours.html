@@ -1,0 +1,14 @@
+<h3 class='category'>Honors & Awards</h3>
+{% if site.data.awards.size > 0 %}
+  <div class="about-content">
+  {% assign awards = site.data.awards | sort: 'date' | reverse %}
+  {% for item in awards %}
+		<h4> {{ item.title }} <br/><small class="location">{{ item.location }}</small><br/><small> {{ item.date | date: "%b, %Y" }}</small></h4>
+		<div class="description-about">
+		{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+		</div>
+  {% endfor %}
+  </div>
+{% else %}
+  <p class="academic">No awards so far...</p>
+{% endif %}

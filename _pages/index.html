@@ -1,0 +1,38 @@
+---
+layout: academic
+permalink: /
+title: "home"
+float: left
+---
+
+<div class="academic-title">
+  {% include title.html %}
+</div>
+
+
+<div class="academic academic-left-column">
+  <h2 class="academic">Abstract </h2>
+  <div class="description">
+    {{ site.data.description.description }}
+  </div>
+
+  {% include partial/education.html %}
+
+  {% include partial/honours.html %}
+</div>
+
+
+<div class="academic academic-right-column">
+  {% include news.html %}
+
+  {% include partial/research.html %}
+
+  {% include partial/references.html %}
+
+  <h2 class="academic">Image </h2>
+  <div id="about-title">
+  <a href="{{ site.baseurl }}/">
+    <img id="about" src="{{ site.baseurl }}/res/img/logo.jpg" />
+  </a>
+  </div>
+</div

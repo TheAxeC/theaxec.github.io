@@ -1,0 +1,10 @@
+<h2 class="academic">References </h2>
+{% if site.data.references.size > 0 %}
+  {% assign references = site.data.references %}
+  {% for item in references %}
+    {{ item.name }}, <a href="{{ item.url }}" class="academic"> {{ item.platform }} </a>
+    <br/>
+  {% endfor %}
+{% else %}
+  <p class="academic">There are no links</p>
+{% endif %}

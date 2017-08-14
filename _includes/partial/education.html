@@ -1,0 +1,16 @@
+<h2 class="academic">Educational background </h2>
+{% if site.data.education.size > 0 %}
+  <div>
+  {% assign edu = site.data.education %}
+  {% for item in edu %}
+    <div class="news">
+      <time class="news-date" itemprop="datePublished" datetime="{{ item.datetime | date: "%Y-%m-%d"}}">{{ item.datetime | date: "%b, %Y" }}</time>
+      <div class="news-announcement">
+        {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+{% else %}
+  <p class="academic">No education so far...</p>
+{% endif %}

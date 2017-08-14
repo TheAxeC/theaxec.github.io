@@ -1,0 +1,21 @@
+
+<h2 class="academic">News </h2>
+{% if site.news.size > 0 %}
+  <div>
+  {% assign news = site.news | sort: 'datetime' %}
+  {% for item in news limit: site.news_limit %}
+    <div class="news">
+      <time class="news-date" itemprop="datePublished" datetime="{{ item.datetime | date: "%Y-%m-%d"}}">{{ item.datetime | date: "%b %-d, %Y" }}</time>
+      <div class="news-announcement">
+        {% if item.inline %}
+          {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+        {% else %}
+          <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+{% else %}
+  <p class="academic">No news so far...</p>
+{% endif %}

@@ -1,19 +1,20 @@
 <div class="custom-nav">
 	<nav>
-		<div class="nav-button" >
-				<a href="/publications.html" class="button">publications</a>
-		</div>
-		<!-- <div class="nav-button" >
-				<a href="/projects.html" class="button">projects</a>
-		</div> -->
-		<div class="nav-button" >
-				<a href="/blog.html" class="button">blog</a>
-		</div>
-		<div class="nav-button" >
-				<a href="/aboutme" class="button">about</a>
-		</div>
+		{% assign pages = site.pages | reverse %}
+		{% for page in pages %}
+      {% if page.title and page.url != "/" and page.float == "right" %}
+				<div class="nav-button" >
+        	<a class="button" href="{{ page.url }}">{{ page.title }}</a>
+				</div>
+      {% endif %}
+    {% endfor %}
 	</nav>
-	<div class="nav-home" >
-			<a href="/" class="button">home</a>
-	</div>
+	{% assign pages = site.pages | reverse %}
+	{% for page in pages %}
+		{% if page.title and page.float == "left" %}
+			<div class="nav-home" >
+				<a class="button" href="{{ page.url }}">{{ page.title }}</a>
+			</div>
+		{% endif %}
+	{% endfor %}
 </div>

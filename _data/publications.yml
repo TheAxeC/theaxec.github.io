@@ -1,0 +1,22 @@
+title: Publications
+thesis:
+    title: Thesis
+journal:
+    title: International Journal Papers
+conference:
+    title: International Conference Papers
+    papers:
+        - authors: Robin Marx, Peter Quax, Axel Faes and Wim Lamotte
+          title: "Concatenation, embedding and sharding: Do HTTP/1 performance best practices make sense in HTTP/2?"
+          url: "https://uhdspace.uhasselt.be/dspace/bitstream/1942/23909/1/h2bestpractices_RobinMarx_WEBIST2017.pdf"
+          book: "WEBIST 2017 - Proceedings of the 13th International Conference on Web Information Systems and Technologies."
+
+        - authors: Kashyap Todi, Brent Berghmans, Axel Faes and Matthijs Kaminski
+          title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons"
+          url: "http://dl.acm.org/citation.cfm?id=2890372&CFID=613985972&CFTOKEN=62651444"
+          book: "ACM CHI EA '16"
+          
+        - authors: Kashyap Todi, Donald Degraen, Brent Berghmans, Axel Faes, Matthijs Kaminski and Kris Luyten
+          title: "Purpose-Centric Appropriation of Everyday Objects as Game Controllers"
+          url: "http://dl.acm.org/citation.cfm?id=2892448&CFID=613985972&CFTOKEN=62651444"
+          book: "ACM CHI EA '16"

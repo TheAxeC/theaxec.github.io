@@ -1,0 +1,16 @@
+<a name="education" id="education" >
+<h3  id="education" class='category'>Education</h3>
+</a>
+<div class="about-content">
+	{% if site.data.education.size > 0 %}
+	  {% assign edu = site.data.education %}
+	  {% for item in edu %}
+			<h4>{{ item.title }} <br/><small class="location">{{ item.location }}</small><br/><small> {{ item.duration }}</small></h4>
+			<div class="description-about">
+				{{ item.about }}
+			</div>
+	  {% endfor %}
+	{% else %}
+	  <p class="academic">No education so far...</p>
+	{% endif %}
+</div>
