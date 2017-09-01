@@ -20,7 +20,7 @@ body {
 	line-height: 1.5;
         font-size: 100%;
 	/*-webkit-overflow-scrolling: touch; */
-	
+
 }
 
 /**
@@ -481,4 +481,8 @@ p.academic {
 	align-items: stretch;
 	width: 80%;
 	/*float: right;*/
+}
+
+.news-location {
+	font-size: 0.7em;
 }
