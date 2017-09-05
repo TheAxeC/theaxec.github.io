@@ -4,13 +4,17 @@ thesis:
 abstract:
     title: Extended Abstracts
     abstracts:
-      - title: "ICFP 2017: Student Research Competition"
+      - authors: Axel Faes and Tom Schrijvers
+        title: "Student Research Competition"
         url: "/posters/icfp-2017-src.pdf"
+        book: ICFP 2017
 poster:
     title: Posters
     posters:
-      - title: "ICFP 2017: Student Research Competition"
+      - authors: Axel Faes and Tom Schrijvers
+        title: "Student Research Competition"
         url: "/posters/icfp-2017-src.pdf"
+        book: ICFP 2017
 journal:
     title: International Journal Papers
 conference:

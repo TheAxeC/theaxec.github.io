@@ -39,7 +39,7 @@ float: right
     {% assign papers = site.data.publications.poster.posters %}
     {% for item in papers %}
     <div class="description-about">
-  		<a href="{{ item.url }}" class="about-publication">"{{ item.title }}"</a>
+  		{{ item.authors }}, <a href="{{ item.url }}" class="about-publication">"{{ item.title }}"</a> {{ item.book }}
     </div>
     {% endfor %}
 </div>
@@ -52,7 +52,7 @@ float: right
     {% assign papers = site.data.publications.abstract.abstracts %}
     {% for item in papers %}
     <div class="description-about">
-  		<a href="{{ item.url }}" class="about-publication">"{{ item.title }}"</a>
+  		{{ item.authors }}, <a href="{{ item.url }}" class="about-publication">"{{ item.title }}"</a> {{ item.book }}
     </div>
     {% endfor %}
 </div>
