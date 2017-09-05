@@ -51,5 +51,10 @@ collections:
       layout: academic
     output: false
     #permalink: /news/:path/
+  posters:
+    defaults:
+      layout: academic
+    output: true
+    permalink: /posters/:path/
 
 news_limit: 5

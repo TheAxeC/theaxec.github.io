@@ -1,6 +1,16 @@
 title: Publications
 thesis:
     title: Thesis
+abstract:
+    title: Extended Abstracts
+    abstracts:
+      - title: "ICFP 2017: Student Research Competition"
+        url: "/posters/icfp-2017-src.pdf"
+poster:
+    title: Posters
+    posters:
+      - title: "ICFP 2017: Student Research Competition"
+        url: "/posters/icfp-2017-src.pdf"
 journal:
     title: International Journal Papers
 conference:
@@ -15,7 +25,7 @@ conference:
           title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons"
           url: "http://dl.acm.org/citation.cfm?id=2890372&CFID=613985972&CFTOKEN=62651444"
           book: "ACM CHI EA '16"
-          
+
         - authors: Kashyap Todi, Donald Degraen, Brent Berghmans, Axel Faes, Matthijs Kaminski and Kris Luyten
           title: "Purpose-Centric Appropriation of Everyday Objects as Game Controllers"
           url: "http://dl.acm.org/citation.cfm?id=2892448&CFID=613985972&CFTOKEN=62651444"

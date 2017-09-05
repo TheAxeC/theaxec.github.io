@@ -33,6 +33,31 @@ float: right
 </div>
 {% endif %}
 
+{% if site.data.publications.poster.posters.size > 0 %}
+<h2 class="academic">{{ site.data.publications.poster.title }}</h2>
+<div class="about-content">
+    {% assign papers = site.data.publications.poster.posters %}
+    {% for item in papers %}
+    <div class="description-about">
+  		<a href="{{ item.url }}" class="about-publication">"{{ item.title }}"</a>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+
+{% if site.data.publications.abstract.abstracts.size > 0 %}
+<h2 class="academic">{{ site.data.publications.abstract.title }}</h2>
+<div class="about-content">
+    {% assign papers = site.data.publications.abstract.abstracts %}
+    {% for item in papers %}
+    <div class="description-about">
+  		<a href="{{ item.url }}" class="about-publication">"{{ item.title }}"</a>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
 {% if site.data.publications.thesis.papers.size > 0 %}
 <h2 class="academic">{{ site.data.publications.thesis.title }}</h2>
 <div class="about-content">
