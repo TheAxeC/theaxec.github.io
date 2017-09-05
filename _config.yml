@@ -56,5 +56,25 @@ collections:
       layout: academic
     output: true
     permalink: /posters/:path/
+  abstracts:
+    defaults:
+      layout: academic
+    output: true
+    permalink: /abstracts/:path/
+  thesis:
+    defaults:
+      layout: academic
+    output: true
+    permalink: /thesis/:path/
+  conference:
+    defaults:
+      layout: academic
+    output: true
+    permalink: /conference/:path/
+  journal:
+    defaults:
+      layout: academic
+    output: true
+    permalink: /journal/:path/
 
 news_limit: 5
