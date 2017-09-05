@@ -5,16 +5,16 @@ abstract:
     title: Extended Abstracts
     abstracts:
       - authors: Axel Faes and Tom Schrijvers
-        title: "Student Research Competition"
+        title: "Towards a core language with row-based effects for optimised compilation"
         url: "/abstracts/icfp-2017-src.pdf"
-        book: ICFP 2017
+        book: ICFP 2017 SRC
 poster:
     title: Posters
     posters:
       - authors: Axel Faes and Tom Schrijvers
-        title: "Student Research Competition"
+        title: "Towards a core language with row-based effects for optimised compilation"
         url: "/posters/icfp-2017-src.pdf"
-        book: ICFP 2017
+        book: ICFP 2017 SRC
 journal:
     title: International Journal Papers
 conference:
