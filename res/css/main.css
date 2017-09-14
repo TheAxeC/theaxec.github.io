@@ -131,6 +131,10 @@ footer {
 	line-height: 2em;
 }
 
+.footer-left {
+	float: left;
+}
+
 .footer-text {
 	float: right;
 }
