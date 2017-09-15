@@ -1,4 +1,4 @@
-# theaxec.Github.com
+# theaxec.github.com
 
 This is my GitHub user page made with Jekyll and Bootstrap. The website functions as both a blog and a resume.
 
