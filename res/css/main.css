@@ -476,6 +476,12 @@ p.academic {
 		display: flex;
 }
 
+.interest {
+		height: 100%;
+		display: flex;
+		margin-bottom: 0.4em;
+}
+
 .news-date {
 	float: left;
 	font-size: 0.8em;
