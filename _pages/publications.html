@@ -76,9 +76,11 @@ float: right
 <div class="about-content">
     {% assign papers = site.data.publications.news.news %}
     {% for item in papers %}
-    <div class="description-about">
-  		<time class="news-date-pub" itemprop="datePublished" datetime="{{ item.datetime | date: "%Y-%m-%d"}}">{{ item.datetime | date: "%b %-d, %Y" }}</time>
-      <a href="{{ item.url }}" class="about-publication">"{{ item.title }}"</a>
+    <div class="news">
+      <time class="news-date-pub" itemprop="datePublished" datetime="{{ item.date | date: "%Y-%m-%d"}}">{{ item.date | date: "%b, %Y" }}</time>
+      <div class="news-announcement description-news">
+        {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}
+      </div>
     </div>
     {% endfor %}
 </div>
