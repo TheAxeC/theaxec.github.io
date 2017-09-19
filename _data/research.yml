@@ -1,4 +1,4 @@
-content: |
+code: |
   let honours = research row-based-effects in
   let masterthesis = hindley-milner type inference in
   let masterthesis = masterthesis + subtyping in
@@ -6,11 +6,9 @@ content: |
 
   let masterthesis_ai = Unknown
 
+content: nothing
+
 interests:
-    - name: programming languages
-    - name: algebraic effect handlers
-    - name: type systems
-    - name: artificial intelligence
-    - name: machine learning
-    - name: neuroscience
-    - name: brain computer interfaces
+    - name: programming languages, algebraic effect handlers, type systems
+    - name: artificial intelligence, machine learning
+    - name: neuroscience, brain computer interfaces
