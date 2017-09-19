@@ -5,15 +5,33 @@
   {% endhighlight %}
 {% endif %}
 
-<!-- {% if site.data.research.current.size > 0 %}
+{% if site.data.research.current.size > 0 %}
+  <h3 class="academic">Currently working on </h3>
   {% assign interests = site.data.research.current %}
   {% for item in interests %}
-    {{ item.partof }}, {{ item.title }}
-    <br/>
+    <div class="news">
+      <div class="news-date-pub">{{ item.partof }}</div>
+      <div class="news-announcement description-news">
+        "{{ item.title }}"
+      </div>
+    </div>
   {% endfor %}
 {% else %}
-{% endif %} -->
+{% endif %}
 
+{% if site.data.research.thinking.size > 0 %}
+  <h3 class="academic">Future research </h3>
+  {% assign interests = site.data.research.thinking %}
+  {% for item in interests %}
+    <div class="news">
+      <div class="news-date-pub">{{ item.partof }}</div>
+      <div class="news-announcement description-news">
+        "{{ item.title }}"
+      </div>
+    </div>
+  {% endfor %}
+{% else %}
+{% endif %}
 
 {% if site.data.research.interests.size > 0 %}
   <h3 class="academic">Interests </h3>
