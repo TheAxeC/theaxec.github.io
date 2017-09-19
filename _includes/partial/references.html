@@ -7,6 +7,7 @@
     <br/>
     {% assign counter=counter | plus:1 %}
   {% endfor %}
+  [{{ counter }}] image, <img class="academic" id="about" src="{{ site.baseurl }}/res/img/logo.jpg" />
 {% else %}
-  <p class="academic">There are no links</p>
+  [1] image, <img class="academic" id="about" src="{{ site.baseurl }}/res/img/logo.jpg" />
 {% endif %}
