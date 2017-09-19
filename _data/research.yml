@@ -9,6 +9,9 @@ code: |
 content: nothing
 
 interests:
-    - name: programming languages, algebraic effect handlers, type systems
-    - name: artificial intelligence, machine learning
-    - name: neuroscience, brain computer interfaces
+    - title: programming language theory
+      content: algebraic effect handlers, type systems
+    - title: artificial intelligence
+      content: machine learning, reinforcement learning
+    - title: neuroscience
+      content: brain computer interfaces

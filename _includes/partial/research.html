@@ -13,6 +13,12 @@
         {{ item.name | remove: '<p>' | remove: '</p>' | emojify }}
       </div>
     </div>
+    <div class="news">
+      <div class="news-date">{{ item.title }}</div>
+      <div class="news-announcement">
+        {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+      </div>
+    </div>
   {% endfor %}
 {% else %}
 {% endif %}
