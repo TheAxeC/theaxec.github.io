@@ -9,9 +9,9 @@
   <h3 class="academic">Currently working on </h3>
   {% assign interests = site.data.research.current %}
   {% for item in interests %}
-    <div class="news">
-      <div class="news-date-pub">{{ item.partof }}</div>
-      <div class="news-announcement description-news">
+    <div class="interest">
+      <div class="news-interest">{{ item.partof }}</div>
+      <div class="news-announcement">
         "{{ item.title }}"
       </div>
     </div>
@@ -23,9 +23,9 @@
   <h3 class="academic">Future research </h3>
   {% assign interests = site.data.research.thinking %}
   {% for item in interests %}
-    <div class="news">
-      <div class="news-date-pub">{{ item.partof }}</div>
-      <div class="news-announcement description-news">
+    <div class="interest">
+      <div class="news-interest">{{ item.partof }}</div>
+      <div class="news-announcement">
         "{{ item.title }}"
       </div>
     </div>
