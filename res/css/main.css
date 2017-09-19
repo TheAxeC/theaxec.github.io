@@ -489,6 +489,19 @@ p.academic {
 	align-items: stretch;
 }
 
+.news-interest {
+	float: left;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: rgba(0,0,0,0.4);
+	line-height: 24px;
+	margin-bottom: 0;
+	margin-right: 1em;
+	height: 100%;
+	width: 40%;
+	align-items: stretch;
+}
+
 .news-date-pub {
 	float: left;
 	text-transform: uppercase;

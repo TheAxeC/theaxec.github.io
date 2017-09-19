@@ -1,17 +1,17 @@
-code: |
-  let honours = research row-based-effects in
-  let masterthesis = hindley-milner type inference in
-  let masterthesis = masterthesis + subtyping in
-  let masterthesis = masterthesis + algebraic effects
-
-  let masterthesis_ai = Unknown
+# code: |
+#   let honours = research row-based-effects in
+#   let masterthesis = hindley-milner type inference in
+#   let masterthesis = masterthesis + subtyping in
+#   let masterthesis = masterthesis + algebraic effects
+#
+#   let masterthesis_ai = Unknown
 
 content: nothing
 
 interests:
-    - title: programming language theory
+    - title: pl theory
       content: algebraic effect handlers, type systems
-    - title: artificial intelligence
+    - title: ai
       content: machine learning, reinforcement learning
     - title: neuroscience
       content: brain computer interfaces
