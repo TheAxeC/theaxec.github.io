@@ -226,6 +226,13 @@ nav {
  * ///////////////////////////////////
  */
 
+#about {
+	float: left;
+	width: 12em; /*75px;*/
+	height: 12em; /*75px;*/
+	background: #555;
+}
+
 #about-title {
 	margin-bottom: 5em;
 }
