@@ -7,6 +7,10 @@ content: |
   let masterthesis_ai = Unknown
 
 interests:
-    - name: programming language
+    - name: programming languages
+    - name: algebraic effect handlers
+    - name: type systems
     - name: artificial intelligence
+    - name: machine learning
+    - name: neuroscience
     - name: brain computer interfaces

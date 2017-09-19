@@ -1,9 +1,11 @@
 <h2 class="academic">References </h2>
 {% if site.data.references.size > 0 %}
   {% assign references = site.data.references %}
+  {% assign counter = 1 %}
   {% for item in references %}
-    {{ item.name }}, <a href="{{ item.url }}" class="academic"> {{ item.platform }} </a>
+    [{{ counter }}] {{ item.name }}, <a href="{{ item.url }}" class="academic"> {{ item.platform }} </a>
     <br/>
+    {% assign counter=counter | plus:1 %}
   {% endfor %}
 {% else %}
   <p class="academic">There are no links</p>
