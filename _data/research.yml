@@ -17,8 +17,8 @@ current:
       partof: student job
 
 thinking:
-    - title: Reinforcement Learning in Google Deepmind’s StarCraft II Framework
-      partof: masterthesis-ai
+    # - title: Reinforcement Learning in Google Deepmind’s StarCraft II Framework
+    #   partof: masterthesis-ai
 
 interests:
     - title: programming language theory
