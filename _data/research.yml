@@ -10,15 +10,15 @@ content: nothing
 
 current:
     - title: Algebraic subtyping for algebraic effects and handlers
-      partof: Masterthesis
+      partof: masterthesis-cs
     - title: Quasi monte-carlo points on collections of triangles
-      partof: Research internship
+      partof: research internship
     - title: Construction of system identification course
-      partof: Student job
+      partof: student job
 
 thinking:
     - title: Reinforcement Learning in Google Deepmind’s StarCraft II Framework
-      partof: Masterthesis
+      partof: masterthesis-ai
 
 interests:
     - title: programming language theory

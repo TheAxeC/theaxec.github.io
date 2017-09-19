@@ -233,25 +233,9 @@ nav {
 	background: #555;
 }
 
-#about-title {
-	margin-bottom: 5em;
-}
-
-#about-title h1 {
-	color: #585858;
-}
-
-#about-title img {
-	float: left;
-	width: 12em; /*75px;*/
-	height: 12em; /*75px;*/
-	background: #555;
-}
-
-#about-title h1 {
-	position: relative;
-	top: 18px;
-	left: 10px;
+.image {
+	width: 3em;
+	height: 3em;
 }
 
 .description {
@@ -370,6 +354,10 @@ a.about-link {
  * ///////////////////////////////////
  */
 
+ .no-top-margin {
+	 margin-top: 0em;
+ }
+
 .academic-content {
 	overflow: auto;
 	background-color: #AAA;
@@ -381,7 +369,7 @@ a.about-link {
 }
 
 .academic-content-pdf {
-	padding-top: 4em;
+	padding-top: 3em;
 	padding-bottom: 2em;
 	float: left;
 
