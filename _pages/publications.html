@@ -69,3 +69,17 @@ float: right
     {% endfor %}
 </div>
 {% endif %}
+
+
+{% if site.data.publications.news.news.size > 0 %}
+<h2 class="academic">{{ site.data.publications.news.title }}</h2>
+<div class="about-content">
+    {% assign papers = site.data.publications.news.news %}
+    {% for item in papers %}
+    <div class="description-about">
+  		<time class="news-date" itemprop="datePublished" datetime="{{ item.datetime | date: "%Y-%m-%d"}}">{{ item.datetime | date: "%b %-d, %Y" }}</time>
+      <a href="{{ item.url }}" class="about-publication">"{{ item.title }}"</a>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
