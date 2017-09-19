@@ -1,12 +1,15 @@
 <h2 class="academic">Research </h2>
-{% highlight ocaml %}
-{{ site.data.research.code }}
-{% endhighlight %}
+
+{% if site.data.research.code %}
+  {% highlight ocaml %}
+  {{ site.data.research.code }}
+  {% endhighlight %}
+{% endif %}
 
 {% if site.data.research.interests.size > 0 %}
   {% assign interests = site.data.research.interests %}
   {% for item in interests %}
-    <div class="interest">
+    <div class="news">
       <div class="news-interest">{{ item.title }}</div>
       <div class="news-announcement">
         {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}

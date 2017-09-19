@@ -8,10 +8,22 @@
 
 content: nothing
 
+current:
+    - title: Algebraic subtyping for algebraic effects and handlers
+      partof: Masterthesis
+    - title: Quasi monte-carlo points on collections of triangles
+      partof: Research internship
+    - title: Construction of system identification course
+      partof: Student job
+
+thinking:
+    - title: Reinforcement Learning in Google Deepmind’s StarCraft II Framework
+      partof: Masterthesis
+
 interests:
-    - title: pl theory
+    - title: programming language theory
       content: algebraic effect handlers, type systems
-    - title: ai
+    - title: artifical intelligence
       content: machine learning, reinforcement learning
     - title: neuroscience
       content: brain computer interfaces
