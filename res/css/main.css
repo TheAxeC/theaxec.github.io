@@ -474,7 +474,7 @@ p.academic {
 .interest {
 		height: 100%;
 		display: flex;
-		margin-bottom: 0.4em;
+		/*margin-bottom: 0.4em;*/
 }
 
 .news-date {
