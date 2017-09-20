@@ -1,16 +1,29 @@
 title: Publications
 thesis:
     title: Thesis
+    papers:
+      - authors: Axel Faes
+        title: "Machine learning techniques for flow-based network intrusion detection systems"
+        url: "https://github.com/TheAxeC/machine-learning-techniques-for-flow-based-network-intrusion-detection-systems"
+        book: Bachelor's thesis 2016
 abstract:
     title: Extended Abstracts
-    abstracts:
+    papers:
       - authors: Axel Faes and Tom Schrijvers
         title: "Towards a core language with row-based effects for optimised compilation"
         url: "/abstracts/icfp-2017-src.pdf"
-        book: ICFP 2017 SRC
+        book: International Conference on Functional Programming 2017 Student Research Competition
+      - authors: Kashyap Todi, Brent Berghmans, Axel Faes and Matthijs Kaminski
+        title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons"
+        url: "/abstracts/purpose-centric-lbw.pdf"
+        book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Late Breaking Work"
+      - authors: Kashyap Todi, Donald Degraen, Brent Berghmans, Axel Faes, Matthijs Kaminski and Kris Luyten
+        title: "Purpose-Centric Appropriation of Everyday Objects as Game Controllers"
+        url: "/abstracts/purpose-centric-sgc.pdf"
+        book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Student Game Competition"
 poster:
     title: Posters
-    posters:
+    papers:
       - authors: Axel Faes and Tom Schrijvers
         title: "Towards a core language with row-based effects for optimised compilation"
         url: "/posters/icfp-2017-src.pdf"
@@ -19,7 +32,7 @@ journal:
     title: International Journal Papers
 news:
     title: Talks, presentations and other media
-    news:
+    papers:
       - title: Honours student Axel Faes wins bronze medal in ACM SIGPLAN
         date: 2017-09-19 15:59:00-0400
         url: "http://wms.cs.kuleuven.be/cs/nieuws/honours-student-axel-faes-wins-bronze-model-in-acm-sigplan"
@@ -33,15 +46,5 @@ conference:
     papers:
         - authors: Robin Marx, Peter Quax, Axel Faes and Wim Lamotte
           title: "Concatenation, embedding and sharding: Do HTTP/1 performance best practices make sense in HTTP/2?"
-          url: "https://uhdspace.uhasselt.be/dspace/bitstream/1942/23909/1/h2bestpractices_RobinMarx_WEBIST2017.pdf"
+          url: "/conference/h2bestpractices_RobinMarx_WEBIST2017.pdf"
           book: "WEBIST 2017 - Proceedings of the 13th International Conference on Web Information Systems and Technologies."
-
-        - authors: Kashyap Todi, Brent Berghmans, Axel Faes and Matthijs Kaminski
-          title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons"
-          url: "http://dl.acm.org/citation.cfm?id=2890372&CFID=613985972&CFTOKEN=62651444"
-          book: "ACM CHI EA '16"
-
-        - authors: Kashyap Todi, Donald Degraen, Brent Berghmans, Axel Faes, Matthijs Kaminski and Kris Luyten
-          title: "Purpose-Centric Appropriation of Everyday Objects as Game Controllers"
-          url: "http://dl.acm.org/citation.cfm?id=2892448&CFID=613985972&CFTOKEN=62651444"
-          book: "ACM CHI EA '16"
