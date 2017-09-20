@@ -77,7 +77,7 @@ float: right
     {% assign papers = site.data.publications.news.news %}
     {% for item in papers %}
     <div class="news">
-      <time class="news-date-pub" itemprop="datePublished" datetime="{{ item.date | date: "%Y-%m-%d"}}">{{ item.date | date: "%b %-d, %Y" }}</time>
+      <time class="news-date-pub" itemprop="datePublished" datetime="{{ item.date | date: "%Y-%m-%d"}}">{{ item.date | date: "%b %d, %Y" }}</time>
       <div class="news-announcement description-news">
         <a href="{{ item.url }}" class="about-publication">"{{ item.title }}"</a>, {{ item.from }}
       </div>
