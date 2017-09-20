@@ -23,6 +23,11 @@ news:
       - title: Honours student Axel Faes wins bronze medal in ACM SIGPLAN
         date: 2017-09-19 15:59:00-0400
         url: "http://wms.cs.kuleuven.be/cs/nieuws/honours-student-axel-faes-wins-bronze-model-in-acm-sigplan"
+        from: KU Leuven, Department of Computer Science
+      - title: Student Axel Faes wins bronze medal in the ACM SIGPLAN Student Research Competition in ICFP conference
+        date: 2017-09-19 15:59:00-0400
+        url: "https://dtai.cs.kuleuven.be/news/student-axel-faes-wins-bronze-medal-acm-sigplan-student-research-competition-icfp-conference"
+        from: KU Leuven, Department of Computer Science, DTAI
 conference:
     title: International Conference Papers
     papers:
