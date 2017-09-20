@@ -1,47 +1,49 @@
-- title: "Research Assistant: design of type-&-effect system for Eff  based on row polymorphism"
-  location: University of Leuven
-  datetime: 2017-05-01 15:59:00-0400
-  duration: May 2017 - Current
-  about: "Faculty of Engineering Science: Computer Science <br/>
-          Research group: DTAI <br/>
-          Part of the Honoursprogramme of the Faculty of Engineering Science (research track). <br/>
-          Topic: Development of an row-based type-&-effect system for the Eff programming language"
+title: Experience
+experience:
+  - title: "Research Assistant: design of type-&-effect system for Eff  based on row polymorphism"
+    location: University of Leuven
+    datetime: 2017-05-01 15:59:00-0400
+    duration: May 2017 - Current
+    about: "Faculty of Engineering Science: Computer Science <br/>
+            Research group: DTAI <br/>
+            Part of the Honoursprogramme of the Faculty of Engineering Science (research track). <br/>
+            Topic: Development of an row-based type-&-effect system for the Eff programming language"
 
-- title: "Research Assistent: efficient compilation of algebraic effect handlers"
-  location: University of Leuven
-  datetime: 2017-04-01 15:59:00-0400
-  duration: Sept 2016 - Apr 2017
-  about: "Faculty of Engineering Science: Computer Science <br/>
-          Research group: DTAI <br/>
-          Part of the Honoursprogramme of the Faculty of Engineering Science (research track). <br/> My project is part of the C1 project: Algebraic Effect Handlers: Harnessing the Fundamental Power of Effects. Eff is a functional programming language that uses handlers to handle all kinds of effects. These effects could be I/O, exceptions, user-defined, etc. My task is to design, implement, benchmark and formally proof new optimisations in the Eff compiler. The compiler is written in OCaml."
+  - title: "Research Assistent: efficient compilation of algebraic effect handlers"
+    location: University of Leuven
+    datetime: 2017-04-01 15:59:00-0400
+    duration: Sept 2016 - Apr 2017
+    about: "Faculty of Engineering Science: Computer Science <br/>
+            Research group: DTAI <br/>
+            Part of the Honoursprogramme of the Faculty of Engineering Science (research track). <br/> My project is part of the C1 project: Algebraic Effect Handlers: Harnessing the Fundamental Power of Effects. Eff is a functional programming language that uses handlers to handle all kinds of effects. These effects could be I/O, exceptions, user-defined, etc. My task is to design, implement, benchmark and formally proof new optimisations in the Eff compiler. The compiler is written in OCaml."
 
-- title: "Web performance research intern"
-  location: Hasselt University
-  datetime: 2016-09-01 15:59:00-0400
-  duration: July 2016 - Sept 2016
-  about: "I work on the iMinds PRO-FLOW project. <br/>
-	My work involved creating multiple usecases to measure website performance. The main focus is on the difference between the http versions (http1.1, https, http2).
-	During the project, I had to utilise multiple servers, maintain and extend the nodejs framework used to measure website performance, and manually optimize commercial websites using PHP, JS, HTML and CSS."
+  - title: "Web performance research intern"
+    location: Hasselt University
+    datetime: 2016-09-01 15:59:00-0400
+    duration: July 2016 - Sept 2016
+    about: "I work on the iMinds PRO-FLOW project. <br/>
+  	My work involved creating multiple usecases to measure website performance. The main focus is on the difference between the http versions (http1.1, https, http2).
+  	During the project, I had to utilise multiple servers, maintain and extend the nodejs framework used to measure website performance, and manually optimize commercial websites using PHP, JS, HTML and CSS."
 
-- title: Member of Student Council
-  location: Hasselt University
-  datetime: 2016-08-01 15:59:00-0400
-  duration: Aug 2015 - Aug 2016
-  about: "Member of Board of Education <br/>
-  	Member of Faculty Council<br/>
-  	Member of Board of Student Facilities<br/>
-  	Member of Diversity Commission<br/>
-    Temporary representative in VVS (Vlaamse Vereniging van Studenten vzw)"
+  - title: Member of Student Council
+    location: Hasselt University
+    datetime: 2016-08-01 15:59:00-0400
+    duration: Aug 2015 - Aug 2016
+    about: "Member of Board of Education <br/>
+    	Member of Faculty Council<br/>
+    	Member of Board of Student Facilities<br/>
+    	Member of Diversity Commission<br/>
+      Temporary representative in VVS (Vlaamse Vereniging van Studenten vzw)"
 
-- title: Summer Internship Physical Computing
-  location: Hasselt University
-  datetime: 2016-09-01 15:59:00-0400
-  duration: Aug 2015 - Sept 2016
-  about: "Work on a project which focuses on the interaction between a human entity and a drone, aswell as interaction between the drone and virtual objects. This project is written in C++, used the Optitrack motion capture and a custom created drone."
+  - title: Summer Internship Physical Computing
+    location: Hasselt University
+    datetime: 2016-09-01 15:59:00-0400
+    duration: Aug 2015 - Sept 2016
+    about: "Work on a project which focuses on the interaction between a human entity and a drone, aswell as interaction between the drone and virtual objects. This project is written in C++, used the Optitrack motion capture and a custom created drone."
 
-- title: Member of Student Council
-  location: Hasselt University
-  datetime: 2015-08-01 15:59:00-0400
-  duration: Mar 2015 - Aug 2015
-  about: "Member of Board of Education <br/>
-          Member of Faculty Council<br/>"
+  - title: Member of Student Council
+    location: Hasselt University
+    datetime: 2015-08-01 15:59:00-0400
+    duration: Mar 2015 - Aug 2015
+    about: "Member of Board of Education <br/>
+            Member of Faculty Council<br/>"

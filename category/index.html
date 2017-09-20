@@ -4,13 +4,13 @@ title: "category"
 ---
 
 <div class="academic-title">
-  <h1>A Grad Story: a journey of a thousand words</h1>
+  <h1> {{ site.blog.title }} </h1>
   <p>
-		Every story begins with a single word <br/>
+		{{ site.blog.subtitle }} <br/>
   </p>
 </div>
 
-<h2>All Categories</h2>
+<h2>{{ site.blog.category }}</h2>
 
 {% assign sorted_cats = site.categories | sort %}
 {% for category in sorted_cats %}

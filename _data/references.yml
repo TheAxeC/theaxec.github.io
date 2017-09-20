@@ -1,23 +1,25 @@
-- name: Axel Faes
-  url: https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ
-  platform: Google Scholar
+title: References
+references:
+  - name: Axel Faes
+    url: https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ
+    platform: Google Scholar
 
-- name: Axel Faes
-  url: https://www.linkedin.com/in/axelfaes
-  platform: LinkedIn
+  - name: Axel Faes
+    url: https://www.linkedin.com/in/axelfaes
+    platform: LinkedIn
 
-- name: Who's Who
-  url: https://www.kuleuven.be/wieiswie/en/person/00117812
-  platform: KULeuven
+  - name: Who's Who
+    url: https://www.kuleuven.be/wieiswie/en/person/00117812
+    platform: KULeuven
 
-- name: TheAxeC
-  url: https://github.com/TheAxeC
-  platform: Github
+  - name: TheAxeC
+    url: https://github.com/TheAxeC
+    platform: Github
 
-- name: TheAxeC
-  url: https://twitter.com/TheAxeC
-  platform: Twitter
+  - name: TheAxeC
+    url: https://twitter.com/TheAxeC
+    platform: Twitter
 
-- name: RSS Feed Blog
-  url: http://theaxec.github.com/atom.xml
-  platform: atom.xml
+  - name: RSS Feed Blog
+    url: http://theaxec.github.com/atom.xml
+    platform: atom.xml

@@ -4,12 +4,16 @@
 
 name: Axel Faes
 intro: On the interests and accomplishments of Axel Faes
+intro_projects: Projects of Axel Faes
+intro_experience: Experience report of Axel Faes
 link: https://theaxec.github.io
 position: Computer Science Engineering Student
 affiliation: KULeuven
 blog:
   title: "A Grad Story: a journey of a thousand words"
   subtitle: "Every story begins with a single word"
+  tags: All Tags
+  category: All Categories
 email:
   personal:
     email: axel.faes@gmail.com
@@ -17,7 +21,12 @@ email:
   university:
     email: axel.faes@student.kuleuven.be
     print: axel.faes[at]student.kuleuven.be
-footer: Axel Faes
+footer:
+  left:
+    title: README.md
+    url: /README.md
+  right:
+    title: Axel Faes
 
 discus:
   name: theaxe
@@ -46,6 +55,11 @@ plugins:
 # -----------------------------------------------------------------------------
 
 collections:
+  papers:
+    defaults:
+      layout: academic
+    output: true
+    permalink: /papers/:path/
   news:
     defaults:
       layout: academic

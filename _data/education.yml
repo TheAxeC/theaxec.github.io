@@ -1,29 +1,24 @@
-- title: Advanced Master of Science in Engineering (M.Sc.) in Artificial Intelligence
-  location: University of Leuven
-  datetime: 2018-07-01 15:59:00-0400
-  duration: Sept 2017 - July 2018
-  about: >
-    Specialization in Engineering and Computer Science
+title: Educational background
+education:
+  - title: Advanced Master of Science in Engineering (M.Sc.) in Artificial Intelligence
+    location: University of Leuven
+    datetime: 2018-07-01 15:59:00-0400
+    duration: Sept 2017 - July 2018
+    specialization: Engineering and Computer Science
 
-- title: Master of Science in Engineering (M.Sc.) in Computer Science
-  location: University of Leuven
-  datetime: 2018-07-01 15:59:00-0400
-  duration: Sept 2016 - July 2018
-  about: >
-    Specialization in Artificial Intelligence & Theoretical Computer Science <br/>
-    Participant of the Honoursprogramme of the Faculty of Engineering Science
+  - title: Master of Science in Engineering (M.Sc.) in Computer Science
+    location: University of Leuven
+    datetime: 2018-07-01 15:59:00-0400
+    duration: Sept 2016 - July 2018
+    specialization: Artificial Intelligence & Theoretical Computer Science
 
-- title: "Bachelor of Science (B.Sc.) in Computer Science: Magna Cum Laude"
-  location: Hasselt University
-  datetime: 2016-07-01 15:59:00-0400
-  duration: Sept 2013 - July 2016
-  about: >
-    Minor in Physics and General courses <br/>
-    Bachelorthesis Machine learning techniques for flow-based network intrusion detection systems <br/>
-    Awarded with the Bachelor Award 2015-2016
+  - title: "Bachelor of Science (B.Sc.) in Computer Science: Magna Cum Laude"
+    location: Hasselt University
+    datetime: 2016-07-01 15:59:00-0400
+    duration: Sept 2013 - July 2016
+    specialization: Physics and General courses
 
-- title: "Business Summer School: United in Manchester (0739), International Business"
-  location: The University of Manchester
-  datetime: 2015-08-01 15:59:00-0400
-  duration: July 2015 - Aug 2015
-  about: An international business school during the Summer.
+  - title: "Business Summer School: United in Manchester (0739), International Business"
+    location: The University of Manchester
+    datetime: 2015-08-01 15:59:00-0400
+    duration: July 2015 - Aug 2015

@@ -1,6 +1,7 @@
 title: Publications
 thesis:
     title: Thesis
+    url: /papers/thesis/
     papers:
       - authors: Axel Faes
         title: "Machine learning techniques for flow-based network intrusion detection systems"
@@ -8,30 +9,34 @@ thesis:
         book: Bachelor's thesis 2016
 abstract:
     title: Extended Abstracts
+    url: /papers/abstracts/
     papers:
       - authors: Axel Faes and Tom Schrijvers
         title: "Towards a core language with row-based effects for optimised compilation"
-        url: "/abstracts/icfp-2017-src.pdf"
+        url: "/papers/abstracts/icfp-2017-src.pdf"
         book: International Conference on Functional Programming 2017 Student Research Competition
       - authors: Kashyap Todi, Brent Berghmans, Axel Faes and Matthijs Kaminski
         title: "Purpose-Centric Appropriation of Everyday Objects as Game Controllers"
-        url: "/abstracts/purpose-centric-lbw.pdf"
+        url: "/papers/abstracts/purpose-centric-lbw.pdf"
         book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Late Breaking Work"
       - authors: Kashyap Todi, Donald Degraen, Brent Berghmans, Axel Faes, Matthijs Kaminski and Kris Luyten
         title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons"
-        url: "/abstracts/purpose-centric-sgc.pdf"
+        url: "/papers/abstracts/purpose-centric-sgc.pdf"
         book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Student Game Competition"
 poster:
     title: Posters
+    url: /papers/posters/
     papers:
       - authors: Axel Faes and Tom Schrijvers
         title: "Towards a core language with row-based effects for optimised compilation"
-        url: "/posters/icfp-2017-src.pdf"
+        url: "/papers/posters/icfp-2017-src.pdf"
         book: ICFP 2017 SRC
 journal:
     title: International Journal Papers
+    url: /papers/journal/
 news:
     title: Talks, presentations and other media
+    url: /papers/media/
     papers:
       - title: Honours student Axel Faes wins bronze medal in ACM SIGPLAN
         date: 2017-09-19 15:59:00-0400
@@ -43,8 +48,9 @@ news:
         from: KU Leuven, Department of Computer Science, DTAI
 conference:
     title: International Conference Papers
+    url: /papers/conference/
     papers:
         - authors: Robin Marx, Peter Quax, Axel Faes and Wim Lamotte
           title: "Concatenation, embedding and sharding: Do HTTP/1 performance best practices make sense in HTTP/2?"
-          url: "/conference/h2bestpractices_RobinMarx_WEBIST2017.pdf"
+          url: "/papers/conference/h2bestpractices_RobinMarx_WEBIST2017.pdf"
           book: "WEBIST 2017 - Proceedings of the 13th International Conference on Web Information Systems and Technologies."

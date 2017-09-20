@@ -11,17 +11,17 @@ This is required since Github does not run these plugins.
 
 Adding new content can be done by only changing:
 - _data/
+- _rss/
 - _news/
 - _posts/
 - _pages/
-- _rss/
 
 Publications are added into their respective folder:
-- _abstracts/
-- _conference/
-- _journal/
-- _posters/
-- _thesis/
+- _papers/abstracts/
+- _papers/conference/
+- _papers/journal/
+- _papers/posters/
+- _papers/thesis/
 
 Content can be added using:
 - _data/awards.yml for any honors and awards
@@ -38,7 +38,7 @@ Content can be added using:
 - _pages/ for any new pages
 
 Other:
-- _includes/ for html layouts of specific parts (navigation, footer, head)
+- _includes/ for html includes of specific parts (navigation, footer, head)
 - _layout/ for the main layouts
 - _plugins/ for ruby scripts
 - category/

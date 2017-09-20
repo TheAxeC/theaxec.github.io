@@ -1,0 +1,11 @@
+{% if site.data.publications.journal.papers.size > 0 %}
+<a href="{{ site.data.publications.journal.url }}"> <h2 class="academic">{{ site.data.publications.journal.title }}</h2> </a>
+<div class="about-content">
+    {% assign papers = site.data.publications.journal.papers %}
+    {% for item in papers %}
+    <div class="description-about">
+  		{{ item.authors }}, <a href="{{ item.url }}" class="about-publication">"{{ item.title }}"</a> {{ item.book }}
+    </div>
+    {% endfor %}
+</div>
+{% endif %}

@@ -1,0 +1,20 @@
+{% if site.data.projects.projects.size > 0 %}
+  {% assign exp = site.data.projects.projects %}
+  {% for item in exp %}
+  <h3 class="academic">
+    {% if item.url != "" %}
+      <a href="{{ item.url }}" class="about-link">
+        {{ item.title }}
+      </a>
+    {% else %}
+      {{ item.title }}
+    {% endif %}
+  </h3>
+  <div class="about-content">
+    <small> {{ item.duration }} </small>
+    <div class="description-project">
+      {{ item.about }}
+    </div>
+  </div>
+  {% endfor %}
+{% endif %}

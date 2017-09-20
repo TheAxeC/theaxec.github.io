@@ -1,30 +1,21 @@
-- title: 3rd place in ICFP 2017 Student Research Competition
-  date: 2017-09-01 15:59:00-0400
-  location: ICFP
-  content: >
-    ICFP (ACM SIGPLAN International Conference on Functional Programming) hosts a yearly Student Research Competition.
+title: Honors & Awards
+awards:
+  - title: 3rd place in ICFP 2017 Student Research Competition
+    date: 2017-09-01 15:59:00-0400
 
-- title: 3rd place in ACM CHI 2016 Student Design Competition
-  date: 2016-05-01 15:59:00-0400
-  location: ACM CHI
-  content: >
-    This is the 14th year of the CHI Student Design Competition, which has grown into a premiere place
-    for students to demonstrate their skills in Interaction Design and User Experience.
+  - title: 3rd place in ACM CHI 2016 Student Design Competition (Interaction Design and User Experience.)
+    date: 2016-05-01 15:59:00-0400
 
-- title: Bachelor Award in Computer Science
-  date: 2016-07-01 15:59:00-0400
-  location: Hasselt University
-  content: >
-    Award presented by the examination committee of Computer Science at Hasselt University for meritorious achievements, and contribution to a positive image of the bachelor in Computer Science.
+  - title: Bachelor Award in Computer Science
+    date: 2016-07-01 15:59:00-0400
+    content: >
+      Hasselt University <br/>
+      Award presented by the examination committee of Computer Science at Hasselt University for meritorious achievements, and contribution to a positive image of the bachelor in Computer Science.
 
-- title: 2nd place in BeGDC (Belgian Game Development Championship)
-  date: 2016-02-01 15:59:00-0400
-  location: De Nationale Loterij and Vasco Data Security
-  content: >
-    Award presented by the examination committee of Computer Science at Hasselt University for meritorious achievements, and contribution to a positive image of the bachelor in Computer Science.
+  - title: 2nd place in BeGDC (Belgian Game Development Championship)
+    date: 2016-02-01 15:59:00-0400
+    # content: De Nationale Loterij and Vasco Data Security
 
-- title: IELTS - Academic Module (8.0/9.0)
-  date: 2016-01-01 15:59:00-0400
-  location: IELTS
-  content: >
-    An international standardised test of English language proficiency for non-native English language speakers.
+  - title: IELTS - Academic Module (8.0/9.0)
+    date: 2016-01-01 15:59:00-0400
+    # content: An international standardised test of English language proficiency for non-native English language speakers.

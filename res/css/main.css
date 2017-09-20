@@ -4,9 +4,15 @@
  * //////////////
  */
 
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+	display: none;
+}
+
 html {
 	min-height: 100%;
 	height: 100%;
+	width: 100%;
 }
 
 body {
@@ -18,9 +24,9 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: 100;
 	line-height: 1.5;
-        font-size: 100%;
-	/*-webkit-overflow-scrolling: touch; */
-
+  font-size: 100%;
+	overflow-y: overlay;
+	width: 100%;
 }
 
 /**
@@ -41,7 +47,7 @@ h1 {
 
 h2 {
 	margin-top: 0;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 	color: #555555;
 	/*border-bottom: 1px solid #aaaaaa;*/
 }
@@ -137,7 +143,7 @@ footer {
 
 .footer-left {
 	float: left;
-	color: #ccc;
+	color: #ccc !important;
 }
 
 .footer-text {
@@ -245,6 +251,10 @@ nav {
 
 .description-about {
 	margin-bottom: 1em;
+}
+
+.description-project {
+	margin-bottom: 2em;
 }
 
 .description-news {
@@ -413,7 +423,7 @@ a.about-link {
 
 h2.academic {
 	margin-top: 0;
-	margin-bottom: 5px;
+	margin-bottom: 0;
 	color: #555555;
 	border-bottom: none;
 }
@@ -474,7 +484,7 @@ p.academic {
 .interest {
 		height: 100%;
 		display: flex;
-		/*margin-bottom: 0.4em;*/
+		margin-bottom: 0.7em;
 }
 
 .news-date {
