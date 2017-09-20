@@ -33,7 +33,7 @@ float: right
 </div>
 {% endif %}
 
-{% if site.data.publications.poster.posters.size > 0 %}
+{% if site.data.publications.poster.papers.size > 0 %}
 <h2 class="academic">{{ site.data.publications.poster.title }}</h2>
 <div class="about-content">
     {% assign papers = site.data.publications.poster.papers %}
@@ -46,7 +46,7 @@ float: right
 {% endif %}
 
 
-{% if site.data.publications.abstract.abstracts.size > 0 %}
+{% if site.data.publications.abstract.papers.size > 0 %}
 <h2 class="academic">{{ site.data.publications.abstract.title }}</h2>
 <div class="about-content">
     {% assign papers = site.data.publications.abstract.papers %}
@@ -71,7 +71,7 @@ float: right
 {% endif %}
 
 
-{% if site.data.publications.news.news.size > 0 %}
+{% if site.data.publications.news.papers.size > 0 %}
 <h2 class="academic">{{ site.data.publications.news.title }}</h2>
 <div class="about-content">
     {% assign papers = site.data.publications.news.papers %}
