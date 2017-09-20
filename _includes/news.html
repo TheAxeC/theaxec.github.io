@@ -2,7 +2,7 @@
 <h2 class="academic">News </h2>
 {% if site.news.size > 0 %}
   <div>
-  {% assign news = site.news | sort: 'datetime' %}
+  {% assign news = site.news | sort: 'datetime' | reverse %}
   {% for item in news limit: site.news_limit %}
     <div class="news">
       <time class="news-date" itemprop="datePublished" datetime="{{ item.datetime | date: "%Y-%m-%d"}}">{{ item.datetime | date: "%b %-d, %Y" }}</time>

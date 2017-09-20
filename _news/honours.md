@@ -1,6 +1,7 @@
 ---
-layout: academic
+layout: news
 datetime: 2017-10-04 15:59:00-0400
+title: Defense for Honoursprogramme
 inline: true
 ---
 

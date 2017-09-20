@@ -1,6 +1,7 @@
 ---
-layout: academic
+layout: news
 datetime: 2017-09-06 15:59:00-0400
+title: ICFP Student Research Competition
 inline: true
 ---
 

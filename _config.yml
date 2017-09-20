@@ -15,6 +15,8 @@ blog:
   subtitle: "Every story begins with a single word"
   tags: All Tags
   category: All Categories
+media:
+  title: "News"
 email:
   personal:
     email: axel.faes@gmail.com
@@ -64,32 +66,7 @@ collections:
   news:
     defaults:
       layout: academic
-    output: false
-    #permalink: /news/:path/
-  posters:
-    defaults:
-      layout: academic
     output: true
-    permalink: /posters/:path/
-  abstracts:
-    defaults:
-      layout: academic
-    output: true
-    permalink: /abstracts/:path/
-  thesis:
-    defaults:
-      layout: academic
-    output: true
-    permalink: /thesis/:path/
-  conference:
-    defaults:
-      layout: academic
-    output: true
-    permalink: /conference/:path/
-  journal:
-    defaults:
-      layout: academic
-    output: true
-    permalink: /journal/:path/
+    permalink: /news/:path
 
 news_limit: 5
