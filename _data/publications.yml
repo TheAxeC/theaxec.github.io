@@ -14,11 +14,11 @@ abstract:
         url: "/abstracts/icfp-2017-src.pdf"
         book: International Conference on Functional Programming 2017 Student Research Competition
       - authors: Kashyap Todi, Brent Berghmans, Axel Faes and Matthijs Kaminski
-        title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons"
+        title: "Purpose-Centric Appropriation of Everyday Objects as Game Controllers"
         url: "/abstracts/purpose-centric-lbw.pdf"
         book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Late Breaking Work"
       - authors: Kashyap Todi, Donald Degraen, Brent Berghmans, Axel Faes, Matthijs Kaminski and Kris Luyten
-        title: "Purpose-Centric Appropriation of Everyday Objects as Game Controllers"
+        title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons"
         url: "/abstracts/purpose-centric-sgc.pdf"
         book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Student Game Competition"
 poster:
