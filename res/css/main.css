@@ -213,7 +213,7 @@ nav {
 	padding-left: 1em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 	div.custom-nav {
 		height: auto;
 		padding-right: 0%;
