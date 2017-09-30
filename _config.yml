@@ -1,41 +1,4 @@
 # -----------------------------------------------------------------------------
-# Site settings
-# -----------------------------------------------------------------------------
-
-name: Axel Faes
-intro: On the interests and accomplishments of Axel Faes
-intro_projects: Projects of Axel Faes
-intro_experience: Experience report of Axel Faes
-link: https://theaxec.github.io
-error: 404 Page Not Found
-position: Computer Science Engineering Student
-affiliation: KULeuven
-blog:
-  title: "A Grad Story: a journey of a thousand words"
-  subtitle: "Every story begins with a single word"
-  tags: All Tags
-  category: All Categories
-media:
-  title: "News"
-email:
-  personal:
-    email: axel.faes@gmail.com
-    print: axel.faes[at]gmail.com
-  university:
-    email: axel.faes@student.kuleuven.be
-    print: axel.faes[at]student.kuleuven.be
-footer:
-  left:
-    title: README.md
-    url: /README.md
-  right:
-    title: Axel Faes
-
-discus:
-  name: theaxe
-  embed: //theaxe.disqus.com/embed.js
-
-# -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 

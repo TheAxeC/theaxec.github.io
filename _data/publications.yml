@@ -1,4 +1,15 @@
 title: Publications
+journal:
+    title: International Journal Papers
+    url: /papers/journal/
+conference:
+    title: Conference Papers
+    url: /papers/conference/
+    papers:
+        - authors: Robin Marx, Peter Quax, Axel Faes and Wim Lamotte
+          title: "Concatenation, embedding and sharding: Do HTTP/1 performance best practices make sense in HTTP/2?"
+          url: "/papers/conference/h2bestpractices_RobinMarx_WEBIST2017.pdf"
+          book: "WEBIST 2017 - Proceedings of the 13th International Conference on Web Information Systems and Technologies."
 thesis:
     title: Thesis
     url: /papers/thesis/
@@ -7,7 +18,7 @@ thesis:
         title: "Machine learning techniques for flow-based network intrusion detection systems"
         url: "https://github.com/TheAxeC/machine-learning-techniques-for-flow-based-network-intrusion-detection-systems"
         book: Bachelor's thesis 2016
-abstract:
+abstracts:
     title: Extended Abstracts
     url: /papers/abstracts/
     papers:
@@ -23,7 +34,7 @@ abstract:
         title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons"
         url: "/papers/abstracts/purpose-centric-sgc.pdf"
         book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Student Game Competition"
-poster:
+posters:
     title: Posters
     url: /papers/posters/
     papers:
@@ -31,9 +42,18 @@ poster:
         title: "Towards a core language with row-based effects for optimised compilation"
         url: "/papers/posters/icfp-2017-src.pdf"
         book: ICFP 2017 SRC
-journal:
-    title: International Journal Papers
-    url: /papers/journal/
+talks:
+    title: Talks
+    url: /papers/talks
+book-chapters:
+    title: Book Chapters
+    url: /papers/books
+other-publications:
+    title: Other publication
+    url: /papers/other
+papers-in-preparation:
+    title: Papers in Preparation
+    url: /papers/preparation
 news:
     title: Talks, presentations and other media
     url: /papers/media/
@@ -46,11 +66,3 @@ news:
         date: 2017-09-19 15:59:00-0400
         url: "https://dtai.cs.kuleuven.be/news/student-axel-faes-wins-bronze-medal-acm-sigplan-student-research-competition-icfp-conference"
         from: KU Leuven, Department of Computer Science, DTAI
-conference:
-    title: International Conference Papers
-    url: /papers/conference/
-    papers:
-        - authors: Robin Marx, Peter Quax, Axel Faes and Wim Lamotte
-          title: "Concatenation, embedding and sharding: Do HTTP/1 performance best practices make sense in HTTP/2?"
-          url: "/papers/conference/h2bestpractices_RobinMarx_WEBIST2017.pdf"
-          book: "WEBIST 2017 - Proceedings of the 13th International Conference on Web Information Systems and Technologies."

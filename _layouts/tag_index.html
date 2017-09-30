@@ -3,13 +3,13 @@ layout: academic
 ---
 
 <div class="academic-title">
-  <h1> {{ site.blog.title }} </h1>
+  <h1> {{ site.data.main.blog.title }} </h1>
   <p>
-		{{ site.blog.subtitle }} <br/>
+		{{ site.data.main.blog.subtitle }} <br/>
   </p>
 </div>
 
-<h3 class='category text-center'>{{page.title}}</h3>
+<h3 class='category text-center'>{{page.data.main.title}}</h3>
 
 {% assign sorted_posts = site.posts | reversed %}
 {% for post in sorted_posts %}

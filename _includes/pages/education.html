@@ -15,6 +15,10 @@
             {{ item.specialization }} <br/>
           {% endif %}
 
+          {% if item.grade %}
+            {{ item.grade }} <br/>
+          {% endif %}
+
           {% if item.location %}
             {{ item.location | remove: '<p>' | remove: '</p>' | emojify }} <br/>
           {% endif %}

@@ -12,10 +12,11 @@ education:
     duration: Sept 2016 - July 2018
     specialization: Artificial Intelligence & Theoretical Computer Science
 
-  - title: "Bachelor of Science (B.Sc.) in Computer Science: Magna Cum Laude"
+  - title: "Bachelor of Science (B.Sc.) in Computer Science"
     location: Hasselt University
     datetime: 2016-07-01 15:59:00-0400
     duration: Sept 2013 - July 2016
+    grade: "79% - Magna Cum Laude"
     specialization: Physics and General courses
 
   - title: "Business Summer School: United in Manchester (0739), International Business"

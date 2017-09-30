@@ -1,5 +1,5 @@
 
-<h2 class="academic">News </h2>
+<h2 class="academic">{{ site.data.main.media.title }}</h2>
 {% if site.news.size > 0 %}
   <div>
   {% assign news = site.news | sort: 'datetime' | reverse %}

@@ -1,0 +1,39 @@
+name: Axel Faes
+position: Computer Science Engineering Student
+affiliation: KULeuven
+
+github: https://github.com/TheAxeC
+email:
+  personal:
+    email: axel.faes@gmail.com
+    print: axel.faes[at]gmail.com
+  university:
+    email: axel.faes@student.kuleuven.be
+    print: axel.faes[at]student.kuleuven.be
+
+intro: On the interests and accomplishments of Axel Faes
+
+link: https://theaxec.github.io
+blog:
+  title: "A Grad Story: a journey of a thousand words"
+  subtitle: "Every story begins with a single word"
+  tags: All Tags
+  category: All Categories
+media:
+  title: "News"
+error: 404 Page Not Found
+
+footer:
+  left:
+    title: README.md
+    url: /README.md
+  right:
+    title: Axel Faes
+
+discus:
+  name: theaxe
+  embed: //theaxe.disqus.com/embed.js
+
+description-title: Abstract
+description: |
+  I am a Msc. Artificial Intelligence and Msc. Computer Science Engineering student at KULeuven. My main interests include program optimization, numerical linear algebra, artificial intelligence, virtual reality, neural computing and brain-computer interfaces. I am participating in the Honoursprogramme of the Faculty of Engineering Science (research track) at KULeuven. I am also a big supporter of Open Source Software.

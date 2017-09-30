@@ -1,0 +1,15 @@
+{% if site.data.extracurricular.extracurricular.size > 0 %}
+  {% assign exp = site.data.extracurricular.extracurricular %}
+  {% for item in exp %}
+  <h3 class="academic">
+    {{ item.title }}
+  </h3>
+  <div class="about-content">
+    <small class="location">{{ item.location }}</small><br/>
+    <small> {{ item.duration }}</small>
+    <div class="description-project">
+      {{ item.about | newline_to_br | markdownify }}
+    </div>
+  </div>
+  {% endfor %}
+{% endif %}

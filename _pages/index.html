@@ -6,26 +6,26 @@ float: left
 ---
 
 <div class="academic-title">
-  {% include title.html %}
+  {% include pages/title.html %}
 </div>
 
 
 <div class="academic academic-left-column">
-  <h2 class="academic">{{ site.data.description.title }} </h2>
+  <h2 class="academic">{{ site.data.main.description-title }} </h2>
   <div class="description">
-    {{ site.data.description.description }}
+    {{ site.data.main.description | newline_to_br | markdownify }}
   </div>
 
-  {% include education.html %}
+  {% include pages/education.html %}
 
-  {% include honours.html %}
+  {% include pages/honours.html %}
 </div>
 
 
 <div class="academic academic-right-column">
-  {% include news.html %}
+  {% include pages/news.html %}
 
-  {% include research.html %}
+  {% include pages/research.html %}
 
-  {% include references.html %}
+  {% include pages/references.html %}
 </div

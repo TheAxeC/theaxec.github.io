@@ -4,13 +4,13 @@ title: "category"
 ---
 
 <div class="academic-title">
-  <h1> {{ site.blog.title }} </h1>
+  <h1> {{ site.data.main.blog.title }} </h1>
   <p>
-		{{ site.blog.subtitle }} <br/>
+		{{ site.data.main.blog.subtitle }} <br/>
   </p>
 </div>
 
-<h2>{{ site.blog.category }}</h2>
+<h2>{{ site.data.main.blog.category }}</h2>
 
 {% assign sorted_cats = site.categories | sort %}
 {% for category in sorted_cats %}

@@ -1,12 +1,5 @@
 title: Research
 active: true
-# code: |
-#   let honours = research row-based-effects in
-#   let masterthesis = hindley-milner type inference in
-#   let masterthesis = masterthesis + subtyping in
-#   let masterthesis = masterthesis + algebraic effects
-#
-#   let masterthesis_ai = Unknown
 
 content: nothing
 
@@ -24,8 +17,16 @@ thinking:
 
 interests:
     - title: programming language theory
-      content: algebraic effect handlers, type systems
+      content:
+        - algebraic effect handlers
+        - type systems
+        - program optimization
     - title: artifical intelligence
-      content: machine learning, reinforcement learning
+      content:
+        - machine learning
+        - reinforcement learning
+        - virtual reality
     - title: neuroscience
-      content: neural computing, brain computer interfaces
+      content:
+        - neural computing
+        - brain computer interfaces

@@ -8,7 +8,7 @@
     <small class="location">{{ item.location }}</small><br/>
     <small> {{ item.duration }}</small>
     <div class="description-project">
-      {{ item.about }}
+      {{ item.about | newline_to_br | markdownify }}
     </div>
   </div>
   {% endfor %}

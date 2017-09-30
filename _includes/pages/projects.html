@@ -13,7 +13,7 @@
   <div class="about-content">
     <small> {{ item.duration }} </small>
     <div class="description-project">
-      {{ item.about }}
+      {{ item.about | newline_to_br | markdownify }}
     </div>
   </div>
   {% endfor %}

@@ -5,13 +5,13 @@ permalink: /atom.xml
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.name }}</title>
- <link href="{{ site.link }}/atom.xml" rel="self"/>
- <link href="{{ site.link }}"/>
+ <title>{{ site.data.main.name }}</title>
+ <link href="{{ site.data.main.link }}/atom.xml" rel="self"/>
+ <link href="{{ site.data.main.link }}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.link }}</id>
+ <id>{{ site.data.main.link }}</id>
  <author>
-   <name>{{ site.name }}</name>
+   <name>{{ site.data.main.name }}</name>
  </author>
 
  {% for post in site.posts %}

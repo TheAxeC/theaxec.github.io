@@ -1,4 +1,6 @@
 <head>
+  <title>{% if page.title %} {{ page.title }} {% else %} {{ site.data.main.name }} {% endif %}</title>
+
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106916104-1"></script>
   <script>
@@ -13,15 +15,23 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{% if page.title %} {{ page.title }} {% else %} {{ site.name }} {% endif %}</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- syntax highlighting CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/syntax.css">
-
   <!-- custom CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/main.css" media="screen">
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/syntax.css" media="screen">
+
+  {% if page.resume %}
+    <!-- <link href="{{ site.baseurl }}/res/css/cv-screen.css" type="text/css" rel="stylesheet" media="screen"> -->
+    <!-- <link href="{{ site.baseurl }}/res/css/cv-print.css" type="text/css" rel="stylesheet" media="print"> -->
+
+    <!-- imports -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  {% endif %}
 
   <!-- redirection of 404 error -->
   {% if page.url == "/404.html" %}
