@@ -11,7 +11,11 @@
     {% endif %}
   </h3>
   <div class="about-content">
+    <div class="news-location">
+      {{ item.role }}
+    </div>
     <small> {{ item.duration }} </small>
+
     <div class="description-project">
       {{ item.about | newline_to_br | markdownify }}
     </div>

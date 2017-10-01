@@ -2,25 +2,31 @@ title: Honors & Awards
 awards:
   - title: Honoursprogramme of Faculty of Engineering Science
     date: 2017-10-04 15:59:00-0400
-    content: "Research track: 18 ECTS (2 projects of 9 ECTS) completed in 2016-2017. "
+    location: KU Leuven, Belgium
+    content: >
+      Research track: 18 ECTS (2 projects of 9 ECTS) completed in 2016-2017.
     # Honours programmes are extra challenging study programmes that go beyond what you learn in a standard programme. The Faculty of Engineering Science offers a honoursprogramme for students to work on 'Bildung' and 'Beruf'. 'Bildung' represents the developments of values, culture and citizenship. 'Beruf' represents professional skills, leadership and entrepreneurship.
 
   - title: 3rd place in ICFP 2017 Student Research Competition
     date: 2017-09-01 15:59:00-0400
-
-  - title: 3rd place in ACM CHI 2016 Student Design Competition (Interaction Design and User Experience.)
-    date: 2016-05-01 15:59:00-0400
+    location: Oxford, UK
 
   - title: Bachelor Award in Computer Science
     date: 2016-07-01 15:59:00-0400
+    location: UHasselt, Belgium
     content: >
-      UHasselt <br/>
       Award presented by the examination committee of Computer Science at Hasselt University for meritorious achievements, and contribution to a positive image of the bachelor in Computer Science.
+
+  - title: 3rd place in ACM CHI 2016 Student Design Competition (Interaction Design and User Experience.)
+    date: 2016-05-01 15:59:00-0400
+    location: San Jose, CA, USA
 
   - title: 2nd place in BeGDC (Belgian Game Development Championship)
     date: 2016-02-01 15:59:00-0400
+    location: Brussel, Belgium
     # content: De Nationale Loterij and Vasco Data Security
 
   - title: IELTS - Academic Module (8.0/9.0)
     date: 2016-01-01 15:59:00-0400
+    location: Brussel, Belgium
     # content: An international standardised test of English language proficiency for non-native English language speakers.

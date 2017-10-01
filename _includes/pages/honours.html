@@ -8,6 +8,9 @@
       <div class="news-announcement">
         {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}
         <div class="news-location">
+          {{ item.location }}
+        </div>
+        <div class="news-location">
           {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
         </div>
       </div>
