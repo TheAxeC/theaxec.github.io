@@ -41,7 +41,7 @@ posters:
       - authors: Axel Faes and Tom Schrijvers
         title: "Towards a core language with row-based effects for optimised compilation"
         url: "/papers/posters/icfp-2017-src.pdf"
-        book: ICFP 2017 SRC
+        book: International Conference on Functional Programming 2017 Student Research Competition
 talks:
     title: Talks
     url: /papers/talks
