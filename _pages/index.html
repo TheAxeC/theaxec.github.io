@@ -6,14 +6,14 @@ float: left
 ---
 
 <div class="academic-title">
-  {% include pages/title.html %}
+  {% include pages/title.html title=site.data.main.intro %}
 </div>
 
 
 <div class="academic academic-left-column">
-  <h2 class="academic">{{ site.data.main.description-title }} </h2>
+  <h2 class="academic">{{ site.data.main.description.title }} </h2>
   <div class="description">
-    {{ site.data.main.description | newline_to_br | markdownify }}
+    {{ site.data.main.description.content | newline_to_br | markdownify }}
   </div>
 
   {% include pages/education.html %}
