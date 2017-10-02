@@ -6,7 +6,7 @@
     <div class="news">
       <time class="news-date" itemprop="datePublished" datetime="{{ item.date | date: "%Y-%m-%d"}}">{{ item.date | date: "%b, %Y" }}</time>
       <div class="news-announcement">
-        {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}
+        <b>{{ item.award }}, </b> {{ item.event }}
         <div class="news-location">
           {{ item.location }}
         </div>

@@ -3,27 +3,30 @@ references:
   - name: Axel Faes
     url: https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ
     platform: Google Scholar
-    icon: fa-google
 
   - name: axelfaes
     url: https://www.linkedin.com/in/axelfaes
     platform: LinkedIn
-    icon: fa-linkedin
 
   - name: Who's Who
     url: https://www.kuleuven.be/wieiswie/en/person/00117812
     platform: KU Leuven
-    icon: fa-university
 
   - name: TheAxeC
     url: https://github.com/TheAxeC
     platform: Github
-    icon: fa-github
 
   - name: TheAxeC
     url: https://twitter.com/TheAxeC
     platform: Twitter
-    icon: fa-twitter
+
+  - name: TheAxeC
+    url: https://www.reddit.com/user/TheAxeC/
+    platform: Reddit
+
+  - name: Axel Faes
+    url: https://kuleuven.academia.edu/AxelFaes
+    platform: Academia.edu
 
   - name: RSS Feed Blog
     url: http://theaxec.github.com/atom.xml

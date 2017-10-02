@@ -1,9 +1,9 @@
 {% if site.data.research.active %}
   <h2 class="academic">{{ site.data.research.title }} </h2>
 
-  {% if site.data.research.current.size > 0 %}
-    <h3 class="academic">Currently working on </h3>
-    {% assign interests = site.data.research.current %}
+  {% if site.data.research.current.content.size > 0 %}
+    <h3 class="academic">{{ site.data.research.current.title }}</h3>
+    {% assign interests = site.data.research.current.content %}
     {% for item in interests %}
       <div class="interest">
         <div class="news-interest">{{ item.partof }}</div>
@@ -15,9 +15,9 @@
   {% else %}
   {% endif %}
 
-  {% if site.data.research.thinking.size > 0 %}
-    <h3 class="academic">Future research </h3>
-    {% assign interests = site.data.research.thinking %}
+  {% if site.data.research.thinking.content.size > 0 %}
+    <h3 class="academic">{{ site.data.research.thinking.title }}</h3>
+    {% assign interests = site.data.research.thinking.content %}
     {% for item in interests %}
       <div class="interest">
         <div class="news-interest">{{ item.partof }}</div>
@@ -29,9 +29,9 @@
   {% else %}
   {% endif %}
 
-  {% if site.data.research.interests.size > 0 %}
-    <h3 class="academic">Interests </h3>
-    {% assign interests = site.data.research.interests %}
+  {% if site.data.research.interests.content.size > 0 %}
+    <h3 class="academic">{{ site.data.research.interests.title }} </h3>
+    {% assign interests = site.data.research.interests.content %}
     {% for item in interests %}
       <div class="interest">
         <div class="news-interest">{{ item.title }}</div>

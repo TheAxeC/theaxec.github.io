@@ -1,7 +1,8 @@
-title: Experience report of Axel Faes
+title: Work & Research Experience
 experience:
   - title: "Research Internship: Quasi-Monte Carlo points on collections of triangles"
     location: KU Leuven
+    city: Leuven, Belgium
     datetime: 2017-05-01 15:59:00-0400
     duration: Sep. 2017 - Current
     about: |
@@ -10,6 +11,7 @@ experience:
 
   - title: "Student Job: Creating System Identification course"
     location: KU Leuven
+    city: Leuven, Belgium
     datetime: 2017-05-01 15:59:00-0400
     duration: Sep. 2017 - Current
     about: |
@@ -18,6 +20,7 @@ experience:
 
   - title: "Research Assistant: design of type-&-effect system for Eff  based on row polymorphism"
     location: KU Leuven
+    city: Leuven, Belgium
     datetime: 2017-05-01 15:59:00-0400
     duration: Apr. 2017 - Oct. 2017
     about: |
@@ -28,6 +31,7 @@ experience:
 
   - title: "Research Assistent: efficient compilation of algebraic effect handlers"
     location: KU Leuven
+    city: Leuven, Belgium
     datetime: 2017-04-01 15:59:00-0400
     duration: Sep. 2016 - Apr. 2017
     about: |
@@ -37,6 +41,7 @@ experience:
 
   - title: "Web performance research intern"
     location: Expertise centre for Digital Media (EDM), UHasselt
+    city: Hasselt, Belgium
     datetime: 2016-09-01 15:59:00-0400
     duration: Jul. 2016 - Sep. 2016
     about: |
@@ -46,6 +51,7 @@ experience:
 
   - title: Summer Internship Physical Computing
     location: Expertise centre for Digital Media (EDM), UHasselt
+    city: Hasselt, Belgium
     datetime: 2016-09-01 15:59:00-0400
     duration: Aug. 2015 - Sep. 2015
     about: |

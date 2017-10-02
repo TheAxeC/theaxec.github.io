@@ -1,11 +1,40 @@
 name: Axel Faes
+first-name: Axel
+last-name: Faes
 position: Computer Science Engineering Student
 position-full: Msc. Artificial Intelligence and Msc. Computer Science Engineering Student
 affiliation: KU Leuven
 
-github:
-  url: https://github.com/TheAxeC
+background: Computer Engineer
+expert: Artificial Intelligence Expert
+
+homepage: theaxec.github.io
+link: https://theaxec.github.io
+
+myanimelist:
+  name: TheAxe
+  url: "https://myanimelist.net/profile/TheAxe"
+linkedin:
+  name: axelfaes
+  url: https://www.linkedin.com/in/axelfaes/
+twitter:
+  name: "@TheAxeC"
+  url: https://twitter.com/TheAxeC
+scholar:
+  name: abRAHJEAAAAJ
+  url: https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ
+kuleuven:
+  name: 00117812
+  url: https://www.kuleuven.be/wieiswie/en/person/00117812
+reddit:
   name: TheAxeC
+  url: https://www.reddit.com/user/TheAxeC/
+academia:
+  name: Axel Faes
+  url: https://kuleuven.academia.edu/AxelFaes
+github:
+  name: TheAxeC
+  url: https://github.com/TheAxeC
 email:
   personal:
     email: axel.faes@gmail.com
@@ -14,9 +43,17 @@ email:
     email: axel.faes@student.kuleuven.be
     print: axel.faes[at]student.kuleuven.be
 
-intro: On the interests and accomplishments of Axel Faes
+natural-languages:
+  title: Natural Languages
+  content:
+    - language: English
+      skill: "Fluent (IELTS: 8.0/9.0)"
+    - language: Dutch
+      skill: Mothertongue
+    - language: French
+      skill: Basic Knowledge
 
-link: https://theaxec.github.io
+intro: On the interests and accomplishments of Axel Faes
 blog:
   title: "A Grad Story: a journey of a thousand words"
   subtitle: "Every story begins with a single word"
