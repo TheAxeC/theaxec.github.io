@@ -6,7 +6,14 @@
     <div class="news">
       <time class="news-date" itemprop="datePublished" datetime="{{ item.date | date: "%Y-%m-%d"}}">{{ item.date | date: "%b, %Y" }}</time>
       <div class="news-announcement">
-        <b>{{ item.award }}, </b> {{ item.event }}
+        {% if item.url and item.url != "" %}
+          <a href="{{ item.url }}" class="academic">
+            <b>{{ item.award }}, </b>
+          </a>
+        {% else %}
+          <b>{{ item.award }}, </b>
+        {% endif %}
+        {{ item.event }}
         <div class="news-location">
           {{ item.location }}
         </div>
