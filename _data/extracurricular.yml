@@ -1,5 +1,17 @@
 title: Extracurricular Activities
 extracurricular:
+  - role: Student Representative
+    group: KU Leuven
+    location: Leuven, Belgium
+    datetime: 2016-08-01 15:59:00-0400
+    duration: Sep. 2017 - Current
+    about:
+      - POC of Master Computer Science Engineering
+      - POC of Advanced Master Artificial Intelligence
+      - Member of Departmental council of Computer Science
+      - Member of Department board of Computer Science
+      - Member of Faculty council of Engineering Science
+
   - role: Coach
     group: CoderDojo Belgium
     location: Uasselt, PXL

@@ -28,6 +28,10 @@ references:
     url: https://kuleuven.academia.edu/AxelFaes
     platform: Academia.edu
 
+  - name: Axel Faes
+    url: http://theaxec.github.com/cv.pdf
+    platform: CV
+
   - name: RSS Feed Blog
     url: http://theaxec.github.com/atom.xml
     platform: atom.xml

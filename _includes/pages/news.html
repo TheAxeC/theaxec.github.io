@@ -1,21 +1,30 @@
 
 <h2 class="academic">{{ site.data.main.media.title }}</h2>
 {% if site.news.size > 0 %}
+  {% assign counter = 1 %}
   <div>
   {% assign news = site.news | sort: 'datetime' | reverse %}
   {% for item in news limit: site.news_limit %}
-    <div class="news">
-      <time class="news-date" itemprop="datePublished" datetime="{{ item.datetime | date: "%Y-%m-%d"}}">{{ item.datetime | date: "%b %-d, %Y" }}</time>
-      <div class="news-announcement">
-        {% if item.inline %}
-          {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-        {% else %}
-          <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-        {% endif %}
+    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+    {% capture newstime %}{{item.datetime | date: '%s'}}{% endcapture %}
+    {% if newstime >= nowunix %}
+      {% assign counter=counter | plus:1 %}
+      <div class="news">
+        <time class="news-date" itemprop="datePublished" datetime="{{ item.datetime | date: "%Y-%m-%d"}}">{{ item.datetime | date: "%b %-d, %Y" }}</time>
+        <div class="news-announcement">
+          {% if item.inline %}
+            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+          {% else %}
+            <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+          {% endif %}
+        </div>
       </div>
-    </div>
+    {% endif %}
   {% endfor %}
   </div>
+  {% if counter > 0 %}
+    <p class="academic">No news so far...</p>
+  {% endif %}
 {% else %}
   <p class="academic">No news so far...</p>
 {% endif %}

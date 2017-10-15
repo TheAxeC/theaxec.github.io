@@ -1,8 +1,6 @@
 title: Research
 active: true
 
-content: nothing
-
 current:
   title: Currently working on
   content:
@@ -14,11 +12,10 @@ current:
       partof: student job
 
 thinking:
-  title:
+  title: Future work
   content:
-    # - title: Reinforcement Learning in Google Deepmind’s StarCraft II Framework
-    #   partof: masterthesis-ai
-
+     - title: Reinforcement Learning in Google Deepmind’s StarCraft II Framework
+       partof: "capita selecta: artificial intelligence"
 
 interests:
   title: Research Interests

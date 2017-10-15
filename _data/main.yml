@@ -1,3 +1,7 @@
+########################
+# Personal information #
+########################
+
 name: Axel Faes
 first-name: Axel
 last-name: Faes
@@ -7,6 +11,10 @@ affiliation: KU Leuven
 
 background: Computer Engineer
 expert: Artificial Intelligence Expert
+
+#########################
+# Reference information #
+#########################
 
 homepage: theaxec.github.io
 link: https://theaxec.github.io
@@ -43,6 +51,10 @@ email:
     email: axel.faes@student.kuleuven.be
     print: axel.faes[at]student.kuleuven.be
 
+#####################
+# Natural languages #
+#####################
+
 natural-languages:
   title: Natural Languages
   content:
@@ -52,6 +64,19 @@ natural-languages:
       skill: Mothertongue
     - language: French
       skill: Basic Knowledge
+
+###############
+# Description #
+###############
+
+description:
+  title: Abstract
+  content: |
+    I am a Msc. Artificial Intelligence and Msc. Computer Science Engineering student at KU Leuven. My main interests include program optimization, numerical linear algebra, artificial intelligence, virtual reality, neural computing and brain-computer interfaces. I am participating in the Honoursprogramme of the Faculty of Engineering Science (research track) at KU Leuven. I am also a big supporter of Open Source Software.
+
+###################
+# Website content #
+###################
 
 intro: On the interests and accomplishments of Axel Faes
 blog:
@@ -63,6 +88,10 @@ media:
   title: "News"
 error: 404 Page Not Found
 
+##################
+# Website footer #
+##################
+
 footer:
   left:
     title: README.md
@@ -70,11 +99,10 @@ footer:
   right:
     title: Axel Faes
 
+##########
+# Discus #
+##########
+
 discus:
   name: theaxe
   embed: //theaxe.disqus.com/embed.js
-
-description:
-  title: Abstract
-  content: |
-    I am a Msc. Artificial Intelligence and Msc. Computer Science Engineering student at KU Leuven. My main interests include program optimization, numerical linear algebra, artificial intelligence, virtual reality, neural computing and brain-computer interfaces. I am participating in the Honoursprogramme of the Faculty of Engineering Science (research track) at KU Leuven. I am also a big supporter of Open Source Software.
