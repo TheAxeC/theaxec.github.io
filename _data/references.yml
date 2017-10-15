@@ -29,9 +29,9 @@ references:
     platform: Academia.edu
 
   - name: Axel Faes
-    url: http://theaxec.github.com/cv.pdf
+    url: http://theaxec.github.io/cv.pdf
     platform: CV
 
   - name: RSS Feed Blog
-    url: http://theaxec.github.com/atom.xml
+    url: http://theaxec.github.io/atom.xml
     platform: atom.xml
