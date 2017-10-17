@@ -6,6 +6,8 @@ current:
   content:
     - title: Algebraic subtyping for algebraic effects and handlers
       partof: masterthesis-cs
+    - title: An Information Theoretical Approach to EEG Source-Reconstructed Connectivity
+      partof: masterthesis-ai
     - title: Quasi monte-carlo points on collections of triangles
       partof: research internship
     - title: Construction of system identification course
