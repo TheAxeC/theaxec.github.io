@@ -1,10 +1,18 @@
 title: Educational background
 education:
+  # - title: Doctoral Programme in Biomedical Science (PhD) in Computational Neuroscience
+  #   location: KU Leuven
+  #   city: Leuven, Belgium
+  #   datetime: 2018-07-01 15:59:00-0400
+  #   duration: Sep. 2018 - Sep. 2022
+  #   specialization: Brain-computer interfaces
+
   - title: Advanced Master of Science in Engineering (M.Sc.) in Artificial Intelligence
     location: KU Leuven
     city: Leuven, Belgium
     datetime: 2018-07-01 15:59:00-0400
     duration: Sep. 2017 - Jul. 2018
+    # grade: "expected 80% - Magna Cum Laude"
     specialization: Engineering and Computer Science
 
   - title: Master of Science in Engineering (M.Sc.) in Computer Science (Burgelijk Ingenieur - ir.)
@@ -12,6 +20,7 @@ education:
     city: Leuven, Belgium
     datetime: 2018-07-01 15:59:00-0400
     duration: Sep. 2016 - Jul. 2018
+    # grade: "expected 77% - Magna Cum Laude"
     specialization: Artificial Intelligence & Theoretical Computer Science
 
   - title: "Bachelor of Science (B.Sc.) in Computer Science"
