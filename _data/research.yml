@@ -8,8 +8,8 @@ current:
       partof: masterthesis-cs
     - title: An Information Theoretical Approach to EEG Source-Reconstructed Connectivity
       partof: masterthesis-ai
-    - title: Quasi monte-carlo points on collections of triangles
-      partof: research internship
+    # - title: Quasi monte-carlo points on collections of triangles
+    #   partof: research internship
     - title: Construction of system identification course
       partof: student job
 
