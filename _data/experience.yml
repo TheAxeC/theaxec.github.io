@@ -30,7 +30,7 @@ experience:
       Research group: DTAI
       Part of the Honoursprogramme of the Faculty of Engineering Science (research track).  My project is part of the C1 project: Algebraic Effect Handlers: Harnessing the Fundamental Power of Effects. Eff is a functional programming language that uses handlers to handle all kinds of effects. These effects could be I/O, exceptions, user-defined, etc. My task is to design, implement, benchmark and formally proof new optimisations in the Eff compiler. The compiler is written in OCaml.
 
-  - title: "Web performance research intern"
+  - title: "Web Performance Research Internship"
     location: Expertise centre for Digital Media (EDM), UHasselt
     city: Hasselt, Belgium
     datetime: 2016-09-01 15:59:00-0400
@@ -40,7 +40,7 @@ experience:
       My work involved creating multiple usecases to measure website performance. The main focus is on the difference between the http versions (http1.1, https, http2).
       During the project, I had to utilise multiple servers, maintain and extend the nodejs framework used to measure website performance, and manually optimize commercial websites using PHP, JS, HTML and CSS.
 
-  - title: Summer Internship Physical Computing
+  - title: Summer Research Internship Physical Computing
     location: Expertise centre for Digital Media (EDM), UHasselt
     city: Hasselt, Belgium
     datetime: 2016-09-01 15:59:00-0400
