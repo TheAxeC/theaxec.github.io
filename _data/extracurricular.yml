@@ -1,5 +1,14 @@
 title: Extracurricular Activities
 extracurricular:
+  - role: DjangoGirls coach
+    group: KU Leuven
+    location: Leuven, Belgium
+    datetime: 2016-08-01 15:59:00-0400
+    duration: Mar. 2018 - Current
+    about:
+      - We inspire women to fall in love with programming.
+      - Django Girls organize free Python and Django workshops, create open sourced online tutorials and curate amazing first experiences with technology.
+
   - role: Student Representative
     group: KU Leuven
     location: Leuven, Belgium

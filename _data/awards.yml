@@ -1,5 +1,13 @@
 title: Honors & Awards
 awards:
+  - award: Finalist
+    event: Cyber Security Challenge
+    date: 2018-03-24 15:59:00-0400
+    location: Brussels, Belgium
+    url: https://www.cybersecuritychallenge.be
+    content: >
+      A Capture The Flag (CTF) challenge-based game covering a wide range of security issues. 
+
   - award: Honoursprogramme
     event: of the Faculty of Engineering Science
     date: 2017-10-04 15:59:00-0400
