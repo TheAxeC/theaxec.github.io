@@ -13,7 +13,7 @@ current:
     - title: Construction of system identification course
       partof: student job
     - title: Reinforcement Learning Agent in Google Deepmind’s StarCraft II Framework
-       partof: "capita selecta: artificial intelligence"
+      partof: "capita selecta: artificial intelligence"
 
 thinking:
   title: Future work
