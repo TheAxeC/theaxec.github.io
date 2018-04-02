@@ -15,9 +15,9 @@ current:
     - title: Reinforcement Learning Agent in Google Deepmind’s StarCraft II Framework
        partof: "capita selecta: artificial intelligence"
 
-# thinking:
-#   title: Future work
-#   content:
+thinking:
+  title: Future work
+  content:
 #      - title: Reinforcement Learning in Google Deepmind’s StarCraft II Framework
 #        partof: "capita selecta: artificial intelligence"
 
