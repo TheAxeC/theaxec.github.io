@@ -12,12 +12,14 @@ current:
     #   partof: research internship
     - title: Construction of system identification course
       partof: student job
-
-thinking:
-  title: Future work
-  content:
-     - title: Reinforcement Learning in Google Deepmind’s StarCraft II Framework
+    - title: Reinforcement Learning Agent in Google Deepmind’s StarCraft II Framework
        partof: "capita selecta: artificial intelligence"
+
+# thinking:
+#   title: Future work
+#   content:
+#      - title: Reinforcement Learning in Google Deepmind’s StarCraft II Framework
+#        partof: "capita selecta: artificial intelligence"
 
 interests:
   title: Research Interests
