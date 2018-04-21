@@ -51,6 +51,12 @@ book-chapters:
 other-publications:
     title: Other publication
     url: /papers/other
+    papers:
+        - authors: Matija Pretnar, Amr Hany Shehata Saleh, Axel Faes and Tom Schrijvers
+          title: "Efficient compilation of algebraic effects and handlers"
+          url: "/papers/other/CW708.pdf"
+          book: "2017 - CW Reports, CW708, 32 pp. Leuven, Belgium: Department of Computer Science, KU Leuven."
+
 papers-in-preparation:
     title: Papers in Preparation
     url: /papers/preparation
