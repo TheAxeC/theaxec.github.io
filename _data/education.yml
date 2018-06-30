@@ -1,11 +1,11 @@
 title: Educational background
 education:
-  # - title: Doctoral Programme in Biomedical Science (PhD) in Computational Neuroscience
-  #   location: KU Leuven
-  #   city: Leuven, Belgium
-  #   datetime: 2018-07-01 15:59:00-0400
-  #   duration: Sep. 2018 - Sep. 2022
-  #   specialization: Brain-computer interfaces and neural engineering
+  - title: Doctoral Programme in Biomedical Science (PhD) in Computational Neuroscience
+    location: KU Leuven
+    city: Leuven, Belgium
+    datetime: 2018-07-01 15:59:00-0400
+    duration: Sep. 2018 - Sep. 2022
+    specialization: Brain-computer interfaces and Neural Engineering
 
   - title: Advanced Master of Science in Engineering (M.Sc.) in Artificial Intelligence
     location: KU Leuven

@@ -1,5 +1,15 @@
 title: Work & Research Experience
 experience:
+  - title: "Phd Candidate (FWO-Aspirant Fellowship)"
+    location: KU Leuven
+    city: Leuven, Belgium
+    datetime: 2017-05-01 15:59:00-0400
+    duration: Oct. 2018 - Current
+    about: |
+      Project: "Graph-based model of information diffusion in the human brain for studying event-related potentials"
+      Promoter: Prof. Marc van Hulle
+      Group:  Computational Neuroscience, Laboratory for Neuro-and Psychophysiology, KU Leuven
+
   - title: "Student Job: Creating System Identification course"
     location: KU Leuven
     city: Leuven, Belgium
