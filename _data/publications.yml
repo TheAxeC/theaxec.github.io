@@ -18,6 +18,10 @@ thesis:
         title: "Machine learning techniques for flow-based network intrusion detection systems"
         url: "https://github.com/TheAxeC/machine-learning-techniques-for-flow-based-network-intrusion-detection-systems"
         book: Bachelor's thesis 2016
+      - authors: Axel Faes
+        title: "Algebraic Subtyping for Algebraic Effects and Handlers"
+        url: "https://github.com/TheAxeC/algebraic-subtyping-for-algebraic-effects-and-handlers"
+        book: Master's Thesis 2018
 abstracts:
     title: Extended Abstracts
     url: /papers/abstracts/
