@@ -6,6 +6,10 @@ conference:
     title: Conference Papers
     url: /papers/conference/
     papers:
+        - authors: Robin Marx, Maarten Wijnants, Peter Quax, Axel Faes, Wim Lamotte
+          title: "Web Performance Characteristics of HTTP/2 and comparison to HTTP/1.1"
+          url: "/papers/conference/WebPerfCharacteristicsOfH2_MarxRobin_13aug2017.pdf"
+          book: "International Conference on Web Information Systems and Technologies, pg 87-114"
         - authors: Robin Marx, Peter Quax, Axel Faes and Wim Lamotte
           title: "Concatenation, embedding and sharding: Do HTTP/1 performance best practices make sense in HTTP/2?"
           url: "/papers/conference/h2bestpractices_RobinMarx_WEBIST2017.pdf"
@@ -15,19 +19,19 @@ thesis:
     url: /papers/thesis/
     papers:
       - authors: Axel Faes
-        title: "Machine learning techniques for flow-based network intrusion detection systems"
-        url: "https://github.com/TheAxeC/machine-learning-techniques-for-flow-based-network-intrusion-detection-systems"
-        book: Bachelor's thesis 2016
-      - authors: Axel Faes
         title: "Algebraic Subtyping for Algebraic Effects and Handlers"
         url: "https://github.com/TheAxeC/algebraic-subtyping-for-algebraic-effects-and-handlers"
         book: Master's Thesis 2018
+      - authors: Axel Faes
+        title: "Machine learning techniques for flow-based network intrusion detection systems"
+        url: "https://github.com/TheAxeC/machine-learning-techniques-for-flow-based-network-intrusion-detection-systems"
+        book: Bachelor's thesis 2016
 abstracts:
     title: Extended Abstracts
     url: /papers/abstracts/
     papers:
       - authors: Axel Faes and Tom Schrijvers
-        title: "Towards a core language with row-based effects for optimised compilation"
+        title: "Towards a Core Language with Row-Based Effects for Optimised Compilation"
         url: "/papers/abstracts/icfp-2017-src.pdf"
         book: International Conference on Functional Programming 2017 Student Research Competition
       - authors: Kashyap Todi, Brent Berghmans, Axel Faes and Matthijs Kaminski
@@ -43,7 +47,7 @@ posters:
     url: /papers/posters/
     papers:
       - authors: Axel Faes and Tom Schrijvers
-        title: "Towards a core language with row-based effects for optimised compilation"
+        title: "Towards a Core Language with Row-Based Effects for Optimised Compilation"
         url: "/papers/posters/icfp-2017-src.pdf"
         book: International Conference on Functional Programming 2017 Student Research Competition
 talks:
