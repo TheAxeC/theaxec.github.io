@@ -7,7 +7,7 @@ projects:
     city: Leuven, Belgium
     role: Advanced Master's Thesis
     about: |
-        This thesis takes an information theoretical approach, which concerns model-free, probability based methods such as Conditional Mutual Information, Directed Information, and Directed feature information. We will investigate how these measures are affected by volume conduction, using as ground truth connectivity between simulated cortical sources in the brainstorm toolbox. In order to validate our methods further, these tools will also be compared with their statistical counterparts such as partial correlation, granger causality and dynamic causal modelling.
+        This thesis takes an information theoretical approach, which concerns model-free, probability based methods such as Conditional Mutual Information, Directed Information, and Directed feature information. We will investigate how these measures are affected by volume conduction, using as ground truth connectivity between simulated cortical sources in the brainstorm toolbox. In order to validate our methods further, these tools will also be compared with their statistical counterparts such as partial correlation, granger causality and dynamic causal modelling. Final score - 17/20
 
   - title: Algebraic Subtyping for Algebraic Effects and Handlers
     url: "https://github.com/TheAxeC/algebraic-subtyping-for-algebraic-effects-and-handlers"
@@ -16,7 +16,7 @@ projects:
     city: Leuven, Belgium
     role: Master's Thesis
     about: |
-        Extending Algebraic Subtyping to incorperate support for algebraic effects and handlers
+        Extending Algebraic Subtyping to incorperate support for algebraic effects and handlers. Final score - 19/20
 
   - title: Reinforcement Learning Agent in Google Deepmind’s StarCraft II Framework - CSAI
     url: ""

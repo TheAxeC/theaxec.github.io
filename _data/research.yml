@@ -4,8 +4,6 @@ active: true
 current:
   title: Currently working on
   content:
-    - title: An Information Theoretical Approach to EEG Source-Reconstructed Connectivity
-      partof: masterthesis-ai
 
 thinking:
   title: Future work
@@ -27,4 +25,6 @@ interests:
     - title: Neuroscience
       content:
         - Neural Computing
+        - Connectomics
+        - Brain Network Analysis
         - Brain Computer Interfaces

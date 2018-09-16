@@ -19,6 +19,10 @@ thesis:
     url: /papers/thesis/
     papers:
       - authors: Axel Faes
+        title: An Information Theoretical Approach to EEG Source-Reconstructed Connectivity
+        url: "https://github.com/TheAxeC/an-information-theoretical-approach-to-eeg-source-reconstructed-connectivity"
+        book: Advanced Master's Thesis 2018
+      - authors: Axel Faes
         title: "Algebraic Subtyping for Algebraic Effects and Handlers"
         url: "https://github.com/TheAxeC/algebraic-subtyping-for-algebraic-effects-and-handlers"
         book: Master's Thesis 2018
