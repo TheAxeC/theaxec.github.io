@@ -7,7 +7,7 @@ projects:
     city: Leuven, Belgium
     role: Advanced Master's Thesis
     about: |
-        This thesis takes an information theoretical approach, which concerns model-free, probability based methods such as Conditional Mutual Information, Directed Information, and Directed feature information. We will investigate how these measures are affected by volume conduction, using as ground truth connectivity between simulated cortical sources in the brainstorm toolbox. In order to validate our methods further, these tools will also be compared with their statistical counterparts such as partial correlation, granger causality and dynamic causal modelling. Final score - 17/20
+        This thesis takes an information theoretical approach, which concerns model-free, probability based methods such as Conditional Mutual Information, Directed Information, and Directed feature information. - 17/20
 
   - title: Algebraic Subtyping for Algebraic Effects and Handlers
     url: "https://github.com/TheAxeC/algebraic-subtyping-for-algebraic-effects-and-handlers"
@@ -91,7 +91,7 @@ projects:
     city: Manchester, UK
     role: Team Leader
     about: |
-      A summer school which focuses on teamwork in cross-cultural and multidisciplinary teams, global product development and entrepreneurship. Our team developed a start-up idea on Food Management/Delivery system. Product pitch took place at the end of the course for feedbacks from professionals and for potential commercialisation. Our team consisted of Axel Faes, Linh Chi Evelyn Phan, Reinaert Van de Cruys and Maria Barouh.
+      A summer school which focuses on teamwork in cross-cultural and multidisciplinary teams, global product development and entrepreneurship. Our team developed a start-up idea on Food Management/Delivery system. Product pitch took place at the end of the course for feedbacks from professionals. Our team consisted of Axel Faes, Linh Chi Evelyn Phan, Reinaert Van de Cruys and Maria Barouh.
 
   - title: "PSOPV: Visual Programming IDE"
     url: https://github.com/TheAxeC/AxeSki

@@ -11,7 +11,7 @@ position-full: Msc. Artificial Intelligence and Msc. Computer Science Engineerin
 affiliation: KU Leuven
 
 background: Computer Engineer
-expert: Artificial Intelligence Expert
+expert: Doctoral Student
 location: Leuven, Belgium
 
 #########################
@@ -50,8 +50,8 @@ email:
     email: axel.faes@gmail.com
     print: axel.faes[at]gmail.com
   university:
-    email: axel.faes@student.kuleuven.be
-    print: axel.faes[at]student.kuleuven.be
+    email: axel.faes@kuleuven.be
+    print: axel.faes[at]kuleuven.be
 
 #####################
 # Natural languages #
@@ -74,7 +74,7 @@ natural-languages:
 description:
   title: Abstract
   content: |
-    I am a Msc. Artificial Intelligence and Msc. Computer Science Engineering student at KU Leuven. My main interests include algebraic effect handlers, program optimization, type systems, graph theory, artificial intelligence, neural computing and brain-computer interfaces. I am participating in the Honoursprogramme of the Faculty of Engineering Science (research track) at KU Leuven. I am also a big supporter of Open Source Software.
+    I am a Doctoral Student in Biomedical Science in Computational Neuroscience at KU Leuven. My main interests include algebraic effect handlers, program optimization, graph theory, connectivity analyses, neural computing and brain-computer interfaces. I am also a big supporter of Open Source Software.
 
 ###################
 # Website content #
