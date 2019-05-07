@@ -16,9 +16,9 @@ permalink: /tags/
 {% assign sorted_cats = site.tags | sort %}
 {% for category in sorted_cats %}
 {% assign sorted_posts = category[1] | reversed %}
-<a href="/category/{{category[0] | uri_escape | downcase | slugify }}">
+<!-- <a href="/category/{{category[0] | uri_escape | downcase | slugify }}"> -->
 <h3 id="{{category[0] | uri_escape | downcase | slugify }}" class='category text-center'>{{category[0] | camelcase }}</h3>
-</a>
+<!-- </a> -->
 	{% for post in sorted_posts %}
 	{% unless post.draft %}
 

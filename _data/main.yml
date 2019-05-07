@@ -92,10 +92,11 @@ error: 404 Page Not Found
 
 navigation: 
   - blog 
-  - experience
-  - extracurricular
-  - projects
+  # - experience
+  # - extracurricular
+  # - projects
   - publications
+  - background
 
 ##################
 # Website footer #
