@@ -1,22 +1,19 @@
 title: Publications
 journal:
     title: International Journal Papers
-    url: /papers/journal/
 conference:
     title: Conference Papers
-    url: /papers/conference/
     papers:
         - authors: Robin Marx, Maarten Wijnants, Peter Quax, Axel Faes, Wim Lamotte
           title: "Web Performance Characteristics of HTTP/2 and comparison to HTTP/1.1"
-          url: "/papers/conference/WebPerfCharacteristicsOfH2_MarxRobin_13aug2017.pdf"
+          url: "/publications/conference/WebPerfCharacteristicsOfH2_MarxRobin_13aug2017.pdf"
           book: "International Conference on Web Information Systems and Technologies, pg 87-114"
         - authors: Robin Marx, Peter Quax, Axel Faes and Wim Lamotte
           title: "Concatenation, embedding and sharding: Do HTTP/1 performance best practices make sense in HTTP/2?"
-          url: "/papers/conference/h2bestpractices_RobinMarx_WEBIST2017.pdf"
+          url: "/publications/conference/h2bestpractices_RobinMarx_WEBIST2017.pdf"
           book: "WEBIST 2017 - Proceedings of the 13th International Conference on Web Information Systems and Technologies"
 thesis:
     title: Thesis
-    url: /papers/thesis/
     papers:
       - authors: Axel Faes
         title: An Information Theoretical Approach to EEG Source-Reconstructed Connectivity
@@ -32,49 +29,42 @@ thesis:
         book: Bachelor's thesis 2016
 abstracts:
     title: Extended Abstracts
-    url: /papers/abstracts/
     papers:
       - authors: Axel Faes and Tom Schrijvers
         title: "Towards a Core Language with Row-Based Effects for Optimised Compilation"
-        url: "/papers/abstracts/icfp-2017-src.pdf"
+        url: "/publications/abstracts/icfp-2017-src.pdf"
         book: International Conference on Functional Programming 2017 Student Research Competition
       - authors: Kashyap Todi, Brent Berghmans, Axel Faes and Matthijs Kaminski
         title: "Purpose-Centric Appropriation of Everyday Objects as Game Controllers"
-        url: "/papers/abstracts/purpose-centric-lbw.pdf"
+        url: "/publications/abstracts/purpose-centric-lbw.pdf"
         book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Late Breaking Work"
       - authors: Kashyap Todi, Donald Degraen, Brent Berghmans, Axel Faes, Matthijs Kaminski and Kris Luyten
         title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons"
-        url: "/papers/abstracts/purpose-centric-sgc.pdf"
+        url: "/publications/abstracts/purpose-centric-sgc.pdf"
         book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Student Game Competition"
 posters:
     title: Posters
-    url: /papers/posters/
     papers:
       - authors: Axel Faes and Tom Schrijvers
         title: "Towards a Core Language with Row-Based Effects for Optimised Compilation"
-        url: "/papers/posters/icfp-2017-src.pdf"
+        url: "/publications/posters/icfp-2017-src.pdf"
         book: International Conference on Functional Programming 2017 Student Research Competition
 talks:
     title: Talks
-    url: /papers/talks
 book-chapters:
     title: Book Chapters
-    url: /papers/books
 other-publications:
     title: Other publication
-    url: /papers/other
     papers:
         - authors: Matija Pretnar, Amr Hany Shehata Saleh, Axel Faes and Tom Schrijvers
           title: "Efficient compilation of algebraic effects and handlers"
-          url: "/papers/other/CW708.pdf"
+          url: "/publications/other/CW708.pdf"
           book: "2017 - CW Reports, CW708, 32 pp. Leuven, Belgium: Department of Computer Science, KU Leuven."
 
 papers-in-preparation:
     title: Papers in Preparation
-    url: /papers/preparation
 news:
     title: Talks, presentations and other media
-    url: /papers/media/
     papers:
       - title: Honours student Axel Faes wins bronze medal in ACM SIGPLAN
         date: 2017-09-19 15:59:00-0400

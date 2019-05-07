@@ -19,14 +19,14 @@
 	<div class="post-header-content">
 		<h1>{{ page.title }}</h1>
 
-		<h5><strong>{{ page.date | date: "%B %e, %Y" }} <small>. <a href="/category/{{ page.category }}"><u>{{ page.category }}</u></a>
+		<h5><strong>{{ page.date | date: "%B %e, %Y" }} <small>. <a href="/categories/"><u>{{ page.category }}</u></a>
 
 		{% if page.comments %}
 		. <a href="{{ site.data.main.link }}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">Comments</a>
 		{% endif %}
 
 		</small></strong>
-		<br/><small>Tags: {% for tag in page.tags %} <a href="/tags/{{ tag }}/" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a>  {% if forloop.last != true %} {% endif %} {% endfor %} </small><br/><br/>
+		<br/><small>Tags: {% for tag in page.tags %} <a href="/tags/" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a>  {% if forloop.last != true %} {% endif %} {% endfor %} </small><br/><br/>
 		</h5>
 	</div>
 </div>

@@ -1,5 +1,5 @@
 {% if include.publication.papers.size > 0 %}
-<a href="{{ include.publication.url }}"> <h2 class="academic">{{ include.publication.title }}</h2> </a>
+<h2 class="academic">{{ include.publication.title }}</h2>
 <div class="about-content">
     {% assign papers = include.publication.papers %}
     {% for item in papers %}

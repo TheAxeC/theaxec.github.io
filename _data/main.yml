@@ -90,6 +90,13 @@ media:
   title: "News"
 error: 404 Page Not Found
 
+navigation: 
+  - blog 
+  - experience
+  - extracurricular
+  - projects
+  - publications
+
 ##################
 # Website footer #
 ##################

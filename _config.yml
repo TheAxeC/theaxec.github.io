@@ -8,7 +8,7 @@ permalink: /blog/:categories/:title
 # Jekyll
 # -----------------------------------------------------------------------------
 
-include: ['_pages', '_rss']
+include: ['_pages']
 
 markdown: kramdown
 highlighter: rouge
@@ -21,11 +21,6 @@ plugins:
 # -----------------------------------------------------------------------------
 
 collections:
-  papers:
-    defaults:
-      layout: academic
-    output: true
-    permalink: /papers/:path/
   news:
     defaults:
       layout: academic
