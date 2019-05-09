@@ -16,12 +16,13 @@ education:
     specialization: Engineering and Computer Science
 
   - title: Honoursprogramme of the Faculty of Engineering Science
+    # url: https://eng.kuleuven.be/studeren/engineering-essentials/honoursprogramma
     location: KU Leuven
     city: Leuven, Belgium
     datetime: 2017-10-01 15:59:00-0400
     duration: Sep. 2016 - Oct. 2018
     # grade: "76% - Cum Laude"
-    specialization: Research track - 18 ECTS (2 projects of 9 ECTS) completed in 2016-2017.
+    specialization: Research track - 18 ECTS (2 projects of 9 ECTS) completed in 2016 - 2017.
 
   - title: Master of Science in Engineering (M.Sc.) in Computer Science (Burgelijk Ingenieur - ir.)
     location: KU Leuven

@@ -16,16 +16,16 @@ float: left
     {{ site.data.main.description.content | newline_to_br | markdownify }}
   </div>
 
-  {% include pages/education.html %}
+  {% include pages/news.html %}
 
-  {% include pages/honours.html %}
+  {% include pages/education.html %}
 </div>
 
 
 <div class="academic academic-right-column">
-  {% include pages/news.html %}
-
   {% include pages/research.html %}
+
+  {% include pages/honours.html %}
 
   {% include pages/references.html %}
 </div

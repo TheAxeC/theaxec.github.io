@@ -8,14 +8,14 @@ awards:
     content: >
       A Capture The Flag (CTF) challenge-based game covering a wide range of security issues. 
 
-  - award: Honoursprogramme
-    event: of the Faculty of Engineering Science
-    date: 2017-10-04 15:59:00-0400
-    location: KU Leuven, Belgium
-    url: https://eng.kuleuven.be/studenten/engineering-essentials-ingenieurscompetenies/honoursprogramma/honoursprogramma
-    content: >
-      Research track: 18 ECTS (2 projects of 9 ECTS) completed in 2016-2017.
-    # Honours programmes are extra challenging study programmes that go beyond what you learn in a standard programme. The Faculty of Engineering Science offers a honoursprogramme for students to work on 'Bildung' and 'Beruf'. 'Bildung' represents the developments of values, culture and citizenship. 'Beruf' represents professional skills, leadership and entrepreneurship.
+  # - award: Honoursprogramme
+  #   event: of the Faculty of Engineering Science
+  #   date: 2017-10-04 15:59:00-0400
+  #   location: KU Leuven, Belgium
+  #   url: https://eng.kuleuven.be/studeren/engineering-essentials/honoursprogramma
+  #   content: >
+  #     Research track: 18 ECTS (2 projects of 9 ECTS) completed in 2016-2017.
+  #   # Honours programmes are extra challenging study programmes that go beyond what you learn in a standard programme. The Faculty of Engineering Science offers a honoursprogramme for students to work on 'Bildung' and 'Beruf'. 'Bildung' represents the developments of values, culture and citizenship. 'Beruf' represents professional skills, leadership and entrepreneurship.
 
   - award: 3rd place
     event: ICFP 2017 Student Research Competition
