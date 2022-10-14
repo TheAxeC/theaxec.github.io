@@ -84,10 +84,28 @@ other-publications:
 students:
     title: Students
     papers:
+        - authors: Aurélie de Borman
+          title: Investigating the effect of Source Mixing on Directed Connectivity estimated between Simulated Reconstructed EEG Sources
+          url: 
+          book: Internship Student
+        - authors: Diogo Sousa Morais
+          title: Estimating the effectiveness of source localized EEG for BCIs
+          url: 
+          book: Internship Student
+        - authors: Guilherme de Borras Silva
+          title: Cluster Permutation Analysis of N-Back related EEG-ERP Data
+          url: 
+          book: Internship Student
+        - authors: Iris Vantieghem
+          title: Using Neural Networks to derive Directed Connectivity between Reconstructed EEG Sources
+          url: 
+          book: Master of Science in Artificial Intelligence (2020-2021)
         - authors: Didier Quintius
           title: Neural Network Approach to the Inverse Problem
           url: 
           book: Master of Science in Artificial Intelligence (2020-2021)
+        
+        
 papers-in-preparation:
     title: Papers in Preparation
 news:
