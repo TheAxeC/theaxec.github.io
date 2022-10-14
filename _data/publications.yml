@@ -1,6 +1,23 @@
 title: Publications
 journal:
     title: International Journal Papers
+    papers:
+        - authors: Axel Faes, Marc M. Van Hulle
+          title: Finger movement and coactivation predicted from intracranial brain activity using extended Block-Term Tensor Regression
+          url: ""
+          book: Journal of Neural Engineering
+        - authors: Axel Faes, Flavio Camarrone, Marc M. Van Hulle
+          title: Single finger trajectory prediction from intracranial brain activity using Block-Term Tensor Regression with fast and automatic component extraction
+          url: ""
+          book: IEEE Transactions on Neural Networks and Learning Systems
+        - authors: Axel Faes, Aurelie de Borman, Marc M. Van Hulle
+          title: Source space reduction for eLORETA
+          url: "/publications/journal/TheAxeC/source-space-reduction-for-eloreta"
+          book: Journal of Neural Engineering
+        - authors: Axel Faes, Iris Vantieghem, Marc M. Van Hulle
+          title: Neural Networks for Directed Connectivity Estimation in Source-Reconstructed EEG Data
+          url: "/publications/journal/neural-networks-for-directed-connectivity-estimation-in-source-reconstructed-eeg-data"
+          book: Applied Sciences
 conference:
     title: Conference Papers
     papers:
@@ -30,6 +47,10 @@ thesis:
 abstracts:
     title: Extended Abstracts
     papers:
+      - authors: Axel Faes, Mansoureh Fahimi Hnazaee, and Marc M. Van Hulle
+        title: Causal Graphical Modelling of Functional Connectivity from Reconstructed EEG Sources
+        url: https://bcisociety.org/wp-content/uploads/2021/05/vBCI-Abstract-Book-.pdf
+        book: 8th International BCI Meeting (2021)
       - authors: Axel Faes and Tom Schrijvers
         title: "Towards a Core Language with Row-Based Effects for Optimised Compilation"
         url: "/publications/abstracts/icfp-2017-src.pdf"
@@ -60,7 +81,13 @@ other-publications:
           title: "Efficient compilation of algebraic effects and handlers"
           url: "/publications/other/CW708.pdf"
           book: "2017 - CW Reports, CW708, 32 pp. Leuven, Belgium: Department of Computer Science, KU Leuven."
-
+students:
+    title: Students
+    papers:
+        - authors: Didier Quintius
+          title: Neural Network Approach to the Inverse Problem
+          url: 
+          book: Master of Science in Artificial Intelligence (2020-2021)
 papers-in-preparation:
     title: Papers in Preparation
 news:
