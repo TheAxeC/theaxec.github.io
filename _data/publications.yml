@@ -33,6 +33,10 @@ thesis:
     title: Thesis
     papers:
       - authors: Axel Faes
+        title: "Finger Movement Decoding: From Source-Localisation to Tensor Regression Modelling"
+        url: ""
+        book: PhD Thesis 2023
+      - authors: Axel Faes
         title: An Information Theoretical Approach to EEG Source-Reconstructed Connectivity
         url: "https://github.com/TheAxeC/an-information-theoretical-approach-to-eeg-source-reconstructed-connectivity"
         book: Advanced Master's Thesis 2018
@@ -108,6 +112,8 @@ students:
         
 papers-in-preparation:
     title: Papers in Preparation
+
+
 news:
     title: Talks, presentations and other media
     papers:

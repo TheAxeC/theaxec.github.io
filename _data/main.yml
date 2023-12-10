@@ -3,15 +3,15 @@
 ########################
 
 name: Axel Faes
-age: 24
+age: 29
 first-name: Axel
 last-name: Faes
-position: PhD Fellow
-position-full: PhD Fellow in Biomedical Sciences - Computational Neuroscience
+position: Postdoc
+position-full: Postdoc Computational Neuroscience
 affiliation: KU Leuven
 
 background: Computer Engineer
-expert: Doctoral Student
+expert: PostDoctoral Researcher
 location: Leuven, Belgium
 
 #########################
@@ -74,7 +74,7 @@ natural-languages:
 description:
   title: Abstract
   content: |
-    I am a Doctoral Student in Biomedical Science in Computational Neuroscience at KU Leuven. My main interests include algebraic effect handlers, program optimization, graph theory, connectivity analyses, neural computing and brain-computer interfaces. I am also a big supporter of Open Source Software.
+    I am a Postdoctoral Researcher in Biomedical Science in Computational Neuroscience at KU Leuven. My main interests include neural computing, big data analysis and brain-computer interfaces. I am also a big supporter of Open Source Software.
 
 ###################
 # Website content #

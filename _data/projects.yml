@@ -1,5 +1,14 @@
 title: Projects
 projects:
+  - title: "Finger Movement Decoding: From Source-Localisation to Tensor Regression Modelling"
+    url: ""
+    datetime: 2017-05-01 15:59:00-0400
+    duration: Sep. 2018 - May. 2023
+    city: Leuven, Belgium
+    role: PhD
+    about: |
+        Brain-Computer Interfaces (BCIs) are hailed for bypassing defective neural pathways by translating brain activity directly into actions that convey the user's intent. How the kinematics of muscular activity relates to the motor- and somatosensory activity in the brain has been the focus of recent advancements. With such motor BCIs, amputees are able to gain control over a prosthesis and stroke patients to regain control over a paralyzed limb via electrical stimulation of their dysfunctional muscles or via an exoskeleton that supports the intended movements. The superior spatio-temporal resolution, bandwidth, and recording stability of electrocorticography (ECoG), a partially invasive brain recording technique, yields a new outlook on motor BCI applications. Despite some stunning successes in arm- and hand movement control from ECoG, the precise decoding of finger movements, which is essential for daily activities, is still lacking. A possible reason is that current decoders rely on conventional one- or two-way regression models, which might not adequately capture the intricate relation between neural activity and intended and unintended (such as coactivations) finger movements. The main objective of this PhD is to develop a robust, accurate, and quick-to-train decoder that predicts single- and coordinated finger trajectories from ECoG recordings. We used multiway decoders as they preserve the multilinear structure of the data while taking advantage of potentially hidden multilinear components. We demonstrated cutting-edge performance with the proposed decoders. As multiway models tend to be slow to train, which may become a significant obstacle for their clinical adoption, we also investigated whether the proposed multiway decoders could be used in a real-time setting. The findings support the relevance of the proposed multiway decoders for real-time ECoG-based finger activity, providing in this way an outlook on achieving hand dexterity.
+
   - title: An Information Theoretical Approach to EEG Source-Reconstructed Connectivity
     url: "https://github.com/TheAxeC/an-information-theoretical-approach-to-eeg-source-reconstructed-connectivity"
     datetime: 2017-05-01 15:59:00-0400

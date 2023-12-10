@@ -1,12 +1,22 @@
 title: Work & Research Experience
 experience:
+  - title: "Postdoc"
+    location: KU Leuven
+    city: Leuven, Belgium
+    datetime: 2017-05-01 15:59:00-0400
+    duration: May 2023 - Current
+    about: |
+      Project: "Sign Language Alphabet decoding from intracranial brain activity"
+      Promoter: Prof. Marc van Hulle
+      Group:  Computational Neuroscience, Laboratory for Neuro-and Psychophysiology, KU Leuven
+
   - title: "Phd Candidate (FWO-Aspirant Fellowship)"
     location: KU Leuven
     city: Leuven, Belgium
     datetime: 2017-05-01 15:59:00-0400
-    duration: Oct. 2018 - Current
+    duration: Oct. 2018 - May 2023
     about: |
-      Project: "Graph-based model of information diffusion in the human brain for studying event-related potentials"
+      Project: "Finger Movement Decoding: From Source-Localisation to Tensor Regression Modelling"
       Promoter: Prof. Marc van Hulle
       Group:  Computational Neuroscience, Laboratory for Neuro-and Psychophysiology, KU Leuven
 
@@ -14,7 +24,7 @@ experience:
     location: KU Leuven
     city: Leuven, Belgium
     datetime: 2017-05-01 15:59:00-0400
-    duration: Sep. 2017 - Current
+    duration: Sep. 2017 - Sep. 2018
     about: |
       Faculty of Engineering Science: ESAT (Electrical Engineering)
       Research group: STADIUS
