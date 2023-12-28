@@ -117,6 +117,22 @@ papers-in-preparation:
 news:
     title: Talks, presentations and other media
     papers:
+      - title: voordracht met als titel "Decoding finger movements from invasive recordings in human motor cortex" ("Decoderen van vingerbewegingen uit invasieve registraties in de motorische cortex van de mens"), Mindseed event Leuven
+        date: 2023-04-25 15:59:00-0400
+        url: "https://www.ntxl.org/mindseed"
+        from: georganiseerd door NeuroTech Leuven
+      - title: BCI demo op Advanced Engineering, Antwerp Expo,
+        date: 2022-05-11 15:59:00-0400
+        url: "https://www.ae-expo.be/en/"
+        from: georganiseerd door AI Vlaanderen, Vlaanderen Industrie 4.0
+      - title: BCI demo op de "Dag van de Wetenschap", georganiseerd door Technopolis
+        date: 2021-11-28 15:59:00-0400
+        url: ""
+        from: georganiseerd door Technopolis (geannuleerd wegens de covid-19 situatie)
+      - title: voordracht met als titel "'MINDSPELLER’ Medical Research Project on Brain Computer Interfaces" \& concert (in samenwerking met Tigran Maytesian en zijn Mind Speller Chamber Orchestra)
+        date: 2019-11-07 15:59:00-0400
+        url: ""
+        from: Kathedraal van Sint-Michiel en Sint-Goedele, Brussel
       - title: Honours student Axel Faes wins bronze medal in ACM SIGPLAN
         date: 2017-09-19 15:59:00-0400
         url: "http://wms.cs.kuleuven.be/cs/nieuws/honours-student-axel-faes-wins-bronze-model-in-acm-sigplan"
