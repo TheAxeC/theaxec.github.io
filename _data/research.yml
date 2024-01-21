@@ -12,6 +12,16 @@ thinking:
 interests:
   title: Research Interests
   content:
+    - title: Biomedical Data Science
+      content:
+        - Epidemology
+        - Knowledge representation
+    - title: Neuroscience
+      content:
+        - Neural Computing
+        - Connectomics
+        - Brain Network Analysis
+        - Brain Computer Interfaces
     - title: Programming Language Theory
       content:
         - Algebraic Effect Handlers
@@ -22,9 +32,6 @@ interests:
         - Machine Learning
         - Reinforcement Learning
         - Virtual Reality
-    - title: Neuroscience
-      content:
-        - Neural Computing
-        - Connectomics
-        - Brain Network Analysis
-        - Brain Computer Interfaces
+
+
+        
