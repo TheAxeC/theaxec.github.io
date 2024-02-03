@@ -8,26 +8,10 @@ references:
     url: https://www.linkedin.com/in/axelfaes
     platform: LinkedIn
 
-  - name: Who's Who
-    url: https://www.kuleuven.be/wieiswie/en/person/00117812
-    platform: KU Leuven
-
   - name: TheAxeC
     url: https://github.com/TheAxeC
     platform: Github
 
-  - name: TheAxeC
-    url: https://twitter.com/TheAxeC
-    platform: Twitter
-
-  - name: Axel Faes
-    url: https://kuleuven.academia.edu/AxelFaes
-    platform: Academia.edu
-
   - name: Axel Faes
     url: http://theaxec.github.io/cv.pdf
     platform: CV
-
-  - name: RSS Feed Blog
-    url: http://theaxec.github.io/atom.xml
-    platform: atom.xml

@@ -73,12 +73,12 @@ media:
 error: 404 Page Not Found
 
 navigation: 
-  - blog 
+  # - blog 
   # - experience
   # - extracurricular
   # - projects
   - publications
-  - background
+  # - background
 
 ##################
 # Website footer #
