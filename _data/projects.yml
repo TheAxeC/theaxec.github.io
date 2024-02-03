@@ -1,49 +1,34 @@
 title: Projects
 projects:
-  - title: "Finger Movement Decoding: From Source-Localisation to Tensor Regression Modelling"
-    url: ""
-    datetime: 2017-05-01 15:59:00-0400
-    duration: Sep. 2018 - May. 2023
-    city: Leuven, Belgium
-    role: PhD
+  - title: "Cardinal: scripting language"
+    url: https://github.com/TheAxeC/Cardinal
+    datetime: 2015-09-01 15:59:00-0400
+    duration: Jan. 2015 - Current
+    city: Hasselt, Belgium
+    role: Lead Developer
+    min: true
     about: |
-        Brain-Computer Interfaces (BCIs) are hailed for bypassing defective neural pathways by translating brain activity directly into actions that convey the user's intent. How the kinematics of muscular activity relates to the motor- and somatosensory activity in the brain has been the focus of recent advancements. With such motor BCIs, amputees are able to gain control over a prosthesis and stroke patients to regain control over a paralyzed limb via electrical stimulation of their dysfunctional muscles or via an exoskeleton that supports the intended movements. The superior spatio-temporal resolution, bandwidth, and recording stability of electrocorticography (ECoG), a partially invasive brain recording technique, yields a new outlook on motor BCI applications. Despite some stunning successes in arm- and hand movement control from ECoG, the precise decoding of finger movements, which is essential for daily activities, is still lacking. A possible reason is that current decoders rely on conventional one- or two-way regression models, which might not adequately capture the intricate relation between neural activity and intended and unintended (such as coactivations) finger movements. The main objective of this PhD is to develop a robust, accurate, and quick-to-train decoder that predicts single- and coordinated finger trajectories from ECoG recordings. We used multiway decoders as they preserve the multilinear structure of the data while taking advantage of potentially hidden multilinear components. We demonstrated cutting-edge performance with the proposed decoders. As multiway models tend to be slow to train, which may become a significant obstacle for their clinical adoption, we also investigated whether the proposed multiway decoders could be used in a real-time setting. The findings support the relevance of the proposed multiway decoders for real-time ECoG-based finger activity, providing in this way an outlook on achieving hand dexterity.
+      Written in C (and since 2023, in C++14). High performance (on par with Luajit 2.1 -joff).
 
-  - title: An Information Theoretical Approach to EEG Source-Reconstructed Connectivity
-    url: "https://github.com/TheAxeC/an-information-theoretical-approach-to-eeg-source-reconstructed-connectivity"
-    datetime: 2017-05-01 15:59:00-0400
-    duration: Feb. 2018 - Jul. 2018
-    city: Leuven, Belgium
-    role: Advanced Master's Thesis
-    about: |
-        This thesis takes an information theoretical approach, which concerns model-free, probability based methods such as Conditional Mutual Information, Directed Information, and Directed feature information. - 17/20
-
-  - title: Algebraic Subtyping for Algebraic Effects and Handlers
-    url: "https://github.com/TheAxeC/algebraic-subtyping-for-algebraic-effects-and-handlers"
-    datetime: 2017-05-01 15:59:00-0400
-    duration: Feb. 2018 - Jul. 2018
-    city: Leuven, Belgium
-    role: Master's Thesis
-    about: |
-        Extending Algebraic Subtyping to incorperate support for algebraic effects and handlers. Final score - 19/20
-
-  - title: Reinforcement Learning Agent in Google Deepmind’s StarCraft II Framework - CSAI
+  - title: Reinforcement Learning Agent in Google Deepmind’s StarCraft II Framework
     url: ""
     datetime: 2017-05-01 15:59:00-0400
     duration: Feb. 2018 - Jul. 2018
     city: Leuven, Belgium
     role: Developer
+    min: true
     about: |
-        Implement several learning algorithms in PySC2
+        Implement reinforcement learning algorithms in PySC2 utilising the KU Leuven supercomputer.
 
-  - title: Software Architecture course - Project
+  - title: IoT-platform with pluggable sensors
     url: ""
     datetime: 2017-05-01 15:59:00-0400
     duration: Feb. 2017 - Jul. 2017
     city: Leuven, Belgium
     role: Developer
+    min: true
     about: |
-      Project made for the course ’Software Architecture’. The goal was to design a software architecture in UML for a IoT-platform concerning pluggable sensors. The platform allows storage of customer data and the use of third party applications for data analytics. Final score - 18/20
+      Showcase large-scale use of Internet of Things sensors
 
   - title: ICAL parser for KU Leuven schedules
     url: https://github.com/TheAxeC/ical-kuleuven
@@ -51,62 +36,38 @@ projects:
     duration: Aug. 2016 - Current
     city: Leuven, Belgium
     role: Lead Developer
+    min: true
     about: |
-      An nodejs application to create an iCalender file for courses at KU Leuven. Allows the creation of a schedule containing courses from different masters and the option to ignore events.
+      An nodejs application to create an iCalender file for courses at KU Leuven. (>1000 active users)
 
-  - title: Machine learning techniques for flow-based network intrusion detection systems
-    url: https://github.com/TheAxeC/Machine-learning-techniques-for-flow-based-network-intrusion-detection-systems
-    datetime: 2016-07-01 15:59:00-0400
-    duration: Feb. 2016 - Jul. 2016
-    city: Hasselt, Belgium
-    role: Bachelor's Thesis
-    about: |
-      The thesis gives an overview of how machine learning algorithms could be used for intrusion detection using only IP Flows. The system has been used to detect intrusions in Cegeka Hasselt Datacenter network.
-
-  - title: "Software engineering: Search and Recommendation System"
+  - title: "Search and Recommendation System"
     url: ""
     datetime: 2016-07-01 15:59:00-0400
     duration: Feb. 2016 - Jul. 2016
     city: Hasselt, Belgium
     role: Team Member
+    min: true
     about: |
-      A search and recommendation system for VoD (Video on Demand) for Androme. The system is currently being used in production in the Nebula project. Both Content-Based Recommendations and Collaborative filtering techniques were implemented. Made in a team of 5 (Pieter Teunen, Luuk Raaijmakers, Brent Berghmans, Axel Faes, Matthijs Kaminski, Wouter Bollaert) utilising Java and the Spring framework. Final score - 15/20
+      A search and recommendation system for VoD (Video on Demand) for Androme. 
+      In production in the Nebula project.
 
-  - title: "TTUI:  Household Survival"
+  - title: "Technologies and Tools for User Interfaces: Household Survival"
     url: https://www.youtube.com/watch?v=Q4_rK2upGEY
     datetime: 2015-12-01 15:59:00-0400
     duration: Sep. 2015 - Dec. 2015
     city: Hasselt, Belgium
     role: Researcher
+    min: true
     about: |
-      Project made for the class 'Technologies and Tools for User Interfaces'.
-      A tower-defense style game written in Unity utilising Optitrack motion capture. The game combines the virtual world and reality, by allowing users to interact with the virtual world using real-world objects. Made by Brent Berghmans, Axel Faes and Matthijs Kaminski. Final score - 18/20
+      A tower-defense game written in Unity utilising Optitrack motion capture. 
+      Combine the virtual world and reality using augmented reality
 
-  - title: "Cardinal: scripting language"
-    url: https://github.com/TheAxeC/Cardinal
-    datetime: 2015-09-01 15:59:00-0400
-    duration: Jan. 2015 - Sep. 2015
-    city: Hasselt, Belgium
-    role: Lead Developer
-    about: |
-      Cardinal is a small, fast, class-based, Object Oriented scripting language written in C. It is built upon the skeleton of an existing scripting language and shows how I can modify and improve existing software, as well as design new components to this software.
-
-      New components include a debugger, an embedding API, multiple inheritance and a new module system.
-
-  - title: United in Manchester
-    url: ""
-    datetime: 2015-08-01 15:59:00-0400
-    duration: Jul. 2015 - Aug. 2015
-    city: Manchester, UK
-    role: Team Leader
-    about: |
-      A summer school which focuses on teamwork in cross-cultural and multidisciplinary teams, global product development and entrepreneurship. Our team developed a start-up idea on Food Management/Delivery system. Product pitch took place at the end of the course for feedbacks from professionals. Our team consisted of Axel Faes, Linh Chi Evelyn Phan, Reinaert Van de Cruys and Maria Barouh.
-
-  - title: "PSOPV: Visual Programming IDE"
+  - title: "Visual Programming IDE"
     url: https://github.com/TheAxeC/AxeSki
     datetime: 2015-07-01 15:59:00-0400
     duration: Feb. 2015 - Jul. 2015
     city: Hasselt, Belgium
     role: Developer
+    min: true
     about: |
-      A Visual programming IDE created by Axel Faes & Matthijs Kaminski for a course of Hasselt University. The purpose of the IDE is to create 'black boxes' which can send events (signals packed with data) to eachother. We take the idea of using drag-able blocks in a visual IDE and expand on it. Final score - 17/20
+      A Visual programming IDE (Java)

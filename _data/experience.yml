@@ -1,69 +1,41 @@
 title: Work & Research Experience
 experience:
-  - title: "Postdoc"
+  - title: "Postdoctoral Researcher: Scientific Coordinator and Artificial Intelligence"
+    location: UHasselt
+    city: Hasselt, Belgium
+    datetime: 2017-05-01 15:59:00-0400
+    duration: January 2024 - Current
+    min: true
+    about: |
+      Scientific Coordinator of the Flanders AI Research program, Use Case Real World Evidence.
+      Technical Machine Learning lead of the Biomedical Data Sciences Group
+    
+  - title: "Postdoctoral Researcher: Brain-Computer Interfacing and Machine Learning"
     location: KU Leuven
     city: Leuven, Belgium
     datetime: 2017-05-01 15:59:00-0400
-    duration: May 2023 - Current
+    duration: May 2023 - January 2024
+    min: true
     about: |
       Project: "Sign Language Alphabet decoding from intracranial brain activity"
-      Promoter: Prof. Marc van Hulle
-      Group:  Computational Neuroscience, Laboratory for Neuro-and Psychophysiology, KU Leuven
-
-  - title: "Phd Candidate (FWO-Aspirant Fellowship)"
-    location: KU Leuven
-    city: Leuven, Belgium
-    datetime: 2017-05-01 15:59:00-0400
-    duration: Oct. 2018 - May 2023
-    about: |
-      Project: "Finger Movement Decoding: From Source-Localisation to Tensor Regression Modelling"
-      Promoter: Prof. Marc van Hulle
-      Group:  Computational Neuroscience, Laboratory for Neuro-and Psychophysiology, KU Leuven
-
-  - title: "Student Job: Creating System Identification course"
-    location: KU Leuven
-    city: Leuven, Belgium
-    datetime: 2017-05-01 15:59:00-0400
-    duration: Sep. 2017 - Sep. 2018
-    about: |
-      Faculty of Engineering Science: ESAT (Electrical Engineering)
-      Research group: STADIUS
-
-  - title: "Research Assistant: design of type-&-effect system for Eff  based on row polymorphism"
-    location: KU Leuven
-    city: Leuven, Belgium
-    datetime: 2017-05-01 15:59:00-0400
-    duration: Apr. 2017 - Oct. 2017
-    about: |
-      Faculty of Engineering Science: Computer Science
-      Research group: DTAI
-      Part of the Honoursprogramme of the Faculty of Engineering Science (research track).
-      Topic: Development of an row-based type-&-effect system for the Eff programming language
-
-  - title: "Research Assistent: efficient compilation of algebraic effect handlers"
-    location: KU Leuven
-    city: Leuven, Belgium
-    datetime: 2017-04-01 15:59:00-0400
-    duration: Sep. 2016 - Apr. 2017
-    about: |
-      Faculty of Engineering Science: Computer Science
-      Research group: DTAI
-      Part of the Honoursprogramme of the Faculty of Engineering Science (research track).  My project is part of the C1 project: Algebraic Effect Handlers: Harnessing the Fundamental Power of Effects. Eff is a functional programming language that uses handlers to handle all kinds of effects. These effects could be I/O, exceptions, user-defined, etc. My task is to design, implement, benchmark and formally proof new optimisations in the Eff compiler. The compiler is written in OCaml.
-
+      Group: Prof. Marc van Hulle, Computational Neuroscience, Laboratory for Neuro-and Psychophysiology, KU Leuven
+      
   - title: "Web Performance Research Internship"
-    location: Expertise centre for Digital Media (EDM), UHasselt
+    location: UHasselt
     city: Hasselt, Belgium
     datetime: 2016-09-01 15:59:00-0400
     duration: Jul. 2016 - Sep. 2016
+    min: true
     about: |
-      I worked on the iMinds PRO-FLOW project.
-      My work involved creating multiple usecases to measure website performance. The main focus is on the difference between the http versions (http1.1, https, http2).
-      During the project, I had to utilise multiple servers, maintain and extend the nodejs framework used to measure website performance, and manually optimize commercial websites using PHP, JS, HTML and CSS.
+      I worked on the iMinds PRO-FLOW project @ Expertise centre for Digital Media (EDM)
+      focus on the difference between the http versions (http1.1, https, http2).
 
   - title: Summer Research Internship Physical Computing
-    location: Expertise centre for Digital Media (EDM), UHasselt
+    location: UHasselt
     city: Hasselt, Belgium
     datetime: 2016-09-01 15:59:00-0400
     duration: Aug. 2015 - Sep. 2015
+    min: true
     about: |
-      Work on a project which focuses on the interaction between a human entity and a drone, aswell as interaction between the drone and virtual objects. This project is written in C++, used the Optitrack motion capture and a custom created drone.
+      Interfacing between human entity, a drone and virtual objects @ Expertise centre for Digital Media (EDM). 
+      (C++, Optitrack motion capture, custom built drone)
