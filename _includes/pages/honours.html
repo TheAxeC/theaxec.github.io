@@ -1,7 +1,7 @@
-{% if site.data.awards.awards.size > 0 %}
-<h2 class="academic">{{ site.data.awards.title }} </h2>
+{% if site.data.data.awards.content.size > 0 %}
+<h2 class="academic">{{ site.data.data.awards.title }} </h2>
   <div>
-  {% assign awards = site.data.awards.awards | sort: 'date' | reverse %}
+  {% assign awards = site.data.data.awards.content | sort: 'date' | reverse %}
   {% for item in awards %}
     <div class="news">
       <time class="news-date" itemprop="datePublished" datetime="{{ item.date | date: "%Y-%m-%d"}}">{{ item.date | date: "%b, %Y" }}</time>

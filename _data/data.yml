@@ -1,0 +1,283 @@
+personal:
+  name: Axel Faes
+  first-name: Axel
+  last-name: Faes
+  background: Machine Learning Engineer
+  expert: PostDoctoral Researcher
+  ai: Scientific Coordinator
+  website: https://theaxec.github.io
+  links:
+    email: axel.faes@gmail.com
+    website: theaxec.github.io
+    github: TheAxeC
+    linkedin: axelfaes
+    googlescholar: abRAHJEAAAAJ
+
+experience:
+  title: Work & Research Experience
+  content:
+    - title: "Postdoctoral Researcher: Scientific Coordinator and Artificial Intelligence"
+      location: UHasselt
+      city: Hasselt, Belgium
+      datetime: 2017-05-01 15:59:00-0400
+      duration: January 2024 - Current
+      min: true
+      about: |
+        Scientific Coordinator of the Flanders AI Research program, Use Case Real World Evidence.
+        Technical Machine Learning lead of the Biomedical Data Sciences Group, UHasselt
+      
+    - title: "Postdoctoral Researcher: Brain-Computer Interfacing and Machine Learning"
+      location: KU Leuven
+      city: Leuven, Belgium
+      datetime: 2017-05-01 15:59:00-0400
+      duration: May 2023 - January 2024
+      min: true
+      about: |
+        Project: "Sign Language Alphabet decoding from intracranial brain activity"
+        Group: Prof. Marc van Hulle, Computational Neuroscience, Laboratory for Neuro-and Psychophysiology, KU Leuven
+        
+    - title: "Web Performance Research Internship"
+      location: UHasselt
+      city: Hasselt, Belgium
+      datetime: 2016-09-01 15:59:00-0400
+      duration: Jul. 2016 - Sep. 2016
+      min: true
+      about: |
+        I worked on the iMinds PRO-FLOW project @ Expertise centre for Digital Media (EDM)
+        focus on the difference between the http versions (http1.1, https, http2).
+
+    - title: Summer Research Internship Physical Computing
+      location: UHasselt
+      city: Hasselt, Belgium
+      datetime: 2016-09-01 15:59:00-0400
+      duration: Aug. 2015 - Sep. 2015
+      min: true
+      about: |
+        Interfacing between human entity, a drone and virtual objects @ Expertise centre for Digital Media (EDM). 
+        (C++, Optitrack motion capture, custom built drone)
+
+education:
+  title: Educational background
+  content:
+    - title: Doctoral Programme in Biomedical Science (PhD) in Computational Neuroscience
+      location: KU Leuven
+      city: Leuven, Belgium
+      datetime: 2018-07-01 15:59:00-0400
+      duration: Sep. 2018 - May 2023
+      min: true
+      specialization: |
+        Cognitive and Molecular Neuroscience
+        PhD Thesis: Finger Movement Decoding: From Source-Localisation to Tensor Regression Modelling
+
+    - title: Advanced Master of Science in Engineering (M.Sc.) in Artificial Intelligence
+      location: KU Leuven
+      city: Leuven, Belgium
+      datetime: 2019-07-01 15:59:00-0400
+      duration: Sep. 2017 - Jul. 2019
+      grade: "76% - Cum Laude"
+      min: true
+      specialization: |
+        Engineering and Computer Science
+        Thesis: An Information Theoretical Approach to EEG Source-Reconstructed Connectivity (on Github)
+
+    - title: Honoursprogramme of the Faculty of Engineering Science (Research Track)
+      url: https://eng.kuleuven.be/studeren/engineering-essentials/honoursprogramma
+      location: KU Leuven
+      city: Leuven, Belgium
+      datetime: 2017-10-01 15:59:00-0400
+      duration: Sep. 2016 - Oct. 2018
+      min: true
+      specialization: |
+        Research Assistant: design of type-&-effect system for Eff  based on row polymorphism
+        Research Assistent: efficient compilation of algebraic effect handlers (in Eff)
+
+    - title: Master of Science in Engineering (M.Sc.) in Computer Science (Burgelijk Ingenieur - ir.)
+      location: KU Leuven
+      city: Leuven, Belgium
+      datetime: 2018-07-01 15:59:00-0400
+      duration: Sep. 2016 - Sep. 2018
+      grade: "76% - Cum Laude"
+      min: true
+      specialization: |
+        Artificial Intelligence & Theoretical Computer Science
+        Thesis: Algebraic Subtyping for Algebraic Effects and Handlers (on Github)
+
+    - title: "Business Summer School: United in Manchester (0739)"
+      location: The University of Manchester
+      city: Manchester, UK
+      datetime: 2015-08-01 15:59:00-0400
+      duration: Jul. 2015 - Aug. 2015
+      min: true
+      specialization: International Business
+
+    - title: "Bachelor of Science (B.Sc.) in Computer Science"
+      location: UHasselt
+      city: Hasselt, Belgium
+      datetime: 2016-07-01 15:59:00-0400
+      duration: Sep. 2013 - Jul. 2016
+      grade: "79% - Magna Cum Laude"
+      min: true
+      specialization: |
+        Physics and General courses
+        Thesis: Machine learning techniques for flow-based network intrusion detection systems (on Github)
+
+projects:
+  title: Projects
+  content:
+    - title: "Cardinal: scripting language"
+      url: https://github.com/TheAxeC/Cardinal
+      datetime: 2015-09-01 15:59:00-0400
+      duration: Jan. 2015 - Current
+      city: Hasselt, Belgium
+      role: Lead Developer
+      min: true
+      about: |
+        Written in C (and since 2023, in C++14). High performance (on par with Luajit 2.1 -joff).
+
+    - title: Reinforcement Learning Agent in Google Deepmind’s StarCraft II Framework
+      url: ""
+      datetime: 2017-05-01 15:59:00-0400
+      duration: Feb. 2018 - Jul. 2018
+      city: Leuven, Belgium
+      role: Developer
+      min: true
+      about: |
+          Implement reinforcement learning algorithms in PySC2 utilising the KU Leuven supercomputer.
+
+    - title: IoT-platform with pluggable sensors
+      url: ""
+      datetime: 2017-05-01 15:59:00-0400
+      duration: Feb. 2017 - Jul. 2017
+      city: Leuven, Belgium
+      role: Developer
+      min: true
+      about: |
+        Showcase large-scale use of Internet of Things sensors
+
+    - title: ICAL parser for KU Leuven schedules
+      url: https://github.com/TheAxeC/ical-kuleuven
+      datetime: 2017-05-01 15:59:00-0400
+      duration: Aug. 2016 - Current
+      city: Leuven, Belgium
+      role: Lead Developer
+      min: true
+      about: |
+        An nodejs application to create an iCalender file for courses at KU Leuven. (>1000 active users)
+
+    - title: "Search and Recommendation System"
+      url: ""
+      datetime: 2016-07-01 15:59:00-0400
+      duration: Feb. 2016 - Jul. 2016
+      city: Hasselt, Belgium
+      role: Team Member
+      min: true
+      about: |
+        A search and recommendation system for VoD (Video on Demand) for Androme. 
+        In production in the Nebula project.
+
+    - title: "Technologies and Tools for User Interfaces: Household Survival"
+      url: https://www.youtube.com/watch?v=Q4_rK2upGEY
+      datetime: 2015-12-01 15:59:00-0400
+      duration: Sep. 2015 - Dec. 2015
+      city: Hasselt, Belgium
+      role: Researcher
+      min: true
+      about: |
+        A tower-defense game written in Unity utilising Optitrack motion capture. 
+        Combine the virtual world and reality using augmented reality
+
+    - title: "Visual Programming IDE"
+      url: https://github.com/TheAxeC/AxeSki
+      datetime: 2015-07-01 15:59:00-0400
+      duration: Feb. 2015 - Jul. 2015
+      city: Hasselt, Belgium
+      role: Developer
+      min: true
+      about: |
+        A Visual programming IDE (Java)
+
+awards:
+  title: Honors & Awards
+  content:
+    - award: Finalist
+      event: Cyber Security Challenge
+      date: 2018-03-24 15:59:00-0400
+      location: Brussels, Belgium
+      url: https://www.cybersecuritychallenge.be
+      content: >
+        A Capture The Flag (CTF) challenge-based game covering a wide range of security issues. 
+
+    - award: 3rd place
+      event: ICFP 2017 Student Research Competition
+      date: 2017-09-01 15:59:00-0400
+      location: Oxford, UK
+
+    - award: Bachelor Award
+      event: in Computer Science
+      date: 2016-07-01 15:59:00-0400
+      location: UHasselt, Belgium
+      content: >
+        Award presented by the examination committee of Computer Science at Hasselt University for meritorious achievements, and contribution to a positive image of the bachelor in Computer Science.
+
+    - award: 3rd place
+      event: ACM CHI 2016 Student Design Competition (Interaction Design and User Experience.)
+      date: 2016-05-01 15:59:00-0400
+      location: San Jose, CA, USA
+
+    - award: 2nd place
+      event: BeGDC (Belgian Game Development Championship)
+      date: 2016-02-01 15:59:00-0400
+      location: Brussel, Belgium
+
+    - award: IELTS
+      event: Academic Module (8.0/9.0)
+      date: 2016-01-01 15:59:00-0400
+      location: Brussel, Belgium
+
+extracurricular:
+  title: Extracurricular Activities
+  content:
+    - role: Coach
+      group: DjangoGirls
+      location: Leuven, Belgium
+      datetime: 2016-08-01 15:59:00-0400
+      duration: Mar. 2018 - Current
+      about: Inspire women to fall in love with programming (Python, Django workshops)
+
+    - role: Coach 
+      group: CoderDojo
+      location: Uasselt, PXL
+      datetime: 2016-08-01 15:59:00-0400
+      duration: Sep. 2014 - Current
+      about: Teach children programming (Scratch, Python, Minecraft and Lego mindstorm).
+
+    # - role: Student Representative
+    #   group: KU Leuven
+    #   location: Leuven, Belgium
+    #   datetime: 2016-08-01 15:59:00-0400
+    #   duration: Sep. 2017 - Sep. 2018
+    #   about:
+    #     - POC of Master Computer Science Engineering
+    #     - POC of Advanced Master Artificial Intelligence
+    #     - Member of Departmental council of Computer Science
+    #     - Member of Department board of Computer Science
+    #     - Member of Faculty council of Engineering Science
+
+    # - role: Student Council Member
+    #   group: StuRa
+    #   location: UHasselt
+    #   datetime: 2016-08-01 15:59:00-0400
+    #   duration: Mar. 2015 - Aug. 2016
+    #   about:
+    #     - Member of Board of Education, Faculty Council. Board of Student Facilities, Diversity Commission
+    #     - Temporary representative in VVS (Vlaamse Vereniging van Studenten vzw)
+
+    # - role: Student Representative 
+    #   group: UHasselt
+    #   location: Hasselt, Belgium
+    #   datetime: 2013-09-25 15:59:00-0400
+    #   duration: Sep. 2013 - Jul. 2016
+    #   about: 
+    #     - Representing students interests in a Computer Science education context. 
+    #     - This meant discussing with the university in order to improve teaching, learning, assessment and academic services.
+    #     - Representing Computer Science education for high school students

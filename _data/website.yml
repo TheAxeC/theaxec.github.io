@@ -1,0 +1,87 @@
+#########################
+# Reference information #
+#########################
+
+links:
+  myanimelist:
+    name: TheAxe
+    url: "https://myanimelist.net/profile/TheAxe"
+  linkedin:
+    name: axelfaes
+    url: https://www.linkedin.com/in/axelfaes/
+  twitter:
+    name: "@TheAxeC"
+    url: https://twitter.com/TheAxeC
+  scholar:
+    name: abRAHJEAAAAJ
+    url: https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ
+  reddit:
+    name: TheAxeC
+    url: https://www.reddit.com/user/TheAxeC/
+  academia:
+    name: Axel Faes
+    url: https://kuleuven.academia.edu/AxelFaes
+  github:
+    name: TheAxeC
+    url: https://github.com/TheAxeC
+  email:
+    personal:
+      email: axel.faes@gmail.com
+      print: axel.faes[at]gmail.com
+    university:
+      email: axel.faes@uhasselt.be
+      print: axel.faes[at]uhasselt.be
+
+###############
+# Description #
+###############
+
+description:
+  title: Abstract
+  content: |
+    I am a Postdoctoral Researcher in Biomedical Data Sciences at KU Leuven, Belgium. 
+    I'm the Scientific Coordinator of the Flanders AI Research program, Use Case Real World Evidence, currently focussing on applying Machine Learning to cardiovascular, pregnancy, Multiple Sclerosis, epilepsy, and other biomedical data. 
+
+###################
+# Website content #
+###################
+
+header:
+  intro: On the interests and accomplishments of Axel Faes
+  error: 404 Page Not Found
+  navigation: 
+    - publications
+
+######################
+# Website References #
+######################
+
+references:
+  title: References
+  content:
+    - name: Axel Faes
+      url: https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ
+      platform: Google Scholar
+
+    - name: axelfaes
+      url: https://www.linkedin.com/in/axelfaes
+      platform: LinkedIn
+
+    - name: TheAxeC
+      url: https://github.com/TheAxeC
+      platform: Github
+
+    - name: Axel Faes
+      url: http://theaxec.github.io/cv.pdf
+      platform: CV
+
+##################
+# Website footer #
+##################
+
+footer:
+  left:
+    title: README.md
+    url: /README.md
+  right:
+    title: Axel Faes

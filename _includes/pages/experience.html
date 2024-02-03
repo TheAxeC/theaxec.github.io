@@ -1,7 +1,7 @@
-{% if site.data.experience.experience.size > 0 %}
-  <h2 class="academic">{{ site.data.experience.title }} </h2>
+{% if site.data.data.experience.content.size > 0 %}
+  <h2 class="academic">{{ site.data.data.experience.title }} </h2>
   <div>
-  {% assign exp = site.data.experience.experience %}
+  {% assign exp = site.data.data.experience.content %}
   {% for item in exp %}
     <div class="news">
       <time class="news-date" itemprop="datePublished" datetime="{{ item.datetime | date: "%Y-%m-%d"}}">

@@ -3,7 +3,7 @@
 		{% assign pages = site.pages | reverse %}
 		{% for page in pages %}
 			{% if page.title and page.url != "/" and page.float == "right" %}
-				{% if site.data.main.navigation contains page.title %}
+				{% if site.data.website.header.navigation contains page.title %}
 					<div class="nav-button" >
 						<a class="button" href="{{ page.url }}">{{ page.title }}</a>
 					</div>

@@ -1,7 +1,7 @@
-{% if site.data.education.education.size > 0 %}
-<h2 class="academic">{{ site.data.education.title }} </h2>
+{% if site.data.data.education.content.size > 0 %}
+<h2 class="academic">{{ site.data.data.education.title }} </h2>
   <div>
-  {% assign edu = site.data.education.education %}
+  {% assign edu = site.data.data.education.content %}
   {% for item in edu %}
     <div class="news">
       <time class="news-date" itemprop="datePublished" datetime="{{ item.datetime | date: "%Y-%m-%d"}}">

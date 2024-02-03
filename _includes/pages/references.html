@@ -1,13 +1,11 @@
-{% if site.data.references.references.size > 0 %}
-<h2 class="academic">{{ site.data.references.title }} </h2>
-  {% assign references = site.data.references.references %}
+{% if site.data.website.references.content.size > 0 %}
+<h2 class="academic">{{ site.data.website.references.title }} </h2>
+  {% assign references = site.data.website.references.content %}
   {% assign counter = 1 %}
   {% for item in references %}
     [{{ counter }}] {{ item.name }}, <a href="{{ item.url }}" class="academic"> {{ item.platform }} </a>
     <br/>
     {% assign counter=counter | plus:1 %}
   {% endfor %}
-  <!-- <img class="academic" id="about" src="{{ site.baseurl }}/res/img/logo.jpg" /> -->
 {% else %}
-  <!-- <img class="academic" id="about" src="{{ site.baseurl }}/res/img/logo.jpg" /> -->
 {% endif %}
