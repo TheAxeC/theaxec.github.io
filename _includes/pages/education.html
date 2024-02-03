@@ -9,7 +9,7 @@
         {{ item.duration }}
       </time>
       <div class="news-announcement">
-        {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}<br/>
+        <b>{{ item.title | remove: '<p>' | remove: '</p>' | emojify }}</b><br/>
         <div class="news-location">
           {% if item.specialization %}
             {{ item.specialization }} <br/>

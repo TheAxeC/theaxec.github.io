@@ -3,7 +3,7 @@
 <div class="about-content">
     {% assign papers = include.publication.papers %}
     {% for item in papers %}
-    <div class="description-about">
+    <div class="description-about-paper">
   		{{ item.authors }}, <a href="{{ item.url }}" class="about-publication">"{{ item.title }}"</a> {{ item.book }}
     </div>
     {% endfor %}

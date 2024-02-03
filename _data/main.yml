@@ -63,22 +63,10 @@ description:
 ###################
 
 intro: On the interests and accomplishments of Axel Faes
-blog:
-  title: "A Grad Story: a journey of a thousand words"
-  subtitle: "Every story begins with a single word"
-  tags: All Tags
-  category: All Categories
-media:
-  title: "News"
 error: 404 Page Not Found
 
 navigation: 
-  # - blog 
-  # - experience
-  # - extracurricular
-  # - projects
   - publications
-  # - background
 
 ##################
 # Website footer #
@@ -90,11 +78,3 @@ footer:
     url: /README.md
   right:
     title: Axel Faes
-
-##########
-# Discus #
-##########
-
-discus:
-  name: theaxe
-  embed: //theaxe.disqus.com/embed.js

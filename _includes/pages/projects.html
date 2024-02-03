@@ -1,24 +1,33 @@
 {% if site.data.projects.projects.size > 0 %}
   {% assign exp = site.data.projects.projects %}
+  <h2 class="academic">{{ site.data.projects.title }} </h2>
+  <div>
   {% for item in exp %}
-  <h3 class="academic">
-    {% if item.url != "" %}
-      <a href="{{ item.url }}" class="about-link">
-        {{ item.title }}
-      </a>
-    {% else %}
-      {{ item.title }}
-    {% endif %}
-  </h3>
-  <div class="about-content">
-    <div class="news-location">
-      {{ item.role }}
-    </div>
-    <small> {{ item.duration }} </small>
+    <div class="news">
+      <time class="news-date" itemprop="datePublished" datetime="{{ item.datetime | date: "%Y-%m-%d"}}">
+        <!-- {{ item.datetime | date: "%b, %Y" }} -->
+        {{ item.duration }}
+      </time>
+      <div class="news-announcement">
+        <b>
+        {% if item.url != "" %}
+        <a href="{{ item.url }}" class="about-link">
+            {{ item.title}}
+          </a></b>
+        {% else %}
+          {{ item.title}}</b>
+        {% endif %}
+      
+        
+        <div class="news-location">
+          {% if item.about %}
+            {{ item.about | newline_to_br | markdownify }}
+          {% endif %}
 
-    <div class="description-project">
-      {{ item.about | newline_to_br | markdownify }}
+          {{ item.role | remove: '<p>' | remove: '</p>' | emojify }}<br/>
+        </div>
+      </div>
     </div>
-  </div>
   {% endfor %}
+  </div>
 {% endif %}

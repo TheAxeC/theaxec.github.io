@@ -9,14 +9,11 @@ float: left
   {% include pages/title.html title=site.data.main.intro %}
 </div>
 
-
 <div class="academic academic-left-column">
   <h2 class="academic">{{ site.data.main.description.title }} </h2>
   <div class="description">
     {{ site.data.main.description.content | newline_to_br | markdownify }}
   </div>
-
-  {% include pages/news.html %}
 
   {% include pages/experience.html %}
 
@@ -25,13 +22,11 @@ float: left
 
 
 <div class="academic academic-right-column">
-  {% include pages/research.html %}
-
   {% include pages/projects.html %}
 
-  {% include pages/extracurricular.html %}
-
   {% include pages/honours.html %}
+
+  {% include pages/extracurricular.html %}
 
   {% include pages/references.html %}
 </div

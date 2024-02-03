@@ -1,15 +1,24 @@
 {% if site.data.extracurricular.extracurricular.size > 0 %}
   {% assign exp = site.data.extracurricular.extracurricular %}
+  <h2 class="academic">{{ site.data.extracurricular.title }} </h2>
+  <div>
   {% for item in exp %}
-  <h3 class="academic">
-    {{ item.role }} of {{ item.group }}
-  </h3>
-  <div class="about-content">
-    <small class="location">{{ item.location }}</small><br/>
-    <small> {{ item.duration }}</small>
-    <div class="description-project">
-      {{item.about | join: '<br/> ' | newline_to_br | markdownify }}
+    <div class="news">
+      <time class="news-date" itemprop="datePublished" datetime="{{ item.datetime | date: "%Y-%m-%d"}}">
+        <!-- {{ item.datetime | date: "%b, %Y" }} -->
+        {{ item.duration }}
+      </time>
+      <div class="news-announcement">
+        <b>{{ item.role }} of {{ item.group }}</b>
+      
+        
+        <div class="news-location">
+          {% if item.about %}
+            {{ item.about | newline_to_br | markdownify }}
+          {% endif %}
+        </div>
+      </div>
     </div>
-  </div>
   {% endfor %}
+  </div>
 {% endif %}
