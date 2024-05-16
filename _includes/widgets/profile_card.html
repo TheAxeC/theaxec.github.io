@@ -1,0 +1,48 @@
+<div class="row">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-5">
+                <div class="row">
+                    <div class="col">
+                        <p class="h1 font-weight-normal">{{ site.data.website.description.title }} <small>{{ site.data.website.description.subtitle }}</small></p>
+                        <p class="text-profile-position">
+                            {% for position in site.data.website.description.positions %}
+                            <span class="no-break"><img src="{{position.image}}" alt="" class="inline-badge"/></span> <a class="pr-3 no-break" target="_blank" href="{{position.url}}"> {{position.name}} </a><br/>
+                            {% endfor %}
+                        </p>
+                        <p class="text-profile-bio">
+                            {{ site.data.website.description.content }}
+                        </p>
+                    </div>
+                    {% if site.data.website.description.show_portrait %}
+                    <div class="col-md-auto d-none d-md-block">
+                        <figure class="figure">
+                            <img 
+                                src="{{ site.data.website.description.portrait_url }}" 
+                                class="figure-img img-fluid img-thumbnail" 
+                                style="height: 200px;"
+                                data-toggle="tooltip" 
+                                data-placement="top" 
+                                title="{{ site.data.website.description.portrait_caption }}"
+                            >
+                            <figcaption class="figure-caption text-right"></figcaption>
+                        </figure>
+                    </div>
+                    {% endif %}
+        
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col">
+                        {% for content in site.data.website.references.content %}
+                        <a class="pr-3 no-break" target="_blank" href="{{content.url}}">
+                            <i class="{{content.name}}"></i> {{content.platform}}
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>
+

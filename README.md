@@ -23,3 +23,7 @@ Other:
 - _includes/ for html includes of specific parts (navigation, footer, head)
 - _layout/ for the main layouts
 - res/css/
+
+## Starting the server
+
+> bundle exec jekyll serve

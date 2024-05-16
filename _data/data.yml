@@ -6,6 +6,10 @@ personal:
   expert: PostDoctoral Researcher
   ai: Scientific Coordinator
   website: https://theaxec.github.io
+  portrait_url: assets/images/photos/portrait.jpg
+  content: |
+    I am a Postdoctoral Researcher in Biomedical Data Sciences at KU Leuven, Belgium. 
+    I'm the Scientific Coordinator of the Flanders AI Research program, Use Case Real World Evidence, currently focussing on applying Machine Learning to cardiovascular, pregnancy, Multiple Sclerosis, epilepsy, and other biomedical data. 
   links:
     email: axel.faes@gmail.com
     website: theaxec.github.io
@@ -200,7 +204,7 @@ awards:
   title: Honors & Awards
   content:
     - award: Finalist
-      event: Cyber Security Challenge
+      event: Cyber Security Challenge 2018
       date: 2018-03-24 15:59:00-0400
       location: Brussels, Belgium
       url: https://www.cybersecuritychallenge.be
@@ -220,7 +224,7 @@ awards:
         Award presented by the examination committee of Computer Science at Hasselt University for meritorious achievements, and contribution to a positive image of the bachelor in Computer Science.
 
     - award: 3rd place
-      event: ACM CHI 2016 Student Design Competition (Interaction Design and User Experience.)
+      event: ACM CHI 2016 Student Design Competition
       date: 2016-05-01 15:59:00-0400
       location: San Jose, CA, USA
 

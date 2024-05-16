@@ -2,10 +2,13 @@
 # Jekyll
 # -----------------------------------------------------------------------------
 
-include: ['_pages']
-
 markdown: kramdown
 highlighter: rouge
+
+collections:
+  - publications
+
+include: ['_pages']
 
 plugins:
   - jekyll-sitemap

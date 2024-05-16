@@ -1,32 +1,32 @@
 ---
-layout: academic
-title: "publications"
+layout: default
+title : Publications
+navbar_name: Publications
 permalink: /publications/
-float: right
+body_attr: >-
+  data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
 
-<div class="academic-title">
-  <h1>{{ site.data.publications.title }}</h1>
+<div class="row">
+    <div class="col-12 col-lg-10">
+        {% for coll in site.data.publications %}
+        {% if coll[0] != "title" %}
+        <h2 class="pt-4" id="{{ coll[0] }}">{{ coll[1].title }}</h2>
+        <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+            {% for item in coll[1].papers %}
+                {% include widgets/publication_item.html item=item %}
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+    <div class="col-2 d-none d-lg-block">
+        <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
+            {% for coll in site.data.publications %}
+            {% if coll[0] != "title" %}
+            <a class="nav-link d-block" href="#{{ coll[0] }}">{{ coll[1].title }}</a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
 </div>
-
-{% include publications/papers.html publication=site.data.publications.journal %}
-
-{% include publications/papers.html publication=site.data.publications.conference %}
-
-{% include publications/papers.html publication=site.data.publications.abstracts %}
-
-{% include publications/papers.html publication=site.data.publications.thesis %}
-
-{% include publications/papers.html publication=site.data.publications.posters %}
-
-{% include publications/papers.html publication=site.data.publications.book-chapters %}
-
-{% include publications/papers.html publication=site.data.publications.other-publications %}
-
-{% include publications/papers.html publication=site.data.publications.students %}
-
-{% include publications/papers.html publication=site.data.publications.papers-in-preparation %}
-
-{% include publications/papers.html publication=site.data.publications.talks %}
-
-{% include publications/media.html %}

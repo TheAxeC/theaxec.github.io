@@ -1,56 +1,53 @@
-#########################
-# Reference information #
-#########################
-
-links:
-  myanimelist:
-    name: TheAxe
-    url: "https://myanimelist.net/profile/TheAxe"
-  linkedin:
-    name: axelfaes
-    url: https://www.linkedin.com/in/axelfaes/
-  twitter:
-    name: "@TheAxeC"
-    url: https://twitter.com/TheAxeC
-  scholar:
-    name: abRAHJEAAAAJ
-    url: https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ
-  reddit:
-    name: TheAxeC
-    url: https://www.reddit.com/user/TheAxeC/
-  academia:
-    name: Axel Faes
-    url: https://kuleuven.academia.edu/AxelFaes
-  github:
-    name: TheAxeC
-    url: https://github.com/TheAxeC
-  email:
-    personal:
-      email: axel.faes@gmail.com
-      print: axel.faes[at]gmail.com
-    university:
-      email: axel.faes@uhasselt.be
-      print: axel.faes[at]uhasselt.be
-
 ###############
 # Description #
 ###############
 
 description:
-  title: Abstract
+  title: Axel Faes # Abstract
+  subtitle: 
+  positions:
+    - name: 'PostDoctoral Researcher, Machine Learning Engineer and Scientific Coordinator'
+      url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'
+      image: 'assets/images/badges/UHasselt.jpg'
   content: |
     I am a Postdoctoral Researcher in Biomedical Data Sciences at KU Leuven, Belgium. 
-    I'm the Scientific Coordinator of the Flanders AI Research program, Use Case Real World Evidence, currently focussing on applying Machine Learning to cardiovascular, pregnancy, Multiple Sclerosis, epilepsy, and other biomedical data. 
+    I'm the Scientific Coordinator of the Flanders AI Research program, Use Case Real World Evidence, currently focussing on applying Machine Learning to cardiovascular, pregnancy, Multiple Sclerosis, epilepsy, and other biomedical data. </br></br>
+    We envision a world where every single person gets the treatment they deserve in a timely matter.</br></br>
+    We are convinced that data saves lives.  Therefore, we investigate new methods to handle and analyze Big Data in Health & Care.
+  questions:
+    We use the following three key questions to scope our research activities. Only when a new research project or potential future activity leads to a “triple-yes” to these questions, it fits within our scope of interest</br>
+    Will this activity lead to insights that can disrupt the status quo of our health & care system?</br>
+    Do we need “real-world-insights” (and thus so called “Real-World Data)?</br>
+    Is it difficult for data scientists and biomedical researchers to talk to each other?
+  
+  other: 
+    Our Research Group in Biomedical Data Sciences is affiliated to the Biomedical Research Institute (BIOMED), the Data Science Institute of UHasselt (DSI) and the University MS Center (UMSC).
+    What we do?
+    We identify recurrent lessons learned through a series of high-innovative use cases
+    We work in a real-world setting real-world health data + multistakeholder
+    We formulate use-case agnostic recommendations and frameworks social + technical
+    The University of Hasselt aims to foresee high-quality education and believes that the therefore needed foundation is solid academic research, which is also an important link in the innovation chain. Additionally, UHasselt aims to serve the community by being a civic university.
+    Since our research group belongs to the UHasselt, we have different roles to fulfill we investigate, we serve and we educate. As you will see in the overview of our projects, these activities cannot be separated from each other and are most often interlinked. We do research, but in a civic way and try to educate students to the best of our abilities.
+  
+  show_portrait: true
+  portrait_url: assets/images/photos/portrait1.jpeg
+  portrait_caption: 
 
 ###################
 # Website content #
 ###################
 
+banner: /assets/images/covers/banner.webp
 header:
-  intro: On the interests and accomplishments of Axel Faes
-  error: 404 Page Not Found
+  intro: Axel Faes
+  error: The requested page could not be found.
   navigation: 
-    - publications
+    - name: Home
+      url: /
+    - name: About
+      url: /about
+    - name: Publications
+      url: /publications
 
 ######################
 # Website References #
@@ -59,21 +56,29 @@ header:
 references:
   title: References
   content:
-    - name: Axel Faes
+    - name:  fas fa-at
+      url: mailto:axel.faes@uhasselt.be
+      platform: axel.faes[at]uhasselt.be
+
+    - name: fab fa-google-scholar
       url: https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ
       platform: Google Scholar
 
-    - name: axelfaes
+    - name: fab fa-linkedin
       url: https://www.linkedin.com/in/axelfaes
       platform: LinkedIn
 
-    - name: TheAxeC
+    - name: fab fa-github
       url: https://github.com/TheAxeC
       platform: Github
 
-    - name: Axel Faes
+    - name: fas fa-file-alt
       url: http://theaxec.github.io/cv.pdf
-      platform: CV
+      platform: Curriculum Vitae
+
+    - name: fab fa-orcid
+      url: https://orcid.org/0000-0002-1637-255X
+      platform: ORCID
 
 ##################
 # Website footer #
@@ -81,7 +86,25 @@ references:
 
 footer:
   left:
-    title: README.md
-    url: /README.md
+    title: 
+    url: /assets/images/icon.webp
   right:
     title: Axel Faes
+
+##################
+# Authors        #
+##################
+
+authors:
+  "Axel Faes":
+    bold: true
+
+covers:
+  - "/assets/images/covers/cover-A.webp"
+  - "/assets/images/covers/cover-B.webp"
+  - "/assets/images/covers/cover-C.webp"
+  - "/assets/images/covers/cover-D.webp"
+  - "/assets/images/covers/cover-E.webp"
+  - "/assets/images/covers/cover-F.webp"
+  - "/assets/images/covers/cover-G.webp"
+  # - "/assets/images/covers/cover-H.webp"

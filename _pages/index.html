@@ -1,32 +1,22 @@
 ---
-layout: academic
+layout: default
+title : Homepage
+navbar_name: Home
+num_selected: 10
 permalink: /
-title: "home"
-float: left
 ---
+{% include widgets/profile_card.html %}
 
-<div class="academic-title">
-  {% include pages/title.html title=site.data.website.header.intro %}
-</div>
+{% for item in site.data.publications %}
+{% if item[0] != "title" %}
+{% assign pubs_all = pubs_all | concat: item[1].papers %}
+{% endif %}
+{% endfor %}
 
-<div class="academic academic-left-column">
-  <h2 class="academic">{{ site.data.website.description.title }} </h2>
-  <div class="description">
-    {{ site.data.website.description.content | newline_to_br | markdownify }}
-  </div>
-
-  {% include pages/experience.html %}
-
-  {% include pages/education.html %}
-</div>
-
-
-<div class="academic academic-right-column">
-  {% include pages/projects.html %}
-
-  {% include pages/honours.html %}
-
-  {% include pages/extracurricular.html %}
-
-  {% include pages/references.html %}
-</div>
+{% assign pubs = pubs_all
+    | sort: "pub_date" | reverse | where: "selected", true %}
+{% 
+    include widgets/publication_card.html 
+    publications=pubs 
+    title='<i class="fas fa-star"></i> Selected Publications'
+%}

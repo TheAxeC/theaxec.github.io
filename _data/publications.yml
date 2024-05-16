@@ -6,17 +6,30 @@ journal:
           title: Finger movement and coactivation predicted from intracranial brain activity using extended Block-Term Tensor Regression
           url: ""
           book: Journal of Neural Engineering
+          # pub_pre: "Submitted to "
+          # pub_post: 'Under review.'
+          # pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
+          pub_date: 2023
+          selected: true
+          # cover: "/assets/img/publications/journal/journal-1.jpg"
+          # abstract: >-
+          #   Massa ultricies mi quis hendrerit dolor magna. Arcu non odio euismod lacinia at quis risus sed. Et tortor at risus viverra. Enim neque volutpat ac tincidunt. Dictum varius duis at consectetur lorem donec.
+          # links:
+          #   Code: https://github.com/luost26/ChemProjector
         - authors: Axel Faes, Flavio Camarrone, Marc M. Van Hulle
           title: Single finger trajectory prediction from intracranial brain activity using Block-Term Tensor Regression with fast and automatic component extraction
           url: ""
+          pub_date: 2022
           book: IEEE Transactions on Neural Networks and Learning Systems
         - authors: Axel Faes, Aurelie de Borman, Marc M. Van Hulle
           title: Source space reduction for eLORETA
-          url: "/publications/journal/TheAxeC/source-space-reduction-for-eloreta"
+          url: "/publications/journal/source-space-reduction-for-eloreta.pdf"
+          pub_date: 2021
           book: Journal of Neural Engineering
         - authors: Axel Faes, Iris Vantieghem, Marc M. Van Hulle
           title: Neural Networks for Directed Connectivity Estimation in Source-Reconstructed EEG Data
-          url: "/publications/journal/neural-networks-for-directed-connectivity-estimation-in-source-reconstructed-eeg-data"
+          pub_date: 2022
+          url: "/publications/journal/neural-networks-for-directed-connectivity-estimation-in-source-reconstructed-eeg-data.pdf"
           book: Applied Sciences
 conference:
     title: Conference Papers
@@ -24,8 +37,10 @@ conference:
         - authors: Robin Marx, Maarten Wijnants, Peter Quax, Axel Faes, Wim Lamotte
           title: "Web Performance Characteristics of HTTP/2 and comparison to HTTP/1.1"
           url: "/publications/conference/WebPerfCharacteristicsOfH2_MarxRobin_13aug2017.pdf"
+          pub_date: 2018
           book: "International Conference on Web Information Systems and Technologies, pg 87-114"
         - authors: Robin Marx, Peter Quax, Axel Faes and Wim Lamotte
+          pub_date: 2017
           title: "Concatenation, embedding and sharding: Do HTTP/1 performance best practices make sense in HTTP/2?"
           url: "/publications/conference/h2bestpractices_RobinMarx_WEBIST2017.pdf"
           book: "WEBIST 2017 - Proceedings of the 13th International Conference on Web Information Systems and Technologies"
@@ -35,35 +50,44 @@ thesis:
       - authors: Axel Faes
         title: "Finger Movement Decoding: From Source-Localisation to Tensor Regression Modelling"
         url: ""
-        book: PhD Thesis 2023
+        selected: true
+        pub_date: 2023
+        book: PhD Thesis
       - authors: Axel Faes
         title: An Information Theoretical Approach to EEG Source-Reconstructed Connectivity
         url: "https://github.com/TheAxeC/an-information-theoretical-approach-to-eeg-source-reconstructed-connectivity"
-        book: Advanced Master's Thesis 2018
+        pub_date: 2018
+        book: Advanced Master's Thesis
       - authors: Axel Faes
         title: "Algebraic Subtyping for Algebraic Effects and Handlers"
         url: "https://github.com/TheAxeC/algebraic-subtyping-for-algebraic-effects-and-handlers"
-        book: Master's Thesis 2018
+        pub_date: 2018
+        book: Master's Thesis
       - authors: Axel Faes
+        pub_date: 2016
         title: "Machine learning techniques for flow-based network intrusion detection systems"
         url: "https://github.com/TheAxeC/machine-learning-techniques-for-flow-based-network-intrusion-detection-systems"
-        book: Bachelor's thesis 2016
+        book: Bachelor's thesis
 abstracts:
     title: Extended Abstracts
     papers:
       - authors: Axel Faes, Mansoureh Fahimi Hnazaee, and Marc M. Van Hulle
         title: Causal Graphical Modelling of Functional Connectivity from Reconstructed EEG Sources
         url: https://bcisociety.org/wp-content/uploads/2021/05/vBCI-Abstract-Book-.pdf
+        pub_date: 2021
         book: 8th International BCI Meeting (2021)
       - authors: Axel Faes and Tom Schrijvers
+        pub_date: 2017
         title: "Towards a Core Language with Row-Based Effects for Optimised Compilation"
         url: "/publications/abstracts/icfp-2017-src.pdf"
         book: International Conference on Functional Programming 2017 Student Research Competition
       - authors: Kashyap Todi, Brent Berghmans, Axel Faes and Matthijs Kaminski
         title: "Purpose-Centric Appropriation of Everyday Objects as Game Controllers"
+        pub_date: 2016
         url: "/publications/abstracts/purpose-centric-lbw.pdf"
         book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Late Breaking Work"
       - authors: Kashyap Todi, Donald Degraen, Brent Berghmans, Axel Faes, Matthijs Kaminski and Kris Luyten
+        pub_date: 2016
         title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons"
         url: "/publications/abstracts/purpose-centric-sgc.pdf"
         book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Student Game Competition"
@@ -72,12 +96,21 @@ posters:
     papers:
       - authors: Axel Faes and Tom Schrijvers
         title: "Towards a Core Language with Row-Based Effects for Optimised Compilation"
+        pub_date: 2017
         url: "/publications/posters/icfp-2017-src.pdf"
         book: International Conference on Functional Programming 2017 Student Research Competition
-talks:
-    title: Talks
-book-chapters:
-    title: Book Chapters
+other:
+    title: Other
+    papers:
+      - authors: Editor
+        title: "Frontiers in Immunology"
+        url: ""
+        pub_date: 2024
+        book: ""
+# talks:
+#     title: Talks
+# book-chapters:
+#     title: Book Chapters
 other-publications:
     title: Other publication
     papers:
@@ -91,27 +124,32 @@ students:
         - authors: Aurélie de Borman
           title: Investigating the effect of Source Mixing on Directed Connectivity estimated between Simulated Reconstructed EEG Sources
           url: 
+          pub_date: 2021
           book: Internship Student
         - authors: Diogo Sousa Morais
           title: Estimating the effectiveness of source localized EEG for BCIs
           url: 
+          pub_date: 2021
           book: Internship Student
         - authors: Guilherme de Borras Silva
           title: Cluster Permutation Analysis of N-Back related EEG-ERP Data
           url: 
+          pub_date: 2021
           book: Internship Student
         - authors: Iris Vantieghem
           title: Using Neural Networks to derive Directed Connectivity between Reconstructed EEG Sources
           url: 
+          pub_date: 2020
           book: Master of Science in Artificial Intelligence (2020-2021)
         - authors: Didier Quintius
           title: Neural Network Approach to the Inverse Problem
           url: 
+          pub_date: 2020
           book: Master of Science in Artificial Intelligence (2020-2021)
-        
-        
-papers-in-preparation:
-    title: Papers in Preparation
+
+
+# papers-in-preparation:
+#     title: Papers in Preparation
 
 
 news:
@@ -119,25 +157,31 @@ news:
     papers:
       - title: voordracht met als titel "Decoding finger movements from invasive recordings in human motor cortex", Mindseed event Leuven
         date: 2023-04-25 15:59:00-0400
+        pub_date: 2023
         url: "https://www.ntxl.org/mindseed"
         from: georganiseerd door NeuroTech Leuven
       - title: BCI demo op Advanced Engineering, Antwerp Expo,
         date: 2022-05-11 15:59:00-0400
+        pub_date: 2022
         url: "https://www.ae-expo.be/en/"
         from: georganiseerd door AI Vlaanderen, Vlaanderen Industrie 4.0
       - title: BCI demo op de "Dag van de Wetenschap", georganiseerd door Technopolis
         date: 2021-11-28 15:59:00-0400
+        pub_date: 2021
         url: ""
         from: georganiseerd door Technopolis (geannuleerd wegens de covid-19 situatie)
       - title: voordracht met als titel "'MINDSPELLER’ Medical Research Project on Brain Computer Interfaces" \& concert (in samenwerking met Tigran Maytesian en zijn Mind Speller Chamber Orchestra)
         date: 2019-11-07 15:59:00-0400
+        pub_date: 2019
         url: ""
         from: Kathedraal van Sint-Michiel en Sint-Goedele, Brussel
       - title: Honours student Axel Faes wins bronze medal in ACM SIGPLAN
         date: 2017-09-19 15:59:00-0400
+        pub_date: 2017
         url: "http://wms.cs.kuleuven.be/cs/nieuws/honours-student-axel-faes-wins-bronze-model-in-acm-sigplan"
         from: KU Leuven, Department of Computer Science
       - title: Student Axel Faes wins bronze medal in the ACM SIGPLAN Student Research Competition in ICFP conference
         date: 2017-09-19 15:59:00-0400
+        pub_date: 2017
         url: "https://dtai.cs.kuleuven.be/news/student-axel-faes-wins-bronze-medal-acm-sigplan-student-research-competition-icfp-conference"
         from: KU Leuven, Department of Computer Science, DTAI
