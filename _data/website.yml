@@ -31,6 +31,7 @@ description:
   
   show_portrait: true
   portrait_url: assets/images/photos/portrait2.jpg
+  portrait_height: 300
   portrait_caption: Postdoctoral Researcher
 
 ###################
