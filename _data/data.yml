@@ -255,33 +255,33 @@ extracurricular:
       duration: Sep. 2014 - Current
       about: Teach children programming (Scratch, Python, Minecraft and Lego mindstorm).
 
-    # - role: Student Representative
-    #   group: KU Leuven
-    #   location: Leuven, Belgium
-    #   datetime: 2016-08-01 15:59:00-0400
-    #   duration: Sep. 2017 - Sep. 2018
-    #   about:
-    #     - POC of Master Computer Science Engineering
-    #     - POC of Advanced Master Artificial Intelligence
-    #     - Member of Departmental council of Computer Science
-    #     - Member of Department board of Computer Science
-    #     - Member of Faculty council of Engineering Science
+    - role: Student Representative
+      group: KU Leuven
+      location: Leuven, Belgium
+      datetime: 2016-08-01 15:59:00-0400
+      duration: Sep. 2017 - Sep. 2018
+      about:
+        - POC of Master Computer Science Engineering
+        - POC of Advanced Master Artificial Intelligence
+        - Member of Departmental council of Computer Science
+        - Member of Department board of Computer Science
+        - Member of Faculty council of Engineering Science
 
-    # - role: Student Council Member
-    #   group: StuRa
-    #   location: UHasselt
-    #   datetime: 2016-08-01 15:59:00-0400
-    #   duration: Mar. 2015 - Aug. 2016
-    #   about:
-    #     - Member of Board of Education, Faculty Council. Board of Student Facilities, Diversity Commission
-    #     - Temporary representative in VVS (Vlaamse Vereniging van Studenten vzw)
+    - role: Student Council Member
+      group: StuRa
+      location: UHasselt
+      datetime: 2016-08-01 15:59:00-0400
+      duration: Mar. 2015 - Aug. 2016
+      about:
+        - Member of Board of Education, Faculty Council. Board of Student Facilities, Diversity Commission
+        - Temporary representative in VVS (Vlaamse Vereniging van Studenten vzw)
 
-    # - role: Student Representative 
-    #   group: UHasselt
-    #   location: Hasselt, Belgium
-    #   datetime: 2013-09-25 15:59:00-0400
-    #   duration: Sep. 2013 - Jul. 2016
-    #   about: 
-    #     - Representing students interests in a Computer Science education context. 
-    #     - This meant discussing with the university in order to improve teaching, learning, assessment and academic services.
-    #     - Representing Computer Science education for high school students
+    - role: Student Representative 
+      group: UHasselt
+      location: Hasselt, Belgium
+      datetime: 2013-09-25 15:59:00-0400
+      duration: Sep. 2013 - Jul. 2016
+      about: 
+        - Representing students interests in a Computer Science education context. 
+        - This meant discussing with the university in order to improve teaching, learning, assessment and academic services.
+        - Representing Computer Science education for high school students
