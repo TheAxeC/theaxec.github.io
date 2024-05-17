@@ -1,21 +1,74 @@
 title: Publications
-journal:
-    title: International Journal Papers
+papers-in-preparation:
+    title: Papers in Preparation
     papers:
-        - authors: Axel Faes, Marc M. Van Hulle
-          title: Finger movement and coactivation predicted from intracranial brain activity using extended Block-Term Tensor Regression
+        - authors: Axel Faes, Liesbet Peeters
+          title: Privacy Preserving Block-Term Tensor Regression
+          pub_date: 2024
+          hide: true
+        - authors: Axel Faes, Liesbet Peeters
+          title: Privacy Preserving Higher Order Partial Least Squares
+          pub_date: 2024
+          hide: true
+        - authors: Axel Faes, Liesbet Peeters
+          title: Horizontal and Vertical Federated Learning for Health Data with Federated Block Term Tensor Regression
+          pub_date: 2024
+          hide: true
+        - authors: Axel Faes, Liesbet Peeters
+          title: Federated Block-Term Tensor Regression for Heart Diseases in Realistic Healthcare Settings
           url: ""
-          book: Journal of Neural Engineering
+          book: ""
           # pub_pre: "Submitted to "
-          # pub_post: 'Under review.'
+          # pub_post: '(Under review)'
           # pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
           pub_date: 2023
-          selected: true
+          selected: false
+          hide: true
           # cover: "/assets/img/publications/journal/journal-1.jpg"
           # abstract: >-
           #   Massa ultricies mi quis hendrerit dolor magna. Arcu non odio euismod lacinia at quis risus sed. Et tortor at risus viverra. Enim neque volutpat ac tincidunt. Dictum varius duis at consectetur lorem donec.
           # links:
           #   Code: https://github.com/luost26/ChemProjector
+        - authors: Valentina Pergher*, Axel Faes*, Yide Li, Marc M. Van Hulle
+          title: How stimulus type and task structure can affect ERP signatures
+          pub_date: 2024
+          abstract: >-
+            The N-Back working memory (WM) updating task is commonly used in cognitive neuroscience research. Many studies investigated behavioral responses, while only few studies have sought to identify its electrophysiological signatures. Nevertheless, it is still unclear what the role is of stimulus type and task structure in the outcomes. Here, we address this issue using nine different variations of an N-Back task. Results show differences in electrode clusters between words vs. pictures for both N2 and P3-ERP components, specifically in the fronto-central brain regions. In conclusion, our findings suggest that stimulus type contributes to differences in electrophysiological responses during N-Back task performance, which needs to be accounted for when interpreting findings across studies.
+        - authors: Axel Faes, Eva Calvo Merino, Anais Van Hoylandt, Elina Keirse, Tom Theys, Marc M. Van Hulle
+          title: Finger abduction trajectory prediction from high-density ECoG
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "Journal of Neural Engineering"
+          selected: true
+          pub_date: 2024
+          abstract: >-
+            Objective: A case study is conducted to show that not only finger flexion- but also finger abduction trajectories can be decoded from high-density electrocorticography (ECoG) recordings. Approach: Two patients, temporarily implanted with high-density ECoG grids as part of their clinical workup, performed a cued single finger flexion task, a cued sign language alphabet task and a cued finger abduction task. The extended Block-Term Tensor Regression (eBTTR) model was adopted to predict finger trajectories after being developed on simultaneous data glove/ECoG recordings. The model performance on the single finger flexion task provides a reference for comparing that on the finger abduction task. Finally, the sign language alphabet task involves realistic, complex finger movements, calling upon both finger flexions and abductions. Main results: We show that finger abduction trajectories can be decoded from ECoG recordings, with comparable precision as single finger flexion trajectories, and even when expressing sign language gestures that involve joint finger flexions and abductions. Significance: Our findings show for the first time that finger abduction trajectories can be decoded from ECoG even when part of Sign Language Alphabet gestures. 
+        - authors: Axel Faes, Mariana P. Branco, Anais Van Hoylandt, Elina Keirse, Tom Theys, Nick F. Ramsey, Marc M. Van Hulle
+          title: Decoding Sign Language Finger Movements from high-density ECoG using Graph-Optimized Block Term Tensor Regression
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "Journal of Neural Engineering"
+          selected: true
+          pub_date: 2024
+          abstract: >-
+            Objective A novel method is introduced to regress over the Sign Language finger movements from human electrocorticography (ECoG) recordings. Approach The proposed Graph-Optimized Block-Term Tensor Regression (Go-BTTR) method consists of two components: a deflation-based regression model that sequentially Tucker-decomposes multiway ECoG data into a series of blocks, and a Causal Graph Process (CGP) that accounts for the complex relationship between finger movements when expressing sign language gestures. Prior to each regression block, CGP is applied to decide which fingers should be kept separate or grouped and should therefore be referred to BTTR or its extended version eBTTR, respectively. Main results Two ECoG datasets were used, one recorded in 5 patients expressing 4 hand gestures of the American Sign Language Alphabet, and another in 2 patients expressing all gestures of the Flemish Sign Language Alphabet. As Go-BTTR combines fingers in a flexible way, it can better account for the nonlinear relationship ECoG exhibits when expressing hand gestures, including unintentional finger co-activations. This is reflected by the superior joint finger trajectory predictions compared to eBTTR, and predictions that are on par with BTTR in single finger scenarios. Subject 5, Dataset 1, during the movement of hand gestures reached 0.82 Pearson correlation for the pinky for Go-BTTR compared to 0.8 and 0.72 for eBTTR and BTTR respectively. Significance Our findings show that Go-BTTR is capable of decoding complex hand gestures taken from the Sign Language Alphabet. Go-BTTR also demonstrates computational efficiency, providing a notable benefit when intracranial electrodes are inserted during a patient’s pre-surgical evaluation. This efficiency helps reduce the time required for developing and testing a Brain-Computer Interface (BCI) solution.
+journal:
+    title: International Journal Papers
+    papers:
+        - authors: Eva Calvo Merino, Axel Faes, Marc M. Van Hulle
+          title: The role of distinct ECoG frequency features in decoding finger movement
+          pub_date: 2023
+          book: Journal of Neural Engineering
+          url: "https://iopscience.iop.org/article/10.1088/1741-2552/ad0c5e/meta"
+          abstract: >-
+            Objective. To identify the electrocorticography (ECoG) frequency features that encode distinct finger movement states during repeated finger flexions. Approach. We used the publicly available Stanford ECoG dataset of cue-based, repeated single finger flexions. Using linear regression, we identified the spectral features that contributed most to the encoding of movement dynamics and discriminating movement events from rest, and combined them to predict finger movement trajectories. Furthermore, we also looked into the effect of the used frequency range and the spatial distribution of the identified features. Main results. Two frequency features generate superior performance, each one for a different movement aspect: high gamma band activity distinguishes movement events from rest, whereas the local motor potential (LMP) codes for movement dynamics. Combining these two features in a finger movement decoder outperformed comparable prior work where the entire spectrum was used as the average correlation coefficient with the true trajectories increased from 0.45 to 0.5, both applied to the Stanford dataset, and erroneous predictions during rest were demoted. In addition, for the first time, our results show the influence of the upper cut-off frequency used to extract LMP, yielding a higher performance when this range is adjusted to the finger movement rate. Significance. This study shows the benefit of a detailed feature analysis prior to designing the finger movement decoder.
+        - authors: Axel Faes, Marc M. Van Hulle
+          title: Finger movement and coactivation predicted from intracranial brain activity using extended Block-Term Tensor Regression
+          url: ""
+          book: Journal of Neural Engineering
+          pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
+          pub_date: 2023
+          selected: true
         - authors: Axel Faes, Flavio Camarrone, Marc M. Van Hulle
           title: Single finger trajectory prediction from intracranial brain activity using Block-Term Tensor Regression with fast and automatic component extraction
           url: ""
@@ -39,7 +92,7 @@ conference:
           url: "/publications/conference/WebPerfCharacteristicsOfH2_MarxRobin_13aug2017.pdf"
           pub_date: 2018
           book: "International Conference on Web Information Systems and Technologies, pg 87-114"
-        - authors: Robin Marx, Peter Quax, Axel Faes and Wim Lamotte
+        - authors: Robin Marx, Peter Quax, Axel Faes, Wim Lamotte
           pub_date: 2017
           title: "Concatenation, embedding and sharding: Do HTTP/1 performance best practices make sense in HTTP/2?"
           url: "/publications/conference/h2bestpractices_RobinMarx_WEBIST2017.pdf"
@@ -50,7 +103,6 @@ thesis:
       - authors: Axel Faes
         title: "Finger Movement Decoding: From Source-Localisation to Tensor Regression Modelling"
         url: ""
-        selected: true
         pub_date: 2023
         book: PhD Thesis
       - authors: Axel Faes
@@ -71,22 +123,22 @@ thesis:
 abstracts:
     title: Extended Abstracts
     papers:
-      - authors: Axel Faes, Mansoureh Fahimi Hnazaee, and Marc M. Van Hulle
+      - authors: Axel Faes, Mansoureh Fahimi Hnazaee, Marc M. Van Hulle
         title: Causal Graphical Modelling of Functional Connectivity from Reconstructed EEG Sources
         url: https://bcisociety.org/wp-content/uploads/2021/05/vBCI-Abstract-Book-.pdf
         pub_date: 2021
         book: 8th International BCI Meeting (2021)
-      - authors: Axel Faes and Tom Schrijvers
+      - authors: Axel Faes, Tom Schrijvers
         pub_date: 2017
         title: "Towards a Core Language with Row-Based Effects for Optimised Compilation"
         url: "/publications/abstracts/icfp-2017-src.pdf"
         book: International Conference on Functional Programming 2017 Student Research Competition
-      - authors: Kashyap Todi, Brent Berghmans, Axel Faes and Matthijs Kaminski
+      - authors: Kashyap Todi, Brent Berghmans, Axel Faes, Matthijs Kaminski
         title: "Purpose-Centric Appropriation of Everyday Objects as Game Controllers"
         pub_date: 2016
         url: "/publications/abstracts/purpose-centric-lbw.pdf"
         book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Late Breaking Work"
-      - authors: Kashyap Todi, Donald Degraen, Brent Berghmans, Axel Faes, Matthijs Kaminski and Kris Luyten
+      - authors: Kashyap Todi, Donald Degraen, Brent Berghmans, Axel Faes, Matthijs Kaminski, Kris Luyten
         pub_date: 2016
         title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons"
         url: "/publications/abstracts/purpose-centric-sgc.pdf"
@@ -94,7 +146,7 @@ abstracts:
 posters:
     title: Posters
     papers:
-      - authors: Axel Faes and Tom Schrijvers
+      - authors: Axel Faes, Tom Schrijvers
         title: "Towards a Core Language with Row-Based Effects for Optimised Compilation"
         pub_date: 2017
         url: "/publications/posters/icfp-2017-src.pdf"
@@ -103,18 +155,14 @@ other:
     title: Other
     papers:
       - authors: Editor
-        title: "Frontiers in Immunology"
+        title: "Use of Big Data and Artificial Intelligence in Multiple Sclerosis"
         url: ""
         pub_date: 2024
-        book: ""
-# talks:
-#     title: Talks
-# book-chapters:
-#     title: Book Chapters
+        book: "Frontiers in Immunology"
 other-publications:
     title: Other publication
     papers:
-        - authors: Matija Pretnar, Amr Hany Shehata Saleh, Axel Faes and Tom Schrijvers
+        - authors: Matija Pretnar, Amr Hany Shehata Saleh, Axel Faes, Tom Schrijvers
           title: "Efficient compilation of algebraic effects and handlers"
           url: "/publications/other/CW708.pdf"
           book: "2017 - CW Reports, CW708, 32 pp. Leuven, Belgium: Department of Computer Science, KU Leuven."
@@ -146,11 +194,6 @@ students:
           url: 
           pub_date: 2020
           book: Master of Science in Artificial Intelligence (2020-2021)
-
-
-# papers-in-preparation:
-#     title: Papers in Preparation
-
 
 news:
     title: Talks, presentations and other media

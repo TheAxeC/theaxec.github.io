@@ -3,13 +3,21 @@
         <div class="row mt-3">
             <div class="col-4">
                 <div class="text-muted mb-2">
+                    {% if site.data.website.footer.left.url and site.data.website.footer.left.url != "" %}
                     <img src="{{ site.data.website.footer.left.url }}" alt="logo" style="max-height: 80px;">
+                    {% endif %}
+                    {{ site.data.website.footer.left.title | newline_to_br | markdownify }}
                 </div>
             </div>
             <div class="col-8">
                 <div class="text-right text-muted mt-2">
+                    {% if site.data.website.footer.right.url and site.data.website.footer.right.url != "" %}
+                    <img src="{{ site.data.website.footer.right.url }}" alt="logo" style="max-height: 80px;">
+                    {% endif %}
                     {{ site.data.website.footer.right.title | newline_to_br | markdownify }}
+                    
                 </div>
+                
             </div>
         </div>
     </div>
