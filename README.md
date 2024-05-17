@@ -22,7 +22,7 @@ Publications are added into their respective folder:
 Other:
 - _includes/ for html includes of specific parts (navigation, footer, head)
 - _layout/ for the main layouts
-- res/css/
+- assets/
 
 ## Starting the server
 
