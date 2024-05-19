@@ -15,7 +15,7 @@
                                 <img src="{{ item.logo }}" alt="" style="width: 18px;" class="mr-1 mt-1">
                                 <div class="media-body">
                                     <p class="my-0">{{ item.title }}</p>
-                                    <p class="small my-0">{{ item.specialization }}</p>
+                                    <p class="small my-0">{{ item.about | newline_to_br }}</p>
                                     <p class="small my-0">{{ item.location }} <em class="float-right">{{ item.duration }}</em></p>
                                 </div>
                             </li>
@@ -35,7 +35,7 @@
                                 <img src="{{ item.logo }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
                                 <div class="media-body">
                                     <p class="my-0">{{ item.title }}</p>
-                                    <p class="small my-0">{{ item.about }}</p>
+                                    <p class="small my-0">{{ item.about | newline_to_br }}</p>
                                     <p class="small my-0">{{ item.location }} <em class="float-right">{{ item.duration }}</em></p>
                                 </div>
                             </li>
@@ -66,9 +66,9 @@
                         <h6>{{site.data.data.extracurricular.title }}</h6>
                         <ul class="list small pl-3 mb-1">
                             {% for item in site.data.data.extracurricular.content %}
-                            <li>{{ item.role }} <em class="">{{item.group}}</em> <em class="float-right">{{item.duration}}</em></li>
+                            <li>{{ item.title }} <em class="">{{item.location}}</em> <em class="float-right">{{item.duration}}</em></li>
                             {% if item.about %}
-                            <p class="small my-0">{{ item.about }}</p>
+                            <p class="small my-0">{{ item.about | newline_to_br }}</p>
                             {% endif %}
                             {% endfor %}
                         </ul>
@@ -90,7 +90,7 @@
                                     {% else %}
                                         <p class="my-0">{{ item.title }}</p>
                                         {% endif %}
-                                    <p class="small my-0">{{ item.about }}</p>
+                                    <p class="small my-0">{{ item.about | newline_to_br }}</p>
                                     <p class="small my-0">{{ item.role }} <em class="float-right">{{ item.duration }}</em></p>
                                 </div>
                             </li>

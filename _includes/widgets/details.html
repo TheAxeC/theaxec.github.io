@@ -19,7 +19,7 @@
                     <div class="col">
                         
                         <!-- <p class="text-profile-bio"> -->
-                            {{ site.data.website.description.questions }}
+                            {{ site.data.website.description.questions | newline_to_br | markdownify }}
                         <!-- </p> -->
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                     <div class="col">
                         
                         <!-- <p class="text-profile-bio"> -->
-                            {{ site.data.website.description.whatwedo }}
+                            {{ site.data.website.description.whatwedo | newline_to_br | markdownify }}
                         <!-- </p> -->
                     </div>
                     <div class="col-md-auto d-none d-md-block">
@@ -44,7 +44,7 @@
                             <img 
                                 src="{{ site.data.website.description.whatwedo_url }}" 
                                 class="figure-img img-fluid img-thumbnail" 
-                                style="height: 350px;"
+                                style="height: 330px;"
                                 data-toggle="tooltip" 
                                 data-placement="bottom" 
                                 title="{{ site.data.website.description.whatwedo_caption }}"

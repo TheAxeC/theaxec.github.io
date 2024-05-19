@@ -11,7 +11,7 @@
                             {% endfor %}
                         </p>
                         <p class="text-profile-bio">
-                            {{ site.data.website.description.content }}
+                            {{ site.data.website.description.content | newline_to_br | markdownify }}
                         </p>
                     </div>
                     {% if site.data.website.description.show_portrait %}
