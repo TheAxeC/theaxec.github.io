@@ -238,6 +238,16 @@ other:
 students:
     title: Students
     papers:
+        - authors: Qiang Sun
+          title: Hand exoskeleton dexterity achieved by shared control with a semi-invasive brain-computer interface
+          url: 
+          pub_date: 2022
+          book: Doctoral Program in Biomedical Sciences (daily supervision 2022-2023)
+        - authors: Eva Calvo Merino
+          title: Restoring finger dexterity with an exoskeleton controlled by human intracranial recordings
+          url: 
+          pub_date: 2022
+          book: Doctoral Program in Biomedical Sciences (daily supervision 2022-2023)
         - authors: Aurélie de Borman
           title: Investigating the effect of Source Mixing on Directed Connectivity estimated between Simulated Reconstructed EEG Sources
           url: 
@@ -267,16 +277,32 @@ students:
 news:
     title: Talks, presentations and other media
     papers:
-      - title: voordracht met als titel "Decoding finger movements from invasive recordings in human motor cortex", Mindseed event Leuven
+      - title: Decoding finger movements from invasive recordings in human motor cortex
         date: 2023-04-25 15:59:00-0400
         pub_date: 2023
         url: "https://www.ntxl.org/mindseed"
-        from: georganiseerd door NeuroTech Leuven
-      - title: BCI demo op Advanced Engineering, Antwerp Expo,
+        from: Mindseed event Leuven, NeuroTech Leuven
+      - title: Coordinated Finger Movements Predicted from Intracranial Brain Activity
+        date: 2022-10-10 15:59:00-0400
+        pub_date: 2022
+        url: /publications/other/hum-vs-sciences.pdf
+        from: >-
+          International Congress Humanities vs Sciences & the Knowledge Accelerating in Modern World: Parallels an Interaction,
+      - title: BCI demo - Advanced Engineering, Antwerp Expo
         date: 2022-05-11 15:59:00-0400
         pub_date: 2022
         url: "https://www.ae-expo.be/en/"
-        from: georganiseerd door AI Vlaanderen, Vlaanderen Industrie 4.0
+        from: AI Vlaanderen, Vlaanderen Industrie 4.0
+      - title: "Finger abduction trajectory prediction from high-density ECoG"
+        date: 2022-03-15 15:59:00-0400
+        pub_date: 2022
+        url: ""
+        from: Leuven AI Scientific Workshop
+      - title: Decoding single and coordinated finger actions from intracranial brain activity.
+        date: 2021-11-17 15:59:00-0400
+        pub_date: 2021
+        url: ""
+        from: XIV World Scientific Congress - SCIENCE FOR PEACE Modern Science, Global and Regional Theory and Practice
       - title: Reconstructing single finger trajectories from intracranial brain activity
         date: 2021-08-24 15:59:00-0400
         pub_date: 2021
@@ -284,12 +310,12 @@ news:
         from: III International Conference "Volga Neuroscience Meeting 2021"
         about: |
           Leading scientists from all over the world will meet together to discuss topical problems in the field of neuroscience and artificial intelligence. The conference is organized by Lobachevsky State University of Nizhny Novgorod (UNN).
-      - title: BCI demo op de "Dag van de Wetenschap", georganiseerd door Technopolis
+      - title: BCI demo - Dag van de Wetenschap
         date: 2021-11-28 15:59:00-0400
         pub_date: 2021
         url: ""
-        from: georganiseerd door Technopolis (geannuleerd wegens de covid-19 situatie)
-      - title: voordracht met als titel "'MINDSPELLER’ Medical Research Project on Brain Computer Interfaces" \& concert (in samenwerking met Tigran Maytesian en zijn Mind Speller Chamber Orchestra)
+        from: Technopolis (geannuleerd wegens de covid-19 situatie)
+      - title: Presentation "'MINDSPELLER' Medical Research Project on Brain Computer Interfaces" and concert (with Tigran Maytesian and his Mind Speller Chamber Orchestra)
         date: 2019-11-07 15:59:00-0400
         pub_date: 2019
         url: ""

@@ -10,7 +10,8 @@ description:
       url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'
       image: 'assets/images/badges/UHasselt.jpg'
   content: |
-    I am a Postdoctoral Researcher in the Biomedical Data Sciences research group at KU Leuven, Belgium, and the Scientific Coordinator of the Flanders AI Research Program, focusing on the Use Case Real World Evidence. My current work centers on applying machine learning techniques to cardiovascular data. Additionally, I am affiliated with the Biomedical Research Institute (BIOMED) and the Data Science Institute (DSI) at UHasselt.
+    I am a Postdoctoral Researcher in the Biomedical Data Sciences research group at UHasselt, Belgium, and the Scientific Coordinator of the Flanders AI Research Program, focusing on the Use Case Real World Evidence. My current work centers on applying machine learning techniques to cardiovascular data. Additionally, I am affiliated with the Biomedical Research Institute (BIOMED) and the Data Science Institute (DSI) at UHasselt.
+    
     My research interests include biomedical data science, machine learning, and artificial intelligence, with a focus on developing innovative methods for analyzing and interpreting complex health data. I am passionate about leveraging data-driven approaches to improve patient outcomes and advance the field of precision medicine. By combining expertise in data science, engineering, and medicine, I aim to bridge the gap between theoretical research and practical applications, ultimately contributing to the development of more effective and personalized healthcare solutions.
   show_portrait: true
   portrait_url: assets/images/photos/portrait.jpg
@@ -55,6 +56,8 @@ header:
       url: /
     - name: About
       url: /about
+    - name: Research
+      url: /research
     - name: Publications
       url: /publications
 

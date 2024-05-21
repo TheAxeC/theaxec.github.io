@@ -6,7 +6,12 @@ markdown: kramdown
 highlighter: rouge
 
 collections:
-  - publications
+  blog:
+    output: true
+    permalink: /blog/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 include: ['_pages']
 
