@@ -69,21 +69,41 @@ journal:
           pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
           pub_date: 2023
           selected: true
+          abstract: >-
+            Multiway- or tensor-based decoding techniques for Brain-Computer Interfaces (BCI) are believed to better account for the multilinear structure of brain signals than conventional vector- or matrix-based ones. However, despite their outlook on significant performance gains, the used parameter optimization approach is often too computationally demanding, so conventional techniques are still preferred. 
+            We propose two novel tensor factorizations which we integrate into our Block-Term Tensor Regression (BTTR) algorithm and further introduce a marginalization procedure that guarantees robust predictions while reducing the risk of overfitting (generalized regression). BTTR accounts for the underlying (hidden) data structure in a fully automatic and computationally-efficient manner, leading to a significant performance gain over conventional vector- or matrix-based techniques in a challenging real-world application.
+            As a challenging real-world application, we apply BTTR to accurately predict single finger movement trajectories from intracranial recordings in human subjects. We compare the obtained performance with that of the state-of-the-art.
         - authors: Axel Faes, Flavio Camarrone, Marc M. Van Hulle
           title: Single finger trajectory prediction from intracranial brain activity using Block-Term Tensor Regression with fast and automatic component extraction
           url: ""
           pub_date: 2022
           book: IEEE Transactions on Neural Networks and Learning Systems
+          abstract: >-
+            Objective
+            We introduce extended Block-Term Tensor Regression (eBTTR), a novel regression method designed to account for the multilinear nature of human intracranial finger movement recordings.
+            Approach
+            The proposed method relies on recursive Tucker decomposition combined with automatic component extraction.
+            Main results
+            eBTTR outperforms state-of-the-art regression approaches, including multilinear and deep learning ones, in accurately predicting finger trajectories as well as unintentional finger coactivations.
+            Significance
+            eBTTR rivals state-of-the-art approaches while being less computationally expensive which is an advantage when intracranial electrodes are implanted acutely, as part of the patient's presurgical workup, limiting time for decoder development and testing.
         - authors: Axel Faes, Aurelie de Borman, Marc M. Van Hulle
           title: Source space reduction for eLORETA
           url: "/publications/journal/source-space-reduction-for-eloreta.pdf"
           pub_date: 2021
           book: Journal of Neural Engineering
+          abstract: >-
+            Objective We introduce Sparse eLORETA, a novel method for estimating a nonparametric solution to the source localization problem. Its goal is to generate a sparser solution compared to other source localization methods including eLORETA while benefitting from the latter's superior source localization accuracy.
+            Approach Sparse eLORETA starts by reducing the source space of the Lead Field Matrix using Structured Sparse Bayesian Learning (SSBL) from which a Reduced Lead Field Matrix is constructed, which is used as input to eLORETA.
+            Main results With Sparse eLORETA, source sparsity can be traded against signal fidelity; the proposed optimum is shown to yield a much sparser solution than eLORETA's with only a slight loss in signal fidelity.
+            Significance When pursuing a data-driven approach, for cases where it is difficult to choose specific regions of interest (ROIs), or when subsequently a connectivity analysis is performed, source space reduction could prove beneficial.
         - authors: Axel Faes, Iris Vantieghem, Marc M. Van Hulle
           title: Neural Networks for Directed Connectivity Estimation in Source-Reconstructed EEG Data
           pub_date: 2022
           url: "/publications/journal/neural-networks-for-directed-connectivity-estimation-in-source-reconstructed-eeg-data.pdf"
           book: Applied Sciences
+          abstract: >-
+            Directed connectivity between brain sources identified from scalp electroencephalography (EEG) can shed light on the brain's information flows and provide a biomarker of neurological disorders. However, as volume conductance results in scalp activity being a mix of activities originating from multiple sources, the correct interpretation of their connectivity is a formidable challenge despite source localization being applied with some success. Traditional connectivity approaches rely on statistical assumptions that usually do not hold for EEG, calling for a model-free approach. We investigated several types of Artificial Neural Networks in estimating Directed Connectivity between Reconstructed EEG Sources and assessed their accuracy with respect to several ground truths. We show that a Long Short-Term Memory neural network with Non-Uniform Embedding yields the most promising results due to its relative robustness to differing dipole locations. We conclude that certain network architectures can compete with the already established methods for brain connectivity analysis.
 conference:
     title: Conference Papers
     papers:
@@ -92,37 +112,88 @@ conference:
           url: "/publications/conference/WebPerfCharacteristicsOfH2_MarxRobin_13aug2017.pdf"
           pub_date: 2018
           book: "International Conference on Web Information Systems and Technologies, pg 87-114"
+          abstract: >-
+            The HTTP/1.1 protocol has long been a staple on the web, for both pages and apps. However, it has started to show its age, especially with regard to page load performance and the overhead it entails due to its use of multiple underlying connections. Its successor, the newly standardized HTTP/2, aims to improve the protocol's performance and reduce its overhead by (1) multiplexing multiple resources over a single TCP connection, (2) using advanced prioritization strategies, and by introducing new features such as (3) Server Push and (4) HPACK header compression.
+            This work provides an in-depth overview of these four HTTP/2 performance aspects, discussing both synthetic and realistic experiments, to determine the gains HTTP/2 can provide in comparison to HTTP/1.1 in various settings. We find that the single multiplexed connection can actually become a significant performance bottleneck in poor network conditions with high packet loss and that HTTP/2 rarely improves much on HTTP/1.1, except in terms of reduced overhead. Prioritization strategies, Server Push, and HPACK compression are found to have a relatively limited impact on web performance, but together with other observed HTTP/2 performance problems, this could also be due to faulty current implementations, of which we have discovered various examples.
         - authors: Robin Marx, Peter Quax, Axel Faes, Wim Lamotte
           pub_date: 2017
           title: "Concatenation, embedding and sharding: Do HTTP/1 performance best practices make sense in HTTP/2?"
           url: "/publications/conference/h2bestpractices_RobinMarx_WEBIST2017.pdf"
           book: "WEBIST 2017 - Proceedings of the 13th International Conference on Web Information Systems and Technologies"
+          abstract: >-
+            Web page performance is becoming increasingly important for end users but also more difficult to provide by web developers, in part because of the limitations of the legacy HTTP/1 protocol. The new HTTP/2 protocol was designed with performance in mind, but existing work comparing its improvements to HTTP/1 often shows contradictory results. It is unclear for developers how to profit from HTTP/2 and whether current HTTP/1 best practices such as resource concatenation, resource embedding, and hostname sharding should still be used.
+            In this work, we introduce the Speeder framework, which uses established tools and software to easily and reproducibly test various setup permutations. We compare and discuss results over many parameters (e.g., network conditions, browsers, metrics), both from synthetic and realistic test cases. We find that in most non-extreme cases, HTTP/2 is on a par with HTTP/1 and that most HTTP/1 best practices are applicable to HTTP/2. We show that situations in which HTTP/2 currently underperforms are mainly caused by inefficiencies in implementations, not due to shortcomings in the protocol itself.
+other-publications:
+    title: Other publication
+    papers:
+        - authors: Matija Pretnar, Amr Hany Shehata Saleh, Axel Faes, Tom Schrijvers
+          title: "Efficient compilation of algebraic effects and handlers"
+          url: "/publications/other/CW708.pdf"
+          book: "2017 - CW Reports, CW708, 32 pp. Leuven, Belgium: Department of Computer Science, KU Leuven."
+          abstract: >-
+            The popularity of algebraic effect handlers as a programming language feature for user-defined computational effects is steadily growing. Yet, even though efficient runtime representations have already been studied, most handler-based programs are still much slower than hand-written code.
+            In this paper, we show that the performance gap can be drastically narrowed (in some cases even closed) by means of type-and-effect directed optimizing compilation. Our approach consists of two stages. Firstly, we combine elementary source-to-source transformations with judicious function specialization in order to aggressively reduce handler applications. Secondly, we show how to elaborate the source language into a handler-less target language in a way that incurs no overhead for pure computations.
+            This work comes with a practical implementation: an optimizing compiler from Eff, an ML-style language with algebraic effect handlers, to OCaml. Experimental evaluation with this implementation demonstrates that in a number of benchmarks, our approach eliminates much of the overhead of handlers and yields competitive performance with hand-written OCaml code.
 thesis:
     title: Thesis
     papers:
       - authors: Axel Faes
         title: "Finger Movement Decoding: From Source-Localisation to Tensor Regression Modelling"
-        url: ""
+        url: thesis/axel-faes-phd-thesis.pdf
         pub_date: 2023
         book: PhD Thesis
+        abstract: >-
+          Brain-Computer Interfaces (BCIs) are hailed for bypassing defective neural pathways by translating brain activity directly into actions that convey the user's intent. How the kinematics of muscular activity relate to the motor- and somatosensory activity in the brain has been the focus of recent advancements. With such motor BCIs, amputees are able to gain control over a prosthesis and stroke patients to regain control over a paralyzed limb via electrical stimulation of their dysfunctional muscles or via an exoskeleton that supports the intended movements.
+          The superior spatio-temporal resolution, bandwidth, and recording stability of electrocorticography (ECoG), a partially invasive brain recording technique, yields a new outlook on motor BCI applications. Despite some stunning successes in arm- and hand movement control from ECoG, the precise decoding of finger movements, which is essential for daily activities, is still lacking. A possible reason is that current decoders rely on conventional one- or two-way regression models, which might not adequately capture the intricate relation between neural activity and intended and unintended (such as coactivations) finger movements.
+          The main objective of this PhD is to develop a robust, accurate, and quick-to-train decoder that predicts single- and coordinated finger trajectories from ECoG recordings. We used multiway decoders as they preserve the multilinear structure of the data while taking advantage of potentially hidden multilinear components. We demonstrated cutting-edge performance with the proposed decoders. As multiway models tend to be slow to train, which may become a significant obstacle for their clinical adoption, we also investigated whether the proposed multiway decoders could be used in a real-time setting. The findings support the relevance of the proposed multiway decoders for real-time ECoG-based finger activity, providing an outlook on achieving hand dexterity.
       - authors: Axel Faes
         title: An Information Theoretical Approach to EEG Source-Reconstructed Connectivity
         url: "https://github.com/TheAxeC/an-information-theoretical-approach-to-eeg-source-reconstructed-connectivity"
         pub_date: 2018
         book: Advanced Master's Thesis
+        abstract: >-
+          Determining how distinct brain regions are connected and communicate with each other will shed light on how behavior emerges. In EEG studies, interpreting connectivity measures can be problematic due to the high correlation between signals recorded from the scalp surface, a result of the volume conductance of the scalp and skin. Therefore, meaningful connectivity patterns can be measured only from the spatiotemporal distribution of localized cortical sources, generally referred to as source reconstruction.
+          Still, spurious connectivity issues may persist in source-reconstructed EEG data, making it vital to choose an appropriate measure of connectivity. In this work, an information theoretical approach, which concerns model-free, probability-based methods such as mutual information, conditional mutual information, and interaction information, is taken.
+          An information theoretical framework for Python is developed to operate on source-reconstructed activity. This framework is used to perform a connectivity analysis of a high-density source-reconstructed EEG dataset, which was constructed in an experiment regarding the semantic processing of abstract and concrete words.
       - authors: Axel Faes
         title: "Algebraic Subtyping for Algebraic Effects and Handlers"
         url: "https://github.com/TheAxeC/algebraic-subtyping-for-algebraic-effects-and-handlers"
         pub_date: 2018
         book: Master's Thesis
+        abstract: >-
+          Algebraic effects and handlers benefit from a custom type-&-effect system, a type system that also tracks which effects can happen in a program. Several such type-&-effect systems have been proposed in the literature, but all are unsatisfactory. Recently, Stephen Dolan (University of Cambridge, UK) presented a novel type system that combines subtyping and parametric polymorphism in a particularly attractive and elegant fashion. A cornerstone of his design is the algebraic properties that the subtyping relation should respect.
+          In this work, a type-&-effect system is derived that extends Dolan's elegant type system with effect information. This type-&-effect system inherits Dolan's harmonious combination of subtyping (in our case induced by a lattice structure on the effect information) with parametric polymorphism and preserves all of its desirable properties (both low-level algebraic properties and high-level meta-theoretical properties like type soundness and the existence of principal types). This type-&-effect system has been implemented in the Eff programming language in order to provide a proof-of-concept.
       - authors: Axel Faes
         pub_date: 2016
         title: "Machine learning techniques for flow-based network intrusion detection systems"
         url: "https://github.com/TheAxeC/machine-learning-techniques-for-flow-based-network-intrusion-detection-systems"
         book: Bachelor's thesis
+        abstract: >-
+          Large data centers are storing and sending more and more data. In order to check whether the network traffic does not contain intrusions, an intrusion detection system is used. Such a system analyzes data from the network and gives an alert if it finds an intrusion. Since data centers have so much data traffic, it is difficult to process everything. That's where IP flows come into the picture. They are aggregated from packet data but do not contain any information about the payload data.
+          This thesis explains which attacks can be detected and how IP flows can be used for intrusion detection. It would also be cost-efficient if an intrusion detection system could operate automatically and detect attacks with a high probability. For this, machine learning can be used. Machine learning is a type of Artificial Intelligence which allows programs to learn and find patterns within data. However, there are many different types of machine learning.
+          This thesis gives an introduction to machine learning concepts and provides an overview of different machine learning algorithms such as Support Vector Machines and K-Nearest Neighbors. An explanation is given on how these algorithms can be used in an intrusion detection system. The algorithms are evaluated on different datasets which consist of both labeled training data and unlabeled real-world data. The evaluation is done using learning curves and F-scores.
+          In the evaluation, it is found that supervised learning gives better and more detailed predictions compared to unsupervised learning. K-Nearest Neighbors gives the best results among the tested supervised learning algorithms. The results show that machine learning is a viable option to detect intrusions using IP flows. It can also be noted that using extra information such as the TCP flags is a useful addition and increases the performance significantly.
+
+
 abstracts:
     title: Extended Abstracts
     papers:
+
+      - authors: Qiang Sun, Axel Faes, Marc M. Van Hulle
+        title: "Individual and Coordinated Finger Movements Decoding from High-Density EEG and Its Implication in Hand Exoskeleton Control"
+        url: "/publications/abstracts/abstract_ECNR_MVH_AF.pdf"
+        pub_date: 2023
+        book: European Congress of NeuroRehabilitation 2023
+      - authors: Eva Calvo Merino, Axel Faes, Marc M. Van Hulle
+        title: "Modulation of LMPs using the gamma band increases the stability of finger trajectories decoded from ECoG"
+        url: "/publications/abstracts/Abstract.Eva.CalvoMerino.pdf"
+        pub_date: 2023
+        book: BCI (Brain-computer interfaces) - Society 2023
+      - authors: Axel Faes, Benjamin Wittevrongel, Marc M. Van Hulle
+        title: Reconstructing single finger trajectories from intracranial brain activity
+        url: /publications/abstracts/reconstructing-single-finger-trajectories-from-intracranial-brain-activity.pdf
+        pub_date: 2021
+        book: III International Conference "Volga Neuroscience Meeting 2021"
       - authors: Axel Faes, Mansoureh Fahimi Hnazaee, Marc M. Van Hulle
         title: Causal Graphical Modelling of Functional Connectivity from Reconstructed EEG Sources
         url: https://bcisociety.org/wp-content/uploads/2021/05/vBCI-Abstract-Book-.pdf
@@ -159,13 +230,11 @@ other:
         url: ""
         pub_date: 2024
         book: "Frontiers in Immunology"
-other-publications:
-    title: Other publication
-    papers:
-        - authors: Matija Pretnar, Amr Hany Shehata Saleh, Axel Faes, Tom Schrijvers
-          title: "Efficient compilation of algebraic effects and handlers"
-          url: "/publications/other/CW708.pdf"
-          book: "2017 - CW Reports, CW708, 32 pp. Leuven, Belgium: Department of Computer Science, KU Leuven."
+      - authors: Judge
+        title: Student Research Competition
+        url: ""
+        pub_date: 2024
+        book: "ICFP (International Conference on Functional Programming)"
 students:
     title: Students
     papers:
@@ -208,6 +277,13 @@ news:
         pub_date: 2022
         url: "https://www.ae-expo.be/en/"
         from: georganiseerd door AI Vlaanderen, Vlaanderen Industrie 4.0
+      - title: Reconstructing single finger trajectories from intracranial brain activity
+        date: 2021-08-24 15:59:00-0400
+        pub_date: 2021
+        url: /publications/abstracts/VNM2021.pdf
+        from: III International Conference "Volga Neuroscience Meeting 2021"
+        about: |
+          Leading scientists from all over the world will meet together to discuss topical problems in the field of neuroscience and artificial intelligence. The conference is organized by Lobachevsky State University of Nizhny Novgorod (UNN).
       - title: BCI demo op de "Dag van de Wetenschap", georganiseerd door Technopolis
         date: 2021-11-28 15:59:00-0400
         pub_date: 2021

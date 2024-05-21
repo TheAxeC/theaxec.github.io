@@ -12,8 +12,12 @@ description:
   content: |
     I am a Postdoctoral Researcher in the research group Biomedical Data Sciences at KU Leuven, Belgium as well as the Scientific Coordinator of the Flanders AI Research program, Use Case Real World Evidence, currently focussing on applying Machine Learning to cardiovascular data. I'm affiliated to the Biomedical Research Institute (BIOMED) and the Data Science Institute of UHasselt (DSI). 
     We envision a world where every single person gets the treatment they deserve in a timely matter. We are convinced that data saves lives.  Therefore, we investigate new methods to handle and analyze Big Data in Health & Care.
+  show_portrait: true
+  portrait_url: assets/images/photos/portrait.jpg
+  portrait_height: 300
+  portrait_caption: Postdoctoral Researcher
 
-  questions: |
+  biomed: |
     We use the following three key questions to scope our research activities. Only when a new research project or potential future activity leads to a “triple-yes” to these questions, it fits within our scope of interest 
     - Will this activity lead to insights that can disrupt the status quo of our health & care system? 
     - Do we need “real-world-insights” (and thus so called “Real-World Data)? 
@@ -21,21 +25,15 @@ description:
   biomed_url: assets/images/biomed.webp
   biomed_caption: Facilitate communication between data scientists and biomedical researchers
 
-  whatwedo: |
+  mission:  |
     The University of Hasselt aims to foresee high-quality education and believes that the therefore needed foundation is solid academic research, which is also an important link in the innovation chain. Additionally, UHasselt aims to serve the community by being a civic university. Since our research group belongs to the UHasselt, we have different roles to fulfill: **we investigate, we serve and we educate.**
 
     What we do? 
     - We identify recurrent lessons learned through a series of high-innovative use cases
     - We work in a real-world setting real-world health data + multistakeholder
     - We formulate use-case agnostic recommendations and frameworks social + technical
-
-  whatwedo_url: assets/images/banner2.webp
-  whatwedo_caption: Data saves lives
-  
-  show_portrait: true
-  portrait_url: assets/images/photos/portrait.jpg
-  portrait_height: 300
-  portrait_caption: Postdoctoral Researcher
+  mission_url: assets/images/banner2.webp
+  mission_caption: "Data saves lives"
 
 ###################
 # Website content #

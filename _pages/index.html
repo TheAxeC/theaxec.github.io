@@ -9,6 +9,8 @@ permalink: /
 
 {% include widgets/details.html %}
 
+{% include widgets/updates.html %}
+
 {% for item in site.data.publications %}
 {% if item[0] != "title" %}
 {% assign pubs_all = pubs_all | concat: item[1].papers %}
