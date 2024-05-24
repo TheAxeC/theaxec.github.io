@@ -3,6 +3,7 @@ layout: post
 title:  "Research Vision"
 picture: /assets/images/projects/default.webp
 category: research
+publish: True
 ---
 
 ### Research Vision for Axel Faes
