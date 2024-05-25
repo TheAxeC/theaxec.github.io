@@ -59,12 +59,12 @@ journal:
           title: The role of distinct ECoG frequency features in decoding finger movement
           pub_date: 2023
           book: Journal of Neural Engineering
-          url: "https://iopscience.iop.org/article/10.1088/1741-2552/ad0c5e/meta"
+          url: "/publications/journal/role-of-distinct-ecog-frequency-features-in-decoding-finger-movement.pdf"
           abstract: >-
             Objective. To identify the electrocorticography (ECoG) frequency features that encode distinct finger movement states during repeated finger flexions. Approach. We used the publicly available Stanford ECoG dataset of cue-based, repeated single finger flexions. Using linear regression, we identified the spectral features that contributed most to the encoding of movement dynamics and discriminating movement events from rest, and combined them to predict finger movement trajectories. Furthermore, we also looked into the effect of the used frequency range and the spatial distribution of the identified features. Main results. Two frequency features generate superior performance, each one for a different movement aspect: high gamma band activity distinguishes movement events from rest, whereas the local motor potential (LMP) codes for movement dynamics. Combining these two features in a finger movement decoder outperformed comparable prior work where the entire spectrum was used as the average correlation coefficient with the true trajectories increased from 0.45 to 0.5, both applied to the Stanford dataset, and erroneous predictions during rest were demoted. In addition, for the first time, our results show the influence of the upper cut-off frequency used to extract LMP, yielding a higher performance when this range is adjusted to the finger movement rate. Significance. This study shows the benefit of a detailed feature analysis prior to designing the finger movement decoder.
         - authors: Axel Faes, Marc M. Van Hulle
           title: Finger movement and coactivation predicted from intracranial brain activity using extended Block-Term Tensor Regression
-          url: ""
+          url: "/publications/journal/finger-movement-and-coactivation-predicted-from-intracranial-brain-activity.pdf"
           book: Journal of Neural Engineering
           pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
           pub_date: 2023
@@ -75,7 +75,7 @@ journal:
             As a challenging real-world application, we apply BTTR to accurately predict single finger movement trajectories from intracranial recordings in human subjects. We compare the obtained performance with that of the state-of-the-art.
         - authors: Axel Faes, Flavio Camarrone, Marc M. Van Hulle
           title: Single finger trajectory prediction from intracranial brain activity using Block-Term Tensor Regression with fast and automatic component extraction
-          url: ""
+          url: "/publications/journal/single-finger-trajectory-prediction-from-intracranial-paper.pdf"
           pub_date: 2022
           book: IEEE Transactions on Neural Networks and Learning Systems
           abstract: >-
