@@ -17,13 +17,13 @@ permalink: /research
                 <div class="row">
                     <div class="owl-carousel owl-theme">
                         {% for update in site.projects %}
-                        <a href="{{ update.url }}"><div class="news-card">
+                        <div class="news-card"><a href="{{ update.url }}">
                             <img src="{{ update.picture }}" class="w-full rounded-lg">
                             <div class="news-desc">{{ update.title }}</div>
                             <div class="news-time">{{ update.role }}</div>
                             <div class="news-time">{{ update.duration }}</div>
                         
-                        </div></a>
+                        </a></div>
                         {% endfor %}
                     </div>
                     
@@ -44,12 +44,12 @@ permalink: /research
                     <div class="owl-carousel owl-theme">
                         {% for update in site.blog %}
                         {% if update.publish %}
-                        <a href="{{ update.url }}"><div class="news-card">
+                        <div class="news-card"><a href="{{ update.url }}">
                             <img src="{{ update.picture }}" class="w-full rounded-lg">
                             <div class="news-desc">{{ update.title }}</div>
                             <div class="news-time">{{ update.category }}</div>
                         
-                        </div></a>
+                        </a></div>
                         {% endif %}
                         {% endfor %}
                     </div>

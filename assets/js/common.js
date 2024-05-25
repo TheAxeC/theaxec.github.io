@@ -46,9 +46,9 @@ function toggleText(linkElement) {
 
 
 // Initialize the toggleText function for each link
-document.querySelectorAll('[data-toggle="collapse"]').forEach(function (linkElement) {
-    toggleText(linkElement);
-});
+// document.querySelectorAll('[data-toggle="collapse"]').forEach(function (linkElement) {
+//     toggleText(linkElement);
+// });
 
 
 
@@ -80,6 +80,7 @@ function toggleTheme() {
         buttonEl.classList.remove('light-theme');
         buttonEl.classList.add('dark-theme');
         for (let i = 0; i < cards.length; i++) {
+            if (cards[i].classList.contains('small-pub')) continue;
             cards[i].classList.add('bg-dark');
             cards[i].classList.remove('bg-white');
         }
@@ -99,6 +100,7 @@ function toggleTheme() {
         buttonEl.classList.remove('dark-theme');
         buttonEl.classList.add('light-theme');
         for (let i = 0; i < cards.length; i++) {
+            if (cards[i].classList.contains('small-pub')) continue;
             cards[i].classList.add('bg-white');
             cards[i].classList.remove('bg-dark');
         }
@@ -274,11 +276,11 @@ function updateLayout(collapseElement, isExpanding) {
 
 
 // Bind updateLayout function to the collapsible elements' events
-$('.collapse').on('show.bs.collapse', function () {
-    updateLayout(this, true);
-}).on('hide.bs.collapse', function () {
-    updateLayout(this, false);
-});
+// $('.collapse').on('show.bs.collapse', function () {
+//     updateLayout(this, true);
+// }).on('hide.bs.collapse', function () {
+//     updateLayout(this, false);
+// });
 
 
 // Modified from https://codepen.io/SohRonery/pen/wvvBLyP
