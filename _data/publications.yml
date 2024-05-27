@@ -282,6 +282,11 @@ news:
         pub_date: 2023
         url: "https://www.ntxl.org/mindseed"
         from: Mindseed event Leuven, NeuroTech Leuven
+      - title: Guest Lecture "Finger Movement Decoding - From Source-Localisation to Tensor Regression Modelling"
+        date: 2023-04-25 15:59:00-0400
+        pub_date: 2023
+        url: ""
+        from: KULeuven
       - title: Coordinated Finger Movements Predicted from Intracranial Brain Activity
         date: 2022-10-10 15:59:00-0400
         pub_date: 2022
@@ -293,6 +298,11 @@ news:
         pub_date: 2022
         url: "https://www.ae-expo.be/en/"
         from: AI Vlaanderen, Vlaanderen Industrie 4.0
+      - title: Guest Lecture "Finger Movement Decoding - From Source-Localisation to Tensor Regression Modelling"
+        date: 2023-04-25 15:59:00-0400
+        pub_date: 2022
+        url: ""
+        from: KULeuven
       - title: "Finger abduction trajectory prediction from high-density ECoG"
         date: 2022-03-15 15:59:00-0400
         pub_date: 2022
@@ -303,6 +313,11 @@ news:
         pub_date: 2021
         url: ""
         from: XIV World Scientific Congress - SCIENCE FOR PEACE Modern Science, Global and Regional Theory and Practice
+      - title: Guest Lecture "Finger Movement Decoding - From Source-Localisation to Tensor Regression Modelling"
+        date: 2023-04-25 15:59:00-0400
+        pub_date: 2021
+        url: ""
+        from: KULeuven
       - title: Reconstructing single finger trajectories from intracranial brain activity
         date: 2021-08-24 15:59:00-0400
         pub_date: 2021
