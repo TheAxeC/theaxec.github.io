@@ -11,6 +11,7 @@ personal:
   content: |
     I am a Postdoctoral Researcher in Biomedical Data Sciences at UHasselt, Belgium. 
     I'm the Scientific Coordinator of the Flanders AI Research program, Use Case Real World Evidence, currently focussing on applying Machine Learning to cardiovascular, pregnancy, Multiple Sclerosis, epilepsy, and other biomedical data. 
+  footer: Curriculum Vitae
   links:
     email: axel.faes@gmail.com
     website: theaxec.github.io
@@ -36,6 +37,12 @@ experience:
       about: |
         Project: "Sign Language Alphabet decoding from intracranial brain activity"
         Group: Prof. Marc van Hulle, Computational Neuroscience, Laboratory for Neuro-and Psychophysiology, KU Leuven
+    - title: "Research Stay Idrogenet Srl, Gloreha: Robotic Rehabilitation"
+      location: Lumezzane, Italy
+      duration: Dec. 2022 - Jan. 2023
+      min: true
+      about: |
+        Develop custom software for the control of the Gloreha robotic rehabilitation device, specifically the R-TOUCH PRO Sinfonia, a custom-built robotic exoskeleton for hand rehabilitation.
     - title: "Web Performance Research Internship"
       location: UHasselt
       duration: Jul. 2016 - Sep. 2016
@@ -53,6 +60,12 @@ experience:
 education:
   title: Educational background
   content:
+    - title: Flemish Sign Language course
+      location: Flemish Sign Language Centre (Vlaams Gebarentaal Centrum)
+      duration: Sep. 2022 - May 2024
+      min: true
+      about: |
+        Completed Flemish Sign Language course at the Flemish Sign Language Centre (Vlaams Gebarentaal Centrum), the aim of which is to enable graduates to engage in day-to-day conversations with deaf and hard-of-hearing individuals.
     - title: Doctoral Programme in Biomedical Science (PhD) in Computational Neuroscience
       location: KU Leuven
       duration: Sep. 2018 - May 2023
@@ -164,6 +177,13 @@ projects:
 awards:
   title: Honors & Awards
   content:
+    - award: FWO fundamental research grant
+      event: FWO
+      date: 2018-01-01 15:59:00-0400
+      location: Belgium
+      content: >
+        FWO fundamental research grant for the project "Finger movement decoding: From source-localisation to graph-based regression modelling"
+
     - award: Finalist
       event: Cyber Security Challenge 2018
       date: 2018-03-24 15:59:00-0400

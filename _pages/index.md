@@ -12,7 +12,7 @@ permalink: /
 {% include widgets/updates.html %}
 
 {% for item in site.data.publications %}
-{% if item[0] != "title" %}
+{% if item[0] != "title" and item[0] != "secondary-title" %}
 {% assign pubs_all = pubs_all | concat: item[1].papers %}
 {% endif %}
 {% endfor %}
