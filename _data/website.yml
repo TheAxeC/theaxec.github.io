@@ -73,7 +73,7 @@ references:
       platform: axel.faes[at]uhasselt.be
 
     - name: fas fa-file-alt
-      url: /cv/
+      url: https://theaxec.github.io/cv.html
       platform: Curriculum Vitae
 
     - name: fab fa-github
