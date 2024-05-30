@@ -1,0 +1,67 @@
+{% assign publications = include.publications %}
+{% assign i = include.i %}
+
+{{publications.title}}
+<table>
+    {% for item in publications.papers %}
+    {% if item.hide != true %}
+        <tr>
+            {% if i > 0 %}
+                <td class="publications__heading">[{{i}}]   </td>
+            {% else %}
+                <td class="publications__date"> {{ item.date | date: "%B %-d, %Y" }} </td>
+            {% endif %}
+            <td class="publications__list">
+            <!-- <span class="authors">{{item.authors}}. </span>  -->
+            {% assign author_list = item.authors %}
+            {% assign authors = author_list | split: "," %}
+            {% assign has_eq_contrib = false %}
+            {% for _keyy in authors %}
+                {% assign _key = _keyy | strip %}
+                {% assign last_char = _key | slice: -1, 1%}
+                {% if last_char == "*" %}
+                    {% assign key = _key | split: "*" | first %}
+                    {% assign mark = "*" %}
+                    {% assign has_eq_contrib = true %}
+                {% else %}
+                    {% assign key = _key %}
+                    {% assign mark = "" %}
+                {% endif %}
+                {% assign info = site.data.website.authors[key] %}
+                {% if info['name'] %}
+                    {% assign name = info['name'] %}
+                {% else %}
+                    {% assign name = key %}
+                {% endif %}
+                {% if info['bold'] == true %}
+                    {% assign display_name = name | append: mark | prepend: "<span class='authors'>" | append: "</span>" %}
+                {% else %}
+                    {% assign display_name = name | append: mark %}
+                {% endif %}
+                {% if info['url'] %}
+                    <a class="" target="_blank" href="{{ info['url'] }}">{{ display_name }}</a>{% if forloop.index < authors.size %},{% endif %}
+                {% else %}
+                    <span class="text-body">
+                        {{ display_name }}{% if forloop.index < authors.size %}{% endif %}
+                    </span>
+                {% endif %}
+            {% endfor %}
+            {% if has_eq_contrib == true %}
+            <mark>(* <i> equal contribution</i>)</mark>
+            {% endif %}
+            
+            {% if item.url and item.url != "" %}<a href="{{item.url}}"> {% endif %}
+                "{{item.title}}" 
+            {% if item.url and item.url != "" %} </a> {% endif %}
+            {{item.pub_pre}} {{item.book}} {{item.pub_post}} 
+            {{ item.from }}
+            {{item.pub_data}} 
+            {{item.pub_last}}
+            </td>
+        </tr>
+        {% if i > 0 %}
+            {% assign i = i | plus:1 %}
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+</table>

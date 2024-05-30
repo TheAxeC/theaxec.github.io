@@ -3,11 +3,11 @@ personal:
   first-name: Axel
   last-name: Faes
   background: Machine Learning Engineer
-  expert: PostDoctoral Researcher
+  expert: Postdoctoral Researcher
   ai: Scientific Coordinator
   website: https://theaxec.github.io
   photo_loc: ../../theaxec.github.io/
-  portrait_url: assets/images/photos/portrait.jpg
+  portrait_url: /assets/images/photos/portrait.jpg
   content: |
     I am a Postdoctoral Researcher in Biomedical Data Sciences at UHasselt, Belgium. 
     I'm the Scientific Coordinator of the Flanders AI Research program, Use Case Real World Evidence, currently focussing on applying Machine Learning to cardiovascular, pregnancy, Multiple Sclerosis, epilepsy, and other biomedical data. 
@@ -29,7 +29,6 @@ experience:
       about: |
         Scientific Coordinator of the Flanders AI Research program, Use Case Real World Evidence.
         Technical Machine Learning lead of the Biomedical Data Sciences Group, UHasselt
-      
     - title: "Postdoctoral Researcher: Brain-Computer Interfacing and Machine Learning"
       location: KU Leuven
       duration: May 2023 - January 2024
@@ -37,7 +36,6 @@ experience:
       about: |
         Project: "Sign Language Alphabet decoding from intracranial brain activity"
         Group: Prof. Marc van Hulle, Computational Neuroscience, Laboratory for Neuro-and Psychophysiology, KU Leuven
-        
     - title: "Web Performance Research Internship"
       location: UHasselt
       duration: Jul. 2016 - Sep. 2016
@@ -45,7 +43,6 @@ experience:
       about: |
         I worked on the iMinds PRO-FLOW project @ Expertise centre for Digital Media (EDM)
         focus on the difference between the http versions (http1.1, https, http2).
-
     - title: Summer Research Internship Physical Computing
       location: UHasselt
       duration: Aug. 2015 - Sep. 2015
@@ -53,7 +50,6 @@ experience:
       about: |
         Interfacing between human entity, a drone and virtual objects @ Expertise centre for Digital Media (EDM). 
         (C++, Optitrack motion capture, custom built drone)
-
 education:
   title: Educational background
   content:

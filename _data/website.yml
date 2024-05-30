@@ -20,7 +20,7 @@ description:
 
   biomed: |
     **Vision for Research Impact**
-    At the intersection of neuroscience, machine learning, and computational engineering, my mission is to advance the understanding and application of brain-computer interfaces (BCIs) and neural decoding. By developing innovative computational methods and optimizing algorithms for real-time applications, I aim to enhance the efficacy and accessibility of neurotechnology solutions. Through my research, I strive to bridge the gap between theoretical advancements and practical implementations, ultimately contributing to improved outcomes in neurorehabilitation and prosthetic control. Collaboration, rigorous experimentation, and a commitment to scientific excellence drive my efforts to push the boundaries of what is possible in neural interfacing and cognitive engineering.
+    At the intersection of neuroscience, biomedical data science, machine learning, and computational engineering, my mission is to advance the understanding and application of brain-computer interfaces (BCIs) and neural decoding. By developing innovative computational methods and optimizing algorithms for real-time applications, I aim to enhance the efficacy and accessibility of neurotechnology solutions. Through my research, I strive to bridge the gap between theoretical advancements and practical implementations, ultimately contributing to improved outcomes in neurorehabilitation and prosthetic control. Collaboration, rigorous experimentation, and a commitment to scientific excellence drive my efforts to push the boundaries of what is possible in neural interfacing and cognitive engineering.
   biomed_url: assets/images/banner2.webp
   biomed_caption: Innovating Computational Solutions for Real-World Health Challenges
 
@@ -73,7 +73,7 @@ references:
       platform: axel.faes[at]uhasselt.be
 
     - name: fas fa-file-alt
-      url: http://theaxec.github.io/cv.pdf
+      url: /cv/
       platform: Curriculum Vitae
 
     - name: fab fa-github
