@@ -10,9 +10,16 @@ description:
       url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'
       image: 'assets/images/badges/UHasselt.jpg'
   content: |
-    I am a Postdoctoral Researcher in the Biomedical Data Sciences research group at UHasselt, Belgium, and the Scientific Coordinator of the Flanders AI Research Program, focusing on the Use Case Real World Evidence. My current work centers on applying machine learning techniques to cardiovascular data. Additionally, I am affiliated with the Biomedical Research Institute (BIOMED) and the Data Science Institute (DSI) at UHasselt.
-    
-    My research interests include biomedical data science, machine learning, and artificial intelligence, with a focus on developing innovative methods for analyzing and interpreting complex health data. I am passionate about leveraging data-driven approaches to improve patient outcomes and advance the field of precision medicine. By combining expertise in data science, engineering, and medicine, I aim to bridge the gap between theoretical research and practical applications, ultimately contributing to the development of more effective and personalized healthcare solutions.
+      - **Research Work**:
+        - Postdoctoral Researcher @ Biomedical Data Sciences, UHasselt
+          - Investigating the use of AI in real-world evidence studies.
+          - Creating a federated learning algorithm for heart disease prediction.
+          - Developing machine learning models for brain-computer interfaces.
+          - Side project: working on algebraic type and effect systems for functional programming.
+        - Scientific Coordinator of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE)
+      - **Professional Affiliations**:
+        - Biomedical Research Institute (BIOMED) @ UHasselt
+        - Data Science Institute (DSI) @ UHasselt
   show_portrait: true
   portrait_url: assets/images/photos/portrait.jpg
   portrait_height: 300
@@ -20,16 +27,17 @@ description:
 
   biomed: |
     **Vision for Research Impact**
-    At the intersection of neuroscience, biomedical data science, machine learning, and computational engineering, my mission is to advance the understanding and application of brain-computer interfaces (BCIs) and neural decoding. By developing innovative computational methods and optimizing algorithms for real-time applications, I aim to enhance the efficacy and accessibility of neurotechnology solutions. Through my research, I strive to bridge the gap between theoretical advancements and practical implementations, ultimately contributing to improved outcomes in neurorehabilitation and prosthetic control. Collaboration, rigorous experimentation, and a commitment to scientific excellence drive my efforts to push the boundaries of what is possible in neural interfacing and cognitive engineering.
+    My research interests include **biomedical data science, machine learning, and artificial intelligence**, with a focus on developing innovative methods for analyzing and interpreting complex health data. I am passionate about leveraging data-driven approaches to improve patient outcomes and advance the field of **precision medicine** and the understanding and application of **brain-computer interfaces (BCIs) and neural decoding**. By combining expertise in data science, engineering, and medicine, I aim to bridge the gap between theoretical research and practical implementations, ultimately contributing to the development of more effective and personalized healthcare solutions.
+  
   biomed_url: assets/images/banner2.webp
   biomed_caption: Innovating Computational Solutions for Real-World Health Challenges
 
   mission:  |
       **Vision for Educational Impact**
-      I envision a future where education in biomedical data science and AI is accessible, engaging, and impactful. I aim to:
-      - **Inspire Future Researchers**: By mentoring students and conducting educational workshops, I seek to inspire the next generation of scientists and engineers to pursue innovative research in neurotechnology.
-      - **Promote Interdisciplinary Learning**: My work underscores the importance of interdisciplinary approaches, combining insights from neuroscience, engineering, and computer science to solve complex problems. I aim to foster a learning environment that encourages such cross-disciplinary collaborations.
-      - **Develop Educational Resources**: Through my publications and open-source projects I plan to provide comprehensive resources that make advanced topics in AI and neurotechnology more accessible to learners worldwide.
+      I envision a future where education in **biomedical data science and AI** is accessible, engaging, and impactful. I aim to:
+      - **Inspire Future Researchers**: By mentoring students and conducting educational workshops, I seek to inspire the next generation of scientists and engineers to pursue innovative research in biomedical data sciences and neurotechnology.
+      - **Promote Interdisciplinary Learning**: My work underscores the importance of interdisciplinary approaches, combining insights from **neuroscience, biomedial science, engineering, and computer science** to solve complex problems. I aim to foster a learning environment that encourages such cross-disciplinary collaborations.
+      - **Develop Educational Resources**: Through my publications and open-source projects I plan to provide comprehensive resources that make advanced topics in AI and biomedical data science more accessible to learners worldwide.
   mission_url: assets/images/biomed.webp
   mission_caption: Educating the Next Generation of Innovators
   
