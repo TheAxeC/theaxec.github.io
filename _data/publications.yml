@@ -240,59 +240,65 @@ other:
         title: Flanders BCI (2022-2024)
         url: ""
         book: Laboratory of Neuro- and Psychophysiology, KU Leuven
+      - authors: FWO
+        title: Fundamental Research Grant 2018-2022
+        url: ""
+        book: Belgium
+        abstract: >
+          FWO fundamental research grant for the project "Finger movement decoding: From source-localisation to graph-based regression modelling"
 students:
     title: Students
     papers:
         - authors: Dongho Chun
           title: (Federated) Machine Learning for Health Data
           url: 
-          pub_date: 2024
+          pub_date: 
           book: Master of Science in Computer Science (2024-2025)
         - authors: Dries Cornelissen
           title: Federated Learning for Regression modelling with Cardiovascular Health Data
           url: 
-          pub_date: 2024
+          pub_date: 
           book: Master of Science in Computer Science (2024-2025)
         - authors: Ward Ceyssens
           title: Brain-Computer Interfacing - population-based finger movement decoding
           url: 
-          pub_date: 2024
+          pub_date: 
           book: Master of Science in Computer Science (2024-2025)
 
         - authors: Qiang Sun
           title: Hand exoskeleton dexterity achieved by shared control with a semi-invasive brain-computer interface
           url: 
-          pub_date: 2022
+          pub_date: 
           book: Doctoral Program in Biomedical Sciences (daily supervision 2022-2023)
         - authors: Eva Calvo Merino
           title: Restoring finger dexterity with an exoskeleton controlled by human intracranial recordings
           url: 
-          pub_date: 2022
+          pub_date: 
           book: Doctoral Program in Biomedical Sciences (daily supervision 2022-2023)
         - authors: Aurélie de Borman
           title: Investigating the effect of Source Mixing on Directed Connectivity estimated between Simulated Reconstructed EEG Sources
           url: 
-          pub_date: 2021
-          book: Internship Student
+          pub_date: 
+          book: Internship Student 2021
         - authors: Diogo Sousa Morais
           title: Estimating the effectiveness of source localized EEG for BCIs
           url: 
-          pub_date: 2021
-          book: Internship Student
+          pub_date: 
+          book: Internship Student 2021
         - authors: Guilherme de Borras Silva
           title: Cluster Permutation Analysis of N-Back related EEG-ERP Data
           url: 
-          pub_date: 2021
-          book: Internship Student
+          pub_date: 
+          book: Internship Student 2021
         - authors: Iris Vantieghem
           title: Using Neural Networks to derive Directed Connectivity between Reconstructed EEG Sources
           url: 
-          pub_date: 2020
+          pub_date: 
           book: Master of Science in Artificial Intelligence (2020-2021)
         - authors: Didier Quintius
           title: Neural Network Approach to the Inverse Problem
           url: 
-          pub_date: 2020
+          pub_date: 
           book: Master of Science in Artificial Intelligence (2020-2021)
 
 news:
@@ -366,3 +372,8 @@ news:
         pub_date: 2017
         url: "https://dtai.cs.kuleuven.be/news/student-axel-faes-wins-bronze-medal-acm-sigplan-student-research-competition-icfp-conference"
         from: KU Leuven, Department of Computer Science, DTAI
+      - title: Purpose-Centric Appropriation of Everyday Objects as Game Controllers
+        date: 2016-09-19 15:59:00-0400
+        pub_date: 2016
+        url: "https://www.youtube.com/watch?v=Q4_rK2upGEY"
+        from: ACM SIGCHI

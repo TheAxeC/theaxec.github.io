@@ -1,24 +1,11 @@
 personal:
-  name: Axel Faes
   first-name: Axel
   last-name: Faes
   background: Machine Learning Engineer
   expert: Postdoctoral Researcher
   ai: Scientific Coordinator
-  website: https://theaxec.github.io
-  photo_loc: ../../theaxec.github.io/
   portrait_url: /assets/images/photos/portrait.jpg
-  content: |
-    I am a Postdoctoral Researcher in Biomedical Data Sciences at UHasselt, Belgium. 
-    I'm the Scientific Coordinator of the Flanders AI Research program, Use Case Real World Evidence, currently focussing on applying Machine Learning to cardiovascular, pregnancy, Multiple Sclerosis, epilepsy, and other biomedical data. 
   footer: Curriculum Vitae
-  links:
-    email: axel.faes@gmail.com
-    website: theaxec.github.io
-    github: TheAxeC
-    linkedin: axelfaes
-    googlescholar: abRAHJEAAAAJ
-    orcid: 0000-0002-1637-255X
 
 experience:
   title: Work & Research Experience
@@ -30,6 +17,8 @@ experience:
       about: |
         Scientific Coordinator of the Flanders AI Research program, Use Case Real World Evidence.
         Technical Machine Learning lead of the Biomedical Data Sciences Group, UHasselt
+      cover: /assets/images/covers/about-postdoc.webp
+
     - title: "Postdoctoral Researcher: Brain-Computer Interfacing and Machine Learning"
       location: KU Leuven
       duration: May 2023 - January 2024
@@ -37,12 +26,16 @@ experience:
       about: |
         Project: "Sign Language Alphabet decoding from intracranial brain activity"
         Group: Prof. Marc van Hulle, Computational Neuroscience, Laboratory for Neuro-and Psychophysiology, KU Leuven
+      cover: /assets/images/covers/about-postdoc.webp
+
     - title: "Research Stay Idrogenet Srl, Gloreha: Robotic Rehabilitation"
       location: Lumezzane, Italy
       duration: Dec. 2022 - Jan. 2023
       min: true
       about: |
         Develop custom software for the control of the Gloreha robotic rehabilitation device, specifically the R-TOUCH PRO Sinfonia, a custom-built robotic exoskeleton for hand rehabilitation.
+      cover: /assets/images/covers/about-researchstay.webp
+
     - title: "Web Performance Research Internship"
       location: UHasselt
       duration: Jul. 2016 - Sep. 2016
@@ -50,6 +43,8 @@ experience:
       about: |
         I worked on the iMinds PRO-FLOW project @ Expertise centre for Digital Media (EDM)
         focus on the difference between the http versions (http1.1, https, http2).
+      cover: /assets/images/covers/about-internship.webp
+
     - title: Summer Research Internship Physical Computing
       location: UHasselt
       duration: Aug. 2015 - Sep. 2015
@@ -57,6 +52,8 @@ experience:
       about: |
         Interfacing between human entity, a drone and virtual objects @ Expertise centre for Digital Media (EDM). 
         (C++, Optitrack motion capture, custom built drone)
+      cover: /assets/images/covers/about-internship.webp
+      
 education:
   title: Educational background
   content:
@@ -66,6 +63,8 @@ education:
       min: true
       about: |
         Completed Flemish Sign Language course at the Flemish Sign Language Centre (Vlaams Gebarentaal Centrum), the aim of which is to enable graduates to engage in day-to-day conversations with deaf and hard-of-hearing individuals.
+      cover: /assets/images/covers/about-sign.webp
+
     - title: Doctoral Programme in Biomedical Science (PhD) in Computational Neuroscience
       location: KU Leuven
       duration: Sep. 2018 - May 2023
@@ -73,7 +72,8 @@ education:
       about: |
         Cognitive and Molecular Neuroscience
         PhD Thesis: Finger Movement Decoding: From Source-Localisation to Tensor Regression Modelling
-
+      cover: /assets/images/covers/about-phd.webp
+      
     - title: Advanced Master of Science in Engineering (M.Sc.) in Artificial Intelligence
       location: KU Leuven
       duration: Sep. 2017 - Jul. 2019
@@ -81,6 +81,7 @@ education:
       about: |
         Engineering and Computer Science (76% - Cum Laude)
         Thesis: An Information Theoretical Approach to EEG Source-Reconstructed Connectivity (on Github)
+      cover: /assets/images/covers/about-ai.webp
 
     - title: Honoursprogramme of the Faculty of Engineering Science (Research Track)
       url: https://eng.kuleuven.be/studeren/engineering-essentials/honoursprogramma
@@ -90,6 +91,7 @@ education:
       about: |
         Research Assistant: design of type-&-effect system for Eff  based on row polymorphism
         Research Assistent: efficient compilation of algebraic effect handlers (in Eff)
+      cover: /assets/images/covers/about-honors.webp
 
     - title: Master of Science in Engineering (M.Sc.) in Computer Science (Burgelijk Ingenieur - ir.)
       location: KU Leuven
@@ -98,12 +100,14 @@ education:
       about: |
         Artificial Intelligence & Theoretical Computer Science (76% - Cum Laude)
         Thesis: Algebraic Subtyping for Algebraic Effects and Handlers (on Github)
+      cover: /assets/images/covers/about-master.webp
 
     - title: "Business Summer School: United in Manchester (0739)"
       location: The University of Manchester
       duration: Jul. 2015 - Aug. 2015
       min: true
       about: International Business
+      cover: /assets/images/covers/about-business.webp
 
     - title: "Bachelor of Science (B.Sc.) in Computer Science"
       location: UHasselt
@@ -112,6 +116,7 @@ education:
       about: |
         Physics and General courses (79% - Magna Cum Laude)
         Thesis: Machine learning techniques for flow-based network intrusion detection systems (on Github)
+      cover: /assets/images/covers/about-degree.webp
 
 projects:
   title: Projects
@@ -123,6 +128,7 @@ projects:
       min: true
       about: |
         Written in C (and since 2023, in C++14). High performance (on par with Luajit 2.1 -joff).
+      cover: /assets/images/covers/about-project.webp
 
     - title: Reinforcement Learning Agent in Google Deepmind’s StarCraft II Framework
       url: ""
@@ -131,6 +137,7 @@ projects:
       min: true
       about: |
           Implement reinforcement learning algorithms in PySC2 utilising the KU Leuven supercomputer.
+      cover: /assets/images/covers/about-project.webp
 
     - title: IoT-platform with pluggable sensors
       url: ""
@@ -139,6 +146,7 @@ projects:
       min: true
       about: |
         Showcase large-scale use of Internet of Things sensors
+      cover: /assets/images/covers/about-project.webp
 
     - title: ICAL parser for KU Leuven schedules
       url: https://github.com/TheAxeC/ical-kuleuven
@@ -147,6 +155,7 @@ projects:
       min: true
       about: |
         An nodejs application to create an iCalender file for courses at KU Leuven. (>1000 active users)
+      cover: /assets/images/covers/about-project.webp
 
     - title: "Search and Recommendation System"
       url: ""
@@ -156,6 +165,7 @@ projects:
       about: |
         A search and recommendation system for VoD (Video on Demand) for Androme. 
         In production in the Nebula project.
+      cover: /assets/images/covers/about-project.webp
 
     - title: "Household Survival"
       url: https://www.youtube.com/watch?v=Q4_rK2upGEY
@@ -165,6 +175,7 @@ projects:
       about: |
         A tower-defense game written in Unity utilising Optitrack motion capture. 
         Combine the virtual world and reality using augmented reality
+      cover: /assets/images/covers/about-project.webp
 
     - title: "Visual Programming IDE"
       url: https://github.com/TheAxeC/AxeSki
@@ -173,6 +184,7 @@ projects:
       min: true
       about: |
         A Visual programming IDE (Java)
+      cover: /assets/images/covers/about-project.webp
 
 awards:
   title: Honors & Awards
@@ -183,6 +195,7 @@ awards:
       location: Belgium
       content: >
         FWO fundamental research grant for the project "Finger movement decoding: From source-localisation to graph-based regression modelling"
+      cover: /assets/images/covers/about-grant.webp
 
     - award: Finalist
       event: Cyber Security Challenge 2018
@@ -190,11 +203,13 @@ awards:
       location: Brussels, Belgium
       content: >
         A Capture The Flag (CTF) challenge-based game covering a wide range of security issues. 
+      cover: /assets/images/covers/about-award.webp
 
     - award: 3rd place
       event: ICFP 2017 Student Research Competition
       date: 2017-09-01 15:59:00-0400
       location: Oxford, UK
+      cover: /assets/images/covers/about-award.webp
 
     - award: Bachelor Award
       event: in Computer Science
@@ -202,21 +217,25 @@ awards:
       location: UHasselt, Belgium
       content: >
         Award presented by the examination committee of Computer Science at Hasselt University for meritorious achievements, and contribution to a positive image of the bachelor in Computer Science.
+      cover: /assets/images/covers/about-award.webp
 
     - award: 3rd place
       event: ACM CHI 2016 Student Design Competition
       date: 2016-05-01 15:59:00-0400
       location: San Jose, CA, USA
+      cover: /assets/images/covers/about-award.webp
 
     - award: 2nd place
       event: BeGDC (Belgian Game Development Championship)
       date: 2016-02-01 15:59:00-0400
       location: Brussel, Belgium
+      cover: /assets/images/covers/about-award.webp
 
     - award: IELTS
       event: Academic Module (8.0/9.0)
       date: 2016-01-01 15:59:00-0400
       location: Brussel, Belgium
+      cover: /assets/images/covers/about-award.webp
 
 extracurricular:
   title: Extracurricular Activities
@@ -225,11 +244,13 @@ extracurricular:
       location: DjangoGirls
       duration: Mar. 2018 - Current
       about: Inspire women to fall in love with programming (Python, Django workshops)
+      cover: /assets/images/covers/about-coach.webp
 
     - title: Coach 
       location: CoderDojo (UHasselt, PXL)
       duration: Sep. 2014 - Current
       about: Teach children programming (Scratch, Python, Minecraft and Lego mindstorm).
+      cover: /assets/images/covers/about-coach.webp
 
     - title: Student Representative
       location: KU Leuven
@@ -240,6 +261,7 @@ extracurricular:
         Member of Departmental council of Computer Science
         Member of Department board of Computer Science
         Member of Faculty council of Engineering Science
+      cover: /assets/images/covers/about-representative.webp
 
     - title: Student Council Member
       location: StuRa UHasselt
@@ -247,6 +269,7 @@ extracurricular:
       about: |
         Member of Board of Education, Faculty Council. Board of Student Facilities, Diversity Commission
         Temporary representative in VVS (Vlaamse Vereniging van Studenten vzw)
+      cover: /assets/images/covers/about-representative.webp
 
     - title: Student Representative 
       location: UHasselt
@@ -255,3 +278,4 @@ extracurricular:
         Representing students interests in a Computer Science education context. 
         This meant discussing with the university in order to improve teaching, learning, assessment and academic services.
         Representing Computer Science education for high school students
+      cover: /assets/images/covers/about-representative.webp

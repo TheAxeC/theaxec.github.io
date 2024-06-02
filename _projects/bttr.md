@@ -4,6 +4,7 @@ title:  "Block-Term Tensor Regression"
 picture: /assets/images/projects/default.webp
 duration: Jan. 2019 - Current
 role: Lead Researcher
+publish: True
 ---
 
 # Introducing BTTR: Block-Term Tensor Regression

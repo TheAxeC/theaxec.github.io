@@ -4,6 +4,7 @@ title:  "Cardinal: Scripting Language"
 picture: /assets/images/projects/default.webp
 duration: Jan. 2015 - Current
 role: Lead Developer
+publish: True
 ---
 
 # Cardinal: A Powerful and Lightweight Scripting Language

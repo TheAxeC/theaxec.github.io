@@ -291,10 +291,10 @@ var currentFilter = '*';
 var filterAtribute = 'data-filter';
 var pageAtribute = 'data-page';
 var pagerClass = 'isotope-pager';
-var $projects = $('#projects').isotope({
-    itemcategory: '.project',
-    layoutMode: 'vertical'
-});
+// var $projects = $('#projects').isotope({
+//     itemcategory: '.project',
+//     layoutMode: 'vertical'
+// });
 
 
 // Filter based on input category
@@ -419,7 +419,7 @@ $(document).ready(function() {
 
     Promise.all(imageLoadPromises).then(function() {
         initializeOwlCarousel();
-        initializeIsotope();
+        // initializeIsotope();
     });
 });
 

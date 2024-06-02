@@ -10,24 +10,28 @@ description:
       url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'
       image: 'assets/images/badges/UHasselt.jpg'
   content: |
-      - **Research Work**:
-        - Postdoctoral Researcher @ Biomedical Data Sciences, UHasselt
-          - Investigating the use of AI in real-world evidence studies.
-          - Creating a federated learning algorithm for heart disease prediction.
-          - Developing machine learning models for brain-computer interfaces.
-          - Side project: working on algebraic type and effect systems for functional programming.
-        - Scientific Coordinator of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE)
+      - Postdoctoral Researcher @ Biomedical Data Sciences, UHasselt
+        - Investigating the use of AI in real-world evidence studies.
+        - Creating a federated learning algorithm for heart disease prediction.
+        - Developing machine learning models for brain-computer interfaces.
+        - Side project: working on algebraic type and effect systems for functional programming.
+      - Scientific Coordinator of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE)
       - **Professional Affiliations**:
         - Biomedical Research Institute (BIOMED) @ UHasselt
         - Data Science Institute (DSI) @ UHasselt
+      - <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
   show_portrait: true
   portrait_url: assets/images/photos/portrait.jpg
   portrait_height: 300
   portrait_caption: Building Knowledge, Driving Innovation 
 
   biomed: |
-    **Vision for Research Impact**
-    My research interests include **biomedical data science, machine learning, and artificial intelligence**, with a focus on developing innovative methods for analyzing and interpreting complex health data. I am passionate about leveraging data-driven approaches to improve patient outcomes and advance the field of **precision medicine** and the understanding and application of **brain-computer interfaces (BCIs) and neural decoding**. By combining expertise in data science, engineering, and medicine, I aim to bridge the gap between theoretical research and practical implementations, ultimately contributing to the development of more effective and personalized healthcare solutions.
+    **Vision for Research Impact** <a href="research">(view more <i class="fas fa-angle-double-right"></i>)</a>
+    I envision a future where **biomedical data science, machine learning, and artificial intelligence** are leveraged to revolutionize healthcare. I aim to:
+    - **Innovate in Health Data Analysis**: By developing innovative methods for analyzing and interpreting complex health data, I seek to advance the field of **precision medicine** and improve patient outcomes.
+    - **Advance Brain-Computer Interfaces**: My work focuses on the understanding and application of **brain-computer interfaces (BCIs) and neural decoding**, aiming to enhance the interface between technology and neural activity.
+    - **Bridge Research and Practice**: By combining expertise in **data science, engineering, and medicine**, I aim to bridge the gap between theoretical research and practical implementations, ultimately contributing to the development of more effective and personalized healthcare solutions.
+
   
   biomed_url: assets/images/banner2.webp
   biomed_caption: Innovating Computational Solutions for Real-World Health Challenges
@@ -51,6 +55,19 @@ description:
     Nerding Out on Health Innovations
     Engineering Solutions, Enhancing Lives
 
+
+research:
+  title: Exploring AI and Health Sciences
+  image: assets/images/research.webp
+  content: |
+    Welcome to my research corner, where I delve into the intersection of AI and health sciences. Here, you’ll find my latest projects, blog posts, and insights on leveraging AI for real-world applications, from predicting heart diseases to developing brain-computer interfaces. Join me as I explore innovative solutions that push the boundaries of healthcare technology.
+
+about:
+  title: About Me
+  image: assets/images/about.webp
+  content: |
+    Welcome to my professional page! I am dr. ir. Axel Faes, a postdoctoral researcher at UHasselt, leading machine learning initiatives within the Biomedical Data Sciences Group and coordinating the Flanders AI Research Program Use Case Real World Evidence. My work focuses on AI applications in healthcare, particularly in brain-computer interfacing and real-world evidence studies. With a PhD in Computational Neuroscience from KU Leuven, my journey spans multiple prestigious projects and academic accomplishments. Explore below to learn more about my research, education, projects, and other contributions to the field.
+
 ###################
 # Website content #
 ###################
@@ -62,10 +79,10 @@ header:
   navigation: 
     - name: Home
       url: /
-    - name: About
-      url: /about
     - name: Research
       url: /research
+    - name: About
+      url: /about
     - name: Publications
       url: /publications
     
