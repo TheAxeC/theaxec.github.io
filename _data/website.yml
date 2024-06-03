@@ -19,7 +19,8 @@ description:
       - **Professional Affiliations**:
         - Biomedical Research Institute (BIOMED) @ UHasselt
         - Data Science Institute (DSI) @ UHasselt
-      - <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
+        
+      <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
   show_portrait: true
   portrait_url: assets/images/photos/portrait.jpg
   portrait_height: 300
