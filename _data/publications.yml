@@ -39,7 +39,7 @@ papers-in-preparation:
           title: Finger abduction trajectory prediction from high-density ECoG
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
-          book: "Journal of Neural Engineering"
+          book: "Journal of Neural Engineering (5.4 IF)"
           selected: true
           pub_date: 2024
           abstract: >-
@@ -48,7 +48,7 @@ papers-in-preparation:
           title: Decoding Sign Language Finger Movements from high-density ECoG using Graph-Optimized Block Term Tensor Regression
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
-          book: "Journal of Neural Engineering"
+          book: "Journal of Neural Engineering (5.4 IF)"
           selected: true
           pub_date: 2024
           abstract: >-
@@ -59,14 +59,14 @@ journal:
         - authors: Eva Calvo Merino, Axel Faes, Marc M. Van Hulle
           title: The role of distinct ECoG frequency features in decoding finger movement
           pub_date: 2023
-          book: Journal of Neural Engineering
+          book: Journal of Neural Engineering (5.4 IF)
           url: "/publications/journal/role-of-distinct-ecog-frequency-features-in-decoding-finger-movement.pdf"
           abstract: >-
             Objective. To identify the electrocorticography (ECoG) frequency features that encode distinct finger movement states during repeated finger flexions. Approach. We used the publicly available Stanford ECoG dataset of cue-based, repeated single finger flexions. Using linear regression, we identified the spectral features that contributed most to the encoding of movement dynamics and discriminating movement events from rest, and combined them to predict finger movement trajectories. Furthermore, we also looked into the effect of the used frequency range and the spatial distribution of the identified features. Main results. Two frequency features generate superior performance, each one for a different movement aspect: high gamma band activity distinguishes movement events from rest, whereas the local motor potential (LMP) codes for movement dynamics. Combining these two features in a finger movement decoder outperformed comparable prior work where the entire spectrum was used as the average correlation coefficient with the true trajectories increased from 0.45 to 0.5, both applied to the Stanford dataset, and erroneous predictions during rest were demoted. In addition, for the first time, our results show the influence of the upper cut-off frequency used to extract LMP, yielding a higher performance when this range is adjusted to the finger movement rate. Significance. This study shows the benefit of a detailed feature analysis prior to designing the finger movement decoder.
         - authors: Axel Faes, Marc M. Van Hulle
           title: Finger movement and coactivation predicted from intracranial brain activity using extended Block-Term Tensor Regression
           url: "/publications/journal/finger-movement-and-coactivation-predicted-from-intracranial-brain-activity.pdf"
-          book: Journal of Neural Engineering
+          book: Journal of Neural Engineering (5.4 IF)
           pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
           pub_date: 2023
           selected: true
@@ -78,7 +78,7 @@ journal:
           title: Single finger trajectory prediction from intracranial brain activity using Block-Term Tensor Regression with fast and automatic component extraction
           url: "/publications/journal/single-finger-trajectory-prediction-from-intracranial-paper.pdf"
           pub_date: 2022
-          book: IEEE Transactions on Neural Networks and Learning Systems
+          book: IEEE Transactions on Neural Networks and Learning Systems (14.25 IF)
           abstract: >-
             Objective
             We introduce extended Block-Term Tensor Regression (eBTTR), a novel regression method designed to account for the multilinear nature of human intracranial finger movement recordings.
@@ -92,7 +92,7 @@ journal:
           title: Source space reduction for eLORETA
           url: "/publications/journal/source-space-reduction-for-eloreta.pdf"
           pub_date: 2021
-          book: Journal of Neural Engineering
+          book: Journal of Neural Engineering (5.4 IF)
           abstract: >-
             Objective We introduce Sparse eLORETA, a novel method for estimating a nonparametric solution to the source localization problem. Its goal is to generate a sparser solution compared to other source localization methods including eLORETA while benefitting from the latter's superior source localization accuracy.
             Approach Sparse eLORETA starts by reducing the source space of the Lead Field Matrix using Structured Sparse Bayesian Learning (SSBL) from which a Reduced Lead Field Matrix is constructed, which is used as input to eLORETA.
@@ -102,7 +102,7 @@ journal:
           title: Neural Networks for Directed Connectivity Estimation in Source-Reconstructed EEG Data
           pub_date: 2022
           url: "/publications/journal/neural-networks-for-directed-connectivity-estimation-in-source-reconstructed-eeg-data.pdf"
-          book: Applied Sciences
+          book: Applied Sciences (2.9 IF)
           abstract: >-
             Directed connectivity between brain sources identified from scalp electroencephalography (EEG) can shed light on the brain's information flows and provide a biomarker of neurological disorders. However, as volume conductance results in scalp activity being a mix of activities originating from multiple sources, the correct interpretation of their connectivity is a formidable challenge despite source localization being applied with some success. Traditional connectivity approaches rely on statistical assumptions that usually do not hold for EEG, calling for a model-free approach. We investigated several types of Artificial Neural Networks in estimating Directed Connectivity between Reconstructed EEG Sources and assessed their accuracy with respect to several ground truths. We show that a Long Short-Term Memory neural network with Non-Uniform Embedding yields the most promising results due to its relative robustness to differing dipole locations. We conclude that certain network architectures can compete with the already established methods for brain connectivity analysis.
 conference:
