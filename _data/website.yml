@@ -10,8 +10,8 @@ description:
       url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'
       image: 'assets/images/badges/UHasselt.jpg'
   content: |
-      - Postdoctoral Researcher @ Biomedical Data Sciences, UHasselt
-        - Investigating the use of AI in real-world evidence studies.
+      - Postdoctoral Researcher (Machine Learning) @ Biomedical Data Sciences, UHasselt 
+        - Investigating the use of AI in real-world evidence healthcare studies.
         - Creating a federated learning algorithm for heart disease prediction.
         - Developing machine learning models for brain-computer interfaces.
         - Side project: working on algebraic type and effect systems for functional programming.
@@ -62,12 +62,6 @@ research:
   image: assets/images/research.webp
   content: |
     Welcome to my research corner, where I delve into the intersection of AI and health sciences. Here, you’ll find my latest projects, blog posts, and insights on leveraging AI for real-world applications, from predicting heart diseases to developing brain-computer interfaces. Join me as I explore innovative solutions that push the boundaries of healthcare technology.
-
-about:
-  title: About Me
-  image: assets/images/about.webp
-  content: |
-    Welcome to my professional page! I am dr. ir. Axel Faes, a postdoctoral researcher at UHasselt, leading machine learning initiatives within the Biomedical Data Sciences Group and coordinating the Flanders AI Research Program Use Case Real World Evidence. My work focuses on AI applications in healthcare, particularly in brain-computer interfacing and real-world evidence studies. With a PhD in Computational Neuroscience from KU Leuven, my journey spans multiple prestigious projects and academic accomplishments. Explore below to learn more about my research, education, projects, and other contributions to the field.
 
 ###################
 # Website content #

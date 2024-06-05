@@ -10,12 +10,11 @@ body_attr: >-
 <div class="row">
     <div class="col-12 col-lg-10">
         {% for coll in site.data.publications %}
-        {% if coll[0] != "title" %}
+        {% if coll[0] != "title" and coll[0] != "secondary-title" %}
         <h2 class="pt-4" id="{{ coll[0] }}">{{ coll[1].title }}</h2>
         <div class="my-0 p-0 shadow-sm rounded-sm">
             {% for item in coll[1].papers %}
                 {% if item.hide %}
-
                 {% else %}
                     {% include widgets/publication_item.html item=item %}
                 {% endif %}

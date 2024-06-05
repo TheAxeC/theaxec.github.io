@@ -9,7 +9,7 @@ permalink: /about
 
 <div class="row">
     <div class="col-12 col-lg-10">
-        <div class="card border-0 shadow-sm bg-white">
+        <!-- <div class="card border-0 shadow-sm bg-white">
             <div class="card-body p-5">
                 <div class="row">
                     <div class="col">
@@ -18,22 +18,9 @@ permalink: /about
                             {{ site.data.website.about.content | newline_to_br | markdownify }}
                         </p>
                     </div>
-                    <!-- <div class="col-md-auto d-none d-md-block">
-                        <figure class="figure">
-                            <img 
-                                src="{{ site.data.website.about.image }}" 
-                                class="figure-img img-fluid img-thumbnail" 
-                                style="height: 300px;"
-                                data-toggle="tooltip" 
-                                data-placement="top" 
-                                title="{{ site.data.website.description.portrait_caption }}"
-                            >
-                            <figcaption class="figure-caption text-right"></figcaption>
-                        </figure>
-                    </div> -->
                 </div>
             </div>
-        </div>  
+        </div>   -->
         {% for coll in site.data.data %}
         {% if coll[0] != "personal" %}
         <h2 class="pt-4" id="{{ coll[0] }}">{{ coll[1].title }}</h2>
