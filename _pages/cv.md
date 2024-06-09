@@ -182,6 +182,8 @@ permalink: /cv
         publications=site.data.publications.other-publications %}
     {% include widgets/pub_cv.html i=i
         publications=site.data.publications.thesis %}
+    {% include widgets/pub_cv.html i=i
+        publications=site.data.publications.posters %}
     </section>
     <footer>
         <span class="footer__date">{{site.data.website.description.subtitle}}</span>
@@ -200,8 +202,6 @@ permalink: /cv
     </div>
     {% include widgets/pub_cv.html i=i
         publications=site.data.publications.abstracts %}
-    {% include widgets/pub_cv.html i=i
-        publications=site.data.publications.posters %}
     </section>
     <section class="publications">
     <div class="section__heading">
@@ -212,28 +212,12 @@ permalink: /cv
         publications=site.data.publications.other %}
     {% include widgets/pub_cv.html i=i
         publications=site.data.publications.students %}
-    </section>
-    <footer>
-        <span class="footer__date">{{site.data.website.description.subtitle}}</span>
-        <span class="footer__text">{{site.data.website.description.title}} · {{site.data.data.personal.footer}}</span>
-        <span class="footer__pageNum">3</span>
-    </footer>
-</div>
-
-<div class="page-break"></div>
-
-<div class="page">
-    <section class="publications">
-    <div class="section__heading">
-        <h1>{{site.data.publications.secondary-title}}</h1>
-        <span class="section__heading-underline"></span>
-    </div>
     {% include widgets/pub_cv.html i=0
         publications=site.data.publications.news %}
     </section>
     <footer>
         <span class="footer__date">{{site.data.website.description.subtitle}}</span>
         <span class="footer__text">{{site.data.website.description.title}} · {{site.data.data.personal.footer}}</span>
-        <span class="footer__pageNum">4</span>
+        <span class="footer__pageNum">3</span>
     </footer>
 </div>

@@ -33,7 +33,8 @@ experience:
       duration: Dec. 2022 - Jan. 2023
       min: true
       about: |
-        Develop custom software for the control of the Gloreha robotic rehabilitation device, specifically the R-TOUCH PRO Sinfonia, a custom-built robotic exoskeleton for hand rehabilitation.
+        Develop custom software for the control of the Gloreha robotic rehabilitation device, 
+        Specifically the R-TOUCH PRO Sinfonia, a custom-built robotic exoskeleton for hand rehabilitation.
       cover: /assets/images/covers/about-researchstay.webp
 
     - title: "Web Performance Research Internship"
@@ -62,7 +63,7 @@ education:
       duration: Sep. 2022 - May 2024
       min: true
       about: |
-        Completed Flemish Sign Language course at the Flemish Sign Language Centre (Vlaams Gebarentaal Centrum), the aim of which is to enable graduates to engage in day-to-day conversations with deaf and hard-of-hearing individuals.
+        Graduates are able to engage in day-to-day conversations with deaf and hard-of-hearing individuals.
       cover: /assets/images/covers/about-sign.webp
 
     - title: Doctoral Programme in Biomedical Science (PhD) in Computational Neuroscience
@@ -258,9 +259,7 @@ extracurricular:
       about: |
         POC of Master Computer Science Engineering
         POC of Advanced Master Artificial Intelligence
-        Member of Departmental council of Computer Science
-        Member of Department board of Computer Science
-        Member of Faculty council of Engineering Science
+        Member of Departmental council of Computer Science, Department board of Computer Science and Faculty council of Engineering Science
       cover: /assets/images/covers/about-representative.webp
 
     - title: Student Council Member
@@ -276,6 +275,5 @@ extracurricular:
       duration: Sep. 2013 - Jul. 2016
       about: |
         Representing students interests in a Computer Science education context. 
-        This meant discussing with the university in order to improve teaching, learning, assessment and academic services.
         Representing Computer Science education for high school students
       cover: /assets/images/covers/about-representative.webp

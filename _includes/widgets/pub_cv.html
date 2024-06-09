@@ -1,7 +1,8 @@
 {% assign publications = include.publications %}
 {% assign i = include.i %}
 
-{{publications.title}}
+<div class="section__subheading">{{publications.title}}</div>
+
 <table>
     {% for item in publications.papers %}
     {% if item.hide != true %}

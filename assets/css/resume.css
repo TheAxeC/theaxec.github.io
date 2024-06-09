@@ -69,18 +69,18 @@ img {
   text-align: center; }
   .about-me .about-me__name {
     font-weight: 100;
-    font-size: 2.5em; }
+    font-size: 2em; }
     .about-me .about-me__name .about-me__last-name {
       font-weight: 700; }
   .about-me h6 {
-    font-size: 0.7em;
+    font-size: 0.6em;
     line-height: 1.4em; }
   .about-me .about-me__position {
     margin-top: 0.1em;
     color: #DD3D2A;
     font-family: 'Source Sans Pro';
     /* font-variant: small-caps; */
-    font-size: 0.9333rem; }
+    font-size: 0.8rem; }
   .about-me .about-me__address {
     font-weight: 500;
     font-style: italic;
@@ -104,7 +104,7 @@ section {
   section .section__heading {
     color: #DD3D2A;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-bottom: 0em;
     display: flex;
     flex-direction: row; }
@@ -125,69 +125,73 @@ section {
         float: right; }
       section .section__item > div .section__subheading {
         font-weight: 600; 
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+      }
+      div .section__subheading {
+        font-weight: 600; 
+        font-size: 0.7rem;
       }
       section .section__item > div .section__subheading_second {
         /* font-weight: 600;  */
-        font-size: 0.8rem;
+        font-size: 0.7rem;
       }
       section .section__item > div .section__element {
         /* font-weight: 600;  */
-        font-size: 0.8rem;
+        font-size: 0.7rem;
       }
 
       section .section__item > div .section__location {
         color: #DD3D2A;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         font-style: italic; }
       section .section__item > div .section__subsubheading {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         font-weight: 500;
         font-variant: small-caps;
         color: #5D5D5D; }
       section .section__item > div .section__date-range {
-        font-size: 0.6rem;
+        font-size: 0.53rem;
         font-weight: 500;
         font-style: italic; }
   section ul {
     margin-left: 1.1rem;
     margin-top: 0rem;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     line-height: 1.1em; }
     section ul li {
-      font-size: 0.7rem; }
+      font-size: 0.6rem; }
     section ul li {
       margin-bottom: 0rem; }
   section ul, section table {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #333333; }
 
 .awards table tr td.publications__date {
   width: 6em; 
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   text-align: center;
   font-weight: normal;
 }
 
 .awards table tr td.section__award {
-  width: 36.83em; 
+  width: 43.12em; 
 }
 
 
 .awards table tr td *.section__subheading {
   font-weight: 600; 
   width: 9em; 
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 .awards table tr td *.section__element {
   /* font-weight: 600;  */
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   width: 32em;
 }
 
 .awards table tr td.section__location {
   color: #DD3D2A;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-style: italic; 
   float: right; 
 }
@@ -211,7 +215,7 @@ span.authors {
 
 .publications table tr td:not(:first-child) {
   /* color: #DD3D2A;  */
-  font-size: 0.63rem;}
+  font-size: 0.55rem;}
 
 .publications table tr {
   line-height: 1.3em; }
