@@ -36,6 +36,15 @@ experience:
         Develop custom software for the control of the Gloreha robotic rehabilitation device, 
         Specifically the R-TOUCH PRO Sinfonia, a custom-built robotic exoskeleton for hand rehabilitation.
       cover: /assets/images/covers/about-researchstay.webp
+    
+    - title: PhD Researcher in Computational Neuroscience
+      location: KU Leuven
+      duration: Sep. 2018 - May 2023
+      min: true
+      about: |
+        Cognitive and Molecular Neuroscience
+        PhD Thesis: Finger Movement Decoding: From Source-Localisation to Tensor Regression Modelling
+      cover: /assets/images/covers/about-phd.webp
 
     - title: "Web Performance Research Internship"
       location: UHasselt

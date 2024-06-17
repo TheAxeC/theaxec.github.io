@@ -4,7 +4,7 @@
 
 description:
   title: dr. ir. Axel Faes # Abstract 
-  subtitle: Leading AI in Health Research
+  subtitle: "#LeadingAIinHealth"
   positions:
     - name: 'Postdoctoral Researcher'
       url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'
@@ -52,9 +52,8 @@ description:
     Transforming Data into Lifesaving Insights
     Crafting Algorithms, Creating Impact
     Fundamentals to Frontlines: AI in Health
-    Pioneering Theoretical Advances for Practical Health Solutions
     Nerding Out on Health Innovations
-    Engineering Solutions, Enhancing Lives
+    #LeadingAIinHealth
 
 
 research:
@@ -80,17 +79,6 @@ header:
       url: /about
     - name: Publications
       url: /publications
-    
-updates:
-  - picture: /assets/images/updates/default.webp
-    desc: Engineer meets Physician conference - 28 & 29 May 2024 (Roeselare)
-    time: May 2024
-  - picture: /assets/images/updates/icfp.webp
-    desc: I will be a judge for the ICFP Student Research Competition 2024
-    time: May 2024
-  - picture: /assets/images/updates/default.webp
-    desc: Started as a Postdoctoral Researcher at Biomedical Data Science, UHasselt
-    time: Jan 2024
 
 ######################
 # Website References #
@@ -158,3 +146,21 @@ covers:
   - "/assets/images/covers/cover-E.webp"
   - "/assets/images/covers/cover-F.webp"
   - "/assets/images/covers/cover-G.webp"
+
+##################
+# Updates        #
+##################
+
+updates:
+  - picture: /assets/images/updates/default.webp
+    desc: Attended <a href="https://www.linkedin.com/feed/update/urn:li:share:7208443237794000896">Networking for Researchers</a> workshop
+    time: June 2024
+  - picture: /assets/images/updates/default.webp
+    desc: Engineer meets Physician conference - 28 & 29 May 2024 (Roeselare)
+    time: May 2024
+  - picture: /assets/images/updates/icfp.webp
+    desc: I will be a judge for the ICFP Student Research Competition 2024
+    time: May 2024
+  - picture: /assets/images/updates/default.webp
+    desc: Started as a Postdoctoral Researcher at Biomedical Data Science, UHasselt
+    time: Jan 2024
