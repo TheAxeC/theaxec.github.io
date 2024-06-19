@@ -39,3 +39,9 @@ Hoping to, one day, take a research visit to the Mayo Clinic and witness their i
 
 #Biomed #DSI #UHasselt #MayoClinic #EmP2024 🌟🔬🏥
 ```
+
+## Conferences
+
+Put a knot in a lanyard to make it shorter.
+
+Put a namecard on the right shoulder

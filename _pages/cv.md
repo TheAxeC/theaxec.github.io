@@ -8,7 +8,16 @@ permalink: /cv
     <header class="about-me">
     <img src="{{site.data.data.personal.portrait_url}}" alt="Avatar">
     <h1 class="about-me__name">{{site.data.data.personal.first-name}} <span class="about-me__last-name">{{site.data.data.personal.last-name}}</span></h1>
-    <h6 class="about-me__position">{{site.data.data.personal.background}} - {{site.data.data.personal.expert}} - {{site.data.data.personal.ai}}</h6>
+    <h6 class="about-me__position">
+        {% assign title_post = 0 %}
+        {{ site.data.data.personal.titles[0] }}
+        {% for content in site.data.data.personal.titles %}
+            {% if title_post > 0 %}
+            - {{ content }}
+            {% endif %}
+            {% assign title_post = title_post | plus:1 %}
+        {% endfor %}
+    </h6>
     <span class="about-me__social">
         {% for content in site.data.website.references.content %}
         {% if content.platform != "Curriculum Vitae" %}

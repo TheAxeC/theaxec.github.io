@@ -9,3 +9,13 @@ publish: False
 # History
 
 I started training in the Summer of 2021
+
+# Skills
+
+- Coordination
+- Civic
+- Education
+- Publications
+- Research
+- Funding
+- Networking
