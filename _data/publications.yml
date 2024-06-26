@@ -4,34 +4,29 @@ papers-in-preparation:
     title: Papers in Preparation
     papers:
         - authors: Axel Faes, Liesbet Peeters
-          title: Privacy Preserving Block-Term Tensor Regression
-          pub_date: 2024
-          hide: true
-        - authors: Axel Faes, Liesbet Peeters
-          title: Privacy Preserving Higher Order Partial Least Squares
-          pub_date: 2024
-          hide: true
-        - authors: Axel Faes, Liesbet Peeters
-          title: Horizontal and Vertical Federated Learning for Health Data with Federated Block Term Tensor Regression
-          pub_date: 2024
-          hide: true
-        - authors: Axel Faes, Liesbet Peeters
           title: Federated Block-Term Tensor Regression for Heart Diseases in Realistic Healthcare Settings
           url: ""
           book: ""
           # pub_pre: "Submitted to "
           # pub_post: '(Under review)'
-          # pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
-          pub_date: 2023
+          pub_last: '<san class="badge badge-pill badge-custom badge-success">Spotlight</span>'
+          pub_date: 2024
           selected: false
           hide: true
           # cover: "/assets/img/publications/journal/journal-1.jpg"
-          # abstract: >-
-          #   Massa ultricies mi quis hendrerit dolor magna. Arcu non odio euismod lacinia at quis risus sed. Et tortor at risus viverra. Enim neque volutpat ac tincidunt. Dictum varius duis at consectetur lorem donec.
+          abstract: >-
+            This paper presents an extension of the Block-Term Tensor Regression (BTTR) algorithm, termed Federated Block-Term Tensor Regression (FBTTR), designed to address the unique challenges of heart disease prediction in realistic healthcare settings. Traditional machine learning models often rely on centralized data, which poses significant privacy risks and limits the scalability of predictive models across multiple institutions. FBTTR adapts BTTR to federated learning scenarios, allowing decentralized data from various healthcare institutions to be utilized without compromising patient privacy. 
+
+            The proposed FBTTR method leverages the strengths of tensor regression in handling multi-dimensional data, enhancing predictive accuracy through collaborative learning while ensuring data confidentiality. By incorporating federated learning principles, FBTTR facilitates secure model training across different sites, effectively mitigating data silos and promoting a more comprehensive understanding of heart disease predictors.
+
+            Empirical evaluations demonstrate the robustness of FBTTR, showing that it achieves high predictive performance comparable to traditional centralized models. Moreover, the algorithm exhibits efficient computational performance, making it suitable for deployment in real-world healthcare environments where timely and accurate predictions are crucial. The results highlight FBTTR's potential in advancing predictive analytics in healthcare by providing a scalable, privacy-preserving solution for heart disease prediction, ultimately contributing to better patient outcomes and more effective healthcare delivery.
           # links:
           #   Code: https://github.com/luost26/ChemProjector
         - authors: Valentina Pergher*, Axel Faes*, Yide Li, Marc M. Van Hulle
           title: How stimulus type and task structure can affect ERP signatures
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "Frontiers in Psychology, section Cognition (2.6 IF)"
           pub_date: 2024
           abstract: >-
             The N-Back working memory (WM) updating task is commonly used in cognitive neuroscience research. Many studies investigated behavioral responses, while only few studies have sought to identify its electrophysiological signatures. Nevertheless, it is still unclear what the role is of stimulus type and task structure in the outcomes. Here, we address this issue using nine different variations of an N-Back task. Results show differences in electrode clusters between words vs. pictures for both N2 and P3-ERP components, specifically in the fronto-central brain regions. In conclusion, our findings suggest that stimulus type contributes to differences in electrophysiological responses during N-Back task performance, which needs to be accounted for when interpreting findings across studies.
