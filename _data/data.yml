@@ -5,12 +5,11 @@ personal:
   expert: Postdoctoral Researcher
   ai: Scientific Coordinator
   titles:
-    - Machine Learning Engineer
     - Postdoctoral Researcher
-    # - Computer Scientist
-    # - Data Scientist
-    - Scientific Coordinator
+    - Data Scientist
     - Computational Neuroscientist
+    # - Scientific Coordinator
+    - Computer Engineer
   portrait_url: /assets/images/photos/white-portrait.jpg
   footer: Curriculum Vitae
 

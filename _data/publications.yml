@@ -11,8 +11,8 @@ papers-in-preparation:
           # pub_post: '(Under review)'
           pub_last: '<san class="badge badge-pill badge-custom badge-success">Spotlight</span>'
           pub_date: 2024
-          selected: false
-          hide: true
+          selected: true
+          hide: false
           # cover: "/assets/img/publications/journal/journal-1.jpg"
           abstract: >-
             This paper presents an extension of the Block-Term Tensor Regression (BTTR) algorithm, termed Federated Block-Term Tensor Regression (FBTTR), designed to address the unique challenges of heart disease prediction in realistic healthcare settings. Traditional machine learning models often rely on centralized data, which poses significant privacy risks and limits the scalability of predictive models across multiple institutions. FBTTR adapts BTTR to federated learning scenarios, allowing decentralized data from various healthcare institutions to be utilized without compromising patient privacy. 
@@ -35,7 +35,7 @@ papers-in-preparation:
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
           book: "Journal of Neural Engineering (5.4 IF)"
-          selected: true
+          selected: false
           pub_date: 2024
           abstract: >-
             Objective: A case study is conducted to show that not only finger flexion- but also finger abduction trajectories can be decoded from high-density electrocorticography (ECoG) recordings. Approach: Two patients, temporarily implanted with high-density ECoG grids as part of their clinical workup, performed a cued single finger flexion task, a cued sign language alphabet task and a cued finger abduction task. The extended Block-Term Tensor Regression (eBTTR) model was adopted to predict finger trajectories after being developed on simultaneous data glove/ECoG recordings. The model performance on the single finger flexion task provides a reference for comparing that on the finger abduction task. Finally, the sign language alphabet task involves realistic, complex finger movements, calling upon both finger flexions and abductions. Main results: We show that finger abduction trajectories can be decoded from ECoG recordings, with comparable precision as single finger flexion trajectories, and even when expressing sign language gestures that involve joint finger flexions and abductions. Significance: Our findings show for the first time that finger abduction trajectories can be decoded from ECoG even when part of Sign Language Alphabet gestures. 
