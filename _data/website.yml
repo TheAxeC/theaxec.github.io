@@ -153,18 +153,18 @@ covers:
 ##################
 
 updates:
-  - picture: /assets/images/updates/default.webp
+  - picture: /assets/images/updates/editor.webp
     desc: Guest Associate Editor, Frontiers in Immunology for the Research Topic "Use of Big Data and Artificial Intelligence in Multiple Sclerosis"
     time: June 2024
-  - picture: /assets/images/updates/default.webp
+  - picture: /assets/images/updates/conference.webp
     desc: Attended <a href="https://www.linkedin.com/feed/update/urn:li:share:7208443237794000896">Networking for Researchers</a> workshop
     time: June 2024
-  - picture: /assets/images/updates/default.webp
+  - picture: /assets/images/updates/conference.webp
     desc: Engineer meets Physician conference - 28 & 29 May 2024 (Roeselare)
     time: May 2024
   - picture: /assets/images/updates/icfp.webp
     desc: I will be a judge for the ICFP Student Research Competition 2024
     time: May 2024
-  - picture: /assets/images/updates/default.webp
+  - picture: /assets/images/updates/uhasselt.webp
     desc: Started as a Postdoctoral Researcher at Biomedical Data Science, UHasselt
     time: Jan 2024

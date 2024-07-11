@@ -221,13 +221,18 @@ posters:
 other:
     title: Other
     papers:
-      - authors: Guest Associate Editor
-        title: "Use of Big Data and Artificial Intelligence in Multiple Sclerosis"
+      - authors: Bio-informatica (3740)
+        title: Co-lecturer (co-titularis)
+        url: ""
+        pub_date: 2024
+        book: UHasselt
+      - authors: "Use of Big Data and Artificial Intelligence in Multiple Sclerosis"
+        title: Guest Associate Editor
         url: ""
         pub_date: 2024
         book: "Frontiers in Immunology"
-      - authors: Judge
-        title: Student Research Competition
+      - authors: Student Research Competition Judge
+        title: Student Research Competition Judge
         url: ""
         pub_date: 2024
         book: "ICFP (International Conference on Functional Programming)"
