@@ -69,7 +69,30 @@ experience:
         Interfacing between human entity, a drone and virtual objects @ Expertise centre for Digital Media (EDM). 
         (C++, Optitrack motion capture, custom built drone)
       cover: /assets/images/covers/about-internship.webp
-      
+
+academic:
+  title: Academic Work
+  content:
+    - title: Bio-informatica (3740) Co-lecturer (co-titularis)
+      location: "UHasselt"
+      duration: June 2024 - Sept. 2025
+      cover: /assets/images/covers/about-representative.webp
+    - title: Guest Associate Editor 2024-2025
+      location: "Use of Big Data and Artificial Intelligence in Multiple Sclerosis"
+      duration: "Frontiers in Immunology"
+      cover: /assets/images/covers/about-representative.webp
+    - title: Student Research Competition Judge 
+      location: "ICFP (International Conference on Functional Programming) 2024"
+      cover: /assets/images/covers/about-representative.webp
+    - title: Data Science Consultant
+      location: Flanders BCI (2022-2024)
+      duration: Laboratory of Neuro- and Psychophysiology, KU Leuven
+      cover: /assets/images/covers/about-representative.webp
+    - title: Guest lecturer 2022-2023
+      location: "Brain-Computer Interfacing (B-KUL-H08M0A)"
+      duration: KU Leuven
+      cover: /assets/images/covers/about-representative.webp
+
 education:
   title: Educational background
   content:

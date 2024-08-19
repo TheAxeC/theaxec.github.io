@@ -14,8 +14,13 @@
         </div>
         <div class="col-md-9 col-xl-10 p-3 pl-md-0">
             <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}{{ item.award }}</h5>
-            <p class="mt-0 mb-0 small">{{ item.location }} {{item.event}}</p>
-            <p class="mt-0 mb-0 small"><i>{{ item.duration }} {{item.location}}</i> </p>
+            {% if item.event %}
+            <p class="mt-0 mb-0 small">{{item.event}}</p>
+            <p class="mt-0 mb-0 small"><i>{{item.location}}</i> </p>
+            {% else %}
+            <p class="mt-0 mb-0 small">{{ item.location }}</p>
+            <p class="mt-0 mb-0 small"><i>{{ item.duration }} </i> </p>
+            {% endif %}
             <p class="mt-0 mb-0 small text-muted">{{ item.about }} {{item.content}}</p>
             
             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
