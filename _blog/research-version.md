@@ -42,6 +42,14 @@ My research vision is to pioneer the development of advanced neurotechnology sol
 
    Committed to the dissemination of knowledge, I will continue to publish my findings in leading journals and conferences, and develop open-source tools and frameworks that can be used by researchers and practitioners worldwide. By mentoring students and conducting workshops, I aim to inspire the next generation of scientists and engineers to explore the exciting field of neural interfaces and neurotechnology.
 
+### Existing collaborations
+
+I have existing collaborations with UMC Utrecht Brain Center, Neurology and Neurosurgery, as well as Ghent University (UGent) Hospital, Neurology. 
+
+### Motivation for the relevance of BCI Research
+
+My goal is to become the main lab of expertise for BCIs within Belgium. While there are groups in Leuven, these groups are connected with the Faculty of Engineering and focus on more technical challenges and research such as the development of new electronics. My focus would be primarily on the developing new neural decoding algorithms in order to help patients with locked-in syndrome. My prior host lab for my PhD, under Marc Van Hulle, will be disappearing due to his retirement. 
+
 ### Long-term Goals
 
 - **Comprehensive Understanding of Neural Mechanisms**: Achieve a deeper understanding of the neural mechanisms underlying motor control and cognitive functions, contributing to both basic neuroscience and applied neuroengineering.
