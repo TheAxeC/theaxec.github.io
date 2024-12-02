@@ -47,6 +47,8 @@ ELIXIR Belgium or "ELIXIR infrastructure for Data and Services to strengthen Lif
 
 The Flanders Artificial Intelligence Research (FAIR) program is organized around four grand challenges and within this program, Liesbet M. Peeters acts as the use case lead of the Use Case multiple sclerosis (MS), which is part of Grand Challenge 1 (AI-Driven Data Science: Making Data Science Hybrid, Automated, Trusted and Actionable), Work Package 7 (use cases in Health). We aim to speed-up the identification of the right treatment for the right patient at the right time by improving the data management of data that is already collected and applying AI techniques on these datasets. I am taking the position as both the general scientific coordinator of this use case, as well as developing one of the Proof of Concepts (POCs) that make up the usecase. 
 
+Cardiovascular sciences
+
 #### Motivation for the relevance of BCI Research (within Belgium)
 My goal is to become the main lab of expertise for BCIs within Belgium. While there are groups in Leuven, these groups are connected with the Faculty of Engineering and focus on more technical challenges and research such as the development of new electronics. My focus would be primarily on the developing new neural decoding algorithms in order to help patients with locked-in syndrome. My prior host lab for my PhD, under Marc Van Hulle, will be disappearing due to his retirement. 
 
