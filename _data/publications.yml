@@ -3,6 +3,18 @@ secondary-title: Invited positions, supervised students, talks and other media
 papers-in-preparation:
     title: Papers in Preparation
     papers:
+        - authors: Axel Faes, Liesbet Peeters, Marc Van Hulle
+          title: Federated Transfer Learning for intracranial motor brain-computer interfaces
+          url: ""
+          book: ""
+          pub_date: 2025
+          abstract: ""
+        - authors: Axel Faes, Liesbet Peeters
+          title: "Block-Term Tensor Regression as an autoencoder "
+          url: ""
+          book: ""
+          pub_date: 2025
+          abstract: ""
         - authors: Axel Faes, Liesbet Peeters
           title: Federated Block-Term Tensor Regression for Heart Diseases in Realistic Healthcare Settings
           url: ""
@@ -22,6 +34,14 @@ papers-in-preparation:
             Empirical evaluations demonstrate the robustness of FBTTR, showing that it achieves high predictive performance comparable to traditional centralized models. Moreover, the algorithm exhibits efficient computational performance, making it suitable for deployment in real-world healthcare environments where timely and accurate predictions are crucial. The results highlight FBTTR's potential in advancing predictive analytics in healthcare by providing a scalable, privacy-preserving solution for heart disease prediction, ultimately contributing to better patient outcomes and more effective healthcare delivery.
           # links:
           #   Code: https://github.com/luost26/ChemProjector
+        - authors: Ashkan Pirmani, Edward De Brouwer, Adam Arany, Martijn Oldenhof, Antoine Passemiers, Axel Faes, Tomas Kalincik, Serkan Ozakbas, Riadh Gouider, Barbara Willekens, Dana Horakova, Eva Kubala Havrdova, Francesco Patti, Alexandre Prat, Alessandra Lugaresi, Valentina Tomassini, Pierre Grammond, Elisabetta Cartechini, Izanne Roos, Cavit Boz, Raed Alroughani, Maria Pia Amato, Katherine Buzzard, Jeannette Lechner-Scott, Joana Guimaraes, Claudio Solaro, Oliver Gerlach, Aysun Soysal, Jens Kuhle, Jose Luis Sanchez-Menoyo, Daniele Spitaleri, Tunde Csepany, Bart Van Wijmeersch, Radek Ampapa, Julie Prevost, Samia J. Khoury, Vincent van Pesch, Nevin John, Davide Maimone, Bianca Weinstock-Guttman, Guy Laureys, Pamela McCombe, Yolanda Blanco, Ayse Altintas, Abdullah Al-Asmi, Justin Garber, Anneke van der Walt, Helmut Butzkueven, Koen de Gans, Csilla Rozsa, Bruce Taylor, Talal Al-Harbi, Attila Sas, Cecilia Rajda, Orla Gray, Danny Decoo, William M Carroll, Allan G Kermode, Marzena Fabis-Pedrini, Deborah Mason, Angel Perez Sempere, Mihaela Simu, Neil Shuey, Bhim Singhal, Marija Cauchi, Todd A. Hardy, Sudarshini Ramanathan, Patrice Lalive, Carmen-Adella Sirbu, Stella Hughes, Tamara Castillo Trivino, Liesbet M. Peeters, and Yves Moreau
+          title: Personalized Federated Learning for Predicting Disability Progression in Multiple Sclerosis Using Real-World Routine Clinical Data
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "npj Digital Medicine (15.357 IF)"
+          pub_date: 2025
+          abstract: >-
+            The fragmented nature of Real-World Data (RWD) presents significant challenges for research, particularly in low-prevalence diseases like Multiple Sclerosis (MS). Data dispersed across institutions and countries, coupled with restrictive privacy regulations, limits access to comprehensive datasets, delaying the development of predictive models and understanding of critical outcomes. Federated Learning (FL) offers a collaborative solution by enabling model training without centralizing sensitive patient data, but it often fails to address variations across data providers. Personalized Federated Learning (PFL) adapts models to these differences, improving the precision and relevance of insights. Yet, its potential to enhance predictive performance and guide clinical decisions in MS using routine clinical RWD remains largely unexplored. In this study, we evaluate standard FL alongside two personalization strategies for predicting confirmed MS disability progression over two years, using RWD from over 26,000 patients in the MSBase registry. These strategies include (1) AdaptiveDualBranchNet, a novel architecture that selectively exchanges key model parameters, enabling more nuanced adaptation across diverse clinical centers and (2) fine-tuning the global FL model to better fit each local's data. We benchmark these methods against fully centralized (pooled data) and local (site-specific) models to assess their relative performance and practicality. Our results show that standard FL methods trail both centralized and local baselines, highlighting the limitations of a uniform global model. In contrast, personalization yields a notable performance boost, with both PFL strategies surpassing all comparators. Specifically, the adaptive and fine-tuned versions of FedProx and FedAVG achieved the highest ROC-AUC scores, with FedProx reaching 0.8398 ± 0.0019 and 0.8375 ± 0.0019, and FedAVG scoring 0.8384 ± 0.0014 and 0.8370 ± 0.0016, respectively. In contrast, among the standard FL methods, FedAdam and FedYogi showed the best performance with ROC-AUC scores of 0.7919 ± 0.0031 and 0.7910 ± 0.0028. These results underscore that personalization is not a luxury but a necessity, enabling FL to reach—and even exceed—the predictive power of traditional modeling approaches. By providing concrete guidelines for implementing PFL and introducing a new, flexible architecture, this study establishes a clear path toward unlocking FL's untapped potential. Ultimately, these advances establish a clear path for more impactful, privacy-aware predictive modeling that enhances clinical decision-making and patient care in MS and beyond.
         - authors: Valentina Pergher*, Axel Faes*, Yide Li, Marc M. Van Hulle
           title: How stimulus type and task structure can affect ERP signatures
           pub_pre: "Submitted to "
@@ -103,6 +123,12 @@ journal:
 conference:
     title: Conference Papers
     papers:
+        - authors:
+          title: Proprioceptive Feedback Challenges Motor Intention Detection from EEG during Human-Exoskeleton Interaction
+          url: ""
+          pub_date: 2025
+          book: "Proceedings of 2025 International Conference on Rehabilitation Robotics (ICORR) 2025"
+          abstract: ""
         - authors: Robin Marx, Maarten Wijnants, Peter Quax, Axel Faes, Wim Lamotte
           title: "Web Performance Characteristics of HTTP/2 and comparison to HTTP/1.1"
           url: "/publications/conference/WebPerfCharacteristicsOfH2_MarxRobin_13aug2017.pdf"
@@ -174,7 +200,6 @@ thesis:
 abstracts:
     title: Extended Abstracts
     papers:
-
       - authors: Qiang Sun, Axel Faes, Marc M. Van Hulle
         title: "Individual and Coordinated Finger Movements Decoding from High-Density EEG and Its Implication in Hand Exoskeleton Control"
         url: "/publications/abstracts/abstract_ECNR_MVH_AF.pdf"
@@ -221,6 +246,11 @@ posters:
 other:
     title: Other
     papers:
+      - authors: Advanced Topics in Data Science (4569 & 4585)
+        title: lecturer (lid onderwijsteam) 2024-2025
+        url: ""
+        pub_date: 2024
+        book: UHasselt
       - authors: Bio-informatica (3740)
         title: Co-lecturer (co-titularis) 2024-2025
         url: ""
@@ -254,6 +284,21 @@ other:
 students:
     title: Students
     papers:
+        - authors: Matteo Ramina
+          title: Estimating Household Wealth in Guyana - Remote Sensing and Convolutional Neural Network Approach
+          url: 
+          pub_date: 
+          book: Master Statistics & Data Science
+        - authors: Mohsen Soleimanisemsani
+          title: AI for time series imputation
+          url: 
+          pub_date: 
+          book: Master Statistics & Data Science
+        - authors: Meseret Assefa Kerga
+          title: Predicting Cirrhosis Patient Survival Using Machine Learning - A Data-Driven Approach
+          url: 
+          pub_date: 
+          book: Master Statistics & Data Science
         - authors: Dongho Chun
           title: (Federated) Machine Learning for Health Data
           url: 
@@ -269,7 +314,6 @@ students:
           url: 
           pub_date: 
           book: Master of Science in Computer Science (2024-2025)
-
         - authors: Qiang Sun
           title: Hand exoskeleton dexterity achieved by shared control with a semi-invasive brain-computer interface
           url: 
