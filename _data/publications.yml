@@ -246,10 +246,15 @@ posters:
 other:
     title: Other
     papers:
-      - authors: Advanced Topics in Data Science (4569 & 4585)
-        title: lecturer (lid onderwijsteam) 2024-2025
+      - authors: BKO (Basis Kwalificatie Onderwijs) traject
+        title: Onderwijsprofessionalisering
         url: ""
-        pub_date: 2024
+        pub_date: 2025
+        book: UHasselt
+      - authors: Advanced Topics in Data Science (4569 & 4585)
+        title: Lecturer Federted Learning (lid onderwijsteam) 2024-2025
+        url: ""
+        pub_date: 2025
         book: UHasselt
       - authors: Bio-informatica (3740)
         title: Co-lecturer (co-titularis) 2024-2025
@@ -288,17 +293,17 @@ students:
           title: Estimating Household Wealth in Guyana - Remote Sensing and Convolutional Neural Network Approach
           url: 
           pub_date: 
-          book: Master Statistics & Data Science
+          book: Master Statistics & Data Science (2024-2025)
         - authors: Mohsen Soleimanisemsani
           title: AI for time series imputation
           url: 
           pub_date: 
-          book: Master Statistics & Data Science
+          book: Master Statistics & Data Science (2024-2025)
         - authors: Meseret Assefa Kerga
           title: Predicting Cirrhosis Patient Survival Using Machine Learning - A Data-Driven Approach
           url: 
           pub_date: 
-          book: Master Statistics & Data Science
+          book: Master Statistics & Data Science (2024-2025)
         - authors: Dongho Chun
           title: (Federated) Machine Learning for Health Data
           url: 
@@ -353,6 +358,21 @@ students:
 news:
     title: Talks, presentations and other media
     papers:
+      - title: Guest Lecture "Federated Finger movement decoding - brain-computer interfacing"
+        date: 2023-04-25 15:59:00-0400
+        pub_date: 2025
+        url: ""
+        from: KULeuven
+      - title: Use Case - Real-World Evidence
+        date: 2024-10-13 15:59:00-0400
+        pub_date: 2024
+        url: ""
+        from: Flanders Artificial Intelligence Research Program (FAIR) Research Day
+      - title: FAIR Use Case Real World Evidence Kick-off Event
+        date: 2024-03-21 15:59:00-0400
+        pub_date: 2024
+        url: ""
+        from: Flanders Artificial Intelligence Research Program (FAIR)
       - title: Decoding finger movements from invasive recordings in human motor cortex
         date: 2023-04-25 15:59:00-0400
         pub_date: 2023

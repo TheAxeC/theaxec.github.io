@@ -11,9 +11,10 @@ description:
       image: 'assets/images/badges/UHasselt.jpg'
   content: |
       - Postdoctoral Researcher (Machine Learning) @ Biomedical Data Sciences, UHasselt 
-        - Investigating the use of AI in real-world evidence healthcare studies.
-        - Creating a federated learning algorithm for heart disease prediction.
-        - Developing machine learning models for brain-computer interfaces.
+        - Investigating the use of AI in real-world evidence healthcare studies (FAIR UC RWE).
+        - Federated Enhanced Regression and Medical Analytics with Tensors (FERMAT).
+          - Creating a federated learning algorithm for heart disease prediction.
+          - Developing machine learning models for brain-computer interfaces.
         - Side project: working on algebraic type and effect systems for functional programming.
       - Computational Neuroscientist
       - Scientific Coordinator of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE)
@@ -23,7 +24,7 @@ description:
         
       <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
   show_portrait: true
-  portrait_url: assets/images/photos/portrait.jpg
+  portrait_url: assets/images/photos/portrait.jpeg
   portrait_height: 300
   portrait_caption: Building Knowledge, Driving Innovation 
 
@@ -40,10 +41,13 @@ description:
 
   mission:  |
       **Vision for Educational Impact**
+      I have experience in teaching Brain-Computer Interfaces, Federated Learning, and Bioinformatics, and am currently working to obtain my BKO (Basis Kwalificatie Onderwijs) from the UHasselt. I have successfully supervised over a dozen Master Thesis students in the field of AI, Statistics & Data Science, Computer Science and Biomedical Science showing my skills in interdisciplinary learning. 
+
       I envision a future where education in **biomedical data science and AI** is accessible, engaging, and impactful. I aim to:
       - **Inspire Future Researchers**: By mentoring students and conducting educational workshops, I seek to inspire the next generation of scientists and engineers to pursue innovative research in biomedical data sciences and neurotechnology.
       - **Promote Interdisciplinary Learning**: My work underscores the importance of interdisciplinary approaches, combining insights from **neuroscience, biomedical science, engineering, and computer science** to solve complex problems. I aim to foster a learning environment that encourages such cross-disciplinary collaborations.
       - **Develop Educational Resources**: Through my publications and open-source projects I plan to provide comprehensive resources that make advanced topics in AI and biomedical data science more accessible to learners worldwide.
+      
   mission_url: assets/images/biomed.webp
   mission_caption: Educating the Next Generation of Innovators
   

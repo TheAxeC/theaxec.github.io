@@ -10,7 +10,7 @@ personal:
     - Computational Neuroscientist
     # - Scientific Coordinator
     - Computer Engineer
-  portrait_url: /assets/images/photos/white-portrait.jpg
+  portrait_url: /assets/images/photos/portrait.jpeg
   footer: Curriculum Vitae
 
 experience:
@@ -73,6 +73,10 @@ experience:
 academic:
   title: Academic Work
   content:
+    - title: Advanced Topics in Data Science (4569 & 4585) Lecturer Federted Learning (lid onderwijsteam)
+      location: "UHasselt"
+      duration: June 2024 - Sept. 2025
+      cover: /assets/images/covers/about-representative.webp
     - title: Bio-informatica (3740) Co-lecturer (co-titularis)
       location: "UHasselt"
       duration: June 2024 - Sept. 2025
@@ -88,7 +92,7 @@ academic:
       location: Flanders BCI (2022-2024)
       duration: Laboratory of Neuro- and Psychophysiology, KU Leuven
       cover: /assets/images/covers/about-representative.webp
-    - title: Guest lecturer 2022-2023
+    - title: Guest lecturer 2022-2025
       location: "Brain-Computer Interfacing (B-KUL-H08M0A)"
       duration: KU Leuven
       cover: /assets/images/covers/about-representative.webp
