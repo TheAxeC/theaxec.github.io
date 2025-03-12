@@ -7,11 +7,13 @@ papers-in-preparation:
           url: ""
           book: ""
           pub_date: 2025
+          cover: /assets/images/covers/publication-journal.webp
           abstract: ""
         - authors: Axel Faes, Liesbet Peeters
           title: "Block-Term Tensor Regression as an autoencoder "
           url: ""
           book: ""
+          cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
           abstract: ""
         - authors: Axel Faes, Liesbet Peeters
@@ -23,6 +25,7 @@ papers-in-preparation:
           pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
           pub_date: 2024
           selected: true
+          cover: /assets/images/covers/publication-journal.webp
           hide: false
           # cover: "/assets/img/publications/journal/journal-1.jpg"
           abstract: >-
@@ -37,6 +40,7 @@ papers-in-preparation:
           title: Personalized Federated Learning for Predicting Disability Progression in Multiple Sclerosis Using Real-World Routine Clinical Data
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
+          cover: /assets/images/covers/publication-journal.webp
           book: "npj Digital Medicine (15.357 IF)"
           pub_date: 2025
           abstract: >-
@@ -45,6 +49,7 @@ papers-in-preparation:
           title: How stimulus type and task structure can affect ERP signatures
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
+          cover: /assets/images/covers/publication-journal.webp
           book: "Frontiers in Psychology, section Cognition (2.6 IF)"
           pub_date: 2024
           abstract: >-
@@ -56,6 +61,7 @@ papers-in-preparation:
           book: "Journal of Neural Engineering (5.4 IF)"
           selected: false
           pub_date: 2024
+          cover: /assets/images/covers/publication-journal.webp
           abstract: >-
             Objective: A case study is conducted to show that not only finger flexion- but also finger abduction trajectories can be decoded from high-density electrocorticography (ECoG) recordings. Approach: Two patients, temporarily implanted with high-density ECoG grids as part of their clinical workup, performed a cued single finger flexion task, a cued sign language alphabet task and a cued finger abduction task. The extended Block-Term Tensor Regression (eBTTR) model was adopted to predict finger trajectories after being developed on simultaneous data glove/ECoG recordings. The model performance on the single finger flexion task provides a reference for comparing that on the finger abduction task. Finally, the sign language alphabet task involves realistic, complex finger movements, calling upon both finger flexions and abductions. Main results: We show that finger abduction trajectories can be decoded from ECoG recordings, with comparable precision as single finger flexion trajectories, and even when expressing sign language gestures that involve joint finger flexions and abductions. Significance: Our findings show for the first time that finger abduction trajectories can be decoded from ECoG even when part of Sign Language Alphabet gestures. 
         - authors: Axel Faes, Mariana P. Branco, Anais Van Hoylandt, Elina Keirse, Tom Theys, Nick F. Ramsey, Marc M. Van Hulle
@@ -64,6 +70,7 @@ papers-in-preparation:
           pub_post: '(Under review)'
           book: "Journal of Neural Engineering (5.4 IF)"
           selected: true
+          cover: /assets/images/covers/publication-journal.webp
           pub_date: 2024
           abstract: >-
             Objective A novel method is introduced to regress over the Sign Language finger movements from human electrocorticography (ECoG) recordings. Approach The proposed Graph-Optimized Block-Term Tensor Regression (Go-BTTR) method consists of two components: a deflation-based regression model that sequentially Tucker-decomposes multiway ECoG data into a series of blocks, and a Causal Graph Process (CGP) that accounts for the complex relationship between finger movements when expressing sign language gestures. Prior to each regression block, CGP is applied to decide which fingers should be kept separate or grouped and should therefore be referred to BTTR or its extended version eBTTR, respectively. Main results Two ECoG datasets were used, one recorded in 5 patients expressing 4 hand gestures of the American Sign Language Alphabet, and another in 2 patients expressing all gestures of the Flemish Sign Language Alphabet. As Go-BTTR combines fingers in a flexible way, it can better account for the nonlinear relationship ECoG exhibits when expressing hand gestures, including unintentional finger co-activations. This is reflected by the superior joint finger trajectory predictions compared to eBTTR, and predictions that are on par with BTTR in single finger scenarios. Subject 5, Dataset 1, during the movement of hand gestures reached 0.82 Pearson correlation for the pinky for Go-BTTR compared to 0.8 and 0.72 for eBTTR and BTTR respectively. Significance Our findings show that Go-BTTR is capable of decoding complex hand gestures taken from the Sign Language Alphabet. Go-BTTR also demonstrates computational efficiency, providing a notable benefit when intracranial electrodes are inserted during a patient’s pre-surgical evaluation. This efficiency helps reduce the time required for developing and testing a Brain-Computer Interface (BCI) solution.
@@ -73,6 +80,7 @@ journal:
         - authors: Eva Calvo Merino, Axel Faes, Marc M. Van Hulle
           title: The role of distinct ECoG frequency features in decoding finger movement
           pub_date: 2023
+          cover: /assets/images/covers/publication-journal.webp
           book: Journal of Neural Engineering (5.4 IF)
           url: "/publications/journal/role-of-distinct-ecog-frequency-features-in-decoding-finger-movement.pdf"
           abstract: >-
@@ -83,6 +91,7 @@ journal:
           book: Journal of Neural Engineering (5.4 IF)
           pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
           pub_date: 2023
+          cover: /assets/images/covers/publication-journal.webp
           selected: true
           abstract: >-
             Multiway- or tensor-based decoding techniques for Brain-Computer Interfaces (BCI) are believed to better account for the multilinear structure of brain signals than conventional vector- or matrix-based ones. However, despite their outlook on significant performance gains, the used parameter optimization approach is often too computationally demanding, so conventional techniques are still preferred. 
@@ -92,6 +101,7 @@ journal:
           title: Single finger trajectory prediction from intracranial brain activity using Block-Term Tensor Regression with fast and automatic component extraction
           url: "/publications/journal/single-finger-trajectory-prediction-from-intracranial-paper.pdf"
           pub_date: 2022
+          cover: /assets/images/covers/publication-journal.webp
           book: IEEE Transactions on Neural Networks and Learning Systems (14.25 IF)
           abstract: >-
             Objective
@@ -106,6 +116,7 @@ journal:
           title: Source space reduction for eLORETA
           url: "/publications/journal/source-space-reduction-for-eloreta.pdf"
           pub_date: 2021
+          cover: /assets/images/covers/publication-journal.webp
           book: Journal of Neural Engineering (5.4 IF)
           abstract: >-
             Objective We introduce Sparse eLORETA, a novel method for estimating a nonparametric solution to the source localization problem. Its goal is to generate a sparser solution compared to other source localization methods including eLORETA while benefitting from the latter's superior source localization accuracy.
@@ -115,6 +126,7 @@ journal:
         - authors: Axel Faes, Iris Vantieghem, Marc M. Van Hulle
           title: Neural Networks for Directed Connectivity Estimation in Source-Reconstructed EEG Data
           pub_date: 2022
+          cover: /assets/images/covers/publication-journal.webp
           url: "/publications/journal/neural-networks-for-directed-connectivity-estimation-in-source-reconstructed-eeg-data.pdf"
           book: Applied Sciences (2.9 IF)
           abstract: >-
@@ -126,12 +138,14 @@ conference:
           title: Proprioceptive Feedback Challenges Motor Intention Detection from EEG during Human-Exoskeleton Interaction
           url: ""
           pub_date: 2025
+          cover: /assets/images/covers/publication-conference.webp
           book: "Proceedings of 2025 International Conference on Rehabilitation Robotics (ICORR) 2025"
           abstract: ""
         - authors: Robin Marx, Maarten Wijnants, Peter Quax, Axel Faes, Wim Lamotte
           title: "Web Performance Characteristics of HTTP/2 and comparison to HTTP/1.1"
           url: "/publications/conference/WebPerfCharacteristicsOfH2_MarxRobin_13aug2017.pdf"
           pub_date: 2018
+          cover: /assets/images/covers/publication-conference.webp
           book: "International Conference on Web Information Systems and Technologies, pg 87-114"
           abstract: >-
             The HTTP/1.1 protocol has long been a staple on the web, for both pages and apps. However, it has started to show its age, especially with regard to page load performance and the overhead it entails due to its use of multiple underlying connections. Its successor, the newly standardized HTTP/2, aims to improve the protocol's performance and reduce its overhead by (1) multiplexing multiple resources over a single TCP connection, (2) using advanced prioritization strategies, and by introducing new features such as (3) Server Push and (4) HPACK header compression.
@@ -140,6 +154,7 @@ conference:
           pub_date: 2017
           title: "Concatenation, embedding and sharding: Do HTTP/1 performance best practices make sense in HTTP/2?"
           url: "/publications/conference/h2bestpractices_RobinMarx_WEBIST2017.pdf"
+          cover: /assets/images/covers/publication-conference.webp
           book: "WEBIST 2017 - Proceedings of the 13th International Conference on Web Information Systems and Technologies"
           abstract: >-
             Web page performance is becoming increasingly important for end users but also more difficult to provide by web developers, in part because of the limitations of the legacy HTTP/1 protocol. The new HTTP/2 protocol was designed with performance in mind, but existing work comparing its improvements to HTTP/1 often shows contradictory results. It is unclear for developers how to profit from HTTP/2 and whether current HTTP/1 best practices such as resource concatenation, resource embedding, and hostname sharding should still be used.
@@ -150,6 +165,7 @@ other-publications:
         - authors: Matija Pretnar, Amr Hany Shehata Saleh, Axel Faes, Tom Schrijvers
           title: "Efficient compilation of algebraic effects and handlers"
           url: "/publications/other/CW708.pdf"
+          cover: /assets/images/covers/publication-other.webp
           book: "2017 - CW Reports, CW708, 32 pp. Leuven, Belgium: Department of Computer Science, KU Leuven."
           abstract: >-
             The popularity of algebraic effect handlers as a programming language feature for user-defined computational effects is steadily growing. Yet, even though efficient runtime representations have already been studied, most handler-based programs are still much slower than hand-written code.
@@ -163,6 +179,7 @@ thesis:
         url: thesis/axel-faes-phd-thesis.pdf
         pub_date: 2023
         book: PhD Thesis
+        cover: /assets/images/covers/about-phd.webp
         abstract: >-
           Brain-Computer Interfaces (BCIs) are hailed for bypassing defective neural pathways by translating brain activity directly into actions that convey the user's intent. How the kinematics of muscular activity relate to the motor- and somatosensory activity in the brain has been the focus of recent advancements. With such motor BCIs, amputees are able to gain control over a prosthesis and stroke patients to regain control over a paralyzed limb via electrical stimulation of their dysfunctional muscles or via an exoskeleton that supports the intended movements.
           The superior spatio-temporal resolution, bandwidth, and recording stability of electrocorticography (ECoG), a partially invasive brain recording technique, yields a new outlook on motor BCI applications. Despite some stunning successes in arm- and hand movement control from ECoG, the precise decoding of finger movements, which is essential for daily activities, is still lacking. A possible reason is that current decoders rely on conventional one- or two-way regression models, which might not adequately capture the intricate relation between neural activity and intended and unintended (such as coactivations) finger movements.
@@ -172,6 +189,7 @@ thesis:
         url: "https://github.com/TheAxeC/an-information-theoretical-approach-to-eeg-source-reconstructed-connectivity"
         pub_date: 2018
         book: Advanced Master's Thesis
+        cover: /assets/images/covers/about-ai.webp
         abstract: >-
           Determining how distinct brain regions are connected and communicate with each other will shed light on how behavior emerges. In EEG studies, interpreting connectivity measures can be problematic due to the high correlation between signals recorded from the scalp surface, a result of the volume conductance of the scalp and skin. Therefore, meaningful connectivity patterns can be measured only from the spatiotemporal distribution of localized cortical sources, generally referred to as source reconstruction.
           Still, spurious connectivity issues may persist in source-reconstructed EEG data, making it vital to choose an appropriate measure of connectivity. In this work, an information theoretical approach, which concerns model-free, probability-based methods such as mutual information, conditional mutual information, and interaction information, is taken.
@@ -181,6 +199,7 @@ thesis:
         url: "https://github.com/TheAxeC/algebraic-subtyping-for-algebraic-effects-and-handlers"
         pub_date: 2018
         book: Master's Thesis
+        cover: /assets/images/covers/about-master.webp
         abstract: >-
           Algebraic effects and handlers benefit from a custom type-&-effect system, a type system that also tracks which effects can happen in a program. Several such type-&-effect systems have been proposed in the literature, but all are unsatisfactory. Recently, Stephen Dolan (University of Cambridge, UK) presented a novel type system that combines subtyping and parametric polymorphism in a particularly attractive and elegant fashion. A cornerstone of his design is the algebraic properties that the subtyping relation should respect.
           In this work, a type-&-effect system is derived that extends Dolan's elegant type system with effect information. This type-&-effect system inherits Dolan's harmonious combination of subtyping (in our case induced by a lattice structure on the effect information) with parametric polymorphism and preserves all of its desirable properties (both low-level algebraic properties and high-level meta-theoretical properties like type soundness and the existence of principal types). This type-&-effect system has been implemented in the Eff programming language in order to provide a proof-of-concept.
@@ -189,6 +208,7 @@ thesis:
         title: "Machine learning techniques for flow-based network intrusion detection systems"
         url: "https://github.com/TheAxeC/machine-learning-techniques-for-flow-based-network-intrusion-detection-systems"
         book: Bachelor's thesis
+        cover: /assets/images/covers/about-degree.webp
         abstract: >-
           Large data centers are storing and sending more and more data. In order to check whether the network traffic does not contain intrusions, an intrusion detection system is used. Such a system analyzes data from the network and gives an alert if it finds an intrusion. Since data centers have so much data traffic, it is difficult to process everything. That's where IP flows come into the picture. They are aggregated from packet data but do not contain any information about the payload data.
           This thesis explains which attacks can be detected and how IP flows can be used for intrusion detection. It would also be cost-efficient if an intrusion detection system could operate automatically and detect attacks with a high probability. For this, machine learning can be used. Machine learning is a type of Artificial Intelligence which allows programs to learn and find patterns within data. However, there are many different types of machine learning.
@@ -202,35 +222,42 @@ abstracts:
       - authors: Qiang Sun, Axel Faes, Marc M. Van Hulle
         title: "Individual and Coordinated Finger Movements Decoding from High-Density EEG and Its Implication in Hand Exoskeleton Control"
         url: "/publications/abstracts/abstract_ECNR_MVH_AF.pdf"
+        cover: /assets/images/covers/publication-abstract.webp
         pub_date: 2023
         book: European Congress of NeuroRehabilitation 2023
       - authors: Eva Calvo Merino, Axel Faes, Marc M. Van Hulle
         title: "Modulation of LMPs using the gamma band increases the stability of finger trajectories decoded from ECoG"
         url: "/publications/abstracts/Abstract.Eva.CalvoMerino.pdf"
+        cover: /assets/images/covers/publication-abstract.webp
         pub_date: 2023
         book: BCI (Brain-computer interfaces) - Society 2023
       - authors: Axel Faes, Benjamin Wittevrongel, Marc M. Van Hulle
         title: Reconstructing single finger trajectories from intracranial brain activity
         url: /publications/abstracts/reconstructing-single-finger-trajectories-from-intracranial-brain-activity.pdf
         pub_date: 2021
+        cover: /assets/images/covers/publication-abstract.webp
         book: III International Conference "Volga Neuroscience Meeting 2021"
       - authors: Axel Faes, Mansoureh Fahimi Hnazaee, Marc M. Van Hulle
         title: Causal Graphical Modelling of Functional Connectivity from Reconstructed EEG Sources
         url: /publications/abstracts/causal-graphical-modelling-of-functional-connectivity-from-reconstructed-eeg-sources.pdf
         pub_date: 2021
+        cover: /assets/images/covers/publication-abstract.webp
         book: 8th International BCI Meeting (2021)
       - authors: Axel Faes, Tom Schrijvers
         pub_date: 2017
+        cover: /assets/images/covers/publication-abstract.webp
         title: "Towards a Core Language with Row-Based Effects for Optimised Compilation"
         url: "/publications/abstracts/icfp-2017-src.pdf"
         book: International Conference on Functional Programming 2017 Student Research Competition
       - authors: Kashyap Todi, Brent Berghmans, Axel Faes, Matthijs Kaminski
         title: "Purpose-Centric Appropriation of Everyday Objects as Game Controllers"
         pub_date: 2016
+        cover: /assets/images/covers/publication-abstract.webp
         url: "/publications/abstracts/purpose-centric-lbw.pdf"
         book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Late Breaking Work"
       - authors: Kashyap Todi, Donald Degraen, Brent Berghmans, Axel Faes, Matthijs Kaminski, Kris Luyten
         pub_date: 2016
+        cover: /assets/images/covers/publication-abstract.webp
         title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons"
         url: "/publications/abstracts/purpose-centric-sgc.pdf"
         book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Student Game Competition"
@@ -240,5 +267,6 @@ posters:
       - authors: Axel Faes, Tom Schrijvers
         title: "Towards a Core Language with Row-Based Effects for Optimised Compilation"
         pub_date: 2017
+        cover: /assets/images/covers/publication-poster.webp
         url: "/publications/posters/icfp-2017-src.pdf"
         book: International Conference on Functional Programming 2017 Student Research Competition

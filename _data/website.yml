@@ -119,11 +119,11 @@ references:
       platform: axel.faes[at]uhasselt.be
 
     - name: fas fa-file-alt
-      url: https://theaxec.github.io/cv.html
+      url: /cv.html
       platform: Curriculum Vitae
     
     - name: fas fa-home
-      url: https://theaxec.github.io/
+      url: /
       platform: Website
 
     - name: fab fa-github
