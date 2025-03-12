@@ -22,12 +22,12 @@ description:
         
       <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
   content: |
-      - Postdoctoral Researcher (Machine Learning) @ Biomedical Data Sciences, UHasselt 
-        - Investigating the use of AI in real-world evidence healthcare studies (FAIR UC RWE).
+      - Postdoctoral Researcher (`Machine Learning`) @ Biomedical Data Sciences, UHasselt 
+        - Investigating the use of AI in `real-world evidence` healthcare studies (FAIR UC RWE).
         - Federated Enhanced Regression and Medical Analytics with Tensors (FERMAT).
-          - Creating a federated learning algorithm for heart disease prediction.
-          - Developing machine learning models for brain-computer interfaces.
-        - Side project: working on algebraic type and effect systems for functional programming.
+          - Creating a `federated learning` algorithm for heart disease prediction.
+          - Developing machine learning models for `brain-computer interfaces`.
+        - Side project: working on `algebraic type and effect` systems for functional programming.
       - Computational Neuroscientist
       - Scientific Coordinator of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE)
       - **Professional Affiliations**:
@@ -48,13 +48,14 @@ description:
       - Side project: working on algebraic type and effect systems for functional programming.
   research: |
     **Vision for Research Impact** <a href="research">(view more <i class="fas fa-angle-double-right"></i>)</a>
-    I envision a future where **biomedical data science, machine learning, and artificial intelligence** are leveraged to revolutionize healthcare. I aim to:
-    - **Innovate in Health Data Analysis**: By developing innovative methods for analyzing and interpreting complex health data, I seek to advance the field of **precision medicine** and improve patient outcomes.
-    - **Advance Brain-Computer Interfaces**: My work focuses on the understanding and application of **brain-computer interfaces (BCIs) and neural decoding**, aiming to enhance the interface between technology and neural activity.
-    - **Bridge Research and Practice**: By combining expertise in **data science, engineering, and medicine**, I aim to bridge the gap between theoretical research and practical implementations, ultimately contributing to the development of more effective and personalized healthcare solutions.
+    I envision a future where `biomedical data science`, `machine learning`, and `artificial intelligence` are leveraged to revolutionize healthcare. I aim to:
+    - **Innovate in Health Data Analysis**: By developing innovative methods for analyzing and interpreting `complex health data`, I seek to advance the field of `precision medicine` and improve patient outcomes.
+    - **Advance Brain-Computer Interfaces**: My work focuses on the understanding and application of `brain-computer interfaces (BCIs)` and neural decoding, aiming to enhance the interface between technology and neural activity.
+    - **Bridge Research and Practice**: By combining expertise in `data science`, `engineering`, and `medicine`, I aim to bridge the gap between `theoretical` research and `practical` implementations, ultimately contributing to the development of more effective and personalized healthcare solutions.
 
   
-  biomed_url: assets/images/banner2.webp
+  biomed_url: assets/images/dls.webp  
+    # banner2.webp
   biomed_caption: Innovating Computational Solutions for Real-World Health Challenges
 
   education_mobile:  |
@@ -64,12 +65,10 @@ description:
 
   education:  |
       **Vision for Educational Impact**
-      I have experience in teaching Brain-Computer Interfaces, Federated Learning, and Bioinformatics, and am currently working to obtain my BKO (Basis Kwalificatie Onderwijs) from the UHasselt. I have successfully supervised over a dozen Master Thesis students in the field of AI, Statistics & Data Science, Computer Science and Biomedical Science showing my skills in interdisciplinary learning. 
-
-      I envision a future where education in **biomedical data science and AI** is accessible, engaging, and impactful. I aim to:
-      - **Inspire Future Researchers**: By mentoring students and conducting educational workshops, I seek to inspire the next generation of scientists and engineers to pursue innovative research in biomedical data sciences and neurotechnology.
-      - **Promote Interdisciplinary Learning**: My work underscores the importance of interdisciplinary approaches, combining insights from **neuroscience, biomedical science, engineering, and computer science** to solve complex problems. I aim to foster a learning environment that encourages such cross-disciplinary collaborations.
-      - **Develop Educational Resources**: Through my publications and open-source projects I plan to provide comprehensive resources that make advanced topics in AI and biomedical data science more accessible to learners worldwide.
+      I envision a future where education in `biomedical data science` and `AI` is accessible, engaging, and impactful. I aim to:
+      - **Inspire Future Researchers**: By mentoring students and conducting educational workshops,  have successfully supervised over a dozen Master Thesis students in the field of `AI`, `Statistics & Data Science`, `Computer Science` and `Biomedical Science`.
+      - **Promote Interdisciplinary Learning**: I am currently working to obtain my `BKO` (Basis Kwalificatie Onderwijs) from the UHasselt and aim to foster a learning environment that encourages cross-disciplinary collaborations. I teach `Brain-Computer Interfaces`, `Federated Learning`, and `Bioinformatics`.
+      - **Develop Educational Resources**: Through my publications and `open-source projects` I plan to provide comprehensive resources that make advanced topics in AI and biomedical data science more accessible to learners worldwide.
       
   mission_url: assets/images/biomed.webp
   mission_caption: Educating the Next Generation of Innovators

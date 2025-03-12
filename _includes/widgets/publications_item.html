@@ -1,4 +1,6 @@
 {% assign item = include.item %}
+{% assign i = include.i %}
+{% assign i = i | plus:1 %}
 
 {% if item.cover %}
 {% assign cover = item.cover %}
@@ -13,7 +15,7 @@
             <img src="{{ cover }}" alt="{{  }}" class="lazy w-100 rounded-sm">
         </div>
         <div class="col-md-10 col-xl-10 p-3 pl-md-0">
-            <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
+            <h7 class="mt-0 mb-1 font-weight-normal"><small>[{{i}}] </small>{{ item.title }}</h7>
             <p class="mt-0 mb-0 small">{% include widgets/publications_author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.book }}</i> {{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}</p>
             {% if item.from and item.from != "" %}

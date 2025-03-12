@@ -12,6 +12,7 @@ personal:
     - Computer Engineer
   portrait_url: /assets/images/photos/portrait.jpeg
   footer: Curriculum Vitae
+  secondary-title: Supervised students, talks and other media
 
 experience:
   title: Work & Research Experience
@@ -33,6 +34,16 @@ experience:
         Project: "Sign Language Alphabet decoding from intracranial brain activity"
         Group: Prof. Marc van Hulle, Computational Neuroscience, Laboratory for Neuro-and Psychophysiology, KU Leuven
       cover: /assets/images/covers/about-postdoc.webp
+
+    - title: Data Science Consultant
+      location: Flanders BCI
+      duration: 2022 - 2024
+      about: |
+        Provided consulancy for physical experiments using Synamps RT and Neuvo EEG Systems. 
+        Supported the data analysis for hybrid BCI with new analytical EEG modeling techniques & signal detection- and classification algorithms. 
+        Infer emotion from EEG signals using machine learning techniques.
+        Usage of ECoG signals from semi-invasive recording for imagined movement detection and language processing.
+      cover: /assets/images/covers/about-representative.webp
 
     - title: "Research Stay Idrogenet Srl, Gloreha: Robotic Rehabilitation"
       location: Lumezzane, Italy
@@ -71,8 +82,12 @@ experience:
       cover: /assets/images/covers/about-internship.webp
 
 academic:
-  title: Academic Work
+  title: Teaching & Academic Activities
   content:
+    - title: BKO (Basis Kwalificatie Onderwijs) traject - Onderwijsprofessionalisering
+      duration: 2025
+      location: UHasselt
+      cover: /assets/images/covers/about-representative.webp
     - title: Advanced Topics in Data Science (4569 & 4585) Lecturer Federted Learning (lid onderwijsteam)
       location: "UHasselt"
       duration: June 2024 - Sept. 2025
@@ -81,22 +96,154 @@ academic:
       location: "UHasselt"
       duration: June 2024 - Sept. 2025
       cover: /assets/images/covers/about-representative.webp
-    - title: Guest Associate Editor 2024-2025
-      location: "Use of Big Data and Artificial Intelligence in Multiple Sclerosis"
-      duration: "Frontiers in Immunology"
+    - title: Guest Associate Editor Use of Big Data and Artificial Intelligence in Multiple Sclerosis
+      location: "Frontiers in Immunology"
+      duration: "2024 - 2025"
       cover: /assets/images/covers/about-representative.webp
-    - title: Student Research Competition Judge 
-      location: "ICFP (International Conference on Functional Programming) 2024"
+    - title: Student Research Competition Judge (International Conference on Functional Programming)
+      location: "ICFP"
+      duration: "2024"
       cover: /assets/images/covers/about-representative.webp
-    - title: Data Science Consultant
-      location: Flanders BCI (2022-2024)
-      duration: Laboratory of Neuro- and Psychophysiology, KU Leuven
+    - title: Brain-Computer Interfacing (B-KUL-H08M0A) Guest Lecturer 
+      location: "KU Leuven"
+      duration: 2022-2025
       cover: /assets/images/covers/about-representative.webp
-    - title: Guest lecturer 2022-2025
-      location: "Brain-Computer Interfacing (B-KUL-H08M0A)"
-      duration: KU Leuven
-      cover: /assets/images/covers/about-representative.webp
-
+students:
+    title: Students
+    content:
+        - title: Matteo Ramina
+          location: Estimating Household Wealth in Guyana - Remote Sensing and Convolutional Neural Network Approach
+          duration: Master Statistics & Data Science (2024-2025)
+          cover: /assets/images/covers/about-degree.webp
+        - title: Mohsen Soleimanisemsani
+          location: AI for time series imputation
+          duration: Master Statistics & Data Science (2024-2025)
+          cover: /assets/images/covers/about-degree.webp
+        - title: Meseret Assefa Kerga
+          location: Predicting Cirrhosis Patient Survival Using Machine Learning - A Data-Driven Approach
+          duration: Master Statistics & Data Science (2024-2025)
+          cover: /assets/images/covers/about-degree.webp
+        - title: Dongho Chun
+          location: (Federated) Machine Learning for Health Data
+          duration: Master of Science in Computer Science (2024-2025)
+          cover: /assets/images/covers/about-degree.webp
+        - title: Dries Cornelissen
+          location: Federated Learning for Regression modelling with Cardiovascular Health Data
+          duration: Master of Science in Computer Science (2024-2025)
+          cover: /assets/images/covers/about-degree.webp
+        - title: Ward Ceyssens
+          location: Brain-Computer Interfacing - population-based finger movement decoding
+          duration: Master of Science in Computer Science (2024-2025)
+          cover: /assets/images/covers/about-degree.webp
+        - title: Qiang Sun
+          location: Hand exoskeleton dexterity achieved by shared control with a semi-invasive brain-computer interface
+          duration: Doctoral Program in Biomedical Sciences (daily supervision 2022-2023)
+          cover: /assets/images/covers/about-degree.webp
+        - title: Eva Calvo Merino
+          location: Restoring finger dexterity with an exoskeleton controlled by human intracranial recordings
+          duration: Doctoral Program in Biomedical Sciences (daily supervision 2022-2023)
+          cover: /assets/images/covers/about-degree.webp
+        - title: Aurélie de Borman
+          location: Investigating the effect of Source Mixing on Directed Connectivity estimated between Simulated Reconstructed EEG Sources
+          duration: Internship Student 2021
+          cover: /assets/images/covers/about-internship.webp
+        - title: Diogo Sousa Morais
+          location: Estimating the effectiveness of source localized EEG for BCIs
+          duration: Internship Student 2021
+          cover: /assets/images/covers/about-internship.webp
+        - title: Guilherme de Borras Silva
+          location: Cluster Permutation Analysis of N-Back related EEG-ERP Data
+          duration: Internship Student 2021
+          cover: /assets/images/covers/about-internship.webp
+        - title: Iris Vantieghem
+          location: Using Neural Networks to derive Directed Connectivity between Reconstructed EEG Sources
+          duration: Master of Science in Artificial Intelligence (2020-2021)
+          cover: /assets/images/covers/about-degree.webp
+        - title: Didier Quintius
+          location: Neural Network Approach to the Inverse Problem
+          duration: Master of Science in Artificial Intelligence (2020-2021)
+          cover: /assets/images/covers/about-degree.webp
+news:
+    title: Talks, presentations and other media
+    content:
+      - title: Guest Lecture "Federated Finger movement decoding - brain-computer interfacing"
+        duration: 2025
+        location: KULeuven
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: Use Case - Real-World Evidence
+        duration: 2024
+        location: Flanders Artificial Intelligence Research Program (FAIR) Research Day
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: FAIR Use Case Real World Evidence Kick-off Event
+        duration: 2024
+        location: Flanders Artificial Intelligence Research Program (FAIR)
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: Decoding finger movements from invasive recordings in human motor cortex
+        duration: 2023
+        url: "https://www.ntxl.org/mindseed"
+        location: Mindseed event Leuven, NeuroTech Leuven
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: Guest Lecture "Finger movement decoding - brain-computer interfacing"
+        duration: 2023
+        location: KULeuven
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: Coordinated Finger Movements Predicted from Intracranial Brain Activity
+        duration: 2022
+        url: /publications/other/hum-vs-sciences.pdf
+        location: >-
+          International Congress Humanities vs Sciences & the Knowledge Accelerating in Modern World: Parallels an Interaction,
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: BCI demo - Advanced Engineering, Antwerp Expo
+        duration: 2022
+        url: "https://www.ae-expo.be/en/"
+        location: AI Vlaanderen, Vlaanderen Industrie 4.0
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: Guest Lecture "Decoding single and coordinated finger actions from intracranial brain activity"
+        duration: 2022
+        location: KULeuven
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: "Finger abduction trajectory prediction from high-density ECoG"
+        duration: 2022
+        location: Leuven AI Scientific Workshop
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: Decoding single and coordinated finger actions from intracranial brain activity.
+        duration: 2021
+        location: XIV World Scientific Congress - SCIENCE FOR PEACE Modern Science, Global and Regional Theory and Practice
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: Guest Lecture "Finger Movement Decoding - From Source-Localisation to Tensor Regression Modelling"
+        duration: 2021
+        location: KULeuven
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: Reconstructing single finger trajectories from intracranial brain activity
+        duration: 2021
+        url: /publications/abstracts/VNM2021.pdf
+        location: III International Conference "Volga Neuroscience Meeting 2021"
+        about: |
+          Leading scientists from all over the world will meet together to discuss topical problems in the field of neuroscience and artificial intelligence. The conference is organized by Lobachevsky State University of Nizhny Novgorod (UNN).
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: BCI demo - Dag van de Wetenschap
+        duration: 2021
+        location: Technopolis (geannuleerd wegens de covid-19 situatie)
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: Presentation "'MINDSPELLER' Medical Research Project on Brain Computer Interfaces" and concert (with Tigran Maytesian and his Mind Speller Chamber Orchestra)
+        duration: 2019
+        location: Kathedraal van Sint-Michiel en Sint-Goedele, Brussel
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: Honours student Axel Faes wins bronze medal in ACM SIGPLAN
+        duration: 2017
+        url: "http://wms.cs.kuleuven.be/cs/nieuws/honours-student-axel-faes-wins-bronze-model-in-acm-sigplan"
+        location: KU Leuven, Department of Computer Science
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: Student Axel Faes wins bronze medal in the ACM SIGPLAN Student Research Competition in ICFP conference
+        duration: 2017
+        url: "https://dtai.cs.kuleuven.be/news/student-axel-faes-wins-bronze-medal-acm-sigplan-student-research-competition-icfp-conference"
+        location: KU Leuven, Department of Computer Science, DTAI
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: Purpose-Centric Appropriation of Everyday Objects as Game Controllers
+        duration: 2016
+        url: "https://www.youtube.com/watch?v=Q4_rK2upGEY"
+        location: ACM SIGCHI
+        cover: /assets/images/covers/about-researchstay.webp
 education:
   title: Educational background
   content:
@@ -232,7 +379,7 @@ projects:
 awards:
   title: Honors & Awards
   content:
-    - award: FWO fundamental research grant
+    - award: FWO Fundamental Research Grant
       event: FWO
       date: 2018-01-01 15:59:00-0400
       location: Belgium
@@ -285,13 +432,13 @@ extracurricular:
   content:
     - title: Coach
       location: DjangoGirls
-      duration: Mar. 2018 - Current
+      duration: Mar. 2018 - 2024
       about: Inspire women to fall in love with programming (Python, Django workshops)
       cover: /assets/images/covers/about-coach.webp
 
     - title: Coach 
       location: CoderDojo (UHasselt, PXL)
-      duration: Sep. 2014 - Current
+      duration: Sep. 2014 - 2025
       about: Teach children programming (Scratch, Python, Minecraft and Lego mindstorm).
       cover: /assets/images/covers/about-coach.webp
 
@@ -299,8 +446,8 @@ extracurricular:
       location: KU Leuven
       duration: Sep. 2017 - Sep. 2018
       about: |
-        POC of Master Computer Science Engineering
-        POC of Advanced Master Artificial Intelligence
+        POC of Master Computer Science Engineering, 
+        POC of Advanced Master Artificial Intelligence, 
         Member of Departmental council of Computer Science, Department board of Computer Science and Faculty council of Engineering Science
       cover: /assets/images/covers/about-representative.webp
 
@@ -308,7 +455,7 @@ extracurricular:
       location: StuRa UHasselt
       duration: Mar. 2015 - Aug. 2016
       about: |
-        Member of Board of Education, Faculty Council. Board of Student Facilities, Diversity Commission
+        Member of Board of Education, Faculty Council. Board of Student Facilities, Diversity Commission,
         Temporary representative in VVS (Vlaamse Vereniging van Studenten vzw)
       cover: /assets/images/covers/about-representative.webp
 

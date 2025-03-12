@@ -1,6 +1,9 @@
 {% assign author_list = include.authors %}
 {% assign authors = author_list | split: "," %}
 {% assign has_eq_contrib = false %}
+{% assign found = false %}
+{% assign cnt = 0 %}
+{% assign MAX_AUTHORS = 7 %}
 {% for _keyy in authors %}
     {% assign _key = _keyy | strip %}
     {% assign last_char = _key | slice: -1, 1%}
@@ -23,6 +26,7 @@
 
     {% if info['bold'] == true %}
         {% assign display_name = name | append: mark | prepend: "<strong>" | append: "</strong>" %}
+        {% assign found = true %}
     {% else %}
         {% assign display_name = name | append: mark %}
     {% endif %}
@@ -34,6 +38,13 @@
             {{ display_name }}{% if forloop.index < authors.size %},{% endif %}
         </span>
     {% endif %}
+
+    {% assign cnt = cnt | plus:1 %}
+    {% if found == true and cnt >= MAX_AUTHORS %}
+        {% if forloop.index < authors.size %}<span class=""> et al.</span>{% endif %}
+        {% break %}
+    {% endif %}
+    
 
 {% endfor %}
 

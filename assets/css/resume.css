@@ -133,7 +133,7 @@ section {
       }
       section .section__item > div .section__subheading_second {
         /* font-weight: 600;  */
-        font-size: 0.7rem;
+        font-size: 0.6rem;
       }
       section .section__item > div .section__element {
         /* font-weight: 600;  */
@@ -144,10 +144,11 @@ section {
         color: #DD3D2A;
         font-size: 0.6rem;
         font-style: italic; }
-      section .section__item > div .section__subsubheading {
+      section .section__item > .section__subsubheading {
         font-size: 0.6rem;
         font-weight: 500;
-        font-variant: small-caps;
+        /* font-variant: small-caps; */
+        margin-bottom: 0.25rem;
         color: #5D5D5D; }
       section .section__item > div .section__date-range {
         font-size: 0.53rem;
@@ -204,7 +205,7 @@ section {
   padding-right: 0.8em; }
 
 .publications table tr td.publications__date {
-  width: 6em; 
+  width: 3em; 
   text-align: left;
   font-weight: normal;
 }

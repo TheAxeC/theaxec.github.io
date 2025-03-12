@@ -9,7 +9,7 @@ permalink: /
 
 {% include widgets/index_details.html %}
 
-{% include widgets/index_updates.html %}
+<!-- {% include widgets/index_updates.html %} -->
 
 {% for item in site.data.publications %}
 {% if item[0] != "title" and item[0] != "secondary-title" %}

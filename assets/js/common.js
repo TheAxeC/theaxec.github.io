@@ -516,3 +516,26 @@ function animate() {
 
 // Animate the particles
 animate();
+
+document.addEventListener("DOMContentLoaded", function () {
+    let sections = document.querySelectorAll("h2");
+    let navLinks = document.querySelectorAll("#navbar-year .nav-link");
+
+    window.addEventListener("scroll", () => {
+        let current = "";
+
+        sections.forEach(section => {
+            let sectionTop = section.offsetTop - 120; // Offset for sticky navbar
+            if (window.scrollY >= sectionTop) {
+                current = section.getAttribute("id");
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.classList.remove("active");
+            if (link.getAttribute("href").slice(1) === current) {
+                link.classList.add("active");
+            }
+        });
+    });
+});

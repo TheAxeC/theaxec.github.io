@@ -7,6 +7,7 @@ body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
 
+{% assign i = 0 %}
 <div class="row">
     <div class="col-12 col-lg-10">
         {% for coll in site.data.publications %}
@@ -16,7 +17,7 @@ body_attr: >-
             {% for item in coll[1].papers %}
                 {% if item.hide %}
                 {% else %}
-                    {% include widgets/publications_item.html item=item %}
+                    {% include widgets/publications_item.html i=i item=item %}
                 {% endif %}
             {% endfor %}
         </div>
