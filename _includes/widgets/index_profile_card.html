@@ -10,9 +10,12 @@
                             <span class="no-break"><img src="{{position.image}}" alt="" class="inline-badge"/></span> <a class="pr-3 no-break" target="_blank" href="{{position.url}}"> {{position.name}} </a><br/>
                             {% endfor %}
                         </p>
-                        <p class="text-profile-bio">
+                        <div class="text-profile-bio main_view">
                             {{ site.data.website.description.content | markdownify }}
-                        </p>
+                        </div>
+                        <div class="text-profile-bio mobile_view">
+                            {{ site.data.website.description.content_mobile | markdownify }}
+                        </div>
                     </div>
                     {% if site.data.website.description.show_portrait %}
                     <div class="col-md-auto d-none d-md-block">

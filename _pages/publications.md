@@ -16,7 +16,7 @@ body_attr: >-
             {% for item in coll[1].papers %}
                 {% if item.hide %}
                 {% else %}
-                    {% include widgets/publication_item.html item=item %}
+                    {% include widgets/publications_item.html item=item %}
                 {% endif %}
             {% endfor %}
         </div>

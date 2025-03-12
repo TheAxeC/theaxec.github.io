@@ -9,6 +9,18 @@ description:
     - name: 'Postdoctoral Researcher'
       url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'
       image: 'assets/images/badges/UHasselt.jpg'
+  content_mobile: |
+    Postdoctoral Researcher (Machine Learning) @ Biomedical Data Sciences, UHasselt
+    
+    Computational Neuroscientist
+      
+    Scientific Coordinator of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE)
+    
+    **Professional Affiliations**:
+      - Biomedical Research Institute (BIOMED)
+      - Data Science Institute (DSI)
+        
+      <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
   content: |
       - Postdoctoral Researcher (Machine Learning) @ Biomedical Data Sciences, UHasselt 
         - Investigating the use of AI in real-world evidence healthcare studies (FAIR UC RWE).
@@ -27,8 +39,14 @@ description:
   portrait_url: assets/images/photos/portrait.jpeg
   portrait_height: 300
   portrait_caption: Building Knowledge, Driving Innovation 
-
-  biomed: |
+  research_mobile: |
+    **Research**
+      - Investigating the use of AI in real-world evidence healthcare studies (FAIR UC RWE).
+      - Federated Enhanced Regression and Medical Analytics with Tensors (FERMAT).
+      - Creating a federated learning algorithm for heart disease prediction.
+      - Developing machine learning models for brain-computer interfaces.
+      - Side project: working on algebraic type and effect systems for functional programming.
+  research: |
     **Vision for Research Impact** <a href="research">(view more <i class="fas fa-angle-double-right"></i>)</a>
     I envision a future where **biomedical data science, machine learning, and artificial intelligence** are leveraged to revolutionize healthcare. I aim to:
     - **Innovate in Health Data Analysis**: By developing innovative methods for analyzing and interpreting complex health data, I seek to advance the field of **precision medicine** and improve patient outcomes.
@@ -39,7 +57,12 @@ description:
   biomed_url: assets/images/banner2.webp
   biomed_caption: Innovating Computational Solutions for Real-World Health Challenges
 
-  mission:  |
+  education_mobile:  |
+      **Education**
+      - I have experience in teaching Brain-Computer Interfaces, Federated Learning, and Bioinformatics, and am currently working to obtain my BKO (Basis Kwalificatie Onderwijs) from the UHasselt. 
+      - I have successfully supervised over a dozen Master Thesis students in the field of AI, Statistics & Data Science, Computer Science and Biomedical Science showing my skills in interdisciplinary learning. 
+
+  education:  |
       **Vision for Educational Impact**
       I have experience in teaching Brain-Computer Interfaces, Federated Learning, and Bioinformatics, and am currently working to obtain my BKO (Basis Kwalificatie Onderwijs) from the UHasselt. I have successfully supervised over a dozen Master Thesis students in the field of AI, Statistics & Data Science, Computer Science and Biomedical Science showing my skills in interdisciplinary learning. 
 
@@ -62,7 +85,7 @@ description:
 
 
 research:
-  title: Exploring AI and Health Sciences
+  title: Research Diary
   image: assets/images/research.webp
   content: |
     Welcome to my research corner, where I delve into the intersection of AI and health sciences. Here, you’ll find my latest projects, blog posts, and insights on leveraging AI for real-world applications, from predicting heart diseases to developing brain-computer interfaces. Join me as I explore innovative solutions that push the boundaries of healthcare technology.

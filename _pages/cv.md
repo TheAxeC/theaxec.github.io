@@ -181,18 +181,14 @@ permalink: /cv
         <h1>{{site.data.publications.title}}</h1>
         <span class="section__heading-underline"></span>
     </div>
-    {% include widgets/pub_cv.html i=i
+    {% include widgets/cv_item.html i=i
         publications=site.data.publications.papers-in-preparation %}
-    {% include widgets/pub_cv.html i=i
+    {% include widgets/cv_item.html i=i
         publications=site.data.publications.journal %}
-    {% include widgets/pub_cv.html i=i
+    {% include widgets/cv_item.html i=i
         publications=site.data.publications.conference %}
-    {% include widgets/pub_cv.html i=i
+    {% include widgets/cv_item.html i=i
         publications=site.data.publications.other-publications %}
-    {% include widgets/pub_cv.html i=i
-        publications=site.data.publications.thesis %}
-    {% include widgets/pub_cv.html i=i
-        publications=site.data.publications.posters %}
     </section>
     <footer>
         <span class="footer__date">{{site.data.website.description.subtitle}}</span>
@@ -209,7 +205,11 @@ permalink: /cv
         <h1>{{site.data.publications.title}}</h1>
         <span class="section__heading-underline"></span>
     </div>
-    {% include widgets/pub_cv.html i=i
+    {% include widgets/cv_item.html i=i
+        publications=site.data.publications.thesis %}
+    {% include widgets/cv_item.html i=i
+        publications=site.data.publications.posters %}
+    {% include widgets/cv_item.html i=i
         publications=site.data.publications.abstracts %}
     </section>
     <section class="publications">
@@ -217,16 +217,32 @@ permalink: /cv
         <h1>{{site.data.publications.secondary-title}}</h1>
         <span class="section__heading-underline"></span>
     </div>
-    {% include widgets/pub_cv.html i=i
+    {% include widgets/cv_item.html i=i
         publications=site.data.publications.other %}
-    {% include widgets/pub_cv.html i=i
+    {% include widgets/cv_item.html i=i
         publications=site.data.publications.students %}
-    {% include widgets/pub_cv.html i=0
-        publications=site.data.publications.news %}
     </section>
     <footer>
         <span class="footer__date">{{site.data.website.description.subtitle}}</span>
         <span class="footer__text">{{site.data.website.description.title}} · {{site.data.data.personal.footer}}</span>
         <span class="footer__pageNum">3</span>
+    </footer>
+</div>
+
+<div class="page-break"></div>
+
+<div class="page">
+    <section class="publications">
+    <div class="section__heading">
+        <h1>{{site.data.publications.secondary-title}}</h1>
+        <span class="section__heading-underline"></span>
+    </div>
+    {% include widgets/cv_item.html i=0
+        publications=site.data.publications.news %}
+    </section>
+    <footer>
+        <span class="footer__date">{{site.data.website.description.subtitle}}</span>
+        <span class="footer__text">{{site.data.website.description.title}} · {{site.data.data.personal.footer}}</span>
+        <span class="footer__pageNum">4</span>
     </footer>
 </div>

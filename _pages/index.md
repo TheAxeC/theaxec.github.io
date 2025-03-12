@@ -5,11 +5,11 @@ navbar_name: Home
 num_selected: 10
 permalink: /
 ---
-{% include widgets/profile_card.html %}
+{% include widgets/index_profile_card.html %}
 
-{% include widgets/details.html %}
+{% include widgets/index_details.html %}
 
-{% include widgets/updates.html %}
+{% include widgets/index_updates.html %}
 
 {% for item in site.data.publications %}
 {% if item[0] != "title" and item[0] != "secondary-title" %}
@@ -20,7 +20,7 @@ permalink: /
 {% assign pubs = pubs_all
     | sort: "pub_date" | reverse | where: "selected", true %}
 {% 
-    include widgets/publication_card.html 
+    include widgets/index_publication_card.html 
     publications=pubs 
     title='<i class="fas fa-star"></i> Selected Publications'
 %}

@@ -9,12 +9,12 @@
 
 <div class="publication d-none d-md-block">
     <div class="row no-gutters border-bottom border-gray">
-        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
+        <div class="col-md-2 col-xl-2 mb-md-0 p-md-3">
             <img src="{{ cover }}" alt="{{  }}" class="lazy w-100 rounded-sm">
         </div>
-        <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+        <div class="col-md-10 col-xl-10 p-3 pl-md-0">
             <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
-            <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
+            <p class="mt-0 mb-0 small">{% include widgets/publications_author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.book }}</i> {{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}</p>
             {% if item.from and item.from != "" %}
             <p class="mt-0 mb-0 small text-muted">{{ item.from }}</p>
@@ -39,20 +39,16 @@
     </div>
 </div>
 
-<div class="card text-dark small-pub w-100 d-md-none border-top-0 border-right-0 border-left-0 rounded-0" style="overflow-y: scroll;">
-    <img src="{{ cover }}" alt="{{  }}" class="card-img w-100">
-    <div class="card-img-overlay d-flex align-items-start flex-column" style="background-color: rgba(255, 255, 255, 0.85);">
+<div class="card text-dark small-pub w-100 d-md-none mt-3 border-top-0 border-right-0 border-left-0 rounded-0" style="overflow-y: scroll;">
+    <div class="card-body d-flex align-items-start flex-column" style="background-color: rgba(255, 255, 255, 0.85);">
         <div class="mb-auto"></div>
         <div>
-            <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
-            <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
-            <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.book }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}</p>
+            <h7 class="mt-0 mb-0 font-weight-normal">{{ item.title }}</h7>
+            <p class="mt-0 mb-0 small">{% include widgets/publications_author_list.html authors=item.authors %}
+            {{item.pub_pre}}<i>{{ item.book }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
             {% if item.from and item.from != "" %}
-            <p class="mt-0 mb-0 small text-muted">{{ item.from }}</p>
+            {{ item.from }}
             {% endif %}
-            <p class="mt-0 mb-0 small text-muted d-none d-sm-block">{{ item.abstract }}</p>
-            
-            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
                 {% if item.url and item.url != "" %}
                 <a target="_blank" href="{{ item.url }}">[Link]</a>
                 {% endif %}
@@ -64,7 +60,7 @@
                 <a target="_blank" href="{{ link[1] }}">[{{ link[0] }}]</a>
                 {% endif %}
                 {% endfor %}
-            </p>
+        </p>
         </div>
     </div>
 </div>
