@@ -5,6 +5,16 @@
 description:
   title: dr. ir. Axel Faes # Abstract 
   subtitle: "#LeadingAIinHealth"
+  github: 
+    url: https://github.com/TheAxeC
+    trophies: ""
+    stats: "https://github-readme-stats.vercel.app/api?username=theaxec&theme=monokai&show_icons=true&include_all_commits=true"
+    stats-alt: "TheAxeC's GitHub Stats"
+    languages: "https://github-readme-stats.vercel.app/api/top-langs/?username=theaxec&layout=compact&hide=html,CSS&langs_count=8&theme=monokai"
+    languages-alt: "TheAxeC's Top Languages"
+    overview: "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theaxec&theme=monokai"
+    overview-alt: "TheAxeC's Profile Overview"
+
   positions:
     - name: 'Postdoctoral Researcher'
       url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'

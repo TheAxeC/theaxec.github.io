@@ -16,18 +16,32 @@ permalink: /research
                             {{ site.data.website.research.content | newline_to_br | markdownify }}
                         </p>
                     </div>
-                    <div class="col-md-auto d-none d-md-block">
-                        <figure class="figure">
+                    <div class="col-md-7 d-none d-md-block align-self-center">
+                        <figure class="figure align-self-center">
+                        <a href="{{site.data.website.description.github.url}}">
                             <img 
-                                src="{{ site.data.website.research.image }}" 
+                                src="{{site.data.website.description.github.overview}}"
+                                alt="{{site.data.website.description.github.overview-alt}}"
                                 class="figure-img img-fluid img-thumbnail" 
-                                style="height: 300px;"
                                 data-toggle="tooltip" 
-                                data-placement="top" 
+                                data-placement="center" 
                                 title="{{ site.data.website.description.subtitle }}"
                             >
                             <figcaption class="figure-caption text-right"></figcaption>
+                        </a>
                         </figure>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-sm-12 text-center">
+                        <a href="{{site.data.website.description.github.url}}">
+                            <img class="figure-img img-fluid img-thumbnail" src="{{site.data.website.description.github.stats}}" alt="{{site.data.website.description.github.stats-alt}}"/>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-12 text-center">
+                        <a href="{{site.data.website.description.github.url}}">
+                            <img class="figure-img img-fluid img-thumbnail" src="{{site.data.website.description.github.languages}}" alt="{{site.data.website.description.github.languages-alt}}"/>
+                        </a>
                     </div>
                 </div>
             </div>
