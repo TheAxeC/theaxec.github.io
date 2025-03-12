@@ -14,7 +14,7 @@ description:
     languages: "https://github-readme-stats.vercel.app/api/top-langs/?username=theaxec&layout=compact&hide=html,CSS&langs_count=8&theme=catppuccin_latte"
     languages-dark: "https://github-readme-stats.vercel.app/api/top-langs/?username=theaxec&layout=compact&hide=html,CSS&langs_count=8&theme=monokai"
     languages-alt: "TheAxeC's Top Languages"
-    overview: "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theaxec&theme=catppuccin_latte"
+    overview: "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theaxec&theme=nord_bright"
     overview-dark: "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theaxec&theme=monokai"
     overview-alt: "TheAxeC's Profile Overview"
     pins:
