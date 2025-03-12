@@ -8,12 +8,28 @@ description:
   github: 
     url: https://github.com/TheAxeC
     trophies: ""
-    stats: "https://github-readme-stats.vercel.app/api?username=theaxec&theme=monokai&show_icons=true&include_all_commits=true"
+    stats: "https://github-readme-stats.vercel.app/api?username=theaxec&theme=catppuccin_latte&show_icons=true&include_all_commits=true"
+    stats-dark: "https://github-readme-stats.vercel.app/api?username=theaxec&theme=monokai&show_icons=true&include_all_commits=true"
     stats-alt: "TheAxeC's GitHub Stats"
-    languages: "https://github-readme-stats.vercel.app/api/top-langs/?username=theaxec&layout=compact&hide=html,CSS&langs_count=8&theme=monokai"
+    languages: "https://github-readme-stats.vercel.app/api/top-langs/?username=theaxec&layout=compact&hide=html,CSS&langs_count=8&theme=catppuccin_latte"
+    languages-dark: "https://github-readme-stats.vercel.app/api/top-langs/?username=theaxec&layout=compact&hide=html,CSS&langs_count=8&theme=monokai"
     languages-alt: "TheAxeC's Top Languages"
-    overview: "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theaxec&theme=monokai"
+    overview: "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theaxec&theme=catppuccin_latte"
+    overview-dark: "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theaxec&theme=monokai"
     overview-alt: "TheAxeC's Profile Overview"
+    pins:
+      - url: "https://github.com/TheAxeC/federated-learning-tutorial"
+        img: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=federated-learning-tutorial&theme=catppuccin_latte"
+        img-dark: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=federated-learning-tutorial&theme=monokai"
+      - url: "https://github.com/TheAxeC/cardinal"
+        img: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=cardinal&theme=catppuccin_latte"
+        img-dark: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=cardinal&theme=monokai"
+      - url: "https://github.com/TheAxeC/block-term-tensor-regression"
+        img: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=block-term-tensor-regression&theme=catppuccin_latte"
+        img-dark: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=block-term-tensor-regression&theme=monokai"
+      - url: "https://github.com/TheAxeC/theaxec.github.io"
+        img: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=theaxec.github.io&theme=catppuccin_latte"
+        img-dark: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=theaxec.github.io&theme=monokai"
 
   positions:
     - name: 'Postdoctoral Researcher'

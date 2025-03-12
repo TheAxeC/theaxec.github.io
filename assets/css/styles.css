@@ -111,6 +111,7 @@ img.lazy {
 .dark-theme a {
     color: #bd5d38;
 }
+
 a {
     /* color: #bd5d38; */
     color:#007bff;
@@ -660,4 +661,20 @@ canvas {
     background: #007bff;
     color: #ffffff !important;
     border-radius: 6px;
+}
+
+.dark-theme .github_light {
+    display: none;
+}
+
+.dark-theme .github_dark {
+    display: block;
+}
+
+.light-theme .github_light {
+    display: block;
+}
+
+.light-theme .github_dark {
+    display: none;
 }
