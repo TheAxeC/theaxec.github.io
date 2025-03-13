@@ -210,8 +210,8 @@ permalink: /cv
             title=site.data.publications.other-publications.title
             items=site.data.publications.other-publications.papers %}
         {% include widgets/cv_item.html i=i
-            title=site.data.publications.posters.title
-            items=site.data.publications.posters.papers %}
+            title=site.data.publications.thesis.title
+            items=site.data.publications.thesis.papers %}
         {% include widgets/cv_item.html i=i
             title=site.data.publications.posters.title
             items=site.data.publications.posters.papers %}
