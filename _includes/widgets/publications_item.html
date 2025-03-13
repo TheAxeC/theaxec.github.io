@@ -45,7 +45,7 @@
     <div class="card-body d-flex align-items-start flex-column" style="background-color: rgba(255, 255, 255, 0.85);">
         <div class="mb-auto"></div>
         <div>
-            <h7 class="mt-0 mb-0 font-weight-normal">{{ item.title }}</h7>
+            <h7 class="mt-0 mb-0 font-weight-normal"><small>[{{i}}] </small>{{ item.title }}</h7>
             <p class="mt-0 mb-0 small">{% include widgets/publications_author_list.html authors=item.authors %}
             {{item.pub_pre}}<i>{{ item.book }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
             {% if item.from and item.from != "" %}

@@ -94,18 +94,20 @@ permalink: /research
                     <h2 class="mb-2">Project Blogs</h2>
                 </div>
                 <div class="row">
-                    <div class="owl-carousel owl-theme">
+                    <!-- <div class="owl-carousel owl-theme"> -->
                         {% for update in site.projects %}
                         {% if update.publish %}
-                        <div class="news-card"><a href="{{ update.url }}">
-                            <img src="{{ update.picture }}" class="w-full rounded-lg">
-                            <div class="news-desc">{{ update.title }}</div>
-                            <div class="news-time">{{ update.role }}</div>
-                            <div class="news-time">{{ update.duration }}</div>
-                        </a></div>
+                        <div class="col-12 col-md-6 col-lg-3 col-xl-2 col-sm-12 p-0">
+                            <div class="card ml-2 mr-2 mb-3 news-card" > <a href="{{ update.url }}">
+                                <img src="{{ update.picture }}" class="figure-img img-fluid img-thumbnail w-full rounded-lg">
+                                <div class="news-desc">{{ update.title }}</div>
+                                <div class="news-time">{{ update.role }}</div>
+                                <div class="news-time">{{ update.duration }}</div>
+                            </a></div>
+                        </div>
                         {% endif %}
                         {% endfor %}
-                    </div>
+                    <!-- </div> -->
                 </div>
             </div>
         </div>        
@@ -123,19 +125,19 @@ permalink: /research
                     <h2 class="mb-2">Blog</h2>
                 </div>
                 <div class="row">
-                    <div class="owl-carousel owl-theme">
+                    <!-- <div class="owl-carousel owl-theme"> -->
                         {% for update in site.blog %}
                         {% if update.publish %}
-                        <div class="news-card"><a href="{{ update.url }}">
-                            <img src="{{ update.picture }}" class="w-full rounded-lg">
-                            <div class="news-desc">{{ update.title }}</div>
-                            <div class="news-time">{{ update.category }}</div>
-                        
-                        </a></div>
+                        <div class="col-12 col-md-6 col-lg-3 col-xl-2 col-sm-12 p-0">
+                            <div class="card ml-2 mr-2 mb-3 news-card" > <a href="{{ update.url }}">
+                                <img src="{{ update.picture }}" class="figure-img img-fluid img-thumbnail w-full rounded-lg">
+                                <div class="news-desc">{{ update.title }}</div>
+                                <div class="news-time">{{ update.category }}</div>
+                            </a></div>
+                        </div>
                         {% endif %}
                         {% endfor %}
-                    </div>
-                    
+                    <!-- </div> -->
                 </div>
             </div>
         </div>        

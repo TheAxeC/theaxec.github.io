@@ -36,8 +36,8 @@ description:
       url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'
       image: 'assets/images/badges/UHasselt.jpg'
   content_mobile: |
-    Postdoctoral Researcher (Machine Learning) @ Biomedical Data Sciences, UHasselt
-    
+    Postdoctoral Researcher (`Machine Learning`) @ Biomedical Data Sciences, UHasselt
+
     Computational Neuroscientist
       
     Scientific Coordinator of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE)
@@ -67,11 +67,11 @@ description:
   portrait_caption: Building Knowledge, Driving Innovation 
   research_mobile: |
     **Research**
-      - Investigating the use of AI in real-world evidence healthcare studies (FAIR UC RWE).
+      - Investigating the use of AI in `real-world evidence` healthcare studies (FAIR UC RWE).
       - Federated Enhanced Regression and Medical Analytics with Tensors (FERMAT).
-      - Creating a federated learning algorithm for heart disease prediction.
-      - Developing machine learning models for brain-computer interfaces.
-      - Side project: working on algebraic type and effect systems for functional programming.
+      - Creating a `federated learning` algorithm for heart disease prediction.
+      - Developing machine learning models for `brain-computer interfaces`.
+      - Side project: working on `algebraic type and effect` systems for functional programming.
   research: |
     **Vision for Research Impact** <a href="research">(view more <i class="fas fa-angle-double-right"></i>)</a>
     I envision a future where `biomedical data science`, `machine learning`, and `artificial intelligence` are leveraged to revolutionize healthcare. I aim to:
@@ -86,8 +86,8 @@ description:
 
   education_mobile:  |
       **Education**
-      - I have experience in teaching Brain-Computer Interfaces, Federated Learning, and Bioinformatics, and am currently working to obtain my BKO (Basis Kwalificatie Onderwijs) from the UHasselt. 
-      - I have successfully supervised over a dozen Master Thesis students in the field of AI, Statistics & Data Science, Computer Science and Biomedical Science showing my skills in interdisciplinary learning. 
+      - I have experience in teaching `Brain-Computer Interfaces`, `Federated Learning`, and `Bioinformatics`, and am currently working to obtain my `BKO` (Basis Kwalificatie Onderwijs) from the UHasselt. 
+      - I have successfully supervised over a dozen Master Thesis students in the field of `AI`, `Statistics & Data Science`, `Computer Science` and `Biomedical Science` showing my skills in interdisciplinary learning. 
 
   education:  |
       **Vision for Educational Impact**
@@ -113,7 +113,7 @@ research:
   title: Research Diary
   image: assets/images/research.webp
   content: |
-    Welcome to my research corner, where I delve into the intersection of AI and health sciences. Here, you’ll find my latest projects, blog posts, and insights on leveraging AI for real-world applications, from predicting heart diseases to developing brain-computer interfaces. Join me as I explore innovative solutions that push the boundaries of healthcare technology.
+    Welcome to my research corner, where I delve into the intersection of `AI` and health sciences. Here, you’ll find my latest projects, blog posts, and insights on leveraging AI for real-world applications, from predicting `heart diseases` to developing `brain-computer interfaces`. Join me as I explore innovative solutions that push the boundaries of healthcare technology.
 
 ###################
 # Website content #
