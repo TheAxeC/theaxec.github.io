@@ -320,7 +320,7 @@ projects:
         Written in C (and since 2023, in C++14). High performance (on par with Luajit 2.1 -joff).
       cover: /assets/images/covers/about-project.webp
 
-    - title: Reinforcement Learning Agent in Google Deepmind’s StarCraft II Framework
+    - title: Reinforcement Learning Agent in Google Deepmind's StarCraft II Framework
       url: ""
       duration: Feb. 2018 - Jul. 2018
       role: Developer
