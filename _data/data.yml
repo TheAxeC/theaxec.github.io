@@ -111,6 +111,9 @@ academic:
 students:
     title: Students
     content:
+        - title: Anh Phuong DO
+          location: Individual Reference Intervals for Clinical Event Prediction
+          duraction: Doctoral Program in Sciences (co-promotor)
         - title: Matteo Ramina
           location: Estimating Household Wealth in Guyana - Remote Sensing and Convolutional Neural Network Approach
           duration: Master Statistics & Data Science (2024-2025)
