@@ -3,3 +3,6 @@ _data/personal.yml
 .DS_Store
 Gemfile.lock
 .vscode/
+
+.bundle/
+vendor/
