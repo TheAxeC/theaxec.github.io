@@ -100,6 +100,10 @@ academic:
       location: "Frontiers in Immunology"
       duration: "2024 - 2025"
       cover: /assets/images/covers/about-representative.webp
+    - title: VLAIO Evaluator for BAEKELAND SPIN OFF MANDATES
+      location: "VLAIO"
+      duration: "2025"
+      cover: /assets/images/covers/about-representative.webp
     - title: Student Research Competition Judge (International Conference on Functional Programming)
       location: "ICFP"
       duration: "2024"
@@ -111,9 +115,18 @@ academic:
 students:
     title: Students
     content:
+        - title: Denzell Mgbokwere
+          location: Optimalisatie en Typechecking in Single-Pass Compilers - een casestudy met de Wren Programming Language
+          duration: Master of Science in Computer Science (2025-2026)
+          cover: /assets/images/covers/about-degree.webp
+        - title: Robert Rysskin
+          location: Herontwerp van Wren Bytecode - Naar Efficiëntere Executie en Geheugengebruik
+          duration: Master of Science in Computer Science (2025-2026)
+          cover: /assets/images/covers/about-degree.webp
         - title: Anh Phuong DO
           location: Individual Reference Intervals for Clinical Event Prediction
-          duraction: Doctoral Program in Sciences (co-promotor)
+          duration: Doctoral Program in Sciences, Statistics (co-promotor)
+          cover: /assets/images/covers/about-degree.webp
         - title: Matteo Ramina
           location: Estimating Household Wealth in Guyana - Remote Sensing and Convolutional Neural Network Approach
           duration: Master Statistics & Data Science (2024-2025)
@@ -169,6 +182,10 @@ students:
 news:
     title: Talks, presentations and other media
     content:
+      - title: OHDSI Europe Symposium 2025
+        duration: 2025
+        location: OHDSI Europe Symposium
+        cover: /assets/images/covers/about-researchstay.webp
       - title: Guest Lecture "Federated Finger movement decoding - brain-computer interfacing"
         duration: 2025
         location: KULeuven
@@ -314,6 +331,38 @@ education:
 projects:
   title: Projects
   content:
+    - title: "Federated Learning for Population Health Management"
+      url: ""
+      duration: 2025 - Current
+      role: Co-promotor
+      min: true
+      about: |
+        FWO Senior Onderzoeksproject (2025) 
+        Project: "Federated Learning for Population Health Management"
+        Financiering: Fonds Wetenschappelijk Onderzoek (FWO), België (aangevraagd, resultaat in September 2025)
+        Bedrag: ca. €1.150.000 (inclusief loon en werkingsmiddelen voor 4 jaar)
+      cover: /assets/images/covers/about-project.webp
+    - title: "Federated Learning for Population Health Management"
+      url: ""
+      duration: 2025 - Current
+      role: Co-promotor
+      min: true
+      about: |
+        FWO SBO (Strategisch Basis Onderzoek) project (2025)
+        Project: "Federated Learning for Population Health Management"
+        Financiering: Fonds Wetenschappelijk Onderzoek (FWO), België (in voorbereiding)
+      cover: /assets/images/covers/about-project.webp
+    - title: "Use Case Real World Evidence – Flanders AI Research Program"
+      url: ""
+      duration: 2024 - Current
+      role: Scientific Coordinator
+      min: true
+      about: |
+        Financiering: Vlaamse overheid (FAIR-programma)
+        Duur: 2024–2028
+        Rol: Wetenschappelijk coördinator (UHasselt) en inhoudelijk AI-lead
+        Team: circa 10 onderzoekers verdeeld over 4 instellingen
+      cover: /assets/images/covers/about-project.webp
     - title: "Cardinal: scripting language"
       url: https://github.com/TheAxeC/Cardinal
       duration: Jan. 2015 - Current

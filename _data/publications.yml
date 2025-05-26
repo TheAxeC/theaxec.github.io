@@ -2,24 +2,24 @@ title: Publications
 papers-in-preparation:
     title: Papers in Preparation
     papers:
-        - authors: Axel Faes, Liesbet Peeters, Marc Van Hulle
-          title: Federated Transfer Learning for intracranial motor brain-computer interfaces
+        - authors: Liesbet Peeters, Axel Faes, et al.
+          title: Editorial introduction ‘The use of big data and AI in MS’
           url: ""
-          book: ""
+          book: "Frontiers in Immunology (5.7 IF)"
           pub_date: 2025
           cover: /assets/images/covers/publication-journal.webp
           abstract: ""
-        - authors: Axel Faes, Liesbet Peeters
-          title: "Block-Term Tensor Regression as an autoencoder "
+        - authors: Axel Faes
+          title: Algebraic Subtyping for multishot algebraic effects
           url: ""
-          book: ""
-          cover: /assets/images/covers/publication-journal.webp
+          book: "International Conference on Functional Programming (ICFP) 2025"
           pub_date: 2025
+          cover: /assets/images/covers/publication-journal.webp
           abstract: ""
-        - authors: Axel Faes, Liesbet Peeters
+        - authors: Axel Faes, Liesbet Peeters, Yves Moreau
           title: Federated Block-Term Tensor Regression for Heart Diseases in Realistic Healthcare Settings
           url: ""
-          book: ""
+          book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
           # pub_pre: "Submitted to "
           # pub_post: '(Under review)'
           pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
@@ -36,6 +36,20 @@ papers-in-preparation:
             Empirical evaluations demonstrate the robustness of FBTTR, showing that it achieves high predictive performance comparable to traditional centralized models. Moreover, the algorithm exhibits efficient computational performance, making it suitable for deployment in real-world healthcare environments where timely and accurate predictions are crucial. The results highlight FBTTR's potential in advancing predictive analytics in healthcare by providing a scalable, privacy-preserving solution for heart disease prediction, ultimately contributing to better patient outcomes and more effective healthcare delivery.
           # links:
           #   Code: https://github.com/luost26/ChemProjector
+        - authors: Axel Faes, Liesbet Peeters, Marc Van Hulle
+          title: Federated Transfer Learning for intracranial motor brain-computer interfaces
+          url: ""
+          book: "Machine Learning: Science and Technology (6.8 IF)"
+          pub_date: 2025
+          cover: /assets/images/covers/publication-journal.webp
+          abstract: ""
+        - authors: Axel Faes, Liesbet Peeters
+          title: "Block-Term Tensor Autoencoding for Source-Reconstructed EEG"
+          url: ""
+          book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
+          cover: /assets/images/covers/publication-journal.webp
+          pub_date: 2025
+          abstract: ""
         - authors: Ashkan Pirmani, Edward De Brouwer, Adam Arany, Martijn Oldenhof, Antoine Passemiers, Axel Faes, Tomas Kalincik, Serkan Ozakbas, Riadh Gouider, Barbara Willekens, Dana Horakova, Eva Kubala Havrdova, Francesco Patti, Alexandre Prat, Alessandra Lugaresi, Valentina Tomassini, Pierre Grammond, Elisabetta Cartechini, Izanne Roos, Cavit Boz, Raed Alroughani, Maria Pia Amato, Katherine Buzzard, Jeannette Lechner-Scott, Joana Guimaraes, Claudio Solaro, Oliver Gerlach, Aysun Soysal, Jens Kuhle, Jose Luis Sanchez-Menoyo, Daniele Spitaleri, Tunde Csepany, Bart Van Wijmeersch, Radek Ampapa, Julie Prevost, Samia J. Khoury, Vincent van Pesch, Nevin John, Davide Maimone, Bianca Weinstock-Guttman, Guy Laureys, Pamela McCombe, Yolanda Blanco, Ayse Altintas, Abdullah Al-Asmi, Justin Garber, Anneke van der Walt, Helmut Butzkueven, Koen de Gans, Csilla Rozsa, Bruce Taylor, Talal Al-Harbi, Attila Sas, Cecilia Rajda, Orla Gray, Danny Decoo, William M Carroll, Allan G Kermode, Marzena Fabis-Pedrini, Deborah Mason, Angel Perez Sempere, Mihaela Simu, Neil Shuey, Bhim Singhal, Marija Cauchi, Todd A. Hardy, Sudarshini Ramanathan, Patrice Lalive, Carmen-Adella Sirbu, Stella Hughes, Tamara Castillo Trivino, Liesbet M. Peeters, and Yves Moreau
           title: Personalized Federated Learning for Predicting Disability Progression in Multiple Sclerosis Using Real-World Routine Clinical Data
           pub_pre: "Submitted to "
@@ -54,6 +68,28 @@ papers-in-preparation:
           pub_date: 2024
           abstract: >-
             The N-Back working memory (WM) updating task is commonly used in cognitive neuroscience research. Many studies investigated behavioral responses, while only few studies have sought to identify its electrophysiological signatures. Nevertheless, it is still unclear what the role is of stimulus type and task structure in the outcomes. Here, we address this issue using nine different variations of an N-Back task. Results show differences in electrode clusters between words vs. pictures for both N2 and P3-ERP components, specifically in the fronto-central brain regions. In conclusion, our findings suggest that stimulus type contributes to differences in electrophysiological responses during N-Back task performance, which needs to be accounted for when interpreting findings across studies.
+        - authors: Anh Phuong Do, Axel Faes, et al.
+          title: Individual Reference Intervals for Clinical Event Prediction
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
+          cover: /assets/images/covers/publication-journal.webp
+          pub_date: 2024
+          abstract: >-
+            Objective: To develop a method for predicting clinical events using individual reference intervals (IRIs) derived from patient data. Approach: We propose a novel approach that combines individual IRIs with machine learning techniques to predict clinical events. The method is evaluated on a dataset of patient data, demonstrating its effectiveness in predicting events such as hospital readmissions and disease progression. Main results: The proposed method outperforms traditional prediction methods, achieving higher accuracy and better generalization to unseen data. Significance: This work highlights the potential of using individual IRIs for clinical event prediction, paving the way for personalized medicine and improved patient outcomes.
+        - authors: Ward Ceyssens, Axel Faes, et al.
+          title: Population-based finger movement decoding from high-density ECoG using Block-Term Tensor Regression
+          book: ""
+          cover: /assets/images/covers/publication-journal.webp
+          pub_date: 2025
+        - authors: Dries Cornelissen, Axel Faes, et al.
+          title: Block-Term Decomposition for arrhythmia detection and prediction on sinus rhythms
+          book: ""
+          cover: /assets/images/covers/publication-journal.webp
+          pub_date: 2025
+journal:
+    title: International Journal Papers
+    papers:
         - authors: Axel Faes, Eva Calvo Merino, Anais Van Hoylandt, Elina Keirse, Tom Theys, Marc M. Van Hulle
           title: Finger abduction trajectory prediction from high-density ECoG
           pub_pre: "Submitted to "
@@ -74,9 +110,6 @@ papers-in-preparation:
           pub_date: 2024
           abstract: >-
             Objective A novel method is introduced to regress over the Sign Language finger movements from human electrocorticography (ECoG) recordings. Approach The proposed Graph-Optimized Block-Term Tensor Regression (Go-BTTR) method consists of two components: a deflation-based regression model that sequentially Tucker-decomposes multiway ECoG data into a series of blocks, and a Causal Graph Process (CGP) that accounts for the complex relationship between finger movements when expressing sign language gestures. Prior to each regression block, CGP is applied to decide which fingers should be kept separate or grouped and should therefore be referred to BTTR or its extended version eBTTR, respectively. Main results Two ECoG datasets were used, one recorded in 5 patients expressing 4 hand gestures of the American Sign Language Alphabet, and another in 2 patients expressing all gestures of the Flemish Sign Language Alphabet. As Go-BTTR combines fingers in a flexible way, it can better account for the nonlinear relationship ECoG exhibits when expressing hand gestures, including unintentional finger co-activations. This is reflected by the superior joint finger trajectory predictions compared to eBTTR, and predictions that are on par with BTTR in single finger scenarios. Subject 5, Dataset 1, during the movement of hand gestures reached 0.82 Pearson correlation for the pinky for Go-BTTR compared to 0.8 and 0.72 for eBTTR and BTTR respectively. Significance Our findings show that Go-BTTR is capable of decoding complex hand gestures taken from the Sign Language Alphabet. Go-BTTR also demonstrates computational efficiency, providing a notable benefit when intracranial electrodes are inserted during a patient’s pre-surgical evaluation. This efficiency helps reduce the time required for developing and testing a Brain-Computer Interface (BCI) solution.
-journal:
-    title: International Journal Papers
-    papers:
         - authors: Eva Calvo Merino, Axel Faes, Marc M. Van Hulle
           title: The role of distinct ECoG frequency features in decoding finger movement
           pub_date: 2023
