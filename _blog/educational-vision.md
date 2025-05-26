@@ -1,54 +1,65 @@
 ---
 layout: post
-title:  "Education Vision"
+title:  "Educational Vision"
 picture: /assets/images/projects/default.webp
-category: vision
-publish: False
+category: research
+publish: True
 ---
 
-### Educational Vision of Axel Faes
+# **Teaching Data Science with Depth, Dialogue, and Direction**
 
-#### Vision for Educational Impact 
+Education is not just about transferring knowledge — it’s about cultivating curiosity, critical thinking, and social responsibility. As a researcher and educator in computer science and data science, my mission is to train students who are not only technically skilled, but also ethically aware and societally engaged.
 
-I envision a future where education in computational neuroscience and AI is accessible, engaging, and impactful. I aim to:
+I believe education should be practice-driven, interdisciplinary, and research-oriented. At Hasselt University, I bring this philosophy to life through a variety of teaching roles: as a subject expert, community member, curriculum developer, project supervisor, and reflective practitioner.
 
-- **Inspire Future Researchers**: By mentoring students and conducting educational workshops, I seek to inspire the next generation of scientists and engineers to pursue innovative research in neurotechnology.
-- **Promote Interdisciplinary Learning**: My work underscores the importance of interdisciplinary approaches, combining insights from neuroscience, engineering, and computer science to solve complex problems. I aim to foster a learning environment that encourages such cross-disciplinary collaborations.
-- **Develop Educational Resources**: Through my publications, open-source projects, and potential future textbooks or online courses, I plan to provide comprehensive resources that make advanced topics in AI and neurotechnology more accessible to learners worldwide.
-- **Become a bridge between data scientists and biomedical scientists**
-In summary, my educational background and contributions reflect my dedication to advancing knowledge and inspiring future generations in the fields of AI, machine learning, and neurotechnology. My work not only pushes the boundaries of research but also serves as a foundation for educational excellence and innovation.
+---
 
+## **Teaching What Matters: Theory, Practice, and Purpose**
 
-#### Educational Background
-I have a robust educational foundation in computer science and artificial intelligence, which has significantly shaped my research trajectory. My academic journey includes:
+As a computer scientist with a strong focus on machine learning and federated AI, I incorporate state-of-the-art methods directly into the classroom. In the *Advanced Topics in Data Science* course, I teach federated learning from the ground up — including the technical principles, ethical considerations, and health applications. Students complete case-based assignments using real data in interactive Jupyter environments, and feedback has been very positive.
 
-1. **Bachelor's Degree in Computer Science** from UHasselt, where I developed foundational knowledge in computing, algorithms, and software engineering. My bachelor's thesis focused on the application of machine learning techniques for network intrusion detection systems, showcasing my early interest in practical applications of AI.
+In *Bioinformatics* (part of the Biomedical Sciences program), I co-teach machine learning and data representation to students with little or no computer science background. Through hands-on projects — such as detecting somatic mutations in tumors using HPC infrastructure — we support learning through coaching sessions and peer interaction. The shift in student satisfaction compared to previous years suggests that our collaborative and applied approach makes a meaningful difference.
 
-2. **Master of Science in Engineering: Computer Science** from KU Leuven. During my master's, I delved deeper into advanced computational methods and their applications. My master's thesis on algebraic subtyping for algebraic effects and handlers indicates a strong inclination towards formal methods and their optimization.
+At KU Leuven, I’m also a guest lecturer in *Brain-Computer Interfacing*, where I guide students through decoding experiments on EEG/ECoG data. I typically teach the final lecture of the course, presenting a real-world case study. This year’s focus was on federated learning in healthcare — aligning tightly with my own research and giving students a window into real applications of theoretical work.
 
-3. **Advanced Master of Science in Artificial Intelligence: Engineering & Computer Science** from KU Leuven. This advanced degree further honed my expertise in AI, culminating in a thesis that employed information-theoretical approaches to EEG source-reconstructed connectivity, bridging the gap between theoretical AI and practical neuroscience applications.
+---
 
-4. **PhD in Biomedical Sciences in the Department of Neuroscience** from KU Leuven. During my PhD, I further developed my research interests into neuroscience and brain-computer interfaces.
+## **Community, Collaboration, and Context**
 
-#### Educational Contributions
+Education is a shared effort. I actively contribute to a broader academic community spanning computer science, statistics, and biomedicine. Through collaborative teaching and supervision, I connect students with societal questions — from health inequity and explainable AI to FAIR data practices. Many of my thesis projects stem directly from live research contexts, ensuring students work on problems that matter.
 
-I am committed to education and knowledge dissemination in various capacities:
+In this spirit, I’ve helped shape curriculum content for the Informatics and Statistics & Data Science programs at UHasselt. I work on integrating new technologies, embedding projects that foster research skills, and exploring how transversal themes — like AI ethics and open data — can enrich technical training.
 
-1. **Mentorship**:
-   - As a (post)doctoral researcher, I have been involved in mentoring students and junior researchers, guiding them through complex projects and helping them navigate the intricacies of computational neuroscience and AI. In total, I have supervised 10 students.
-   - I'm currently mentoring 3 master thesis students from the Master Informatica, Faculteit Wetenschappen. There are only 16 students from this Master currently pursuing a thesis, thus my topics (and research) have been particularly among the students.
-   - My academic roles have probably included teaching assistantships or guest lectures, where I shared his expertise in machine learning, neural decoding, and computational methods with students.
-   - Within BIOMED, I'm involed with the initiative to "Increase Data Science capabilities PhD students Biomedical Sciences".
+---
 
-2. **Workshops and Seminars**:
-   - I have participated in and organized workshops and seminars aimed at educating peers and students about the latest advancements in neurotechnology and AI. I was Guest Associate Editor 2024-2025 of "Use of Big Data and Artificial Intelligence in Multiple Sclerosis" in Frontiers in Immunology 2024
+## **Teaching That Adapts to the Student**
 
-3. **Publications and Open-source Contributions**:
-   - My publications in leading journals and conferences serve as valuable educational resources for students and researchers in the field. These works provide insights into cutting-edge research methodologies and findings.
-   - My GitHub repositories, including those from my theses and research projects, offer open-source tools and frameworks that can be used for educational purposes. These repositories not only demonstrate my research but also provide practical examples and code for students to learn from and build upon.
+I tailor my teaching to my audience, blending lectures with interactive learning formats. I use notebooks, version control, and reflective assignments to help students engage both practically and conceptually. The goal is not just to understand the theory — but to apply it, critique it, and extend it.
 
-4. **Basis Kwalificatie Onderwijs**
-   In 2024, I started my BKO at the UHasselt.
+I currently supervise multiple master’s theses across Informatics and Data Science, on topics ranging from tensor-based arrhythmia detection to time series imputation and federated modeling for global health. These projects are closely linked to my research, and in some cases lead to co-authorships, open-source contributions, or conference presentations. Supervision is never just about evaluation — it’s about feedback, iteration, and shared exploration.
 
-5. **Lecturing**
-   I am co-lecturer (co-titularis) of Bio-informatica (3740).
+---
+
+## **From Leuven to Hasselt: A Thoughtful Transition**
+
+One recent reflection is the shift in my role from KU Leuven to UHasselt. At Leuven, student supervision was often constrained by program structure and scale. At Hasselt, I’ve found a more personal, flexible system — built around thematic supervision and close interaction. This shift has been energizing.
+
+Students like Denzell and Robert, who are working on compiler optimization projects, exemplify the kind of collaboration I value: deep engagement, mutual learning, and research-driven motivation. Their enthusiasm reflects the kind of academic environment I aim to help build — one where students and teachers co-create knowledge.
+
+---
+
+## **Professional Growth, Reflective Teaching**
+
+I am currently completing the university’s teaching qualification (BKO), with a focus on active learning and blended education. I regularly seek feedback, attend training sessions, and participate in academic communities — for example, serving as a jury member for the ACM SIGPLAN Student Research Competition at ICFP 2024.
+
+These efforts help me stay responsive to changing educational needs and continuously improve my teaching practice.
+
+---
+
+## **Why It Matters**
+
+Teaching, for me, is inseparable from research, collaboration, and social relevance. I strive to connect students to real data challenges, give them ownership over their learning, and foster an environment that is innovative, critical, and engaged. At Hasselt University’s Data Science Institute, I see education as a process of co-creation — not just with colleagues, but with students and the broader society.
+
+Returning to Hasselt — the university where I studied myself — feels like a full-circle moment. The open atmosphere, the close-knit community, and the emphasis on student involvement were essential to my own academic development. Today, I want to give that same sense of connection and purpose back to the next generation.
+
+I truly believe that my background and experience allow me to make a meaningful contribution to education at UHasselt — by helping students not only master the tools of data science, but also think about how and why they use them.

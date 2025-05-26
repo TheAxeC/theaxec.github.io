@@ -2,67 +2,60 @@
 layout: post
 title:  "Research Vision"
 picture: /assets/images/projects/default.webp
-category: vision
-publish: False
+category: research
+publish: True
 ---
 
-### Research Vision of Axel Faes
+# **Designing AI for the Real World: My Research Vision**
 
-I envision a future where **biomedical data science, machine learning, and artificial intelligence** are leveraged to revolutionize healthcare. I aim to:
-   - **Innovate in Health Data Analysis**: By developing innovative methods for analyzing and interpreting complex health data, I seek to advance the field of **precision medicine and neuroscience** and improve patient outcomes.
-   - **Advance Brain-Computer Interfaces**: My work focuses on the understanding and application of **brain-computer interfaces (BCIs) and neural decoding**, aiming to enhance the interface between technology and neural activity.
-   - **Bridge Research and Practice**: By combining expertise in **data science, engineering, and medicine**, I aim to bridge the gap between theoretical research and practical implementations, ultimately contributing to the development of more effective and personalized healthcare solutions.
+How can we design AI models that are not only accurate, but also robust, explainable, and respectful of data privacy? That is the central question driving my research agenda — rooted in the fundamentals of machine learning, tensor algebra, and programming languages, yet deeply connected to real-world challenges in healthcare, neuroscience, and population health.
 
-**Vision Statement**
+## **From Foundations to Impact**
 
-My research vision is to pioneer the development of advanced neurotechnology solutions that bridge the gap between neural activity and real-world applications. I envision a future where brain-computer interfaces (BCIs) are seamlessly integrated into daily life, offering unprecedented levels of control and interaction for individuals with disabilities and enhancing human-computer interaction for all.
+My work is fundamentally methodological. I develop new models and data representations that can handle the complexity and heterogeneity of real-world data. While the applications I work on may shift over time — from neurology to public health — my core focus remains stable: building mathematically grounded AI systems that are transparent, modular, and capable of learning from distributed, sensitive datasets.
 
-#### Key Areas of Focus
+## **Federated Learning & Tensor Representations**
 
-1. **Innovative Neural Decoding Algorithms**
-   My research will continue to push the boundaries of neural decoding by developing sophisticated algorithms that can accurately interpret and predict neural signals. Leveraging multiway and tensor-based methods, I aim to capture the complex, multilinear relationships inherent in brain activity. By integrating advanced machine learning techniques, such as deep learning and recursive tensor decomposition, I seek to enhance the precision and reliability of BCIs.
+One of my key research lines focuses on *federated learning* and *tensor modeling*. I developed the **Block-Term Tensor Regression (BTTR)** model and its federated extension **FBTTR**, designed to analyze sensitive, decentralized data such as health records. These models offer strong guarantees around convergence, data separation, and interpretability — and have been successfully applied to problems like cardiac risk prediction and multiple sclerosis progression.
 
-2. **Unlock new insights into higher-level operation of the brain**
-   Through decoding neural data, new insights can be gained in the higher-level operation of the brain. Tools such as electroencephalography (EEG) and (high density) electrocorticography (ECoG) can give new insights into brain functions. Of particular interest is the motor cortex and unlocking more insight into fine and complex motor movement.
+In my role as **scientific coordinator of the “Real-World Evidence” use case** within the **Flanders AI Research Program**, I lead a multidisciplinary consortium involving researchers from KU Leuven, UHasselt, UGent, and UAntwerpen. Together, we develop methods for scaling up real-world datasets (e.g., EHRs, ECGs, MRI) and extracting personalized insights into disease progression — without compromising data privacy.
 
-3. **Real-time Applications and Clinical Integration**
-   A primary goal of my research is to translate theoretical advancements into practical, real-time applications. This involves optimizing algorithms to reduce training times and computational demands, making them viable for clinical settings. I envision BCIs that can be rapidly deployed in neurorehabilitation, enabling stroke patients and amputees to regain motor functions through intuitive and responsive neural interfaces.
+## **Programming Languages & Formal Methods**
 
-4. **Interdisciplinary Collaboration**
-   Recognizing the multidisciplinary nature of neurotechnology, my research will foster collaboration across neuroscience, engineering, computer science, and clinical disciplines. By working closely with clinicians, engineers, and fellow researchers, I aim to ensure that our technological innovations meet real-world needs and are grounded in a deep understanding of neural physiology.
+Another long-standing line of inquiry in my work is **programming language theory**, particularly algebraic type and effect systems. My goal here is to explore how formal type systems can support correctness, transparency, and optimization in AI workflows. I’ve collaborated with researchers like Tom Schrijvers and Matija Pretnar on algebraic subtyping for typed effect systems, and I currently supervise master’s theses on compiler design and bytecode optimization.
 
-5. **Ethical and Accessible Neurotechnology**
-   As we develop more advanced BCIs, it is crucial to address the ethical implications and ensure these technologies are accessible to a wide range of users. My vision includes advocating for responsible research practices, equitable access to neurotechnology, and engaging with diverse communities to understand their needs and perspectives. This approach ensures that the benefits of BCIs are distributed fairly and ethically.
+This line of work is more than theoretical: it helps lay the groundwork for AI systems that are not only effective but also verifiable and trustworthy.
 
-6. **Educational Outreach and Knowledge Dissemination**
+## **Population Health & Policy-Relevant AI**
 
-   Committed to the dissemination of knowledge, I will continue to publish my findings in leading journals and conferences, and develop open-source tools and frameworks that can be used by researchers and practitioners worldwide. By mentoring students and conducting workshops, I aim to inspire the next generation of scientists and engineers to explore the exciting field of neural interfaces and neurotechnology.
+A newer but rapidly growing part of my agenda focuses on **real-world evidence (RWE)** and **population health management (PHM)**. Here, I study how to model administrative health data using causal inference and federated AI, aiming to bridge the gap between technical model development and actionable policy insights.
 
-#### Existing collaborations
-I have existing collaborations with UMC Utrecht Brain Center, Neurology and Neurosurgery, as well as Ghent University (UGent) Hospital, Neurology. I'm actively collaborating with Marc Van Hulle, Laboratory for Neuro- and Psychophysiology, KU Leuven as well as Yves Moreau, Dynamical Systems, Signal Processing and Data Analytics (STADIUS), KU Leuven. 
+Our current work explores three critical PHM challenges:
 
-Within my current Postdoc position, I'm involved with ELIXIR and FAIR.
+* Estimating disease prevalence using medication-based pseudo-pathologies;
+* Modeling intervention outcomes and health trajectories across populations;
+* Investigating inequality through personalized risk analysis that integrates socioeconomic data.
 
-ELIXIR Belgium or "ELIXIR infrastructure for Data and Services to strengthen Life Sciences Research Flanders" is an "International Research Infrastructure (IRI)" project of the "Flemish Research Foundation (FWO)". 
+From a technical perspective, we’re extending BTTR to handle vertically partitioned and aggregated data, and building a sandbox environment for controlled federated learning experiments. These efforts aim to produce domain-agnostic recommendations for responsible AI in health systems.
 
-The Flanders Artificial Intelligence Research (FAIR) program is organized around four grand challenges and within this program, Liesbet M. Peeters acts as the use case lead of the Use Case multiple sclerosis (MS), which is part of Grand Challenge 1 (AI-Driven Data Science: Making Data Science Hybrid, Automated, Trusted and Actionable), Work Package 7 (use cases in Health). We aim to speed-up the identification of the right treatment for the right patient at the right time by improving the data management of data that is already collected and applying AI techniques on these datasets. I am taking the position as both the general scientific coordinator of this use case, as well as developing one of the Proof of Concepts (POCs) that make up the usecase. 
+Together with colleagues from KU Leuven and UHasselt, I am co-promoter on a new **FWO Senior Research Project** focused on federated learning in healthcare, and we are preparing a larger **FWO Strategic Basic Research (SBO)** proposal centered on federated learning for population health (FL4PHM).
 
-Cardiovascular sciences
+## **Positioned for Collaboration**
 
-#### Motivation for the relevance of BCI Research (within Belgium)
-My goal is to become the main lab of expertise for BCIs within Belgium. While there are groups in Leuven, these groups are connected with the Faculty of Engineering and focus on more technical challenges and research such as the development of new electronics. My focus would be primarily on the developing new neural decoding algorithms in order to help patients with locked-in syndrome. My prior host lab for my PhD, under Marc Van Hulle, will be disappearing due to his retirement. 
+After my PhD, I chose to join the **Biomedical Data Sciences group at UHasselt** — not solely to focus on biomedical applications, but because of the unique combination of methodological depth and societal relevance. This environment allows me to test abstract models (tensor factorizations, type systems, causal models) against diverse datasets and in highly interdisciplinary settings.
 
-#### Short-term Goals
-- FERMAT - Federated Enhanced Regression and Medical Analytics with Tensors
-- Prepare an FWO Junior Onderzoeksproject
-- Focus on BKO
-- Keep up with supervision of my Masters students
-- See if I can connect to other courses
-- Prepare an ERC Grant Application
+As part of this group, I help develop an **open-source Federated Learning Toolkit** that enables GDPR-compliant AI for healthcare. My contribution sits at the intersection of algorithmic innovation and ethical, privacy-aware data science.
 
-#### Long-term Goals
-- **Comprehensive Understanding of Neural Mechanisms**: Achieve a deeper understanding of the neural mechanisms underlying motor control and cognitive functions, contributing to both basic neuroscience and applied neuroengineering.
-- **Scalable and Efficient Neurotechnology Solutions**: Create scalable solutions that can be easily adapted to various clinical and non-clinical environments, ensuring that neurotechnology benefits are widely accessible.
-- **Seamless Integration of BCIs**: Develop BCIs that offer intuitive and seamless control of prosthetics and assistive devices, significantly improving the quality of life for individuals with motor impairments.
+## **Complementary Expertise & Next Steps**
 
-Through these efforts, I aim to lead pioneering research that transforms our understanding of brain function and translates these insights into practical technologies that enhance human capabilities and well-being.
+My expertise complements key domains within UHasselt’s Data Science Institute (DSI), aligning with core themes such as federated learning, causal AI, and database technology. I bring experience in project design, scientific coordination, and societal valorization — from foundational work to system-level applications.
+
+Currently, I’m entering an intensive publication phase. Several papers are in preparation, focused on federated tensor models and effect-based compiler design. If successful, these will strengthen my academic profile and lay the groundwork for a future ERC grant.
+
+## **From Brain Interfaces to Broader Models**
+
+My academic journey has always balanced fundamental modeling with real-world application. From early research in HCI and networking (which led to a third place at the ACM CHI Student Design Competition) to an award-winning master’s thesis in type systems, and a PhD on brain decoding using tensor models — each step reflects a consistent drive to develop generalizable, mathematically sound AI techniques.
+
+Even outside academia, this ambition has shaped my trajectory: I applied to become an astronaut during ESA’s 2021 call — an experience that reaffirmed my desire to pursue interdisciplinary, impact-driven research here on Earth.
+
+As a postdoctoral researcher at UHasselt, I continue to build bridges between data science, health systems, and fundamental theory. I believe this kind of work — technically deep, societally grounded, and rigorously interdisciplinary — is what modern AI needs.
