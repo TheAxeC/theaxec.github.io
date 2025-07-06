@@ -115,16 +115,19 @@ papers-in-preparation:
             Objective: To develop a method for predicting clinical events using individual reference intervals (IRIs) derived from patient data. Approach: We propose a novel approach that combines individual IRIs with machine learning techniques to predict clinical events. The method is evaluated on a dataset of patient data, demonstrating its effectiveness in predicting events such as hospital readmissions and disease progression. Main results: The proposed method outperforms traditional prediction methods, achieving higher accuracy and better generalization to unseen data. Significance: This work highlights the potential of using individual IRIs for clinical event prediction, paving the way for personalized medicine and improved patient outcomes.
         - authors: Ward Ceyssens, Axel Faes
           title: Cross Subject training for finger movement decoding with high-density ECoG
+          pub_last: (senior author)
           book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
         - authors: Dries Cornelissen, Axel Faes
           title: Block-Term Decomposition for arrhythmia detection and prediction on sinus rhythms
+          pub_last: (senior author)
           book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
         - authors: Meseret Assefa Kerga, Axel Faes
           title: "Predicting Cirrhosis Patient Survival Using Machine Learning: A Data-Driven Approach"
+          pub_last: (senior author)
           book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
@@ -217,7 +220,7 @@ journal:
 conference:
     title: Conference Papers
     papers:
-        - authors:
+        - authors: Qiang Sun, Eva Calvo Merino, Liuyin Yang, Axel Faes, Marc Van Hulle
           title: Proprioceptive Feedback Challenges Motor Intention Detection from EEG during Human-Exoskeleton Interaction
           url: ""
           pub_date: 2025
