@@ -5,6 +5,7 @@ papers-in-preparation:
         - authors: Axel Faes
           title: Algebraic Subtyping for multishot algebraic effects
           url: ""
+          pub_pre: "Submitted to "
           book: "International Conference on Functional Programming (ICFP) 2025"
           pub_date: 2025
           cover: /assets/images/covers/publication-journal.webp
@@ -57,6 +58,8 @@ papers-in-preparation:
         - authors: Axel Faes, Liesbet Peeters, Marc Van Hulle
           title: Federated Transfer Learning for intracranial motor brain-computer interfaces
           url: ""
+          # pub_pre: "Submitted to "
+          pub_post: '(In preparation)'
           book: "Machine Learning: Science and Technology (6.8 IF)"
           pub_date: 2025
           cover: /assets/images/covers/publication-journal.webp
@@ -64,9 +67,9 @@ papers-in-preparation:
         - authors: Axel Faes, Liesbet Peeters
           title: "Block-Term Tensor Regression for ECG Classification with Federated Matrix Factorizations"
           url: ""
-          book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
-          pub_pre: "Submitted to "
-          pub_post: '(Under review)'
+          book: "IEEE Journal of Biomedical Engineering (4.5 IF)"
+          # pub_pre: "Submitted to "
+          pub_post: '(In preparation)'
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
           abstract: ""
@@ -74,26 +77,26 @@ papers-in-preparation:
           title: "Vertical Federated Learning with Block-Term Tensor Regression"
           url: ""
           book: "IEEE Transactions on Neural Networks and Learning Systems (14.25 IF)"
-          pub_pre: "Submitted to "
-          pub_post: '(Under review)'
+          # pub_pre: "Submitted to "
+          pub_post: '(In preparation)'
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
           abstract: ""
         - authors: Axel Faes, Pieter VanderVoort, Liesbet Peeters
           title: "Federated and Interpretable ECG Classification"
           url: ""
-          book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
-          pub_pre: "Submitted to "
-          pub_post: '(Under review)'
+          # book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
+          # pub_pre: "Submitted to "
+          pub_post: '(In preparation)'
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
           abstract: ""
         - authors: Axel Faes, Pieter VanderVoort, Liesbet Peeters
           title: "Federated Block-Term Tensor Regression for ECG Classification"
           url: ""
-          book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
-          pub_pre: "Submitted to "
-          pub_post: '(Under review)'
+          # book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
+          # pub_pre: "Submitted to "
+          pub_post: '(In preparation)'
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
           abstract: ""
@@ -125,24 +128,32 @@ papers-in-preparation:
         - authors: Dongho Chun, Axel Faes
           title: "Effects on clustering algorithms based on classification of Atrial Fibrillation based on ECG data"
           pub_last: (senior author)
-          book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
+          # pub_pre: "Submitted to "
+          pub_post: '(In preparation)'
+          # book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
         - authors: Ward Ceyssens, Axel Faes
           title: Cross Subject training for finger movement decoding with high-density ECoG
           pub_last: (senior author)
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
           book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
         - authors: Dries Cornelissen, Axel Faes
           title: Block-Term Decomposition for arrhythmia detection and prediction on sinus rhythms
           pub_last: (senior author)
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
           book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
         - authors: Meseret Assefa Kerga, Axel Faes
           title: "Predicting Cirrhosis Patient Survival Using Machine Learning: A Data-Driven Approach"
           pub_last: (senior author)
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
           book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
