@@ -2,13 +2,6 @@ title: Publications
 papers-in-preparation:
     title: Papers in Preparation
     papers:
-        - authors: Liesbet Peeters, Axel Faes, et al.
-          title: Editorial introduction ‘The use of big data and AI in MS’
-          url: ""
-          book: "Frontiers in Immunology (5.7 IF)"
-          pub_date: 2025
-          cover: /assets/images/covers/publication-journal.webp
-          abstract: ""
         - authors: Axel Faes
           title: Algebraic Subtyping for multishot algebraic effects
           url: ""
@@ -16,12 +9,12 @@ papers-in-preparation:
           pub_date: 2025
           cover: /assets/images/covers/publication-journal.webp
           abstract: ""
-        - authors: Axel Faes, Liesbet Peeters, Yves Moreau
+        - authors: Axel Faes, Ashkan Pirmani, Yves Moreau, Liesbet Peeters
           title: Federated Block-Term Tensor Regression for Heart Diseases in Realistic Healthcare Settings
           url: ""
           book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
-          # pub_pre: "Submitted to "
-          # pub_post: '(Under review)'
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
           pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
           pub_date: 2024
           selected: true
@@ -34,8 +27,33 @@ papers-in-preparation:
             The proposed FBTTR method leverages the strengths of tensor regression in handling multi-dimensional data, enhancing predictive accuracy through collaborative learning while ensuring data confidentiality. By incorporating federated learning principles, FBTTR facilitates secure model training across different sites, effectively mitigating data silos and promoting a more comprehensive understanding of heart disease predictors.
 
             Empirical evaluations demonstrate the robustness of FBTTR, showing that it achieves high predictive performance comparable to traditional centralized models. Moreover, the algorithm exhibits efficient computational performance, making it suitable for deployment in real-world healthcare environments where timely and accurate predictions are crucial. The results highlight FBTTR's potential in advancing predictive analytics in healthcare by providing a scalable, privacy-preserving solution for heart disease prediction, ultimately contributing to better patient outcomes and more effective healthcare delivery.
-          # links:
-          #   Code: https://github.com/luost26/ChemProjector
+        - authors: Axel Faes, Ashkan Pirmani, Yves Moreau, Liesbet Peeters
+          title: Applying Federated Learning to Block-Term Tensor Regression for Heart Disease Prediction
+          url: ""
+          book: "Conference on Federated Learning Technologies and Applications"
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
+          pub_date: 2024
+          selected: true
+          cover: /assets/images/covers/publication-journal.webp
+          hide: false
+          # cover: "/assets/img/publications/journal/journal-1.jpg"
+          abstract: >-
+            Block-Term Tensor Regression (BTTR) has proven to be a powerful tool for modeling complex, high-dimensional data by leveraging multilinear relationships, making it particularly well-suited for applications in healthcare and neuroscience. However, traditional implementations of BTTR rely on centralized datasets, which pose significant privacy risks and hinder collaboration across institutions. To address these challenges, we introduce Federated Block-Term Tensor Regression (FBTTR), an extension of BTTR designed for federated learning scenarios. FBTTR enables decentralized data analysis, allowing institutions to collaboratively build predictive models while preserving data privacy and complying with regulations.
+
+            FBTTR represents a major step forward in applying tensor regression to federated learning environments. Its performance is evaluated in a case study: heart disease prediction. In this case study, FBTTR is applied to predict heart disease using real-world clinical datasets, outperforming both standard federated learning approaches and centralized BTTR models. In the Fed-Heart-Disease Dataset, an AUC-ROC was obtained of 0.872 $\pm$ 0.02 and an accuracy of 0.772 $\pm$ 0.02 compared to 0.812 $\pm$ 0.003 and 0.753 $\pm$ 0.007 for the centralized model.
+
+            Empirical evaluations highlight the robustness and scalability of FBTTR, achieving predictive performance comparable to centralized models while significantly reducing privacy concerns. Additionally, the algorithm is computationally efficient, making it viable for real-world deployment where timely predictions are critical. By offering a scalable and privacy-preserving solution, FBTTR has the potential to advance predictive analytics across multiple domains, including healthcare and brain-computer interface applications. Notably, FBTTR is developed as open-source software, promoting transparency and fostering collaboration within the research community.
+        - authors: Axel Faes, Liesbet Peeters
+          title: "Block-Term Tensor Autoencoding for Source-Reconstructed EEG"
+          url: ""
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
+          cover: /assets/images/covers/publication-journal.webp
+          pub_date: 2025
+          abstract: ""
         - authors: Axel Faes, Liesbet Peeters, Marc Van Hulle
           title: Federated Transfer Learning for intracranial motor brain-computer interfaces
           url: ""
@@ -44,21 +62,39 @@ papers-in-preparation:
           cover: /assets/images/covers/publication-journal.webp
           abstract: ""
         - authors: Axel Faes, Liesbet Peeters
-          title: "Block-Term Tensor Autoencoding for Source-Reconstructed EEG"
+          title: "Block-Term Tensor Regression for ECG Classification with Federated Matrix Factorizations"
           url: ""
-          book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
-          cover: /assets/images/covers/publication-journal.webp
-          pub_date: 2025
-          abstract: ""
-        - authors: Ashkan Pirmani, Edward De Brouwer, Adam Arany, Martijn Oldenhof, Antoine Passemiers, Axel Faes, Tomas Kalincik, Serkan Ozakbas, Riadh Gouider, Barbara Willekens, Dana Horakova, Eva Kubala Havrdova, Francesco Patti, Alexandre Prat, Alessandra Lugaresi, Valentina Tomassini, Pierre Grammond, Elisabetta Cartechini, Izanne Roos, Cavit Boz, Raed Alroughani, Maria Pia Amato, Katherine Buzzard, Jeannette Lechner-Scott, Joana Guimaraes, Claudio Solaro, Oliver Gerlach, Aysun Soysal, Jens Kuhle, Jose Luis Sanchez-Menoyo, Daniele Spitaleri, Tunde Csepany, Bart Van Wijmeersch, Radek Ampapa, Julie Prevost, Samia J. Khoury, Vincent van Pesch, Nevin John, Davide Maimone, Bianca Weinstock-Guttman, Guy Laureys, Pamela McCombe, Yolanda Blanco, Ayse Altintas, Abdullah Al-Asmi, Justin Garber, Anneke van der Walt, Helmut Butzkueven, Koen de Gans, Csilla Rozsa, Bruce Taylor, Talal Al-Harbi, Attila Sas, Cecilia Rajda, Orla Gray, Danny Decoo, William M Carroll, Allan G Kermode, Marzena Fabis-Pedrini, Deborah Mason, Angel Perez Sempere, Mihaela Simu, Neil Shuey, Bhim Singhal, Marija Cauchi, Todd A. Hardy, Sudarshini Ramanathan, Patrice Lalive, Carmen-Adella Sirbu, Stella Hughes, Tamara Castillo Trivino, Liesbet M. Peeters, and Yves Moreau
-          title: Personalized Federated Learning for Predicting Disability Progression in Multiple Sclerosis Using Real-World Routine Clinical Data
+          book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
           cover: /assets/images/covers/publication-journal.webp
-          book: "npj Digital Medicine (15.357 IF)"
           pub_date: 2025
-          abstract: >-
-            The fragmented nature of Real-World Data (RWD) presents significant challenges for research, particularly in low-prevalence diseases like Multiple Sclerosis (MS). Data dispersed across institutions and countries, coupled with restrictive privacy regulations, limits access to comprehensive datasets, delaying the development of predictive models and understanding of critical outcomes. Federated Learning (FL) offers a collaborative solution by enabling model training without centralizing sensitive patient data, but it often fails to address variations across data providers. Personalized Federated Learning (PFL) adapts models to these differences, improving the precision and relevance of insights. Yet, its potential to enhance predictive performance and guide clinical decisions in MS using routine clinical RWD remains largely unexplored. In this study, we evaluate standard FL alongside two personalization strategies for predicting confirmed MS disability progression over two years, using RWD from over 26,000 patients in the MSBase registry. These strategies include (1) AdaptiveDualBranchNet, a novel architecture that selectively exchanges key model parameters, enabling more nuanced adaptation across diverse clinical centers and (2) fine-tuning the global FL model to better fit each local's data. We benchmark these methods against fully centralized (pooled data) and local (site-specific) models to assess their relative performance and practicality. Our results show that standard FL methods trail both centralized and local baselines, highlighting the limitations of a uniform global model. In contrast, personalization yields a notable performance boost, with both PFL strategies surpassing all comparators. Specifically, the adaptive and fine-tuned versions of FedProx and FedAVG achieved the highest ROC-AUC scores, with FedProx reaching 0.8398 ± 0.0019 and 0.8375 ± 0.0019, and FedAVG scoring 0.8384 ± 0.0014 and 0.8370 ± 0.0016, respectively. In contrast, among the standard FL methods, FedAdam and FedYogi showed the best performance with ROC-AUC scores of 0.7919 ± 0.0031 and 0.7910 ± 0.0028. These results underscore that personalization is not a luxury but a necessity, enabling FL to reach—and even exceed—the predictive power of traditional modeling approaches. By providing concrete guidelines for implementing PFL and introducing a new, flexible architecture, this study establishes a clear path toward unlocking FL's untapped potential. Ultimately, these advances establish a clear path for more impactful, privacy-aware predictive modeling that enhances clinical decision-making and patient care in MS and beyond.
+          abstract: ""
+        - authors: Axel Faes, Yves Moreau, Liesbet Peeters
+          title: "Vertical Federated Learning with Block-Term Tensor Regression"
+          url: ""
+          book: "IEEE Transactions on Neural Networks and Learning Systems (14.25 IF)"
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          cover: /assets/images/covers/publication-journal.webp
+          pub_date: 2025
+          abstract: ""
+        - authors: Axel Faes, Liesbet Peeters, Marc Van Hulle
+          title: "Federated and Interpretable ECG Classification"
+          url: ""
+          book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          cover: /assets/images/covers/publication-journal.webp
+          pub_date: 2025
+          abstract: ""
+        - authors: Liesbet Peeters, Axel Faes, et al.
+          title: Editorial introduction ‘The use of big data and AI in MS’
+          url: ""
+          book: "Frontiers in Immunology (5.7 IF)"
+          pub_date: 2025
+          cover: /assets/images/covers/publication-journal.webp
+          abstract: ""
         - authors: Valentina Pergher*, Axel Faes*, Yide Li, Marc M. Van Hulle
           title: How stimulus type and task structure can affect ERP signatures
           pub_pre: "Submitted to "
@@ -77,23 +113,37 @@ papers-in-preparation:
           pub_date: 2024
           abstract: >-
             Objective: To develop a method for predicting clinical events using individual reference intervals (IRIs) derived from patient data. Approach: We propose a novel approach that combines individual IRIs with machine learning techniques to predict clinical events. The method is evaluated on a dataset of patient data, demonstrating its effectiveness in predicting events such as hospital readmissions and disease progression. Main results: The proposed method outperforms traditional prediction methods, achieving higher accuracy and better generalization to unseen data. Significance: This work highlights the potential of using individual IRIs for clinical event prediction, paving the way for personalized medicine and improved patient outcomes.
-        - authors: Ward Ceyssens, Axel Faes, et al.
-          title: Population-based finger movement decoding from high-density ECoG using Block-Term Tensor Regression
-          book: ""
+        - authors: Ward Ceyssens, Axel Faes
+          title: Cross Subject training for finger movement decoding with high-density ECoG
+          book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
-        - authors: Dries Cornelissen, Axel Faes, et al.
+        - authors: Dries Cornelissen, Axel Faes
           title: Block-Term Decomposition for arrhythmia detection and prediction on sinus rhythms
-          book: ""
+          book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
+          cover: /assets/images/covers/publication-journal.webp
+          pub_date: 2025
+        - authors: Meseret Assefa Kerga, Axel Faes
+          title: "Predicting Cirrhosis Patient Survival Using Machine Learning: A Data-Driven Approach"
+          book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
 journal:
     title: International Journal Papers
     papers:
+        - authors: Ashkan Pirmani, Edward De Brouwer, Adam Arany, Martijn Oldenhof, Antoine Passemiers, Axel Faes, Tomas Kalincik, Serkan Ozakbas, Riadh Gouider, Barbara Willekens, Dana Horakova, Eva Kubala Havrdova, Francesco Patti, Alexandre Prat, Alessandra Lugaresi, Valentina Tomassini, Pierre Grammond, Elisabetta Cartechini, Izanne Roos, Cavit Boz, Raed Alroughani, Maria Pia Amato, Katherine Buzzard, Jeannette Lechner-Scott, Joana Guimaraes, Claudio Solaro, Oliver Gerlach, Aysun Soysal, Jens Kuhle, Jose Luis Sanchez-Menoyo, Daniele Spitaleri, Tunde Csepany, Bart Van Wijmeersch, Radek Ampapa, Julie Prevost, Samia J. Khoury, Vincent van Pesch, Nevin John, Davide Maimone, Bianca Weinstock-Guttman, Guy Laureys, Pamela McCombe, Yolanda Blanco, Ayse Altintas, Abdullah Al-Asmi, Justin Garber, Anneke van der Walt, Helmut Butzkueven, Koen de Gans, Csilla Rozsa, Bruce Taylor, Talal Al-Harbi, Attila Sas, Cecilia Rajda, Orla Gray, Danny Decoo, William M Carroll, Allan G Kermode, Marzena Fabis-Pedrini, Deborah Mason, Angel Perez Sempere, Mihaela Simu, Neil Shuey, Bhim Singhal, Marija Cauchi, Todd A. Hardy, Sudarshini Ramanathan, Patrice Lalive, Carmen-Adella Sirbu, Stella Hughes, Tamara Castillo Trivino, Liesbet M. Peeters, and Yves Moreau
+          title: Personalized Federated Learning for Predicting Disability Progression in Multiple Sclerosis Using Real-World Routine Clinical Data
+          # pub_pre: "Submitted to "
+          # pub_post: '(Under review)'
+          cover: /assets/images/covers/publication-journal.webp
+          book: "npj Digital Medicine (15.357 IF)"
+          pub_date: 2025
+          abstract: >-
+            The fragmented nature of Real-World Data (RWD) presents significant challenges for research, particularly in low-prevalence diseases like Multiple Sclerosis (MS). Data dispersed across institutions and countries, coupled with restrictive privacy regulations, limits access to comprehensive datasets, delaying the development of predictive models and understanding of critical outcomes. Federated Learning (FL) offers a collaborative solution by enabling model training without centralizing sensitive patient data, but it often fails to address variations across data providers. Personalized Federated Learning (PFL) adapts models to these differences, improving the precision and relevance of insights. Yet, its potential to enhance predictive performance and guide clinical decisions in MS using routine clinical RWD remains largely unexplored. In this study, we evaluate standard FL alongside two personalization strategies for predicting confirmed MS disability progression over two years, using RWD from over 26,000 patients in the MSBase registry. These strategies include (1) AdaptiveDualBranchNet, a novel architecture that selectively exchanges key model parameters, enabling more nuanced adaptation across diverse clinical centers and (2) fine-tuning the global FL model to better fit each local's data. We benchmark these methods against fully centralized (pooled data) and local (site-specific) models to assess their relative performance and practicality. Our results show that standard FL methods trail both centralized and local baselines, highlighting the limitations of a uniform global model. In contrast, personalization yields a notable performance boost, with both PFL strategies surpassing all comparators. Specifically, the adaptive and fine-tuned versions of FedProx and FedAVG achieved the highest ROC-AUC scores, with FedProx reaching 0.8398 ± 0.0019 and 0.8375 ± 0.0019, and FedAVG scoring 0.8384 ± 0.0014 and 0.8370 ± 0.0016, respectively. In contrast, among the standard FL methods, FedAdam and FedYogi showed the best performance with ROC-AUC scores of 0.7919 ± 0.0031 and 0.7910 ± 0.0028. These results underscore that personalization is not a luxury but a necessity, enabling FL to reach—and even exceed—the predictive power of traditional modeling approaches. By providing concrete guidelines for implementing PFL and introducing a new, flexible architecture, this study establishes a clear path toward unlocking FL's untapped potential. Ultimately, these advances establish a clear path for more impactful, privacy-aware predictive modeling that enhances clinical decision-making and patient care in MS and beyond.
         - authors: Axel Faes, Eva Calvo Merino, Anais Van Hoylandt, Elina Keirse, Tom Theys, Marc M. Van Hulle
           title: Finger abduction trajectory prediction from high-density ECoG
-          pub_pre: "Submitted to "
-          pub_post: '(Under review)'
+          # pub_pre: "Submitted to "
+          # pub_post: '(Under review)'
           book: "Journal of Neural Engineering (5.4 IF)"
           selected: false
           pub_date: 2024
@@ -102,8 +152,8 @@ journal:
             Objective: A case study is conducted to show that not only finger flexion- but also finger abduction trajectories can be decoded from high-density electrocorticography (ECoG) recordings. Approach: Two patients, temporarily implanted with high-density ECoG grids as part of their clinical workup, performed a cued single finger flexion task, a cued sign language alphabet task and a cued finger abduction task. The extended Block-Term Tensor Regression (eBTTR) model was adopted to predict finger trajectories after being developed on simultaneous data glove/ECoG recordings. The model performance on the single finger flexion task provides a reference for comparing that on the finger abduction task. Finally, the sign language alphabet task involves realistic, complex finger movements, calling upon both finger flexions and abductions. Main results: We show that finger abduction trajectories can be decoded from ECoG recordings, with comparable precision as single finger flexion trajectories, and even when expressing sign language gestures that involve joint finger flexions and abductions. Significance: Our findings show for the first time that finger abduction trajectories can be decoded from ECoG even when part of Sign Language Alphabet gestures. 
         - authors: Axel Faes, Mariana P. Branco, Anais Van Hoylandt, Elina Keirse, Tom Theys, Nick F. Ramsey, Marc M. Van Hulle
           title: Decoding Sign Language Finger Movements from high-density ECoG using Graph-Optimized Block Term Tensor Regression
-          pub_pre: "Submitted to "
-          pub_post: '(Under review)'
+          # pub_pre: "Submitted to "
+          # pub_post: '(Under review)'
           book: "Journal of Neural Engineering (5.4 IF)"
           selected: true
           cover: /assets/images/covers/publication-journal.webp
@@ -252,11 +302,17 @@ thesis:
 abstracts:
     title: Extended Abstracts
     papers:
+      - authors: Eva Calvo Merino, Axel Faes, Marc M. Van Hulle
+        title: "High-gamma band event detection improves stability of finger trajectories decoded from ECoG-LMP activity"
+        url: "/publications/abstracts/High-gamma_band_event_detection_improves_stability_of_finger_trajectories_decoded_from_ECoG-LMP_activity.pdf"
+        cover: /assets/images/covers/publication-abstract.webp
+        pub_date: 2025
+        book: International BCI Meeting 2024
       - authors: Qiang Sun, Axel Faes, Marc M. Van Hulle
         title: "Individual and Coordinated Finger Movements Decoding from High-Density EEG and Its Implication in Hand Exoskeleton Control"
         url: "/publications/abstracts/abstract_ECNR_MVH_AF.pdf"
         cover: /assets/images/covers/publication-abstract.webp
-        pub_date: 2023
+        pub_date: 2025
         book: European Congress of NeuroRehabilitation 2023
       - authors: Eva Calvo Merino, Axel Faes, Marc M. Van Hulle
         title: "Modulation of LMPs using the gamma band increases the stability of finger trajectories decoded from ECoG"
