@@ -79,8 +79,17 @@ papers-in-preparation:
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
           abstract: ""
-        - authors: Axel Faes, Liesbet Peeters, Marc Van Hulle
+        - authors: Axel Faes, Pieter VanderVoort, Liesbet Peeters
           title: "Federated and Interpretable ECG Classification"
+          url: ""
+          book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          cover: /assets/images/covers/publication-journal.webp
+          pub_date: 2025
+          abstract: ""
+        - authors: Axel Faes, Pieter VanderVoort, Liesbet Peeters
+          title: "Federated Block-Term Tensor Regression for ECG Classification"
           url: ""
           book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
           pub_pre: "Submitted to "
@@ -113,6 +122,12 @@ papers-in-preparation:
           pub_date: 2024
           abstract: >-
             Objective: To develop a method for predicting clinical events using individual reference intervals (IRIs) derived from patient data. Approach: We propose a novel approach that combines individual IRIs with machine learning techniques to predict clinical events. The method is evaluated on a dataset of patient data, demonstrating its effectiveness in predicting events such as hospital readmissions and disease progression. Main results: The proposed method outperforms traditional prediction methods, achieving higher accuracy and better generalization to unseen data. Significance: This work highlights the potential of using individual IRIs for clinical event prediction, paving the way for personalized medicine and improved patient outcomes.
+        - authors: Dongho Chun, Axel Faes
+          title: "Effects on clustering algorithms based on classification of Atrial Fibrillation based on ECG data"
+          pub_last: (senior author)
+          book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
+          cover: /assets/images/covers/publication-journal.webp
+          pub_date: 2025
         - authors: Ward Ceyssens, Axel Faes
           title: Cross Subject training for finger movement decoding with high-density ECoG
           pub_last: (senior author)
