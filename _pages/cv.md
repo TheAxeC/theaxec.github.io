@@ -209,7 +209,6 @@ permalink: /cv
         {% include widgets/cv_item.html i=i
             title=site.data.publications.other-publications.title
             items=site.data.publications.other-publications.papers %}
-        
     </section>
     <footer>
         <span class="footer__date">{{site.data.website.description.subtitle}}</span>
@@ -241,7 +240,7 @@ permalink: /cv
         </div>
         {% assign i = 1 %}
         {% include widgets/cv_item.html i=i
-            title=site.data.data.students.title 
+            title=site.data.data.students.title
             items=site.data.data.students.content %}
     </section>
     <footer>
@@ -260,7 +259,7 @@ permalink: /cv
             <span class="section__heading-underline"></span>
         </div>
         {% include widgets/cv_item.html i=0
-            title=site.data.data.news.title 
+            title=site.data.data.news.title
             items=site.data.data.news.content %}
     </section>
     <footer>
