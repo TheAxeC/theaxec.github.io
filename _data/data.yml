@@ -17,7 +17,7 @@ personal:
 experience:
   title: Work & Research Experience
   content:
-    - title: "Postdoctoral Researcher: Scientific Coordinator and Artificial Intelligence"
+    - title: "Postdoctoral Researcher: Artificial Intelligence in Healthcare"
       location: UHasselt
       duration: January 2024 - Current
       min: true
@@ -84,9 +84,17 @@ experience:
 academic:
   title: Teaching & Academic Activities
   content:
+    - title: Bio-informatica (3740) Co-lecturer (co-titularis)
+      location: "UHasselt"
+      duration: Sept. 2025 - Sept. 2026
+      cover: /assets/images/covers/about-representative.webp
     - title: BKO (Basis Kwalificatie Onderwijs) traject - Onderwijsprofessionalisering
       duration: 2025
       location: UHasselt
+      cover: /assets/images/covers/about-representative.webp
+    - title: Data Science in Healthcare - Data Science in de gezondheidszorg (4747) Lecturer (lid onderwijsteam)
+      location: "UHasselt"
+      duration: Sept. 2025 - Dec. 2025
       cover: /assets/images/covers/about-representative.webp
     - title: Advanced Topics in Data Science (4569 & 4585) Lecturer Federted Learning (lid onderwijsteam)
       location: "UHasselt"
@@ -94,7 +102,7 @@ academic:
       cover: /assets/images/covers/about-representative.webp
     - title: Bio-informatica (3740) Co-lecturer (co-titularis)
       location: "UHasselt"
-      duration: June 2024 - Sept. 2025
+      duration: Sept. 2024 - Sept. 2025
       cover: /assets/images/covers/about-representative.webp
     - title: Guest Associate Editor Use of Big Data and Artificial Intelligence in Multiple Sclerosis
       location: "Frontiers in Immunology"
