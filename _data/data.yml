@@ -14,6 +14,16 @@ personal:
   footer: Curriculum Vitae
   secondary-title: Supervised students, talks and other media
 
+references:
+  title: References 
+  content:
+    - name: Liesbet M. Peeters
+      email: liesbet.peeters[at]uhasselt.be
+      reason: Associate Professor (Postdoc advisor) Biomedical Data Sciences
+    - name: Marc Van Hulle
+      email: marc.vanhulle[at]kuleuven.be
+      reason: Full Professor (PhD advisor) Laboratory for Neuro- and Psychophysiology 
+
 experience:
   title: Work & Research Experience
   content:
@@ -350,16 +360,6 @@ projects:
         Financiering: Fonds Wetenschappelijk Onderzoek (FWO), België (aangevraagd, resultaat in September 2025)
         Bedrag: ca. €1.150.000 (inclusief loon en werkingsmiddelen voor 4 jaar)
       cover: /assets/images/covers/about-project.webp
-    - title: "Federated Learning for Population Health Management"
-      url: ""
-      duration: 2025 - Current
-      role: Co-promotor
-      min: true
-      about: |
-        FWO SBO (Strategisch Basis Onderzoek) project (2025)
-        Project: "Federated Learning for Population Health Management"
-        Financiering: Fonds Wetenschappelijk Onderzoek (FWO), België (in voorbereiding)
-      cover: /assets/images/covers/about-project.webp
     - title: "Use Case Real World Evidence – Flanders AI Research Program"
       url: ""
       duration: 2024 - Current
@@ -380,23 +380,23 @@ projects:
         Written in C (and since 2023, in C++14). High performance (on par with Luajit 2.1 -joff).
       cover: /assets/images/covers/about-project.webp
 
-    - title: Reinforcement Learning Agent in Google Deepmind's StarCraft II Framework
-      url: ""
-      duration: Feb. 2018 - Jul. 2018
-      role: Developer
-      min: true
-      about: |
-          Implement reinforcement learning algorithms in PySC2 utilising the KU Leuven supercomputer.
-      cover: /assets/images/covers/about-project.webp
+    # - title: Reinforcement Learning Agent in Google Deepmind's StarCraft II Framework
+    #   url: ""
+    #   duration: Feb. 2018 - Jul. 2018
+    #   role: Developer
+    #   min: true
+    #   about: |
+    #       Implement reinforcement learning algorithms in PySC2 utilising the KU Leuven supercomputer.
+    #   cover: /assets/images/covers/about-project.webp
 
-    - title: IoT-platform with pluggable sensors
-      url: ""
-      duration: Feb. 2017 - Jul. 2017
-      role: Developer
-      min: true
-      about: |
-        Showcase large-scale use of Internet of Things sensors
-      cover: /assets/images/covers/about-project.webp
+    # - title: IoT-platform with pluggable sensors
+    #   url: ""
+    #   duration: Feb. 2017 - Jul. 2017
+    #   role: Developer
+    #   min: true
+    #   about: |
+    #     Showcase large-scale use of Internet of Things sensors
+    #   cover: /assets/images/covers/about-project.webp
 
     - title: ICAL parser for KU Leuven schedules
       url: https://github.com/TheAxeC/ical-kuleuven
@@ -407,15 +407,15 @@ projects:
         An nodejs application to create an iCalender file for courses at KU Leuven. (>1000 active users)
       cover: /assets/images/covers/about-project.webp
 
-    - title: "Search and Recommendation System"
-      url: ""
-      duration: Feb. 2016 - Jul. 2016
-      role: Team Member
-      min: true
-      about: |
-        A search and recommendation system for VoD (Video on Demand) for Androme. 
-        In production in the Nebula project.
-      cover: /assets/images/covers/about-project.webp
+    # - title: "Search and Recommendation System"
+    #   url: ""
+    #   duration: Feb. 2016 - Jul. 2016
+    #   role: Team Member
+    #   min: true
+    #   about: |
+    #     A search and recommendation system for VoD (Video on Demand) for Androme. 
+    #     In production in the Nebula project.
+    #   cover: /assets/images/covers/about-project.webp
 
     - title: "Household Survival"
       url: https://www.youtube.com/watch?v=Q4_rK2upGEY
@@ -427,14 +427,14 @@ projects:
         Combine the virtual world and reality using augmented reality
       cover: /assets/images/covers/about-project.webp
 
-    - title: "Visual Programming IDE"
-      url: https://github.com/TheAxeC/AxeSki
-      duration: Feb. 2015 - Jul. 2015
-      role: Developer
-      min: true
-      about: |
-        A Visual programming IDE (Java)
-      cover: /assets/images/covers/about-project.webp
+    # - title: "Visual Programming IDE"
+    #   url: https://github.com/TheAxeC/AxeSki
+    #   duration: Feb. 2015 - Jul. 2015
+    #   role: Developer
+    #   min: true
+    #   about: |
+    #     A Visual programming IDE (Java)
+    #   cover: /assets/images/covers/about-project.webp
 
 awards:
   title: Honors & Awards

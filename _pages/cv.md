@@ -30,6 +30,19 @@ permalink: /cv
     </header>
     <section class="experience">
         <div class="section__heading">
+            <h1>{{site.data.data.references.title}}</h1>
+            <span class="section__heading-underline"></span>
+        </div>
+         {% for item in site.data.data.references.content %}
+        <div class="section__item">
+            <div>
+                <h4 class="education__institution section__subheading">{{item.name}}</h4>
+                <h4 class="education__institution section__subheading_second">{{item.email}}</h4>
+                <h4 class="section__location">{{ item.reason }}</h4>
+            </div>
+        </div>
+        {% endfor %}
+        <div class="section__heading">
             <h1>{{site.data.data.experience.title}}</h1>
             <span class="section__heading-underline"></span>
         </div>

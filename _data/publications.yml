@@ -31,8 +31,8 @@ papers-in-preparation:
           title: "Block-Term Tensor Decomposition for Signal Reconstruction"
           url: ""
           pub_pre: "Submitted to "
-          pub_post: '(Under review)'
-          book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
+          pub_post: '(in preparation)'
+          # book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
           abstract: ""
@@ -148,8 +148,6 @@ journal:
           abstract: "As health data volume and the sophistication of artificial intelligence (AI) tools grow, their potential to transform the management of complex neuroimmunological conditions like multiple sclerosis (MS) has become increasingly evident (1). MS, a chronic immune-mediated inflammatory disorder of the central nervous system, presents a unique challenge in the health sector due to its multifactorial nature and variable progression patterns. Each patient’s journey is marked by distinct symptom trajectories and responses to treatment, demanding personalised approaches in diagnosis, prognosis, and therapeutic interventions. (2, 3). This Special Topic aims to address the clinical complexity of MS by leveraging data driven insights and innovative health initiatives. The overarching goal is to present the current challenges in MS research and explore recent advances and future trends that can significantly impact patient care. Through a Research Topic of reviews, perspectives, and original research articles, we explore how advanced data techniques and innovative health initiatives are shaping the future of MS research and care."
         - authors: Ashkan Pirmani, Edward De Brouwer, Adam Arany, Martijn Oldenhof, Antoine Passemiers, Axel Faes, Tomas Kalincik, Serkan Ozakbas, Riadh Gouider, Barbara Willekens, Dana Horakova, Eva Kubala Havrdova, Francesco Patti, Alexandre Prat, Alessandra Lugaresi, Valentina Tomassini, Pierre Grammond, Elisabetta Cartechini, Izanne Roos, Cavit Boz, Raed Alroughani, Maria Pia Amato, Katherine Buzzard, Jeannette Lechner-Scott, Joana Guimaraes, Claudio Solaro, Oliver Gerlach, Aysun Soysal, Jens Kuhle, Jose Luis Sanchez-Menoyo, Daniele Spitaleri, Tunde Csepany, Bart Van Wijmeersch, Radek Ampapa, Julie Prevost, Samia J. Khoury, Vincent van Pesch, Nevin John, Davide Maimone, Bianca Weinstock-Guttman, Guy Laureys, Pamela McCombe, Yolanda Blanco, Ayse Altintas, Abdullah Al-Asmi, Justin Garber, Anneke van der Walt, Helmut Butzkueven, Koen de Gans, Csilla Rozsa, Bruce Taylor, Talal Al-Harbi, Attila Sas, Cecilia Rajda, Orla Gray, Danny Decoo, William M Carroll, Allan G Kermode, Marzena Fabis-Pedrini, Deborah Mason, Angel Perez Sempere, Mihaela Simu, Neil Shuey, Bhim Singhal, Marija Cauchi, Todd A. Hardy, Sudarshini Ramanathan, Patrice Lalive, Carmen-Adella Sirbu, Stella Hughes, Tamara Castillo Trivino, Liesbet M. Peeters, and Yves Moreau
           title: Personalized Federated Learning for Predicting Disability Progression in Multiple Sclerosis Using Real-World Routine Clinical Data
-          # pub_pre: "Submitted to "
-          # pub_post: '(Under review)'
           cover: /assets/images/covers/publication-journal.webp
           book: "npj Digital Medicine (15.357 IF)"
           pub_date: 2025
@@ -239,18 +237,15 @@ conference:
     title: Conference Papers
     papers:
         - authors: Axel Faes, Ashkan Pirmani, Yves Moreau, Liesbet Peeters
-          title: Applying Federated Learning to Block-Term Tensor Regression for Heart Disease Prediction
+          title: Applying Federated Learning to Block-Term Tensor Regression for Decentralised Data Analysis of Biomedical Data
           url: ""
-          book: "Conference on Federated Learning Technologies and Applications"
-          pub_pre: "Submitted to "
-          pub_post: '(Under review)'
+          book: "IEEE Conference on Federated Learning Technologies and Applications (IEEE FLTA 2025)"
           pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
-          pub_date: 2024
+          pub_date: 2025
           selected: true
           order: "first"
           cover: /assets/images/covers/publication-journal.webp
           hide: false
-          # cover: "/assets/img/publications/journal/journal-1.jpg"
           abstract: >-
             Block-Term Tensor Regression (BTTR) has proven to be a powerful tool for modeling complex, high-dimensional data by leveraging multilinear relationships, making it particularly well-suited for applications in healthcare and neuroscience. However, traditional implementations of BTTR rely on centralized datasets, which pose significant privacy risks and hinder collaboration across institutions. To address these challenges, we introduce Federated Block-Term Tensor Regression (FBTTR), an extension of BTTR designed for federated learning scenarios. FBTTR enables decentralized data analysis, allowing institutions to collaboratively build predictive models while preserving data privacy and complying with regulations.
 
