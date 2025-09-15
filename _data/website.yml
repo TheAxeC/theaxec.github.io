@@ -48,10 +48,9 @@ description:
   content: |
       - Postdoctoral Researcher (`Machine Learning`) @ Biomedical Data Sciences, UHasselt 
         - Investigating the use of AI in `real-world evidence` healthcare studies (FAIR UC RWE).
-        - Federated Enhanced Regression and Medical Analytics with Tensors (FERMAT).
-          - Creating a `federated learning` algorithm for heart disease prediction.
-          - Developing machine learning models for `brain-computer interfaces`.
-        - Side project: working on `algebraic type and effect` systems for functional programming.
+        - Applying `federated learning` for heart disease prediction (atrial fibrillation risk within 6 to 24 months).
+        - Advancing `Population Health Management` with federated learning for better disease insights, risk prediction, and health equity.
+        - Advancing `Brain-Computer Interfaces` by decoding imagined finger movements from ECoG with `machine learning and tensor regression models`.
       - Scientific Coordinator of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE)
       - **Professional Affiliations**:
         - Biomedical Research Institute (BIOMED) @ UHasselt
@@ -89,8 +88,8 @@ description:
   education:  |
       **Vision for Educational Impact**
       I envision a future where education in `biomedical data science` and `AI` is accessible, engaging, and impactful. I aim to:
-      - **Inspire Future Researchers**: By mentoring students and conducting educational workshops,  have successfully supervised over a dozen Master Thesis students in the field of `AI`, `Statistics & Data Science`, `Computer Science` and `Biomedical Science`.
-      - **Promote Interdisciplinary Learning**: I am currently working to obtain my `BKO` (Basis Kwalificatie Onderwijs) from the UHasselt and aim to foster a learning environment that encourages cross-disciplinary collaborations. I teach `Brain-Computer Interfaces`, `Federated Learning`, and `Bioinformatics`.
+      - **Inspire Future Researchers**: By mentoring students and conducting educational workshops, and have successfully supervised over a dozen Master Thesis students in the field of `AI`, `Statistics & Data Science`, `Computer Science` and `Biomedical Science`.
+      - **Promote Interdisciplinary Learning**: I aim to foster a learning environment that encourages cross-disciplinary collaborations. I teach `Brain-Computer Interfaces`, `Federated Learning`, `Data Science in Healthcare` and `Bioinformatics`.
       - **Develop Educational Resources**: Through my publications and `open-source projects` I plan to provide comprehensive resources that make advanced topics in AI and biomedical data science more accessible to learners worldwide.
       
   mission_url: assets/images/biomed.webp

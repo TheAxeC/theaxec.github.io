@@ -8,7 +8,6 @@ personal:
     - Postdoctoral Researcher
     - Data Scientist
     - Computational Neuroscientist
-    # - Scientific Coordinator
     - Computer Engineer
   portrait_url: /assets/images/photos/portrait.jpeg
   footer: Curriculum Vitae
@@ -133,6 +132,10 @@ academic:
 students:
     title: Students
     content:
+        - title: Brecht Heeren
+          location: Federated Machine Learning for Health Data
+          duration: Master of Science in Computer Science (2025-2026)
+          cover: /assets/images/covers/about-degree.webp
         - title: Denzell Mgbokwere
           location: Optimalisatie en Typechecking in Single-Pass Compilers - een casestudy met de Wren Programming Language
           duration: Master of Science in Computer Science (2025-2026)
@@ -158,15 +161,15 @@ students:
           duration: Master Statistics & Data Science (2024-2025)
           cover: /assets/images/covers/about-degree.webp
         - title: Dongho Chun
-          location: (Federated) Machine Learning for Health Data
+          location: Clustering with Cardiovascular Health Data
           duration: Master of Science in Computer Science (2024-2025)
           cover: /assets/images/covers/about-degree.webp
         - title: Dries Cornelissen
-          location: Federated Learning for Regression modelling with Cardiovascular Health Data
+          location: BTTR for arrhythmia detection/prediction on sinus rhythms
           duration: Master of Science in Computer Science (2024-2025)
           cover: /assets/images/covers/about-degree.webp
         - title: Ward Ceyssens
-          location: Brain-Computer Interfacing - population-based finger movement decoding
+          location: Cross Subject training for finger movement decoding with high-density ECoG
           duration: Master of Science in Computer Science (2024-2025)
           cover: /assets/images/covers/about-degree.webp
         - title: Qiang Sun
@@ -347,7 +350,7 @@ education:
       cover: /assets/images/covers/about-degree.webp
 
 projects:
-  title: Projects
+  title: Grants & (open-source) Projects
   content:
     - title: "Federated Learning for Population Health Management"
       url: ""
@@ -355,10 +358,10 @@ projects:
       role: Co-promotor
       min: true
       about: |
-        FWO Senior Onderzoeksproject (2025) 
+        FWO Senior Research Project (2025) 
         Project: "Federated Learning for Population Health Management"
-        Financiering: Fonds Wetenschappelijk Onderzoek (FWO), België (aangevraagd, resultaat in September 2025)
-        Bedrag: ca. €1.150.000 (inclusief loon en werkingsmiddelen voor 4 jaar)
+        Funding: Research Foundation Flanders (FWO), Belgium (applied, result expected in September 2025)
+        Amount: approx. €1,150,000 (including salaries and operational costs for 4 years) 
       cover: /assets/images/covers/about-project.webp
     - title: "Use Case Real World Evidence – Flanders AI Research Program"
       url: ""
@@ -366,10 +369,22 @@ projects:
       role: Scientific Coordinator
       min: true
       about: |
-        Financiering: Vlaamse overheid (FAIR-programma)
-        Duur: 2024–2028
-        Rol: Wetenschappelijk coördinator (UHasselt) en inhoudelijk AI-lead
-        Team: circa 10 onderzoekers verdeeld over 4 instellingen
+        Funding: Flemish government (FAIR program)
+        Duration: 2024–2028
+        Role: Scientific coordinator (UHasselt) and AI content lead
+        Team: approx. 10 researchers across 4 institutions
+      cover: /assets/images/covers/about-project.webp
+    - title: "ELIXIR Belgium – Roadmap 2023–2025"
+      url: ""
+      duration: 2023 - 2025
+      role: Consortium Partner
+      min: true
+      about: |
+        Funding: FWO (approx. €11M in total, with contributions from BELSPO and FNRS)  
+        Duration: 2023–2025  
+        Role: Consortium partner (UHasselt), focusing on health data re-use and federated analyses  
+        Collaborations: KU Leuven (Yves Moreau), University of Antwerp (Geert Vandeweyer), VIB (Frederik Coppens)  
+        Context: ELIXIR Belgium is part of ELIXIR Europe, an ESFRI initiative funded by the European Commission and national agencies
       cover: /assets/images/covers/about-project.webp
     - title: "Cardinal: scripting language"
       url: https://github.com/TheAxeC/Cardinal
@@ -488,8 +503,13 @@ awards:
       cover: /assets/images/covers/about-award.webp
 
 extracurricular:
-  title: Extracurricular Activities
+  title: Professional Development Activities # Extracurricular Activities / Outreach & Service
   content:
+    - title: Mathematics & Natural Sciences Tutor
+      location: Freelance
+      duration: Sept. 2015 – 2024
+      about: Supporting high school and university students in mastering mathematics (and other natural sciences) through personalized tutoring
+      cover: /assets/images/covers/about-coach.webp
     - title: Coach
       location: DjangoGirls
       duration: Mar. 2018 - 2024
