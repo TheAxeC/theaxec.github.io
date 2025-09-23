@@ -117,6 +117,10 @@ academic:
       location: "Frontiers in Immunology"
       duration: "2024 - 2025"
       cover: /assets/images/covers/about-representative.webp
+    - title: Developer of Cardinal - Educational & Research platform for MSc theses in PL/compilers
+      location: "Open-source project (GitHub)"
+      duration: "2015 - present"
+      cover: /assets/images/covers/about-representative.webp
     - title: VLAIO Evaluator for BAEKELAND SPIN OFF MANDATES
       location: "VLAIO"
       duration: "2025"
@@ -386,13 +390,17 @@ projects:
         Collaborations: KU Leuven (Yves Moreau), University of Antwerp (Geert Vandeweyer), VIB (Frederik Coppens)  
         Context: ELIXIR Belgium is part of ELIXIR Europe, an ESFRI initiative funded by the European Commission and national agencies
       cover: /assets/images/covers/about-project.webp
-    - title: "Cardinal: scripting language"
+    - title: "Cardinal: Educational & Research platform for MSc theses in PL/compilers"
       url: https://github.com/TheAxeC/Cardinal
       duration: Jan. 2015 - Current
       role: Lead Developer
       min: true
       about: |
-        Written in C (and since 2023, in C++14). High performance (on par with Luajit 2.1 -joff).
+        Cardinal is a C++20 reimplementation of the Wren VM, designed for clarity,
+        research, and education. It provides a small, well-documented virtual machine
+        and runtime for exploring compilers, concurrency (fibers), and language embedding.
+        The project serves as a platform for student theses and for prototyping new
+        programming language ideas.
       cover: /assets/images/covers/about-project.webp
 
     # - title: Reinforcement Learning Agent in Google Deepmind's StarCraft II Framework
