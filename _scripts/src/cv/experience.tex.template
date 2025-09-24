@@ -4,7 +4,7 @@
 {%
   for i in data['experience']['content']:
     if ('min' in i) and (not i['min']) and is_minimal(): continue
-    emit_tex('\cventry')
+    emit_tex('\\cventry')
     emit_braces(i['location'])
     emit_braces(i['title'])
     emit_braces('')
@@ -13,9 +13,9 @@
     emit_tex('\\begin{cvitems}')
     for item in (i['about'].split('\n')):
       if not item: continue
-      emit_tex('\item ')
+      emit_tex('\\item ')
       emit(item)
-    emit_tex('\end{cvitems}')
+    emit_tex('\\end{cvitems}')
     emit_tex('\n}')
     emit('\n\n')
 %}

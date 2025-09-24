@@ -16,16 +16,19 @@ for type in types:
   if not 'papers' in publications[type]: continue
   if len(publications[type]['papers']) <= 0: continue
 
-  emit_tex('\cvsubsection')
+  emit_tex('\\cvsubsection')
   emit_braces(publications[type]['title'])
 
   emit_tex('\\begin{cvpapers}')
   emit('\n')
   for i in publications[type]['papers']:
     if 'hide' in i and i['hide'] == True: continue
-    emit_tex('\cvpaper ')
+    emit_tex('\\cvpaper ')
     emit('\n')
-    emit_braces(i['authors'])
+    if "*" in i['authors']:
+        emit_tex('{'+i['authors'].replace("Axel Faes", '\\textbf{Axel Faes}')+' (* co-first author)}')
+    else:
+        emit_tex('{'+i['authors'].replace("Axel Faes", '\\textbf{Axel Faes}')+'}')
     emit('\n')
 
     if 'url' in i and i['url'] != None:
@@ -52,22 +55,44 @@ for type in types:
     emit('\n')
     nb = nb + 1
   emit('\n')
-  emit_tex('\end{cvpapers}')
+  emit_tex('\\end{cvpapers}')
+%}
 
-# type = 'news'
-# emit_tex('\cvsubsection')
-# emit_braces(publications[type]['title'])
+\cvsection{ {% emit(data['personal']['secondary-title']) %} }
 
-# emit_tex('\\begin{cvnews}')
-# for i in publications[type]['papers']:
-#   emit_tex('\cvnew ')
+{%
 
-#   emit_braces(i['url'])
+types = [ 
+    'students',
+    'news'
+]
+for type in types:
+    nb = 1
+    emit_tex('\\cvsubsection')
+    emit_braces(data[type]['title'])
 
-#   emit_braces(i['title'])
+    emit_tex('\\begin{cvnews}')
+    emit('\n')
+    for i in data[type]['content']:
+        emit_tex('\\cvnew ')
+        emit('\n')
+        emit_braces(i['title'])
+        emit('\n')
 
-#   emit_braces(i['from'])
+        emit_braces('')
+        emit('\n')
 
-#   emit_braces(to_specific_date(i['date']))
-# emit_tex('\end{cvnews}')
+        emit_braces(i['location'])
+        emit('\n')
+
+        emit_braces(i['duration'])
+        emit('\n')
+
+        emit_braces("[" + str(nb) + "]")
+        emit('\n')
+        emit('\n')
+        nb = nb + 1
+    emit('\n')
+    emit_tex('\\end{cvnews}')
+
 %}

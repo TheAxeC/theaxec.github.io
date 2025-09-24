@@ -21,6 +21,7 @@
 \documentclass[11pt, a4paper]{awesome-cv}
 
 \usepackage{xcolor}
+\usepackage{etoolbox}
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -54,14 +55,23 @@
 \photo[circle,edge,left]{{% emit(data['personal']['photo_loc']+data['personal']['portrait_url']) %}}
 
 \name{{% emit(data['personal']['first-name']) %}}{{% emit(data['personal']['last-name']) %}}
-\position{{% emit(data['personal']['background']) %}{\enskip\cdotp\enskip}{% emit(data['personal']['expert']) %}{\enskip\cdotp\enskip}{% emit(data['personal']['ai']) %}}
+\position{
+{% 
+nb = len(data['personal']['titles'])
+for title in data['personal']['titles']:
+  emit(title)
+  nb = nb - 1
+  if nb > 0:
+    emit_tex('{\\enskip\\cdotp\\enskip}')
+%}
+}
 
-\email{{% emit(data['personal']['links']['email']) %}}
-\googlescholar{{% emit(data['personal']['links']['googlescholar']) %}}{Scholar}
-\linkedin{{% emit(data['personal']['links']['linkedin']) %}}
-\github{{% emit(data['personal']['links']['github']) %}}
-\homepage{{% emit(data['personal']['links']['website']) %}}
-\orcid{{% emit(data['personal']['links']['orcid']) %}}
+\email{{% emit(website['references']['content'][0]['content']) %}}
+\googlescholar{{% emit(website['references']['content'][6]['content']) %}}{Scholar}
+\linkedin{{% emit(website['references']['content'][4]['content']) %}}
+\github{{% emit(website['references']['content'][3]['content']) %}}
+\homepage{{% emit(website['references']['content'][2]['content']) %}}
+\orcid{{% emit(website['references']['content'][5]['content']) %}}
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -77,12 +87,33 @@
   { {% emit(data['personal']['first-name']+" "+data['personal']['last-name']) %}~~~·~~~Curriculum Vitae}
   {} % \thepage
  
+\cvsection{{% emit(data['references']['title']) %}}
+\begin{cvoneliners}
+{%
+  for i in (data['references']['content']):
+    emit_tex('\\cvoneliner ')
+    emit_braces(i['name'])
+    emit_braces(i['email'])
+    emit_braces(i['reason'])
+%}
+\end{cvoneliners}
 \input{cv/experience.tex}
+\cvsection{{% emit(data['academic']['title']) %}}
+\begin{cvoneliners}
+{%
+  for i in (data['academic']['content']):
+    emit_tex('\\cvoneliner ')
+    emit_braces(i['title'])
+    emit_braces(i['location'])
+    emit_braces(i['duration'])
+%}
+\end{cvoneliners}
 \input{cv/education.tex}
 \input{cv/projects.tex}
 \input{cv/honors.tex}
 \input{cv/extracurricular.tex}
-{% check_minimal("\input{cv/publications.tex}") %}
+\newpage
+{% check_minimal("\\input{cv/publications.tex}") %}
 
 %-------------------------------------------------------------------------------
 \end{document}

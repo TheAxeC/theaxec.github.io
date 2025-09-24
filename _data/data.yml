@@ -1,9 +1,6 @@
 personal:
   first-name: Axel
   last-name: Faes
-  background: Machine Learning Engineer
-  expert: Postdoctoral Researcher
-  ai: Scientific Coordinator
   titles:
     - Postdoctoral Researcher
     - Data Scientist
@@ -297,7 +294,7 @@ education:
   title: Educational background
   content:
     - title: Flemish Sign Language course
-      location: Flemish Sign Language Centre (Vlaams Gebarentaal Centrum)
+      location: Flemish Sign Language Centre
       duration: Sep. 2022 - May 2024
       min: true
       about: |
@@ -466,14 +463,15 @@ projects:
     #     In production in the Nebula project.
     #   cover: /assets/images/covers/about-project.webp
 
-    - title: "Household Survival"
+    - title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons (Unity, Optitrack Motion Capture)"
       url: https://www.youtube.com/watch?v=Q4_rK2upGEY
       duration: Sep. 2015 - Dec. 2015
       role: Researcher
       min: true
       about: |
-        A tower-defense game written in Unity utilising Optitrack motion capture. 
-        Combine the virtual world and reality using augmented reality
+        Developed a room-scale AR game using everyday objects as controllers (broom, fan, vacuum, mousetrap). 
+        Demonstrated immersive physical-virtual interactions. 
+        Still used in university courses as a teaching example.
       cover: /assets/images/covers/about-project.webp
 
     # - title: "Visual Programming IDE"

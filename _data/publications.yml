@@ -1,6 +1,6 @@
 title: Publications
 papers-in-preparation:
-    title: Papers in Preparation
+    title: Papers in Review
     papers:
         # - authors: Axel Faes
         #   title: Algebraic Subtyping for multishot algebraic effects
@@ -382,9 +382,15 @@ abstracts:
       - authors: Kashyap Todi, Donald Degraen, Brent Berghmans, Axel Faes, Matthijs Kaminski, Kris Luyten
         pub_date: 2016
         cover: /assets/images/covers/publication-abstract.webp
+        title: "Purpose-centric appropriation of everyday objects as game controllers."
+        url: "/publications/abstracts/purpose-centric-sgc.pdf"
+        book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Student Game Competition, pp. 2744-2750"
+      - authors: Brent Berghmans*, Axel Faes*, Matthijs Kaminski*, Kashyap Todi 
+        pub_date: 2016
+        cover: /assets/images/covers/publication-abstract.webp
         title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons"
         url: "/publications/abstracts/purpose-centric-sgc.pdf"
-        book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Student Game Competition"
+        book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Student Game Competition, pp. 168-171"
 posters:
     title: Posters
     papers:

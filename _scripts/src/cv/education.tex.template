@@ -6,7 +6,7 @@
     if ('min' in i) and (not i['min']) and is_minimal(): continue
     grade = ''
     if ('grade' in i): grade = ' (' + i['grade'] + ')'
-    emit_tex('\cventry')
+    emit_tex('\\cventry')
     emit_braces(i['location'])
     emit_braces(i['title']) # + grade)
     emit_braces('')
@@ -15,10 +15,10 @@
     emit_tex('\\begin{cvitems}')
     for item in (i['about'].split('\n')):
       if not item: continue
-      emit_tex('\item ')
+      emit_tex('\\item ')
       emit(item)
       emit_tex('\n')
-    emit_tex('\end{cvitems}')
+    emit_tex('\\end{cvitems}')
     emit_tex('\n}')
     emit('\n\n')
 %}

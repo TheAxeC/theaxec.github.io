@@ -1,9 +1,11 @@
+import argparse
 import re
 import os
 import shutil
 import yaml
 import errno
 import datetime
+import subprocess
 
 # TEMPLITE : http://code.activestate.com/recipes/496702/
 class Template():
@@ -16,12 +18,11 @@ class Template():
         for index, token in enumerate(self.delimiter.split(text)):
             if index % 2 == 0:
                 # plain string
-                if token:
-                    tokens.append((False, token.replace('%\}', '%}').replace('{\%', '{%')))
+                if token: tokens.append((False, token.replace('%\\}', '%}').replace('{\\%', '{%')))
             else:
                 # code block
                 # find out the indentation
-                lines = token.replace('{\%', '{%').replace('%\}', '%}').splitlines()
+                lines = token.replace('{\\%', '{%').replace('%\\}', '%}').splitlines()
                 indent = min([len(l) - len(l.lstrip()) for l in lines if l.strip()])
                 realigned = '\n'.join(l[indent:] for l in lines)
                 tokens.append((True, compile(realigned, '<tempalte> %s' % realigned[:20], 'exec')))
@@ -102,7 +103,7 @@ class Template():
         return ''.join(result)
 
 class Generate:
-    def __init__(self, src, dst, data_src, minimal, extension, main, latex):
+    def __init__(self, src, dst, data_src, minimal, extension, main, latex, quiet=False):
         self.src = src
         self.dst = dst
         self.data_src = data_src
@@ -110,6 +111,7 @@ class Generate:
         self.main = main
         self.latex = latex
         self.minimal = minimal
+        self.quiet = quiet
 
     def parseTemplate(self, filename):
         with open(filename) as stream:
@@ -172,23 +174,72 @@ class Generate:
     def compileLatex(self):
         savedPath = os.getcwd()
         os.chdir(self.dst)
-        print(self.latex + " " + self.main + " -output-directory=\"" + savedPath + "\"")
-        os.system(self.latex + " " + self.main + " -output-directory=\"" + savedPath + "\"")
-        if os.path.isfile(self.main.replace('tex', 'aux')): os.remove(self.main.replace('tex', 'aux'))
-        if os.path.isfile(self.main.replace('tex', 'log')): os.remove(self.main.replace('tex', 'log'))
-        if os.path.isfile(self.main.replace('tex', 'out')): os.remove(self.main.replace('tex', 'out'))
-        if os.path.isfile(self.main.replace('tex', 'fls')): os.remove(self.main.replace('tex', 'fls'))
-        if os.path.isfile(self.main.replace('tex', 'fdb_latexmk')): os.remove(self.main.replace('tex', 'fdb_latexmk'))
+        cmd = [self.latex, self.main, f"-output-directory={savedPath}"]
+        print("Running:", " ".join([self.latex, self.main]))
+        try:
+            if self.quiet:
+                # Suppress normal logs, keep errors visible
+                subprocess.run(cmd, stdout=subprocess.DEVNULL)
+            else:
+                subprocess.run(cmd)
+        except FileNotFoundError:
+            print(f"Error: {self.latex} not found in PATH")
+        # clean auxiliary files
+        for ext in ["aux", "log", "out", "fls", "fdb_latexmk"]:
+            f = self.main.replace("tex", ext)
+            if os.path.isfile(f): os.remove(f)
         os.chdir(savedPath)
+    
+    def savePDF(self):
+        try:
+            shutil.copy(self.dst + "cv.pdf", "../cv.pdf")
+        # eg. src and dest are the same file
+        except shutil.Error as e:
+            print('Error: %s' % e)
+        # eg. source or destination doesn't exist
+        except IOError as e:
+            print('Error: %s' % e.strerror)
 
     def run(self):
+        self.generate()
+        self.compileLatex()
+    
+    def generate(self):
         self.copyFiles()
         self.computeContext()
         self.retrieveTemplates()
-        self.compileLatex()
 
 # main function
 def main():
+    parser = argparse.ArgumentParser(
+        prog="script.py",
+        description=(
+            "This tool generates LaTeX files from templates and data, "
+            "and can optionally compile them using LaTeX."
+        ),
+        epilog=(
+            "Examples:\n"
+            "  python script.py --all\n"
+            "  python script.py --templates\n"
+            "  python script.py --compile\n"
+            "  python script.py --all --minimal\n"
+            ""
+            "Running:\n"
+            "  python script.py --save --quiet\n"
+            "Will run the entire pipeline and save the resulting\n file to the home folder"
+        ),
+        formatter_class=argparse.RawTextHelpFormatter,
+    )
+
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("--all", action="store_true", help="Run full pipeline (default): copy files, parse data, generate templates, and compile LaTeX.")
+    group.add_argument("--templates", action="store_true", help="Only generate templates: copy files, parse data, and render templates (no compilation).")
+    group.add_argument("--compile", action="store_true", help="Only compile LaTeX: assumes templates are already generated.")
+    parser.add_argument("--minimal", action="store_true", help="Render templates in minimal mode (reduced output, controlled in template logic).")
+    parser.add_argument("--quiet", action="store_true", help="Suppress LaTeX compilation logs (errors are still shown).")
+    parser.add_argument("--save", action="store_true", help="Save the resulting LaTeX pdf to the home folder.")
+    args = parser.parse_args()
+
     # information about output location for the tex files
     dst = "./_tmp/"
     # information about the location for the template files
@@ -202,10 +253,17 @@ def main():
     # latex command
     latex = "xelatex"
     # minimal
-    minimal = False
-    # create and run the engine
-    engine = Generate(src, dst, data_src, minimal, extension, main_file, latex)
-    engine.run()
+    minimal = args.minimal
+
+    engine = Generate(src, dst, data_src, minimal, extension, main_file, latex, quiet=args.quiet)
+
+    if args.templates:
+        engine.generate()
+    elif args.compile:
+        engine.compileLatex()
+    else:  # default or --all
+        engine.run()
+    if args.save: engine.savePDF()
 
 # entry point
 if __name__ == "__main__":

@@ -1,11 +1,10 @@
 \cvsection{{% emit(data['extracurricular']['title']) %}}
-\begin{cvhonors}
+\begin{cvoneliners}
 {%
   for i in (data['extracurricular']['content']):
-    emit_tex('\cvhonor ')
-    emit_braces(i['title'])
+    emit_tex('\\cvoneliner ')
+    emit_braces(i['title'] + ", " + i['location'])
     emit_braces(i['about'])
     emit_braces(i['duration'])
-    emit_braces(i['location'])
 %}
-\end{cvhonors}
+\end{cvoneliners}
