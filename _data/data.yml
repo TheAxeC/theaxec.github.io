@@ -12,6 +12,14 @@ personal:
   portrait_url: /assets/images/photos/portrait.jpeg
   footer: Curriculum Vitae
   secondary-title: Supervised students, talks and other media
+  website: xxx
+  links:
+    email: 
+    googlescholar:
+    linkedin:
+    github:
+    website:
+    orcid: 
 
 references:
   title: References 
@@ -116,10 +124,6 @@ academic:
     - title: Guest Associate Editor Use of Big Data and Artificial Intelligence in Multiple Sclerosis
       location: "Frontiers in Immunology"
       duration: "2024 - 2025"
-      cover: /assets/images/covers/about-representative.webp
-    - title: Developer of Cardinal - Educational & Research platform for MSc theses in PL/compilers
-      location: "Open-source project (GitHub)"
-      duration: "2015 - present"
       cover: /assets/images/covers/about-representative.webp
     - title: VLAIO Evaluator for BAEKELAND SPIN OFF MANDATES
       location: "VLAIO"
@@ -390,19 +394,41 @@ projects:
         Collaborations: KU Leuven (Yves Moreau), University of Antwerp (Geert Vandeweyer), VIB (Frederik Coppens)  
         Context: ELIXIR Belgium is part of ELIXIR Europe, an ESFRI initiative funded by the European Commission and national agencies
       cover: /assets/images/covers/about-project.webp
-    - title: "Cardinal: Educational & Research platform for MSc theses in PL/compilers"
+    - title: "Federated Learning Kit (FLkit)"
+      url: https://github.com/UHasselt-BiomedicalDataSciences/federated-learning-toolkit
+      duration: 2025 - Current
+      role: Community Project Lead
+      min: false
+      about: |
+        FLkit is designed to help life scientists apply federated learning in their research. It offers guidance, techniques, and tools for working with decentralized and sensitive data, enabling privacy-preserving collaboration and deeper insights without sharing raw data.
+        The project is in its early stages and open to contributors. The long-term goal is to make FLkit community-driven, sustained, and governed by researchers and practitioners who want to advance federated learning for life sciences.
+      cover: /assets/images/covers/about-project.webp
+    - title: "Cardinal: Educational and Research platform for MSc theses in PL/compilers"
       url: https://github.com/TheAxeC/Cardinal
       duration: Jan. 2015 - Current
       role: Lead Developer
       min: true
       about: |
-        Cardinal is a C++20 reimplementation of the Wren VM, designed for clarity,
-        research, and education. It provides a small, well-documented virtual machine
-        and runtime for exploring compilers, concurrency (fibers), and language embedding.
-        The project serves as a platform for student theses and for prototyping new
-        programming language ideas.
+        Cardinal is a C++20 reimplementation of the Wren VM, designed for clarity, research, and education. It provides a small, well-documented virtual machine and runtime for exploring compilers, concurrency (fibers), and language embedding.
+        The project serves as a platform for student theses and for prototyping new programming language ideas.
       cover: /assets/images/covers/about-project.webp
-
+    - title: "Open Source Python Package - Block-Term Tensor Regression (BTTR)"
+      url: https://github.com/TheAxeC/block-term-tensor-regression
+      duration: 2022 - Current
+      role: Lead Researcher & Developer
+      min: false
+      about: |
+        The open-source BTTR implementation provides researchers and practitioners with accessible, reproducible tools for tensor-based regression in neuroscience and related domains. It is actively developed and documented to support experimentation, education, and further research.
+      cover: /assets/images/covers/about-project.webp
+    - title: "Wisconsin Breast Cancer Dataset Research Tutorial for Federated Learning"
+      url: https://github.com/TheAxeC/federated-learning-tutorial
+      duration: 2025 - Current
+      role: Research Tutorial Author
+      min: false
+      about: |
+        This repository serves as a step-by-step tutorial for running federated learning studies with the FL4E framework. Using the Wisconsin Breast Cancer dataset as an example, it guides researchers and students through the full workflow.
+        Clear documentation and markdown guides explain each step, making it easier for newcomers to understand and apply federated learning in practice.
+      cover: /assets/images/covers/about-project.webp
     # - title: Reinforcement Learning Agent in Google Deepmind's StarCraft II Framework
     #   url: ""
     #   duration: Feb. 2018 - Jul. 2018

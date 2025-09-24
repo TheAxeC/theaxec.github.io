@@ -1,0 +1,73 @@
+\cvsection{ {% emit(publications['title']) %} }
+
+{%
+types = [ 
+          'papers-in-preparation',
+          'journal',
+          'conference',
+          'thesis',
+          'abstracts',
+          'posters',
+          'other-publications',
+        ]
+
+nb = 1
+for type in types:
+  if not 'papers' in publications[type]: continue
+  if len(publications[type]['papers']) <= 0: continue
+
+  emit_tex('\cvsubsection')
+  emit_braces(publications[type]['title'])
+
+  emit_tex('\\begin{cvpapers}')
+  emit('\n')
+  for i in publications[type]['papers']:
+    if 'hide' in i and i['hide'] == True: continue
+    emit_tex('\cvpaper ')
+    emit('\n')
+    emit_braces(i['authors'])
+    emit('\n')
+
+    if 'url' in i and i['url'] != None:
+      url = i['url']
+      if url.startswith('/'): url = data['personal']['website'] + url
+      emit_braces(url)
+      emit('\n')
+    else:
+      emit_braces('')
+      emit('\n')
+
+    emit_braces(i['title'])
+    emit('\n')
+
+    if 'book' in i:
+      emit_braces(i['book'])
+      emit('\n')
+    else:
+      emit_braces('')
+      emit('\n')
+
+    emit_braces("[" + str(nb) + "]")
+    emit('\n')
+    emit('\n')
+    nb = nb + 1
+  emit('\n')
+  emit_tex('\end{cvpapers}')
+
+# type = 'news'
+# emit_tex('\cvsubsection')
+# emit_braces(publications[type]['title'])
+
+# emit_tex('\\begin{cvnews}')
+# for i in publications[type]['papers']:
+#   emit_tex('\cvnew ')
+
+#   emit_braces(i['url'])
+
+#   emit_braces(i['title'])
+
+#   emit_braces(i['from'])
+
+#   emit_braces(to_specific_date(i['date']))
+# emit_tex('\end{cvnews}')
+%}

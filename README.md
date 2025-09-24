@@ -27,8 +27,12 @@ Other:
 - _includes/ [for html includes (widgets) or general components (navbar and footer)
 - _layout/ [for the main html layouts (cv, default and posts)]
 - assets/ [for css, images and js]
+- _scripts/ [for python cv latex generator]
 
 ## Starting the server
 
 > bundle exec jekyll serve
 
+## Running the CV Generator
+
+> run generate.py in _scripts
