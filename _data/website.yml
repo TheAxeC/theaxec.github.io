@@ -5,6 +5,8 @@
 description:
   title: dr. ir. Axel Faes # Abstract 
   subtitle: "#LeadingAIinHealth"
+  biography: |
+    Axel Faes is a postdoctoral researcher in Biomedical Data Sciences at Hasselt University, where he is technical machine learning lead and scientific coordinator of the Flanders AI Research Program's Real World Evidence use case. He holds M.Sc. degrees in Computer Science Engineering and Artificial Intelligence from KU Leuven, where he also completed a PhD in Biomedical Sciences on finger movement decoding using tensor regression modeling. His work bridges computational neuroscience, brain-computer interfaces, and federated learning for multi-modal biomedical and health data, contributing to the development of innovative AI methods that advance biomedical research and clinical practice as part of #LeadingAIinHealth.
   github: 
     url: https://github.com/TheAxeC
     trophies: ""
@@ -58,8 +60,8 @@ description:
         
       <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
   show_portrait: true
-  portrait_url: assets/images/photos/portrait.jpeg
-  portrait_height: 300
+  portrait_url: assets/images/photos/axel.jpg # portrait.jpeg
+  portrait_height: 500
   portrait_caption: Building Knowledge, Driving Innovation 
   research_mobile: |
     **Research**
