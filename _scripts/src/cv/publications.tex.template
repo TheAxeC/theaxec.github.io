@@ -26,9 +26,9 @@ for type in types:
     emit_tex('\\cvpaper ')
     emit('\n')
     if "*" in i['authors']:
-        emit_tex('{'+i['authors'].replace("Axel Faes", '\\textbf{Axel Faes}')+' (* co-first author)}')
+        emit_tex('{'+i['authors'].replace(data['personal']['author'], '\\textbf{'+data['personal']['author']+'}')+' (* co-first author)}')
     else:
-        emit_tex('{'+i['authors'].replace("Axel Faes", '\\textbf{Axel Faes}')+'}')
+        emit_tex('{'+i['authors'].replace(data['personal']['author'], '\\textbf{'+data['personal']['author']+'}')+'}')
     emit('\n')
 
     if 'url' in i and i['url'] != None:

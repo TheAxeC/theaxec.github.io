@@ -66,12 +66,12 @@ for title in data['personal']['titles']:
 %}
 }
 
-\email{{% emit(website['references']['content'][0]['content']) %}}
-\googlescholar{{% emit(website['references']['content'][6]['content']) %}}{Scholar}
-\linkedin{{% emit(website['references']['content'][4]['content']) %}}
-\github{{% emit(website['references']['content'][3]['content']) %}}
-\homepage{{% emit(website['references']['content'][2]['content']) %}}
-\orcid{{% emit(website['references']['content'][5]['content']) %}}
+\email{{% emit(data['personal']['links']['email']) %}}
+\googlescholar{{% emit(data['personal']['links']['googlescholar']) %}}{Scholar}
+\linkedin{{% emit(data['personal']['links']['linkedin']) %}}
+\github{{% emit(data['personal']['links']['github']) %}}
+\homepage{{% emit(data['personal']['links']['homepage']) %}}
+\orcid{{% emit(data['personal']['links']['orcid']) %}}
 
 %-------------------------------------------------------------------------------
 \begin{document}

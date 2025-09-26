@@ -141,7 +141,6 @@ references:
     - name:  fas fa-at
       url: mailto:axel.faes@uhasselt.be
       platform: axel.faes[at]uhasselt.be
-      content: axel.faes[at]uhasselt.be
 
     - name: fas fa-file-alt
       url: /cv.pdf # html
@@ -150,27 +149,22 @@ references:
     - name: fas fa-home
       url: /
       platform: Website
-      content: theaxec.github.io/
 
     - name: fab fa-github
       url: https://github.com/TheAxeC
       platform: Github
-      content: TheAxeC
 
     - name: fab fa-linkedin
       url: https://www.linkedin.com/in/axelfaes
       platform: LinkedIn
-      content: axelfaes
 
     - name: fab fa-orcid
       url: https://orcid.org/0000-0002-1637-255X
       platform: ORCID
-      content: 0000-0002-1637-255X
 
     - name: fab fa-google-scholar
       url: https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ
       platform: Google Scholar
-      content: abRAHJEAAAAJ
 
 ##################
 # Website footer #

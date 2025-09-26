@@ -51,6 +51,7 @@ papers-in-preparation:
         - authors: Valentina Pergher*, Axel Faes*, Yide Li, Marc M. Van Hulle
           title: How stimulus type and task structure can affect ERP signatures
           pub_pre: "Submitted to "
+          url: ""
           order: "first"
           pub_post: '(Under review)'
           cover: /assets/images/covers/publication-journal.webp
@@ -61,6 +62,7 @@ papers-in-preparation:
         - authors: Anh Phuong Do, Axel Faes, et al.
           title: Individual Reference Intervals for Clinical Event Prediction
           pub_pre: "Submitted to "
+          url: ""
           pub_post: '(Under review)'
           book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
           cover: /assets/images/covers/publication-journal.webp
@@ -70,6 +72,7 @@ papers-in-preparation:
         - authors: Dongho Chun, Axel Faes
           title: "Effects on clustering algorithms based on classification of Atrial Fibrillation based on ECG data"
           pub_last: (senior author)
+          url: ""
           order: senior
           pub_pre: "Submitted to "
           book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
@@ -79,6 +82,7 @@ papers-in-preparation:
           title: Cross Subject training for finger movement decoding with high-density ECoG
           pub_last: (senior author)
           order: senior
+          url: ""
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
           book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
@@ -88,6 +92,7 @@ papers-in-preparation:
           title: Block-Term Decomposition for arrhythmia detection and prediction on sinus rhythms
           pub_last: (senior author)
           order: senior
+          url: ""
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
           book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
@@ -97,6 +102,7 @@ papers-in-preparation:
           title: "Predicting Cirrhosis Patient Survival Using Machine Learning: A Data-Driven Approach"
           pub_last: (senior author)
           order: senior
+          url: ""
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
           book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
@@ -107,13 +113,14 @@ journal:
     papers:
         - authors: Liesbet Peeters, Axel Faes, et al.
           title: Editorial introduction 'The use of big data and AI in MS'
-          url: "https://www.frontiersin.org/research-topics/64523/use-of-big-data-and-artificial-intelligence-in-multiple-sclerosis"
+          url: "/publications/journal/fimmu-16-1679482.pdf" # "https://www.frontiersin.org/research-topics/64523/use-of-big-data-and-artificial-intelligence-in-multiple-sclerosis"
           book: "Frontiers in Immunology (5.7 IF)"
           pub_date: 2025
           cover: /assets/images/covers/publication-journal.webp
           abstract: "As health data volume and the sophistication of artificial intelligence (AI) tools grow, their potential to transform the management of complex neuroimmunological conditions like multiple sclerosis (MS) has become increasingly evident (1). MS, a chronic immune-mediated inflammatory disorder of the central nervous system, presents a unique challenge in the health sector due to its multifactorial nature and variable progression patterns. Each patient's journey is marked by distinct symptom trajectories and responses to treatment, demanding personalised approaches in diagnosis, prognosis, and therapeutic interventions. (2, 3). This Special Topic aims to address the clinical complexity of MS by leveraging data driven insights and innovative health initiatives. The overarching goal is to present the current challenges in MS research and explore recent advances and future trends that can significantly impact patient care. Through a Research Topic of reviews, perspectives, and original research articles, we explore how advanced data techniques and innovative health initiatives are shaping the future of MS research and care."
         - authors: Ashkan Pirmani, Edward De Brouwer, Adam Arany, Martijn Oldenhof, Antoine Passemiers, Axel Faes, Tomas Kalincik, Serkan Ozakbas, Riadh Gouider, Barbara Willekens, Dana Horakova, Eva Kubala Havrdova, Francesco Patti, Alexandre Prat, Alessandra Lugaresi, Valentina Tomassini, Pierre Grammond, Elisabetta Cartechini, Izanne Roos, Cavit Boz, Raed Alroughani, Maria Pia Amato, Katherine Buzzard, Jeannette Lechner-Scott, Joana Guimaraes, Claudio Solaro, Oliver Gerlach, Aysun Soysal, Jens Kuhle, Jose Luis Sanchez-Menoyo, Daniele Spitaleri, Tunde Csepany, Bart Van Wijmeersch, Radek Ampapa, Julie Prevost, Samia J. Khoury, Vincent van Pesch, Nevin John, Davide Maimone, Bianca Weinstock-Guttman, Guy Laureys, Pamela McCombe, Yolanda Blanco, Ayse Altintas, Abdullah Al-Asmi, Justin Garber, Anneke van der Walt, Helmut Butzkueven, Koen de Gans, Csilla Rozsa, Bruce Taylor, Talal Al-Harbi, Attila Sas, Cecilia Rajda, Orla Gray, Danny Decoo, William M Carroll, Allan G Kermode, Marzena Fabis-Pedrini, Deborah Mason, Angel Perez Sempere, Mihaela Simu, Neil Shuey, Bhim Singhal, Marija Cauchi, Todd A. Hardy, Sudarshini Ramanathan, Patrice Lalive, Carmen-Adella Sirbu, Stella Hughes, Tamara Castillo Trivino, Liesbet M. Peeters, and Yves Moreau
           title: Personalized Federated Learning for Predicting Disability Progression in Multiple Sclerosis Using Real-World Routine Clinical Data
+          url: "/publications/journal/s41746-025-01788-8.pdf"
           cover: /assets/images/covers/publication-journal.webp
           book: "npj Digital Medicine (15.357 IF)"
           pub_date: 2025
@@ -126,6 +133,7 @@ journal:
           book: "Journal of Neural Engineering (5.4 IF)"
           selected: false
           pub_date: 2024
+          url: ""
           order: "first"
           cover: /assets/images/covers/publication-journal.webp
           abstract: >-
@@ -134,6 +142,7 @@ journal:
           title: Decoding Sign Language Finger Movements from high-density ECoG using Graph-Optimized Block Term Tensor Regression
           book: "Journal of Neural Engineering (5.4 IF)"
           selected: true
+          url: "/publications/journal/Faes_2025_J._Neural_Eng._22_026065.pdf"
           order: "first"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2024
@@ -202,7 +211,7 @@ conference:
     papers:
         - authors: Axel Faes, Ashkan Pirmani, Yves Moreau, Liesbet Peeters
           title: Applying Federated Learning to Block-Term Tensor Regression for Decentralised Data Analysis of Biomedical Data
-          url: ""
+          url: "/publications/conference/2412.06815v1.pdf"
           book: "IEEE Conference on Federated Learning Technologies and Applications (IEEE FLTA 2025)"
           pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
           pub_date: 2025
@@ -218,7 +227,7 @@ conference:
             Empirical evaluations highlight the robustness and scalability of FBTTR, achieving predictive performance comparable to centralized models while significantly reducing privacy concerns. Additionally, the algorithm is computationally efficient, making it viable for real-world deployment where timely predictions are critical. By offering a scalable and privacy-preserving solution, FBTTR has the potential to advance predictive analytics across multiple domains, including healthcare and brain-computer interface applications. Notably, FBTTR is developed as open-source software, promoting transparency and fostering collaboration within the research community.
         - authors: Qiang Sun, Eva Calvo Merino, Liuyin Yang, Axel Faes, Marc Van Hulle
           title: Proprioceptive Feedback Challenges Motor Intention Detection from EEG during Human-Exoskeleton Interaction
-          url: ""
+          url: "/publications/conference/On_the_Impact_of_Proprioception_in_EEG_Representations_and_Decoding_During_Human-Hand_Exoskeleton_Interaction.pdf"
           pub_date: 2025
           cover: /assets/images/covers/publication-conference.webp
           book: "Proceedings of 2025 International Conference on Rehabilitation Robotics (ICORR) 2025"
@@ -258,7 +267,7 @@ thesis:
     papers:
       - authors: Axel Faes
         title: "Finger Movement Decoding: From Source-Localisation to Tensor Regression Modelling"
-        url: thesis/axel-faes-phd-thesis.pdf
+        url: "/publications/thesis/axel-faes-phd-thesis.pdf"
         pub_date: 2023
         book: PhD Thesis
         cover: /assets/images/covers/about-phd.webp

@@ -9,14 +9,15 @@ personal:
   portrait_url: /assets/images/photos/portrait.jpeg
   footer: Curriculum Vitae
   secondary-title: Supervised students, talks and other media
-  website: xxx
+  author: Axel Faes
+  website: https://theaxec.github.io
   links:
-    email: 
-    googlescholar:
-    linkedin:
-    github:
-    website:
-    orcid: 
+    email: axel.faes[at]uhasselt.be
+    googlescholar: abRAHJEAAAAJ
+    linkedin: axelfaes
+    github: TheAxeC
+    homepage: theaxec.github.io
+    orcid: 0000-0002-1637-255X
 
 references:
   title: References 
