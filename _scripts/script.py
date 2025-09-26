@@ -255,6 +255,7 @@ def main():
     # minimal
     minimal = args.minimal
 
+    os.chdir(os.path.dirname(__file__))
     engine = Generate(src, dst, data_src, minimal, extension, main_file, latex, quiet=args.quiet)
 
     if args.templates:

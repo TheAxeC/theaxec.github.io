@@ -2,85 +2,52 @@ title: Publications
 papers-in-preparation:
     title: Papers in Review
     papers:
-        # - authors: Axel Faes
-        #   title: Algebraic Subtyping for multishot algebraic effects
-        #   url: ""
-        #   pub_pre: "Submitted to "
-        #   book: "International Conference on Functional Programming (ICFP) 2025"
-        #   pub_date: 2025
-        #   cover: /assets/images/covers/publication-journal.webp
-        #   abstract: ""
-        # - authors: Axel Faes, Ashkan Pirmani, Yves Moreau, Liesbet Peeters
-        #   title: Federated Block-Term Tensor Regression for Heart Diseases in Realistic Healthcare Settings
-        #   url: ""
-        #   book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
-        #   pub_pre: "Submitted to "
-        #   pub_post: '(Under review)'
-        #   pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
-        #   pub_date: 2024
-        #   selected: true
-        #   cover: /assets/images/covers/publication-journal.webp
-        #   hide: false
-        #   abstract: >-
-        #     This paper presents an extension of the Block-Term Tensor Regression (BTTR) algorithm, termed Federated Block-Term Tensor Regression (FBTTR), designed to address the unique challenges of heart disease prediction in realistic healthcare settings. Traditional machine learning models often rely on centralized data, which poses significant privacy risks and limits the scalability of predictive models across multiple institutions. FBTTR adapts BTTR to federated learning scenarios, allowing decentralized data from various healthcare institutions to be utilized without compromising patient privacy. 
-
-        #     The proposed FBTTR method leverages the strengths of tensor regression in handling multi-dimensional data, enhancing predictive accuracy through collaborative learning while ensuring data confidentiality. By incorporating federated learning principles, FBTTR facilitates secure model training across different sites, effectively mitigating data silos and promoting a more comprehensive understanding of heart disease predictors.
-
-        #     Empirical evaluations demonstrate the robustness of FBTTR, showing that it achieves high predictive performance comparable to traditional centralized models. Moreover, the algorithm exhibits efficient computational performance, making it suitable for deployment in real-world healthcare environments where timely and accurate predictions are crucial. The results highlight FBTTR's potential in advancing predictive analytics in healthcare by providing a scalable, privacy-preserving solution for heart disease prediction, ultimately contributing to better patient outcomes and more effective healthcare delivery.
+        - authors: Axel Faes
+          title: Algebraic Subtyping for algebraic effects and handlers
+          url: ""
+          pub_pre: "Submitted to "
+          book: "International Conference on Functional Programming (ICFP) 2025"
+          pub_date: 2025
+          cover: /assets/images/covers/publication-journal.webp
+          abstract: ""
+        - authors: Axel Faes, Ashkan Pirmani, Yves Moreau, Liesbet Peeters
+          title: Federated Block-Term Tensor Regression in Realistic Healthcare Settings
+          url: ""
+          book: "IEEE FLICS 2025 - Symposium on Federated Learning and Intelligent Computing Systems"
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
+          pub_date: 2024
+          selected: true
+          cover: /assets/images/covers/publication-journal.webp
+          hide: false
         - authors: Axel Faes, Liesbet Peeters
           title: "Block-Term Tensor Decomposition for Signal Reconstruction"
           url: ""
           pub_pre: "Submitted to "
-          pub_post: '(in preparation)'
-          # book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
+          pub_post: '(Under review)'
+          book: "IEEE FLICS 2025 - Symposium on Federated Learning and Intelligent Computing Systems"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
           abstract: ""
-        # - authors: Axel Faes, Liesbet Peeters, Marc Van Hulle
-        #   title: Federated Transfer Learning for intracranial motor brain-computer interfaces
-        #   url: ""
-        #   # pub_pre: "Submitted to "
-        #   pub_post: '(In preparation)'
-        #   book: "Machine Learning: Science and Technology (6.8 IF)"
-        #   pub_date: 2025
-        #   cover: /assets/images/covers/publication-journal.webp
-        #   abstract: ""
-        # - authors: Axel Faes, Liesbet Peeters
-        #   title: "Block-Term Tensor Regression for ECG Classification with Federated Matrix Factorizations"
-        #   url: ""
-        #   book: "IEEE Journal of Biomedical Engineering (4.5 IF)"
-        #   # pub_pre: "Submitted to "
-        #   pub_post: '(In preparation)'
-        #   cover: /assets/images/covers/publication-journal.webp
-        #   pub_date: 2025
-        #   abstract: ""
-        # - authors: Axel Faes, Yves Moreau, Liesbet Peeters
-        #   title: "Vertical Federated Learning with Block-Term Tensor Regression"
-        #   url: ""
-        #   book: "IEEE Transactions on Neural Networks and Learning Systems (14.25 IF)"
-        #   # pub_pre: "Submitted to "
-        #   pub_post: '(In preparation)'
-        #   cover: /assets/images/covers/publication-journal.webp
-        #   pub_date: 2025
-        #   abstract: ""
-        # - authors: Axel Faes, Pieter VanderVoort, Liesbet Peeters
-        #   title: "Federated and Interpretable ECG Classification"
-        #   url: ""
-        #   # book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
-        #   # pub_pre: "Submitted to "
-        #   pub_post: '(In preparation)'
-        #   cover: /assets/images/covers/publication-journal.webp
-        #   pub_date: 2025
-        #   abstract: ""
-        # - authors: Axel Faes, Pieter VanderVoort, Liesbet Peeters
-        #   title: "Federated Block-Term Tensor Regression for ECG Classification"
-        #   url: ""
-        #   # book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
-        #   # pub_pre: "Submitted to "
-        #   pub_post: '(In preparation)'
-        #   cover: /assets/images/covers/publication-journal.webp
-        #   pub_date: 2025
-        #   abstract: ""
+        - authors: Axel Faes, Liesbet Peeters, Marc Van Hulle
+          title: Federated Transfer Learning for intracranial motor brain-computer interfaces
+          url: ""
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "IEEE FLICS 2025 - Symposium on Federated Learning and Intelligent Computing Systems"
+          pub_date: 2025
+          cover: /assets/images/covers/publication-journal.webp
+          abstract: ""
+        - authors: Axel Faes, Liesbet Peeters
+          title: "Vertical Federated Learning with Block-Term Tensor Regression"
+          url: ""
+          book: "Machine Learning: Science and Technology (6.8 IF)"
+          pub_pre: "Submitted to "
+          pub_post: '(In preparation)'
+          cover: /assets/images/covers/publication-journal.webp
+          pub_date: 2025
+          abstract: ""
         - authors: Valentina Pergher*, Axel Faes*, Yide Li, Marc M. Van Hulle
           title: How stimulus type and task structure can affect ERP signatures
           pub_pre: "Submitted to "
@@ -104,9 +71,8 @@ papers-in-preparation:
           title: "Effects on clustering algorithms based on classification of Atrial Fibrillation based on ECG data"
           pub_last: (senior author)
           order: senior
-          # pub_pre: "Submitted to "
-          pub_post: '(In preparation)'
-          # book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
+          pub_pre: "Submitted to "
+          book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2025
         - authors: Ward Ceyssens, Axel Faes
@@ -166,8 +132,6 @@ journal:
             Objective: A case study is conducted to show that not only finger flexion- but also finger abduction trajectories can be decoded from high-density electrocorticography (ECoG) recordings. Approach: Two patients, temporarily implanted with high-density ECoG grids as part of their clinical workup, performed a cued single finger flexion task, a cued sign language alphabet task and a cued finger abduction task. The extended Block-Term Tensor Regression (eBTTR) model was adopted to predict finger trajectories after being developed on simultaneous data glove/ECoG recordings. The model performance on the single finger flexion task provides a reference for comparing that on the finger abduction task. Finally, the sign language alphabet task involves realistic, complex finger movements, calling upon both finger flexions and abductions. Main results: We show that finger abduction trajectories can be decoded from ECoG recordings, with comparable precision as single finger flexion trajectories, and even when expressing sign language gestures that involve joint finger flexions and abductions. Significance: Our findings show for the first time that finger abduction trajectories can be decoded from ECoG even when part of Sign Language Alphabet gestures. 
         - authors: Axel Faes, Mariana P. Branco, Anais Van Hoylandt, Elina Keirse, Tom Theys, Nick F. Ramsey, Marc M. Van Hulle
           title: Decoding Sign Language Finger Movements from high-density ECoG using Graph-Optimized Block Term Tensor Regression
-          # pub_pre: "Submitted to "
-          # pub_post: '(Under review)'
           book: "Journal of Neural Engineering (5.4 IF)"
           selected: true
           order: "first"
