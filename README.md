@@ -35,4 +35,4 @@ Other:
 
 ## Running the CV Generator
 
-> run generate.py in _scripts
+> python _scripts/script.py --save --quiet
