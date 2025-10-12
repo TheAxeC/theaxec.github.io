@@ -358,7 +358,7 @@ education:
 projects:
   title: Grants & (open-source) Projects
   content:
-    - title: "Federated Learning for Population Health Management"
+    - title: "Federated Learning for Population Health Management (FL4PHM)"
       url: ""
       duration: 2025 - Current
       role: Co-supervisor
@@ -366,6 +366,8 @@ projects:
       about: |
         FWO Senior Research Project (2025) 
         Project: "Federated Learning for Population Health Management"
+        Role: Co-supervisor
+        Team: Prof. Yves Moreau (KU Leuven), Prof. Liesbet M. Peeters (UHasselt), Prof. Bert Vaes (KU Leuven)
         Funding: Research Foundation Flanders (FWO), Belgium (applied, result expected in September 2025)
         Amount: approx. €1,150,000 (including salaries and operational costs for 4 years) 
       cover: /assets/images/covers/about-project.webp
@@ -375,10 +377,10 @@ projects:
       role: Scientific Coordinator
       min: true
       about: |
-        Funding: Flemish government (FAIR program)
-        Duration: 2024-2028
-        Role: Scientific coordinator (UHasselt) and AI content lead
+        Role: Scientific coordinator (UHasselt) and AI Researcher
         Team: approx. 10 researchers across 4 institutions
+      # Funding: Flemish government (FAIR program)
+      # Duration: 2024-2028
       cover: /assets/images/covers/about-project.webp
     - title: "ELIXIR Belgium - Roadmap 2023-2025"
       url: ""
@@ -386,11 +388,11 @@ projects:
       role: Consortium Partner
       min: true
       about: |
-        Funding: FWO (approx. €11M in total, with contributions from BELSPO and FNRS)  
-        Duration: 2023-2025  
         Role: Consortium partner (UHasselt), focusing on health data re-use and federated analyses  
         Collaborations: KU Leuven (Yves Moreau), University of Antwerp (Geert Vandeweyer), VIB (Frederik Coppens)  
         Context: ELIXIR Belgium is part of ELIXIR Europe, an ESFRI initiative funded by the European Commission and national agencies
+      # Funding: FWO (approx. €11M in total, with contributions from BELSPO and FNRS)  
+      # Duration: 2023-2025  
       cover: /assets/images/covers/about-project.webp
     - title: "Federated Learning Kit (FLkit)"
       url: https://github.com/UHasselt-BiomedicalDataSciences/federated-learning-toolkit
