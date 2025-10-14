@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Finding Rhythm: Building a Sustainable Voice in Academia"
-picture: /assets/images/posts/linkedin-rhythm.webp
+picture: /assets/images/projects/default.webp
 category: research
 publish: True
 ---
