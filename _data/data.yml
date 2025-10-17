@@ -28,6 +28,9 @@ references:
     - name: Marc Van Hulle
       email: marc.vanhulle[at]kuleuven.be
       reason: Full Professor (PhD advisor) Laboratory for Neuro- and Psychophysiology 
+    - name: Yves Moreau
+      email: yves.moreau[at]kuleuven.be
+      reason: Full Professor (Collaborator)
 
 experience:
   title: Work & Research Experience
@@ -209,6 +212,14 @@ students:
 news:
     title: Talks, presentations and other media
     content:
+      - title: Optimizing Federated Block-Term Tensor Regression - Strategy Comparisons and Applications
+        duration: 2025
+        location: Symposium on Federated Learning and Intelligent Computing Systems (FLICS)
+        cover: /assets/images/covers/about-researchstay.webp
+      - title: Federated Learning for Healthcare - From Brain-Computer Interfaces to Disease Prediction
+        duration: 2025
+        location: IEEE FLTA (International Conference on Federated Learning Technologies and Applications)
+        cover: /assets/images/covers/about-researchstay.webp
       - title: OHDSI Europe Symposium 2025
         duration: 2025
         location: OHDSI Europe Symposium

@@ -10,17 +10,6 @@ papers-in-preparation:
           pub_date: 2025
           cover: /assets/images/covers/publication-journal.webp
           abstract: ""
-        - authors: Axel Faes, Ashkan Pirmani, Yves Moreau, Liesbet Peeters
-          title: Federated Block-Term Tensor Regression in Realistic Healthcare Settings
-          url: ""
-          book: "IEEE FLICS 2025 - Symposium on Federated Learning and Intelligent Computing Systems"
-          pub_pre: "Submitted to "
-          pub_post: '(Under review)'
-          pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
-          pub_date: 2024
-          selected: true
-          cover: /assets/images/covers/publication-journal.webp
-          hide: false
         - authors: Axel Faes, Liesbet Peeters
           title: "Block-Term Tensor Decomposition for Signal Reconstruction"
           url: ""
@@ -209,6 +198,19 @@ journal:
 conference:
     title: Conference Papers
     papers:
+        - authors: Axel Faes, Liesbet Peeters
+          title: "Optimizing Federated Block-Term Tensor Regression: Strategy Comparisons and Applications"
+          url: ""
+          book: "The 3rd International Conference on Foundation and Large Language Models (FLLM2025)"
+          # pub_pre: "Submitted to "
+          pub_post: '[Symposium on Federated Learning and Intelligent Computing Systems (FLICS 2025)]'
+          pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
+          pub_date: 2025
+          selected: true
+          cover: /assets/images/covers/publication-journal.webp
+          hide: false
+          abstract: >-
+            Block-Term Tensor Regression (BTTR) is a multilinear modeling framework suited for high-dimensional biomedical data, but its centralized implementation conflicts with privacy and regulatory constraints. To overcome this, we propose Federated Block-Term Tensor Regression (FBTTR), which integrates BTTR into a federated learning setting. We systematically evaluate multiple federated aggregation strategies, including FedAvg, FedYogi, and FedAdam, to assess their effect on model performance and stability. Experiments on the BCI Competition IV dataset demonstrate that the choice of strategy strongly influences predictive accuracy: FedAvg yields the most stable and accurate results across subjects, while adaptive methods such as FedYogi and FedAdam show less consistent performance. These findings highlight the importance of strategy selection in federated learning and establish FBTTR as a practical approach for privacy-preserving analysis of multi-institutional biomedical data.
         - authors: Axel Faes, Ashkan Pirmani, Yves Moreau, Liesbet Peeters
           title: Applying Federated Learning to Block-Term Tensor Regression for Decentralised Data Analysis of Biomedical Data
           url: "/publications/conference/2412.06815v1.pdf"
@@ -226,12 +228,19 @@ conference:
 
             Empirical evaluations highlight the robustness and scalability of FBTTR, achieving predictive performance comparable to centralized models while significantly reducing privacy concerns. Additionally, the algorithm is computationally efficient, making it viable for real-world deployment where timely predictions are critical. By offering a scalable and privacy-preserving solution, FBTTR has the potential to advance predictive analytics across multiple domains, including healthcare and brain-computer interface applications. Notably, FBTTR is developed as open-source software, promoting transparency and fostering collaboration within the research community.
         - authors: Qiang Sun, Eva Calvo Merino, Liuyin Yang, Axel Faes, Marc Van Hulle
-          title: Proprioceptive Feedback Challenges Motor Intention Detection from EEG during Human-Exoskeleton Interaction
+          title: On the Impact of Proprioception in EEG Representations and Decoding during Human-Hand Exoskeleton Interaction
           url: "/publications/conference/On_the_Impact_of_Proprioception_in_EEG_Representations_and_Decoding_During_Human-Hand_Exoskeleton_Interaction.pdf"
           pub_date: 2025
           cover: /assets/images/covers/publication-conference.webp
           book: "Proceedings of 2025 International Conference on Rehabilitation Robotics (ICORR) 2025"
-          abstract: ""
+          abstract: >-
+            Controlling a hand exoskeleton based on electroencephalogram (EEG)-based brain-computer interfacing (BCI) holds promise for human motor augmentation and neurorehabilitation. To achieve natural control, a critical step is to understand the impact of proprioception provided by the exoskeleton during interaction.
+
+            In this study, we aim to approach this goal by quantifying EEG representations and BCI performance. We monitored full-scalp EEG in 25 healthy subjects while they performed different finger movement tasks with a cable-driven hand exoskeleton. Each task involved three movement modalities: imagined (IM), passive (PM), and congruent imagined and passive (IPM) finger flexion.
+
+            We found that alpha (8-13 Hz) and beta (13-30 Hz) band desynchronization in the sensorimotor area was significantly stronger for PM and IPM tasks compared to IM, with no significant difference between PM and IPM. Using machine learning models, we achieved high accuracy in classifying exoskeleton-assisted movements from the rest condition (IPM vs. REST: 0.80 ± 0.07; PM vs. REST: 0.72 ± 0.10), with the IPM modality returning the highest accuracy. However, distinguishing between IPM and PM yielded only 0.61 ± 0.09, significantly lower than the condition of intention detection without the exoskeleton (IM vs. REST: 0.73 ± 0.08).
+
+            Our findings suggest that sensorimotor EEG activity can track proprioceptive feedback induced by the hand exoskeleton. While this feedback is pronounced and distinguishable, detecting motor intention during exoskeleton movement remains highly challenging. This highlights the need for advanced decoders and control strategies for the future development of continuous BCI-actuated hand exoskeletons.
         - authors: Robin Marx, Maarten Wijnants, Peter Quax, Axel Faes, Wim Lamotte
           title: "Web Performance Characteristics of HTTP/2 and comparison to HTTP/1.1"
           url: "/publications/conference/WebPerfCharacteristicsOfH2_MarxRobin_13aug2017.pdf"
