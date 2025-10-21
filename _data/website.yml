@@ -41,6 +41,8 @@ description:
       url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'
       image: 'assets/images/badges/UHasselt.jpg'
   content_mobile: |
+    AI Researcher in Healthcare | 🤖 Federated Learning • 🧬 Precision Medicine • 🧠 Brain-Computer Interfaces
+
     Postdoctoral Researcher (`AI for Precision Medicine`) @ Biomedical Data Sciences, UHasselt
 
     Scientific Coordinator of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE)
@@ -56,10 +58,11 @@ description:
         
       <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
   content: |
+    - `AI Researcher` in Healthcare - 🤖 `Federated Learning` • 🧬 `Precision Medicine` • 🧠 `Brain-Computer Interfaces`
     - Postdoctoral Researcher (`AI for Precision Medicine`) @ Biomedical Data Sciences, UHasselt 
       - Developing `foundation models` and `federated learning` frameworks for privacy-preserving analysis of multi-modal biomedical data.
       - Leading AI research in `precision oncology` using real-world clinical and omics data.
-      - Advancing `precision medicine` through explainable AI that integrates clinical, imaging, and molecular data for early disease detection and risk stratification.
+      - Advancing `precision medicine` through explainable AI that integrates `clinical, imaging, and molecular data` for early disease detection and risk stratification.
       - Pioneering `Brain-Computer Interfaces` for precision neuropsychiatry by decoding neural activity with tensor regression and deep learning models.
       - Advancing `Population Health Management` with federated learning for better disease insights, risk prediction, and health equity.
     - Scientific Coordinator of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE)
@@ -82,8 +85,8 @@ description:
   research: |
     **Vision for Research Impact** <a href="research">(view more <i class="fas fa-angle-double-right"></i>)</a>
     I envision a future where `foundation models`, `federated learning`, and `explainable AI` transform precision medicine and healthcare delivery. I aim to:
-    - **Advance Precision Medicine & Oncology**: By developing multi-modal AI systems that integrate clinical, imaging, and omics data, I seek to enable early disease detection, personalized risk prediction, and targeted therapeutic strategies for complex diseases including cancer and cardiovascular disorders.
-    - **Pioneer Privacy-Preserving Healthcare Analytics**: Through federated learning and foundation models, I enable collaborative research across institutions while preserving patient privacy and data sovereignty, accelerating translational research from lab to clinic.
+    - **Advance Precision Medicine & Oncology**: By developing multi-modal AI systems that integrate `clinical, imaging, and omics data`, I seek to enable early disease detection, personalized risk prediction, and targeted therapeutic strategies for complex diseases including cancer and cardiovascular disorders.
+    - **Pioneer Privacy-Preserving Healthcare Analytics**: Through `federated learning` and `foundation models`, I enable collaborative research across institutions while preserving patient privacy and data sovereignty, accelerating translational research from lab to clinic.
     - **Bridge AI Innovation and Clinical Practice**: By combining expertise in `machine learning`, `computational neuroscience`, and `biomedical data science`, I develop explainable AI systems that translate cutting-edge algorithms into interpretable, clinically actionable insights for healthcare professionals and pharmaceutical researchers.
   
   biomed_url: assets/images/webpage/dls.webp
@@ -101,7 +104,7 @@ description:
     - **Mentor the Next Generation**: Successfully supervised 17+ Master's and doctoral students across `AI`, `Statistics & Data Science`, `Computer Science`, and `Biomedical Sciences`, fostering interdisciplinary thinking and technical excellence.
     - **Advance Interdisciplinary Education**: Teaching `Brain-Computer Interfaces`, `Federated Learning`, `Data Science in Healthcare`, and `Bioinformatics` to equip students with skills to tackle real-world healthcare challenges using AI.
     - **Develop Accessible Educational Resources**: Through `open-source projects` (FLkit, BTTR toolkit, federated learning tutorials) and teaching materials, I make advanced AI methods accessible to life scientists and healthcare researchers worldwide, accelerating the translation of computational methods into clinical practice.
-    - **Build Teaching Excellence**: Currently completing my `BKO` (Basic Teaching Qualification) at UHasselt, demonstrating commitment to evidence-based teaching practices and educational innovation.
+    - **Build Teaching Excellence**: Currently completing my `BKO (Basic Teaching Qualification)` at UHasselt, demonstrating commitment to evidence-based teaching practices and educational innovation.
 
   mission_url: assets/images/webpage/biomed.webp
   mission_caption: Educating the Next Generation of Innovators

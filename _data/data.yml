@@ -2,10 +2,14 @@ personal:
   first-name: Axel
   last-name: Faes
   titles:
-    - Postdoctoral Researcher
-    - Data Scientist
-    - Computational Neuroscientist
-    - Computer Engineer
+    # - Postdoctoral Researcher
+    # - Data Scientist
+    # - Computational Neuroscientist
+    # - Computer Engineer
+    - AI Researcher in Healthcare
+    - Federated Learning
+    - Precision Medicine
+    - Brain-Computer Interfaces
   portrait_url: /assets/images/photos/axel.jpg
   footer: Curriculum Vitae
   secondary-title: Supervised students, talks and other media
