@@ -4,7 +4,7 @@
             <div class="col-4">
                 <div class="text-muted mb-2">
                     {% if site.data.website.footer.left.url and site.data.website.footer.left.url != "" %}
-                    <img src="{{ site.data.website.footer.left.url }}" alt="logo" style="max-height: 80px;">
+                    <img src="{{ site.data.website.footer.left.url }}" alt="{{ site.data.website.description.title }} logo" style="max-height: 80px;">
                     {% endif %}
                     {{ site.data.website.footer.left.title | newline_to_br | markdownify }}
                 </div>
@@ -12,7 +12,7 @@
             <div class="col-8">
                 <div class="text-right text-muted mt-2">
                     {% if site.data.website.footer.right.url and site.data.website.footer.right.url != "" %}
-                    <img src="{{ site.data.website.footer.right.url }}" alt="logo" style="max-height: 80px;">
+                    <img src="{{ site.data.website.footer.right.url }}" alt="{{ site.data.website.header.intro }} logo" style="max-height: 80px;">
                     {% endif %}
                     {{ site.data.website.footer.right.title | newline_to_br | markdownify }}
                     
