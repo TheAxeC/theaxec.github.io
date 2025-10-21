@@ -3,6 +3,8 @@ layout: default
 title : Research
 num_selected: 10
 permalink: /research
+description: "Research projects by Dr. Axel Faes - AI in healthcare, federated learning for heart disease prediction, brain-computer interfaces, and open-source contributions."
+keywords: "AI research, federated learning projects, BCI research, GitHub repositories, biomedical AI applications"
 ---
 
 <div class="row">

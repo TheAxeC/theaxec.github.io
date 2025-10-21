@@ -3,6 +3,8 @@ layout: default
 title : Publications
 navbar_name: Publications
 permalink: /publications/
+description: "Research publications by Dr. Axel Faes - Journal articles, conference papers, and preprints on federated learning, brain-computer interfaces, and AI in healthcare."
+keywords: "Axel Faes publications, research papers, federated learning, BCI, tensor regression, biomedical AI"
 body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
