@@ -35,22 +35,32 @@ references:
 experience:
   title: Work & Research Experience
   content:
-    - title: "Postdoctoral Researcher: Artificial Intelligence in Healthcare"
-      location: UHasselt
-      duration: January 2024 - Current
+    - title: "Postdoctoral Researcher: Foundation Models & Multi-Modal Federated Learning for Precision Medicine and Liver Cancer Detection"
+      location: University of Twente
+      duration: January 2026 - Current
       min: true
       about: |
-        Scientific Coordinator of the Flanders AI Research program, Use Case Real World Evidence.
-        Technical Machine Learning lead of the Biomedical Data Sciences Group, UHasselt
+        Developing advanced deep learning and foundation models integrating longitudinal MRI data, multi-omics profiles, and clinical variables for early detection and risk prediction of hepatocellular carcinoma (HCC).
+        Building explainable AI (XAI) frameworks that link imaging features and molecular markers to clinically meaningful outcomes in precision oncology within the AI-HCC ZonMw project.
+      cover: /assets/images/covers/about-postdoc.webp
+    - title: "Postdoctoral Researcher: Federated Learning in Healthcare & Real-World Evidence"
+      location: UHasselt
+      duration: January 2024 - January 2026
+      min: true
+      about: |
+        Scientific Coordinator of the Flanders AI Research Program Use Case Real World Evidence, leading multi-institutional research on privacy-preserving healthcare analytics. As Technical Machine Learning Lead of the Biomedical Data Sciences Group, developed federated learning frameworks enabling collaborative clinical research across Belgian healthcare institutions without sharing sensitive patient data.
+    
+        Research encompasses federated tensor regression for longitudinal health data, distributed learning architectures for heterogeneous clinical datasets, and translation of federated AI methods into practical healthcare applications.
       cover: /assets/images/covers/about-postdoc.webp
 
-    - title: "Postdoctoral Researcher: Brain-Computer Interfacing and Machine Learning"
+    - title: "Postdoctoral Researcher: Deep Learning & Tensor Regression for Sign Language Alphabet Decoding via Brain-Computer Interfaces"
       location: KU Leuven
       duration: May 2023 - January 2024
       min: true
       about: |
-        Project: "Sign Language Alphabet decoding from intracranial brain activity"
-        Group: Prof. Marc van Hulle, Computational Neuroscience, Laboratory for Neuro-and Psychophysiology, KU Leuven
+        Developed advanced machine learning methods for decoding sign language alphabet gestures from high-density intracranial brain activity (ECoG). Combined deep learning architectures with tensor regression models to capture complex spatiotemporal patterns in neural signals associated with linguistic motor control.
+
+        Technical contributions included implementing block-term tensor decomposition for multi-dimensional neural data and exploring cross-subject generalization for robust BCI performance. The research advances both fundamental understanding of neural encoding of sign language and practical assistive communication technology. Conducted at the Laboratory for Neuro- and Psychophysiology under supervision of Prof. Marc van Hulle, extending previous doctoral research in motor decoding to linguistic applications.
       cover: /assets/images/covers/about-postdoc.webp
 
     - title: Data Science Consultant
@@ -390,8 +400,6 @@ projects:
       about: |
         Role: Scientific coordinator (UHasselt) and AI Researcher
         Team: approx. 10 researchers across 4 institutions
-      # Funding: Flemish government (FAIR program)
-      # Duration: 2024-2028
       cover: /assets/images/covers/about-project.webp
     - title: "ELIXIR Belgium - Roadmap 2023-2025"
       url: ""
@@ -402,8 +410,6 @@ projects:
         Role: Consortium partner (UHasselt), focusing on health data re-use and federated analyses  
         Collaborations: KU Leuven (Yves Moreau), University of Antwerp (Geert Vandeweyer), VIB (Frederik Coppens)  
         Context: ELIXIR Belgium is part of ELIXIR Europe, an ESFRI initiative funded by the European Commission and national agencies
-      # Funding: FWO (approx. €11M in total, with contributions from BELSPO and FNRS)  
-      # Duration: 2023-2025  
       cover: /assets/images/covers/about-project.webp
     - title: "Federated Learning Kit (FLkit)"
       url: https://github.com/UHasselt-BiomedicalDataSciences/federated-learning-toolkit
@@ -500,6 +506,16 @@ projects:
 awards:
   title: Honors & Awards
   content:
+    - award: Selected for EFSA Framework Contract
+      event: European Food Safety Authority
+      date: 2025-06-01 15:59:00-0400
+      location: Europe
+      content: >
+        Statistical & Epidemiological Analysis - Ranked 4th among international contractors in competitive evaluation
+        - Contributed to case studies demonstrating expertise in Bayesian spatial modeling, 
+          AI/ML applications for data classification, and advanced statistical training design
+        - Quality score: 130.5/170 across methodology, implementation, and risk management criteria
+      cover: /assets/images/covers/about-award.webp
     - award: FWO Fundamental Research Grant
       event: FWO
       date: 2018-01-01 15:59:00-0400

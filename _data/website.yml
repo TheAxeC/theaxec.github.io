@@ -3,10 +3,10 @@
 ###############
 
 description:
-  title: dr. ir. Axel Faes # Abstract 
-  subtitle: "#LeadingAIinHealth"
+  title: dr. ir. Axel Faes
+  subtitle: "#LeadingAIinPrecisionMedicine"
   biography: |
-    Axel Faes is a postdoctoral researcher in Biomedical Data Sciences at Hasselt University, where he is technical machine learning lead and scientific coordinator of the Flanders AI Research Program's Real World Evidence use case. He holds M.Sc. degrees in Computer Science Engineering and Artificial Intelligence from KU Leuven, where he also completed a PhD in Biomedical Sciences on finger movement decoding using tensor regression modeling. His work bridges computational neuroscience, brain-computer interfaces, and federated learning for multi-modal biomedical and health data, contributing to the development of innovative AI methods that advance biomedical research and clinical practice as part of #LeadingAIinHealth.
+    Axel Faes is a postdoctoral researcher in Biomedical Data Sciences at Hasselt University, where he is technical machine learning lead and scientific coordinator of the Flanders AI Research Program's Real World Evidence use case. He holds M.Sc. degrees in Computer Science Engineering and Artificial Intelligence from KU Leuven, where he also completed a PhD in Biomedical Sciences on finger movement decoding using tensor regression modeling. His work bridges computational neuroscience, brain-computer interfaces, and federated learning for multi-modal biomedical and health data, contributing to the development of innovative AI methods that advance biomedical research and clinical practice as part of #LeadingAIinPrecisionMedicine.
   github: 
     url: https://github.com/TheAxeC
     trophies: ""
@@ -23,9 +23,12 @@ description:
       - url: "https://github.com/TheAxeC/federated-learning-tutorial"
         img: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=federated-learning-tutorial&theme=catppuccin_latte"
         img-dark: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=federated-learning-tutorial&theme=monokai"
-      - url: "https://github.com/TheAxeC/cardinal"
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=cardinal&theme=catppuccin_latte"
-        img-dark: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=cardinal&theme=monokai"
+      - url: "https://github.com/TheAxeC/fl-kit"
+        img: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=fl-kit&theme=catppuccin_latte"
+        img-dark: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=fl-kit&theme=monokai"
+      - url: "https://github.com/TheAxeC/cardinal-revamped"
+        img: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=cardinal-revamped&theme=catppuccin_latte"
+        img-dark: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=cardinal-revamped&theme=monokai"
       - url: "https://github.com/TheAxeC/block-term-tensor-regression"
         img: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=block-term-tensor-regression&theme=catppuccin_latte"
         img-dark: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=block-term-tensor-regression&theme=monokai"
@@ -38,9 +41,14 @@ description:
       url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'
       image: 'assets/images/badges/UHasselt.jpg'
   content_mobile: |
-    Postdoctoral Researcher (`Machine Learning`) @ Biomedical Data Sciences, UHasselt
+    Postdoctoral Researcher (`AI for Precision Medicine`) @ Biomedical Data Sciences, UHasselt
 
     Scientific Coordinator of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE)
+    
+    **Research Focus**:
+      - Foundation models for precision medicine
+      - Federated learning for privacy-preserving healthcare analytics
+      - Multi-modal AI integrating clinical, imaging, and omics data
     
     **Professional Affiliations**:
       - Biomedical Research Institute (BIOMED)
@@ -48,52 +56,53 @@ description:
         
       <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
   content: |
-      - Postdoctoral Researcher (`Machine Learning`) @ Biomedical Data Sciences, UHasselt 
-        - Investigating the use of AI in `real-world evidence` healthcare studies (FAIR UC RWE).
-        - Applying `federated learning` for heart disease prediction (atrial fibrillation risk within 6 to 24 months).
-        - Advancing `Population Health Management` with federated learning for better disease insights, risk prediction, and health equity.
-        - Advancing `Brain-Computer Interfaces` by decoding imagined finger movements from ECoG with `machine learning and tensor regression models`.
-      - Scientific Coordinator of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE)
-      - **Professional Affiliations**:
-        - Biomedical Research Institute (BIOMED) @ UHasselt
-        - Data Science Institute (DSI) @ UHasselt
-        
-      <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
+    - Postdoctoral Researcher (`AI for Precision Medicine`) @ Biomedical Data Sciences, UHasselt 
+      - Developing `foundation models` and `federated learning` frameworks for privacy-preserving analysis of multi-modal biomedical data.
+      - Leading AI research in `precision oncology` using real-world clinical and omics data.
+      - Advancing `precision medicine` through explainable AI that integrates clinical, imaging, and molecular data for early disease detection and risk stratification.
+      - Pioneering `Brain-Computer Interfaces` for precision neuropsychiatry by decoding neural activity with tensor regression and deep learning models.
+      - Advancing `Population Health Management` with federated learning for better disease insights, risk prediction, and health equity.
+    - Scientific Coordinator of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE)
+    - **Professional Affiliations**:
+      - Biomedical Research Institute (BIOMED) @ UHasselt
+      - Data Science Institute (DSI) @ UHasselt
+      
+    <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
   show_portrait: true
-  portrait_url: assets/images/photos/axel.jpg # portrait.jpeg
+  portrait_url: assets/images/photos/axel.jpg
   portrait_height: 500
-  portrait_caption: Building Knowledge, Driving Innovation 
+  portrait_caption: Building Knowledge, Driving Innovation
   research_mobile: |
     **Research**
-      - Investigating the use of AI in `real-world evidence` healthcare studies (FAIR UC RWE).
-      - Federated Enhanced Regression and Medical Analytics with Tensors (FERMAT).
-      - Creating a `federated learning` algorithm for heart disease prediction.
-      - Developing machine learning models for `brain-computer interfaces`.
-      - Side project: working on `algebraic type and effect` systems for functional programming.
+      - Developing `foundation models` for multi-modal integration of clinical, imaging, and omics data.
+      - Advancing `precision medicine` and `precision oncology` through explainable AI frameworks.
+      - Creating `federated learning` algorithms for privacy-preserving healthcare analytics (FAIR UC RWE).
+      - Pioneering `brain-computer interfaces` using deep learning and tensor regression models.
+      - Side project: advancing `algebraic type and effect` systems for functional programming.
   research: |
     **Vision for Research Impact** <a href="research">(view more <i class="fas fa-angle-double-right"></i>)</a>
-    I envision a future where `biomedical data science`, `machine learning`, and `artificial intelligence` are leveraged to revolutionize healthcare. I aim to:
-    - **Innovate in Health Data Analysis**: By developing innovative methods for analyzing and interpreting `complex health data`, I seek to advance the field of `precision medicine` and improve patient outcomes.
-    - **Advance Brain-Computer Interfaces**: My work focuses on the understanding and application of `brain-computer interfaces (BCIs)` and neural decoding, aiming to enhance the interface between technology and neural activity.
-    - **Bridge Research and Practice**: By combining expertise in `data science`, `engineering`, and `medicine`, I aim to bridge the gap between `theoretical` research and `practical` implementations, ultimately contributing to the development of more effective and personalized healthcare solutions.
-
+    I envision a future where `foundation models`, `federated learning`, and `explainable AI` transform precision medicine and healthcare delivery. I aim to:
+    - **Advance Precision Medicine & Oncology**: By developing multi-modal AI systems that integrate clinical, imaging, and omics data, I seek to enable early disease detection, personalized risk prediction, and targeted therapeutic strategies for complex diseases including cancer and cardiovascular disorders.
+    - **Pioneer Privacy-Preserving Healthcare Analytics**: Through federated learning and foundation models, I enable collaborative research across institutions while preserving patient privacy and data sovereignty, accelerating translational research from lab to clinic.
+    - **Bridge AI Innovation and Clinical Practice**: By combining expertise in `machine learning`, `computational neuroscience`, and `biomedical data science`, I develop explainable AI systems that translate cutting-edge algorithms into interpretable, clinically actionable insights for healthcare professionals and pharmaceutical researchers.
   
-  biomed_url: assets/images/dls.webp  
-    # banner2.webp
+  biomed_url: assets/images/dls.webp
   biomed_caption: Innovating Computational Solutions for Real-World Health Challenges
+  education_mobile: |
+    **Education & Teaching**
+      - Teaching `Brain-Computer Interfaces`, `Federated Learning`, `Bioinformatics`, and `Data Science in Healthcare`
+      - Currently completing `BKO` (Basic Teaching Qualification) at UHasselt
+      - Supervised 17+ Master's and PhD students across `AI`, `Statistics & Data Science`, `Computer Science`, and `Biomedical Sciences`
+      - Demonstrated expertise in interdisciplinary education and mentorship
 
-  education_mobile:  |
-      **Education**
-      - I have experience in teaching `Brain-Computer Interfaces`, `Federated Learning`, and `Bioinformatics`, and am currently working to obtain my `BKO` (Basis Kwalificatie Onderwijs) from the UHasselt. 
-      - I have successfully supervised over a dozen Master Thesis students in the field of `AI`, `Statistics & Data Science`, `Computer Science` and `Biomedical Science` showing my skills in interdisciplinary learning. 
+  education: |
+    **Vision for Educational Impact**
+    I envision education in `AI for precision medicine` that bridges computational innovation with clinical application. I aim to:
+    - **Mentor the Next Generation**: Successfully supervised 17+ Master's and doctoral students across `AI`, `Statistics & Data Science`, `Computer Science`, and `Biomedical Sciences`, fostering interdisciplinary thinking and technical excellence.
+    - **Advance Interdisciplinary Education**: Teaching `Brain-Computer Interfaces`, `Federated Learning`, `Data Science in Healthcare`, and `Bioinformatics` to equip students with skills to tackle real-world healthcare challenges using AI.
+    - **Develop Accessible Educational Resources**: Through `open-source projects` (FLkit, BTTR toolkit, federated learning tutorials) and teaching materials, I make advanced AI methods accessible to life scientists and healthcare researchers worldwide, accelerating the translation of computational methods into clinical practice.
+    - **Build Teaching Excellence**: Currently completing my `BKO` (Basic Teaching Qualification) at UHasselt, demonstrating commitment to evidence-based teaching practices and educational innovation.
 
-  education:  |
-      **Vision for Educational Impact**
-      I envision a future where education in `biomedical data science` and `AI` is accessible, engaging, and impactful. I aim to:
-      - **Inspire Future Researchers**: By mentoring students and conducting educational workshops, and have successfully supervised over a dozen Master Thesis students in the field of `AI`, `Statistics & Data Science`, `Computer Science` and `Biomedical Science`.
-      - **Promote Interdisciplinary Learning**: I aim to foster a learning environment that encourages cross-disciplinary collaborations. I teach `Brain-Computer Interfaces`, `Federated Learning`, `Data Science in Healthcare` and `Bioinformatics`.
-      - **Develop Educational Resources**: Through my publications and `open-source projects` I plan to provide comprehensive resources that make advanced topics in AI and biomedical data science more accessible to learners worldwide.
-      
   mission_url: assets/images/biomed.webp
   mission_caption: Educating the Next Generation of Innovators
   
@@ -105,7 +114,6 @@ description:
     Fundamentals to Frontlines: AI in Health
     Nerding Out on Health Innovations
     #LeadingAIinHealth
-
 
 research:
   title: Research Diary
@@ -143,7 +151,7 @@ references:
       platform: axel.faes[at]uhasselt.be
 
     - name: fas fa-file-alt
-      url: /cv.pdf # html
+      url: /cv.pdf
       platform: Curriculum Vitae
     
     - name: fas fa-home
@@ -178,7 +186,7 @@ footer:
     title: >-
       dr. ir. Axel Faes 
 
-      Leading AI in Health Research
+      Leading AI in Precision Medicine
     url: 
 
 ##################
