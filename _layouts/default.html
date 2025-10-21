@@ -3,10 +3,47 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="website"/>
-    <meta name="author" content={{ site.data.data.personal.name }}/>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.website.description.biography | strip_html | truncate: 160 }}{% endif %}"/>
+    <meta name="author" content="{{ site.data.data.personal.name }}"/>
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}machine learning, biomedical data science, federated learning, brain-computer interfaces, AI in healthcare{% endif %}"/>
     <title>{{ page.title }} - {{ site.data.website.header.intro }}</title>
     <link rel="icon" href="{{ site.data.website.footer.left.url }}" type="image/icon type">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:title" content="{{ page.title }} - {{ site.data.website.header.intro }}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.website.description.biography | strip_html | truncate: 160 }}{% endif %}">
+    <meta property="og:image" content="{{ site.data.website.description.portrait_url | absolute_url }}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ page.url | absolute_url }}">
+    <meta property="twitter:title" content="{{ page.title }} - {{ site.data.website.header.intro }}">
+    <meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.website.description.biography | strip_html | truncate: 160 }}{% endif %}">
+    <meta property="twitter:image" content="{{ site.data.website.description.portrait_url | absolute_url }}">
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ site.data.website.description.title }}",
+      "jobTitle": "Postdoctoral Researcher in Biomedical Data Sciences",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Hasselt University"
+      },
+      "description": "{{ site.data.website.description.biography | strip_html | truncate: 200 }}",
+      "url": "{{ '/' | absolute_url }}",
+      "image": "{{ site.data.website.description.portrait_url | absolute_url }}",
+      "sameAs": [
+        "{{ site.data.website.references.content[4].url }}",
+        "{{ site.data.website.references.content[5].url }}",
+        "{{ site.data.website.references.content[6].url }}"
+      ]
+    }
+    </script>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
@@ -39,15 +76,6 @@
 
         <!-- Toggle dark/light theme button -->
         <button class="toggle-theme-button" onclick="toggleTheme()">☀️</button>
-        
-        <!-- Assitant icon saying about theme changes -->
-        <!-- <div class="popup-icon-container" id="popupIconContainer" draggable="true"> -->
-            <!-- <div class="icon"><img src="{{ site.icon-pic }}" width="65" height="65"></div> -->
-            <!-- <div class="speech-balloon"></div> -->
-        <!-- </div> -->
-        
-        <!-- Dismissal area for assistant icon -->
-        <div class="dismissal-area" id="dismissalArea">&#10006;</div>
 
         <!-- Content -->
         {% include general/navbar.html %}
