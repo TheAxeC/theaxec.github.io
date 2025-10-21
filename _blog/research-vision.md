@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Research Vision"
-picture: /assets/images/projects/default.webp
+picture: /assets/images/projects/project.webp
 category: research
+date: 2025-05-15
 publish: True
 ---
 

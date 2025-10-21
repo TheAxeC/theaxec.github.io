@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "Educational Vision: Learning to Teach While Learning to Lead"
-picture: /assets/images/projects/default.webp
+title:  "Learning to Teach While Learning to Lead"
+picture: /assets/images/projects/conference.webp
 category: research
 publish: True
+date: 2025-10-06
 ---
+
+# What if work is too rough
 
 I'm writing this at the end of a particularly intense period—two papers just submitted, multiple grant applications in various stages, and the final stretch of my BKO (Basic Teaching Qualification) at UHasselt. The pressure of postdoc life—securing funding, maintaining research output, developing as an educator—is very real.
 
