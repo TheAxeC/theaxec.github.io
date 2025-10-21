@@ -65,7 +65,7 @@ papers-in-preparation:
           order: senior
           pub_pre: "Submitted to "
           book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
-          cover: /assets/images/covers/publication-journal.webp
+          cover: /assets/images/covers/publication-senior.webp
           pub_date: 2025
         - authors: Ward Ceyssens, Axel Faes
           title: Cross Subject training for finger movement decoding with high-density ECoG
@@ -75,7 +75,7 @@ papers-in-preparation:
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
           book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
-          cover: /assets/images/covers/publication-journal.webp
+          cover: /assets/images/covers/publication-senior.webp
           pub_date: 2025
         - authors: Dries Cornelissen, Axel Faes
           title: Block-Term Decomposition for arrhythmia detection and prediction on sinus rhythms
@@ -85,7 +85,7 @@ papers-in-preparation:
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
           book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
-          cover: /assets/images/covers/publication-journal.webp
+          cover: /assets/images/covers/publication-senior.webp
           pub_date: 2025
         - authors: Meseret Assefa Kerga, Axel Faes
           title: "Predicting Cirrhosis Patient Survival Using Machine Learning: A Data-Driven Approach"
@@ -95,7 +95,7 @@ papers-in-preparation:
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
           book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
-          cover: /assets/images/covers/publication-journal.webp
+          cover: /assets/images/covers/publication-senior.webp
           pub_date: 2025
 journal:
     title: International Journal Papers
@@ -202,12 +202,12 @@ conference:
           title: "Optimizing Federated Block-Term Tensor Regression: Strategy Comparisons and Applications"
           url: ""
           book: "The 3rd International Conference on Foundation and Large Language Models (FLLM2025)"
-          # pub_pre: "Submitted to "
+          
           pub_post: '[Symposium on Federated Learning and Intelligent Computing Systems (FLICS 2025)]'
           pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
           pub_date: 2025
           selected: true
-          cover: /assets/images/covers/publication-journal.webp
+          cover: /assets/images/covers/publication-conference.webp
           hide: false
           abstract: >-
             Block-Term Tensor Regression (BTTR) is a multilinear modeling framework suited for high-dimensional biomedical data, but its centralized implementation conflicts with privacy and regulatory constraints. To overcome this, we propose Federated Block-Term Tensor Regression (FBTTR), which integrates BTTR into a federated learning setting. We systematically evaluate multiple federated aggregation strategies, including FedAvg, FedYogi, and FedAdam, to assess their effect on model performance and stability. Experiments on the BCI Competition IV dataset demonstrate that the choice of strategy strongly influences predictive accuracy: FedAvg yields the most stable and accurate results across subjects, while adaptive methods such as FedYogi and FedAdam show less consistent performance. These findings highlight the importance of strategy selection in federated learning and establish FBTTR as a practical approach for privacy-preserving analysis of multi-institutional biomedical data.
@@ -219,7 +219,7 @@ conference:
           pub_date: 2025
           selected: true
           order: "first"
-          cover: /assets/images/covers/publication-journal.webp
+          cover: /assets/images/covers/publication-conference.webp
           hide: false
           abstract: >-
             Block-Term Tensor Regression (BTTR) has proven to be a powerful tool for modeling complex, high-dimensional data by leveraging multilinear relationships, making it particularly well-suited for applications in healthcare and neuroscience. However, traditional implementations of BTTR rely on centralized datasets, which pose significant privacy risks and hinder collaboration across institutions. To address these challenges, we introduce Federated Block-Term Tensor Regression (FBTTR), an extension of BTTR designed for federated learning scenarios. FBTTR enables decentralized data analysis, allowing institutions to collaboratively build predictive models while preserving data privacy and complying with regulations.

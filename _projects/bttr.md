@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Block-Term Tensor Regression"
-picture: /assets/images/projects/default.webp
+picture: /assets/images/projects/publication.webp
 duration: Jan. 2019 - Current
 role: Lead Researcher
 publish: True

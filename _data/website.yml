@@ -86,7 +86,7 @@ description:
     - **Pioneer Privacy-Preserving Healthcare Analytics**: Through federated learning and foundation models, I enable collaborative research across institutions while preserving patient privacy and data sovereignty, accelerating translational research from lab to clinic.
     - **Bridge AI Innovation and Clinical Practice**: By combining expertise in `machine learning`, `computational neuroscience`, and `biomedical data science`, I develop explainable AI systems that translate cutting-edge algorithms into interpretable, clinically actionable insights for healthcare professionals and pharmaceutical researchers.
   
-  biomed_url: assets/images/dls.webp
+  biomed_url: assets/images/webpage/dls.webp
   biomed_caption: Innovating Computational Solutions for Real-World Health Challenges
   education_mobile: |
     **Education & Teaching**
@@ -103,7 +103,7 @@ description:
     - **Develop Accessible Educational Resources**: Through `open-source projects` (FLkit, BTTR toolkit, federated learning tutorials) and teaching materials, I make advanced AI methods accessible to life scientists and healthcare researchers worldwide, accelerating the translation of computational methods into clinical practice.
     - **Build Teaching Excellence**: Currently completing my `BKO` (Basic Teaching Qualification) at UHasselt, demonstrating commitment to evidence-based teaching practices and educational innovation.
 
-  mission_url: assets/images/biomed.webp
+  mission_url: assets/images/webpage/biomed.webp
   mission_caption: Educating the Next Generation of Innovators
   
   other: >-
@@ -117,7 +117,6 @@ description:
 
 research:
   title: Research Diary
-  image: assets/images/research.webp
   content: |
     Welcome to my research corner, where I delve into the intersection of `AI` and health sciences. Here, you’ll find my latest projects, blog posts, and insights on leveraging AI for real-world applications, from predicting `heart diseases` to developing `brain-computer interfaces`. Join me as I explore innovative solutions that push the boundaries of healthcare technology.
 
@@ -125,7 +124,6 @@ research:
 # Website content #
 ###################
 
-banner: /assets/images/covers/banner.webp
 header:
   intro: dr. ir. Axel Faes
   error: The requested page could not be found.
@@ -211,7 +209,43 @@ covers:
 ##################
 
 updates:
-  - picture: /assets/images/updates/editor.webp
+  # - picture: /assets/images/updates/collaboration.webp
+  #   desc: New position as Postdoctoral Researcher at University of Twente focusing on Foundation Models & Multi-Modal Federated Learning for HCC Detection
+  #   time: January 2026
+  - picture: /assets/images/updates/publication.webp
+    desc: Paper accepted at FLLM2025 - "Optimizing Federated Block-Term Tensor Regression" (Spotlight presentation)
+    time: January 2025
+  - picture: /assets/images/updates/conference.webp
+    desc: Presented at IEEE FLTA on "Federated Learning for Healthcare - From Brain-Computer Interfaces to Disease Prediction"
+    time: 2025
+  - picture: /assets/images/updates/publication.webp
+    desc: Paper accepted at IEEE FLTA 2025 - "Applying Federated Learning to Block-Term Tensor Regression" (Spotlight presentation)
+    time: January 2025
+  - picture: /assets/images/updates/publication.webp
+    desc: New paper published in npj Digital Medicine (IF 15.357) on "Personalized Federated Learning for Predicting Disability Progression in Multiple Sclerosis"
+    time: January 2025
+  - picture: /assets/images/updates/publication.webp
+    desc: Editorial published in Frontiers in Immunology - "The use of big data and AI in MS"
+    time: January 2025
+  - picture: /assets/images/updates/teaching.webp
+    desc: Started coordinating Bioinformatics (3740) course at UHasselt
+    time: September 2025
+  - picture: /assets/images/updates/teaching.webp
+    desc: Enrolled in BKO (Basic Teaching Qualification) track at UHasselt
+    time: 2025
+  - picture: /assets/images/updates/project.webp
+    desc: Became VLAIO Evaluator for BAEKELAND SPIN OFF MANDATES
+    time: 2025
+  - picture: /assets/images/updates/project.webp
+    desc: Launched FLkit (Federated Learning Kit) - open-source community project for life scientists
+    time: 2025
+  - picture: /assets/images/updates/project.webp
+    desc: Released Wisconsin Breast Cancer Dataset Research Tutorial for Federated Learning
+    time: 2025
+  - picture: /assets/images/updates/conference.webp
+    desc: Presented at FAIR Research Day on "Use Case - Real-World Evidence"
+    time: 2024
+  - picture: /assets/images/updates/project.webp
     desc: Guest Associate Editor, Frontiers in Immunology for the Research Topic "Use of Big Data and Artificial Intelligence in Multiple Sclerosis"
     time: June 2024
   - picture: /assets/images/updates/conference.webp

@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Bullet Journaling"
-picture: /assets/images/projects/default.webp
+picture: /assets/images/projects/project.webp
 category: research
-publish: False
+publish: True
+date: 2025-03-15
 ---
 
 # Bullet Journal

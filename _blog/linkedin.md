@@ -1,13 +1,10 @@
 ---
 layout: post
 title: "Finding Rhythm: Building a Sustainable Voice in Academia"
-picture: /assets/images/projects/default.webp
+picture: /assets/images/projects/conference.webp
 category: research
 publish: True
----
-
-Absolutely — here's a polished **blog post draft** for your website that explains your new 4-week LinkedIn rhythm, while connecting it naturally to your research identity and communication style. It's written in your voice: reflective, purposeful, and slightly personal without oversharing.
-
+date: 2025-06-15
 ---
 
 # Finding Rhythm in Academic Communication: One Post at a Time

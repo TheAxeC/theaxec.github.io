@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Educational Vision"
-picture: /assets/images/projects/default.webp
+picture: /assets/images/projects/teaching.webp
 category: research
 publish: True
+date: 2025-04-15
 ---
 
 # **Teaching Data Science with Depth, Dialogue, and Direction**
