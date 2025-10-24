@@ -143,7 +143,38 @@ keywords: "AI research, federated learning projects, BCI research, GitHub reposi
                     <!-- </div> -->
                 </div>
             </div>
-        </div>        
+        </div>
     </div>
 </div>
+{% endif %}
+
+{% assign linkedin_len = site.linkedin | where_exp: "page","page.publish" | size %}
+{% if site.data.website.show_linkedin %}
+{% if linkedin_len > 0 %}
+<div class="row mt-3">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-5">
+                <div class="row">
+                    <h2 class="mb-2">LinkedIn Posts</h2>
+                </div>
+                <div class="row">
+                        {% assign sorted_linkedin = site.linkedin | sort: 'date' | reverse %}
+                        {% for update in sorted_linkedin %}
+                        {% if update.publish %}
+                        <div class="col-12 col-md-6 col-lg-3 col-xl-2 col-sm-12 p-0">
+                            <div class="card ml-2 mr-2 mb-3 news-card" > <a href="{{ update.url }}">
+                                <img src="{{ update.picture }}" class="figure-img img-fluid img-thumbnail w-full rounded-lg">
+                                <div class="news-desc">{{ update.title }}</div>
+                                <div class="news-time">{{ update.category }}</div>
+                            </a></div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
 {% endif %}

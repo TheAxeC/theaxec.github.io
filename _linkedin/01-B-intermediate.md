@@ -1,3 +1,12 @@
+---
+layout: post
+title: "What Brings Me Back: Rediscovering Research Passion After Burnout"
+picture: /assets/images/projects/conference.webp
+category: reflection
+publish: True
+date: 2025-01-22
+---
+
 Last week I wrote about burnout. This week: what brings me back 🌟
 
 After the whirlwind of deadlines and submissions, I took a moment to reconnect with why I love this work.

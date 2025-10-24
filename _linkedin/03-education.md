@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Beyond the Algorithm: Why Trust Matters More Than Technology in Federated Learning"
+picture: /assets/images/projects/publication.webp
+category: thought-leadership
+publish: True
+date: 2025-02-05
+---
+
 Federated learning isn't just about moving models instead of data.
 It's about trust. 🤝
 
