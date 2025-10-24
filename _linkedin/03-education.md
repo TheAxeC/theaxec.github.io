@@ -1,19 +1,21 @@
-Federated learning isn’t just about moving models instead of data.
-It’s about trust. 🤝
+Federated learning isn't just about moving models instead of data.
+It's about trust. 🤝
 
-We often talk about the “privacy” side — keeping data local — but in healthcare, that’s just the starting point.
-The real challenge is convincing hospitals, researchers, and regulators that collaboration is safe, fair, and worthwhile.
+We talk a lot about the technical side—keeping data local, optimizing communication rounds, handling non-IID distributions. But in healthcare, those are solvable problems.
 
-In practice, most of the hard problems are social and organizational, not purely technical:
+The hard part? Convincing hospitals, researchers, and regulators that collaboration is actually safe, fair, and worthwhile.
 
-Who owns the model?
+In practice, most barriers are organizational, not technical:
 
-Who’s responsible when it fails?
+- Who owns the model when five institutions contributed data?
+- Who's liable when it fails in a clinical setting?
+- How do we ensure reproducibility when the data never leave the site?
+- How do we verify fairness across institutions with different patient populations?
 
-How do we make results reproducible when the data never leave the site?
+I'm increasingly convinced that the next breakthroughs in federated learning won't come from better algorithms—they'll come from frameworks for governance, transparency, and accountability that make collaboration actually work in practice.
 
-I think the next big advances in federated learning won’t come from new algorithms but from better frameworks for governance, transparency, and accountability.
+The technical foundations are maturing. The institutional infrastructure? That's where the real work begins.
 
-What’s your take — is federated learning more a technical innovation or a cultural shift?
+One of the biggest takeaways from FLTA2025: the conversations about deployment barriers were more valuable than any algorithm discussion. 📍 Dubrovnik
 
-#FederatedLearning #AIinHealthcare #DataGovernance #MachineLearning
+hashtag#FederatedLearning hashtag#AIinHealthcare hashtag#DataGovernance hashtag#MachineLearning
