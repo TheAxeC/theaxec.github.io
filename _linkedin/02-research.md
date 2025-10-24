@@ -1,3 +1,12 @@
+---
+layout: post
+title: "FLTA 2025: Federated Learning for Brain-Computer Interfaces and Clinical Prediction"
+picture: /assets/images/projects/conference.webp
+category: research
+publish: True
+date: 2025-01-29
+---
+
 Excited to be heading to FLTA 2025 (3rd International Conference on Federated Learning Technologies and Applications)! 🎤
 I'll be presenting work on extending Block-Term Tensor Regression to federated settings for privacy-preserving analysis of biomedical data, specifically brain-computer interfaces and clinical risk prediction.
 But honestly, what I'm most looking forward to is the conversations 💬

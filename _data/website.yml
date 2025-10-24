@@ -144,6 +144,8 @@ header:
     - name: Publications
       url: /publications
 
+show_linkedin: false
+
 ######################
 # Website References #
 ######################

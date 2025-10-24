@@ -16,6 +16,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  linkedin:
+    output: true
+    permalink: /linkedin/:path/
 
 include: ['_pages']
 
