@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Cardinal: Scripting Language"
+title:  "Cardinal - a Scripting Language for Education and Research"
 picture: /assets/images/projects/project.webp
-duration: Jan. 2015 - Current
-role: Lead Developer
+category: research
 publish: True
+date: 2025-08-15
 ---
 
 # Introducing Cardinal: A Lightweight Scripting Language for Education and Research

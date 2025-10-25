@@ -7,34 +7,6 @@ description:
   subtitle: "#LeadingAIinHealth"
   biography: |
     Axel Faes is a postdoctoral researcher in Biomedical Data Sciences at Hasselt University, where he is technical machine learning lead and scientific coordinator of the Flanders AI Research Program's Real World Evidence use case. He holds M.Sc. degrees in Computer Science Engineering and Artificial Intelligence from KU Leuven, where he also completed a PhD in Biomedical Sciences on finger movement decoding using tensor regression modeling. His work bridges computational neuroscience, brain-computer interfaces, and federated learning for multi-modal biomedical and health data, contributing to the development of innovative AI methods that advance biomedical research and clinical practice as part of #LeadingAIinHealth.
-  github: 
-    url: https://github.com/TheAxeC
-    trophies: ""
-    stats: "https://github-readme-stats.vercel.app/api?username=theaxec&theme=catppuccin_latte&show_icons=true&include_all_commits=true"
-    stats-dark: "https://github-readme-stats.vercel.app/api?username=theaxec&theme=monokai&show_icons=true&include_all_commits=true"
-    stats-alt: "TheAxeC's GitHub Stats"
-    languages: "https://github-readme-stats.vercel.app/api/top-langs/?username=theaxec&layout=compact&hide=html,CSS&langs_count=8&theme=catppuccin_latte"
-    languages-dark: "https://github-readme-stats.vercel.app/api/top-langs/?username=theaxec&layout=compact&hide=html,CSS&langs_count=8&theme=monokai"
-    languages-alt: "TheAxeC's Top Languages"
-    overview: "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theaxec&theme=nord_bright"
-    overview-dark: "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theaxec&theme=monokai"
-    overview-alt: "TheAxeC's Profile Overview"
-    pins:
-      - url: "https://github.com/TheAxeC/federated-learning-tutorial"
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=federated-learning-tutorial&theme=catppuccin_latte"
-        img-dark: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=federated-learning-tutorial&theme=monokai"
-      - url: "https://github.com/TheAxeC/fl-kit"
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=fl-kit&theme=catppuccin_latte"
-        img-dark: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=fl-kit&theme=monokai"
-      - url: "https://github.com/TheAxeC/cardinal-revamped"
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=cardinal-revamped&theme=catppuccin_latte"
-        img-dark: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=cardinal-revamped&theme=monokai"
-      - url: "https://github.com/TheAxeC/block-term-tensor-regression"
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=block-term-tensor-regression&theme=catppuccin_latte"
-        img-dark: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=block-term-tensor-regression&theme=monokai"
-      - url: "https://github.com/TheAxeC/theaxec.github.io"
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=theaxec.github.io&theme=catppuccin_latte"
-        img-dark: "https://github-readme-stats.vercel.app/api/pin/?username=theaxec&repo=theaxec.github.io&theme=monokai"
 
   positions:
     - name: 'Postdoctoral Researcher'
@@ -112,15 +84,6 @@ description:
 
   mission_url: assets/images/webpage/biomed.webp
   mission_caption: Educating the Next Generation of Innovators
-  
-  other: >-
-    Teaching Tomorrow's Technology Leaders
-    Inspiring Minds with Data Science
-    Transforming Data into Lifesaving Insights
-    Crafting Algorithms, Creating Impact
-    Fundamentals to Frontlines: AI in Health
-    Nerding Out on Health Innovations
-    #LeadingAIinHealth
 
 research:
   title: Research Diary
@@ -137,14 +100,12 @@ header:
   navigation: 
     - name: Home
       url: /
-    - name: Research
-      url: /research
+    - name: Blog
+      url: /blog
     - name: About
       url: /about
     - name: Publications
       url: /publications
-
-show_linkedin: false
 
 ######################
 # Website References #
@@ -193,7 +154,7 @@ footer:
     title: >-
       dr. ir. Axel Faes 
 
-      Leading AI in Precision Medicine
+      Leading AI in Health
     url: 
 
 ##################
