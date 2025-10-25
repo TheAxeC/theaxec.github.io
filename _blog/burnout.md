@@ -2,7 +2,7 @@
 layout: post
 title:  "Learning to Teach While Learning to Lead"
 picture: /assets/images/projects/conference.webp
-category: research
+category: reflection
 publish: True
 date: 2025-10-06
 ---

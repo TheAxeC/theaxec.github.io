@@ -2,7 +2,7 @@
 layout: post
 title:  "Bullet Journaling"
 picture: /assets/images/projects/project.webp
-category: research
+category: reflection
 publish: True
 date: 2025-03-15
 ---

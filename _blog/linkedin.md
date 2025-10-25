@@ -2,7 +2,7 @@
 layout: post
 title: "Finding Rhythm: Building a Sustainable Voice in Academia"
 picture: /assets/images/projects/conference.webp
-category: research
+category: reflection
 publish: True
 date: 2025-06-15
 ---

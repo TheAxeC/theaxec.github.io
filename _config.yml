@@ -13,9 +13,6 @@ collections:
   blog:
     output: true
     permalink: /blog/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
   linkedin:
     output: true
     permalink: /linkedin/:path/
