@@ -6,18 +6,23 @@ description:
   title: dr. ir. Axel Faes
   subtitle: "#LeadingAIinHealth"
   biography: |
-    Axel Faes is a postdoctoral researcher in Biomedical Data Sciences at Hasselt University, where he is technical machine learning lead and scientific coordinator of the Flanders AI Research Program's Real World Evidence use case. He holds M.Sc. degrees in Computer Science Engineering and Artificial Intelligence from KU Leuven, where he also completed a PhD in Biomedical Sciences on finger movement decoding using tensor regression modeling. His work bridges computational neuroscience, brain-computer interfaces, and federated learning for multi-modal biomedical and health data, contributing to the development of innovative AI methods that advance biomedical research and clinical practice as part of #LeadingAIinHealth.
+    Axel Faes is a postdoctoral researcher in AI for healthcare, specializing in federated learning, precision medicine, and brain-computer interfaces. At the University of Twente (Cognition, Data and Education), he develops foundation models and explainable AI integrating longitudinal MRI, multi-omics, and clinical data for early hepatocellular carcinoma detection within the AI-HCC ZonMw project.
+    Previously at Hasselt University's Biomedical Data Sciences group, he served as technical machine learning lead and scientific coordinator of the Flanders AI Research Program's Real World Evidence use case, advancing cardiovascular disease prediction and population health management through federated learning. He holds M.Sc. degrees in Computer Science Engineering and Artificial Intelligence from KU Leuven, where he also completed a PhD in Biomedical Sciences on finger movement decoding using tensor regression modeling.
+    His research bridges computational neuroscience, brain-computer interfaces, and privacy-preserving AI for multi-modal biomedical data, contributing to innovative methods that advance precision oncology and clinical practice.
 
   positions:
     - name: 'Postdoctoral Researcher'
+      url: 'https://www.utwente.nl/en/bms/code/'
+      image: 'assets/images/badges/Twente.png'
+    - name: 'Research Affiliate'
       url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'
       image: 'assets/images/badges/UHasselt.jpg'
   content_mobile: |
     AI Researcher in Healthcare - 🤖 Federated Learning • 🧬 Precision Medicine • 🧠 Brain-Computer Interfaces
 
-    Incoming Postdoctoral Researcher (`Multi-Modal AI for Precision Medicine`) @ University of Twente (starting December 2025)
+    Postdoctoral Researcher (`Multi-Modal AI for Precision Medicine`) @ University of Twente
 
-    Current: Postdoctoral Researcher @ Biomedical Data Sciences, UHasselt
+    Research Affiliate (`AI for Healthcare`) @ Biomedical Data Sciences, UHasselt
 
     **Research Focus**:
       - Foundation models for precision medicine
@@ -33,11 +38,11 @@ description:
       <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
   content: |
     - `AI Researcher` in Healthcare - 🤖 `Federated Learning` • 🧬 `Precision Medicine` • 🧠 `Brain-Computer Interfaces`
-    - **Incoming Postdoctoral Researcher** (`Multi-Modal AI for Precision Medicine`) @ University of Twente (Cognition, Data and Education, CODE)
+    - **Postdoctoral Researcher** (`Multi-Modal AI for Precision Medicine`) @ University of Twente (Cognition, Data and Education, CODE)
       - Developing `multi-modal federated AI` and `explainable AI (XAI)` integrating longitudinal MRI, multi-omics, and clinical data for early hepatocellular carcinoma detection and risk prediction (AI-HCC ZonMw project).
       - Pioneering `foundation models` with transformer architectures for temporal dynamics in imaging and omics data, bridging innovation with clinical translation in `precision oncology`.
-    - **Current: Postdoctoral Researcher** (`AI for Healthcare`) @ Biomedical Data Sciences, UHasselt 
-      - Leading cardiovascular disease prediction using `real-world evidence` and `federated learning` for privacy-preserving analysis (FAIR UC RWE, continuing as volunteer).
+    - **Research Affiliate** (`AI for Healthcare`) @ Biomedical Data Sciences, UHasselt 
+      - Leading cardiovascular disease prediction using `real-world evidence` and `federated learning` for privacy-preserving analysis (FAIR UC RWE, continuing as Research Affiliate).
       - Advancing `Population Health Management` with federated learning for disease insights, risk prediction, and health equity.
       - Pioneering `Brain-Computer Interfaces` for precision neuropsychiatry via tensor regression and deep learning.
 
@@ -115,6 +120,10 @@ references:
   title: References
   content:
     - name:  fas fa-at
+      url: mailto:axel.faes@utwente.nl
+      platform: axel.faes[at]utwente.nl
+    
+    - name: fas fa-at
       url: mailto:axel.faes@uhasselt.be
       platform: axel.faes[at]uhasselt.be
 
