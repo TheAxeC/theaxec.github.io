@@ -16,7 +16,7 @@ personal:
   author: Axel Faes
   website: https://theaxec.github.io
   links:
-    email: axel.faes[at]uhasselt.be
+    email: axel.faes[at]utwente.nl
     googlescholar: abRAHJEAAAAJ
     linkedin: axelfaes
     github: TheAxeC
@@ -49,7 +49,7 @@ experience:
       cover: /assets/images/covers/about-postdoc.webp
     - title: "Postdoctoral Researcher: Federated Learning in Healthcare & Real-World Evidence"
       location: UHasselt
-      duration: January 2024 - January 2026
+      duration: January 2024 - January 2026 (Research Affiliate from 2026)
       min: true
       about: |
         Scientific Coordinator of the Flanders AI Research Program Use Case Real World Evidence, leading multi-institutional research on privacy-preserving healthcare analytics. As Technical Machine Learning Lead of the Biomedical Data Sciences Group, developed federated learning frameworks enabling collaborative clinical research across Belgian healthcare institutions without sharing sensitive patient data.
