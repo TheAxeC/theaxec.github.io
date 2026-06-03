@@ -11,6 +11,8 @@ keywords: "Axel Faes, machine learning, biomedical data science, federated learn
 
 {% include widgets/index_details.html %}
 
+{% include widgets/index_metrics.html %}
+
 {% include widgets/index_updates.html %}
 
 {% for item in site.data.publications %}

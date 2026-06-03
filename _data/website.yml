@@ -95,6 +95,28 @@ research:
   content: |
     Welcome to my research corner, where I advance `AI for precision medicine`. Here, you'll find projects, insights, and innovations in `multi-modal federated AI`, `foundation models`, and `explainable AI` applied to real-world healthcare challenges—from hepatocellular carcinoma detection and cardiovascular risk prediction to neural decoding for `brain-computer interfaces`. Join me as I translate cutting-edge AI methods into clinical impact.
 
+###########
+# Metrics #
+###########
+# "At a glance" stats. Bibliometrics from Google Scholar — update periodically.
+metrics:
+  title: Research at a Glance
+  note: 'Bibliometrics via Google Scholar (June 2026)'
+  url: 'https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ'
+  stats:
+    - value: '95'
+      label: Citations
+      icon: fas fa-quote-right
+    - value: '7'
+      label: h-index
+      icon: fas fa-chart-line
+    - value: '14'
+      label: Peer-Reviewed Papers
+      icon: fas fa-file-lines
+    - value: '17+'
+      label: Students Supervised
+      icon: fas fa-user-graduate
+
 ###################
 # Website content #
 ###################

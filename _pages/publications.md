@@ -9,6 +9,8 @@ body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
 
+{% include widgets/index_metrics.html %}
+
 {% assign i = 0 %}
 <div class="row">
     <div class="col-12 col-lg-10">
