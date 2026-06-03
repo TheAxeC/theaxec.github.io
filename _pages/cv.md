@@ -1,6 +1,7 @@
 ---
 layout: cv
 title : Resume
+navbar_name: CV
 permalink: /cv.html
 ---
 

@@ -29,18 +29,25 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "{{ site.data.website.description.title }}",
-      "jobTitle": "Postdoctoral Researcher in Biomedical Data Sciences",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Hasselt University"
-      },
+      "jobTitle": "Postdoctoral Researcher in AI for Healthcare",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Twente"
+        },
+        {
+          "@type": "Organization",
+          "name": "Hasselt University"
+        }
+      ],
       "description": "{{ site.data.website.description.biography | strip_html | truncate: 200 }}",
       "url": "{{ '/' | absolute_url }}",
       "image": "{{ site.data.website.description.portrait_url | absolute_url }}",
       "sameAs": [
         "{{ site.data.website.references.content[4].url }}",
         "{{ site.data.website.references.content[5].url }}",
-        "{{ site.data.website.references.content[6].url }}"
+        "{{ site.data.website.references.content[6].url }}",
+        "{{ site.data.website.references.content[7].url }}"
       ]
     }
     </script>

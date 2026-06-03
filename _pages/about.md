@@ -4,7 +4,7 @@ title : About
 navbar_name: About
 num_selected: 10
 permalink: /about
-description: "About Dr. Axel Faes - Background, education, and professional experience in AI, biomedical sciences, and machine learning research at UHasselt."
+description: "About Dr. Axel Faes - Background, education, and professional experience in AI for healthcare and machine learning research at the University of Twente and UHasselt."
 keywords: "Axel Faes biography, UHasselt, biomedical data sciences, machine learning researcher, PhD biomedical sciences"
 ---
 

@@ -64,7 +64,7 @@ description:
       - Pioneering `brain-computer interfaces` using deep learning and tensor regression models.
       - Side project: advancing `algebraic type and effect` systems for functional programming.
   research: |
-    **Vision for Research Impact** <a href="research">(view more <i class="fas fa-angle-double-right"></i>)</a>
+    **Vision for Research Impact** <a href="/about">(view more <i class="fas fa-angle-double-right"></i>)</a>
     I envision a future where `foundation models`, `federated learning`, and `explainable AI` transform precision medicine and healthcare delivery. I aim to:
     - **Advance Precision Medicine & Oncology**: By developing multi-modal AI systems that integrate `clinical, imaging, and omics data`, I seek to enable early disease detection, personalized risk prediction, and targeted therapeutic strategies for complex diseases including cancer and cardiovascular disorders.
     - **Pioneer Privacy-Preserving Healthcare Analytics**: Through `federated learning` and `foundation models`, I enable collaborative research across institutions while preserving patient privacy and data sovereignty, accelerating translational research from lab to clinic.
@@ -111,6 +111,8 @@ header:
       url: /about
     - name: Publications
       url: /publications
+    - name: CV
+      url: /cv.html
 
 ######################
 # Website References #
