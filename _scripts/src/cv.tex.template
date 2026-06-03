@@ -87,16 +87,6 @@ for title in data['personal']['titles']:
   { {% emit(data['personal']['first-name']+" "+data['personal']['last-name']) %}~~~·~~~Curriculum Vitae}
   {} % \thepage
  
-\cvsection{{% emit(data['references']['title']) %}}
-\begin{cvoneliners}
-{%
-  for i in (data['references']['content']):
-    emit_tex('\\cvoneliner ')
-    emit_braces(i['name'])
-    emit_braces(i['email'])
-    emit_braces(i['reason'])
-%}
-\end{cvoneliners}
 \input{cv/experience.tex}
 \cvsection{{% emit(data['academic']['title']) %}}
 \begin{cvoneliners}
@@ -114,6 +104,17 @@ for title in data['personal']['titles']:
 \input{cv/extracurricular.tex}
 \newpage
 {% check_minimal("\\input{cv/publications.tex}") %}
+
+\cvsection{{% emit(data['references']['title']) %}}
+\begin{cvoneliners}
+{%
+  for i in (data['references']['content']):
+    emit_tex('\\cvoneliner ')
+    emit_braces(i['name'])
+    emit_braces(i['email'])
+    emit_braces(i['reason'])
+%}
+\end{cvoneliners}
 
 %-------------------------------------------------------------------------------
 \end{document}

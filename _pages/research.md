@@ -14,7 +14,7 @@ keywords: "Axel Faes research, foundation models, federated learning, precision 
 
 # Research
 
-I build **AI systems that learn from sensitive, multi-modal biomedical data without compromising patient privacy**, and I translate them into tools clinicians can actually trust. My work sits at the intersection of three areas that have converged over the course of my career: **multi-modal foundation models**, **privacy-preserving federated learning**, and **neural decoding for brain-computer interfaces**. My current methodological focus is on **deep learning** and **explainable AI (XAI)** — designing architectures expressive enough to capture multi-modal biomedical signal, and interpretable enough for clinicians to trust. The connective tissue across all three areas is a single motivating question: *how do we turn high-dimensional, fragmented, privacy-constrained health data into clinically actionable insight?*
+I build **AI systems that learn from sensitive, multi-modal biomedical data without compromising patient privacy**, and I translate them into tools clinicians can actually trust. My work sits at the intersection of three areas that have converged over the course of my career: **multi-modal foundation models**, **privacy-preserving federated learning**, and **neural decoding for brain-computer interfaces**. My current methodological focus is on **deep learning** and **explainable AI (XAI)** — designing architectures expressive enough to capture multi-modal biomedical signal, and interpretable enough for clinicians to rely on. The connective tissue across all three areas is a single motivating question: *how do we turn high-dimensional, fragmented, privacy-constrained health data into clinically actionable insight?*
 
 </div>
         </div>
@@ -42,7 +42,7 @@ My doctoral and postdoctoral research decoded **finger movements and sign-langua
 
 ### A cross-cutting methodological thread
 
-These themes are not separate projects but one research programme. The tensor methods I developed for neural decoding became the basis for **federated** regression on clinical data; that foundation now drives my work on **deep learning architectures** and **explainable AI** for multi-modal precision medicine. The explainability demands of oncology echo the interpretability I need for BCIs to be clinically trusted. My contribution is to treat privacy, multi-modality, and interpretability not as constraints bolted on after the fact, but as first-class design objectives.
+These themes are not separate projects but one research programme. The tensor methods I developed for neural decoding became the basis for **federated** regression on clinical data; that foundation now drives my work on **deep learning architectures** and **explainable AI** for multi-modal precision medicine. The explainability demands of oncology echo the interpretability I need for BCIs to be clinically credible. My contribution is to treat privacy, multi-modality, and interpretability not as constraints bolted on after the fact, but as first-class design objectives.
 
 </div>
         </div>
@@ -75,18 +75,18 @@ As an independent investigator, my goal is to establish a group at the convergen
 
 ## Funding, projects & open science
 
-**Grants and projects.** My research has been supported by, and I have contributed to, competitively funded programmes including an **FWO Fundamental Research grant** (doctoral project on finger-movement decoding), a **€1.15M FWO Senior Research Project, *Federated Learning for Population Health Management*** (co-supervisor; with Y. Moreau, L. Peeters, B. Vaes), the **Flanders AI Research Program – Real-World Evidence use case** (Scientific Coordinator, ~10 researchers across 4 institutions), **ELIXIR Belgium** (consortium partner, health-data re-use and federated analyses), and the **AI-HCC (ZonMw)** project at the University of Twente. I was also selected — ranked 4th among international contractors — for the **European Food Safety Authority (EFSA) Framework Contract** in statistical and epidemiological analysis.
+**Grants and projects.** My research has been supported by, and I have contributed to, competitively funded programmes including an **FWO Fundamental Research grant** (doctoral project on finger-movement decoding), the **Flanders AI Research Program – Real-World Evidence use case** (Scientific Coordinator, ~10 researchers across 4 institutions), **ELIXIR Belgium** (consortium partner, health-data re-use and federated analyses), and the **AI-HCC (ZonMw)** project at the University of Twente. I was also selected — ranked 4th among international contractors — for the **European Food Safety Authority (EFSA) Framework Contract** in statistical and epidemiological analysis.
 
-**Open-source software.** I believe methods should ship as usable tools. I lead or author:
+**Open-source software.** I believe methods should ship as usable tools. I author or contribute to:
 
-- **[FLkit](https://github.com/UHasselt-BiomedicalDataSciences/federated-learning-toolkit)** — a federated-learning toolkit helping life scientists apply privacy-preserving methods to decentralised, sensitive data.
+- **[FLkit](https://github.com/UHasselt-BiomedicalDataSciences/federated-learning-toolkit)** — a community federated-learning toolkit helping life scientists apply privacy-preserving methods to decentralised, sensitive data (contributor).
 - **[Block-Term Tensor Regression (BTTR)](https://github.com/TheAxeC/block-term-tensor-regression)** — a documented Python package making tensor regression reproducible for neuroscience and beyond.
 - **[Federated Learning Tutorial](https://github.com/TheAxeC/federated-learning-tutorial)** — a step-by-step research tutorial lowering the entry barrier for newcomers.
 
 **Collaborations.** My work is inherently multi-institutional, spanning the University of Twente, UHasselt, KU Leuven, Medisch Spectrum Twente, the University of Antwerp, and VIB.
 
 <a href="/publications" class="btn btn-outline-primary mt-3">Browse publications <i class="fas fa-angle-double-right"></i></a>
-<a href="/cv.html" class="btn btn-outline-primary mt-3">View full CV <i class="fas fa-angle-double-right"></i></a>
+<a href="/cv.pdf" class="btn btn-outline-primary mt-3">View full CV <i class="fas fa-angle-double-right"></i></a>
 
 </div>
         </div>

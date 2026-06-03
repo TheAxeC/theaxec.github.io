@@ -6,7 +6,7 @@ personal:
     # - Data Scientist
     # - Computational Neuroscientist
     # - Computer Engineer
-    - AI Researcher in Healthcare
+    - Postdoctoral Researcher in AI for Healthcare
     - Federated Learning
     - Precision Medicine
     - Brain-Computer Interfaces
@@ -64,14 +64,14 @@ experience:
       about: |
         Developed advanced machine learning methods for decoding sign language alphabet gestures from high-density intracranial brain activity (ECoG). Combined deep learning architectures with tensor regression models to capture complex spatiotemporal patterns in neural signals associated with linguistic motor control.
 
-        Technical contributions included implementing block-term tensor decomposition for multi-dimensional neural data and exploring cross-subject generalization for robust BCI performance. The research advances both fundamental understanding of neural encoding of sign language and practical assistive communication technology. Conducted at the Laboratory for Neuro- and Psychophysiology under supervision of Prof. Marc van Hulle, extending previous doctoral research in motor decoding to linguistic applications.
+        Technical contributions included implementing block-term tensor decomposition for multi-dimensional neural data and exploring cross-subject generalization for robust BCI performance. The research advances both fundamental understanding of neural encoding of sign language and practical assistive communication technology. Conducted at the Laboratory for Neuro- and Psychophysiology under supervision of Prof. Marc Van Hulle, extending previous doctoral research in motor decoding to linguistic applications.
       cover: /assets/images/covers/about-postdoc.webp
 
     - title: Data Science Consultant
       location: Flanders BCI
       duration: 2022 - 2024
       about: |
-        Provided consulancy for physical experiments using Synamps RT and Neuvo EEG Systems. 
+        Provided consultancy for physical experiments using Synamps RT and Neuvo EEG Systems.
         Supported the data analysis for hybrid BCI with new analytical EEG modeling techniques & signal detection- and classification algorithms. 
         Infer emotion from EEG signals using machine learning techniques.
         Usage of ECoG signals from semi-invasive recording for imagined movement detection and language processing.
@@ -226,6 +226,10 @@ students:
 news:
     title: Talks, presentations and other media
     content:
+      - title: Modality-Specific Encoding with a Shared Backbone for Early HCC Prediction from Multi-Modal Liver MRI
+        duration: 2026
+        location: 4th XAI-NL Meet-Up
+        cover: /assets/images/covers/about-researchstay.webp
       - title: Optimizing Federated Block-Term Tensor Regression - Strategy Comparisons and Applications
         duration: 2025
         location: Symposium on Federated Learning and Intelligent Computing Systems (FLICS)
@@ -383,19 +387,20 @@ education:
 projects:
   title: Grants & (open-source) Projects
   content:
-    - title: "Federated Learning for Population Health Management (FL4PHM)"
-      url: ""
-      duration: 2025 - Current
-      role: Co-supervisor
-      min: true
-      about: |
-        FWO Senior Research Project (2025) 
-        Project: "Federated Learning for Population Health Management"
-        Role: Co-supervisor
-        Team: Prof. Yves Moreau (KU Leuven), Prof. Liesbet M. Peeters (UHasselt), Prof. Bert Vaes (KU Leuven)
-        Funding: Research Foundation Flanders (FWO), Belgium (applied, result expected in September 2025)
-        Amount: approx. €1,150,000 (including salaries and operational costs for 4 years) 
-      cover: /assets/images/covers/about-project.webp
+    # Rejected FWO proposal — kept for reference, not shown.
+    # - title: "Federated Learning for Population Health Management (FL4PHM)"
+    #   url: ""
+    #   duration: 2025 - Current
+    #   role: Co-supervisor
+    #   min: true
+    #   about: |
+    #     FWO Senior Research Project (2025)
+    #     Project: "Federated Learning for Population Health Management"
+    #     Role: Co-supervisor
+    #     Team: Prof. Yves Moreau (KU Leuven), Prof. Liesbet M. Peeters (UHasselt), Prof. Bert Vaes (KU Leuven)
+    #     Funding: Research Foundation Flanders (FWO), Belgium (applied, result expected in September 2025)
+    #     Amount: approx. €1,150,000 (including salaries and operational costs for 4 years)
+    #   cover: /assets/images/covers/about-project.webp
     - title: "Use Case Real World Evidence - Flanders AI Research Program"
       url: ""
       duration: 2024 - Current
@@ -418,7 +423,7 @@ projects:
     - title: "Federated Learning Kit (FLkit)"
       url: https://github.com/UHasselt-BiomedicalDataSciences/federated-learning-toolkit
       duration: 2025 - Current
-      role: Community Project Lead
+      role: Contributor
       min: false
       about: |
         FLkit is designed to help life scientists apply federated learning in their research. It offers guidance, techniques, and tools for working with decentralized and sensitive data, enabling privacy-preserving collaboration and deeper insights without sharing raw data.
@@ -474,7 +479,7 @@ projects:
       role: Lead Developer
       min: true
       about: |
-        An nodejs application to create an iCalender file for courses at KU Leuven. (>1000 active users)
+        A Node.js application to create an iCalendar file for courses at KU Leuven. (>1000 active users)
       cover: /assets/images/covers/about-project.webp
 
     # - title: "Search and Recommendation System"
@@ -571,6 +576,11 @@ awards:
 extracurricular:
   title: Professional Development Activities # Extracurricular Activities / Outreach & Service
   content:
+    - title: Twente Health School (summer school)
+      location: University of Twente
+      duration: 2026
+      about: Interdisciplinary health-research summer school at the University of Twente.
+      cover: /assets/images/covers/about-coach.webp
     - title: Mathematics & Natural Sciences Tutor
       location: Freelance
       duration: Sept. 2015 - 2024

@@ -597,3 +597,16 @@ canvas {
 .light-theme .github_dark {
     display: none;
 }
+
+/* Inline keyword highlights (backtick chips): on-brand rust accent, not code monospace.
+   Scoped to inline code only — real code blocks (pre/highlight) are unaffected. */
+:not(pre) > code {
+    color: #bd5d38;
+    background-color: rgba(189, 93, 56, 0.09);
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    padding: 0.05em 0.4em;
+    border-radius: 0.25rem;
+    word-wrap: break-word;
+}

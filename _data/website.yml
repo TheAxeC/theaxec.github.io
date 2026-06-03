@@ -8,7 +8,7 @@ description:
   biography: |
     Axel Faes is a postdoctoral researcher in AI for healthcare, specializing in federated learning, precision medicine, and brain-computer interfaces. At the University of Twente (Cognition, Data and Education), he develops foundation models and explainable AI integrating longitudinal MRI, multi-omics, and clinical data for early hepatocellular carcinoma detection within the AI-HCC ZonMw project.
     Previously at Hasselt University's Biomedical Data Sciences group, he served as technical machine learning lead and scientific coordinator of the Flanders AI Research Program's Real World Evidence use case, advancing cardiovascular disease prediction and population health management through federated learning. He holds M.Sc. degrees in Computer Science Engineering and Artificial Intelligence from KU Leuven, where he also completed a PhD in Biomedical Sciences on finger movement decoding using tensor regression modeling.
-    His research bridges computational neuroscience, brain-computer interfaces, and privacy-preserving AI for multi-modal biomedical data, contributing to innovative methods that advance precision oncology and clinical practice.
+    His research bridges computational neuroscience, brain-computer interfaces, and privacy-preserving AI for multi-modal biomedical data, advancing precision oncology and clinical practice.
 
   positions:
     - name: 'Postdoctoral Researcher'
@@ -18,11 +18,11 @@ description:
       url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'
       image: 'assets/images/badges/UHasselt.jpg'
   content_mobile: |
-    AI Researcher in Healthcare - 🤖 Federated Learning • 🧬 Precision Medicine • 🧠 Brain-Computer Interfaces
+    AI Researcher in Healthcare - 🤖 `Federated Learning` • 🧬 `Precision Medicine` • 🧠 `Brain-Computer Interfaces`
 
-    Postdoctoral Researcher (`Multi-Modal AI for Precision Medicine`) @ University of Twente
+    Postdoctoral Researcher (Multi-Modal AI for Precision Medicine) @ University of Twente
 
-    Research Affiliate (`AI for Healthcare`) @ Biomedical Data Sciences, UHasselt
+    Research Affiliate (AI for Healthcare) @ Biomedical Data Sciences, UHasselt
 
     **Research Focus**:
       - Foundation models for precision medicine
@@ -37,14 +37,14 @@ description:
         
       <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
   content: |
-    - `AI Researcher` in Healthcare - 🤖 `Federated Learning` • 🧬 `Precision Medicine` • 🧠 `Brain-Computer Interfaces`
-    - **Postdoctoral Researcher** (`Multi-Modal AI for Precision Medicine`) @ University of Twente (Cognition, Data and Education, CODE)
-      - Developing `multi-modal federated AI` and `explainable AI (XAI)` integrating longitudinal MRI, multi-omics, and clinical data for early hepatocellular carcinoma detection and risk prediction (AI-HCC ZonMw project).
-      - Pioneering `foundation models` with transformer architectures for temporal dynamics in imaging and omics data, bridging innovation with clinical translation in `precision oncology`.
-    - **Research Affiliate** (`AI for Healthcare`) @ Biomedical Data Sciences, UHasselt 
-      - Leading cardiovascular disease prediction using `real-world evidence` and `federated learning` for privacy-preserving analysis (FAIR UC RWE, continuing as Research Affiliate).
-      - Advancing `Population Health Management` with federated learning for disease insights, risk prediction, and health equity.
-      - Pioneering `Brain-Computer Interfaces` for precision neuropsychiatry via tensor regression and deep learning.
+    - AI Researcher in Healthcare — 🤖 `Federated Learning` • 🧬 `Precision Medicine` • 🧠 `Brain-Computer Interfaces`
+    - **Postdoctoral Researcher** (Multi-Modal AI for Precision Medicine) @ University of Twente (Cognition, Data and Education, CODE)
+      - Developing `multi-modal federated AI` and explainable AI (XAI) that integrate longitudinal MRI, `multi-omics`, and clinical data for early hepatocellular carcinoma detection and risk prediction (AI-HCC ZonMw project).
+      - Building `foundation models` with transformer architectures for temporal dynamics in imaging and omics data, working toward clinical translation in precision oncology.
+    - **Research Affiliate** (AI for Healthcare) @ Biomedical Data Sciences, UHasselt
+      - Leading cardiovascular disease prediction with `real-world evidence` and federated learning for privacy-preserving analysis (FAIR UC RWE, continuing as Research Affiliate).
+      - Advancing `population health management` through federated learning for disease insight, risk prediction, and health equity.
+      - Developing `brain-computer interfaces` for precision neuropsychiatry using tensor regression and deep learning.
 
     <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
   # - **Scientific Coordinator** of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE) - continuing in volunteer capacity
@@ -59,33 +59,32 @@ description:
   research_mobile: |
     **Research**
       - Developing `foundation models` for multi-modal integration of clinical, imaging, and omics data.
-      - Advancing `precision medicine` and `precision oncology` through explainable AI frameworks.
+      - Advancing `precision medicine` and precision oncology through explainable AI frameworks.
       - Creating `federated learning` algorithms for privacy-preserving healthcare analytics (FAIR UC RWE).
-      - Pioneering `brain-computer interfaces` using deep learning and tensor regression models.
-      - Side project: advancing `algebraic type and effect` systems for functional programming.
+      - Developing `brain-computer interfaces` using deep learning and tensor regression models.
   research: |
     **Vision for Research Impact** <a href="/research">(view more <i class="fas fa-angle-double-right"></i>)</a>
-    I envision a future where `foundation models`, `federated learning`, and `explainable AI` transform precision medicine and healthcare delivery. I aim to:
-    - **Advance Precision Medicine & Oncology**: By developing multi-modal AI systems that integrate `clinical, imaging, and omics data`, I seek to enable early disease detection, personalized risk prediction, and targeted therapeutic strategies for complex diseases including cancer and cardiovascular disorders.
-    - **Pioneer Privacy-Preserving Healthcare Analytics**: Through `federated learning` and `foundation models`, I enable collaborative research across institutions while preserving patient privacy and data sovereignty, accelerating translational research from lab to clinic.
-    - **Bridge AI Innovation and Clinical Practice**: By combining expertise in `machine learning`, `computational neuroscience`, and `biomedical data science`, I develop explainable AI systems that translate cutting-edge algorithms into interpretable, clinically actionable insights for healthcare professionals and pharmaceutical researchers.
+    I work toward a future where `foundation models`, `federated learning`, and `explainable AI` reshape precision medicine and healthcare delivery. I aim to:
+    - **Advance precision medicine and oncology**: developing multi-modal AI systems that integrate clinical, imaging, and omics data to enable early disease detection, personalized risk prediction, and targeted therapies for complex diseases including cancer and cardiovascular disorders.
+    - **Develop privacy-preserving healthcare analytics**: using federated learning and foundation models to enable collaborative research across institutions while preserving patient privacy and data sovereignty.
+    - **Bridge AI and clinical practice**: combining machine learning, computational neuroscience, and biomedical data science to build explainable AI that turns algorithms into interpretable, clinically actionable insights for clinicians and researchers.
   
   biomed_url: assets/images/webpage/dls.webp
   biomed_caption: Innovating Computational Solutions for Real-World Health Challenges
   education_mobile: |
     **Education & Teaching**
-      - Teaching `Brain-Computer Interfaces`, `Federated Learning`, `Bioinformatics`, and `Data Science in Healthcare`
-      - Completed `BKO` (Basic Teaching Qualification) at UHasselt
-      - Supervised 17+ Master's and PhD students across `AI`, `Statistics & Data Science`, `Computer Science`, and `Biomedical Sciences`
-      - Demonstrated expertise in interdisciplinary education and mentorship
+      - Teaching Brain-Computer Interfaces, Federated Learning, Bioinformatics, and Data Science in Healthcare
+      - Completed BKO (Basic Teaching Qualification) at UHasselt
+      - Supervised 17+ Master's and PhD students across AI, Statistics & Data Science, Computer Science, and Biomedical Sciences
+      - Experienced in interdisciplinary education and mentorship
 
   education: |
     **Vision for Educational Impact** <a href="/teaching">(view more <i class="fas fa-angle-double-right"></i>)</a>
-    I envision education in `AI for precision medicine` that bridges computational innovation with clinical application. I aim to:
-    - **Mentor the Next Generation**: Successfully supervised 17+ Master's and doctoral students across `AI`, `Statistics & Data Science`, `Computer Science`, and `Biomedical Sciences`, fostering interdisciplinary thinking and technical excellence.
-    - **Advance Interdisciplinary Education**: Teaching `Brain-Computer Interfaces`, `Federated Learning`, `Data Science in Healthcare`, and `Bioinformatics` to equip students with skills to tackle real-world healthcare challenges using AI.
-    - **Develop Accessible Educational Resources**: Through `open-source projects` (FLkit, BTTR toolkit, federated learning tutorials) and teaching materials, I make advanced AI methods accessible to life scientists and healthcare researchers worldwide, accelerating the translation of computational methods into clinical practice.
-    - **Build Teaching Excellence**: Completed my `BKO (Basic Teaching Qualification)` at UHasselt, demonstrating commitment to evidence-based teaching practices and educational innovation.
+    I want education in `AI for precision medicine` to bridge computational innovation with clinical application. I aim to:
+    - **Mentor the next generation**: I have supervised 17+ Master's and doctoral students across AI, Statistics & Data Science, Computer Science, and Biomedical Sciences, fostering interdisciplinary thinking and technical rigour.
+    - **Advance interdisciplinary education**: teaching Brain-Computer Interfaces, Federated Learning, Data Science in Healthcare, and Bioinformatics to equip students for real-world healthcare challenges.
+    - **Develop accessible resources**: through open-source projects (BTTR toolkit, federated-learning tutorials) and teaching materials, I help make advanced AI methods accessible to life scientists and healthcare researchers.
+    - **Build teaching excellence**: I completed my BKO (Basic Teaching Qualification) at UHasselt, reflecting a commitment to evidence-based teaching.
 
   mission_url: assets/images/webpage/biomed.webp
   mission_caption: Educating the Next Generation of Innovators
@@ -136,7 +135,7 @@ header:
     - name: About
       url: /about
     - name: CV
-      url: /cv.html
+      url: /cv.pdf
     - name: Blog
       url: /blog
 
@@ -216,6 +215,15 @@ covers:
 ##################
 
 updates:
+  - picture: /assets/images/updates/conference.webp
+    desc: Presented at the 4th XAI-NL Meet-Up on "Modality-Specific Encoding with a Shared Backbone for Early HCC Prediction from Multi-Modal Liver MRI"
+    time: 2026
+  - picture: /assets/images/updates/teaching.webp
+    desc: Completed the BKO (Basic Teaching Qualification) at UHasselt
+    time: 2026
+  - picture: /assets/images/updates/collaboration.webp
+    desc: Joined the Twente Health School (interdisciplinary health-research summer school) at the University of Twente
+    time: 2026
   - picture: /assets/images/updates/collaboration.webp
     desc: New position as Postdoctoral Researcher at University of Twente focusing on Foundation Models & Multi-Modal Federated Learning for HCC Detection
     time: January 2026
