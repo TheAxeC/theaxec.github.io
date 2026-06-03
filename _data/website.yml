@@ -64,7 +64,7 @@ description:
       - Pioneering `brain-computer interfaces` using deep learning and tensor regression models.
       - Side project: advancing `algebraic type and effect` systems for functional programming.
   research: |
-    **Vision for Research Impact** <a href="/about">(view more <i class="fas fa-angle-double-right"></i>)</a>
+    **Vision for Research Impact** <a href="/research">(view more <i class="fas fa-angle-double-right"></i>)</a>
     I envision a future where `foundation models`, `federated learning`, and `explainable AI` transform precision medicine and healthcare delivery. I aim to:
     - **Advance Precision Medicine & Oncology**: By developing multi-modal AI systems that integrate `clinical, imaging, and omics data`, I seek to enable early disease detection, personalized risk prediction, and targeted therapeutic strategies for complex diseases including cancer and cardiovascular disorders.
     - **Pioneer Privacy-Preserving Healthcare Analytics**: Through `federated learning` and `foundation models`, I enable collaborative research across institutions while preserving patient privacy and data sovereignty, accelerating translational research from lab to clinic.
@@ -75,17 +75,17 @@ description:
   education_mobile: |
     **Education & Teaching**
       - Teaching `Brain-Computer Interfaces`, `Federated Learning`, `Bioinformatics`, and `Data Science in Healthcare`
-      - Currently completing `BKO` (Basic Teaching Qualification) at UHasselt
+      - Completed `BKO` (Basic Teaching Qualification) at UHasselt
       - Supervised 17+ Master's and PhD students across `AI`, `Statistics & Data Science`, `Computer Science`, and `Biomedical Sciences`
       - Demonstrated expertise in interdisciplinary education and mentorship
 
   education: |
-    **Vision for Educational Impact**
+    **Vision for Educational Impact** <a href="/teaching">(view more <i class="fas fa-angle-double-right"></i>)</a>
     I envision education in `AI for precision medicine` that bridges computational innovation with clinical application. I aim to:
     - **Mentor the Next Generation**: Successfully supervised 17+ Master's and doctoral students across `AI`, `Statistics & Data Science`, `Computer Science`, and `Biomedical Sciences`, fostering interdisciplinary thinking and technical excellence.
     - **Advance Interdisciplinary Education**: Teaching `Brain-Computer Interfaces`, `Federated Learning`, `Data Science in Healthcare`, and `Bioinformatics` to equip students with skills to tackle real-world healthcare challenges using AI.
     - **Develop Accessible Educational Resources**: Through `open-source projects` (FLkit, BTTR toolkit, federated learning tutorials) and teaching materials, I make advanced AI methods accessible to life scientists and healthcare researchers worldwide, accelerating the translation of computational methods into clinical practice.
-    - **Build Teaching Excellence**: Currently completing my `BKO (Basic Teaching Qualification)` at UHasselt, demonstrating commitment to evidence-based teaching practices and educational innovation.
+    - **Build Teaching Excellence**: Completed my `BKO (Basic Teaching Qualification)` at UHasselt, demonstrating commitment to evidence-based teaching practices and educational innovation.
 
   mission_url: assets/images/webpage/biomed.webp
   mission_caption: Educating the Next Generation of Innovators
@@ -124,17 +124,21 @@ metrics:
 header:
   intro: dr. ir. Axel Faes
   error: The requested page could not be found.
-  navigation: 
+  navigation:
     - name: Home
       url: /
-    - name: Blog
-      url: /blog
-    - name: About
-      url: /about
+    - name: Research
+      url: /research
+    - name: Teaching
+      url: /teaching
     - name: Publications
       url: /publications
+    - name: About
+      url: /about
     - name: CV
       url: /cv.html
+    - name: Blog
+      url: /blog
 
 ######################
 # Website References #
