@@ -11,14 +11,18 @@ body_attr: >-
 
 {% include widgets/index_metrics.html %}
 
+{% comment %} Explicit section order: published record first, papers under review below. {% endcomment %}
+{% assign section_order = "journal,conference,papers-in-preparation,other-publications,thesis,abstracts,posters" | split: "," %}
+
 {% assign i = 0 %}
 <div class="row">
     <div class="col-12 col-lg-10">
-        {% for coll in site.data.publications %}
-        {% if coll[0] != "title" and coll[0] != "secondary-title" %}
-        <h2 class="pt-4" id="{{ coll[0] }}">{{ coll[1].title }}</h2>
+        {% for seckey in section_order %}
+        {% assign coll = site.data.publications[seckey] %}
+        {% if coll %}
+        <h2 class="pt-4" id="{{ seckey }}">{{ coll.title }}</h2>
         <div class="my-0 p-0 shadow-sm rounded-sm">
-            {% for item in coll[1].papers %}
+            {% for item in coll.papers %}
                 {% if item.hide %}
                 {% else %}
                     {% include widgets/publications_item.html i=i item=item %}
@@ -30,9 +34,10 @@ body_attr: >-
     </div>
     <div class="col-2 d-none d-lg-block">
         <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
-            {% for coll in site.data.publications %}
-            {% if coll[0] != "title" %}
-            <a class="nav-link d-block" href="#{{ coll[0] }}">{{ coll[1].title }}</a>
+            {% for seckey in section_order %}
+            {% assign coll = site.data.publications[seckey] %}
+            {% if coll %}
+            <a class="nav-link d-block" href="#{{ seckey }}">{{ coll.title }}</a>
             {% endif %}
             {% endfor %}
         </div>

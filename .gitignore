@@ -1,5 +1,7 @@
 _site/
 _data/personal.yml
+.claude/
+GRANTS.md
 .DS_Store
 Gemfile.lock
 .vscode/

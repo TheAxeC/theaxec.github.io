@@ -1,14 +1,14 @@
 \cvsection{ {% emit(publications['title']) %} }
 
 {%
-types = [ 
-          'papers-in-preparation',
+types = [
           'journal',
           'conference',
+          'papers-in-preparation',
+          'other-publications',
           'thesis',
           'abstracts',
           'posters',
-          'other-publications',
         ]
 
 nb = 1

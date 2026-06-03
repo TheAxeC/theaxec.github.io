@@ -19,5 +19,17 @@ collections:
 
 include: ['_pages']
 
+# Keep these out of the built site (GRANTS.md is a private reference, not a page).
+# Note: setting `exclude` replaces Jekyll's defaults, so the usual entries are repeated here.
+exclude:
+  - GRANTS.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .sass-cache
+  - .jekyll-cache
+  - .bundle
+
 plugins:
   - jekyll-sitemap

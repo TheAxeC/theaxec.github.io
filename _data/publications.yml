@@ -122,7 +122,7 @@ journal:
           book: "Journal of Neural Engineering (5.4 IF)"
           selected: false
           pub_date: 2024
-          url: ""
+          url: "/publications/preprint/abduction.pdf"
           order: "first"
           cover: /assets/images/covers/publication-journal.webp
           abstract: >-

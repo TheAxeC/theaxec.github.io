@@ -66,7 +66,7 @@ I have completed the **BKO (Basic Teaching Qualification) — Teacher Profession
 
 ## Mentoring & supervision
 
-I have supervised **17+ students** across four disciplines, on topics spanning the full range of my research — from federated machine learning and clinical prediction to programming-language design and neural decoding. Several student projects have grown into peer-reviewed publications on which I served as senior author. Representative recent supervisions include:
+My supervisions span four disciplines and the full range of my research — from federated machine learning and clinical prediction to programming-language design and neural decoding. Several have grown into peer-reviewed publications on which I served as senior author. Representative recent supervisions include:
 
 - **Federated Machine Learning for Health Data** — MSc Computer Science
 - **Individual Reference Intervals for Clinical Event Prediction** — PhD Statistics (co-supervisor)
@@ -76,7 +76,7 @@ I have supervised **17+ students** across four disciplines, on topics spanning t
 - **Hand-exoskeleton control via a semi-invasive brain-computer interface** — PhD Biomedical Sciences (daily supervision)
 - **Optimization and type-checking in single-pass compilers** — MSc Computer Science
 
-A full list of supervised students is available on my <a href="/about#students">About page</a> and <a href="/cv.html">CV</a>.
+A full list of supervised students is available on my <a href="/about#students">About page</a> and <a href="/cv.pdf">CV</a>.
 
 </div>
         </div>
@@ -93,12 +93,12 @@ A full list of supervised students is available on my <a href="/about#students">
 **Teaching software.** I build platforms that double as research and teaching infrastructure:
 
 - **[Cardinal](https://github.com/TheAxeC/Cardinal)** — a clear, well-documented virtual machine and runtime designed explicitly as a platform for MSc theses in programming languages and compilers, and for prototyping new language ideas.
-- **[FLkit](https://github.com/UHasselt-BiomedicalDataSciences/federated-learning-toolkit)** and the **[Federated Learning Tutorial](https://github.com/TheAxeC/federated-learning-tutorial)** — guided, reproducible materials that make federated learning teachable to life scientists and students.
+- **[FLkit](https://github.com/UHasselt-BiomedicalDataSciences/federated-learning-toolkit)** (a community toolkit I contribute to) and my **[Federated Learning Tutorial](https://github.com/TheAxeC/federated-learning-tutorial)** — guided, reproducible materials that make federated learning teachable to life scientists and students.
 
 **Outreach & service.** I have coached for **DjangoGirls** (introducing women to programming) and **CoderDojo** (teaching children to code) over many years, tutored mathematics and the natural sciences, served as a **Guest Associate Editor** (Frontiers in Immunology), a **VLAIO evaluator**, and a **Student Research Competition judge at ICFP**. Earlier, I represented students on faculty and departmental councils at both KU Leuven and UHasselt.
 
 <a href="/research" class="btn btn-outline-primary mt-3">Read my research statement <i class="fas fa-angle-double-right"></i></a>
-<a href="/cv.html" class="btn btn-outline-primary mt-3">View full CV <i class="fas fa-angle-double-right"></i></a>
+<a href="/cv.pdf" class="btn btn-outline-primary mt-3">View full CV <i class="fas fa-angle-double-right"></i></a>
 
 </div>
         </div>
