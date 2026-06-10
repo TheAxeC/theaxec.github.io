@@ -23,6 +23,7 @@ include: ['_pages']
 # Note: setting `exclude` replaces Jekyll's defaults, so the usual entries are repeated here.
 exclude:
   - GRANTS.md
+  - run.sh
   - Gemfile
   - Gemfile.lock
   - vendor

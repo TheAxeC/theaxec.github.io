@@ -1,12 +1,16 @@
 #!/bin/bash
-# Run the Python script
-python _scripts/script.py --save --quiet
+set -euo pipefail
 
-# If the Python script succeeds, start the Jekyll server
-if [ $? -eq 0 ]; then
-    echo "Python script completed successfully. Starting Jekyll server..."
-    bundle exec jekyll serve
-else
-    echo "Python script failed. Jekyll server not started."
-    exit 1
+# Always run from the repo root, regardless of where this is invoked from.
+cd "$(dirname "$0")"
+
+# Regenerate the CV PDF unless SKIP_CV=1 (handy for fast Jekyll-only restarts).
+if [ "${SKIP_CV:-0}" != "1" ]; then
+    echo "Generating CV PDF..."
+    python _scripts/cv_pdf_generator.py --save --quiet
+    echo "CV PDF generated."
 fi
+
+# Any extra args ($@) pass straight through, e.g. ./run.sh --livereload --drafts
+echo "Starting Jekyll server..."
+exec bundle exec jekyll serve "$@"
