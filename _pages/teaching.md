@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cards
 title: Teaching
 navbar_name: Teaching
 permalink: /teaching
@@ -7,24 +7,11 @@ description: "Teaching statement of Dr. Axel Faes - teaching philosophy, coordin
 keywords: "Axel Faes teaching, teaching philosophy, bioinformatics, data science in healthcare, federated learning course, student supervision, BKO, mentoring"
 ---
 
-<div class="row mt-3 main_view">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4 p-md-5" markdown="1">
-
 # Teaching
 
 I teach at the intersection of **computation and clinical application**, where students arrive from very different backgrounds — computer scientists who have never seen a patient cohort, life scientists who have never written a model — and have to learn to work together. My teaching is built around a single conviction: students learn advanced methods best when they apply them to **real, messy, consequential problems**, and when the path from "I understand this" to "I can build this" is made explicit. I have supervised **17+ Master's and doctoral students** across AI, Statistics & Data Science, Computer Science, and Biomedical Sciences, and I hold the **Basic Teaching Qualification (BKO)**, which grounds my practice in evidence-based pedagogy.
 
-</div>
-        </div>
-    </div>
-</div>
-
-<div class="row mt-3 main_view">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4 p-md-5" markdown="1">
+<!-- card -->
 
 ## Teaching philosophy
 
@@ -33,15 +20,7 @@ I teach at the intersection of **computation and clinical application**, where s
 - **Real data, real stakes.** Whether it is the Wisconsin Breast Cancer dataset in a federated-learning tutorial or live ECoG signals in a BCI demonstration, I anchor abstract methods in problems where correctness and interpretability matter.
 - **Accessibility widens the pipeline.** Years of outreach coaching — teaching programming to children and to women entering tech — have convinced me that who gets to learn advanced methods is a design choice. I make my materials approachable on purpose.
 
-</div>
-        </div>
-    </div>
-</div>
-
-<div class="row mt-3 main_view">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4 p-md-5" markdown="1">
+<!-- card -->
 
 ## Courses
 
@@ -54,15 +33,7 @@ I teach at the intersection of **computation and clinical application**, where s
 
 I have completed the **BKO (Basic Teaching Qualification) — Teacher Professionalization** track at UHasselt, formalising a commitment to evidence-based teaching and continuous course improvement.
 
-</div>
-        </div>
-    </div>
-</div>
-
-<div class="row mt-3 main_view">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4 p-md-5" markdown="1">
+<!-- card -->
 
 ## Mentoring & supervision
 
@@ -78,15 +49,7 @@ My supervisions span four disciplines and the full range of my research — from
 
 A full list of supervised students is available on my <a href="/about#students">About page</a> and <a href="/cv.pdf">CV</a>.
 
-</div>
-        </div>
-    </div>
-</div>
-
-<div class="row mt-3 main_view">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4 p-md-5" markdown="1">
+<!-- card -->
 
 ## Educational tools & outreach
 
@@ -99,8 +62,3 @@ A full list of supervised students is available on my <a href="/about#students">
 
 <a href="/research" class="btn btn-outline-primary mt-3">Read my research statement <i class="fas fa-angle-double-right"></i></a>
 <a href="/cv.pdf" class="btn btn-outline-primary mt-3">View full CV <i class="fas fa-angle-double-right"></i></a>
-
-</div>
-        </div>
-    </div>
-</div>

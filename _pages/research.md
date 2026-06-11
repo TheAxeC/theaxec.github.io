@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cards
 title: Research
 navbar_name: Research
 permalink: /research
@@ -7,24 +7,11 @@ description: "Research statement of Dr. Axel Faes - multi-modal foundation model
 keywords: "Axel Faes research, foundation models, federated learning, precision oncology, brain-computer interfaces, tensor regression, explainable AI, healthcare"
 ---
 
-<div class="row mt-3 main_view">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4 p-md-5" markdown="1">
-
 # Research
 
 I build **AI systems that learn from sensitive, multi-modal biomedical data without compromising patient privacy**, and I translate them into tools clinicians can actually trust. My work sits at the intersection of three areas that have converged over the course of my career: **multi-modal foundation models**, **privacy-preserving federated learning**, and **neural decoding for brain-computer interfaces**. My current methodological focus is on **deep learning** and **explainable AI (XAI)** — designing architectures expressive enough to capture multi-modal biomedical signal, and interpretable enough for clinicians to rely on. The connective tissue across all three areas is a single motivating question: *how do we turn high-dimensional, fragmented, privacy-constrained health data into clinically actionable insight?*
 
-</div>
-        </div>
-    </div>
-</div>
-
-<div class="row mt-3 main_view">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4 p-md-5" markdown="1">
+<!-- card -->
 
 ## Research themes
 
@@ -44,15 +31,7 @@ My doctoral and postdoctoral research decoded **finger movements and sign-langua
 
 These themes are not separate projects but one research programme. The tensor methods I developed for neural decoding became the basis for **federated** regression on clinical data; that foundation now drives my work on **deep learning architectures** and **explainable AI** for multi-modal precision medicine. The explainability demands of oncology echo the interpretability I need for BCIs to be clinically credible. My contribution is to treat privacy, multi-modality, and interpretability not as constraints bolted on after the fact, but as first-class design objectives.
 
-</div>
-        </div>
-    </div>
-</div>
-
-<div class="row mt-3 main_view">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4 p-md-5" markdown="1">
+<!-- card -->
 
 ## Research agenda (next 3–5 years)
 
@@ -63,15 +42,7 @@ As an independent investigator, my goal is to establish a group at the convergen
 - **Make trustworthy AI a deliverable, not a disclaimer.** I will continue to develop explainable-AI and uncertainty-quantification methods designed for the realities of clinical and regulatory acceptance, so that model outputs are interpretable and actionable for clinicians.
 - **Sustain open, reusable infrastructure.** I will keep building the open-source tooling (below) that lowers the barrier for life scientists to apply these methods, because reproducible infrastructure is how methodological advances actually reach the clinic.
 
-</div>
-        </div>
-    </div>
-</div>
-
-<div class="row mt-3 main_view">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4 p-md-5" markdown="1">
+<!-- card -->
 
 ## Funding, projects & open science
 
@@ -87,8 +58,3 @@ As an independent investigator, my goal is to establish a group at the convergen
 
 <a href="/publications" class="btn btn-outline-primary mt-3">Browse publications <i class="fas fa-angle-double-right"></i></a>
 <a href="/cv.pdf" class="btn btn-outline-primary mt-3">View full CV <i class="fas fa-angle-double-right"></i></a>
-
-</div>
-        </div>
-    </div>
-</div>
