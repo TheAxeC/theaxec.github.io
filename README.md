@@ -11,8 +11,10 @@ Adding new content can be done by only changing:
 - _data/publications.yml [publication list]
 - _data/website.yml [website specific data]
 - _pages/ [main webpages]
-- _projects/ [markdown posts]
 - _blog/ [markdown posts]
+
+(Projects shown on the site are generated from the `projects:` section of
+`_data/data.yml`, not a `_projects/` collection.)
 
 Publications are added into their respective folder:
 - publications/abstracts/
@@ -25,14 +27,21 @@ Publications are added into their respective folder:
 
 Other:
 - _includes/ [for html includes (widgets) or general components (navbar and footer)
-- _layout/ [for the main html layouts (cv, default and posts)]
+- _layouts/ [for the main html layouts (cv, default and posts)]
 - assets/ [for css, images and js]
 - _scripts/ [for python cv latex generator]
 
 ## Starting the server
 
+`./run.sh` regenerates the CV PDF and then starts Jekyll. Extra args pass straight
+through (e.g. `./run.sh --livereload --drafts`). Set `SKIP_CV=1` to skip the CV
+step, or run Jekyll directly:
+
 > bundle exec jekyll serve
 
 ## Running the CV Generator
 
-> python _scripts/script.py --save --quiet
+> python _scripts/cv_pdf_generator.py --save --quiet
+
+Flags: `--all` (default, full pipeline) / `--templates` / `--compile`; `--save`
+copies the PDF to the home folder; `--quiet` suppresses LaTeX logs.
