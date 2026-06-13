@@ -59,6 +59,16 @@ papers-in-preparation:
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2026
           abstract: ""
+        - authors: Axel Faes
+          title: "Privacy-preserving federated tensor decomposition of single-cell immune data: recovering multicellular programs across institutions"
+          url: ""
+          order: "first"
+          pub_pre: "Submitted to "
+          pub_post: '(In preparation)'
+          book: "IEEE Journal of Biomedical and Health Informatics (6.8 IF)"
+          cover: /assets/images/covers/publication-journal.webp
+          pub_date: 2026
+          abstract: ""
 
         - authors: Axel Faes
           title: "Performing the EEG inverse problem with a lead-field-constrained block-term decomposition"
