@@ -16,8 +16,8 @@ papers-in-preparation:
           url: ""
           order: "first"
           pub_pre: "Submitted to "
-          pub_post: '(Under review)'
-          book: "Biomedical Signal Processing and Control"
+          pub_post: '(In preparation)'
+          book: "Medical Image Analysis (11.8 IF)"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2026
           abstract: ""
@@ -39,14 +39,34 @@ papers-in-preparation:
           cover: /assets/images/covers/publication-conference.webp
           pub_date: 2026
           abstract: ""
+        - authors: Axel Faes, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
+          title: "When Masking Meets Sparsity: COVERT for Private, Communication-Efficient Vertical Federated Tensor Regression"
+          url: ""
+          order: "first"
+          pub_pre: "Submitted to "
+          pub_post: '(In preparation)'
+          book: "IEEE Journal of Biomedical and Health Informatics (6.8 IF)"
+          cover: /assets/images/covers/publication-journal.webp
+          pub_date: 2026
+          abstract: ""
+        - authors: Axel Faes
+          title: "Private Coupled Descent: Convergence and Privacy–Utility of Differentially-Private Vertical Tensor Factorization"
+          url: ""
+          order: "first"
+          pub_pre: "Submitted to "
+          pub_post: '(In preparation)'
+          book: "Transactions on Machine Learning Research (TMLR)"
+          cover: /assets/images/covers/publication-journal.webp
+          pub_date: 2026
+          abstract: ""
 
         - authors: Axel Faes
           title: "Performing the EEG inverse problem with a lead-field-constrained block-term decomposition"
           url: ""
           order: "first"
           pub_pre: "Submitted to "
-          pub_post: '(Under review)'
-          book: "Neurons, Behavior, Data analysis, and Theory (NBDT)"
+          pub_post: '(In preparation)'
+          book: "Biomedical Signal Processing and Control (4.9 IF)"
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2026
           abstract: ""
@@ -62,14 +82,14 @@ papers-in-preparation:
           abstract: >-
             The N-Back working memory (WM) updating task is commonly used in cognitive neuroscience research. Many studies investigated behavioral responses, while only few studies have sought to identify its electrophysiological signatures. Nevertheless, it is still unclear what the role is of stimulus type and task structure in the outcomes. Here, we address this issue using nine different variations of an N-Back task. Results show differences in electrode clusters between words vs. pictures for both N2 and P3-ERP components, specifically in the fronto-central brain regions. In conclusion, our findings suggest that stimulus type contributes to differences in electrophysiological responses during N-Back task performance, which needs to be accounted for when interpreting findings across studies.
         - authors: Dongho Chun, Axel Faes
-          title: "Effects on clustering algorithms based on classification of Atrial Fibrillation based on ECG data"
+          title: "Which representation clusters? A chance-corrected benchmark of ECG representations for unsupervised arrhythmia structure on PTB-XL"
           pub_last: (senior author)
           url: ""
           order: senior
           pub_pre: "Submitted to "
-          book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
+          book: "Biomedical Signal Processing and Control (4.9 IF)"
           cover: /assets/images/covers/publication-senior.webp
-          pub_date: 2025
+          pub_date: 2026
         - authors: Ward Ceyssens, Axel Faes
           title: Cross Subject training for finger movement decoding with high-density ECoG
           pub_last: (senior author)
@@ -81,15 +101,14 @@ papers-in-preparation:
           cover: /assets/images/covers/publication-senior.webp
           pub_date: 2025
         - authors: Dries Cornelissen, Axel Faes
-          title: Block-Term Decomposition for arrhythmia detection and prediction on sinus rhythms
+          title: "An interpretable tensor model for identifying atrial fibrillation in sinus-rhythm ECG: block-term tensor regression on PTB-XL, benchmarked against deep and foundation models"
           pub_last: (senior author)
           order: senior
           url: ""
           pub_pre: "Submitted to "
-          pub_post: '(Under review)'
-          book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
+          book: "Computer Methods and Programs in Biomedicine"
           cover: /assets/images/covers/publication-senior.webp
-          pub_date: 2025
+          pub_date: 2026
         - authors: Meseret Assefa Kerga, Axel Faes
           title: "From Classification to Competing Risks: A Critical Re-Examination of a Widely-Used Cirrhosis Outcome Benchmark"
           pub_last: (senior author)
