@@ -11,75 +11,95 @@ papers-in-preparation:
           cover: /assets/images/covers/publication-journal.webp
           pub_date: 2026
           abstract: ""
-        - authors: Axel Faes*, Jakob Nolte*, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
-          title: "HCCNet: A Self-Supervised CNN-Transformer for Disease Prognosis from Longitudinal 3D MRI, with a Case Study on Hepatocellular Carcinoma"
-          url: ""
-          order: "first"
-          pub_pre: "Submitted to "
-          pub_post: '(In preparation)'
-          book: "Medical Image Analysis (11.8 IF)"
-          cover: /assets/images/covers/publication-journal.webp
-          pub_date: 2026
-          abstract: ""
-        - authors: Jasper van Leengoed, Axel Faes, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
-          title: "Clinical HCCNet"
-          url: ""
-          pub_pre: "Submitted to "
-          pub_post: '(In preparation)'
-          cover: /assets/images/covers/publication-journal.webp
-          pub_date: 2026
-          abstract: ""
-        - authors: Axel Faes, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
-          title: "Federate What Transfers: Component-Aware Federation of Self-Supervised Backbones for Longitudinal 3D MRI"
-          url: ""
-          order: "first"
-          pub_pre: "Submitted to "
-          pub_post: '(In preparation)'
-          book: "IEEE Conference on Federated Learning Technologies and Applications (IEEE FLTA 2026)"
-          cover: /assets/images/covers/publication-conference.webp
-          pub_date: 2026
-          abstract: ""
-        - authors: Axel Faes, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
-          title: "When Masking Meets Sparsity: COVERT for Private, Communication-Efficient Vertical Federated Tensor Regression"
-          url: ""
-          order: "first"
-          pub_pre: "Submitted to "
-          pub_post: '(In preparation)'
-          book: "IEEE Journal of Biomedical and Health Informatics (6.8 IF)"
-          cover: /assets/images/covers/publication-journal.webp
-          pub_date: 2026
-          abstract: ""
-        - authors: Axel Faes
-          title: "Private Coupled Descent: Convergence and Privacy–Utility of Differentially-Private Vertical Tensor Factorization"
-          url: ""
-          order: "first"
-          pub_pre: "Submitted to "
-          pub_post: '(In preparation)'
-          book: "Transactions on Machine Learning Research (TMLR)"
-          cover: /assets/images/covers/publication-journal.webp
-          pub_date: 2026
-          abstract: ""
-        - authors: Axel Faes
-          title: "Privacy-preserving federated tensor decomposition of single-cell immune data: recovering multicellular programs across institutions"
-          url: ""
-          order: "first"
-          pub_pre: "Submitted to "
-          pub_post: '(In preparation)'
-          book: "IEEE Journal of Biomedical and Health Informatics (6.8 IF)"
-          cover: /assets/images/covers/publication-journal.webp
-          pub_date: 2026
-          abstract: ""
+        # - authors: Axel Faes*, Jakob Nolte*, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
+        #   title: "HCCNet: A Self-Supervised CNN-Transformer for Disease Prognosis from Longitudinal 3D MRI, with a Case Study on Hepatocellular Carcinoma"
+        #   url: ""
+        #   order: "first"
+        #   pub_pre: "Submitted to "
+        #   pub_post: '(In preparation)'
+        #   book: "Medical Image Analysis (11.8 IF)"
+        #   cover: /assets/images/covers/publication-journal.webp
+        #   pub_date: 2026
+        #   abstract: ""
+        # - authors: Jasper van Leengoed, Axel Faes, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
+        #   title: "Clinical HCCNet"
+        #   url: ""
+        #   pub_pre: "Submitted to "
+        #   pub_post: '(In preparation)'
+        #   cover: /assets/images/covers/publication-journal.webp
+        #   pub_date: 2026
+        #   abstract: ""
+        # - authors: Axel Faes, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
+        #   title: "Federate What Transfers: Component-Aware Federation of Self-Supervised Backbones for Longitudinal 3D MRI"
+        #   url: ""
+        #   order: "first"
+        #   pub_pre: "Submitted to "
+        #   pub_post: '(In preparation)'
+        #   book: "IEEE Conference on Federated Learning Technologies and Applications (IEEE FLTA 2026)"
+        #   cover: /assets/images/covers/publication-conference.webp
+        #   pub_date: 2026
+        #   abstract: ""
+        # - authors: Axel Faes, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
+        #   title: "When Masking Meets Sparsity: COVERT for Private, Communication-Efficient Vertical Federated Tensor Regression"
+        #   url: ""
+        #   order: "first"
+        #   pub_pre: "Submitted to "
+        #   pub_post: '(In preparation)'
+        #   book: "IEEE Journal of Biomedical and Health Informatics (6.8 IF)"
+        #   cover: /assets/images/covers/publication-journal.webp
+        #   pub_date: 2026
+        #   abstract: ""
+        # - authors: Axel Faes
+        #   title: "Private Coupled Descent: Convergence and Privacy–Utility of Differentially-Private Vertical Tensor Factorization"
+        #   url: ""
+        #   order: "first"
+        #   pub_pre: "Submitted to "
+        #   pub_post: '(In preparation)'
+        #   book: "Transactions on Machine Learning Research (TMLR)"
+        #   cover: /assets/images/covers/publication-journal.webp
+        #   pub_date: 2026
+        #   abstract: ""
+        # - authors: Axel Faes
+        #   title: "Privacy-preserving federated recovery of multicellular immune programs: cell-type-incomplete federation and the limits of differential privacy"
+        #   url: ""
+        #   order: "first"
+        #   pub_pre: "Submitted to "
+        #   pub_post: '(In preparation)'
+        #   book: "IEEE Journal of Biomedical and Health Informatics (6.8 IF)"
+        #   cover: /assets/images/covers/publication-journal.webp
+        #   pub_date: 2026
+        #   abstract: ""
 
-        - authors: Axel Faes
-          title: "Performing the EEG inverse problem with a lead-field-constrained block-term decomposition"
-          url: ""
-          order: "first"
-          pub_pre: "Submitted to "
-          pub_post: '(In preparation)'
-          book: "Biomedical Signal Processing and Control (4.9 IF)"
-          cover: /assets/images/covers/publication-journal.webp
-          pub_date: 2026
-          abstract: ""
+        # - authors: Axel Faes
+        #   title: "Jointly localized spatiotemporal components of evoked EEG via a lead-field-constrained block-term decomposition"
+        #   url: ""
+        #   order: "first"
+        #   pub_pre: "Submitted to "
+        #   pub_post: '(In preparation)'
+        #   book: "Biomedical Signal Processing and Control (4.9 IF)"
+        #   cover: /assets/images/covers/publication-journal.webp
+        #   pub_date: 2026
+        #   abstract: ""
+        # - authors: Axel Faes
+        #   title: "Block-Term Fourier Neural Operators: Mixtures of Low-Rank Spectral Experts for Multi-Scale Operator Learning"
+        #   url: ""
+        #   order: "first"
+        #   pub_pre: "Submitted to "
+        #   pub_post: '(In preparation)'
+        #   book: "Transactions on Machine Learning Research (TMLR)"
+        #   cover: /assets/images/covers/publication-journal.webp
+        #   pub_date: 2026
+        #   abstract: ""
+        # - authors: Axel Faes
+        #   title: "Registration-Free Tensor-PLS: Supervised Fused Gromov–Wasserstein Regression for Unaligned Multiparametric MRI"
+        #   url: ""
+        #   order: "first"
+        #   pub_pre: "Submitted to "
+        #   pub_post: '(In preparation)'
+        #   book: "Transactions on Machine Learning Research (TMLR)"
+        #   cover: /assets/images/covers/publication-journal.webp
+        #   pub_date: 2026
+        #   abstract: ""
         - authors: Valentina Pergher*, Axel Faes*, Yide Li, Marc M. Van Hulle
           title: How stimulus type and task structure can affect ERP signatures
           pub_pre: "Submitted to "
@@ -101,13 +121,13 @@ papers-in-preparation:
           cover: /assets/images/covers/publication-senior.webp
           pub_date: 2026
         - authors: Ward Ceyssens, Axel Faes
-          title: Cross Subject training for finger movement decoding with high-density ECoG
+          title: "Cross-Subject Transfer of Block-Term Tensor Regression for Electrocorticographic Finger-Flexion Decoding"
           pub_last: (senior author)
           order: senior
           url: ""
           pub_pre: "Submitted to "
-          pub_post: '(Under review)'
-          book: "IEEE Transactions on Biomedical Engineering (4.6 IF)"
+          pub_post: '(In preparation)'
+          book: "Transactions on Machine Learning Research (TMLR)"
           cover: /assets/images/covers/publication-senior.webp
           pub_date: 2025
         - authors: Dries Cornelissen, Axel Faes
@@ -116,9 +136,18 @@ papers-in-preparation:
           order: senior
           url: ""
           pub_pre: "Submitted to "
-          book: "Computer Methods and Programs in Biomedicine"
+          book: "Artificial Intelligence in Medicine (6.2 IF)"
           cover: /assets/images/covers/publication-senior.webp
           pub_date: 2026
+        # - authors: Dries Cornelissen, Axel Faes
+        #   title: "Predicting incident atrial fibrillation from a single sinus-rhythm ECG: an interpretable block-term tensor network on MIMIC-IV-ECG"
+        #   pub_last: (senior author)
+        #   order: senior
+        #   url: ""
+        #   pub_pre: "Submitted to "
+        #   pub_post: '(In preparation)'
+        #   cover: /assets/images/covers/publication-senior.webp
+        #   pub_date: 2026
         - authors: Meseret Assefa Kerga, Axel Faes
           title: "From Classification to Competing Risks: A Critical Re-Examination of a Widely-Used Cirrhosis Outcome Benchmark"
           pub_last: (senior author)
