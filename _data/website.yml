@@ -6,9 +6,9 @@ description:
   title: dr. ir. Axel Faes
   subtitle: "#LeadingAIinHealth"
   biography: |
-    Axel Faes is a postdoctoral researcher in AI for healthcare, specializing in federated learning, precision medicine, and brain-computer interfaces. At the University of Twente (Cognition, Data and Education), he develops foundation models and explainable AI integrating longitudinal MRI, multi-omics, and clinical data for early hepatocellular carcinoma detection within the AI-HCC ZonMw project.
+    Axel Faes is a postdoctoral researcher in AI for healthcare, specializing in interpretable, self-explaining AI and privacy-preserving federated learning for precision medicine. At the University of Twente (Cognition, Data and Education), he develops self-supervised imaging backbones and interpretable models integrating longitudinal MRI, multi-omics, and clinical data for early hepatocellular carcinoma detection within the AI-HCC ZonMw project.
     Previously at Hasselt University's Biomedical Data Sciences group, he served as technical machine learning lead and scientific coordinator of the Flanders AI Research Program's Real World Evidence use case, advancing cardiovascular disease prediction and population health management through federated learning. He holds M.Sc. degrees in Computer Science Engineering and Artificial Intelligence from KU Leuven, where he also completed a PhD in Biomedical Sciences on finger movement decoding using tensor regression modeling.
-    His research program develops **federated, privacy-preserving, multiway (tensor) methods for real-world clinical data — validated across institutions**, bridging computational neuroscience, brain-computer interfaces, and multi-modal biomedical AI to advance precision oncology and clinical practice.
+    His research builds toward **the self-explaining hospital**: interpretable, self-explaining models and **privacy-preserving federated learning that travels between institutions**, grounded in **multiway (block-term tensor) methods**. That methodological core began in computational neuroscience and brain-computer interfaces, and now drives multi-modal precision oncology and trustworthy clinical decision support.
 
   positions:
     - name: 'Postdoctoral Researcher'
@@ -18,17 +18,17 @@ description:
       url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'
       image: 'assets/images/badges/UHasselt.jpg'
   content_mobile: |
-    AI Researcher in Healthcare - 🤖 `Federated Learning` • 🧬 `Precision Medicine` • 🧠 `Brain-Computer Interfaces`
+    AI Researcher in Healthcare - 🔍 `Self-Explaining AI` • 🤝 `Federated Learning` • 🧬 `Precision Medicine`
 
     Postdoctoral Researcher (Multi-Modal AI for Precision Medicine) @ University of Twente
 
     Research Affiliate (AI for Healthcare) @ Biomedical Data Sciences, UHasselt
 
-    **Research Focus**: *Federated, privacy-preserving, multiway methods for real-world clinical data — validated across institutions.*
-      - Foundation models for precision medicine
-      - Federated learning for privacy-preserving healthcare analytics
-      - Explainable AI (XAI) for early cancer detection and risk stratification
-      - Multi-modal AI integrating clinical, imaging, and omics data for precision oncology
+    **Research Focus**: *The self-explaining hospital — interpretable, self-explaining models and federation that travels between institutions.*
+      - Interpretable, self-explaining models (block-term / multiway) for clinical decisions
+      - Federated learning that travels between hospitals — privacy-preserving, modality-incomplete
+      - Multi-modal precision oncology: longitudinal MRI + omics + clinical for early cancer detection
+      - Self-supervised backbones for longitudinal medical imaging
     
     **Professional Affiliations**:
       - University of Twente (Cognition, Data and Education section)
@@ -37,11 +37,11 @@ description:
         
       <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
   content: |
-    - AI Researcher in Healthcare — 🤖 `Federated Learning` • 🧬 `Precision Medicine` • 🧠 `Brain-Computer Interfaces`
-    - ***Research program:*** *Federated, privacy-preserving, multiway methods for real-world clinical data — validated across institutions.*
+    - AI Researcher in Healthcare — 🔍 `Self-Explaining AI` • 🤝 `Federated Learning` • 🧬 `Precision Medicine`
+    - ***Research program:*** *The self-explaining hospital — interpretable, self-explaining models and privacy-preserving federation that travels between institutions, built on multiway (block-term tensor) methods.*
     - **Postdoctoral Researcher** (Multi-Modal AI for Precision Medicine) @ University of Twente (Cognition, Data and Education, CODE)
       - Developing `multi-modal federated AI` and explainable AI (XAI) that integrate longitudinal MRI, `multi-omics`, and clinical data for early hepatocellular carcinoma detection and risk prediction (AI-HCC ZonMw project).
-      - Building `foundation models` with transformer architectures for temporal dynamics in imaging and omics data, working toward clinical translation in precision oncology.
+      - Building `self-supervised backbones` and interpretable architectures that model temporal dynamics in longitudinal imaging and omics, working toward clinical translation in precision oncology.
     - **Research Affiliate** (AI for Healthcare) @ Biomedical Data Sciences, UHasselt
       - Leading cardiovascular disease prediction with `real-world evidence` and federated learning for privacy-preserving analysis (FAIR UC RWE, continuing as Research Affiliate).
       - Advancing `population health management` through federated learning for disease insight, risk prediction, and health equity.
@@ -59,16 +59,16 @@ description:
   portrait_caption: Building Knowledge, Driving Innovation
   research_mobile: |
     **Research**
-      - Developing `foundation models` for multi-modal integration of clinical, imaging, and omics data.
-      - Advancing `precision medicine` and precision oncology through explainable AI frameworks.
-      - Creating `federated learning` algorithms for privacy-preserving healthcare analytics (FAIR UC RWE).
-      - Developing `brain-computer interfaces` using deep learning and tensor regression models.
+      - Designing `self-explaining models` (block-term / multiway) that are interpretable by construction.
+      - Building `federated learning` that travels between hospitals — privacy-preserving, modality-incomplete (FAIR UC RWE).
+      - Advancing `multi-modal precision oncology` — longitudinal MRI, omics, and clinical data for early cancer detection.
+      - Methodological roots in neural decoding and `brain-computer interfaces`, where my block-term tensor methods began.
   research: |
     **Vision for Research Impact** <a href="/research">(view more <i class="fas fa-angle-double-right"></i>)</a>
-    I work toward a future where `foundation models`, `federated learning`, and `explainable AI` reshape precision medicine and healthcare delivery. I aim to:
-    - **Advance precision medicine and oncology**: developing multi-modal AI systems that integrate clinical, imaging, and omics data to enable early disease detection, personalized risk prediction, and targeted therapies for complex diseases including cancer and cardiovascular disorders.
-    - **Develop privacy-preserving healthcare analytics**: using federated learning and foundation models to enable collaborative research across institutions while preserving patient privacy and data sovereignty.
-    - **Bridge AI and clinical practice**: combining machine learning, computational neuroscience, and biomedical data science to build explainable AI that turns algorithms into interpretable, clinically actionable insights for clinicians and researchers.
+    I work toward **the self-explaining hospital**: clinical AI that explains its own reasoning and travels between institutions instead of demanding the data travel to it. I aim to:
+    - **Make interpretability a guarantee**: designing self-explaining models — multiway, block-term — whose explanations are faithful by construction and stand up to clinical and regulatory scrutiny.
+    - **Federate across real institutions**: using privacy-preserving federated learning to let hospitals — even those holding different modalities and incomplete data — train shared models without surrendering patient data.
+    - **Advance multi-modal precision oncology**: integrating longitudinal imaging, omics, and clinical data for early cancer detection and personalized risk prediction, from retrospective benchmarks toward clinically embedded validation.
   
   biomed_url: assets/images/webpage/dls.webp
   biomed_caption: Innovating Computational Solutions for Real-World Health Challenges
@@ -93,7 +93,7 @@ description:
 research:
   title: Research Diary
   content: |
-    Welcome to my research corner, where I advance `AI for precision medicine`. Here, you'll find projects, insights, and innovations in `multi-modal federated AI`, `foundation models`, and `explainable AI` applied to real-world healthcare challenges—from hepatocellular carcinoma detection and cardiovascular risk prediction to neural decoding for `brain-computer interfaces`. Join me as I translate cutting-edge AI methods into clinical impact.
+    Welcome to my research corner, where I advance `AI for precision medicine`. Here, you'll find projects, insights, and innovations in `self-explaining models`, `federated learning`, and `interpretable AI` applied to real-world healthcare challenges—from hepatocellular carcinoma detection and cardiovascular risk prediction to the neural decoding where my block-term tensor methods began. Join me as I translate trustworthy AI methods into clinical impact.
 
 ###########
 # Metrics #
@@ -226,7 +226,7 @@ updates:
     desc: Joined the Twente Health School (interdisciplinary health-research summer school) at the University of Twente
     time: 2026
   - picture: /assets/images/updates/collaboration.webp
-    desc: New position as Postdoctoral Researcher at University of Twente focusing on Foundation Models & Multi-Modal Federated Learning for HCC Detection
+    desc: New position as Postdoctoral Researcher at University of Twente focusing on Self-Supervised Imaging Backbones & Multi-Modal Federated Learning for HCC Detection
     time: January 2026
   - picture: /assets/images/updates/publication.webp
     desc: Paper accepted at FLLM2025 - "Optimizing Federated Block-Term Tensor Regression" (Spotlight presentation)
