@@ -9,7 +9,7 @@ keywords: "Axel Faes teaching, teaching philosophy, bioinformatics, data science
 
 # Teaching
 
-I teach at the intersection of **computation and clinical application**, where students arrive from very different backgrounds — computer scientists who have never seen a patient cohort, life scientists who have never written a model — and have to learn to work together. My teaching is built around a single conviction: students learn advanced methods best when they apply them to **real, messy, consequential problems**, and when the path from "I understand this" to "I can build this" is made explicit. I have supervised **17+ Master's and doctoral students** across AI, Statistics & Data Science, Computer Science, and Biomedical Sciences, and I hold the **Basic Teaching Qualification (BKO)**, which grounds my practice in evidence-based pedagogy.
+I teach at the intersection of **computation and clinical application**, where students arrive from very different backgrounds — computer scientists who have never seen a patient cohort, life scientists who have never written a model — and have to learn to work together. My teaching is built around a single conviction: students learn advanced methods best when they apply them to **real, messy, consequential problems**, and when the path from "I understand this" to "I can build this" is made explicit. The same principle runs through my research — I want students to build systems they can **explain** and others can **trust**, not black boxes. I have supervised **17+ Master's and doctoral students** across AI, Statistics & Data Science, Computer Science, and Biomedical Sciences, and I hold the **Basic Teaching Qualification (BKO)**, which grounds my practice in evidence-based pedagogy.
 
 <!-- card -->
 
@@ -26,10 +26,10 @@ I teach at the intersection of **computation and clinical application**, where s
 
 | Course | Role | Institution |
 | --- | --- | --- |
-| **Bioinformatics (3740)** | Coordinating lecturer (2024–2026) | UHasselt |
+| **Bioinformatics (3740)** | Coordinating lecturer (2024-2026) | UHasselt |
 | **Data Science in Healthcare (4747)** | Lecturer, teaching team | UHasselt |
 | **Advanced Topics in Data Science (4569 & 4585)** — Federated Learning | Lecturer, teaching team | UHasselt |
-| **Brain-Computer Interfacing (H08M0A)** | Guest lecturer (2022–2025) | KU Leuven |
+| **Brain-Computer Interfacing (H08M0A)** | Guest lecturer (2022-2025) | KU Leuven |
 
 I have completed the **BKO (Basic Teaching Qualification) — Teacher Professionalization** track at UHasselt, formalising a commitment to evidence-based teaching and continuous course improvement.
 

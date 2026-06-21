@@ -3,55 +3,55 @@ layout: cards
 title: Research
 navbar_name: Research
 permalink: /research
-description: "Research statement of Dr. Axel Faes - multi-modal foundation models, privacy-preserving federated learning, and brain-computer interfaces for precision medicine and oncology."
-keywords: "Axel Faes research, foundation models, federated learning, precision oncology, brain-computer interfaces, tensor regression, explainable AI, healthcare"
+description: "Research statement of Dr. Axel Faes - self-explaining, interpretable AI and privacy-preserving federated learning that travels between hospitals, for precision oncology and trustworthy clinical decision support."
+keywords: "Axel Faes research, self-explaining AI, interpretable machine learning, federated learning, block-term tensor regression, precision oncology, hepatocellular carcinoma, trustworthy clinical AI, healthcare"
 ---
 
 # Research
 
-I build **AI systems that learn from sensitive, multi-modal biomedical data without compromising patient privacy**, and I translate them into tools clinicians can actually trust. My work sits at the intersection of three areas that have converged over the course of my career: **multi-modal foundation models**, **privacy-preserving federated learning**, and **neural decoding for brain-computer interfaces**. My current methodological focus is on **deep learning** and **explainable AI (XAI)** — designing architectures expressive enough to capture multi-modal biomedical signal, and interpretable enough for clinicians to rely on. The connective tissue across all three areas is a single motivating question: *how do we turn high-dimensional, fragmented, privacy-constrained health data into clinically actionable insight?*
+I build clinical AI with two properties most systems lack: it can **explain its own reasoning** to the clinician using it, and it can be **trained across hospitals without any of them giving up their data**. I think of the goal as **the self-explaining hospital** — care supported by models that are interpretable by design and that travel between institutions instead of forcing the data to travel to them. Three lines of work converge on it: **interpretable, self-explaining models**, **federated learning across real institutions**, and **multi-modal precision oncology**. What ties them together is a methodological signature: **multiway (block-term tensor) models whose structure *is* the explanation**, rather than something reconstructed after the fact.
 
 <!-- card -->
 
 ## Research themes
 
-### 1. Multi-modal foundation models for precision oncology
+### 1. Interpretable, self-explaining models
 
-At the University of Twente (CODE) and Medisch Spectrum Twente, within the **AI-HCC (ZonMw)** project, I develop foundation models and deep learning architectures that integrate **longitudinal MRI, multi-omics profiles, and clinical variables** for the early detection and risk stratification of hepatocellular carcinoma. The core challenge is temporal and cross-modal: disease signal is distributed across imaging, molecular, and clinical timelines that are individually noisy and rarely aligned. I work on transformer-based architectures that model these temporal dynamics jointly, and on explainable-AI frameworks that link imaging features and molecular markers back to clinically meaningful outcomes — a prerequisite for clinical translation in oncology.
+Clinical machine learning is full of models that are accurate and unaccountable — they return a number, not a reason. I design models that are interpretable *by construction*. My **block-term tensor networks** decompose a signal into components that line up with structure a clinician already reasons about — regions, rhythms, time windows, modalities — so the explanation is read directly off the model rather than approximated afterwards by a separate tool. The aim is to make interpretability a **first-class design objective and a guarantee**, not a disclaimer bolted on at the end. This matters most exactly where AI is hardest to trust: high-stakes, low-data clinical decisions, where a plausible-but-wrong answer is worse than no answer at all.
 
-### 2. Privacy-preserving federated learning for healthcare
+### 2. Federated learning that travels between institutions
 
-As Scientific Coordinator of the **Flanders AI Research Program's Real-World Evidence use case** and Technical Machine Learning Lead of the Biomedical Data Sciences group at UHasselt, I built federated learning frameworks that let institutions collaborate on clinical research **without ever sharing raw patient data**. This line of work spans federated tensor regression for longitudinal health data, distributed architectures for heterogeneous clinical datasets, and the practical translation of these methods into cardiovascular disease prediction and population health management. Privacy-preserving collaboration is, to me, the central enabler of large-scale clinical AI — it is what makes the data accessible in the first place.
+The most informative clinical data is fragmented across hospitals and walled off by privacy law — which is precisely why so much of it stays unused. I build **federated learning** methods that let institutions train shared models **without raw data ever leaving their walls**, including the hard, realistic case where different sites hold **different modalities and incomplete records**. As Technical Machine Learning Lead and Scientific Coordinator of the **Flanders AI Research Program's Real-World Evidence use case** at UHasselt, I built these systems across multiple institutions for cardiovascular risk prediction and population health management. Federation is what turns locked, scattered data into something a model can learn from in the first place.
 
-### 3. Brain-computer interfaces and neural decoding
+### 3. Multi-modal precision oncology
 
-My doctoral and postdoctoral research decoded **finger movements and sign-language gestures from high-density intracranial recordings (ECoG)**. I introduced **block-term tensor regression** methods that capture the spatiotemporal structure of neural signals more faithfully than conventional approaches, and I studied cross-subject generalisation for robust, deployable BCIs. This work advances both the fundamental understanding of how the motor cortex encodes movement and language, and the assistive communication technology that can restore function for people who have lost it.
+Within the **AI-HCC (ZonMw)** project at the University of Twente and Medisch Spectrum Twente, I develop models that integrate **longitudinal MRI, multi-omics, and clinical variables** for the early detection and risk stratification of hepatocellular carcinoma. The signal is spread across imaging, molecular, and clinical timelines that are each noisy and rarely aligned, so I work on **self-supervised backbones for longitudinal medical imaging** that learn from unlabelled scans, and on architectures that model these timelines jointly. This is where the other two threads meet: a model that flags rising cancer risk has to **say why**, and has to learn from cohorts **no single hospital holds on its own**.
 
-### A cross-cutting methodological thread
+### Where the methods came from
 
-These themes are not separate projects but one research programme. The tensor methods I developed for neural decoding became the basis for **federated** regression on clinical data; that foundation now drives my work on **deep learning architectures** and **explainable AI** for multi-modal precision medicine. The explainability demands of oncology echo the interpretability I need for BCIs to be clinically credible. My contribution is to treat privacy, multi-modality, and interpretability not as constraints bolted on after the fact, but as first-class design objectives.
+The spine of this programme was forged in **neural decoding**. During my PhD and early postdoctoral work I decoded finger movements and sign-language gestures from high-density intracranial (ECoG) recordings, and to capture the spatiotemporal structure of neural signals I developed **block-term tensor regression**. Those methods — multiway, structured, interpretable — turned out to be exactly what trustworthy federated clinical modelling needs. Brain-computer interfacing is where my methodological core was built; precision medicine is where it now does its work.
 
 <!-- card -->
 
 ## Research agenda (next 3–5 years)
 
-As an independent investigator, my goal is to establish a group at the convergence of my three themes: **federated foundation models for trustworthy precision medicine**. Concretely, I aim to:
+As an independent investigator, I want to build a group around the self-explaining hospital. Concretely, I aim to:
 
-- **Unify federated learning and foundation models.** Foundation models are data-hungry; the richest biomedical data is locked behind privacy and institutional boundaries. I will develop methods to *pre-train and adapt foundation models in a federated setting*, so that multi-institutional cohorts can power large models without centralising sensitive data.
-- **Advance multi-modal clinical translation.** Building on AI-HCC, I will extend multi-modal integration (imaging + omics + clinical) to additional oncological and cardiovascular indications, working directly with hospital partners to move from retrospective benchmarks to prospective, clinically embedded validation.
-- **Make trustworthy AI a deliverable, not a disclaimer.** I will continue to develop explainable-AI and uncertainty-quantification methods designed for the realities of clinical and regulatory acceptance, so that model outputs are interpretable and actionable for clinicians.
-- **Sustain open, reusable infrastructure.** I will keep building the open-source tooling (below) that lowers the barrier for life scientists to apply these methods, because reproducible infrastructure is how methodological advances actually reach the clinic.
+- **Make interpretability a guarantee, not a hope.** Develop self-explaining multiway architectures whose explanations are **faithful by construction** and stand up to clinical and regulatory scrutiny — so "interpretable" is a property you can verify, not a claim you take on trust.
+- **Federate across real, uneven hospitals.** Build methods that let institutions holding **different modalities and incomplete data** train models which genuinely travel between them — moving from simulated silos to prospective, cross-border deployment.
+- **Carry multi-modal oncology to the clinic.** Extend the HCC work from retrospective benchmarks to **prospective, clinically embedded validation**, and to further oncological and cardiovascular indications, in direct partnership with hospitals.
+- **Sustain open, reusable infrastructure.** Keep building the open-source tooling (below) that lets life scientists and clinicians actually use these methods, because reproducible infrastructure is how a method reaches the bedside.
 
 <!-- card -->
 
 ## Funding, projects & open science
 
-**Grants and projects.** My research has been supported by, and I have contributed to, competitively funded programmes including an **FWO Fundamental Research grant** (doctoral project on finger-movement decoding), the **Flanders AI Research Program – Real-World Evidence use case** (Scientific Coordinator, ~10 researchers across 4 institutions), **ELIXIR Belgium** (consortium partner, health-data re-use and federated analyses), and the **AI-HCC (ZonMw)** project at the University of Twente. I was also selected — ranked 4th among international contractors — for the **European Food Safety Authority (EFSA) Framework Contract** in statistical and epidemiological analysis.
+**Grants and projects.** My research has been supported by, and I have contributed to, competitively funded programmes including an **FWO Fundamental Research grant** (doctoral project on finger-movement decoding), the **Flanders AI Research Program – Real-World Evidence use case** (Scientific Coordinator, ~10 researchers across 4 institutions), **ELIXIR Belgium** (consortium partner, federated health-data re-use), and the **AI-HCC (ZonMw)** project at the University of Twente. I was also selected — ranked 4th among international contractors — for the **European Food Safety Authority (EFSA) Framework Contract** in statistical and epidemiological analysis.
 
 **Open-source software.** I believe methods should ship as usable tools. I author or contribute to:
 
 - **[FLkit](https://github.com/UHasselt-BiomedicalDataSciences/federated-learning-toolkit)** — a community federated-learning toolkit helping life scientists apply privacy-preserving methods to decentralised, sensitive data (contributor).
-- **[Block-Term Tensor Regression (BTTR)](https://github.com/TheAxeC/block-term-tensor-regression)** — a documented Python package making tensor regression reproducible for neuroscience and beyond.
+- **[Block-Term Tensor Regression (BTTR)](https://github.com/TheAxeC/block-term-tensor-regression)** — a documented Python package making interpretable tensor regression reproducible for neuroscience and beyond.
 - **[Federated Learning Tutorial](https://github.com/TheAxeC/federated-learning-tutorial)** — a step-by-step research tutorial lowering the entry barrier for newcomers.
 
 **Collaborations.** My work is inherently multi-institutional, spanning the University of Twente, UHasselt, KU Leuven, Medisch Spectrum Twente, the University of Antwerp, and VIB.
