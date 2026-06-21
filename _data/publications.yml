@@ -259,7 +259,7 @@ conference:
             Objective: A case study is conducted to show that not only finger flexion- but also finger abduction trajectories can be decoded from high-density electrocorticography (ECoG) recordings. Approach: Two patients, temporarily implanted with high-density ECoG grids as part of their clinical workup, performed a cued single finger flexion task, a cued sign language alphabet task and a cued finger abduction task. The extended Block-Term Tensor Regression (eBTTR) model was adopted to predict finger trajectories after being developed on simultaneous data glove/ECoG recordings. The model performance on the single finger flexion task provides a reference for comparing that on the finger abduction task. Finally, the sign language alphabet task involves realistic, complex finger movements, calling upon both finger flexions and abductions. Main results: We show that finger abduction trajectories can be decoded from ECoG recordings, with comparable precision as single finger flexion trajectories, and even when expressing sign language gestures that involve joint finger flexions and abductions. Significance: Our findings show for the first time that finger abduction trajectories can be decoded from ECoG even when part of Sign Language Alphabet gestures.
         - authors: Axel Faes, Liesbet Peeters
           title: "Optimizing Federated Block-Term Tensor Regression: Strategy Comparisons and Applications"
-          url: ""
+          url: "/publications/conference/fllm2025-optimizing-federated-bttr.pdf"
           book: "The 3rd International Conference on Foundation and Large Language Models (FLLM2025)"
           
           pub_post: '[Symposium on Federated Learning and Intelligent Computing Systems (FLICS 2025)]'
