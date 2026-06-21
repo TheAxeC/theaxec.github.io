@@ -4,7 +4,7 @@ title: "The Hidden Cost of Interdisciplinarity"
 picture: /assets/images/projects/conference.webp
 category: reflection
 publish: True
-date: 2025-02-12
+date: 2025-11-26
 ---
 
 🌱 If you ever feel torn between fields, take that as a sign rather than as a problem.
