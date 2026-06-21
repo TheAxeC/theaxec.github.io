@@ -4,7 +4,7 @@ title: "FLTA 2025: Federated Learning for Brain-Computer Interfaces and Clinical
 picture: /assets/images/projects/conference.webp
 category: research
 publish: True
-date: 2025-01-29
+date: 2025-10-22
 ---
 
 Excited to be heading to FLTA 2025 (3rd International Conference on Federated Learning Technologies and Applications)! 🎤

@@ -4,7 +4,7 @@ title: "Navigating Academic Burnout: The Reality Behind Research Excellence"
 picture: /assets/images/projects/conference.webp
 category: reflection
 publish: True
-date: 2025-01-15
+date: 2025-10-08
 ---
 
 The past months have been a whirlwind 🌪️ Two papers just submitted ✅, grant applications in progress 📝, completing my BKO teaching qualification 🎓, supervising master's theses, teaching classes, unlocking datasets and still doing the fundamental core, your research.
