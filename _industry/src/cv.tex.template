@@ -1,0 +1,70 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Industry-focused CV -- Awesome CV (https://github.com/posquit0/Awesome-CV)
+% Generated from ../_data/industry.yml by ../cv_pdf_generator.py
+
+\documentclass[11pt, a4paper]{awesome-cv}
+
+\usepackage{xcolor}
+\usepackage{etoolbox}
+
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+\colorlet{awesome}{awesome-skyblue}
+\definecolor{link}{HTML}{0395DE}
+
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+{%
+if compact:
+  emit_tex('% --- compact (one-page) spacing ---\n')
+  emit_tex('\\renewcommand{\\acvHeaderAfterSocialSkip}{3mm}\n')
+  emit_tex('\\renewcommand{\\acvSectionTopSkip}{1mm}\n')
+  emit_tex('\\renewcommand{\\acvSectionContentTopSkip}{0mm}\n')
+%}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+\photo[circle,edge,left]{{% emit(data['personal']['photo_loc']+data['personal']['portrait_url']) %}}
+
+\name{{% emit(data['personal']['first-name']) %}}{{% emit(data['personal']['last-name']) %}}
+\position{
+{%
+nb = len(data['personal']['titles'])
+for title in data['personal']['titles']:
+  emit(title)
+  nb = nb - 1
+  if nb > 0:
+    emit_tex('{\\enskip\\cdotp\\enskip}')
+%}
+}
+
+{%
+links = data['personal']['links']
+if 'location' in links: emit_tex('\\address{'); emit(links['location']); emit_tex('}\n')
+if 'email' in links: emit_tex('\\email{'); emit(links['email']); emit_tex('}\n')
+if 'linkedin' in links: emit_tex('\\linkedin{'); emit(links['linkedin']); emit_tex('}\n')
+if 'github' in links: emit_tex('\\github{'); emit(links['github']); emit_tex('}\n')
+if 'homepage' in links: emit_tex('\\homepage{'); emit(links['homepage']); emit_tex('}\n')
+%}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+\makecvheader[C]
+
+\makecvfooter
+  {}
+  { {% emit(data['personal']['first-name']+" "+data['personal']['last-name']) %}~~~·~~~Curriculum Vitae}
+  {}
+
+\input{cv/summary.tex}
+\input{cv/skills.tex}
+\input{cv/experience.tex}
+\input{cv/projects.tex}
+\input{cv/education.tex}
+\input{cv/awards.tex}
+
+\end{document}
