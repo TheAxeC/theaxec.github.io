@@ -1,0 +1,11 @@
+\cvsection{{% emit(data['skills']['title']) %}}
+\begin{cvoneliners}
+{%
+  for i in data['skills']['content']:
+    if compact and (i.get('compact') is False): continue
+    emit_tex('\\cvoneliner ')
+    emit_braces(i['category'])
+    emit_braces(i['items'])
+    emit_braces('')
+%}
+\end{cvoneliners}

@@ -1,0 +1,7 @@
+\cvsection{{% emit(data['summary']['title']) %}}
+\begin{cvparagraph}
+{%
+text = data['summary'].get('text_compact') if (compact and data['summary'].get('text_compact')) else data['summary']['text']
+emit(text.rstrip())
+%}
+\end{cvparagraph}

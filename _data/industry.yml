@@ -1,0 +1,372 @@
+# ------------------------------------------------------------------------------
+# Industry-focused CV + cover letter content.
+# Rendered by ../_industry/cv_pdf_generator.py  (select with --profile).
+#
+#   python ../_industry/cv_pdf_generator.py --profile analyst --save
+#   python ../_industry/cv_pdf_generator.py --profile pharma  --save
+#
+# `shared` holds info common to every profile; each entry under `profiles`
+# overrides the position line and supplies its own tailored sections.
+# Keep everything here TRUE to data.yml -- these go to real employers.
+# ------------------------------------------------------------------------------
+
+shared:
+  personal:
+    first-name: Axel
+    last-name: Faes
+    portrait_url: /assets/images/photos/axel.jpg
+    author: Axel Faes
+    website: https://theaxec.github.io
+    links:
+      location: "Netherlands · EU citizen (no visa required)"
+      email: axel.faes[at]gmail.com
+      linkedin: axelfaes
+      github: TheAxeC
+      homepage: theaxec.github.io
+
+profiles:
+
+  # ===========================================================================
+  # ANALYST  -- Senior Data Analyst, Guerrilla Games (Amsterdam)
+  # ===========================================================================
+  analyst:
+    titles:
+      - Data Scientist & Quantitative Analyst
+      - Behavioural & Telemetry Analytics
+      - SQL · Python · Experimentation
+
+    summary:
+      title: Profile
+      text: |
+        Quantitative scientist (PhD) with 8 years turning large, noisy behavioural and sensor
+        datasets into decisions that non-technical teams act on. I design experiments, build
+        analysis pipelines in Python and SQL, and translate ambiguous questions into well-scoped,
+        reproducible analyses. Equally comfortable defining success metrics with stakeholders and
+        digging into raw event streams to check whether the data can even answer the question.
+        Long-time gamer and former game-dev competitor (2nd place, Belgian Game Development
+        Championship) who wants to put rigorous analytics behind the moment-to-moment player
+        experience.
+      text_compact: |
+        Quantitative scientist (PhD) with 8 years turning large, noisy behavioural and sensor
+        datasets into decisions non-technical teams can act on. I design experiments, build
+        analysis pipelines in Python and SQL, and turn ambiguous questions into well-scoped,
+        reproducible analyses. Long-time gamer and former game-dev competitor (2nd place, Belgian
+        Game Development Championship) who wants rigorous analytics behind the player experience.
+
+    skills:
+      title: Skills
+      content:
+        - category: Querying & Data
+          items: "Advanced SQL on large event / time-series datasets; data modelling and event-taxonomy design; data-quality and completeness validation; aggregation, window functions and joins at scale."
+        - category: Programming
+          items: "Python (pandas, NumPy, scikit-learn), Jupyter; R; Git / version control; reproducible analysis workflows."
+        - category: Experimentation & Statistics
+          items: "A/B testing and experimental design; hypothesis testing; regression and survival models; Bayesian and spatial modelling; causal / observational analysis."
+        - category: Machine Learning
+          items: "Pragmatic ML for prediction and clustering; deep learning (PyTorch); tensor methods; representation / foundation models."
+        - category: Visualisation & Communication
+          items: "Tableau; matplotlib / Plotly; dashboards; presenting actionable insight to designers, producers, engineers and executives."
+        - category: Domains
+          items: "Behavioural and sensor telemetry; high-density time-series; instrumentation; product and player analytics."
+          compact: false   # one-pager: folded into the profile line
+
+    experience:
+      title: Experience
+      content:
+        - title: "Postdoctoral Researcher — AI & Data Science"
+          location: University of Twente / Medisch Spectrum Twente
+          duration: Jan 2026 - Present
+          about: |
+            Build predictive models over large, longitudinal multi-modal datasets (imaging, molecular, clinical), owning the full pipeline from raw data to validated insight.
+            Design explainable analytics that connect model outputs to the outcomes stakeholders care about, communicated to non-technical decision-makers.
+        - title: "Scientific Coordinator & Machine-Learning Lead — Real-World Evidence"
+          location: UHasselt (Flanders AI Research Program)
+          duration: Jan 2024 - Jan 2026
+          about: |
+            Led a ~10-person, 4-institution analytics programme; converted open-ended objectives into concrete, measurable KPIs and well-scoped analyses for diverse stakeholders.
+            Built distributed / federated analytics pipelines over heterogeneous, messy real-world datasets; owned data-quality, completeness and reliability checks across sites.
+            Designed experiments and statistical evaluations; delivered findings as clear, actionable recommendations to partners, clinicians and funders.
+            Mentored junior researchers and students; set analytical roadmaps and reproducibility standards (Git, notebooks).
+          about_compact: |
+            Led a ~10-person, 4-institution analytics programme; converted open-ended objectives into measurable KPIs and well-scoped analyses, designing the experiments and statistical evaluations to answer them.
+            Built distributed / federated pipelines over heterogeneous real-world data; owned data quality across sites and delivered findings as clear recommendations.
+            Mentored junior researchers; set reproducibility standards (Git, notebooks).
+        - title: "Researcher — Behavioural Signal Decoding (Brain-Computer Interfaces)"
+          location: KU Leuven
+          duration: 2018 - 2024
+          about: |
+            Analysed high-density behavioural and neural time-series (millions of events per session) to detect patterns and predict actions, using SQL-style querying and aggregation over large event streams.
+            Designed and validated instrumentation and event pipelines for real-time behavioural data; monitored signal quality end-to-end.
+            Translated complex quantitative results into intuitive visual stories for cross-disciplinary audiences.
+          about_compact: |
+            Analysed high-density behavioural time-series (millions of events per session) to detect patterns and predict actions, using SQL-style querying and aggregation over large event streams.
+            Designed and validated event pipelines and instrumentation; monitored data quality end-to-end and presented results visually to cross-disciplinary audiences.
+        - title: "Data Science Consultant"
+          location: Flanders BCI
+          duration: 2022 - 2024
+          about: |
+            Delivered analytics consultancy for external partners: experiment design, signal detection / classification, and pragmatic ML modelling on behavioural sensor data.
+
+    projects:
+      title: Selected Projects
+      content:
+        - role: Researcher / Developer
+          title: "Household Survival — room-scale game using everyday objects as controllers (Unity, OptiTrack)"
+          url: https://www.youtube.com/watch?v=Q4_rK2upGEY
+          duration: 2015 - 2016
+          about: |
+            Built a room-scale game where brooms, fans and vacuums became controllers; 2nd place at the Belgian Game Development Championship and still used as a university teaching example.
+        - role: Lead Developer
+          title: "iCal for KU Leuven — schedule generator (Node.js)"
+          url: https://github.com/TheAxeC/ical-kuleuven
+          duration: 2016 - Present
+          about: |
+            A small product shipped to real users: generates calendar feeds for KU Leuven courses, with 1000+ active users.
+        - role: Lead Developer
+          title: "Cardinal — VM & language platform (C++20)"
+          url: https://github.com/TheAxeC/Cardinal
+          duration: 2015 - Present
+          about: |
+            A clear, well-documented virtual machine used as a platform for student theses and language / compiler experiments.
+        - role: Author
+          title: "Reproducible federated-learning tutorial (Wisconsin Breast Cancer)"
+          url: https://github.com/TheAxeC/federated-learning-tutorial
+          duration: 2025 - Present
+          compact: false   # one-pager: dropped (3 projects carry the story)
+          about: |
+            Step-by-step, reproducible analysis walkthrough with documented markdown guides for newcomers.
+
+    education:
+      title: Education
+      content:
+        - title: "PhD, Computational Neuroscience"
+          about: Large-scale time-series & tensor modelling
+          location: KU Leuven
+          duration: 2018 - 2023
+        - title: "M.Sc. Artificial Intelligence (Cum Laude)"
+          about: Engineering & Computer Science
+          location: KU Leuven
+          duration: 2017 - 2019
+        - title: "M.Sc. Computer Science Engineering (Cum Laude)"
+          about: AI & theoretical computer science
+          location: KU Leuven
+          duration: 2016 - 2018
+        - title: "B.Sc. Computer Science (Magna Cum Laude)"
+          about: ""
+          location: UHasselt
+          duration: 2013 - 2016
+
+    awards:
+      title: Awards & Highlights
+      content:
+        - award: "2nd place — Belgian Game Development Championship"
+          event: Game development competition
+          location: Brussels
+          date: "2016"
+        - award: "3rd place — ACM CHI Student Design Competition"
+          event: Everyday objects as game controllers
+          location: San Jose, USA
+          date: "2016"
+        - award: "Selected (ranked 4th) — EFSA Framework Contract"
+          event: Statistical & epidemiological analysis
+          location: Europe
+          date: "2025"
+        - award: "3rd place — ACM SIGPLAN Student Research Competition (ICFP)"
+          event: Programming languages & compilers
+          location: Oxford, UK
+          date: "2017"
+        - award: "IELTS Academic — 8.0 / 9.0"
+          event: English proficiency
+          location: ""
+          date: "2016"
+          compact: false   # one-pager: dropped
+
+    letter:
+      recipient_name: "Guerrilla Games — Analytics Team"
+      recipient_address: "Amsterdam, The Netherlands"
+      date: "June 2026"
+      title: "Application — Senior Data Analyst"
+      opening: "Dear Hiring Team,"
+      closing: "Kind regards,"
+      body: |
+        I'm applying for the Senior Data Analyst role on Guerrilla's analytics team. I've spent
+        my career making large, noisy behavioural datasets answer questions that people without a
+        statistics background can act on -- and I'd love to do that for the moment-to-moment
+        experience of games I actually play. As a long-time player, and a former game-dev
+        competitor whose team took second at the Belgian Game Development Championship, I keep
+        catching myself asking the analyst's question: how would you even measure whether a combat
+        encounter's pacing works, or whether players are quietly running dry on a resource?
+
+        Turning a vague design intuition into a well-scoped, measurable analysis is exactly what I
+        do. Coordinating a four-institution research programme, I converted open-ended objectives
+        into concrete KPIs, designed the experiments to test them, and delivered the findings as
+        clear recommendations to a mix of designers, engineers and decision-makers. I'm fluent in
+        SQL over large event-style datasets, build my analysis in Python and Jupyter, work in Git,
+        and care a great deal about reproducibility and A/B-test discipline -- your preferred
+        qualifications read like my toolbox.
+
+        Much of my work has been gameplay-analytics-shaped without the game: high-density
+        behavioural and sensor telemetry, millions of events per session, where half the battle is
+        designing the instrumentation and validating that the data is complete and trustworthy
+        before anyone draws a conclusion. Owning telemetry and event taxonomy, and guarding data
+        quality, is familiar territory for me.
+
+        At a senior level I try to do more than answer the questions I'm handed: I look for the
+        analytical opportunities a team hasn't spotted yet, and I enjoy mentoring junior analysts
+        toward rigorous, reproducible work. I'm based in the Netherlands and an EU citizen, so
+        joining the Amsterdam studio is straightforward. I'd welcome the chance to talk about how I
+        could help Guerrilla understand its players more deeply.
+
+  # ===========================================================================
+  # PHARMA  -- Biomedical / health & life-sciences data science
+  # ===========================================================================
+  pharma:
+    titles:
+      - Biomedical Data Scientist
+      - Statistics & Machine Learning
+      - Clinical & Real-World Data
+
+    summary:
+      title: Profile
+      text: |
+        PhD data scientist specialising in statistics and machine learning for health and
+        life-sciences data. Eight years building predictive and federated models across hospitals
+        and institutions, with a focus on rigorous, reproducible analysis of clinical, imaging,
+        omics and real-world data. Scientific coordinator of a multi-institution real-world-evidence
+        programme and selected for the EFSA statistical-analysis framework. I translate complex
+        methods into decisions that clinical and regulatory stakeholders can trust.
+
+    skills:
+      title: Skills
+      content:
+        - category: Statistics
+          items: "Survival and competing-risks models; regression; Bayesian and spatial modelling; experimental and study design; causal / observational inference."
+        - category: Machine Learning
+          items: "Predictive modelling, clustering, deep learning (PyTorch), representation / foundation models, tensor methods, explainable AI (XAI)."
+        - category: Health Data
+          items: "Clinical, longitudinal MRI / imaging, multi-omics, real-world evidence; OMOP / OHDSI; data harmonisation and quality."
+        - category: Federated & Privacy
+          items: "Federated learning across institutions; privacy-preserving analytics; distributed pipelines for sensitive data."
+        - category: Programming
+          items: "Python (pandas, scikit-learn, PyTorch), R, SQL, Jupyter; Git; reproducible pipelines."
+        - category: Communication & Domain
+          items: "Precision oncology and neuroscience; presenting to clinicians, regulators and funders; teaching and mentoring."
+
+    experience:
+      title: Experience
+      content:
+        - title: "Postdoctoral Researcher — AI for Healthcare & Precision Oncology"
+          location: University of Twente / Medisch Spectrum Twente
+          duration: Jan 2026 - Present
+          about: |
+            Develop deep-learning and foundation models integrating longitudinal MRI, multi-omics and clinical variables for early detection and risk prediction of hepatocellular carcinoma (AI-HCC, ZonMw).
+            Build explainable-AI frameworks linking imaging and molecular markers to clinically meaningful outcomes.
+        - title: "Scientific Coordinator & ML Lead — Real-World Evidence"
+          location: UHasselt (Flanders AI Research Program)
+          duration: Jan 2024 - Jan 2026
+          about: |
+            Led multi-institutional privacy-preserving healthcare analytics across Belgian institutions, enabling collaborative clinical research without sharing patient data.
+            Developed federated tensor regression for longitudinal health data and distributed learning for heterogeneous clinical datasets; owned data quality and harmonisation.
+            Translated federated AI methods into practical applications; mentored junior researchers and students.
+        - title: "Researcher — Computational Neuroscience & Biomedical ML"
+          location: KU Leuven
+          duration: 2018 - 2024
+          about: |
+            Built ML and tensor-regression models for high-density biomedical time-series; designed statistical evaluations and reproducible analysis pipelines.
+            Supervised graduate and doctoral students across clinical and engineering projects.
+        - title: "Statistical & Epidemiological Analysis — EFSA Framework"
+          location: European Food Safety Authority
+          duration: 2025
+          about: |
+            Selected (ranked 4th among international contractors) for the EFSA framework; contributed Bayesian spatial modelling and AI / ML for data classification.
+
+    projects:
+      title: Selected Projects
+      content:
+        - role: Lead Researcher & Developer
+          title: "Block-Term Tensor Regression (BTTR) — open-source Python package"
+          url: https://github.com/TheAxeC/block-term-tensor-regression
+          duration: 2022 - Present
+          about: |
+            Accessible, reproducible tensor-regression tooling for neuroscience and biomedical data.
+        - role: Contributor
+          title: "Federated Learning Kit (FLkit) for the life sciences"
+          url: https://github.com/UHasselt-BiomedicalDataSciences/federated-learning-toolkit
+          duration: 2025 - Present
+          about: |
+            Guidance, techniques and tools helping life scientists apply privacy-preserving federated learning to sensitive, decentralised data.
+        - role: Author
+          title: "Reproducible federated-learning tutorial (Wisconsin Breast Cancer)"
+          url: https://github.com/TheAxeC/federated-learning-tutorial
+          duration: 2025 - Present
+          about: |
+            End-to-end, documented walkthrough of a federated study using the FL4E framework.
+
+    education:
+      title: Education
+      content:
+        - title: "PhD, Computational Neuroscience"
+          about: Biomedical ML & tensor regression
+          location: KU Leuven
+          duration: 2018 - 2023
+        - title: "M.Sc. Artificial Intelligence (Cum Laude)"
+          about: Engineering & Computer Science
+          location: KU Leuven
+          duration: 2017 - 2019
+        - title: "M.Sc. Computer Science Engineering (Cum Laude)"
+          about: AI & theoretical computer science
+          location: KU Leuven
+          duration: 2016 - 2018
+        - title: "B.Sc. Computer Science (Magna Cum Laude)"
+          about: ""
+          location: UHasselt
+          duration: 2013 - 2016
+
+    awards:
+      title: Awards & Highlights
+      content:
+        - award: "Selected (ranked 4th) — EFSA Framework Contract"
+          event: Statistical & epidemiological analysis
+          location: Europe
+          date: "2025"
+        - award: "FWO Fundamental Research Grant"
+          event: Research Foundation Flanders
+          location: Belgium
+          date: "2018"
+        - award: "Bachelor Award in Computer Science"
+          event: Examination committee distinction
+          location: UHasselt
+          date: "2016"
+        - award: "IELTS Academic — 8.0 / 9.0"
+          event: English proficiency
+          location: ""
+          date: "2016"
+
+    letter:
+      recipient_name: "Hiring Team"
+      recipient_address: ""
+      date: "June 2026"
+      title: "Application — Data Scientist (Health & Life Sciences)"
+      opening: "Dear Hiring Team,"
+      closing: "Kind regards,"
+      body: |
+        I'm writing to apply for your data-science role in health and life sciences. I'm a PhD data
+        scientist who has spent eight years building statistical and machine-learning models for
+        clinical, imaging, omics and real-world data -- and, just as importantly, making those
+        results trustworthy and intelligible to the clinicians and regulators who rely on them.
+
+        Most recently I develop deep-learning and explainable-AI models that integrate longitudinal
+        MRI, multi-omics and clinical variables for early cancer detection and risk prediction.
+        Before that I coordinated a multi-institution real-world-evidence programme, building
+        privacy-preserving federated pipelines that let hospitals collaborate without sharing
+        patient data, and owning data quality and harmonisation across sites. I was also selected
+        for the EFSA statistical-analysis framework, contributing Bayesian spatial modelling and
+        ML-based classification.
+
+        I work in Python, R and SQL with reproducible, version-controlled pipelines, and I'm
+        comfortable across the full arc of an analysis -- from study design and the right
+        statistical method through to a clear recommendation for a non-technical audience. I care
+        about rigour: honest uncertainty, validated data, and conclusions that hold up.
+
+        I'm based in the Netherlands and an EU citizen, available without visa sponsorship. I'd
+        welcome the opportunity to discuss how my background could contribute to your team.
