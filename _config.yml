@@ -14,8 +14,7 @@ collections:
     output: true
     permalink: /blog/:path/
   linkedin:
-    output: true
-    permalink: /linkedin/:path/
+    output: false   # repo-only history
 
 include: ['_pages']
 
