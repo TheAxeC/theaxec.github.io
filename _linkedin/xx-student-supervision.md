@@ -23,13 +23,13 @@ The statistics student who taught me about clinical thinking:
 
 Meseret Assefa Kerga's thesis on cirrhosis survival prediction forced me to think like a clinician, not just a machine learning researcher. She kept asking: "But what would a doctor do with this prediction?"
 
-Her insistence on clinical interpretability—not just AUC scores—made the work genuinely useful instead of just technically impressive. That shift in perspective now influences all my healthcare AI projects.
+Her insistence on clinical interpretability, not just AUC scores, made the work genuinely useful instead of just technically impressive. That shift in perspective now influences all my healthcare AI projects.
 
 Lesson: Students from different backgrounds see blind spots you didn't know you had.
 
 The compiler enthusiasts who kept my passion project alive:
 
-Denzell Mgbokwere (optimization and type checking) and Robert Rysskin (bytecode redesign) are working on Cardinal, my C++20 Wren VM reimplementation. This project has nothing to do with my main research, but it's my way of staying connected to programming language theory—my first academic love.
+Denzell Mgbokwere (optimization and type checking) and Robert Rysskin (bytecode redesign) are working on Cardinal, my C++20 Wren VM reimplementation. This project has nothing to do with my main research, but it's my way of staying connected to programming language theory, my first academic love.
 
 Their enthusiasm reminded me why I fell in love with computer science in the first place. Some weeks, working with them on type systems and bytecode is what keeps me energized for the healthcare AI grind.
 
@@ -78,7 +78,7 @@ The privilege:
 
 Despite the challenges, supervising students is the most rewarding part of my job. More than papers, more than grants, more than conference talks.
 
-Watching Qiang Sun (exoskeleton BCI) and Eva Calvo Merino (finger movement decoding) publish from their doctoral work—that matters. Seeing former internship students (Iris, Didier, Aurelie) go on to their own research careers—that's the impact.
+Watching Qiang Sun (exoskeleton BCI) and Eva Calvo Merino (finger movement decoding) publish from their doctoral work, that matters. Seeing former internship students (Iris, Didier, Aurelie) go on to their own research careers, that's the impact.
 
 Every student brings their own perspective, their own questions, their own way of seeing the problem. And every single one has made my research better.
 

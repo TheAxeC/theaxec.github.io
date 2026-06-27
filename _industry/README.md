@@ -1,7 +1,7 @@
-# `_industry` — industry-focused CV + cover letter
+# `_industry`, industry-focused CV + cover letter
 
 A sibling to `_scripts/` (the academic CV pipeline). Same Awesome-CV engine and
-`src/ → _tmp/ → xelatex` flow, but it renders an **industry**-tailored one/two-page
+`src/ -> _tmp/ -> xelatex` flow, but it renders an **industry**-tailored one/two-page
 CV plus a matching cover letter, driven by a single data file with a profile switch.
 
 ## Build
@@ -30,29 +30,29 @@ Produces a tightened single-page CV saved as `cv-industry-<profile>-onepage.pdf`
 - uses `summary.text_compact` instead of `text` when present;
 - tightens section / header vertical spacing.
 
-So the one-pager is curated, not auto-truncated — choose what to drop by tagging
+So the one-pager is curated, not auto-truncated, choose what to drop by tagging
 items in `industry.yml`.
 
 ## Where the content lives
 
 All text is in **`../_data/industry.yml`**:
 
-- `shared.personal` — name, photo, contact links (common to every profile).
-- `profiles.<name>` — one block per target. Each supplies its own `titles`,
+- `shared.personal`, name, photo, contact links (common to every profile).
+- `profiles.<name>`, one block per target. Each supplies its own `titles`,
   `summary`, `skills`, `experience`, `projects`, `education`, `awards`, and a
   `letter` (recipient, date, title, opening, body, closing).
 
 To add a new target (e.g. another studio or company), copy a profile block,
 rename it, edit the text, and run with `--profile <name>`. Keep everything
-**true to `data.yml`** — these go to real employers.
+**true to `data.yml`**, these go to real employers.
 
 ## Files
 
-- `cv_pdf_generator.py` — reuses the `Template` engine from `../_scripts/`, selects
+- `cv_pdf_generator.py`, reuses the `Template` engine from `../_scripts/`, selects
   the profile, builds the context, compiles CV (+ cover letter if the profile has one).
-- `src/cv.tex.template` + `src/cv/*.template` — resume layout (summary, skills,
+- `src/cv.tex.template` + `src/cv/*.template`, resume layout (summary, skills,
   experience, projects, education, awards).
-- `src/coverletter.tex.template` — cover letter (Awesome-CV header + manual letter body).
-- `src/awesome-cv.cls` — copy of the class, with a small `cvparagraph` environment
+- `src/coverletter.tex.template`, cover letter (Awesome-CV header + manual letter body).
+- `src/awesome-cv.cls`, copy of the class, with a small `cvparagraph` environment
   added for the summary.
-- `src/fonts/` — Roboto + FontAwesome (copied from `_scripts/src/fonts`).
+- `src/fonts/`, Roboto + FontAwesome (copied from `_scripts/src/fonts`).

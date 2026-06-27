@@ -11,7 +11,7 @@ date: 2025-02-12
 
 That line hit me.
 
-It's a reminder of what research really is — not about chasing what's simple or safe, but about opening paths that have never been opened before.
+It's a reminder of what research really is, not about chasing what's simple or safe, but about opening paths that have never been opened before.
 
 In science, AI, and interdisciplinary work, progress often means facing uncertainty, frustration, and failure.
 But that's the point.

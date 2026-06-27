@@ -24,9 +24,9 @@ description:
 
     Research Affiliate (AI for Healthcare) @ Biomedical Data Sciences, UHasselt
 
-    **Research Focus**: *The self-explaining hospital — interpretable, self-explaining models and federation that travels between institutions.*
+    **Research Focus**: *The self-explaining hospital - interpretable, self-explaining models and federation that travels between institutions.*
       - Interpretable, self-explaining models (block-term / multiway) for clinical decisions
-      - Federated learning that travels between hospitals — privacy-preserving, modality-incomplete
+      - Federated learning that travels between hospitals - privacy-preserving, modality-incomplete
       - Multi-modal precision oncology: longitudinal MRI + omics + clinical for early cancer detection
       - Self-supervised backbones for longitudinal medical imaging
     
@@ -37,8 +37,8 @@ description:
         
       <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
   content: |
-    - AI Researcher in Healthcare — 🔍 `Self-Explaining AI` • 🤝 `Federated Learning` • 🧬 `Precision Medicine`
-    - ***Research program:*** *The self-explaining hospital — interpretable, self-explaining models and privacy-preserving federation that travels between institutions, built on multiway (block-term tensor) methods.*
+    - AI Researcher in Healthcare - 🔍 `Self-Explaining AI` • 🤝 `Federated Learning` • 🧬 `Precision Medicine`
+    - ***Research program:*** *The self-explaining hospital - interpretable, self-explaining models and privacy-preserving federation that travels between institutions, built on multiway (block-term tensor) methods.*
     - **Postdoctoral Researcher** (Multi-Modal AI for Precision Medicine) @ University of Twente (Cognition, Data and Education, CODE)
       - Developing `multi-modal federated AI` and explainable AI (XAI) that integrate longitudinal MRI, `multi-omics`, and clinical data for early hepatocellular carcinoma detection and risk prediction (AI-HCC ZonMw project).
       - Building `self-supervised backbones` and interpretable architectures that model temporal dynamics in longitudinal imaging and omics, working toward clinical translation in precision oncology.
@@ -60,14 +60,14 @@ description:
   research_mobile: |
     **Research**
       - Designing `self-explaining models` (block-term / multiway) that are interpretable by construction.
-      - Building `federated learning` that travels between hospitals — privacy-preserving, modality-incomplete (FAIR UC RWE).
-      - Advancing `multi-modal precision oncology` — longitudinal MRI, omics, and clinical data for early cancer detection.
+      - Building `federated learning` that travels between hospitals - privacy-preserving, modality-incomplete (FAIR UC RWE).
+      - Advancing `multi-modal precision oncology` - longitudinal MRI, omics, and clinical data for early cancer detection.
       - Methodological roots in neural decoding and `brain-computer interfaces`, where my block-term tensor methods began.
   research: |
     **Vision for Research Impact** <a href="/research">(view more <i class="fas fa-angle-double-right"></i>)</a>
     I work toward **the self-explaining hospital**: clinical AI that explains its own reasoning and travels between institutions instead of demanding the data travel to it. I aim to:
-    - **Make interpretability a guarantee**: designing self-explaining models — multiway, block-term — whose explanations are faithful by construction and stand up to clinical and regulatory scrutiny.
-    - **Federate across real institutions**: using privacy-preserving federated learning to let hospitals — even those holding different modalities and incomplete data — train shared models without surrendering patient data.
+    - **Make interpretability a guarantee**: designing self-explaining models - multiway, block-term - whose explanations are faithful by construction and stand up to clinical and regulatory scrutiny.
+    - **Federate across real institutions**: using privacy-preserving federated learning to let hospitals - even those holding different modalities and incomplete data - train shared models without surrendering patient data.
     - **Advance multi-modal precision oncology**: integrating longitudinal imaging, omics, and clinical data for early cancer detection and personalized risk prediction, from retrospective benchmarks toward clinically embedded validation.
   
   biomed_url: assets/images/webpage/dls.webp
@@ -93,12 +93,12 @@ description:
 research:
   title: Research Diary
   content: |
-    Welcome to my research corner, where I advance `AI for precision medicine`. Here, you'll find projects, insights, and innovations in `self-explaining models`, `federated learning`, and `interpretable AI` applied to real-world healthcare challenges—from hepatocellular carcinoma detection and cardiovascular risk prediction to the neural decoding where my block-term tensor methods began. Join me as I translate trustworthy AI methods into clinical impact.
+    Welcome to my research corner, where I advance `AI for precision medicine`. Here, you'll find projects, insights, and innovations in `self-explaining models`, `federated learning`, and `interpretable AI` applied to real-world healthcare challenges - from hepatocellular carcinoma detection and cardiovascular risk prediction to the neural decoding where my block-term tensor methods began. Join me as I translate trustworthy AI methods into clinical impact.
 
 ###########
 # Metrics #
 ###########
-# "At a glance" stats. Bibliometrics from Google Scholar — update periodically.
+# "At a glance" stats. Bibliometrics from Google Scholar - update periodically.
 metrics:
   title: Research at a Glance
   note: 'Bibliometrics via Google Scholar (June 2026)'

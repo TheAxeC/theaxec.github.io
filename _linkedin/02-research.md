@@ -20,5 +20,5 @@ Or just curious about tensor methods in FL
 
 Let's grab coffee ☕ or chat between sessions. I'd love to hear what problems you're tackling and what's actually working (or not working) in practice.
 See you there! 🚀
-📢 Working on federated learning or healthcare AI? Let's connect—always happy to discuss challenges, trade ideas, or collaborate.
+📢 Working on federated learning or healthcare AI? Let's connect, always happy to discuss challenges, trade ideas, or collaborate.
 hashtag#FederatedLearning hashtag#FLTA2025 hashtag#HealthcareAI hashtag#MachineLearning

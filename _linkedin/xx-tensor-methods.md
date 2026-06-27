@@ -7,7 +7,7 @@ publish: True
 date: 2025-02-12
 ---
 
-Quick question: when you record brain activity, you get a 3D structure—electrodes × time × frequency.
+Quick question: when you record brain activity, you get a 3D structure, electrodes x time x frequency.
 
 So why do most researchers flatten it into a 2D matrix (or worse, a 1D vector) before analyzing it?
 
@@ -22,12 +22,12 @@ What's a tensor? (Non-scary version)
 A tensor is just a multi-dimensional array:
 
 1D array = vector (e.g., one patient's age, weight, height)
-2D array = matrix (e.g., multiple patients × multiple features)
-3D array = tensor (e.g., patients × features × time)
+2D array = matrix (e.g., multiple patients x multiple features)
+3D array = tensor (e.g., patients x features x time)
 And so on...
-Brain signals are naturally tensors: electrodes × time × trials. Or electrodes × time × frequency. Or subjects × electrodes × time. You get the idea.
+Brain signals are naturally tensors: electrodes x time x trials. Or electrodes x time x frequency. Or subjects x electrodes x time. You get the idea.
 
-Medical imaging? Tensors. Longitudinal health records? Tensors. Genomic data across tissues and conditions? You guessed it—tensors.
+Medical imaging? Tensors. Longitudinal health records? Tensors. Genomic data across tissues and conditions? You guessed it, tensors.
 
 Why flattening is a problem
 
@@ -47,7 +47,7 @@ Enter: Block-Term Tensor Regression (BTTR)
 
 This is the method I've been developing and refining since my PhD. Here's the idea:
 
-Instead of flattening your 3D brain activity into a vector, keep it as a tensor. Then, decompose it into a small number of "blocks"—each capturing a different pattern in the data.
+Instead of flattening your 3D brain activity into a vector, keep it as a tensor. Then, decompose it into a small number of "blocks", each capturing a different pattern in the data.
 
 Think of it like finding the key themes in your data while preserving how those themes play out across electrodes, time, and frequency simultaneously.
 
@@ -79,7 +79,7 @@ So why doesn't everyone use tensor methods?
 
 1. Unfamiliarity Most ML courses teach matrices. CNNs handle images (2D-ish). Transformers work on sequences (1D-ish). Tensor algebra is niche.
 
-2. Perceived complexity The math looks scary. Tucker decomposition, CP decomposition, tensor trains—it sounds like you need a PhD in applied mathematics. (Spoiler: you don't. The concepts are intuitive once you see them.)
+2. Perceived complexity The math looks scary. Tucker decomposition, CP decomposition, tensor trains, it sounds like you need a PhD in applied mathematics. (Spoiler: you don't. The concepts are intuitive once you see them.)
 
 3. Lack of accessible tools Scikit-learn doesn't have it. PyTorch tensors are not the same as tensor decomposition. Until recently, you had to implement it yourself or use academic code with terrible documentation.
 
@@ -91,7 +91,7 @@ When should you use tensor methods?
 
 Use tensors when:
 
-Your data has clear multi-way structure (space × time, patients × visits × biomarkers, etc.)
+Your data has clear multi-way structure (space x time, patients x visits x biomarkers, etc.)
 You care about interpretability (tensor components often correspond to real patterns)
 You have limited data (tensor methods are sample-efficient because they exploit structure)
 You need computational efficiency (BTTR trains faster than most deep learning approaches)
@@ -116,7 +116,7 @@ Tensor methods preserve the structure that matters. They're not magic, and they'
 
 Want to try BTTR? It's open-source on GitHub: https://github.com/TheAxeC/block-term-tensor-regression
 
-Want to learn more? My papers on BTTR are linked in the comments. Start with the IEEE TNNLS paper—it's the most accessible.
+Want to learn more? My papers on BTTR are linked in the comments. Start with the IEEE TNNLS paper, it's the most accessible.
 
 Questions? Drop them below. I love talking about this stuff (clearly).
 

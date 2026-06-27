@@ -18,7 +18,7 @@ shared:
     author: Axel Faes
     website: https://theaxec.github.io
     links:
-      location: "Netherlands · EU citizen (no visa required)"
+      location: "Netherlands | EU citizen (no visa required)"
       email: axel.faes[at]gmail.com
       linkedin: axelfaes
       github: TheAxeC
@@ -33,7 +33,7 @@ profiles:
     titles:
       - Data Scientist & Quantitative Analyst
       - Behavioural & Telemetry Analytics
-      - SQL · Python · Experimentation
+      - SQL | Python | Experimentation
 
     summary:
       title: Profile
@@ -73,13 +73,13 @@ profiles:
     experience:
       title: Experience
       content:
-        - title: "Postdoctoral Researcher — AI & Data Science"
+        - title: "Postdoctoral Researcher - AI & Data Science"
           location: University of Twente / Medisch Spectrum Twente
           duration: Jan 2026 - Present
           about: |
             Build predictive models over large, longitudinal multi-modal datasets (imaging, molecular, clinical), owning the full pipeline from raw data to validated insight.
             Design explainable analytics that connect model outputs to the outcomes stakeholders care about, communicated to non-technical decision-makers.
-        - title: "Scientific Coordinator & Machine-Learning Lead — Real-World Evidence"
+        - title: "Scientific Coordinator & Machine-Learning Lead - Real-World Evidence"
           location: UHasselt (Flanders AI Research Program)
           duration: Jan 2024 - Jan 2026
           about: |
@@ -91,7 +91,7 @@ profiles:
             Led a ~10-person, 4-institution analytics programme; converted open-ended objectives into measurable KPIs and well-scoped analyses, designing the experiments and statistical evaluations to answer them.
             Built distributed / federated pipelines over heterogeneous real-world data; owned data quality across sites and delivered findings as clear recommendations.
             Mentored junior researchers; set reproducibility standards (Git, notebooks).
-        - title: "Researcher — Behavioural Signal Decoding (Brain-Computer Interfaces)"
+        - title: "Researcher - Behavioural Signal Decoding (Brain-Computer Interfaces)"
           location: KU Leuven
           duration: 2018 - 2024
           about: |
@@ -111,19 +111,19 @@ profiles:
       title: Selected Projects
       content:
         - role: Researcher / Developer
-          title: "Household Survival — room-scale game using everyday objects as controllers (Unity, OptiTrack)"
+          title: "Household Survival - room-scale game using everyday objects as controllers (Unity, OptiTrack)"
           url: https://www.youtube.com/watch?v=Q4_rK2upGEY
           duration: 2015 - 2016
           about: |
             Built a room-scale game where brooms, fans and vacuums became controllers; 2nd place at the Belgian Game Development Championship and still used as a university teaching example.
         - role: Lead Developer
-          title: "iCal for KU Leuven — schedule generator (Node.js)"
+          title: "iCal for KU Leuven - schedule generator (Node.js)"
           url: https://github.com/TheAxeC/ical-kuleuven
           duration: 2016 - Present
           about: |
             A small product shipped to real users: generates calendar feeds for KU Leuven courses, with 1000+ active users.
         - role: Lead Developer
-          title: "Cardinal — VM & language platform (C++20)"
+          title: "Cardinal - VM & language platform (C++20)"
           url: https://github.com/TheAxeC/Cardinal
           duration: 2015 - Present
           about: |
@@ -159,33 +159,33 @@ profiles:
     awards:
       title: Awards & Highlights
       content:
-        - award: "2nd place — Belgian Game Development Championship"
+        - award: "2nd place - Belgian Game Development Championship"
           event: Game development competition
           location: Brussels
           date: "2016"
-        - award: "3rd place — ACM CHI Student Design Competition"
+        - award: "3rd place - ACM CHI Student Design Competition"
           event: Everyday objects as game controllers
           location: San Jose, USA
           date: "2016"
-        - award: "Selected (ranked 4th) — EFSA Framework Contract"
+        - award: "Selected (ranked 4th) - EFSA Framework Contract"
           event: Statistical & epidemiological analysis
           location: Europe
           date: "2025"
-        - award: "3rd place — ACM SIGPLAN Student Research Competition (ICFP)"
+        - award: "3rd place - ACM SIGPLAN Student Research Competition (ICFP)"
           event: Programming languages & compilers
           location: Oxford, UK
           date: "2017"
-        - award: "IELTS Academic — 8.0 / 9.0"
+        - award: "IELTS Academic - 8.0 / 9.0"
           event: English proficiency
           location: ""
           date: "2016"
           compact: false   # one-pager: dropped
 
     letter:
-      recipient_name: "Guerrilla Games — Analytics Team"
+      recipient_name: "Guerrilla Games - Analytics Team"
       recipient_address: "Amsterdam, The Netherlands"
       date: "June 2026"
-      title: "Application — Senior Data Analyst"
+      title: "Application - Senior Data Analyst"
       opening: "Dear Hiring Team,"
       closing: "Kind regards,"
       body: |
@@ -255,26 +255,26 @@ profiles:
     experience:
       title: Experience
       content:
-        - title: "Postdoctoral Researcher — AI for Healthcare & Precision Oncology"
+        - title: "Postdoctoral Researcher - AI for Healthcare & Precision Oncology"
           location: University of Twente / Medisch Spectrum Twente
           duration: Jan 2026 - Present
           about: |
             Develop deep-learning and foundation models integrating longitudinal MRI, multi-omics and clinical variables for early detection and risk prediction of hepatocellular carcinoma (AI-HCC, ZonMw).
             Build explainable-AI frameworks linking imaging and molecular markers to clinically meaningful outcomes.
-        - title: "Scientific Coordinator & ML Lead — Real-World Evidence"
+        - title: "Scientific Coordinator & ML Lead - Real-World Evidence"
           location: UHasselt (Flanders AI Research Program)
           duration: Jan 2024 - Jan 2026
           about: |
             Led multi-institutional privacy-preserving healthcare analytics across Belgian institutions, enabling collaborative clinical research without sharing patient data.
             Developed federated tensor regression for longitudinal health data and distributed learning for heterogeneous clinical datasets; owned data quality and harmonisation.
             Translated federated AI methods into practical applications; mentored junior researchers and students.
-        - title: "Researcher — Computational Neuroscience & Biomedical ML"
+        - title: "Researcher - Computational Neuroscience & Biomedical ML"
           location: KU Leuven
           duration: 2018 - 2024
           about: |
             Built ML and tensor-regression models for high-density biomedical time-series; designed statistical evaluations and reproducible analysis pipelines.
             Supervised graduate and doctoral students across clinical and engineering projects.
-        - title: "Statistical & Epidemiological Analysis — EFSA Framework"
+        - title: "Statistical & Epidemiological Analysis - EFSA Framework"
           location: European Food Safety Authority
           duration: 2025
           about: |
@@ -284,7 +284,7 @@ profiles:
       title: Selected Projects
       content:
         - role: Lead Researcher & Developer
-          title: "Block-Term Tensor Regression (BTTR) — open-source Python package"
+          title: "Block-Term Tensor Regression (BTTR) - open-source Python package"
           url: https://github.com/TheAxeC/block-term-tensor-regression
           duration: 2022 - Present
           about: |
@@ -325,7 +325,7 @@ profiles:
     awards:
       title: Awards & Highlights
       content:
-        - award: "Selected (ranked 4th) — EFSA Framework Contract"
+        - award: "Selected (ranked 4th) - EFSA Framework Contract"
           event: Statistical & epidemiological analysis
           location: Europe
           date: "2025"
@@ -337,7 +337,7 @@ profiles:
           event: Examination committee distinction
           location: UHasselt
           date: "2016"
-        - award: "IELTS Academic — 8.0 / 9.0"
+        - award: "IELTS Academic - 8.0 / 9.0"
           event: English proficiency
           location: ""
           date: "2016"
@@ -346,7 +346,7 @@ profiles:
       recipient_name: "Hiring Team"
       recipient_address: ""
       date: "June 2026"
-      title: "Application — Data Scientist (Health & Life Sciences)"
+      title: "Application - Data Scientist (Health & Life Sciences)"
       opening: "Dear Hiring Team,"
       closing: "Kind regards,"
       body: |

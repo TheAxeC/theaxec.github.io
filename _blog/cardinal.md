@@ -9,7 +9,7 @@ date: 2025-08-15
 
 # Introducing Cardinal: A Lightweight Scripting Language for Education and Research
 
-If you've ever wanted to peek under the hood of a programming language—to really understand how virtual machines work, how concurrency models are implemented, or how compilers translate high-level code into bytecode—you need a codebase that's both powerful enough to be interesting and clean enough to be comprehensible. That's where **Cardinal** comes in.
+If you've ever wanted to peek under the hood of a programming language, to really understand how virtual machines work, how concurrency models are implemented, or how compilers translate high-level code into bytecode, you need a codebase that's both powerful enough to be interesting and clean enough to be comprehensible. That's where **Cardinal** comes in.
 
 Cardinal is a lightweight concurrent scripting language that brings together the elegance of Wren with the clarity needed for education and research. In this post, I'll introduce you to what makes Cardinal special, explore its syntax and design philosophy, and explain why it might be the perfect tool for your next language implementation course, research project, or embedded scripting needs.
 
@@ -52,7 +52,7 @@ var cardinal = Bird.new("cardinal")
 cardinal.sing()  // The cardinal sings!
 ```
 
-Notice the string interpolation with `%(_species)`—a clean way to embed expressions directly in strings. Cardinal uses a constructor pattern with `construct new()` and private fields prefixed with underscores. Getters can be defined simply by writing a method without parameters.
+Notice the string interpolation with `%(_species)`, a clean way to embed expressions directly in strings. Cardinal uses a constructor pattern with `construct new()` and private fields prefixed with underscores. Getters can be defined simply by writing a method without parameters.
 
 One of Cardinal's most interesting features is its built-in support for lightweight concurrency through **fibers**. Fibers enable coroutine-style concurrency without the complexity of threads:
 
@@ -78,7 +78,7 @@ This example demonstrates how fibers can yield values, allowing you to write gen
 
 ## The Connection to Wren
 
-Cardinal is more than just inspired by Wren—it's a deliberate C++ reimplementation that maintains compatibility with Wren's syntax and semantics while improving on the educational and research aspects. The original Wren is written in C and focuses on being a minimal, fast embeddable scripting language.
+Cardinal is more than just inspired by Wren, it's a deliberate C++ reimplementation that maintains compatibility with Wren's syntax and semantics while improving on the educational and research aspects. The original Wren is written in C and focuses on being a minimal, fast embeddable scripting language.
 
 Cardinal takes Wren's solid foundation and asks: "What if we rebuilt this with modern C++, extensive comments, and education as a first-class goal?" The result is a codebase that:
 
@@ -102,7 +102,7 @@ The VM and runtime are deliberately kept small and readable. Each component is h
 - Compiler construction
 - Concurrency models and implementation
 
-The clean separation of concerns means you can focus on one aspect at a time—study the garbage collector without getting lost in parser details, or examine the bytecode compiler without worrying about the runtime.
+The clean separation of concerns means you can focus on one aspect at a time, study the garbage collector without getting lost in parser details, or examine the bytecode compiler without worrying about the runtime.
 
 ### For Research Projects
 
@@ -111,7 +111,7 @@ Cardinal provides an excellent platform for:
 - **Rapid prototyping** of new language features thanks to the higher-level C++ implementation
 - **Experimental implementations** of novel ideas without the overhead of building infrastructure from scratch
 
-The small footprint enables fast iteration—you can modify the language, rebuild, and test your changes in seconds rather than minutes. And because it compiles to bytecode, you can experiment with runtime optimizations and see their effects immediately.
+The small footprint enables fast iteration, you can modify the language, rebuild, and test your changes in seconds rather than minutes. And because it compiles to bytecode, you can experiment with runtime optimizations and see their effects immediately.
 
 ### For Labs and Capstone Projects
 
@@ -161,7 +161,7 @@ In future posts, I'll dive deeper into Cardinal's implementation:
 
 Cardinal represents a unique intersection: a language that's simple enough to understand fully, yet sophisticated enough to explore real implementation challenges. Whether you're teaching the next generation of language implementers, researching novel language features, or just curious about how scripting languages work, Cardinal provides a clean, approachable foundation.
 
-If you're interested in programming language implementation, I encourage you to check out [Cardinal on GitHub](https://github.com/TheAxeC/cardinal-revamped). The codebase is waiting to be explored, modified, and extended—and that's exactly what it was designed for.
+If you're interested in programming language implementation, I encourage you to check out [Cardinal on GitHub](https://github.com/TheAxeC/cardinal-revamped). The codebase is waiting to be explored, modified, and extended, and that's exactly what it was designed for.
 
 ---
 

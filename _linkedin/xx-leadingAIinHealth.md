@@ -11,13 +11,13 @@ You might've noticed my tagline: #LeadingAIinHealth
 
 I've been asked: isn't that a bit presumptuous for a postdoc?
 
-Fair question. Let me explain what I mean—and more importantly, what I don't mean.
+Fair question. Let me explain what I mean, and more importantly, what I don't mean.
 
 What I don't mean:
 
 ❌ I'm not claiming to be the leader in AI for health. There are brilliant researchers decades ahead of me in experience, impact, and insight.
 
-❌ I'm not saying my research is more important than others'. Healthcare AI is a massive field—clinical decision support, medical imaging, drug discovery, robotic surgery, epidemiology. I work on a small slice of it.
+❌ I'm not saying my research is more important than others'. Healthcare AI is a massive field, clinical decision support, medical imaging, drug discovery, robotic surgery, epidemiology. I work on a small slice of it.
 
 ❌ I'm not positioning myself as a visionary guru. I'm a postdoc. I have two papers under review that might get rejected. I'm still figuring this out.
 
@@ -27,22 +27,22 @@ When I say #LeadingAIinHealth, I mean three things:
 
 1. Leading as in "directing towards impact"
 
-I'm trying to steer AI methods toward actual healthcare problems—not just benchmarks that look good in papers.
+I'm trying to steer AI methods toward actual healthcare problems, not just benchmarks that look good in papers.
 
 Examples:
 
 Federated learning isn't interesting to me because it's technically clever. It's interesting because hospitals can't share patient data, and this lets them collaborate anyway.
 Tensor regression isn't just a cool math trick. It preserves the structure of longitudinal health data in ways that matter for clinical prediction.
 Brain-computer interfaces aren't sci-fi novelties. They're tools that could restore communication for people with locked-in syndrome or control for people with paralysis.
-If the AI doesn't eventually help patients, clinicians, or health systems—what's the point?
+If the AI doesn't eventually help patients, clinicians, or health systems, what's the point?
 
 2. Leading as in "being at the front of emerging methods"
 
 I'm working on techniques that are early-stage but have huge potential:
 
-Federated learning for healthcare: Most FL research focuses on computer vision or NLP. Healthcare has unique challenges—small datasets, heterogeneous populations, regulatory complexity. I'm among the first wave of researchers translating FL to clinical settings.
+Federated learning for healthcare: Most FL research focuses on computer vision or NLP. Healthcare has unique challenges, small datasets, heterogeneous populations, regulatory complexity. I'm among the first wave of researchers translating FL to clinical settings.
 
-Foundation models for precision medicine: Starting in December 2025, I'll be developing multi-modal AI integrating MRI, multi-omics, and clinical data for early cancer detection. This is cutting-edge—nobody has fully cracked multi-modal temporal modeling in oncology yet.
+Foundation models for precision medicine: Starting in December 2025, I'll be developing multi-modal AI integrating MRI, multi-omics, and clinical data for early cancer detection. This is cutting-edge, nobody has fully cracked multi-modal temporal modeling in oncology yet.
 
 Privacy-preserving tensor methods: Combining tensor regression with federated learning (FBTTR) is genuinely novel. We've shown it works for BCI and cardiac prediction. Now scaling it to multi-institutional imaging and omics data.
 
