@@ -9,11 +9,11 @@ date: 2025-11-26
 
 🌱 If you ever feel torn between fields, take that as a sign rather than as a problem.
 
-Interdisciplinary curiosity isn’t confusion. It’s creativity.
+Interdisciplinary curiosity isn't confusion. It's creativity.
 
 
 
-I’ve built my career at the intersections of computer science, AI, neuroscience, and biomedical data science. Most days, I’m translating between these worlds, and it’s both challenging and deeply rewarding.
+I've built my career at the intersections of computer science, AI, neuroscience, and biomedical data science. Most days, I'm translating between these worlds, and it's both challenging and deeply rewarding.
 
 
 
@@ -35,7 +35,7 @@ Go deep enough to have expertise, but stay open enough to connect ideas between 
 
 
 
-It takes more effort, but it pays off in perspective, creativity, and opportunities you can’t find by staying in one lane. The bridges you build between disciplines are what the future will stand on. 🌉
+It takes more effort, but it pays off in perspective, creativity, and opportunities you can't find by staying in one lane. The bridges you build between disciplines are what the future will stand on. 🌉
 
 
 

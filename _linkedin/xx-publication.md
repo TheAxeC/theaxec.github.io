@@ -15,7 +15,7 @@ I've gotten this email more times than I'd like to admit. And I'll get it again.
 
 Currently, I have 9 papers under review. Statistically, at least 3-4 will be rejected. Maybe more.
 
-Here's how I've learned to handle it—and why rejection isn't failure, it's just part of the process.
+Here's how I've learned to handle it, and why rejection isn't failure, it's just part of the process.
 
 The first 30 minutes: feel the feelings
 
@@ -43,7 +43,7 @@ We missed critical related work
 The contribution isn't as novel as we thought
 Action: Major revision. Sometimes this means starting over.
 
-Example: An early draft of our source localization work got (rightly) criticized for not comparing to enough baselines. We added 5 more methods, reran everything, and the paper got much better—and eventually published in Journal of Neural Engineering.
+Example: An early draft of our source localization work got (rightly) criticized for not comparing to enough baselines. We added 5 more methods, reran everything, and the paper got much better, and eventually published in Journal of Neural Engineering.
 
 Category 2: "Wrong venue / minor issues"
 
@@ -67,9 +67,9 @@ The co-author conversation
 
 I forward the reviews to co-authors with my initial categorization:
 
-"This is Category 2—solid work, wrong framing. I think we should revise and submit to [Journal X] instead. Thoughts?"
+"This is Category 2, solid work, wrong framing. I think we should revise and submit to [Journal X] instead. Thoughts?"
 
-Then I wait. Co-authors often see things I missed. Especially senior collaborators (shoutout to Prof. Liesbet Peeters and Prof. Marc Van Hulle)—they've seen this pattern before and can identify when to persist vs. pivot.
+Then I wait. Co-authors often see things I missed. Especially senior collaborators (shoutout to Prof. Liesbet Peeters and Prof. Marc Van Hulle), they've seen this pattern before and can identify when to persist vs. pivot.
 
 Pro tip: If you're a student and your paper gets rejected, talk to your advisor before spiraling. They've been through this dozens of times. You haven't.
 
@@ -77,16 +77,16 @@ The decision tree:
 
 Here's my mental flowchart for what to do next:
 
-If reviewers identified real flaws: → Fix them. This might take months. That's okay.
+If reviewers identified real flaws: Fix them. This might take months. That's okay.
 
-If the work is solid but wrong venue: → Identify 2-3 alternative venues. Reframe for the new audience. Resubmit within 2-4 weeks.
+If the work is solid but wrong venue: Identify 2-3 alternative venues. Reframe for the new audience. Resubmit within 2-4 weeks.
 
-If reviews are contradictory or unfair: → Check with co-authors: do they see something I'm missing?
-→ If not: resubmit elsewhere with a clearer intro.
+If reviews are contradictory or unfair: Check with co-authors: do they see something I'm missing?
+If not: resubmit elsewhere with a clearer intro.
 
-If I'm genuinely unsure: → Talk to someone outside the project. Fresh eyes help.
+If I'm genuinely unsure: Talk to someone outside the project. Fresh eyes help.
 
-If the paper has been rejected 3+ times: → Consider whether this is the right contribution at the right time. Sometimes you're ahead of the field. Sometimes you're just wrong. Hard to tell.
+If the paper has been rejected 3+ times: Consider whether this is the right contribution at the right time. Sometimes you're ahead of the field. Sometimes you're just wrong. Hard to tell.
 
 Real examples from my own work:
 
@@ -121,7 +121,7 @@ What I've learned:
 
 3. Venue fit matters as much as quality A paper rejected from one journal might be a perfect fit for another. Match your contribution to the audience.
 
-4. Persistence pays off—if you're working on something real If reviewers consistently say "this doesn't matter," maybe it doesn't. But if they say "this needs more work," do the work.
+4. Persistence pays off, if you're working on something real If reviewers consistently say "this doesn't matter," maybe it doesn't. But if they say "this needs more work," do the work.
 
 5. Every rejection makes the paper better My BTTR method went through 3 rejections before the IEEE TNNLS acceptance. Each round of reviews forced me to clarify, add baselines, and strengthen claims. The final version was 10x better than the first submission.
 

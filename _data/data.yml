@@ -387,7 +387,7 @@ education:
 projects:
   title: Grants & (open-source) Projects
   content:
-    # Rejected FWO proposal — kept for reference, not shown.
+    # Rejected FWO proposal, kept for reference, not shown.
     # - title: "Federated Learning for Population Health Management (FL4PHM)"
     #   url: ""
     #   duration: 2025 - Current

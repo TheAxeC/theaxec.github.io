@@ -37,7 +37,7 @@ The student led the work but I'm responsible for the research direction
 It's my lab, my grants, my responsibility if something's wrong
 The gray areas:
 
-The hardest cases are collaborative development. When a student and I spend hours whiteboarding together, who "owns" the ideas? When I suggest a direction but they make it work—whose contribution is primary?
+The hardest cases are collaborative development. When a student and I spend hours whiteboarding together, who "owns" the ideas? When I suggest a direction but they make it work, whose contribution is primary?
 
 My current approach: I lean toward giving students first authorship in ambiguous cases.
 
