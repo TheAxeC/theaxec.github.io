@@ -105,7 +105,6 @@ papers-in-preparation:
         - authors: Dongho Chun, Axel Faes
           title: "Which representation clusters? A chance-corrected benchmark of ECG representations for unsupervised arrhythmia structure on PTB-XL"
           program: [ecg]
-          pub_last: (senior author)
           url: ""
           order: senior
           pub_pre: "Submitted to "
@@ -114,7 +113,6 @@ papers-in-preparation:
         - authors: Ward Ceyssens, Axel Faes
           title: "Cross-Subject Transfer of Block-Term Tensor Regression for Electrocorticographic Finger-Flexion Decoding"
           program: [eeg, tensor]
-          pub_last: (senior author)
           order: senior
           url: ""
           pub_pre: "Submitted to "
@@ -124,7 +122,6 @@ papers-in-preparation:
         - authors: Dries Cornelissen, Axel Faes
           title: "An interpretable tensor model for identifying atrial fibrillation in sinus-rhythm ECG: block-term tensor regression on PTB-XL, benchmarked against deep and foundation models"
           program: [ecg, tensor]
-          pub_last: (senior author)
           order: senior
           url: ""
           pub_pre: "Submitted to "
@@ -141,7 +138,6 @@ papers-in-preparation:
         - authors: Meseret Assefa Kerga, Axel Faes
           title: "From Classification to Competing Risks: A Critical Re-Examination of a Widely-Used Cirrhosis Outcome Benchmark"
           program: [prognosis]
-          pub_last: (senior author)
           order: senior
           url: ""
           pub_pre: "Submitted to "
@@ -170,7 +166,6 @@ journal:
           title: Decoding Sign Language Finger Movements from high-density ECoG using Graph-Optimized Block Term Tensor Regression
           program: [eeg, tensor]
           book: "Journal of Neural Engineering (5.4 IF)"
-          selected: true
           url: "/publications/journal/Faes_2025_J._Neural_Eng._22_026065.pdf"
           order: "first"
           pub_date: 2024
@@ -189,10 +184,9 @@ journal:
           program: [tensor, eeg]
           url: "/publications/journal/finger-movement-and-coactivation-predicted-from-intracranial-brain-activity.pdf"
           book: Journal of Neural Engineering (5.4 IF)
-          pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
+          pub_last: Spotlight
           pub_date: 2023
           order: "first"
-          selected: true
           abstract: >-
             Multiway- or tensor-based decoding techniques for Brain-Computer Interfaces (BCI) are believed to better account for the multilinear structure of brain signals than conventional vector- or matrix-based ones. However, despite their outlook on significant performance gains, the used parameter optimization approach is often too computationally demanding, so conventional techniques are still preferred. 
             We propose two novel tensor factorizations which we integrate into our Block-Term Tensor Regression (BTTR) algorithm and further introduce a marginalization procedure that guarantees robust predictions while reducing the risk of overfitting (generalized regression). BTTR accounts for the underlying (hidden) data structure in a fully automatic and computationally-efficient manner, leading to a significant performance gain over conventional vector- or matrix-based techniques in a challenging real-world application.
@@ -241,7 +235,6 @@ conference:
           title: Finger abduction trajectory prediction from high-density ECoG
           program: [eeg]
           book: "10th Graz Brain-Computer Interface Conference 2026"
-          selected: false
           pub_date: 2026
           url: "/publications/preprint/abduction.pdf"
           order: "first"
@@ -254,9 +247,8 @@ conference:
           book: "The 3rd International Conference on Foundation and Large Language Models (FLLM2025)"
           
           pub_post: '[Symposium on Federated Learning and Intelligent Computing Systems (FLICS 2025)]'
-          pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
+          pub_last: Spotlight
           pub_date: 2025
-          selected: true
           hide: false
           abstract: >-
             Block-Term Tensor Regression (BTTR) is a multilinear modeling framework suited for high-dimensional biomedical data, but its centralized implementation conflicts with privacy and regulatory constraints. To overcome this, we propose Federated Block-Term Tensor Regression (FBTTR), which integrates BTTR into a federated learning setting. We systematically evaluate multiple federated aggregation strategies, including FedAvg, FedYogi, and FedAdam, to assess their effect on model performance and stability. Experiments on the BCI Competition IV dataset demonstrate that the choice of strategy strongly influences predictive accuracy: FedAvg yields the most stable and accurate results across subjects, while adaptive methods such as FedYogi and FedAdam show less consistent performance. These findings highlight the importance of strategy selection in federated learning and establish FBTTR as a practical approach for privacy-preserving analysis of multi-institutional biomedical data.
@@ -265,9 +257,8 @@ conference:
           program: [federated, tensor]
           url: "/publications/conference/2412.06815v1.pdf"
           book: "IEEE Conference on Federated Learning Technologies and Applications (IEEE FLTA 2025)"
-          pub_last: '<span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
+          pub_last: Spotlight
           pub_date: 2025
-          selected: true
           order: "first"
           hide: false
           abstract: >-
