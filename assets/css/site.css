@@ -1,9 +1,8 @@
 @charset "utf-8";
 
-/* Homepage design system - "self-explaining hospital" build.
-   Clean, substance-first, one violet accent. Space Grotesk (display),
-   Space Mono (labels/data), system sans (body). Self-contained; this page
-   does not use Bootstrap. */
+/* Site design system - "self-explaining hospital" build.
+   Clean, substance-first, one deep-petrol accent. Fraunces (display serif),
+   Space Mono (labels/data), system sans (body). Self-contained; no Bootstrap. */
 
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -17,6 +16,7 @@
 :root[data-theme="dark"]{color-scheme:dark}
 body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15.5px;line-height:1.58;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
 .wrap{max-width:1120px;margin:0 auto;padding:0 2.2rem}
 mark{background:var(--accent-soft);color:var(--accent);padding:0 .12em;border-radius:3px;font-weight:700}
 
@@ -148,6 +148,8 @@ nav .links a.active{color:var(--ink)}
 .stmt-table td strong{color:var(--ink);font-weight:600}
 .stmt-cta{margin-top:2.6rem;padding-top:1.9rem;border-top:1px solid var(--line);display:flex;gap:1rem;flex-wrap:wrap}
 .stmt-cta .btn{margin-bottom:0}
+.nf-code{font-family:var(--mono);font-weight:700;font-size:clamp(3.5rem,12vw,6rem);line-height:1;letter-spacing:-.02em;color:var(--accent)}
+.nf-code+h1{margin-top:.5rem}
 .btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--mono);font-size:.73rem;text-transform:uppercase;letter-spacing:.04em;border:1px solid var(--accent);color:var(--accent);padding:.5rem .9rem;border-radius:8px;transition:.18s;margin-bottom:1.4rem}
 .btn:hover{background:var(--accent);color:#fff}
 .btn svg{width:1em;height:1em;flex:0 0 auto}
