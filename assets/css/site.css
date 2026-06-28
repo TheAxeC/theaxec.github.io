@@ -116,6 +116,38 @@ nav .links a.active{color:var(--ink)}
 .pubpage h1{font-family:var(--disp);font-weight:700;font-size:2.9rem;letter-spacing:-.012em;margin-bottom:.7rem}
 .pub-intro{color:var(--muted);max-width:62ch;margin-bottom:1.5rem;font-size:1.02rem}
 .pub-intro a{color:var(--accent);border-bottom:1px solid var(--accent-soft)}
+
+/* ---- research / teaching statement pages ---- */
+.statement h1{font-family:var(--disp);font-weight:700;font-size:2.9rem;letter-spacing:-.012em;margin-bottom:1rem}
+.stmt-lede{font-size:1.2rem;line-height:1.5;color:var(--ink);max-width:60ch;margin:0}
+.stmt-lede strong{font-weight:600}
+.stmt-sec{margin-top:2.8rem;padding-top:2.3rem;border-top:1px solid var(--line)}
+.stmt-sec>.psec-h{margin-bottom:1.7rem}
+.statement p{color:var(--muted);line-height:1.62;max-width:68ch;margin:0 0 1rem}
+.statement p strong{color:var(--ink);font-weight:600}
+.statement a{color:var(--accent)}
+.stmt-theme,.stmt-origin{display:grid;grid-template-columns:158px 1fr;gap:1.9rem;align-items:start;margin-bottom:2rem}
+.stmt-theme:last-child{margin-bottom:0}
+.stmt-theme .pdia,.stmt-origin .pdia{height:94px;position:sticky;top:1.4rem}
+.stmt-theme h3,.stmt-origin h3{font-family:var(--disp);font-weight:600;font-size:1.28rem;letter-spacing:-.01em;margin:0 0 .55rem;display:flex;align-items:baseline;gap:.6rem}
+.stmt-theme h3 .n{font-family:var(--mono);font-size:.78rem;color:var(--accent);font-weight:400}
+.stmt-theme p:last-child,.stmt-origin p:last-child{margin-bottom:0}
+.stmt-origin{margin-top:2.2rem;padding-top:2rem;border-top:1px dashed var(--line)}
+.stmt-agenda{list-style:none;display:grid;gap:1.05rem;margin:0;padding:0}
+.stmt-agenda li{padding-left:1.45rem;position:relative;color:var(--muted);line-height:1.55;max-width:72ch}
+.stmt-agenda li::before{content:"";position:absolute;left:0;top:.5em;width:8px;height:8px;background:var(--accent);border-radius:2px}
+.stmt-agenda li strong{color:var(--ink);font-weight:600}
+.stmt-list{list-style:none;margin:.5rem 0 0;padding:0;display:grid;gap:.85rem}
+.stmt-list li{padding-left:1.4rem;position:relative;color:var(--muted);line-height:1.5;max-width:74ch}
+.stmt-list li::before{content:"\2192";position:absolute;left:0;color:var(--accent)}
+.stmt-list li strong{color:var(--ink);font-weight:600}
+.stmt-sub{font-family:var(--disp);font-weight:600;font-size:1.12rem;letter-spacing:-.01em;margin:1.8rem 0 .3rem}
+.stmt-table{width:100%;border-collapse:collapse;margin-top:.4rem;font-size:.95rem}
+.stmt-table th{text-align:left;font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:400;padding:.55rem .8rem .55rem 0;border-bottom:1px solid var(--line)}
+.stmt-table td{padding:.7rem .8rem .7rem 0;border-bottom:1px solid var(--line);color:var(--muted);vertical-align:top;line-height:1.4}
+.stmt-table td strong{color:var(--ink);font-weight:600}
+.stmt-cta{margin-top:2.6rem;padding-top:1.9rem;border-top:1px solid var(--line);display:flex;gap:1rem;flex-wrap:wrap}
+.stmt-cta .btn{margin-bottom:0}
 .btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--mono);font-size:.73rem;text-transform:uppercase;letter-spacing:.04em;border:1px solid var(--accent);color:var(--accent);padding:.5rem .9rem;border-radius:8px;transition:.18s;margin-bottom:1.4rem}
 .btn:hover{background:var(--accent);color:#fff}
 .btn svg{width:1em;height:1em;flex:0 0 auto}
@@ -228,6 +260,8 @@ nav .links a.active{color:var(--ink)}
   .pdiacol{display:flex;align-items:center;gap:.9rem}
   .pdia{height:54px;width:100px;flex:0 0 auto}
   .pdia-label,.pdia-tags{margin-top:0}
+  .stmt-theme,.stmt-origin{grid-template-columns:1fr;gap:.9rem}
+  .stmt-theme .pdia,.stmt-origin .pdia{position:static;height:64px;width:118px}
   .cv-item{grid-template-columns:1fr;gap:.25rem}.cv-when{padding-top:0}
   .page .postlist a.postrow{flex-direction:column;gap:.3rem}.postrow .pdate{min-width:0}
 }
