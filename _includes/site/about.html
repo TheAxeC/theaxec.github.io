@@ -7,6 +7,7 @@
     <a class="btn" href="{{ '/cv.pdf' | relative_url }}" target="_blank" rel="noopener">{% include site/icon.html name='download' %} Download PDF</a>
     <a class="cvhead-mail" href="mailto:{{ h.contact_email }}">{{ h.contact_email }}</a>
   </div>
+  <div class="cvhead-social">{% for s in h.social %}<a href="{{ s.url }}"{% unless s.url contains 'mailto:' %} target="_blank" rel="noopener"{% endunless %} data-tip="{{ s.tip }}" aria-label="{{ s.tip }}">{% include site/icon.html name=s.icon %}</a>{% endfor %}</div>
 </header>
 
 {% if h.about_intro %}<p class="pub-intro">{{ h.about_intro }}</p>{% endif %}

@@ -183,6 +183,12 @@ nav .links a.active{color:var(--ink)}
 .cvhead-actions .btn{margin-bottom:0}
 .cvhead-mail{font-family:var(--mono);font-size:.82rem;color:var(--accent)}
 .cvhead-mail:hover{text-decoration:underline}
+.cvhead-social{display:flex;gap:1.5rem;color:var(--muted);margin-top:1.15rem}
+.cvhead-social a{position:relative;display:inline-flex}
+.cvhead-social a svg{width:1.12rem;height:1.12rem;display:block}
+.cvhead-social a:hover{color:var(--accent)}
+.cvhead-social a::after{content:attr(data-tip);position:absolute;bottom:150%;left:50%;transform:translateX(-50%) translateY(4px);background:var(--ink);color:#fff;font-family:var(--mono);font-size:.6rem;letter-spacing:.03em;padding:.22rem .5rem;border-radius:5px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .15s,transform .15s}
+.cvhead-social a:hover::after{opacity:1;transform:translateX(-50%) translateY(0)}
 .cv-item{display:grid;grid-template-columns:9.5rem 1fr;gap:1.6rem;padding:1.05rem 0;border-bottom:1px solid var(--line)}
 .cv-item:last-child{border-bottom:0}
 .cv-when{font-family:var(--mono);font-size:.72rem;color:var(--muted);padding-top:.22rem;line-height:1.5}
@@ -226,7 +232,8 @@ nav .links a.active{color:var(--ink)}
 .pitem .pa{font-size:.92rem;color:var(--muted);margin-bottom:.15rem}
 .pitem .pa strong{color:var(--ink);font-weight:600}
 .pa-count{color:var(--muted);font-size:.85em;white-space:nowrap}
-.pa-last{color:var(--muted);font-style:italic}
+.pa-role{font-family:var(--mono);font-size:.6rem;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);background:var(--accent-soft);padding:.12rem .45rem;border-radius:4px;vertical-align:middle;white-space:nowrap}
+.pa-flag{font-family:var(--mono);font-size:.6rem;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);border:1px solid var(--accent);padding:.08rem .42rem;border-radius:4px;vertical-align:middle;white-space:nowrap}
 .pitem .pmeta{font-family:var(--mono);font-size:.73rem;color:var(--muted)}.pitem .pmeta em{font-style:italic}
 .plinks{margin-top:.55rem;display:flex;gap:.5rem;flex-wrap:wrap}
 .plinks a{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;letter-spacing:.04em;color:var(--accent);border:1px solid var(--line);border-radius:6px;padding:2px 9px;transition:.16s}
