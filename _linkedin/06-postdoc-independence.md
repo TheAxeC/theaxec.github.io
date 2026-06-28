@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "The Quietest Part of Becoming an Independent Researcher"
-picture: /assets/images/linkedin/06-postdoc-independence.png
 category: reflection
 publish: True
 date: 2026-06-22

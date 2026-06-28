@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Why Tensor Methods Matter (and Why Nobody Talks About Them)"
-picture: /assets/images/projects/conference.webp
 category: research
 publish: True
 date: 2025-02-12

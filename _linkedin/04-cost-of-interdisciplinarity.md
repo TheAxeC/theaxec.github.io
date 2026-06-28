@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "The Hidden Cost of Interdisciplinarity"
-picture: /assets/images/projects/conference.webp
 category: reflection
 publish: True
 date: 2025-11-26

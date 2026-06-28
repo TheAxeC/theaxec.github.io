@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Publication Rejected? Here's What I Do Next"
-picture: /assets/images/projects/conference.webp
 category: research
 publish: True
 date: 2025-02-12

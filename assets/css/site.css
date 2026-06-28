@@ -33,6 +33,7 @@ nav .links a:hover{color:var(--accent)}
 h1.nm{font-family:var(--disp);font-weight:600;font-size:4rem;line-height:.98;letter-spacing:-.01em}
 .roles{display:flex;flex-wrap:wrap;gap:.55rem;margin:1.3rem 0 1.25rem;font-family:var(--mono);font-size:.74rem;color:var(--muted)}
 .roles .r{border:1px solid var(--line);border-radius:20px;padding:.3rem .85rem}.roles .r b{color:var(--ink);font-weight:400}
+.roles .r a{color:var(--ink);border-bottom:1px solid var(--accent-soft);transition:.15s}.roles .r a:hover{color:var(--accent);border-bottom-color:var(--accent)}
 .pillars{display:flex;flex-wrap:wrap;gap:.1rem .85rem;margin-bottom:1.3rem;align-items:baseline}
 .pillars span{font-family:var(--disp);font-style:italic;font-weight:500;font-size:1.15rem;color:var(--accent)}
 .pillars span:not(:last-child)::after{content:"·";margin-left:.85rem;color:var(--muted);font-style:normal}
@@ -77,12 +78,6 @@ h1.nm{font-family:var(--disp);font-weight:600;font-size:4rem;line-height:.98;let
 .pub:hover .pt{color:var(--accent)}
 .pub .py{font-family:var(--mono);font-size:.78rem;color:var(--muted)}.pub .pv{font-family:var(--mono);font-size:.72rem}
 .pub .pt{font-size:1rem;transition:.2s}.pub .pg{font-family:var(--mono);font-size:.66rem;color:var(--accent);white-space:nowrap}
-.allp{font-family:var(--mono);font-size:.74rem;color:var(--accent);text-transform:uppercase;letter-spacing:.05em;margin-top:1.2rem;display:inline-block}
-.pprog{display:inline-flex;align-items:center;gap:.5rem;margin-top:.55rem;font-family:var(--mono);font-size:.68rem;color:var(--accent);flex-wrap:wrap}
-.pprog svg{width:16px;height:16px;flex:0 0 auto}
-.pprog .pprog-main{font-weight:700;letter-spacing:.05em;text-transform:uppercase}
-.pprog .pprog-tag{color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
-.pprog .pprog-tag::before{content:"+";margin-right:.5rem;color:var(--muted);font-weight:400}
 footer{padding:2.4rem 0;font-family:var(--mono);font-size:.73rem;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;border-top:1px solid var(--line)}
 
 a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:3px}
@@ -231,6 +226,7 @@ nav .links a.active{color:var(--ink)}
 .pitem .pa{font-size:.92rem;color:var(--muted);margin-bottom:.15rem}
 .pitem .pa strong{color:var(--ink);font-weight:600}
 .pa-count{color:var(--muted);font-size:.85em;white-space:nowrap}
+.pa-last{color:var(--muted);font-style:italic}
 .pitem .pmeta{font-family:var(--mono);font-size:.73rem;color:var(--muted)}.pitem .pmeta em{font-style:italic}
 .plinks{margin-top:.55rem;display:flex;gap:.5rem;flex-wrap:wrap}
 .plinks a{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;letter-spacing:.04em;color:var(--accent);border:1px solid var(--line);border-radius:6px;padding:2px 9px;transition:.16s}

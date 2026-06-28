@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Navigating Academic Burnout: The Reality Behind Research Excellence"
-picture: /assets/images/projects/conference.webp
 category: reflection
 publish: True
 date: 2025-10-08

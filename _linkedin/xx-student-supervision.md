@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "17 Students, 17 Different Journeys: What I've Learned from Supervising"
-picture: /assets/images/projects/conference.webp
 category: mentorship
 publish: True
 date: 2025-02-12

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "The BKO Journey: Why I'm Getting Teaching Certified as a Postdoc"
-picture: /assets/images/projects/conference.webp
 category: mentorship
 publish: True
 date: 2025-02-12

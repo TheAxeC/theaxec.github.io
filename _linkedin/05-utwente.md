@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Excited to join UTwente"
-picture: /assets/images/projects/conference.webp
 category: research
 publish: True
 date: 2026-01-21

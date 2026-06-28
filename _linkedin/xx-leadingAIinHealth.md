@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "What Does 'Leading AI in Health' Actually Mean?"
-picture: /assets/images/projects/conference.webp
 category: reflection
 publish: True
 date: 2025-02-12

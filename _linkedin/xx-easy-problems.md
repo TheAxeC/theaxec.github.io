@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Researchers aren't needed to solve easy problems."
-picture: /assets/images/projects/conference.webp
 category: reflection
 publish: True
 date: 2025-02-12
