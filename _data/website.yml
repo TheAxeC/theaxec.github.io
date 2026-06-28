@@ -4,118 +4,16 @@
 
 description:
   title: dr. ir. Axel Faes
-  subtitle: "#LeadingAIinHealth"
   biography: |
     Axel Faes is a postdoctoral researcher in AI for healthcare, specializing in interpretable, self-explaining AI and privacy-preserving federated learning for precision medicine. At the University of Twente (Cognition, Data and Education), he develops self-supervised imaging backbones and interpretable models integrating longitudinal MRI, multi-omics, and clinical data for early hepatocellular carcinoma detection within the AI-HCC ZonMw project.
     Previously at Hasselt University's Biomedical Data Sciences group, he served as technical machine learning lead and scientific coordinator of the Flanders AI Research Program's Real World Evidence use case, advancing cardiovascular disease prediction and population health management through federated learning. He holds M.Sc. degrees in Computer Science Engineering and Artificial Intelligence from KU Leuven, where he also completed a PhD in Biomedical Sciences on finger movement decoding using tensor regression modeling.
     His research builds toward **the self-explaining hospital**: interpretable, self-explaining models and **privacy-preserving federated learning that travels between institutions**, grounded in **multiway (block-term tensor) methods**. That methodological core began in computational neuroscience and brain-computer interfaces, and now drives multi-modal precision oncology and trustworthy clinical decision support.
-
-  positions:
-    - name: 'Postdoctoral Researcher'
-      url: 'https://www.utwente.nl/en/bms/code/'
-      image: 'assets/images/badges/Twente.png'
-    - name: 'Research Affiliate'
-      url: 'https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences'
-      image: 'assets/images/badges/UHasselt.jpg'
-  content_mobile: |
-    AI Researcher in Healthcare - 🔍 `Self-Explaining AI` • 🤝 `Federated Learning` • 🧬 `Precision Medicine`
-
-    Postdoctoral Researcher (Multi-Modal AI for Precision Medicine) @ University of Twente
-
-    Research Affiliate (AI for Healthcare) @ Biomedical Data Sciences, UHasselt
-
-    **Research Focus**: *The self-explaining hospital - interpretable, self-explaining models and federation that travels between institutions.*
-      - Interpretable, self-explaining models (block-term / multiway) for clinical decisions
-      - Federated learning that travels between hospitals - privacy-preserving, modality-incomplete
-      - Multi-modal precision oncology: longitudinal MRI + omics + clinical for early cancer detection
-      - Self-supervised backbones for longitudinal medical imaging
-    
-    **Professional Affiliations**:
-      - University of Twente (Cognition, Data and Education section)
-      - Biomedical Research Institute (BIOMED) @ UHasselt
-      - Data Science Institute (DSI) @ UHasselt
-        
-      <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
-  content: |
-    - AI Researcher in Healthcare - 🔍 `Self-Explaining AI` • 🤝 `Federated Learning` • 🧬 `Precision Medicine`
-    - ***Research program:*** *The self-explaining hospital - interpretable, self-explaining models and privacy-preserving federation that travels between institutions, built on multiway (block-term tensor) methods.*
-    - **Postdoctoral Researcher** (Multi-Modal AI for Precision Medicine) @ University of Twente (Cognition, Data and Education, CODE)
-      - Developing `multi-modal federated AI` and explainable AI (XAI) that integrate longitudinal MRI, `multi-omics`, and clinical data for early hepatocellular carcinoma detection and risk prediction (AI-HCC ZonMw project).
-      - Building `self-supervised backbones` and interpretable architectures that model temporal dynamics in longitudinal imaging and omics, working toward clinical translation in precision oncology.
-    - **Research Affiliate** (AI for Healthcare) @ Biomedical Data Sciences, UHasselt
-      - Leading cardiovascular disease prediction with `real-world evidence` and federated learning for privacy-preserving analysis (FAIR UC RWE, continuing as Research Affiliate).
-      - Advancing `population health management` through federated learning for disease insight, risk prediction, and health equity.
-      - Developing `brain-computer interfaces` for precision neuropsychiatry using tensor regression and deep learning.
-
-    <a href="about">Would you like to know more? <i class="fas fa-angle-double-right"></i></a>
-  # - **Scientific Coordinator** of the Flanders AI Research Program, Use Case Real World Evidence (FAIR UC RWE) - continuing in volunteer capacity
-    # - **Professional Affiliations**:
-    #   - Cognition, Data and Education (CODE) section @ University of Twente (from December 2025)
-    #   - Biomedical Research Institute (BIOMED) @ UHasselt
-    #   - Data Science Institute (DSI) @ UHasselt
-  show_portrait: true
   portrait_url: assets/images/photos/axel.jpg
-  portrait_height: 500
-  portrait_caption: Building Knowledge, Driving Innovation
-  research_mobile: |
-    **Research**
-      - Designing `self-explaining models` (block-term / multiway) that are interpretable by construction.
-      - Building `federated learning` that travels between hospitals - privacy-preserving, modality-incomplete (FAIR UC RWE).
-      - Advancing `multi-modal precision oncology` - longitudinal MRI, omics, and clinical data for early cancer detection.
-      - Methodological roots in neural decoding and `brain-computer interfaces`, where my block-term tensor methods began.
-  research: |
-    **Vision for Research Impact** <a href="/research">(view more <i class="fas fa-angle-double-right"></i>)</a>
-    I work toward **the self-explaining hospital**: clinical AI that explains its own reasoning and travels between institutions instead of demanding the data travel to it. I aim to:
-    - **Make interpretability a guarantee**: designing self-explaining models - multiway, block-term - whose explanations are faithful by construction and stand up to clinical and regulatory scrutiny.
-    - **Federate across real institutions**: using privacy-preserving federated learning to let hospitals - even those holding different modalities and incomplete data - train shared models without surrendering patient data.
-    - **Advance multi-modal precision oncology**: integrating longitudinal imaging, omics, and clinical data for early cancer detection and personalized risk prediction, from retrospective benchmarks toward clinically embedded validation.
-  
-  biomed_url: assets/images/webpage/dls.webp
-  biomed_caption: Innovating Computational Solutions for Real-World Health Challenges
-  education_mobile: |
-    **Education & Teaching**
-      - Teaching Brain-Computer Interfaces, Federated Learning, Bioinformatics, and Data Science in Healthcare
-      - Completed BKO (Basic Teaching Qualification) at UHasselt
-      - Supervised 17+ Master's and PhD students across AI, Statistics & Data Science, Computer Science, and Biomedical Sciences
-      - Experienced in interdisciplinary education and mentorship
-
-  education: |
-    **Vision for Educational Impact** <a href="/teaching">(view more <i class="fas fa-angle-double-right"></i>)</a>
-    I want education in `AI for precision medicine` to bridge computational innovation with clinical application. I aim to:
-    - **Mentor the next generation**: I have supervised 17+ Master's and doctoral students across AI, Statistics & Data Science, Computer Science, and Biomedical Sciences, fostering interdisciplinary thinking and technical rigour.
-    - **Advance interdisciplinary education**: teaching Brain-Computer Interfaces, Federated Learning, Data Science in Healthcare, and Bioinformatics to equip students for real-world healthcare challenges.
-    - **Develop accessible resources**: through open-source projects (BTTR toolkit, federated-learning tutorials) and teaching materials, I help make advanced AI methods accessible to life scientists and healthcare researchers.
-    - **Build teaching excellence**: I completed my BKO (Basic Teaching Qualification) at UHasselt, reflecting a commitment to evidence-based teaching.
-
-  mission_url: assets/images/webpage/biomed.webp
-  mission_caption: Educating the Next Generation of Innovators
 
 research:
   title: Research Diary
   content: |
     Welcome to my research corner, where I advance `AI for precision medicine`. Here, you'll find projects, insights, and innovations in `self-explaining models`, `federated learning`, and `interpretable AI` applied to real-world healthcare challenges - from hepatocellular carcinoma detection and cardiovascular risk prediction to the neural decoding where my block-term tensor methods began. Join me as I translate trustworthy AI methods into clinical impact.
-
-###########
-# Metrics #
-###########
-# "At a glance" stats. Bibliometrics from Google Scholar - update periodically.
-metrics:
-  title: Research at a Glance
-  note: 'Bibliometrics via Google Scholar (June 2026)'
-  url: 'https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ'
-  stats:
-    - value: '95'
-      label: Citations
-      icon: fas fa-quote-right
-    - value: '7'
-      label: h-index
-      icon: fas fa-chart-line
-    - value: '14'
-      label: Peer-Reviewed Papers
-      icon: fas fa-file-lines
-    - value: '17+'
-      label: Students Supervised
-      icon: fas fa-user-graduate
 
 ###################
 # Website content #
@@ -123,7 +21,6 @@ metrics:
 
 header:
   intro: dr. ir. Axel Faes
-  error: The requested page could not be found.
   navigation:
     - name: Home
       url: /
@@ -133,51 +30,10 @@ header:
       url: /teaching
     - name: Publications
       url: /publications
-    - name: About
-      url: /about
     - name: CV
       url: /cv
     - name: Blog
       url: /blog
-
-######################
-# Website References #
-######################
-
-references:
-  title: References
-  content:
-    - name:  fas fa-at
-      url: mailto:axel.faes@utwente.nl
-      platform: axel.faes[at]utwente.nl
-    
-    - name: fas fa-at
-      url: mailto:axel.faes@uhasselt.be
-      platform: axel.faes[at]uhasselt.be
-
-    - name: fas fa-file-alt
-      url: /cv.pdf
-      platform: Curriculum Vitae
-    
-    - name: fas fa-home
-      url: /
-      platform: Website
-
-    - name: fab fa-github
-      url: https://github.com/TheAxeC
-      platform: Github
-
-    - name: fab fa-linkedin
-      url: https://www.linkedin.com/in/axelfaes
-      platform: LinkedIn
-
-    - name: fab fa-orcid
-      url: https://orcid.org/0000-0002-1637-255X
-      platform: ORCID
-
-    - name: fab fa-google-scholar
-      url: https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ
-      platform: Google Scholar
 
 ##################
 # Website footer #
@@ -187,97 +43,7 @@ footer:
   copyright: '&copy; 2026 dr. ir. Axel Faes'
   affiliations: 'University of Twente &middot; UHasselt'
   left:
-    title:
     url: /assets/images/webpage/icon.png
-  right:
-    title: >-
-      dr. ir. Axel Faes 
-
-      Leading AI in Health
-    url: 
-
-##################
-# Authors        #
-##################
-
-authors:
-  "Axel Faes":
-    bold: true
-
-covers:
-  - "/assets/images/covers/cover-A.webp"
-  - "/assets/images/covers/cover-B.webp"
-  - "/assets/images/covers/cover-C.webp"
-  - "/assets/images/covers/cover-D.webp"
-  - "/assets/images/covers/cover-E.webp"
-  - "/assets/images/covers/cover-F.webp"
-  - "/assets/images/covers/cover-G.webp"
-
-##################
-# Updates        #
-##################
-
-updates:
-  - picture: /assets/images/updates/conference.webp
-    desc: Presented at the 4th XAI-NL Meet-Up on "Modality-Specific Encoding with a Shared Backbone for Early HCC Prediction from Multi-Modal Liver MRI"
-    time: 2026
-  - picture: /assets/images/updates/teaching.webp
-    desc: Completed the BKO (Basic Teaching Qualification) at UHasselt
-    time: 2026
-  - picture: /assets/images/updates/collaboration.webp
-    desc: Joined the Twente Health School (interdisciplinary health-research summer school) at the University of Twente
-    time: 2026
-  - picture: /assets/images/updates/collaboration.webp
-    desc: New position as Postdoctoral Researcher at University of Twente focusing on Self-Supervised Imaging Backbones & Multi-Modal Federated Learning for HCC Detection
-    time: January 2026
-  - picture: /assets/images/updates/publication.webp
-    desc: Paper accepted at FLLM2025 - "Optimizing Federated Block-Term Tensor Regression" (Spotlight presentation)
-    time: January 2025
-  - picture: /assets/images/updates/conference.webp
-    desc: Presented at IEEE FLTA on "Federated Learning for Healthcare - From Brain-Computer Interfaces to Disease Prediction"
-    time: 2025
-  - picture: /assets/images/updates/publication.webp
-    desc: Paper accepted at IEEE FLTA 2025 - "Applying Federated Learning to Block-Term Tensor Regression" (Spotlight presentation)
-    time: January 2025
-  - picture: /assets/images/updates/publication.webp
-    desc: New paper published in npj Digital Medicine (IF 15.357) on "Personalized Federated Learning for Predicting Disability Progression in Multiple Sclerosis"
-    time: January 2025
-  - picture: /assets/images/updates/publication.webp
-    desc: Editorial published in Frontiers in Immunology - "The use of big data and AI in MS"
-    time: January 2025
-  - picture: /assets/images/updates/teaching.webp
-    desc: Started coordinating Bioinformatics (3740) course at UHasselt
-    time: September 2025
-  - picture: /assets/images/updates/teaching.webp
-    desc: Enrolled in BKO (Basic Teaching Qualification) track at UHasselt
-    time: 2025
-  - picture: /assets/images/updates/project.webp
-    desc: Became VLAIO Evaluator for BAEKELAND SPIN OFF MANDATES
-    time: 2025
-  - picture: /assets/images/updates/project.webp
-    desc: Launched FLkit (Federated Learning Kit) - open-source community project for life scientists
-    time: 2025
-  - picture: /assets/images/updates/project.webp
-    desc: Released Wisconsin Breast Cancer Dataset Research Tutorial for Federated Learning
-    time: 2025
-  - picture: /assets/images/updates/conference.webp
-    desc: Presented at FAIR Research Day on "Use Case - Real-World Evidence"
-    time: 2024
-  - picture: /assets/images/updates/project.webp
-    desc: Guest Associate Editor, Frontiers in Immunology for the Research Topic "Use of Big Data and Artificial Intelligence in Multiple Sclerosis"
-    time: June 2024
-  - picture: /assets/images/updates/conference.webp
-    desc: Attended <a href="https://www.linkedin.com/feed/update/urn:li:share:7208443237794000896">Networking for Researchers</a> workshop
-    time: June 2024
-  - picture: /assets/images/updates/conference.webp
-    desc: Engineer meets Physician conference - 28 & 29 May 2024 (Roeselare)
-    time: May 2024
-  - picture: /assets/images/updates/icfp.webp
-    desc: I will be a judge for the ICFP Student Research Competition 2024
-    time: May 2024
-  - picture: /assets/images/updates/uhasselt.webp
-    desc: Started as a Postdoctoral Researcher at Biomedical Data Science, UHasselt
-    time: Jan 2024
 
 #########################
 # Homepage data         #
@@ -299,8 +65,8 @@ home:
   name_pre: 'dr. ir. '
   name_mark: 'Axel Faes'
   roles:
-    - '<b>Postdoctoral Researcher</b> &middot; University of Twente'
-    - '<b>Research Affiliate</b> &middot; UHasselt'
+    - '<b>Postdoctoral Researcher</b> &middot; <a href="https://www.utwente.nl/en/bms/code/" target="_blank" rel="noopener">University of Twente</a>'
+    - '<b>Research Affiliate</b> &middot; <a href="https://www.uhasselt.be/en/instituten-en/biomed-en/immunology/biomedical-data-sciences" target="_blank" rel="noopener">UHasselt</a>'
   pillars:
     - 'Self-Explaining AI'
     - 'Federated Learning'

@@ -9,6 +9,8 @@
   </div>
 </header>
 
+{% if h.about_intro %}<p class="pub-intro">{{ h.about_intro }}</p>{% endif %}
+
 <div class="listlayout">
   <nav class="secnav">
     {% for coll in site.data.data %}{% if coll[0] != "personal" %}<a href="#{{ coll[0] }}">{{ coll[1].title }}</a>{% endif %}{% endfor %}
@@ -23,14 +25,10 @@
       {% if hasLong %}
       {% for item in coll[1].content %}{% unless item.hide %}
       <article class="cv-item">
-        <div class="cv-when">{{ item.duration }}</div>
+        <div class="cv-when">{% if item.duration %}{{ item.duration }}{% elsif item.date %}{{ item.date | date: "%Y" }}{% endif %}</div>
         <div class="cv-body">
           <div class="cv-title">{{ item.title }}{{ item.award }}{{ item.name }}</div>
-          {% if item.event %}
-          <div class="cv-meta">{{ item.event }}{% if item.location and item.location != "" %} &middot; <em>{{ item.location }}</em>{% endif %}</div>
-          {% elsif item.location and item.location != "" or item.email or item.reason %}
-          <div class="cv-meta">{{ item.location }}{{ item.email }}{% if item.reason %}{% if item.location and item.location != "" %} &middot; {% endif %}<em>{{ item.reason }}</em>{% endif %}</div>
-          {% endif %}
+          {% capture cvmeta %}{% if item.role %} &middot; <b>{{ item.role }}</b>{% endif %}{% if item.event %} &middot; {{ item.event }}{% endif %}{% if item.location and item.location != "" %} &middot; {{ item.location }}{% endif %}{% if item.email %} &middot; {{ item.email }}{% endif %}{% if item.reason %} &middot; <em>{{ item.reason }}</em>{% endif %}{% endcapture %}{% assign cvmeta = cvmeta | strip | remove_first: '&middot;' | strip %}{% if cvmeta != "" %}<div class="cv-meta">{{ cvmeta }}</div>{% endif %}
           {% if item.about or item.content %}<div class="cv-about">{{ item.about }}{{ item.content }}</div>{% endif %}
           {% if item.url and item.url != "" or item.links %}<div class="plinks">{% if item.url and item.url != "" %}<a href="{{ item.url }}" target="_blank" rel="noopener">Link</a>{% endif %}{% for link in item.links %}{% if link[1].url %}<a href="{{ link[1].url }}" target="_blank" rel="noopener">{{ link[0] }}</a>{% else %}<a href="{{ link[1] }}" target="_blank" rel="noopener">{{ link[0] }}</a>{% endif %}{% endfor %}</div>{% endif %}
         </div>
@@ -41,7 +39,7 @@
         {% for item in coll[1].content %}{% unless item.hide %}
         <article class="cv-mini">
           <div class="cv-title">{{ item.title }}{{ item.award }}{{ item.name }}</div>
-          {% capture meta %}{% if item.event %}{{ item.event }}{% if item.location and item.location != "" %} &middot; {{ item.location }}{% endif %}{% else %}{{ item.location }}{{ item.email }}{% endif %}{% if item.duration %} &middot; {{ item.duration }}{% endif %}{% if item.reason %} &middot; {{ item.reason }}{% endif %}{% endcapture %}
+          {% capture meta %}{% if item.role %} &middot; {{ item.role }}{% endif %}{% if item.event %} &middot; {{ item.event }}{% endif %}{% if item.location and item.location != "" %} &middot; {{ item.location }}{% endif %}{% if item.email %} &middot; {{ item.email }}{% endif %}{% if item.duration %} &middot; {{ item.duration }}{% elsif item.date %} &middot; {{ item.date | date: "%Y" }}{% endif %}{% if item.reason %} &middot; {{ item.reason }}{% endif %}{% endcapture %}{% assign meta = meta | strip | remove_first: '&middot;' | strip %}
           {% if meta != "" %}<div class="cv-meta">{{ meta | strip }}</div>{% endif %}
           {% if item.url and item.url != "" or item.links %}<div class="plinks">{% if item.url and item.url != "" %}<a href="{{ item.url }}" target="_blank" rel="noopener">Link</a>{% endif %}{% for link in item.links %}{% if link[1].url %}<a href="{{ link[1].url }}" target="_blank" rel="noopener">{{ link[0] }}</a>{% else %}<a href="{{ link[1] }}" target="_blank" rel="noopener">{{ link[0] }}</a>{% endif %}{% endfor %}</div>{% endif %}
         </article>

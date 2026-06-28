@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Cardinal - a Scripting Language for Education and Research"
-picture: /assets/images/projects/project.webp
 category: research
 publish: True
 date: 2025-08-15

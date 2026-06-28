@@ -46,7 +46,6 @@ experience:
       about: |
         Developing advanced deep learning and foundation models integrating longitudinal MRI data, multi-omics profiles, and clinical variables for early detection and risk prediction of hepatocellular carcinoma (HCC).
         Building explainable AI (XAI) frameworks that link imaging features and molecular markers to clinically meaningful outcomes in precision oncology within the AI-HCC ZonMw project.
-      cover: /assets/images/covers/about-postdoc.webp
     - title: "Postdoctoral Researcher: Federated Learning in Healthcare & Real-World Evidence"
       location: UHasselt
       duration: January 2024 - January 2026 (Research Affiliate from 2026)
@@ -55,7 +54,6 @@ experience:
         Scientific Coordinator of the Flanders AI Research Program Use Case Real World Evidence, leading multi-institutional research on privacy-preserving healthcare analytics. As Technical Machine Learning Lead of the Biomedical Data Sciences Group, developed federated learning frameworks enabling collaborative clinical research across Belgian healthcare institutions without sharing sensitive patient data.
     
         Research encompasses federated tensor regression for longitudinal health data, distributed learning architectures for heterogeneous clinical datasets, and translation of federated AI methods into practical healthcare applications.
-      cover: /assets/images/covers/about-postdoc.webp
 
     - title: "Postdoctoral Researcher: Deep Learning & Tensor Regression for Sign Language Alphabet Decoding via Brain-Computer Interfaces"
       location: KU Leuven
@@ -65,7 +63,6 @@ experience:
         Developed advanced machine learning methods for decoding sign language alphabet gestures from high-density intracranial brain activity (ECoG). Combined deep learning architectures with tensor regression models to capture complex spatiotemporal patterns in neural signals associated with linguistic motor control.
 
         Technical contributions included implementing block-term tensor decomposition for multi-dimensional neural data and exploring cross-subject generalization for robust BCI performance. The research advances both fundamental understanding of neural encoding of sign language and practical assistive communication technology. Conducted at the Laboratory for Neuro- and Psychophysiology under supervision of Prof. Marc Van Hulle, extending previous doctoral research in motor decoding to linguistic applications.
-      cover: /assets/images/covers/about-postdoc.webp
 
     - title: Data Science Consultant
       location: Flanders BCI
@@ -75,7 +72,6 @@ experience:
         Supported the data analysis for hybrid BCI with new analytical EEG modeling techniques & signal detection- and classification algorithms. 
         Infer emotion from EEG signals using machine learning techniques.
         Usage of ECoG signals from semi-invasive recording for imagined movement detection and language processing.
-      cover: /assets/images/covers/about-representative.webp
 
     - title: "Research Stay Idrogenet Srl, Gloreha: Robotic Rehabilitation"
       location: Lumezzane, Italy
@@ -84,7 +80,6 @@ experience:
       about: |
         Develop custom software for the control of the Gloreha robotic rehabilitation device, 
         Specifically the R-TOUCH PRO Sinfonia, a custom-built robotic exoskeleton for hand rehabilitation.
-      cover: /assets/images/covers/about-researchstay.webp
     
     - title: PhD Researcher in Computational Neuroscience
       location: KU Leuven
@@ -93,7 +88,6 @@ experience:
       about: |
         Cognitive and Molecular Neuroscience
         PhD Thesis: Finger Movement Decoding: From Source-Localisation to Tensor Regression Modelling
-      cover: /assets/images/covers/about-phd.webp
 
     - title: "Web Performance Research Internship"
       location: UHasselt
@@ -102,7 +96,6 @@ experience:
       about: |
         I worked on the iMinds PRO-FLOW project @ Expertise centre for Digital Media (EDM)
         focus on the difference between the http versions (http1.1, https, http2).
-      cover: /assets/images/covers/about-internship.webp
 
     - title: Summer Research Internship Physical Computing
       location: UHasselt
@@ -111,7 +104,6 @@ experience:
       about: |
         Interfacing between human entity, a drone and virtual objects @ Expertise centre for Digital Media (EDM). 
         (C++, Optitrack motion capture, custom built drone)
-      cover: /assets/images/covers/about-internship.webp
 
 academic:
   title: Teaching & Academic Activities
@@ -119,207 +111,160 @@ academic:
     - title: Bioinformatics (3740) Coordinating lecturer
       location: "UHasselt"
       duration: Sept. 2025 - Sept. 2026
-      cover: /assets/images/covers/about-representative.webp
     - title: BKO (Basic Teaching Qualification) track - Teacher Professionalization
       duration: 2025
       location: UHasselt
-      cover: /assets/images/covers/about-representative.webp
     - title: Data Science in Healthcare (4747) Lecturer (teaching team member)
       location: "UHasselt"
       duration: Sept. 2025 - Dec. 2025
-      cover: /assets/images/covers/about-representative.webp
     - title: Advanced Topics in Data Science (4569 & 4585) Lecturer Federted Learning (teaching team member)
       location: "UHasselt"
       duration: June 2024 - Sept. 2025
-      cover: /assets/images/covers/about-representative.webp
     - title: Bioinformatics (3740) Coordinating lecturer
       location: "UHasselt"
       duration: Sept. 2024 - Sept. 2025
-      cover: /assets/images/covers/about-representative.webp
     - title: Guest Associate Editor Use of Big Data and Artificial Intelligence in Multiple Sclerosis
       location: "Frontiers in Immunology"
       duration: "2024 - 2025"
-      cover: /assets/images/covers/about-representative.webp
     - title: VLAIO Evaluator for BAEKELAND SPIN OFF MANDATES
       location: "VLAIO"
       duration: "2025"
-      cover: /assets/images/covers/about-representative.webp
     - title: Student Research Competition Judge (International Conference on Functional Programming)
       location: "ICFP"
       duration: "2024"
-      cover: /assets/images/covers/about-representative.webp
     - title: Brain-Computer Interfacing (B-KUL-H08M0A) Guest Lecturer 
       location: "KU Leuven"
       duration: 2022-2025
-      cover: /assets/images/covers/about-representative.webp
 students:
     title: Students
     content:
         - title: Brecht Heeren
           location: Federated Machine Learning for Health Data
           duration: Master of Science in Computer Science (2025-2026)
-          cover: /assets/images/covers/about-degree.webp
         - title: Denzell Mgbokwere
           location: Optimization and Type Checking in Single-Pass Compilers - a Case Study with the Wren Programming Language
           duration: Master of Science in Computer Science (2025-2026)
-          cover: /assets/images/covers/about-degree.webp
         - title: Robert Rysskin
           location: Redesign of Wren Bytecode - Towards More Efficient Execution and Memory Usage
           duration: Master of Science in Computer Science (2025-2026)
-          cover: /assets/images/covers/about-degree.webp
         - title: Anh Phuong DO
           location: Individual Reference Intervals for Clinical Event Prediction
           duration: Doctoral Program in Sciences, Statistics (co-supervisor, 2024 - 2025)
-          cover: /assets/images/covers/about-degree.webp
         - title: Matteo Ramina
           location: Estimating Household Wealth in Guyana - Remote Sensing and Convolutional Neural Network Approach
           duration: Master Statistics & Data Science (2024-2025)
-          cover: /assets/images/covers/about-degree.webp
         - title: Mohsen Soleimanisemsani
           location: AI for time series imputation
           duration: Master Statistics & Data Science (2024-2025)
-          cover: /assets/images/covers/about-degree.webp
         - title: Meseret Assefa Kerga
           location: Predicting Cirrhosis Patient Survival Using Machine Learning - A Data-Driven Approach
           duration: Master Statistics & Data Science (2024-2025)
-          cover: /assets/images/covers/about-degree.webp
         - title: Dongho Chun
           location: Clustering with Cardiovascular Health Data
           duration: Master of Science in Computer Science (2024-2025)
-          cover: /assets/images/covers/about-degree.webp
         - title: Dries Cornelissen
           location: BTTR for arrhythmia detection/prediction on sinus rhythms
           duration: Master of Science in Computer Science (2024-2025)
-          cover: /assets/images/covers/about-degree.webp
         - title: Ward Ceyssens
           location: Cross Subject training for finger movement decoding with high-density ECoG
           duration: Master of Science in Computer Science (2024-2025)
-          cover: /assets/images/covers/about-degree.webp
         - title: Qiang Sun
           location: Hand exoskeleton dexterity achieved by shared control with a semi-invasive brain-computer interface
           duration: Doctoral Program in Biomedical Sciences (daily supervision 2022-2023)
-          cover: /assets/images/covers/about-degree.webp
         - title: Eva Calvo Merino
           location: Restoring finger dexterity with an exoskeleton controlled by human intracranial recordings
           duration: Doctoral Program in Biomedical Sciences (daily supervision 2022-2023)
-          cover: /assets/images/covers/about-degree.webp
         - title: Aurélie de Borman
           location: Investigating the effect of Source Mixing on Directed Connectivity estimated between Simulated Reconstructed EEG Sources
           duration: Internship Student 2021
-          cover: /assets/images/covers/about-internship.webp
         - title: Diogo Sousa Morais
           location: Estimating the effectiveness of source localized EEG for BCIs
           duration: Internship Student 2021
-          cover: /assets/images/covers/about-internship.webp
         - title: Guilherme de Borras Silva
           location: Cluster Permutation Analysis of N-Back related EEG-ERP Data
           duration: Internship Student 2021
-          cover: /assets/images/covers/about-internship.webp
         - title: Iris Vantieghem
           location: Using Neural Networks to derive Directed Connectivity between Reconstructed EEG Sources
           duration: Master of Science in Artificial Intelligence (2020-2021)
-          cover: /assets/images/covers/about-degree.webp
         - title: Didier Quintius
           location: Neural Network Approach to the Inverse Problem
           duration: Master of Science in Artificial Intelligence (2020-2021)
-          cover: /assets/images/covers/about-degree.webp
 news:
     title: Talks, presentations and other media
     content:
       - title: Modality-Specific Encoding with a Shared Backbone for Early HCC Prediction from Multi-Modal Liver MRI
         duration: 2026
         location: 4th XAI-NL Meet-Up
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Optimizing Federated Block-Term Tensor Regression - Strategy Comparisons and Applications
         duration: 2025
         location: Symposium on Federated Learning and Intelligent Computing Systems (FLICS)
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Federated Learning for Healthcare - From Brain-Computer Interfaces to Disease Prediction
         duration: 2025
         location: IEEE FLTA (International Conference on Federated Learning Technologies and Applications)
-        cover: /assets/images/covers/about-researchstay.webp
       - title: OHDSI Europe Symposium 2025
         duration: 2025
         location: OHDSI Europe Symposium
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Guest Lecture "Federated Finger movement decoding - brain-computer interfacing"
         duration: 2025
         location: KULeuven
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Use Case - Real-World Evidence
         duration: 2024
         location: Flanders Artificial Intelligence Research Program (FAIR) Research Day
-        cover: /assets/images/covers/about-researchstay.webp
       - title: FAIR Use Case Real World Evidence Kick-off Event
         duration: 2024
         location: Flanders Artificial Intelligence Research Program (FAIR)
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Decoding finger movements from invasive recordings in human motor cortex
         duration: 2023
         url: "https://www.ntxl.org/mindseed"
         location: Mindseed event Leuven, NeuroTech Leuven
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Guest Lecture "Finger movement decoding - brain-computer interfacing"
         duration: 2023
         location: KULeuven
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Coordinated Finger Movements Predicted from Intracranial Brain Activity
         duration: 2022
         url: /publications/other/hum-vs-sciences.pdf
         location: >-
           International Congress Humanities vs Sciences & the Knowledge Accelerating in Modern World: Parallels an Interaction,
-        cover: /assets/images/covers/about-researchstay.webp
       - title: BCI demo - Advanced Engineering, Antwerp Expo
         duration: 2022
         url: "https://www.ae-expo.be/en/"
         location: AI Flanders, Flanders Industry 4.0
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Guest Lecture "Decoding single and coordinated finger actions from intracranial brain activity"
         duration: 2022
         location: KULeuven
-        cover: /assets/images/covers/about-researchstay.webp
       - title: "Finger abduction trajectory prediction from high-density ECoG"
         duration: 2022
         location: Leuven AI Scientific Workshop
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Decoding single and coordinated finger actions from intracranial brain activity.
         duration: 2021
         location: XIV World Scientific Congress - SCIENCE FOR PEACE Modern Science, Global and Regional Theory and Practice
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Guest Lecture "Finger Movement Decoding - From Source-Localisation to Tensor Regression Modelling"
         duration: 2021
         location: KULeuven
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Reconstructing single finger trajectories from intracranial brain activity
         duration: 2021
         url: /publications/abstracts/VNM2021.pdf
         location: III International Conference "Volga Neuroscience Meeting 2021"
         about: |
           Leading scientists from all over the world will meet together to discuss topical problems in the field of neuroscience and artificial intelligence. The conference is organized by Lobachevsky State University of Nizhny Novgorod (UNN).
-        cover: /assets/images/covers/about-researchstay.webp
       - title: BCI demo - Day of Science
         duration: 2021
         location: Technopolis (canceled due to the COVID-19 situation)
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Presentation "'MINDSPELLER' Medical Research Project on Brain Computer Interfaces" and concert (with Tigran Maytesian and his Mind Speller Chamber Orchestra)
         duration: 2019
         location: Cathedral of St. Michael and St. Gudula, Brussels
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Honours student Axel Faes wins bronze medal in ACM SIGPLAN
         duration: 2017
         url: "http://wms.cs.kuleuven.be/cs/nieuws/honours-student-axel-faes-wins-bronze-model-in-acm-sigplan"
         location: KU Leuven, Department of Computer Science
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Student Axel Faes wins bronze medal in the ACM SIGPLAN Student Research Competition in ICFP conference
         duration: 2017
         url: "https://dtai.cs.kuleuven.be/news/student-axel-faes-wins-bronze-medal-acm-sigplan-student-research-competition-icfp-conference"
         location: KU Leuven, Department of Computer Science, DTAI
-        cover: /assets/images/covers/about-researchstay.webp
       - title: Purpose-Centric Appropriation of Everyday Objects as Game Controllers
         duration: 2016
         url: "https://www.youtube.com/watch?v=Q4_rK2upGEY"
         location: ACM SIGCHI
-        cover: /assets/images/covers/about-researchstay.webp
 education:
   title: Educational background
   content:
@@ -329,7 +274,6 @@ education:
       min: true
       about: |
         Graduates are able to engage in day-to-day conversations with deaf and hard-of-hearing individuals.
-      cover: /assets/images/covers/about-sign.webp
 
     - title: Doctoral Programme in Biomedical Science (PhD) in Computational Neuroscience
       location: KU Leuven
@@ -338,7 +282,6 @@ education:
       about: |
         Cognitive and Molecular Neuroscience
         PhD Thesis: Finger Movement Decoding: From Source-Localisation to Tensor Regression Modelling
-      cover: /assets/images/covers/about-phd.webp
       
     - title: Advanced Master of Science in Engineering (M.Sc.) in Artificial Intelligence
       location: KU Leuven
@@ -347,7 +290,6 @@ education:
       about: |
         Engineering and Computer Science (76% - Cum Laude)
         Thesis: An Information Theoretical Approach to EEG Source-Reconstructed Connectivity (on Github)
-      cover: /assets/images/covers/about-ai.webp
 
     - title: Honours programme of the Faculty of Engineering Science (Research Track)
       url: https://eng.kuleuven.be/studeren/engineering-essentials/honoursprogramma
@@ -357,7 +299,6 @@ education:
       about: |
         Research Assistant: design of type-&-effect system for Eff  based on row polymorphism
         Research Assistent: efficient compilation of algebraic effect handlers (in Eff)
-      cover: /assets/images/covers/about-honors.webp
 
     - title: Master of Science in Engineering (M.Sc.) in Computer Science (Burgerlijk Ingenieur - ir.)
       location: KU Leuven
@@ -366,14 +307,12 @@ education:
       about: |
         Artificial Intelligence & Theoretical Computer Science (76% - Cum Laude)
         Thesis: Algebraic Subtyping for Algebraic Effects and Handlers (on Github)
-      cover: /assets/images/covers/about-master.webp
 
     - title: "Business Summer School: United in Manchester (0739)"
       location: The University of Manchester
       duration: Jul. 2015 - Aug. 2015
       min: true
       about: International Business
-      cover: /assets/images/covers/about-business.webp
 
     - title: "Bachelor of Science (B.Sc.) in Computer Science"
       location: UHasselt
@@ -382,7 +321,6 @@ education:
       about: |
         Physics and General courses (79% - Magna Cum Laude)
         Thesis: Machine learning techniques for flow-based network intrusion detection systems (on Github)
-      cover: /assets/images/covers/about-degree.webp
 
 projects:
   title: Grants & (open-source) Projects
@@ -400,7 +338,6 @@ projects:
     #     Team: Prof. Yves Moreau (KU Leuven), Prof. Liesbet M. Peeters (UHasselt), Prof. Bert Vaes (KU Leuven)
     #     Funding: Research Foundation Flanders (FWO), Belgium (applied, result expected in September 2025)
     #     Amount: approx. €1,150,000 (including salaries and operational costs for 4 years)
-    #   cover: /assets/images/covers/about-project.webp
     - title: "Use Case Real World Evidence - Flanders AI Research Program"
       url: ""
       duration: 2024 - Current
@@ -409,7 +346,6 @@ projects:
       about: |
         Role: Scientific coordinator (UHasselt) and AI Researcher
         Team: approx. 10 researchers across 4 institutions
-      cover: /assets/images/covers/about-project.webp
     - title: "ELIXIR Belgium - Roadmap 2023-2025"
       url: ""
       duration: 2023 - 2025
@@ -419,7 +355,6 @@ projects:
         Role: Consortium partner (UHasselt), focusing on health data re-use and federated analyses  
         Collaborations: KU Leuven (Yves Moreau), University of Antwerp (Geert Vandeweyer), VIB (Frederik Coppens)  
         Context: ELIXIR Belgium is part of ELIXIR Europe, an ESFRI initiative funded by the European Commission and national agencies
-      cover: /assets/images/covers/about-project.webp
     - title: "Federated Learning Kit (FLkit)"
       url: https://github.com/UHasselt-BiomedicalDataSciences/federated-learning-toolkit
       duration: 2025 - Current
@@ -428,7 +363,6 @@ projects:
       about: |
         FLkit is designed to help life scientists apply federated learning in their research. It offers guidance, techniques, and tools for working with decentralized and sensitive data, enabling privacy-preserving collaboration and deeper insights without sharing raw data.
         The project is in its early stages and open to contributors. The long-term goal is to make FLkit community-driven, sustained, and governed by researchers and practitioners who want to advance federated learning for life sciences.
-      cover: /assets/images/covers/about-project.webp
     - title: "Cardinal: Educational and Research platform for MSc theses in PL/compilers"
       url: https://github.com/TheAxeC/Cardinal
       duration: Jan. 2015 - Current
@@ -437,7 +371,6 @@ projects:
       about: |
         Cardinal is a C++20 reimplementation of the Wren VM, designed for clarity, research, and education. It provides a small, well-documented virtual machine and runtime for exploring compilers, concurrency (fibers), and language embedding.
         The project serves as a platform for student theses and for prototyping new programming language ideas.
-      cover: /assets/images/covers/about-project.webp
     - title: "Open Source Python Package - Block-Term Tensor Regression (BTTR)"
       url: https://github.com/TheAxeC/block-term-tensor-regression
       duration: 2022 - Current
@@ -445,7 +378,6 @@ projects:
       min: false
       about: |
         The open-source BTTR implementation provides researchers and practitioners with accessible, reproducible tools for tensor-based regression in neuroscience and related domains. It is actively developed and documented to support experimentation, education, and further research.
-      cover: /assets/images/covers/about-project.webp
     - title: "Wisconsin Breast Cancer Dataset Research Tutorial for Federated Learning"
       url: https://github.com/TheAxeC/federated-learning-tutorial
       duration: 2025 - Current
@@ -454,7 +386,6 @@ projects:
       about: |
         This repository serves as a step-by-step tutorial for running federated learning studies with the FL4E framework. Using the Wisconsin Breast Cancer dataset as an example, it guides researchers and students through the full workflow.
         Clear documentation and markdown guides explain each step, making it easier for newcomers to understand and apply federated learning in practice.
-      cover: /assets/images/covers/about-project.webp
     # - title: Reinforcement Learning Agent in Google Deepmind's StarCraft II Framework
     #   url: ""
     #   duration: Feb. 2018 - Jul. 2018
@@ -462,7 +393,6 @@ projects:
     #   min: true
     #   about: |
     #       Implement reinforcement learning algorithms in PySC2 utilising the KU Leuven supercomputer.
-    #   cover: /assets/images/covers/about-project.webp
 
     # - title: IoT-platform with pluggable sensors
     #   url: ""
@@ -471,7 +401,6 @@ projects:
     #   min: true
     #   about: |
     #     Showcase large-scale use of Internet of Things sensors
-    #   cover: /assets/images/covers/about-project.webp
 
     - title: ICAL parser for KU Leuven schedules
       url: https://github.com/TheAxeC/ical-kuleuven
@@ -480,7 +409,6 @@ projects:
       min: true
       about: |
         A Node.js application to create an iCalendar file for courses at KU Leuven. (>1000 active users)
-      cover: /assets/images/covers/about-project.webp
 
     # - title: "Search and Recommendation System"
     #   url: ""
@@ -490,7 +418,6 @@ projects:
     #   about: |
     #     A search and recommendation system for VoD (Video on Demand) for Androme. 
     #     In production in the Nebula project.
-    #   cover: /assets/images/covers/about-project.webp
 
     - title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons (Unity, Optitrack Motion Capture)"
       url: https://www.youtube.com/watch?v=Q4_rK2upGEY
@@ -501,7 +428,6 @@ projects:
         Developed a room-scale AR game using everyday objects as controllers (broom, fan, vacuum, mousetrap). 
         Demonstrated immersive physical-virtual interactions. 
         Still used in university courses as a teaching example.
-      cover: /assets/images/covers/about-project.webp
 
     # - title: "Visual Programming IDE"
     #   url: https://github.com/TheAxeC/AxeSki
@@ -510,7 +436,6 @@ projects:
     #   min: true
     #   about: |
     #     A Visual programming IDE (Java)
-    #   cover: /assets/images/covers/about-project.webp
 
 awards:
   title: Honors & Awards
@@ -524,14 +449,12 @@ awards:
         - Contributed to case studies demonstrating expertise in Bayesian spatial modeling, 
           AI/ML applications for data classification, and advanced statistical training design
         - Quality score: 130.5/170 across methodology, implementation, and risk management criteria
-      cover: /assets/images/covers/about-award.webp
     - award: FWO Fundamental Research Grant
       event: FWO
       date: 2018-01-01 15:59:00-0400
       location: Belgium
       content: >
         FWO fundamental research grant for the project "Finger movement decoding: From source-localisation to graph-based regression modelling"
-      cover: /assets/images/covers/about-grant.webp
 
     - award: Finalist
       event: Cyber Security Challenge 2018
@@ -539,13 +462,11 @@ awards:
       location: Brussels, Belgium
       content: >
         A Capture The Flag (CTF) challenge-based game covering a wide range of security issues. 
-      cover: /assets/images/covers/about-award.webp
 
     - award: 3rd place
       event: ICFP 2017 Student Research Competition
       date: 2017-09-01 15:59:00-0400
       location: Oxford, UK
-      cover: /assets/images/covers/about-award.webp
 
     - award: Bachelor Award
       event: in Computer Science
@@ -553,25 +474,21 @@ awards:
       location: UHasselt, Belgium
       content: >
         Award presented by the examination committee of Computer Science at Hasselt University for meritorious achievements, and contribution to a positive image of the bachelor in Computer Science.
-      cover: /assets/images/covers/about-award.webp
 
     - award: 3rd place
       event: ACM CHI 2016 Student Design Competition
       date: 2016-05-01 15:59:00-0400
       location: San Jose, CA, USA
-      cover: /assets/images/covers/about-award.webp
 
     - award: 2nd place
       event: BeGDC (Belgian Game Development Championship)
       date: 2016-02-01 15:59:00-0400
       location: Brussels, Belgium
-      cover: /assets/images/covers/about-award.webp
 
     - award: IELTS
       event: Academic Module (8.0/9.0)
       date: 2016-01-01 15:59:00-0400
       location: Brussels, Belgium
-      cover: /assets/images/covers/about-award.webp
 
 extracurricular:
   title: Professional Development Activities # Extracurricular Activities / Outreach & Service
@@ -580,23 +497,19 @@ extracurricular:
       location: University of Twente
       duration: 2026
       about: Interdisciplinary health-research summer school at the University of Twente.
-      cover: /assets/images/covers/about-coach.webp
     - title: Mathematics & Natural Sciences Tutor
       location: Freelance
       duration: Sept. 2015 - 2024
       about: Supporting high school and university students in mastering mathematics (and other natural sciences) through personalized tutoring
-      cover: /assets/images/covers/about-coach.webp
     - title: Coach
       location: DjangoGirls
       duration: Mar. 2018 - 2024
       about: Inspire women to fall in love with programming (Python, Django workshops)
-      cover: /assets/images/covers/about-coach.webp
 
     - title: Coach 
       location: CoderDojo (UHasselt, PXL)
       duration: Sep. 2014 - 2025
       about: Teach children programming (Scratch, Python, Minecraft and Lego mindstorm).
-      cover: /assets/images/covers/about-coach.webp
 
     - title: Student Representative
       location: KU Leuven
@@ -605,7 +518,6 @@ extracurricular:
         POC (Education Committee) of Master Computer Science Engineering, 
         POC (Education Committee) of Advanced Master Artificial Intelligence, 
         Member of Departmental council of Computer Science, Department board of Computer Science and Faculty council of Engineering Science
-      cover: /assets/images/covers/about-representative.webp
 
     - title: Student Council Member
       location: StuRa UHasselt
@@ -613,7 +525,6 @@ extracurricular:
       about: |
         Member of Board of Education, Faculty Council. Board of Student Facilities, Diversity Commission,
         Temporary representative in VVS (Flemish Union of Students)
-      cover: /assets/images/covers/about-representative.webp
 
     - title: Student Representative 
       location: UHasselt
@@ -621,4 +532,3 @@ extracurricular:
       about: |
         Representing students interests in a Computer Science education context. 
         Representing Computer Science education for high school students
-      cover: /assets/images/covers/about-representative.webp

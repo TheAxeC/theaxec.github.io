@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "FLTA 2025: Federated Learning for Brain-Computer Interfaces and Clinical Prediction"
-picture: /assets/images/projects/conference.webp
 category: research
 publish: True
 date: 2025-10-22

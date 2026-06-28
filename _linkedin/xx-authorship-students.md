@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Co-Authorship Ethics: When Should Students Be First Authors?"
-picture: /assets/images/projects/conference.webp
 category: mentorship
 publish: True
 date: 2025-02-12

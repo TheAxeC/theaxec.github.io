@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "What Brings Me Back: Rediscovering Research Passion After Burnout"
-picture: /assets/images/projects/conference.webp
 category: reflection
 publish: True
 date: 2025-10-15
