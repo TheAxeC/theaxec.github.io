@@ -26,7 +26,7 @@ Publications are added into their respective folder:
 - publications/thesis/
 
 Other:
-- _includes/ [for html includes (widgets) or general components (navbar and footer)
+- _includes/ [for html includes (widgets) or general components (navbar and footer)]
 - _layouts/ [for the main html layouts (cv, default and posts)]
 - assets/ [for css, images and js]
 - _scripts/ [for python cv latex generator]
@@ -45,3 +45,11 @@ step, or run Jekyll directly:
 
 Flags: `--all` (default, full pipeline) / `--templates` / `--compile`; `--save`
 copies the PDF to the home folder; `--quiet` suppresses LaTeX logs.
+
+## Unicode in source
+
+These files deliberately contain unicode - it's intentional content, not stray symbols, so leave it (do not strip):
+- `_linkedin/*.md` - LinkedIn post drafts; the emoji are part of the posts.
+- `_blog/linkedin.md` - a blog post that uses emoji.
+- `_data/website.yml` - the homepage tagline's section icons and bullet separators.
+- `_data/publications.yml` - the plus/minus sign in paper-abstract statistics.

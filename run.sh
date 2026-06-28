@@ -11,6 +11,7 @@ if [ "${SKIP_CV:-0}" != "1" ]; then
     echo "CV PDF generated."
 fi
 
-# Any extra args ($@) pass straight through, e.g. ./run.sh --livereload --drafts
-echo "Starting Jekyll server..."
-exec bundle exec jekyll serve "$@"
+# Live reload on by default: the browser refreshes automatically on any change.
+# Extra args ($@) pass straight through, e.g. ./run.sh --drafts
+echo "Starting Jekyll server (live reload)..."
+exec bundle exec jekyll serve --livereload --open-url "$@"

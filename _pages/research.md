@@ -1,5 +1,5 @@
 ---
-layout: cards
+layout: page
 title: Research
 navbar_name: Research
 permalink: /research
@@ -56,5 +56,5 @@ As an independent investigator, I want to build a group around the self-explaini
 
 **Collaborations.** My work is inherently multi-institutional, spanning the University of Twente, UHasselt, KU Leuven, Medisch Spectrum Twente, the University of Antwerp, and VIB.
 
-<a href="/publications" class="btn btn-outline-primary mt-3">Browse publications <i class="fas fa-angle-double-right"></i></a>
-<a href="/cv.pdf" class="btn btn-outline-primary mt-3">View full CV <i class="fas fa-angle-double-right"></i></a>
+<a href="/publications" class="btn btn-outline-primary mt-3">Browse publications &rarr;</a>
+<a href="/cv.pdf" class="btn btn-outline-primary mt-3">View full CV &rarr;</a>

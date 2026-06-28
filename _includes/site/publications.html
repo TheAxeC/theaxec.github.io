@@ -1,0 +1,47 @@
+{% assign section_order = "journal,conference,papers-in-preparation,other-publications,thesis,abstracts,posters" | split: "," %}
+{% assign programs = site.data.website.programs %}
+<h1>{{ page.title }}</h1>
+<p class="pub-intro">{{ site.data.website.home.publications_intro }}</p>
+
+<div class="listlayout">
+  <nav class="secnav">
+    {% for seckey in section_order %}{% assign coll = site.data.publications[seckey] %}{% if coll %}<a href="#{{ seckey }}">{{ coll.title }}</a>{% endif %}{% endfor %}
+  </nav>
+  <div class="listbody">
+    {% assign i = 0 %}
+    {% for seckey in section_order %}
+    {% assign coll = site.data.publications[seckey] %}
+    {% if coll %}
+    <section class="psec" id="{{ seckey }}">
+      <h2 class="psec-h">{{ coll.title }}</h2>
+      {% for item in coll.papers %}{% unless item.hide %}
+      {% assign i = i | plus: 1 %}
+      <article class="pitem">
+        <div class="pdiacol">
+          <div class="pidx">[{{ i }}]</div>
+          {% if item.program %}{% assign prim = item.program | first %}
+          <div class="pdia" title="Research line: {{ programs[prim] }}">{% include site/program-diagram.html key=prim %}</div>
+          <div class="pdia-label">{{ programs[prim] }}</div>
+          {% if item.program.size > 1 %}<div class="pdia-tags">{% for p in item.program offset:1 %}+ {{ programs[p] }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</div>{% endif %}
+          {% endif %}
+        </div>
+        <div class="pbody">
+          <h3 class="pt">{% if item.url and item.url != "" %}<a href="{{ item.url | relative_url }}" target="_blank" rel="noopener">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h3>
+          <div class="pa">{%- assign nm = site.data.website.home.name_mark -%}{%- capture nmb -%}<strong>{{ nm }}</strong>{%- endcapture -%}{%- assign aa = item.authors | split: ", " -%}{%- if aa.size > 10 -%}{%- assign head = aa | slice: 0, 7 -%}{%- assign headstr = head | join: ", " -%}{%- capture line -%}{{ headstr }}{%- unless headstr contains nm -%}, ..., {{ nm }}{%- endunless -%}, et al.{%- endcapture -%}{{ line | replace: nm, nmb }} <span class="pa-count">({{ aa.size }} authors)</span>{%- else -%}{{ item.authors | replace: nm, nmb }}{%- endif -%}</div>
+          <div class="pmeta"><em>{{ item.book }}</em>{% if item.pub_date %} &middot; {{ item.pub_date }}{% endif %}{% if item.from and item.from != "" %} &middot; {{ item.from }}{% endif %}</div>
+          {% if item.abstract and item.abstract != "" %}<details class="pabs"><summary>Abstract</summary><p>{{ item.abstract }}</p></details>{% endif %}
+          {% if item.url and item.url != "" or item.links %}
+          <div class="plinks">
+            {% if item.url and item.url != "" %}<a href="{{ item.url | relative_url }}" target="_blank" rel="noopener">Link</a>{% endif %}
+            {% for link in item.links %}{% if link[1].url %}<a href="{{ link[1].url | relative_url }}" target="_blank" rel="noopener">{{ link[0] }}</a>{% else %}<a href="{{ link[1] | relative_url }}" target="_blank" rel="noopener">{{ link[0] }}</a>{% endif %}{% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </article>
+      {% endunless %}{% endfor %}
+    </section>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% include site/scrollspy.html %}

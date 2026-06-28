@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include site/head.html %}
+</head>
+<body>
+<div class="wrap">{% include site/nav.html %}</div>
+<main class="wrap {{ page.body_class | default: 'page' }}">
+{{ content }}
+</main>
+<div class="wrap">{% include site/footer.html %}</div>
+</body>
+</html>

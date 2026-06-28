@@ -1,0 +1,55 @@
+{% assign d = site.data.website.description %}
+{% assign h = site.data.website.home %}
+<header class="cvhead">
+  <h1>{{ d.title }}</h1>
+  <div class="cvhead-roles">{% for r in h.roles %}<span>{{ r }}</span>{% endfor %}</div>
+  <div class="cvhead-actions">
+    <a class="btn" href="{{ '/cv.pdf' | relative_url }}" target="_blank" rel="noopener">{% include site/icon.html name='download' %} Download PDF</a>
+    <a class="cvhead-mail" href="mailto:{{ h.contact_email }}">{{ h.contact_email }}</a>
+  </div>
+</header>
+
+<div class="listlayout">
+  <nav class="secnav">
+    {% for coll in site.data.data %}{% if coll[0] != "personal" %}<a href="#{{ coll[0] }}">{{ coll[1].title }}</a>{% endif %}{% endfor %}
+  </nav>
+  <div class="listbody">
+    {% for coll in site.data.data %}{% if coll[0] != "personal" %}
+    {% comment %} A section flows into two columns when none of its entries carry a long description. {% endcomment %}
+    {% assign hasLong = false %}
+    {% for item in coll[1].content %}{% unless item.hide %}{% if item.about and item.about != "" or item.content and item.content != "" %}{% assign hasLong = true %}{% endif %}{% endunless %}{% endfor %}
+    <section class="psec" id="{{ coll[0] }}">
+      <h2 class="psec-h">{{ coll[1].title }}</h2>
+      {% if hasLong %}
+      {% for item in coll[1].content %}{% unless item.hide %}
+      <article class="cv-item">
+        <div class="cv-when">{{ item.duration }}</div>
+        <div class="cv-body">
+          <div class="cv-title">{{ item.title }}{{ item.award }}{{ item.name }}</div>
+          {% if item.event %}
+          <div class="cv-meta">{{ item.event }}{% if item.location and item.location != "" %} &middot; <em>{{ item.location }}</em>{% endif %}</div>
+          {% elsif item.location and item.location != "" or item.email or item.reason %}
+          <div class="cv-meta">{{ item.location }}{{ item.email }}{% if item.reason %}{% if item.location and item.location != "" %} &middot; {% endif %}<em>{{ item.reason }}</em>{% endif %}</div>
+          {% endif %}
+          {% if item.about or item.content %}<div class="cv-about">{{ item.about }}{{ item.content }}</div>{% endif %}
+          {% if item.url and item.url != "" or item.links %}<div class="plinks">{% if item.url and item.url != "" %}<a href="{{ item.url }}" target="_blank" rel="noopener">Link</a>{% endif %}{% for link in item.links %}{% if link[1].url %}<a href="{{ link[1].url }}" target="_blank" rel="noopener">{{ link[0] }}</a>{% else %}<a href="{{ link[1] }}" target="_blank" rel="noopener">{{ link[0] }}</a>{% endif %}{% endfor %}</div>{% endif %}
+        </div>
+      </article>
+      {% endunless %}{% endfor %}
+      {% else %}
+      <div class="cv-grid">
+        {% for item in coll[1].content %}{% unless item.hide %}
+        <article class="cv-mini">
+          <div class="cv-title">{{ item.title }}{{ item.award }}{{ item.name }}</div>
+          {% capture meta %}{% if item.event %}{{ item.event }}{% if item.location and item.location != "" %} &middot; {{ item.location }}{% endif %}{% else %}{{ item.location }}{{ item.email }}{% endif %}{% if item.duration %} &middot; {{ item.duration }}{% endif %}{% if item.reason %} &middot; {{ item.reason }}{% endif %}{% endcapture %}
+          {% if meta != "" %}<div class="cv-meta">{{ meta | strip }}</div>{% endif %}
+          {% if item.url and item.url != "" or item.links %}<div class="plinks">{% if item.url and item.url != "" %}<a href="{{ item.url }}" target="_blank" rel="noopener">Link</a>{% endif %}{% for link in item.links %}{% if link[1].url %}<a href="{{ link[1].url }}" target="_blank" rel="noopener">{{ link[0] }}</a>{% else %}<a href="{{ link[1] }}" target="_blank" rel="noopener">{{ link[0] }}</a>{% endif %}{% endfor %}</div>{% endif %}
+        </article>
+        {% endunless %}{% endfor %}
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}{% endfor %}
+  </div>
+</div>
+{% include site/scrollspy.html %}

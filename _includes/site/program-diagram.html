@@ -1,0 +1,28 @@
+{% case include.key %}
+{% when 'tensor' %}<svg viewBox="0 0 200 100" aria-hidden="true">
+  <rect class="dl" x="14" y="26" width="50" height="50" rx="3"/><text x="80" y="56" font-family="Space Mono" font-size="14" fill="currentColor">=</text>
+  <rect class="dfs" x="104" y="18" width="26" height="26" rx="3"/><rect class="dl" x="104" y="18" width="26" height="26" rx="3"/>
+  <text x="138" y="40" font-family="Space Mono" font-size="13" fill="currentColor">+</text>
+  <rect class="dfs" x="150" y="40" width="26" height="26" rx="3"/><rect class="dl" x="150" y="40" width="26" height="26" rx="3"/>
+  <rect class="dfs" x="118" y="58" width="26" height="26" rx="3"/><rect class="dl" x="118" y="58" width="26" height="26" rx="3"/></svg>
+{% when 'federated' %}<svg viewBox="0 0 200 100" aria-hidden="true">
+  <circle class="df" cx="100" cy="50" r="11"/><g class="dl"><line x1="100" y1="50" x2="34" y2="22"/><line x1="100" y1="50" x2="166" y2="22"/><line x1="100" y1="50" x2="34" y2="78"/><line x1="100" y1="50" x2="166" y2="78"/></g>
+  <g><rect class="dfs" x="18" y="12" width="32" height="20" rx="3"/><rect class="dl" x="18" y="12" width="32" height="20" rx="3"/><rect class="dfs" x="150" y="12" width="32" height="20" rx="3"/><rect class="dl" x="150" y="12" width="32" height="20" rx="3"/><rect class="dfs" x="18" y="68" width="32" height="20" rx="3"/><rect class="dl" x="18" y="68" width="32" height="20" rx="3"/><rect class="dfs" x="150" y="68" width="32" height="20" rx="3"/><rect class="dl" x="150" y="68" width="32" height="20" rx="3"/></g></svg>
+{% when 'hcc' %}<svg viewBox="0 0 200 100" aria-hidden="true">
+  <rect class="dfs" x="20" y="22" width="64" height="40" rx="4"/><rect class="dl" x="20" y="22" width="64" height="40" rx="4"/>
+  <rect class="dfs" x="32" y="34" width="64" height="40" rx="4"/><rect class="dl" x="32" y="34" width="64" height="40" rx="4"/>
+  <rect class="dfs" x="44" y="46" width="64" height="40" rx="4"/><rect class="dl" x="44" y="46" width="64" height="40" rx="4"/>
+  <line class="dl" x1="116" y1="58" x2="146" y2="58"/><path class="dl" d="M140 53 L146 58 L140 63"/><circle class="dl" cx="170" cy="58" r="15"/><circle class="df" cx="170" cy="58" r="5"/></svg>
+{% when 'eeg' %}<svg viewBox="0 0 200 100" aria-hidden="true">
+  <g class="df"><circle cx="22" cy="28" r="3"/><circle cx="40" cy="28" r="3"/><circle cx="58" cy="28" r="3"/><circle cx="22" cy="50" r="3"/><circle cx="40" cy="50" r="3"/><circle cx="58" cy="50" r="3"/><circle cx="22" cy="72" r="3"/><circle cx="40" cy="72" r="3"/><circle cx="58" cy="72" r="3"/></g>
+  <line class="dl" x1="74" y1="50" x2="90" y2="50"/><path class="dl" d="M85 45 L90 50 L85 55"/><path class="dl" d="M98 50 L116 50 L122 32 L130 70 L138 50 L160 50 L166 40 L172 50 L186 50"/></svg>
+{% when 'ecg' %}<svg viewBox="0 0 200 100" aria-hidden="true">
+  <path class="dl" d="M8 52 H44 L52 30 L60 78 L68 52 H96 L104 30 L112 78 L120 52 H148 L156 30 L164 78 L172 52 H192"/></svg>
+{% when 'prognosis' %}<svg viewBox="0 0 200 100" aria-hidden="true">
+  <path class="da" d="M28 14 V84 H184"/><path class="dl" d="M28 24 H66 V42 H104 V58 H138 V74 H184"/>
+  <circle class="df" cx="66" cy="42" r="2.6"/><circle class="df" cx="104" cy="58" r="2.6"/><circle class="df" cx="138" cy="74" r="2.6"/></svg>
+{% when 'student-research' %}<svg viewBox="0 0 200 100" aria-hidden="true">
+  <path class="dl" d="M74 24 L40 50 L74 76"/><path class="dl" d="M126 24 L160 50 L126 76"/><line class="dl" x1="110" y1="22" x2="90" y2="78"/></svg>
+{% when 'clinical-collab' %}<svg viewBox="0 0 200 100" aria-hidden="true">
+  <circle class="dl" cx="82" cy="50" r="30"/><circle class="dl" cx="118" cy="50" r="30"/><circle class="df" cx="100" cy="50" r="4.5"/></svg>
+{% endcase %}

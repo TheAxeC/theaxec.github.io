@@ -1,0 +1,54 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.website.description.biography | strip_html | truncate: 160 }}{% endif %}"/>
+<meta name="author" content="{{ site.data.website.description.title }}"/>
+<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}Axel Faes, AI for healthcare, federated learning, self-explaining AI, block-term tensor, precision medicine{% endif %}"/>
+<title>{{ page.title }} - {{ site.data.website.header.intro }}</title>
+<link rel="icon" href="{{ site.data.website.footer.left.url }}" type="image/png">
+<link rel="alternate" type="application/atom+xml" title="{{ site.data.website.header.intro }} - Research Diary" href="{{ '/feed.xml' | relative_url }}">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:title" content="{{ page.title }} - {{ site.data.website.header.intro }}">
+<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | truncate: 200 }}{% else %}{{ site.data.website.description.biography | strip_html | truncate: 200 }}{% endif %}">
+<meta property="og:image" content="{{ '/assets/images/og-card.png' | absolute_url }}">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="{{ '/assets/images/og-card.png' | absolute_url }}">
+
+<link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.data.website.description.title }}",
+  "givenName": "Axel",
+  "familyName": "Faes",
+  "jobTitle": "Postdoctoral Researcher in AI for Healthcare",
+  "affiliation": [
+    {"@type": "Organization", "name": "University of Twente"},
+    {"@type": "Organization", "name": "Hasselt University"}
+  ],
+  "description": "{{ site.data.website.description.biography | strip_html | truncate: 200 }}",
+  "url": "{{ '/' | absolute_url }}",
+  "image": "{{ site.data.website.description.portrait_url | absolute_url }}",
+  "knowsAbout": ["Self-explaining AI", "Federated learning", "Block-term tensor methods", "Precision medicine", "Brain-computer interfaces"],
+  "sameAs": [
+    "https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ",
+    "https://orcid.org/0000-0002-1637-255X",
+    "https://github.com/TheAxeC",
+    "https://www.linkedin.com/in/axelfaes"
+  ]
+}
+</script>
+<script>
+// Set theme before paint to avoid a flash of the wrong theme.
+(function(){try{var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+document.addEventListener('DOMContentLoaded',function(){
+  var btn=document.querySelector('.theme-toggle');if(!btn)return;
+  function label(){var d=document.documentElement.getAttribute('data-theme')==='dark';btn.setAttribute('aria-label',d?'Switch to light theme':'Switch to dark theme');btn.setAttribute('title',d?'Light theme':'Dark theme');}
+  label();
+  btn.addEventListener('click',function(){var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',next);try{localStorage.setItem('theme',next);}catch(e){}label();});
+});
+</script>
