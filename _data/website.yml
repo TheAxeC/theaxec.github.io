@@ -136,7 +136,7 @@ header:
     - name: About
       url: /about
     - name: CV
-      url: /cv.pdf
+      url: /cv
     - name: Blog
       url: /blog
 
@@ -184,8 +184,10 @@ references:
 ##################
 
 footer:
+  copyright: '&copy; 2026 dr. ir. Axel Faes'
+  affiliations: 'University of Twente &middot; UHasselt'
   left:
-    title: 
+    title:
     url: /assets/images/webpage/icon.png
   right:
     title: >-
@@ -276,3 +278,82 @@ updates:
   - picture: /assets/images/updates/uhasselt.webp
     desc: Started as a Postdoctoral Researcher at Biomedical Data Science, UHasselt
     time: Jan 2024
+
+#########################
+# Homepage data         #
+#########################
+# Research-line labels (keys match programs.yml in the research hub) - used for the publication glyphs.
+programs:
+  tensor: 'Structured Tensor'
+  federated: 'Federated Learning'
+  hcc: 'HCC Imaging'
+  ecg: 'ECG / Cardiology'
+  eeg: 'EEG / BCI'
+  prognosis: 'Clinical Prognosis'
+  student-research: 'Early-career'
+  clinical-collab: 'Clinical collaboration'
+
+# Curated content for the homepage hero/grid. Edit here to change what shows.
+home:
+  # Hero identity
+  name_pre: 'dr. ir. '
+  name_mark: 'Axel Faes'
+  roles:
+    - '<b>Postdoctoral Researcher</b> &middot; University of Twente'
+    - '<b>Research Affiliate</b> &middot; UHasselt'
+  pillars:
+    - 'Self-Explaining AI'
+    - 'Federated Learning'
+    - 'Precision Medicine'
+  program: 'I build the <b>self-explaining hospital</b> - interpretable, privacy-preserving clinical AI.'
+  # Status panel: current work + theory
+  status_label: 'Currently'
+  status:
+    - key: 'UTwente'
+      value: 'Multi-modal AI for early liver-cancer (HCC) detection <span class="vn">- AI-HCC (ZonMw)</span>'
+    - key: 'UHasselt'
+      value: 'Interpretable block-term tensor models for <b>atrial-fibrillation</b> prediction from 12-lead <b>ECG</b> <span class="vn">- FAIR</span>'
+    - key: 'Theory'
+      value: 'Block-term tensor operator theory &amp; dimension-free privacy for federated learning'
+  # Social icons under the portrait
+  social:
+    - icon: 'scholar'
+      tip: 'Google Scholar'
+      url: 'https://scholar.google.be/citations?hl=en&user=abRAHJEAAAAJ'
+    - icon: 'orcid'
+      tip: 'ORCID'
+      url: 'https://orcid.org/0000-0002-1637-255X'
+    - icon: 'github'
+      tip: 'GitHub'
+      url: 'https://github.com/TheAxeC'
+    - icon: 'linkedin'
+      tip: 'LinkedIn'
+      url: 'https://www.linkedin.com/in/axelfaes'
+    - icon: 'email'
+      tip: 'Email'
+      url: 'mailto:axel.faes@utwente.nl'
+  # Section labels and links
+  research_heading: 'Research themes'
+  research_link_text: 'Research statement'
+  research_link_url: '/research'
+  # Intro paragraphs for the listing pages
+  publications_intro: 'Peer-reviewed journal and conference papers, preprints, theses, and other writing. Author order as published; my name in bold.'
+  about_intro: 'Experience, supervision, education, projects, and recognition - the full record.'
+  # Contact / collaboration
+  contact_email: 'axel.faes@utwente.nl'
+  contact_heading: 'Get in touch'
+  contact_text: 'I am open to collaboration on interpretable and federated clinical AI, and to supervising motivated students. The fastest way to reach me is email.'
+  # The four research lines (diagrams are fixed in the template, by order).
+  research_grid:
+    - title: "Interpretable, self-explaining models"
+      desc: "Block-term and multiway tensor models whose <b>decomposition is the explanation</b> - structure a clinician already reasons about, read straight off the model rather than approximated afterward. The methodological core under everything else."
+      meta: "block-term &middot; multiway tensor"
+    - title: "Federated learning"
+      desc: "Training shared models across institutions <b>without raw data ever leaving them</b> - including the hard case of different modalities and incomplete records, with privacy built in by design."
+      meta: "privacy-preserving &middot; vertical &amp; horizontal FL"
+    - title: "Self-supervised, multi-modal learning"
+      desc: "Backbones that learn from <b>unlabelled, longitudinal data</b> and fuse imaging, omics and clinical signals into a single shared representation for downstream clinical prediction."
+      meta: "self-supervised &middot; multi-modal fusion"
+    - title: "Neural decoding &amp; tensor regression"
+      desc: "Recovering <b>interpretable spatiotemporal structure</b> from high-density brain signals (ECoG / EEG) with tensor regression - where the methodology was forged before it moved to the clinic."
+      meta: "tensor regression &middot; ECoG / EEG"

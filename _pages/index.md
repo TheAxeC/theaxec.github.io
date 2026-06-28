@@ -1,30 +1,8 @@
 ---
-layout: default
-title : Homepage
-navbar_name: Home
-num_selected: 10
+layout: home
+title: Home
 permalink: /
-description: "Dr. Axel Faes - Postdoctoral Researcher in AI for Healthcare at the University of Twente. Leading AI in Health research with foundation models, federated learning, and brain-computer interfaces."
-keywords: "Axel Faes, machine learning, biomedical data science, federated learning, brain-computer interfaces, AI healthcare, real-world evidence"
+description: "dr. ir. Axel Faes - postdoctoral researcher in AI for healthcare (University of Twente / UHasselt). Building the self-explaining hospital: interpretable, privacy-preserving clinical AI on block-term tensor methods, from ECG and brain signals to multi-modal patient data."
+keywords: "Axel Faes, AI for healthcare, self-explaining AI, federated learning, block-term tensor, precision medicine, atrial fibrillation ECG, brain-computer interfaces"
 ---
-{% include widgets/index_profile_card.html %}
-
-{% include widgets/index_details.html %}
-
-{% include widgets/index_metrics.html %}
-
-{% include widgets/index_updates.html %}
-
-{% for item in site.data.publications %}
-{% if item[0] != "title" and item[0] != "secondary-title" %}
-{% assign pubs_all = pubs_all | concat: item[1].papers %}
-{% endif %}
-{% endfor %}
-
-{% assign pubs = pubs_all
-    | sort: "pub_date" | reverse | where: "selected", true %}
-{% 
-    include widgets/index_publication_card.html 
-    publications=pubs 
-    title='<i class="fas fa-star"></i> Selected Publications'
-%}
+{% include home/main.html %}

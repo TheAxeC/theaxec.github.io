@@ -1,7 +1,10 @@
 _site/
 _data/personal.yml
 .claude/
-GRANTS.md
+skills-lock.json
+.agents/
+
+
 .DS_Store
 Gemfile.lock
 .vscode/
@@ -11,3 +14,4 @@ vendor/
 
 _scripts/_tmp/
 _industry/_tmp/
+

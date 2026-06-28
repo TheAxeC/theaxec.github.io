@@ -1,5 +1,5 @@
 ---
-layout: cards
+layout: page
 title: Teaching
 navbar_name: Teaching
 permalink: /teaching
@@ -47,7 +47,7 @@ My supervisions span four disciplines and the full range of my research, from fe
 - **Hand-exoskeleton control via a semi-invasive brain-computer interface**, PhD Biomedical Sciences (daily supervision)
 - **Optimization and type-checking in single-pass compilers**, MSc Computer Science
 
-A full list of supervised students is available on my <a href="/about#students">About page</a> and <a href="/cv.pdf">CV</a>.
+A full list of supervised students is available on my <a href="/cv#students">CV</a>.
 
 <!-- card -->
 
@@ -60,5 +60,5 @@ A full list of supervised students is available on my <a href="/about#students">
 
 **Outreach & service.** I have coached for **DjangoGirls** (introducing women to programming) and **CoderDojo** (teaching children to code) over many years, tutored mathematics and the natural sciences, served as a **Guest Associate Editor** (Frontiers in Immunology), a **VLAIO evaluator**, and a **Student Research Competition judge at ICFP**. Earlier, I represented students on faculty and departmental councils at both KU Leuven and UHasselt.
 
-<a href="/research" class="btn btn-outline-primary mt-3">Read my research statement <i class="fas fa-angle-double-right"></i></a>
-<a href="/cv.pdf" class="btn btn-outline-primary mt-3">View full CV <i class="fas fa-angle-double-right"></i></a>
+<a href="/research" class="btn btn-outline-primary mt-3">Read my research statement &rarr;</a>
+<a href="/cv.pdf" class="btn btn-outline-primary mt-3">View full CV &rarr;</a>

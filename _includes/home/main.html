@@ -1,0 +1,60 @@
+<div class="wrap">
+  {% include site/nav.html %}
+
+  {% assign h = site.data.website.home %}
+  <header class="hero">
+    <div>
+      <h1 class="nm">{{ h.name_pre }}<mark>{{ h.name_mark }}</mark></h1>
+      <div class="roles">{% for r in h.roles %}<span class="r">{{ r }}</span>{% endfor %}</div>
+      <div class="pillars">{% for p in h.pillars %}<span>{{ p }}</span>{% endfor %}</div>
+      <p class="program">{{ h.program }}</p>
+      {% if h.status_label %}<div class="status-label">{{ h.status_label }}</div>{% endif %}
+      <div class="status">
+        {% for s in h.status %}<div class="srow"><span class="k">{{ s.key }}</span><span class="v">{{ s.value }}</span></div>{% endfor %}
+      </div>
+    </div>
+    <aside class="portrait">
+      <img src="{{ site.data.website.description.portrait_url | relative_url }}" alt="{{ site.data.website.description.title }}">
+      <div class="links">
+        {% for s in h.social %}<a href="{{ s.url }}"{% unless s.url contains 'mailto:' %} target="_blank" rel="noopener"{% endunless %} data-tip="{{ s.tip }}" aria-label="{{ s.tip }}">{% include site/icon.html name=s.icon %}</a>{% endfor %}
+      </div>
+    </aside>
+  </header>
+</div>
+
+<div class="ecg"><div class="wrap"><svg id="ecg" viewBox="0 0 1120 56" preserveAspectRatio="none" aria-hidden="true"></svg></div></div>
+
+<div class="wrap">
+  <section class="sec">
+    <div class="h"><span>{{ h.research_heading }}</span><a href="{{ h.research_link_url | relative_url }}">{{ h.research_link_text }} &rarr;</a></div>
+    <div class="grid">
+      {% for t in site.data.website.home.research_grid %}
+      <div class="card"><div class="dia">{% case forloop.index %}{% when 1 %}<svg viewBox="0 0 200 100">
+        <rect class="dl" x="14" y="26" width="50" height="50" rx="3"/><text x="80" y="56" font-family="Space Mono" font-size="14" fill="currentColor">=</text>
+        <rect class="dfs" x="104" y="18" width="26" height="26" rx="3"/><rect class="dl" x="104" y="18" width="26" height="26" rx="3"/>
+        <text x="138" y="40" font-family="Space Mono" font-size="13" fill="currentColor">+</text>
+        <rect class="dfs" x="150" y="40" width="26" height="26" rx="3"/><rect class="dl" x="150" y="40" width="26" height="26" rx="3"/>
+        <rect class="dfs" x="118" y="58" width="26" height="26" rx="3"/><rect class="dl" x="118" y="58" width="26" height="26" rx="3"/></svg>{% when 2 %}<svg viewBox="0 0 200 100">
+        <circle class="df" cx="100" cy="50" r="11"/><g class="dl"><line x1="100" y1="50" x2="34" y2="22"/><line x1="100" y1="50" x2="166" y2="22"/><line x1="100" y1="50" x2="34" y2="78"/><line x1="100" y1="50" x2="166" y2="78"/></g>
+        <g><rect class="dfs" x="18" y="12" width="32" height="20" rx="3"/><rect class="dl" x="18" y="12" width="32" height="20" rx="3"/><rect class="dfs" x="150" y="12" width="32" height="20" rx="3"/><rect class="dl" x="150" y="12" width="32" height="20" rx="3"/><rect class="dfs" x="18" y="68" width="32" height="20" rx="3"/><rect class="dl" x="18" y="68" width="32" height="20" rx="3"/><rect class="dfs" x="150" y="68" width="32" height="20" rx="3"/><rect class="dl" x="150" y="68" width="32" height="20" rx="3"/></g></svg>{% when 3 %}<svg viewBox="0 0 200 100">
+        <rect class="dfs" x="20" y="22" width="64" height="40" rx="4"/><rect class="dl" x="20" y="22" width="64" height="40" rx="4"/>
+        <rect class="dfs" x="32" y="34" width="64" height="40" rx="4"/><rect class="dl" x="32" y="34" width="64" height="40" rx="4"/>
+        <rect class="dfs" x="44" y="46" width="64" height="40" rx="4"/><rect class="dl" x="44" y="46" width="64" height="40" rx="4"/>
+        <line class="dl" x1="116" y1="58" x2="146" y2="58"/><path class="dl" d="M140 53 L146 58 L140 63"/><circle class="dl" cx="170" cy="58" r="15"/><circle class="df" cx="170" cy="58" r="5"/></svg>{% when 4 %}<svg viewBox="0 0 200 100">
+        <g class="df"><circle cx="22" cy="28" r="3"/><circle cx="40" cy="28" r="3"/><circle cx="58" cy="28" r="3"/><circle cx="22" cy="50" r="3"/><circle cx="40" cy="50" r="3"/><circle cx="58" cy="50" r="3"/><circle cx="22" cy="72" r="3"/><circle cx="40" cy="72" r="3"/><circle cx="58" cy="72" r="3"/></g>
+        <line class="dl" x1="74" y1="50" x2="90" y2="50"/><path class="dl" d="M85 45 L90 50 L85 55"/><path class="dl" d="M98 50 L116 50 L122 32 L130 70 L138 50 L160 50 L166 40 L172 50 L186 50"/></svg>{% endcase %}</div>
+        <div class="bd"><h3><span class="n">0{{ forloop.index }}</span> {{ t.title }}</h3>
+          <p>{{ t.desc }}</p>
+          <div class="meta">{{ t.meta }}</div></div></div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="sec cta">
+    <div class="h"><span>{{ h.contact_heading }}</span></div>
+    <p class="cta-text">{{ h.contact_text }}</p>
+    <a class="btn" href="mailto:{{ h.contact_email }}">{% include site/icon.html name='email' %} {{ h.contact_email }}</a>
+  </section>
+
+  {% include site/footer.html %}
+</div>

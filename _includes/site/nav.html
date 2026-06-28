@@ -1,0 +1,7 @@
+<nav>
+  <a class="brand" href="{{ '/' | relative_url }}">{{ site.data.website.header.intro }}</a>
+  <span class="links">
+    {% for item in site.data.website.header.navigation %}{% unless item.name == 'Home' or item.name == 'About' %}<a href="{{ item.url | relative_url }}"{% if item.name == page.navbar_name %} class="active"{% endif %}>{{ item.name }}</a>{% endunless %}{% endfor %}
+    <button class="theme-toggle" type="button" aria-label="Toggle theme">{% include site/icon.html name='theme' %}</button>
+  </span>
+</nav>
