@@ -125,6 +125,7 @@ papers-in-preparation:
           order: senior
           url: ""
           pub_pre: "Submitted to "
+          pub_post: '(Under review)'
           book: "Artificial Intelligence in Medicine (6.2 IF)"
           pub_date: 2026
         # - authors: Dries Cornelissen, Axel Faes
