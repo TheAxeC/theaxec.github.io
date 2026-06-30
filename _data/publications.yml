@@ -7,7 +7,7 @@ papers-in-preparation:
           program: [federated]
           url: ""
           pub_pre: "Submitted to "
-          pub_post: '(In preparation)'
+          pub_post: '(Under Review)'
           book: "Journal of Medical Internet Research (JMIR)"
           pub_date: 2026
           abstract: ""
@@ -108,6 +108,7 @@ papers-in-preparation:
           url: ""
           order: senior
           pub_pre: "Submitted to "
+          pub_post: '(Under review)'
           book: "Biomedical Signal Processing and Control (4.9 IF)"
           pub_date: 2026
         - authors: Ward Ceyssens, Axel Faes
