@@ -60,7 +60,7 @@ class IndustryGenerate:
         personal["photo_loc"] = "../../"
 
         data = {"personal": personal}
-        for key in ("summary", "skills", "experience", "projects", "education", "awards"):
+        for key in ("summary", "skills", "experience", "projects", "education", "teaching", "awards"):
             if key in prof:
                 data[key] = prof[key]
 

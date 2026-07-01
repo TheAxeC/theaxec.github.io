@@ -65,6 +65,7 @@ if 'homepage' in links: emit_tex('\\homepage{'); emit(links['homepage']); emit_t
 \input{cv/experience.tex}
 \input{cv/projects.tex}
 \input{cv/education.tex}
+\input{cv/teaching.tex}
 \input{cv/awards.tex}
 
 \end{document}

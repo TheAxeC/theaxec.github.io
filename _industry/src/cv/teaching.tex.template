@@ -1,0 +1,23 @@
+{%
+if ('teaching' in data) and (not compact):
+  emit_tex('\\cvsection{')
+  emit(data['teaching']['title'])
+  emit_tex('}\n\n\\begin{cventries}\n')
+  for i in data['teaching']['content']:
+    emit_tex('\\cventry')
+    emit_braces(i['location'])
+    emit_braces(i['title'])
+    emit_braces('')
+    emit_braces(i['duration'])
+    emit_tex('\n{')
+    emit_tex('\\begin{cvitems}')
+    for item in i['about'].split('\n'):
+      if not item.strip(): continue
+      emit_tex('\\item ')
+      emit(item.strip())
+      emit_tex('\n')
+    emit_tex('\\end{cvitems}')
+    emit_tex('\n}')
+    emit('\n\n')
+  emit_tex('\\end{cventries}\n')
+%}
