@@ -370,3 +370,252 @@ profiles:
 
         I'm based in the Netherlands and an EU citizen, available without visa sponsorship. I'd
         welcome the opportunity to discuss how my background could contribute to your team.
+
+  # ===========================================================================
+  # ENGINE  -- Engine Programmer, Larian Studios
+  # ===========================================================================
+  engine:
+    titles:
+      - Engine & Systems Programmer
+      - C++ | Runtime | Performance
+      - Compilers, VMs & Game Tech
+
+    summary:
+      title: Profile
+      text: |
+        Systems and C++ engineer at heart. I designed and maintain Cardinal, a C++20 virtual
+        machine and runtime with its own bytecode compiler, fiber-based concurrency and a clean
+        embedding API. Alongside that, eight years of research have meant writing performant,
+        GPU-accelerated, multithreaded code over very large datasets, and profiling it to hit real
+        runtime and memory targets. Trained as a computer-science engineer (ir.) with a
+        compiler / programming-languages focus (ACM SIGPLAN and ICFP research-competition medals)
+        and a former game-dev competitor (2nd place, Belgian Game Development Championship). I care
+        about robust, profiled, maintainable low-level code, and I want to build engines full-time.
+      text_compact: |
+        Systems and C++ engineer: author of Cardinal, a C++20 virtual machine and runtime (bytecode
+        compiler, fiber concurrency, embedding API), plus eight years writing performant,
+        GPU-accelerated, multithreaded code over very large datasets. Computer-science engineer
+        (ir.) with a compiler / PL focus (ACM SIGPLAN and ICFP medals) and a former game-dev
+        competitor (2nd place, Belgian Game Development Championship). I want to build engines.
+
+    skills:
+      title: Skills
+      content:
+        - category: Languages & Systems
+          items: "C++20 (virtual machine, bytecode compiler, runtime, memory management, language embedding); C; Python; systems and compiler design; low-level reasoning about data layout."
+        - category: Performance & Optimisation
+          items: "Profiling and optimisation of compute-heavy code; GPU programming (CUDA / PyTorch) and GPU-accelerated pipelines; large-scale numerical / tensor computation; HPC / SLURM clusters."
+        - category: Concurrency & Multithreading
+          items: "Fiber-based concurrency and cooperative scheduling; parallel and distributed pipelines; reasoning about throughput, contention and memory pressure."
+        - category: Game & Real-Time
+          items: "Unity; room-scale / AR gameplay; OptiTrack motion capture; real-time device control and physical computing in C++; data- and script-driven runtime design."
+        - category: Tools & Practice
+          items: "Git and code review; testing, documentation and reproducible builds; data-driven / config-driven development; mentoring and technical leadership."
+        - category: Foundations
+          items: "Compilers, programming-language theory, type systems, algorithms; M.Sc. Computer Science Engineering (ir.), Cum Laude."
+          compact: false   # one-pager: folded into the profile line
+
+    experience:
+      title: Experience
+      content:
+        - title: "Postdoctoral Researcher - AI & High-Performance Computing"
+          location: University of Twente / Medisch Spectrum Twente
+          duration: Jan 2026 - Present
+          about: |
+            Design and optimise performance-critical pipelines over large multi-modal datasets, owning the full path from raw data to validated result.
+            Write GPU-accelerated (CUDA / PyTorch) code and profile it to hit runtime and memory targets on shared HPC clusters.
+          about_compact: |
+            Design and optimise performance-critical, GPU-accelerated (CUDA / PyTorch) pipelines over large datasets, profiling to hit runtime and memory targets on HPC clusters.
+        - title: "Machine-Learning Lead & Scientific Coordinator"
+          location: UHasselt (Flanders AI Research Program)
+          duration: Jan 2024 - Jan 2026
+          about: |
+            Led a ~10-person, 4-institution engineering programme; turned open-ended goals into concrete, measurable deliverables.
+            Built distributed, multithreaded data pipelines over heterogeneous systems; owned reliability and data quality across sites.
+            Set code-review, Git and reproducibility standards; mentored and supported junior engineers and students.
+          about_compact: |
+            Led a ~10-person, 4-institution programme; built distributed, multithreaded pipelines, set code-review / Git / reproducibility standards, and mentored junior engineers.
+        - title: "Postdoctoral Researcher - Deep Learning & Tensor Methods"
+          location: KU Leuven
+          duration: 2023 - 2024
+          about: |
+            Built GPU deep-learning and tensor-decomposition models for high-density neural time-series (millions of samples per session).
+            Implemented block-term tensor decomposition and cross-subject generalisation; profiled and optimised compute- and memory-bound routines.
+          about_compact: |
+            Built GPU deep-learning and tensor-decomposition models for high-density time-series; implemented block-term decomposition and optimised compute- and memory-bound routines.
+        - title: "PhD Researcher - High-Performance Numerical & Systems Code"
+          location: KU Leuven
+          duration: 2018 - 2023
+          about: |
+            Wrote high-performance numerical and tensor code for very large time-series; designed reproducible, version-controlled pipelines.
+            Supervised MSc theses on engine-adjacent systems work: single-pass compiler optimisation and a redesign of VM bytecode for faster execution and lower memory use.
+          about_compact: |
+            Wrote and optimised high-performance numerical / tensor code; supervised MSc theses on single-pass compiler optimisation and VM bytecode redesign for speed and memory.
+        - title: "Research Stay - Real-Time C++ for Robotic Control"
+          location: Idrogenet Srl (Gloreha), Italy
+          duration: 2022 - 2023
+          about: |
+            Developed custom C++ software to control a robotic hand-rehabilitation exoskeleton (R-TOUCH PRO Sinfonia), including real-time device I/O.
+          about_compact: |
+            Developed custom C++ software for real-time control of a robotic hand-rehabilitation exoskeleton (Gloreha R-TOUCH PRO Sinfonia).
+        - title: "Research Intern - Real-Time C++, Motion Capture & Web Performance"
+          location: UHasselt (Expertise Centre for Digital Media)
+          duration: 2015 - 2016
+          about: |
+            Built real-time C++ software interfacing a custom-built drone, human motion and virtual objects through OptiTrack motion capture.
+            Profiled and compared HTTP/1.1, HTTPS and HTTP/2 performance in a follow-up web-performance research internship.
+          about_compact: |
+            Built real-time C++ software interfacing a custom drone, motion and virtual objects via OptiTrack; later profiled HTTP/1.1 vs HTTP/2 performance.
+
+    projects:
+      title: Selected Projects
+      content:
+        - role: Lead Developer
+          title: "Cardinal - C++20 virtual machine & language platform"
+          url: https://github.com/TheAxeC/Cardinal
+          duration: 2015 - Present
+          about: |
+            A from-scratch C++20 virtual machine and runtime: bytecode compiler, fiber-based concurrency, managed memory and a clean C embedding API.
+            Built for clarity and performance, and used as a platform for MSc theses on compiler optimisation and bytecode efficiency.
+        - role: Researcher / Developer
+          title: "Household Survival - room-scale game with everyday objects as controllers (Unity, OptiTrack)"
+          url: https://www.youtube.com/watch?v=Q4_rK2upGEY
+          duration: 2015 - 2016
+          about: |
+            A room-scale game turning brooms, fans and vacuums into motion-tracked controllers; 2nd place at the Belgian Game Development Championship and still used as a university teaching example.
+        - role: Supervisor
+          title: "Wren VM optimisation - bytecode redesign & single-pass compiler tuning (MSc research)"
+          url: https://github.com/TheAxeC/Cardinal
+          duration: 2025 - Present
+          compact: false   # one-pager: dropped (covered in Experience)
+          about: |
+            Supervised MSc research redesigning VM bytecode for faster execution and lower memory footprint, and optimising a single-pass compiler, directly on runtime performance and memory.
+        - role: Lead Developer
+          title: "Block-Term Tensor Regression (BTTR) - open-source library"
+          url: https://github.com/TheAxeC/block-term-tensor-regression
+          duration: 2022 - Present
+          compact: false   # one-pager: dropped
+          about: |
+            An open-source library for tensor-based regression: reproducible, documented, and actively maintained for research use.
+        - role: Lead Developer
+          title: "iCal for KU Leuven - schedule generator (Node.js)"
+          url: https://github.com/TheAxeC/ical-kuleuven
+          duration: 2016 - Present
+          compact: false   # one-pager: dropped (Cardinal + Household Survival carry the story)
+          about: |
+            A small product shipped to real users: generates calendar feeds for KU Leuven courses, with 1000+ active users.
+
+    education:
+      title: Education
+      content:
+        - title: "PhD, Computational Neuroscience"
+          about: Large-scale time-series & tensor computation
+          location: KU Leuven
+          duration: 2018 - 2023
+        - title: "M.Sc. Artificial Intelligence (Cum Laude)"
+          about: Engineering & Computer Science
+          location: KU Leuven
+          duration: 2017 - 2019
+        - title: "M.Sc. Computer Science Engineering (ir., Cum Laude)"
+          about: AI & theoretical CS; thesis on algebraic subtyping (type systems / compilers)
+          location: KU Leuven
+          duration: 2016 - 2018
+        - title: "Honours Programme, Faculty of Engineering (Research Track)"
+          about: Compiler research - efficient compilation of algebraic effect handlers
+          location: KU Leuven
+          duration: 2016 - 2018
+        - title: "B.Sc. Computer Science (Magna Cum Laude)"
+          about: Physics & general engineering courses
+          location: UHasselt
+          duration: 2013 - 2016
+          compact: false   # one-pager: dropped
+
+    teaching:
+      title: Teaching & Mentoring
+      content:
+        - title: "Lecturer & Guest Lecturer"
+          location: UHasselt / KU Leuven
+          duration: 2022 - Present
+          about: |
+            Coordinating lecturer in Bioinformatics (UHasselt) and lecturer in Data Science in Healthcare and Advanced Topics in Data Science.
+            Guest lecturer in Brain-Computer Interfacing (KU Leuven, 2022 - 2025).
+        - title: "Student Supervision"
+          location: KU Leuven / UHasselt
+          duration: 2020 - Present
+          about: |
+            Supervised 15+ MSc and PhD students, including theses on compiler optimisation and VM bytecode redesign, tensor methods, and federated learning.
+        - title: "Programming Coach & Outreach"
+          location: CoderDojo, DjangoGirls
+          duration: 2014 - 2025
+          about: |
+            Taught programming to children and adults (Scratch, Python, Lego Mindstorms) and coached beginners toward confident, independent coding.
+
+    awards:
+      title: Awards & Highlights
+      content:
+        - award: "2nd place - Belgian Game Development Championship"
+          event: Game development competition
+          location: Brussels
+          date: "2016"
+        - award: "3rd place - ACM SIGPLAN Student Research Competition (ICFP)"
+          event: Programming languages & compilers
+          location: Oxford, UK
+          date: "2017"
+        - award: "3rd place - ACM CHI Student Design Competition"
+          event: Everyday objects as game controllers
+          location: San Jose, USA
+          date: "2016"
+        - award: "Finalist - Cyber Security Challenge"
+          event: Capture-the-Flag, low-level & systems security
+          location: Brussels
+          date: "2018"
+          compact: false   # one-pager: dropped
+        - award: "FWO Fundamental Research Grant"
+          event: Research Foundation Flanders
+          location: Belgium
+          date: "2018"
+          compact: false   # one-pager: dropped
+        - award: "Bachelor Award in Computer Science"
+          event: Examination committee distinction
+          location: UHasselt
+          date: "2016"
+          compact: false   # one-pager: dropped
+        - award: "IELTS Academic - 8.0 / 9.0"
+          event: English proficiency
+          location: ""
+          date: "2016"
+          compact: false   # one-pager: dropped
+
+    letter:
+      recipient_name: "Larian Studios - Engine Team"
+      recipient_address: "Ghent, Belgium"
+      date: "July 2026"
+      title: "Application - Engine Programmer"
+      opening: "Dear Hiring Team,"
+      closing: "Kind regards,"
+      body: |
+        I'm applying for the Engine Programmer role. I'll be direct about where I'm coming from: I'm
+        a C++ systems engineer who spends his research career writing performant, multithreaded,
+        GPU-accelerated code, and who builds engines and runtimes for the love of it. In my own
+        time I designed and maintain Cardinal, a C++20 virtual machine with its own bytecode
+        compiler, fiber-based concurrency and an embedding API, the kind of low-level, performance-
+        and memory-sensitive work an engine lives on. I want to do that full-time, on real games.
+
+        The games matter to me as a player, Baldur's Gate 3 and Divinity: Original Sin 2 among
+        them, and game development is where I started: my team took second place at the Belgian
+        Game Development Championship for a room-scale game built in Unity with motion-tracked
+        physical controllers, and my earliest engineering work was real-time C++ against OptiTrack
+        motion capture. I trained as a computer-science engineer with a compiler and
+        programming-languages focus (ACM SIGPLAN and ICFP research-competition medals), so bytecode,
+        runtimes, data-driven systems and profiling are native territory, not a stretch.
+
+        I'll be honest about the gaps too: I haven't shipped a AAA title, and my hands-on time with
+        modern graphics APIs and console SDKs is limited. What I bring is strong C++, genuine
+        systems depth, a habit of profiling and optimising toward hard targets, and the ability to
+        get productive fast in an unfamiliar codebase, plus real enthusiasm for going deep on
+        engine and animation systems. I mentor naturally and I like collaborating, iterating and
+        experimenting on a feature until it's right.
+
+        On the practical side, the Ghent studio suits me well: I'm Belgian, I studied and worked in
+        Belgium for years, so being on-site is a return home rather than a relocation. I'd welcome
+        the chance to talk about how I could contribute to Larian's engine team.

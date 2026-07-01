@@ -3,7 +3,7 @@ _data/personal.yml
 .claude/
 skills-lock.json
 .agents/
-
+*.pyc
 
 .DS_Store
 Gemfile.lock
