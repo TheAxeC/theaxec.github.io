@@ -7,10 +7,12 @@
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
   --paper:#F0F3F1;--surface:#FFFFFF;--ink:#121C19;--muted:#566761;--line:#DAE3DF;--soft:#E5EDE9;--accent:#0C594E;--accent-soft:#D6E7E1;--code-bg:#0E1916;
+  --pill-tensor:#0C594E;--pill-fed:#2F5E86;--pill-hcc:#A65A34;--pill-none:#8C8C8C;
   --disp:"Fraunces","Iowan Old Style",Georgia,serif;--mono:"Space Mono",monospace;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 :root[data-theme="dark"]{
   --paper:#0B1311;--surface:#11201C;--ink:#E6EFEB;--muted:#8BA39B;--line:#213029;--soft:#152420;--accent:#37C3AC;--accent-soft:rgba(55,195,172,.16);--code-bg:#091210;
+  --pill-tensor:#37C3AC;--pill-fed:#6FA8D6;--pill-hcc:#E09A6B;--pill-none:#8E8E8E;
 }
 :root{color-scheme:light}
 :root[data-theme="dark"]{color-scheme:dark}
@@ -156,7 +158,7 @@ nav .links a.active{color:var(--ink)}
 
 @media print{
   nav,footer,.theme-toggle,.secnav,.btn,.ecg{display:none !important}
-  :root{--paper:#fff;--surface:#fff;--ink:#000;--muted:#333;--line:#ccc;--accent:#000;--accent-soft:#eee}
+  :root{--paper:#fff;--surface:#fff;--ink:#000;--muted:#333;--line:#ccc;--accent:#000;--accent-soft:#eee;--pill-tensor:#000;--pill-fed:#000;--pill-hcc:#000;--pill-none:#555}
   body{font-size:10.5pt}
   .pubpage,.page{max-width:none;padding-top:0}
   .listlayout{grid-template-columns:1fr;gap:0}
@@ -219,6 +221,10 @@ nav .links a.active{color:var(--ink)}
 .pdia svg{width:100%;height:100%}
 .pdia-label{font-family:var(--mono);font-size:.62rem;text-transform:uppercase;letter-spacing:.04em;color:var(--accent);font-weight:700;margin-top:.5rem;line-height:1.35}
 .pdia-tags{font-family:var(--mono);font-size:.6rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-top:.25rem;line-height:1.45}
+.pcol{--accent:var(--pill-none)}
+.pcol-tensor{--accent:var(--pill-tensor)}
+.pcol-federated{--accent:var(--pill-fed)}
+.pcol-hcc{--accent:var(--pill-hcc)}
 .pbody{min-width:0}
 .pabs{margin-top:.65rem}
 .pabs>summary{font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:.45rem}

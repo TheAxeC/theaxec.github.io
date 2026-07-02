@@ -16,7 +16,7 @@ keywords: "Axel Faes research, self-explaining AI, interpretable machine learnin
   <h2 class="psec-h">Research themes</h2>
   <p>Three lines of work converge on the self-explaining hospital. What ties them together is a methodological signature: <strong>multiway (block-term tensor) models whose structure <em>is</em> the explanation</strong>, rather than something reconstructed after the fact.</p>
 
-  <article class="stmt-theme">
+  <article class="stmt-theme pcol pcol-tensor">
     <div class="pdia">{% include site/program-diagram.html key='tensor' %}</div>
     <div>
       <h3><span class="n">01</span> Interpretable, self-explaining models</h3>
@@ -24,7 +24,7 @@ keywords: "Axel Faes research, self-explaining AI, interpretable machine learnin
     </div>
   </article>
 
-  <article class="stmt-theme">
+  <article class="stmt-theme pcol pcol-federated">
     <div class="pdia">{% include site/program-diagram.html key='federated' %}</div>
     <div>
       <h3><span class="n">02</span> Federated learning that travels between institutions</h3>
@@ -32,7 +32,7 @@ keywords: "Axel Faes research, self-explaining AI, interpretable machine learnin
     </div>
   </article>
 
-  <article class="stmt-theme">
+  <article class="stmt-theme pcol pcol-hcc">
     <div class="pdia">{% include site/program-diagram.html key='hcc' %}</div>
     <div>
       <h3><span class="n">03</span> Multi-modal precision oncology</h3>
@@ -40,7 +40,7 @@ keywords: "Axel Faes research, self-explaining AI, interpretable machine learnin
     </div>
   </article>
 
-  <div class="stmt-origin">
+  <div class="stmt-origin pcol">
     <div class="pdia">{% include site/program-diagram.html key='eeg' %}</div>
     <div>
       <h3>Where the methods came from</h3>
