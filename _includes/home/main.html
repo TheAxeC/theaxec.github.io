@@ -29,7 +29,7 @@
     <div class="h"><span>{{ h.research_heading }}</span><a href="{{ h.research_link_url | relative_url }}">{{ h.research_link_text }} &rarr;</a></div>
     <div class="grid">
       {% for t in site.data.website.home.research_grid %}
-      <div class="card"><div class="dia">{% case forloop.index %}{% when 1 %}<svg viewBox="0 0 200 100">
+      <div class="card pcol{% case forloop.index %}{% when 1 %} pcol-tensor{% when 2 %} pcol-federated{% when 3 %} pcol-hcc{% endcase %}"><div class="dia">{% case forloop.index %}{% when 1 %}<svg viewBox="0 0 200 100">
         <rect class="dl" x="14" y="26" width="50" height="50" rx="3"/><text x="80" y="56" font-family="Space Mono" font-size="14" fill="currentColor">=</text>
         <rect class="dfs" x="104" y="18" width="26" height="26" rx="3"/><rect class="dl" x="104" y="18" width="26" height="26" rx="3"/>
         <text x="138" y="40" font-family="Space Mono" font-size="13" fill="currentColor">+</text>

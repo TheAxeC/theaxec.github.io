@@ -18,9 +18,10 @@
       {% for item in coll.papers %}{% unless item.hide %}
       {% assign i = i | plus: 1 %}
       <article class="pitem">
-        <div class="pdiacol">
+        {% assign prim = item.program | first %}
+        <div class="pdiacol{% if prim %} pcol pcol-{{ prim }}{% endif %}">
           <div class="pidx">[{{ i }}]</div>
-          {% if item.program %}{% assign prim = item.program | first %}
+          {% if item.program %}
           <div class="pdia" title="Research line: {{ programs[prim] }}">{% include site/program-diagram.html key=prim %}</div>
           <div class="pdia-label">{{ programs[prim] }}</div>
           {% if item.program.size > 1 %}<div class="pdia-tags">{% for p in item.program offset:1 %}+ {{ programs[p] }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</div>{% endif %}
