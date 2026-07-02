@@ -50,9 +50,9 @@ footer:
 #########################
 # Research-line labels (keys match programs.yml in the research hub) - used for the publication glyphs.
 programs:
-  tensor: 'Structured Tensor'
-  federated: 'Federated Learning'
-  hcc: 'HCC Imaging'
+  tensor: 'Interpretable models'
+  federated: 'Federated learning'
+  hcc: 'Precision oncology'
   ecg: 'ECG / Cardiology'
   eeg: 'EEG / BCI'
   prognosis: 'Clinical Prognosis'
@@ -104,6 +104,7 @@ home:
   research_link_url: '/research'
   # Intro paragraphs for the listing pages
   publications_intro: 'Peer-reviewed journal and conference papers, preprints, theses, and other writing. Author order as published; my name in bold.'
+  publications_icon_note: "Each paper's icon marks the research line it belongs to: interpretable tensor models, federated learning, or precision oncology. Earlier neural-decoding (EEG/BCI) and student work carry their own markers."
   about_intro: 'Experience, supervision, education, projects, and recognition - the full record.'
   # Contact / collaboration
   contact_email: 'axel.faes@utwente.nl'
