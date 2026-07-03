@@ -97,9 +97,9 @@ papers-in-preparation:
           order: senior
           url: ""
           pub_pre: "Submitted to "
-          pub_post: '(In preparation)'
+          pub_post: '(Under review)'
           book: "Neurocomputing (6.7 IF)"
-          pub_date: 2025
+          pub_date: 2026
         - authors: Dries Cornelissen, Axel Faes
           title: "An interpretable tensor model for identifying atrial fibrillation in sinus-rhythm ECG: block-term tensor regression on PTB-XL, benchmarked against deep and foundation models"
           program: [tensor]
