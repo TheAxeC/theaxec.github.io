@@ -107,16 +107,16 @@ papers-in-preparation:
           url: ""
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
-          book: "Artificial Intelligence in Medicine (6.2 IF)"
+          book: "Biomedical Signal Processing and Control (4.9 IF)"
           pub_date: 2026
         - authors: Meseret Assefa Kerga, Axel Faes
           title: "From Classification to Competing Risks: A Critical Re-Examination of a Widely-Used Cirrhosis Outcome Benchmark"
           program: [prognosis]
           order: senior
           url: ""
-          pub_pre: "Submitted to "
-          pub_post: '(Under review)'
-          book: "Journal of Clinical Epidemiology (5.2 IF)"
+          pub_pre: ""
+          pub_post: '(In preparation)'
+          book: "Statistics in Medicine"
           pub_date: 2026
 journal:
     title: International Journal Papers
@@ -399,13 +399,3 @@ posters:
         pub_date: 2017
         url: "/publications/posters/icfp-2017-src.pdf"
         book: International Conference on Functional Programming 2017 Student Research Competition
-abandoned-papers:
-    title: Abandoned Papers
-    papers:
-      - authors: Anh Phuong Do, Axel Faes, et al.
-        title: Individual Reference Intervals for Clinical Event Prediction
-        url: ""
-        book: "IEEE Journal of Biomedical and Health Informatics (6.7 IF)"
-        pub_date: 2024
-        abstract: >-
-          Objective: To develop a method for predicting clinical events using individual reference intervals (IRIs) derived from patient data. Approach: We propose a novel approach that combines individual IRIs with machine learning techniques to predict clinical events. The method is evaluated on a dataset of patient data, demonstrating its effectiveness in predicting events such as hospital readmissions and disease progression. Main results: The proposed method outperforms traditional prediction methods, achieving higher accuracy and better generalization to unseen data. Significance: This work highlights the potential of using individual IRIs for clinical event prediction, paving the way for personalized medicine and improved patient outcomes.
