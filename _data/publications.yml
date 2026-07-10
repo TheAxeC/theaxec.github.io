@@ -118,6 +118,42 @@ papers-in-preparation:
           pub_post: '(In preparation)'
           book: "Statistics in Medicine"
           pub_date: 2026
+        # - authors: Axel Faes, Liesbet Peeters
+        #   title: "An Interpretable Block-Term Tensor Network for Incident Atrial-Fibrillation Prediction from the Sinus-Rhythm 12-Lead ECG and Clinical Risk Factors"
+        #   program: [tensor, ecg]
+        #   order: "first"
+        #   url: ""
+        #   pub_pre: ""
+        #   pub_post: '(In preparation)'
+        #   book: "Artificial Intelligence in Medicine (7.8 IF)"
+        #   pub_date: 2026
+        # - authors: Axel Faes*, Jakob Nolte*, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
+        #   title: "HCCNet: A Self-Supervised CNN-Transformer for Disease Prognosis from Longitudinal 3D MRI, with a Case Study on Hepatocellular Carcinoma"
+        #   program: [hcc]
+        #   order: "first"
+        #   url: ""
+        #   pub_pre: ""
+        #   pub_post: '(In preparation)'
+        #   book: "Intelligent Medicine (6.9 IF)"
+        #   pub_date: 2026
+        # - authors: Axel Faes, Maryam Amir Haeri
+        #   title: "Block-Term Spectral Experts Generalize Better on Diverse Multi-PDE Operators"
+        #   program: [tensor]
+        #   order: "first"
+        #   url: ""
+        #   pub_pre: ""
+        #   pub_post: '(In preparation)'
+        #   book: "AAAI Conference on Artificial Intelligence (AAAI 2027)"
+        #   pub_date: 2026
+        # - authors: Axel Faes, Maryam Amir Haeri
+        #   title: "A Generalization Separation for Block-Term Spectral Operators"
+        #   program: [tensor]
+        #   order: "first"
+        #   url: ""
+        #   pub_pre: ""
+        #   pub_post: '(In preparation)'
+        #   book: "Journal of Machine Learning Research (6.7 IF)"
+        #   pub_date: 2026
 journal:
     title: International Journal Papers
     papers:
