@@ -411,7 +411,7 @@ abstracts:
         pub_date: 2016
         title: "Purpose-centric appropriation of everyday objects as game controllers."
         program: [student-research]
-        url: "/publications/abstracts/purpose-centric-sgc.pdf"
+        url: "/publications/abstracts/purpose-centric-lbw.pdf"
         book: "CHI EA '16: Extended Abstracts of the SIGCHI Conference on Human Factors in Computing Systems. Student Game Competition, pp. 2744-2750"
       - authors: Brent Berghmans*, Axel Faes*, Matthijs Kaminski*, Kashyap Todi 
         pub_date: 2016
@@ -428,7 +428,7 @@ posters:
         pub_date: 2026
         order: "first"
         book: "XAI-NL Meet-up"
-        url: ""
+        url: "/publications/posters/xai-2026.pdf"
       - authors: Axel Faes, Tom Schrijvers
         title: "Towards a Core Language with Row-Based Effects for Optimised Compilation"
         program: [student-research]
