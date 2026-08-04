@@ -241,6 +241,16 @@ journal:
 conference:
     title: Conference Papers
     papers:
+        - authors: Axel Faes
+          title: "Transparent and Robust: Interpretable Models Degrade More Gracefully than Foundation Models in Mission-Critical Decision Pipelines"
+          program: [ecg, prognosis]
+          book: "XAI-EADM Workshop at IEEE CBI/EDOC 2026, Springer LNBIP"
+          pub_date: 2026
+          url: ""
+          order: "first"
+          pub_post: '(Accepted)'
+          abstract: >-
+            Enterprises deploying machine learning in high-stakes pipelines often default to opaque foundation models, assuming larger models are more robust. We test that assumption for one-year mortality prediction from a single 12-lead electrocardiogram. A transparent gradient-boosted model over 165 named ECG features plus age is compared against six open ECG foundation models under a uniform classifier head, so the comparison isolates the representation. We evaluate on MIMIC-IV-ECG and CODE-15, under six physiologically motivated corruptions at three severities, and across sites in both directions. On clean data the transparent model reaches parity with the best foundation model (0.757 vs 0.761 AUROC on MIMIC; 0.804 vs 0.812 on CODE-15). Under additive noise it degrades more gracefully: on severe EMG noise the best foundation model falls from 0.812 to 0.614 on CODE-15 while the transparent model holds at 0.754, and its cross-site advantage widens under degradation. Two settings favour the foundation models: whole-lead dropout, and the CODE-15 to MIMIC transport direction. For high-stakes pipelines of this class, the model an overseer can read is also the one that holds up as the signal degrades and crosses sites, so under the AI Act's high-risk regime transparency here earns robustness rather than costing it.
         - authors: Axel Faes, Eva Calvo Merino, Anais Van Hoylandt, Elina Keirse, Tom Theys, Marc M. Van Hulle
           title: Finger abduction trajectory prediction from high-density ECoG
           program: [tensor]
