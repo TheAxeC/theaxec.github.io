@@ -57,7 +57,7 @@ if 'homepage' in links: emit_tex('\\homepage{'); emit(links['homepage']); emit_t
 
 \makecvfooter
   {}
-  { {% emit(data['personal']['first-name']+" "+data['personal']['last-name']) %}~~~·~~~Curriculum Vitae}
+  { {% emit(data['personal']['first-name']+" "+data['personal']['last-name']) %}~~~|~~~Curriculum Vitae}
   {}
 
 \input{cv/summary.tex}
