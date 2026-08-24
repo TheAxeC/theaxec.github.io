@@ -26,7 +26,7 @@ The fourth point is the one people forget. OOP as practised in systems languages
 It also helps to remember what a method is. Under every object system, a method desugars to a function with the receiver passed as the first argument:
 
 ```text
-obj.damage(10)   ≡   damage(obj, 10)
+obj.damage(10)  ->  damage(obj, 10)
 ```
 
 A method is not a new kind of computation. It is a binding decision: the same function, attached to a type, selected by dispatch. This becomes relevant again below.
@@ -47,14 +47,14 @@ So a more precise characterisation is that ECS is imperative programming over a 
 
 Line the two paradigms up and apply OOP's moves to the ECS column:
 
-| procedural | → OOP | ECS | → trait-actor |
+| procedural | -> OOP | ECS | -> trait-actor |
 | --- | --- | --- | --- |
 | raw variables | instance fields | components | trait fields |
 | structs | classes | prefabs | actors |
 | a struct instance | an object | an entity's component set | a spawned actor instance |
 | free functions | methods | systems | methods on traits/actors |
 | function call | virtual call | system tick over a query | dispatch on the runtime actor |
-| — | inheritance chains | — | actor `extends` chains |
+| - | inheritance chains | - | actor `extends` chains |
 | free functions survive | | systems survive | |
 
 Every move from the first transition reappears in the second: behaviour bound to type, runtime dispatch, inheritance, and, if the design is any good, nothing removed.
@@ -94,8 +94,8 @@ Analogies between paradigms are easy to make. This one holds at the level of imp
 Recall that a method is a function with the receiver as argument zero. In Rite, a *scheduled* method, one that runs every frame over a type's instances, is not merely analogous to a system. It compiles to one: the method body becomes a system whose query matches the actor's instances, with `self` as the per-row entity binding. The desugaring has the same shape in both paradigm shifts:
 
 ```text
-OOP:   obj.m(x)                  ≡   m(obj, x)              method = function + explicit receiver
-TAO:   (method m :every-frame …) ≡   defsystem + self row   scheduled method = system + explicit receiver
+OOP:   obj.m(x)                    ->  m(obj, x)             method = function + explicit receiver
+TAO:   (method m :every-frame ...) ->  defsystem + self row  scheduled method = system + explicit receiver
 ```
 
 In both cases the new construct is a view over the old one, a binding-and-dispatch layer over the same underlying computation. That is why, in both cases, the old tier can remain first-class with zero interop cost. C++ methods and free functions call each other freely because a method *is* a function. Rite methods and systems coexist on the same entity because a scheduled method *is* a system.
@@ -174,4 +174,4 @@ Until then: ECS is imperative programming over a relational data model, and trai
 
 ---
 
-*References: [ECS FAQ (Sander Mertens, author of flecs)](https://github.com/SanderMertens/ecs-faq) · [Entity component system, Wikipedia](https://en.wikipedia.org/wiki/Entity_component_system) · [Ungar & Smith, "Self: The Power of Simplicity", OOPSLA '87](https://dl.acm.org/doi/10.1145/38765.38828)*
+*References: [ECS FAQ (Sander Mertens, author of flecs)](https://github.com/SanderMertens/ecs-faq) | [Entity component system, Wikipedia](https://en.wikipedia.org/wiki/Entity_component_system) | [Ungar & Smith, "Self: The Power of Simplicity", OOPSLA '87](https://dl.acm.org/doi/10.1145/38765.38828)*

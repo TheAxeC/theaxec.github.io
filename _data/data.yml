@@ -380,7 +380,7 @@ projects:
     #   role: Developer
     #   min: true
     #   about: |
-    #     Showcase large-scale use of Internet of Things sensors
+    #     Large-scale use of Internet of Things sensors
 
     - title: ICAL parser for KU Leuven schedules
       url: https://github.com/TheAxeC/ical-kuleuven
