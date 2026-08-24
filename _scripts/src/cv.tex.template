@@ -84,7 +84,7 @@ for title in data['personal']['titles']:
 % Leave any of these blank if they are not needed
 \makecvfooter
   {} % \today
-  { {% emit(data['personal']['first-name']+" "+data['personal']['last-name']) %}~~~·~~~Curriculum Vitae}
+  { {% emit(data['personal']['first-name']+" "+data['personal']['last-name']) %}~~~|~~~Curriculum Vitae}
   {} % \thepage
  
 \input{cv/experience.tex}

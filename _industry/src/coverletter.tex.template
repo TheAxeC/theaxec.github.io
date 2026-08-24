@@ -45,7 +45,7 @@ if 'homepage' in links: emit_tex('\\homepage{'); emit(links['homepage']); emit_t
 
 \makecvfooter
   {}
-  { {% emit(data['personal']['first-name']+" "+data['personal']['last-name']) %}~~~·~~~Cover Letter}
+  { {% emit(data['personal']['first-name']+" "+data['personal']['last-name']) %}~~~|~~~Cover Letter}
   {}
 
 \vspace{4mm}

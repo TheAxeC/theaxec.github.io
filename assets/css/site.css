@@ -38,7 +38,7 @@ h1.nm{font-family:var(--disp);font-weight:600;font-size:4rem;line-height:.98;let
 .roles .r a{color:var(--ink);border-bottom:1px solid var(--accent-soft);transition:.15s}.roles .r a:hover{color:var(--accent);border-bottom-color:var(--accent)}
 .pillars{display:flex;flex-wrap:wrap;gap:.1rem .85rem;margin-bottom:1.3rem;align-items:baseline}
 .pillars span{font-family:var(--disp);font-style:italic;font-weight:500;font-size:1.15rem;color:var(--accent)}
-.pillars span:not(:last-child)::after{content:"·";margin-left:.85rem;color:var(--muted);font-style:normal}
+.pillars span:not(:last-child)::after{content:"|";margin-left:.85rem;color:var(--muted);font-style:normal}
 .program{font-size:1.16rem;max-width:46ch;line-height:1.45}.program b{font-weight:600;color:var(--accent)}
 .status-label{font-family:var(--disp);font-style:italic;font-size:1.02rem;color:var(--muted);margin-top:1.6rem}
 .status{margin-top:.55rem;border:1px solid var(--line);border-radius:12px;overflow:hidden;max-width:560px;background:var(--surface)}
