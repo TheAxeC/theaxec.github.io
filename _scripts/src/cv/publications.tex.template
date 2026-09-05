@@ -4,6 +4,7 @@
 types = [
           'journal',
           'conference',
+          'papers-in-review',
           'papers-in-preparation',
           'other-publications',
           'thesis',

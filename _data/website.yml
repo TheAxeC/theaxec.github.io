@@ -48,7 +48,7 @@ footer:
 #########################
 # Homepage data         #
 #########################
-# Research-line labels (keys match programs.yml in the research hub) - used for the publication glyphs.
+# Research-line labels used for the publication glyphs. tensor/federated/hcc/student-research/clinical-collab match programs.yml in the research hub; eeg/ecg/prognosis are website-only labels.
 programs:
   tensor: 'Interpretable models'
   federated: 'Federated learning'
