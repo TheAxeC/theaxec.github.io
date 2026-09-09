@@ -1,6 +1,6 @@
 {% assign section_order = "journal,conference,papers-in-review,papers-in-preparation,other-publications,thesis,abstracts,posters" | split: "," %}
 {% assign programs = site.data.website.programs %}
-{% assign paper_sections = "journal,conference,papers-in-review,papers-in-preparation,other-publications" | split: "," %}
+{% assign paper_sections = "journal,conference,papers-in-review,papers-in-preparation" | split: "," %}
 <h1>{{ page.title }}</h1>
 <p class="pub-intro">{{ site.data.website.home.publications_intro }}</p>
 {% if site.data.website.home.publications_icon_note %}<p class="pub-intro pub-iconnote">{{ site.data.website.home.publications_icon_note }}</p>{% endif %}
