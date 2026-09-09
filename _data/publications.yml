@@ -3,22 +3,13 @@ papers-in-review:
     title: Papers in Review
     papers:
         - authors: Ashkan Pirmani*, Ilse Vermeulen*, Goran Vinterhalter, Lotte Geys, Axel Faes, Muhammad Quamber Ali, Nishkala Sattanathan, Geert Vandeweyer, Yves Moreau, Liesbet M. Peeters
+          order: coauthor
           title: "Development and Design of FLKit: A Structured Onboarding Toolkit for Federated Learning in Health and Life Sciences"
           program: [federated]
           url: ""
           pub_pre: "Submitted to "
           pub_post: '(Under Review)'
           book: "Journal of Medical Internet Research (JMIR)"
-          pub_date: 2026
-          abstract: ""
-        - authors: Axel Faes, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
-          title: "Federate What Transfers: Component-Aware Federation of Self-Supervised Backbones for Longitudinal 3D MRI"
-          program: [hcc, federated]
-          url: ""
-          order: "first"
-          pub_pre: "Submitted to "
-          pub_post: '(Under review)'
-          book: "IEEE Conference on Federated Learning Technologies and Applications (IEEE FLTA 2026)"
           pub_date: 2026
           abstract: ""
         - authors: Valentina Pergher*, Axel Faes*, Yide Li, Marc M. Van Hulle
@@ -54,6 +45,9 @@ papers-in-review:
           pub_post: '(Under review)'
           book: "Neurocomputing"
           pub_date: 2026
+papers-in-preparation:
+    title: Papers in Preparation
+    papers:
         - authors: Dries Cornelissen, Axel Faes
           title: "An interpretable tensor model for identifying atrial fibrillation in sinus-rhythm ECG: block-term tensor regression on PTB-XL, benchmarked against deep and foundation models"
           program: [tensor]
@@ -61,13 +55,19 @@ papers-in-review:
           url: ""
           links:
             Code: "https://github.com/TheAxeC/bttr-af-ecg"
-          pub_pre: "Submitted to "
-          pub_post: '(Under review)'
+          pub_pre: ""
+          pub_post: '(In preparation)'
           book: "Biomedical Signal Processing and Control"
           pub_date: 2026
-papers-in-preparation:
-    title: Papers in Preparation
-    papers:
+        - authors: Jasper van Leengoed, Axel Faes, Maryam Amir Haeri, Donald Bouman, Stephanie van den Berg, Maureen Guichelaar
+          title: "Prediction of hepatocellular carcinoma by MRI: the development of MRI-HCC prediction model"
+          program: [hcc]
+          order: coauthor
+          url: ""
+          pub_pre: ""
+          pub_post: "(In preparation)"
+          book: ""
+          pub_date: 2026
         - authors: Axel Faes, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
           title: "When Masking Meets Sparsity: COVERT for Private, Communication-Efficient Vertical Federated Tensor Regression"
           program: [federated, tensor]
@@ -201,6 +201,7 @@ journal:
     title: International Journal Papers
     papers:
         - authors: Liesbet Peeters, Axel Faes, et al.
+          order: coauthor
           title: Editorial introduction 'The use of big data and AI in MS'
           program: [clinical-collab]
           url: "/publications/journal/fimmu-16-1679482.pdf" # "https://www.frontiersin.org/research-topics/64523/use-of-big-data-and-artificial-intelligence-in-multiple-sclerosis"
@@ -208,6 +209,7 @@ journal:
           pub_date: 2025
           abstract: "As health data volume and the sophistication of artificial intelligence (AI) tools grow, their potential to transform the management of complex neuroimmunological conditions like multiple sclerosis (MS) has become increasingly evident (1). MS, a chronic immune-mediated inflammatory disorder of the central nervous system, presents a unique challenge in the health sector due to its multifactorial nature and variable progression patterns. Each patient's journey is marked by distinct symptom trajectories and responses to treatment, demanding personalised approaches in diagnosis, prognosis, and therapeutic interventions. (2, 3). This Special Topic aims to address the clinical complexity of MS by leveraging data driven insights and innovative health initiatives. The overarching goal is to present the current challenges in MS research and explore recent advances and future trends that can significantly impact patient care. Through a Research Topic of reviews, perspectives, and original research articles, we explore how advanced data techniques and innovative health initiatives are shaping the future of MS research and care."
         - authors: Ashkan Pirmani, Edward De Brouwer, Adam Arany, Martijn Oldenhof, Antoine Passemiers, Axel Faes, Tomas Kalincik, Serkan Ozakbas, Riadh Gouider, Barbara Willekens, Dana Horakova, Eva Kubala Havrdova, Francesco Patti, Alexandre Prat, Alessandra Lugaresi, Valentina Tomassini, Pierre Grammond, Elisabetta Cartechini, Izanne Roos, Cavit Boz, Raed Alroughani, Maria Pia Amato, Katherine Buzzard, Jeannette Lechner-Scott, Joana Guimaraes, Claudio Solaro, Oliver Gerlach, Aysun Soysal, Jens Kuhle, Jose Luis Sanchez-Menoyo, Daniele Spitaleri, Tunde Csepany, Bart Van Wijmeersch, Radek Ampapa, Julie Prevost, Samia J. Khoury, Vincent van Pesch, Nevin John, Davide Maimone, Bianca Weinstock-Guttman, Guy Laureys, Pamela McCombe, Yolanda Blanco, Ayse Altintas, Abdullah Al-Asmi, Justin Garber, Anneke van der Walt, Helmut Butzkueven, Koen de Gans, Csilla Rozsa, Bruce Taylor, Talal Al-Harbi, Attila Sas, Cecilia Rajda, Orla Gray, Danny Decoo, William M Carroll, Allan G Kermode, Marzena Fabis-Pedrini, Deborah Mason, Angel Perez Sempere, Mihaela Simu, Neil Shuey, Bhim Singhal, Marija Cauchi, Todd A. Hardy, Sudarshini Ramanathan, Patrice Lalive, Carmen-Adella Sirbu, Stella Hughes, Tamara Castillo Trivino, Liesbet M. Peeters, and Yves Moreau
+          order: coauthor
           title: Personalized Federated Learning for Predicting Disability Progression in Multiple Sclerosis Using Real-World Routine Clinical Data
           program: [federated]
           url: "/publications/journal/s41746-025-01788-8.pdf"
@@ -225,6 +227,7 @@ journal:
           abstract: >-
             Objective A novel method is introduced to regress over the Sign Language finger movements from human electrocorticography (ECoG) recordings. Approach The proposed Graph-Optimized Block-Term Tensor Regression (Go-BTTR) method consists of two components: a deflation-based regression model that sequentially Tucker-decomposes multiway ECoG data into a series of blocks, and a Causal Graph Process (CGP) that accounts for the complex relationship between finger movements when expressing sign language gestures. Prior to each regression block, CGP is applied to decide which fingers should be kept separate or grouped and should therefore be referred to BTTR or its extended version eBTTR, respectively. Main results Two ECoG datasets were used, one recorded in 5 patients expressing 4 hand gestures of the American Sign Language Alphabet, and another in 2 patients expressing all gestures of the Flemish Sign Language Alphabet. As Go-BTTR combines fingers in a flexible way, it can better account for the nonlinear relationship ECoG exhibits when expressing hand gestures, including unintentional finger co-activations. This is reflected by the superior joint finger trajectory predictions compared to eBTTR, and predictions that are on par with BTTR in single finger scenarios. Subject 5, Dataset 1, during the movement of hand gestures reached 0.82 Pearson correlation for the pinky for Go-BTTR compared to 0.8 and 0.72 for eBTTR and BTTR respectively. Significance Our findings show that Go-BTTR is capable of decoding complex hand gestures taken from the Sign Language Alphabet. Go-BTTR also demonstrates computational efficiency, providing a notable benefit when intracranial electrodes are inserted during a patient's pre-surgical evaluation. This efficiency helps reduce the time required for developing and testing a Brain-Computer Interface (BCI) solution.
         - authors: Eva Calvo Merino, Axel Faes, Marc M. Van Hulle
+          order: coauthor
           title: The role of distinct ECoG frequency features in decoding finger movement
           program: [eeg]
           pub_date: 2023
@@ -284,6 +287,16 @@ journal:
 conference:
     title: Conference Papers
     papers:
+        - authors: Axel Faes, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
+          title: "Federate What Transfers: Component-Aware Federation of Self-Supervised Backbones for Longitudinal 3D MRI"
+          program: [hcc, federated]
+          url: ""
+          order: "first"
+          pub_pre: ""
+          pub_post: '(Accepted)'
+          book: "IEEE Conference on Federated Learning Technologies and Applications (IEEE FLTA 2026)"
+          pub_date: 2026
+          abstract: ""
         - authors: Axel Faes
           title: "Transparent and Robust: Interpretable Inputs Improve Foundation Models in Mission-Critical Decision Pipelines"
           program: [ecg, prognosis]
@@ -306,6 +319,7 @@ conference:
           abstract: >-
             Objective: A case study is conducted to show that not only finger flexion- but also finger abduction trajectories can be decoded from high-density electrocorticography (ECoG) recordings. Approach: Two patients, temporarily implanted with high-density ECoG grids as part of their clinical workup, performed a cued single finger flexion task, a cued sign language alphabet task and a cued finger abduction task. The extended Block-Term Tensor Regression (eBTTR) model was adopted to predict finger trajectories after being developed on simultaneous data glove/ECoG recordings. The model performance on the single finger flexion task provides a reference for comparing that on the finger abduction task. Finally, the sign language alphabet task involves realistic, complex finger movements, calling upon both finger flexions and abductions. Main results: We show that finger abduction trajectories can be decoded from ECoG recordings, with comparable precision as single finger flexion trajectories, and even when expressing sign language gestures that involve joint finger flexions and abductions. Significance: Our findings show for the first time that finger abduction trajectories can be decoded from ECoG even when part of Sign Language Alphabet gestures.
         - authors: Axel Faes, Liesbet Peeters
+          order: first
           title: "Optimizing Federated Block-Term Tensor Regression: Strategy Comparisons and Applications"
           program: [federated, tensor]
           url: "/publications/conference/fllm2025-optimizing-federated-bttr.pdf"
@@ -333,6 +347,7 @@ conference:
 
             Empirical evaluations highlight the robustness and scalability of FBTTR, achieving predictive performance comparable to centralized models while significantly reducing privacy concerns. Additionally, the algorithm is computationally efficient, making it viable for real-world deployment where timely predictions are critical. By offering a scalable and privacy-preserving solution, FBTTR has the potential to advance predictive analytics across multiple domains, including healthcare and brain-computer interface applications. Notably, FBTTR is developed as open-source software, promoting transparency and fostering collaboration within the research community.
         - authors: Qiang Sun, Eva Calvo Merino, Liuyin Yang, Axel Faes, Marc Van Hulle
+          order: coauthor
           title: On the Impact of Proprioception in EEG Representations and Decoding during Human-Hand Exoskeleton Interaction
           program: [eeg]
           url: "/publications/conference/On_the_Impact_of_Proprioception_in_EEG_Representations_and_Decoding_During_Human-Hand_Exoskeleton_Interaction.pdf"
@@ -347,6 +362,7 @@ conference:
 
             Our findings suggest that sensorimotor EEG activity can track proprioceptive feedback induced by the hand exoskeleton. While this feedback is pronounced and distinguishable, detecting motor intention during exoskeleton movement remains highly challenging. This highlights the need for advanced decoders and control strategies for the future development of continuous BCI-actuated hand exoskeletons.
         - authors: Robin Marx, Maarten Wijnants, Peter Quax, Axel Faes, Wim Lamotte
+          order: coauthor
           title: "Web Performance Characteristics of HTTP/2 and comparison to HTTP/1.1"
           program: [student-research]
           url: "/publications/conference/WebPerfCharacteristicsOfH2_MarxRobin_13aug2017.pdf"
@@ -356,6 +372,7 @@ conference:
             The HTTP/1.1 protocol has long been a staple on the web, for both pages and apps. However, it has started to show its age, especially with regard to page load performance and the overhead it entails due to its use of multiple underlying connections. Its successor, the newly standardized HTTP/2, aims to improve the protocol's performance and reduce its overhead by (1) multiplexing multiple resources over a single TCP connection, (2) using advanced prioritization strategies, and by introducing new features such as (3) Server Push and (4) HPACK header compression.
             This work provides an in-depth overview of these four HTTP/2 performance aspects, discussing both synthetic and realistic experiments, to determine the gains HTTP/2 can provide in comparison to HTTP/1.1 in various settings. We find that the single multiplexed connection can actually become a significant performance bottleneck in poor network conditions with high packet loss and that HTTP/2 rarely improves much on HTTP/1.1, except in terms of reduced overhead. Prioritization strategies, Server Push, and HPACK compression are found to have a relatively limited impact on web performance, but together with other observed HTTP/2 performance problems, this could also be due to faulty current implementations, of which we have discovered various examples.
         - authors: Robin Marx, Peter Quax, Axel Faes, Wim Lamotte
+          order: coauthor
           pub_date: 2017
           title: "Concatenation, embedding and sharding: Do HTTP/1 performance best practices make sense in HTTP/2?"
           program: [student-research]
@@ -481,7 +498,6 @@ posters:
         title: "Modality-Specific Encoding with a Shared Backbone for Early HCC Prediction from Multi-Modal Liver MRI"
         program: [hcc]
         pub_date: 2026
-        order: "first"
         book: "XAI-NL Meet-up"
         url: "/publications/posters/xai-2026.pdf"
       - authors: Axel Faes, Tom Schrijvers
