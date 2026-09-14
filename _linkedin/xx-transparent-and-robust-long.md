@@ -56,7 +56,7 @@ When I rebuilt this study from scratch to check reproducibility, the transparent
 
 Even the reproduction was more graceful on the transparent side.
 
-The paper has been ACCEPTED at the XAI-EADM workshop at IEEE CBI/EDOC 2026, which happens to be here in Enschede, 15-18 September. I will be presenting it there.
+The paper has been ACCEPTED at the XAI-EADM workshop at CBI-EDOC 2026, which happens to be here in Enschede, 15-18 September. I will be presenting it there.
 
 If you work on model governance, clinical deployment, or robustness evaluation, come find me, or tell me here how you test for this in your own pipelines. My honest suspicion is that most deployed systems have never been evaluated under the conditions they will actually meet.
 

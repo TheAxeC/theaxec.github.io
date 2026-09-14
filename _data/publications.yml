@@ -300,7 +300,7 @@ conference:
         - authors: Axel Faes
           title: "Transparent and Robust: Interpretable Inputs Improve Foundation Models in Mission-Critical Decision Pipelines"
           program: [ecg, prognosis]
-          book: "XAI-EADM Workshop at IEEE CBI/EDOC 2026, Springer LNBIP"
+          book: "XAI-EADM Workshop at CBI-EDOC 2026, Springer LNBIP"
           pub_date: 2026
           url: ""
           links:
