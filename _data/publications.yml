@@ -244,17 +244,6 @@ journal:
           pub_date: 2023
           order: "first"
           abstract: >-
-            Multiway- or tensor-based decoding techniques for Brain-Computer Interfaces (BCI) are believed to better account for the multilinear structure of brain signals than conventional vector- or matrix-based ones. However, despite their outlook on significant performance gains, the used parameter optimization approach is often too computationally demanding, so conventional techniques are still preferred. 
-            We propose two novel tensor factorizations which we integrate into our Block-Term Tensor Regression (BTTR) algorithm and further introduce a marginalization procedure that guarantees robust predictions while reducing the risk of overfitting (generalized regression). BTTR accounts for the underlying (hidden) data structure in a fully automatic and computationally-efficient manner, leading to a significant performance gain over conventional vector- or matrix-based techniques in a challenging real-world application.
-            As a challenging real-world application, we apply BTTR to accurately predict single finger movement trajectories from intracranial recordings in human subjects. We compare the obtained performance with that of the state-of-the-art.
-        - authors: Axel Faes, Flavio Camarrone, Marc M. Van Hulle
-          title: Single finger trajectory prediction from intracranial brain activity using Block-Term Tensor Regression with fast and automatic component extraction
-          program: [tensor]
-          url: "/publications/journal/single-finger-trajectory-prediction-from-intracranial-paper.pdf"
-          pub_date: 2022
-          order: "first"
-          book: IEEE Transactions on Neural Networks and Learning Systems
-          abstract: >-
             Objective
             We introduce extended Block-Term Tensor Regression (eBTTR), a novel regression method designed to account for the multilinear nature of human intracranial finger movement recordings.
             Approach
@@ -263,6 +252,17 @@ journal:
             eBTTR outperforms state-of-the-art regression approaches, including multilinear and deep learning ones, in accurately predicting finger trajectories as well as unintentional finger coactivations.
             Significance
             eBTTR rivals state-of-the-art approaches while being less computationally expensive which is an advantage when intracranial electrodes are implanted acutely, as part of the patient's presurgical workup, limiting time for decoder development and testing.
+        - authors: Axel Faes, Flavio Camarrone, Marc M. Van Hulle
+          title: Single finger trajectory prediction from intracranial brain activity using Block-Term Tensor Regression with fast and automatic component extraction
+          program: [tensor]
+          url: "/publications/journal/single-finger-trajectory-prediction-from-intracranial-paper.pdf"
+          pub_date: 2022
+          order: "first"
+          book: IEEE Transactions on Neural Networks and Learning Systems
+          abstract: >-
+            Multiway- or tensor-based decoding techniques for Brain-Computer Interfaces (BCI) are believed to better account for the multilinear structure of brain signals than conventional vector- or matrix-based ones. However, despite their outlook on significant performance gains, the used parameter optimization approach is often too computationally demanding, so conventional techniques are still preferred. 
+            We propose two novel tensor factorizations which we integrate into our Block-Term Tensor Regression (BTTR) algorithm and further introduce a marginalization procedure that guarantees robust predictions while reducing the risk of overfitting (generalized regression). BTTR accounts for the underlying (hidden) data structure in a fully automatic and computationally-efficient manner, leading to a significant performance gain over conventional vector- or matrix-based techniques in a challenging real-world application.
+            As a challenging real-world application, we apply BTTR to accurately predict single finger movement trajectories from intracranial recordings in human subjects. We compare the obtained performance with that of the state-of-the-art.
         - authors: Axel Faes, Aurelie de Borman, Marc M. Van Hulle
           title: Source space reduction for eLORETA
           program: [eeg]
