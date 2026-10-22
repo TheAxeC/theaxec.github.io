@@ -57,6 +57,30 @@ papers-in-review:
           book: "Medical Image Analysis"
           pub_date: 2026
           abstract: ""
+        - authors: Axel Faes, Maureen M. J. Guichelaar, Donald E. Bouman, Maryam Amir Haeri
+          title: "When Masking Meets Sparsity: COVERT for Private, Communication-Efficient Vertical Federated Tensor Regression"
+          program: [federated, tensor]
+          url: ""
+          links:
+            Code: "https://github.com/TheAxeC/covert-vertical-federated-tensor"
+          order: "first"
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "Artificial Intelligence in Medicine"
+          pub_date: 2026
+          abstract: ""
+        - authors: Axel Faes, Liesbet Peeters
+          title: "An Interpretable Block-Term Tensor Network for Incident Atrial-Fibrillation Prediction from the Sinus-Rhythm 12-Lead ECG and Clinical Risk Factors"
+          program: [tensor, ecg]
+          url: ""
+          links:
+            Code: "https://github.com/TheAxeC/bttn-incident-af"
+          order: "first"
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "Artificial Intelligence in Medicine"
+          pub_date: 2026
+          abstract: ""
 papers-in-preparation:
     title: Papers in Preparation
     papers:
@@ -80,18 +104,6 @@ papers-in-preparation:
           pub_post: "(In preparation)"
           book: ""
           pub_date: 2026
-        - authors: Axel Faes, Maureen M. J. Guichelaar, Donald E. Bouman, Maryam Amir Haeri
-          title: "When Masking Meets Sparsity: COVERT for Private, Communication-Efficient Vertical Federated Tensor Regression"
-          program: [federated, tensor]
-          url: ""
-          links:
-            Code: "https://github.com/TheAxeC/covert-vertical-federated-tensor"
-          order: "first"
-          pub_pre: ""
-          pub_post: '(In preparation)'
-          book: "Artificial Intelligence in Medicine"
-          pub_date: 2026
-          abstract: ""
         - authors: Axel Faes, Stéphanie M. van den Berg, Maryam Amir Haeri
           title: "Private Coupled Descent: Dimension-Free Privacy for Vertical Federated Learning by Privatizing the Coupling Variable"
           program: [federated, tensor]
@@ -149,18 +161,6 @@ papers-in-preparation:
           pub_pre: ""
           pub_post: '(In preparation)'
           book: "IEEE Journal of Biomedical and Health Informatics"
-          pub_date: 2026
-          abstract: ""
-        - authors: Axel Faes, Liesbet Peeters
-          title: "An Interpretable Block-Term Tensor Network for Incident Atrial-Fibrillation Prediction from the Sinus-Rhythm 12-Lead ECG and Clinical Risk Factors"
-          program: [tensor, ecg]
-          url: ""
-          links:
-            Code: "https://github.com/TheAxeC/bttn-incident-af"
-          order: "first"
-          pub_pre: ""
-          pub_post: '(In preparation)'
-          book: "Artificial Intelligence in Medicine"
           pub_date: 2026
           abstract: ""
         - authors: Jakob Nolte*, Axel Faes*, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
