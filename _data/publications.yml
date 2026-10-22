@@ -43,7 +43,7 @@ papers-in-review:
             Code: "https://github.com/TheAxeC/behavior-aligned-ecog-transfer"
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
-          book: "Neurocomputing"
+          book: "Neural Networks"
           pub_date: 2026
 papers-in-preparation:
     title: Papers in Preparation
