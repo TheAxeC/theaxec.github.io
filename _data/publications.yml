@@ -45,7 +45,7 @@ papers-in-review:
           pub_post: '(Under review)'
           book: "Neural Networks"
           pub_date: 2026
-        - authors: Axel Faes, Stéphanie M. van den Berg, Maryam Amir Haeri
+        - authors: Axel Faes, Maryam Amir Haeri
           title: "Registration-Free Supervised Tensor-PLS for Unaligned Multiparametric MRI"
           program: [tensor]
           url: ""
