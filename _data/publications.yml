@@ -45,6 +45,18 @@ papers-in-review:
           pub_post: '(Under review)'
           book: "Neural Networks"
           pub_date: 2026
+        - authors: Axel Faes, Stéphanie M. van den Berg, Maryam Amir Haeri
+          title: "Registration-Free Supervised Tensor-PLS for Unaligned Multiparametric MRI"
+          program: [tensor]
+          url: ""
+          links:
+            Code: "https://github.com/TheAxeC/registration-free-tensor-pls"
+          order: "first"
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "Medical Image Analysis"
+          pub_date: 2026
+          abstract: ""
 papers-in-preparation:
     title: Papers in Preparation
     papers:
@@ -114,18 +126,6 @@ papers-in-preparation:
           pub_pre: ""
           pub_post: '(In preparation)'
           book: "Biomedical Signal Processing and Control"
-          pub_date: 2026
-          abstract: ""
-        - authors: Axel Faes, Stéphanie M. van den Berg, Maryam Amir Haeri
-          title: "Registration-Free Supervised Tensor-PLS for Unaligned Multiparametric MRI"
-          program: [tensor]
-          url: ""
-          links:
-            Code: "https://github.com/TheAxeC/registration-free-tensor-pls"
-          order: "first"
-          pub_pre: ""
-          pub_post: '(In preparation)'
-          book: "Medical Image Analysis"
           pub_date: 2026
           abstract: ""
         - authors: Meseret Assefa Kerga, Axel Faes
