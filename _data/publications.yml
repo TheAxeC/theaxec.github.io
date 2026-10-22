@@ -80,7 +80,7 @@ papers-in-preparation:
           pub_post: "(In preparation)"
           book: ""
           pub_date: 2026
-        - authors: Axel Faes, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
+        - authors: Axel Faes, Maureen M. J. Guichelaar, Donald E. Bouman, Maryam Amir Haeri
           title: "When Masking Meets Sparsity: COVERT for Private, Communication-Efficient Vertical Federated Tensor Regression"
           program: [federated, tensor]
           url: ""
@@ -89,7 +89,7 @@ papers-in-preparation:
           order: "first"
           pub_pre: ""
           pub_post: '(In preparation)'
-          book: "IEEE Journal of Biomedical and Health Informatics"
+          book: "Artificial Intelligence in Medicine"
           pub_date: 2026
           abstract: ""
         - authors: Axel Faes, Stéphanie M. van den Berg, Maryam Amir Haeri
