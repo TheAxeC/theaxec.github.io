@@ -2,7 +2,7 @@
 layout: page
 title: Research
 navbar_name: Research
-permalink: /research
+permalink: /research/
 body_class: pubpage statement
 description: "Research statement of Dr. Axel Faes - self-explaining, interpretable AI and privacy-preserving federated learning that travels between hospitals, for precision oncology and trustworthy clinical decision support."
 keywords: "Axel Faes research, self-explaining AI, interpretable machine learning, federated learning, block-term tensor regression, precision oncology, hepatocellular carcinoma, trustworthy clinical AI, healthcare"

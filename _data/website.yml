@@ -25,15 +25,15 @@ header:
     - name: Home
       url: /
     - name: Research
-      url: /research
+      url: /research/
     - name: Teaching
-      url: /teaching
+      url: /teaching/
     - name: Publications
-      url: /publications
+      url: /publications/
     - name: CV
-      url: /cv
+      url: /cv/
     - name: Blog
-      url: /blog
+      url: /blog/
 
 ##################
 # Website footer #
@@ -101,7 +101,7 @@ home:
   # Section labels and links
   research_heading: 'Research themes'
   research_link_text: 'Research statement'
-  research_link_url: '/research'
+  research_link_url: '/research/'
   # Intro paragraphs for the listing pages
   publications_intro: 'Peer-reviewed journal and conference papers, preprints, theses, and other writing. Author order as published; my name in bold.'
   publications_icon_note: "Each paper's icon marks the research line it belongs to: interpretable tensor models, federated learning, or precision oncology. Earlier neural-decoding (EEG/BCI) and student work carry their own markers."

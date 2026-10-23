@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 navbar_name: Teaching
-permalink: /teaching
+permalink: /teaching/
 body_class: pubpage statement
 description: "Teaching statement of Dr. Axel Faes - teaching philosophy, coordinated courses, student supervision, and outreach in AI, data science, and biomedical engineering."
 keywords: "Axel Faes teaching, teaching philosophy, bioinformatics, data science in healthcare, federated learning course, student supervision, BKO, mentoring"
@@ -49,7 +49,7 @@ keywords: "Axel Faes teaching, teaching philosophy, bioinformatics, data science
     <li><strong>Hand-exoskeleton control via a semi-invasive brain-computer interface</strong> - PhD Biomedical Sciences (daily supervision)</li>
     <li><strong>Optimization and type-checking in single-pass compilers</strong> - MSc Computer Science</li>
   </ul>
-  <p>A full list of supervised students is available on my <a href="{{ '/cv' | relative_url }}#students">CV</a>.</p>
+  <p>A full list of supervised students is available on my <a href="{{ '/cv/' | relative_url }}#students">CV</a>.</p>
 </section>
 
 <section class="stmt-sec">
@@ -66,6 +66,6 @@ keywords: "Axel Faes teaching, teaching philosophy, bioinformatics, data science
 </section>
 
 <div class="stmt-cta">
-  <a class="btn" href="{{ '/research' | relative_url }}">Read my research statement &rarr;</a>
+  <a class="btn" href="{{ '/research/' | relative_url }}">Read my research statement &rarr;</a>
   <a class="btn" href="{{ '/cv.pdf' | relative_url }}" target="_blank" rel="noopener">View full CV &rarr;</a>
 </div>

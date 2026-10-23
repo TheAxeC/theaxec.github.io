@@ -2,7 +2,7 @@
 layout: page
 title: Blog
 navbar_name: Blog
-permalink: /blog
+permalink: /blog/
 description: "Research diary of dr. ir. Axel Faes - notes on self-explaining AI, federated learning, block-term tensor methods, and AI in healthcare."
 keywords: "Axel Faes blog, research diary, federated learning, self-explaining AI, block-term tensor, AI in healthcare"
 ---
