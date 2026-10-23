@@ -115,6 +115,18 @@ papers-in-review:
           book: "Biomedical Signal Processing and Control"
           pub_date: 2026
           abstract: ""
+        - authors: Axel Faes, Maryam Amir Haeri
+          title: "Privacy-preserving federated tensor decomposition of single-cell immune data: recovering multicellular programs across institutions"
+          program: [federated, tensor]
+          url: ""
+          links:
+            Code: "https://github.com/TheAxeC/federated-multicellular-tensor"
+          order: "first"
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "Computer Methods and Programs in Biomedicine"
+          pub_date: 2026
+          abstract: ""
 papers-in-preparation:
     title: Papers in Preparation
     papers:
@@ -137,18 +149,6 @@ papers-in-preparation:
           pub_pre: ""
           pub_post: '(In preparation)'
           book: "IEEE Transactions on Signal Processing"
-          pub_date: 2026
-          abstract: ""
-        - authors: Axel Faes, Stéphanie M. van den Berg, Maryam Amir Haeri
-          title: "Privacy-preserving federated tensor decomposition of single-cell immune data: recovering multicellular programs across institutions"
-          program: [federated, tensor]
-          url: ""
-          links:
-            Code: "https://github.com/TheAxeC/federated-multicellular-tensor"
-          order: "first"
-          pub_pre: ""
-          pub_post: '(In preparation)'
-          book: "IEEE Journal of Biomedical and Health Informatics"
           pub_date: 2026
           abstract: ""
         - authors: Axel Faes
