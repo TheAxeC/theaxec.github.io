@@ -92,9 +92,6 @@ papers-in-review:
           pub_post: '(Under review)'
           book: "Statistics in Medicine"
           pub_date: 2026
-papers-in-preparation:
-    title: Papers in Preparation
-    papers:
         - authors: Dries Cornelissen, Axel Faes
           title: "An interpretable tensor model for identifying atrial fibrillation in sinus-rhythm ECG: block-term tensor regression on PTB-XL, benchmarked against deep and foundation models"
           program: [tensor]
@@ -102,10 +99,13 @@ papers-in-preparation:
           url: ""
           links:
             Code: "https://github.com/TheAxeC/bttr-af-ecg"
-          pub_pre: ""
-          pub_post: '(In preparation)'
-          book: "Biomedical Signal Processing and Control"
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "Medical & Biological Engineering & Computing"
           pub_date: 2026
+papers-in-preparation:
+    title: Papers in Preparation
+    papers:
         - authors: Jasper van Leengoed, Axel Faes, Maryam Amir Haeri, Donald Bouman, Stephanie van den Berg, Maureen Guichelaar
           title: "Prediction of hepatocellular carcinoma by MRI: the development of MRI-HCC prediction model"
           program: [hcc]
