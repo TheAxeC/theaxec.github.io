@@ -103,6 +103,18 @@ papers-in-review:
           pub_post: '(Under review)'
           book: "Medical & Biological Engineering & Computing"
           pub_date: 2026
+        - authors: Axel Faes, Maryam Amir Haeri
+          title: "Jointly localized spatiotemporal components of evoked EEG via a lead-field-constrained block-term decomposition"
+          program: [tensor]
+          url: ""
+          links:
+            Code: "https://github.com/TheAxeC/leadfield-btd-eeg"
+          order: "first"
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "Biomedical Signal Processing and Control"
+          pub_date: 2026
+          abstract: ""
 papers-in-preparation:
     title: Papers in Preparation
     papers:
@@ -137,18 +149,6 @@ papers-in-preparation:
           pub_pre: ""
           pub_post: '(In preparation)'
           book: "IEEE Journal of Biomedical and Health Informatics"
-          pub_date: 2026
-          abstract: ""
-        - authors: Axel Faes, Stéphanie M. van den Berg, Maryam Amir Haeri
-          title: "Jointly localized spatiotemporal components of evoked EEG via a lead-field-constrained block-term decomposition"
-          program: [tensor]
-          url: ""
-          links:
-            Code: "https://github.com/TheAxeC/leadfield-btd-eeg"
-          order: "first"
-          pub_pre: ""
-          pub_post: '(In preparation)'
-          book: "Biomedical Signal Processing and Control"
           pub_date: 2026
           abstract: ""
         - authors: Axel Faes
