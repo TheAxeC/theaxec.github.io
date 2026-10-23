@@ -2,11 +2,10 @@ title: "theaxec.github.io"
 tier: personal
 stage: building
 status:
-  chips: []
+  chips: [parked]
 eli5: "My personal website"
 next: "Keep the website up to date with new information and publications."
 links: []
 tags: [personal, website, tex]
 repository:
   url: "https://github.com/TheAxeC/theaxec.github.io"
-focus: backburner
