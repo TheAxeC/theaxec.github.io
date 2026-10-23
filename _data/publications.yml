@@ -81,6 +81,17 @@ papers-in-review:
           book: "Artificial Intelligence in Medicine"
           pub_date: 2026
           abstract: ""
+        - authors: Meseret Assefa Kerga, Axel Faes
+          title: "From Classification to Competing Risks: A Critical Re-Examination of a Widely-Used Cirrhosis Outcome Benchmark"
+          program: [prognosis]
+          order: senior
+          url: ""
+          links:
+            Code: "https://github.com/TheAxeC/cirrhosis-competing-risks"
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "Statistics in Medicine"
+          pub_date: 2026
 papers-in-preparation:
     title: Papers in Preparation
     papers:
@@ -140,17 +151,6 @@ papers-in-preparation:
           book: "Biomedical Signal Processing and Control"
           pub_date: 2026
           abstract: ""
-        - authors: Meseret Assefa Kerga, Axel Faes
-          title: "From Classification to Competing Risks: A Critical Re-Examination of a Widely-Used Cirrhosis Outcome Benchmark"
-          program: [prognosis]
-          order: senior
-          url: ""
-          links:
-            Code: "https://github.com/TheAxeC/cirrhosis-competing-risks"
-          pub_pre: ""
-          pub_post: '(In preparation)'
-          book: "Statistics in Medicine"
-          pub_date: 2026
         - authors: Axel Faes
           title: "You Don't Need the Black Box: Named ECG Features Rival Foundation Models for Mortality Prediction"
           program: [ecg, prognosis]
