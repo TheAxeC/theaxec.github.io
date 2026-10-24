@@ -127,6 +127,18 @@ papers-in-review:
           book: "Computer Methods and Programs in Biomedicine"
           pub_date: 2026
           abstract: ""
+        - authors: Axel Faes, Maryam Amir Haeri
+          title: "Private Coupled Descent: Dimension-Free Privacy for Vertical Federated Learning by Privatizing the Coupling Variable"
+          program: [federated, tensor]
+          url: ""
+          links:
+            Code: "https://github.com/TheAxeC/private-coupled-descent"
+          order: "first"
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "IEEE Transactions on Signal Processing"
+          pub_date: 2026
+          abstract: ""
 papers-in-preparation:
     title: Papers in Preparation
     papers:
@@ -139,18 +151,6 @@ papers-in-preparation:
           pub_post: "(In preparation)"
           book: ""
           pub_date: 2026
-        - authors: Axel Faes, Stéphanie M. van den Berg, Maryam Amir Haeri
-          title: "Private Coupled Descent: Dimension-Free Privacy for Vertical Federated Learning by Privatizing the Coupling Variable"
-          program: [federated, tensor]
-          url: ""
-          links:
-            Code: "https://github.com/TheAxeC/private-coupled-descent"
-          order: "first"
-          pub_pre: ""
-          pub_post: '(In preparation)'
-          book: "IEEE Transactions on Signal Processing"
-          pub_date: 2026
-          abstract: ""
         - authors: Axel Faes
           title: "You Don't Need the Black Box: Named ECG Features Rival Foundation Models for Mortality Prediction"
           program: [ecg, prognosis]
