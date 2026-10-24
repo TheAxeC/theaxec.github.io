@@ -187,18 +187,16 @@ papers-in-preparation:
           book: "Journal of Machine Learning Research"
           pub_date: 2026
           abstract: ""
-        # Hidden while under double-blind review at AAAI 2027 (submitted 2026-07-22); uncomment on the decision.
-        # - authors: Axel Faes
-        #   title: "MoBTE: A Mixture of Block-Term Spectral Experts for Multi-PDE Operator Learning"
-        #   program: [tensor]
-        #   url: ""
-        #   links:
-        #     Code: "https://github.com/TheAxeC/block-term-neural-operator"
-        #   order: "first"
-        #   pub_pre: "Submitted to "
-        #   pub_post: '(Under review)'
-        #   book: "AAAI Conference on Artificial Intelligence (AAAI 2027)"
-        #   pub_date: 2026
+        - authors: Axel Faes
+          title: "MoBTE: A Mixture of Block-Term Spectral Experts for Multi-PDE Operator Learning"
+          program: [tensor]
+          url: ""
+          order: "first"
+          pub_pre: ""
+          pub_post: '(In preparation)'
+          book: ""
+          pub_date: 2026
+          abstract: ""
 journal:
     title: International Journal Papers
     papers:
