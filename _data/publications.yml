@@ -151,6 +151,18 @@ papers-in-review:
           book: "Neurocomputing"
           pub_date: 2026
           abstract: ""
+        - authors: Jakob Nolte*, Axel Faes*, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
+          title: "HCCNet: A Self-Supervised CNN-Transformer for Disease Prognosis from Longitudinal 3D MRI, with a Case Study on Hepatocellular Carcinoma"
+          program: [hcc]
+          url: ""
+          links:
+            Code: "https://github.com/TheAxeC/hccnet"
+          order: "first"
+          pub_pre: "Submitted to "
+          pub_post: '(Under review)'
+          book: "Intelligent Medicine"
+          pub_date: 2026
+          abstract: ""
 papers-in-preparation:
     title: Papers in Preparation
     papers:
@@ -163,16 +175,6 @@ papers-in-preparation:
           pub_post: "(In preparation)"
           book: ""
           pub_date: 2026
-        - authors: Jakob Nolte*, Axel Faes*, Maureen M. J. Guichelaar, Donald E. Bouman, Stéphanie M. van den Berg, Maryam Amir Haeri
-          title: "HCCNet: A Self-Supervised CNN-Transformer for Disease Prognosis from Longitudinal 3D MRI, with a Case Study on Hepatocellular Carcinoma"
-          program: [hcc]
-          url: ""
-          order: "first"
-          pub_pre: ""
-          pub_post: '(In preparation)'
-          book: "Intelligent Medicine"
-          pub_date: 2026
-          abstract: ""
         - authors: Axel Faes
           title: "A Generalization Separation for Block-Term Spectral Operators"
           program: [tensor]
