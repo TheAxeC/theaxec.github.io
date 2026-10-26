@@ -100,7 +100,7 @@ papers-in-review:
           order: "first"
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
-          book: "Biomedical Signal Processing and Control"
+          book: "Journal of Neuroscience Methods"
           pub_date: 2026
           abstract: ""
         - authors: Axel Faes, Maryam Amir Haeri
