@@ -99,6 +99,7 @@ for title in data['personal']['titles']:
 %}
 \end{cvoneliners}
 \input{cv/education.tex}
+\input{cv/grants.tex}
 \input{cv/projects.tex}
 \input{cv/honors.tex}
 \input{cv/extracurricular.tex}

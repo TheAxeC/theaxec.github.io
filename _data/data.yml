@@ -113,7 +113,7 @@ academic:
     - title: Data Science in Healthcare (4747) Lecturer (teaching team member)
       location: "UHasselt"
       duration: Sept. 2025 - Dec. 2025
-    - title: Advanced Topics in Data Science (4569 & 4585) Lecturer Federted Learning (teaching team member)
+    - title: Advanced Topics in Data Science (4569 & 4585) Lecturer Federated Learning (teaching team member)
       location: "UHasselt"
       duration: June 2024 - Sept. 2025
     - title: Bioinformatics (3740) Coordinating lecturer
@@ -311,8 +311,26 @@ education:
         Physics and General courses (79% - Magna Cum Laude)
         Thesis: Machine learning techniques for flow-based network intrusion detection systems (on Github)
 
+grants:
+  title: Grants & Funding
+  content:
+    - title: "The Self-Explaining Hospital: Readable, Private Clinical Models That Travel Between Institutions"
+      url: ""
+      duration: 2026
+      role: Applicant
+      status: Submitted, decision pending
+      about: |
+        Funder: NWO, Veni scheme (pre-proposal)
+    - title: "Before the tumour: an interpretable pre-lesional field trajectory that anticipates lesion emergence in the cirrhotic liver"
+      url: ""
+      duration: 2026
+      role: Applicant
+      status: Submitted, decision pending
+      about: |
+        Funder: NWO, Open Competition Domain Science XS (ENW-XS), Life Sciences cluster
+
 projects:
-  title: Grants & (open-source) Projects
+  title: Projects
   content:
     # Rejected FWO proposal, kept for reference, not shown.
     # - title: "Federated Learning for Population Health Management (FL4PHM)"

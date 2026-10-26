@@ -1,0 +1,25 @@
+\cvsection{{% emit(data['grants']['title']) %}}
+
+\begin{cventries}
+{%
+  for i in data['grants']['content']:
+    emit_tex('\\cventry')
+    emit_braces(i['role'])
+    emit_braces(i['title'])
+    emit_braces('')
+    emit_braces(str(i['duration']))
+    emit_tex('\n{')
+    emit_tex('\\begin{cvitems}')
+    emit_tex('\\item ')
+    emit('Status: ' + i['status'])
+    emit_tex('\n')
+    for item in (i['about'].split('\n')):
+      if not item: continue
+      emit_tex('\\item ')
+      emit(item)
+      emit_tex('\n')
+    emit_tex('\\end{cvitems}')
+    emit_tex('\n}')
+    emit('\n\n')
+%}
+\end{cventries}
