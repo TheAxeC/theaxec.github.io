@@ -261,7 +261,7 @@ nav .links a.active{color:var(--ink)}
 /* contact CTA */
 .cta{border-top:1px solid var(--line)}
 .cta .cta-text{font-size:1.08rem;max-width:54ch;color:var(--ink);margin:0 0 1.3rem;line-height:1.5}
-.cta .btn{margin-bottom:0}
+.cta .btn{margin-bottom:0;text-transform:none}
 .cta .btn svg{width:1em;height:1em}
 
 @media (max-width:560px){
