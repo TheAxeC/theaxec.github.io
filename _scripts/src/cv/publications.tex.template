@@ -75,6 +75,7 @@ for type in types:
     emit_tex('\\begin{cvnews}')
     emit('\n')
     for i in data[type]['content']:
+        if 'hide' in i and i['hide'] == True: continue
         emit_tex('\\cvnew ')
         emit('\n')
         emit_braces(i['title'])

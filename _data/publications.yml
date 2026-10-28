@@ -28,6 +28,7 @@ papers-in-review:
           program: [ecg]
           url: ""
           links:
+            Preprint: "/publications/preprint/dongho-ecg-clustering.pdf"
             Code: "https://github.com/TheAxeC/ecg-representation-clustering"
           order: senior
           pub_pre: "Submitted to "
@@ -40,6 +41,8 @@ papers-in-review:
           order: senior
           url: ""
           links:
+            Preprint: "/publications/preprint/ward-bttr-crosssubject.pdf"
+            Supplementary: "/publications/preprint/ward-bttr-crosssubject-supplementary.pdf"
             Code: "https://github.com/TheAxeC/behavior-aligned-ecog-transfer"
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
@@ -50,6 +53,7 @@ papers-in-review:
           program: [tensor]
           url: ""
           links:
+            Preprint: "/publications/preprint/raw-pls.pdf"
             Code: "https://github.com/TheAxeC/registration-free-tensor-pls"
           order: "first"
           pub_pre: "Submitted to "
@@ -62,6 +66,7 @@ papers-in-review:
           program: [tensor, ecg]
           url: ""
           links:
+            Preprint: "/publications/preprint/bttn-incident-af.pdf"
             Code: "https://github.com/TheAxeC/bttn-incident-af"
           order: "first"
           pub_pre: "Submitted to "
@@ -75,6 +80,8 @@ papers-in-review:
           order: senior
           url: ""
           links:
+            Preprint: "/publications/preprint/meseret-cirrhosis.pdf"
+            Supplementary: "/publications/preprint/meseret-cirrhosis-supplementary.pdf"
             Code: "https://github.com/TheAxeC/cirrhosis-competing-risks"
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
@@ -86,6 +93,7 @@ papers-in-review:
           order: senior
           url: ""
           links:
+            Preprint: "/publications/preprint/dries-bttr-ecg.pdf"
             Code: "https://github.com/TheAxeC/bttr-af-ecg"
           pub_pre: "Submitted to "
           pub_post: '(Under review)'
@@ -96,6 +104,7 @@ papers-in-review:
           program: [tensor]
           url: ""
           links:
+            Preprint: "/publications/preprint/bttd-source-eeg.pdf"
             Code: "https://github.com/TheAxeC/leadfield-btd-eeg"
           order: "first"
           pub_pre: "Submitted to "
@@ -108,6 +117,7 @@ papers-in-review:
           program: [federated, tensor]
           url: ""
           links:
+            Preprint: "/publications/preprint/fed-multicellular-immune.pdf"
             Code: "https://github.com/TheAxeC/federated-multicellular-tensor"
           order: "first"
           pub_pre: "Submitted to "
@@ -120,6 +130,7 @@ papers-in-review:
           program: [federated, tensor]
           url: ""
           links:
+            Preprint: "/publications/preprint/covert-theory.pdf"
             Code: "https://github.com/TheAxeC/private-coupled-descent"
           order: "first"
           pub_pre: "Submitted to "
@@ -132,6 +143,7 @@ papers-in-review:
           program: [ecg, prognosis]
           url: ""
           links:
+            Preprint: "/publications/preprint/ecg-readable-substrate.pdf"
             Code: "https://github.com/TheAxeC/named-ecg-vs-foundation-models"
           order: "first"
           pub_pre: "Submitted to "
@@ -144,6 +156,7 @@ papers-in-review:
           program: [federated, tensor]
           url: ""
           links:
+            Preprint: "/publications/preprint/covert-applied.pdf"
             Code: "https://github.com/TheAxeC/covert-vertical-federated-tensor"
           order: "first"
           pub_pre: "Submitted to "
@@ -156,6 +169,7 @@ papers-in-review:
           program: [hcc]
           url: ""
           links:
+            Preprint: "/publications/preprint/hccnet-revision.pdf"
             Code: "https://github.com/TheAxeC/hccnet"
           order: "first"
           pub_pre: "Submitted to "
@@ -187,7 +201,7 @@ papers-in-preparation:
           book: "Journal of Machine Learning Research"
           pub_date: 2026
           abstract: ""
-        - authors: Axel Faes
+        - authors: Axel Faes, Maryam Amir Haeri
           title: "MoBTE: A Mixture of Block-Term Spectral Experts for Multi-PDE Operator Learning"
           program: [tensor]
           url: ""
@@ -241,7 +255,7 @@ journal:
           url: "/publications/journal/finger-movement-and-coactivation-predicted-from-intracranial-brain-activity.pdf"
           book: Journal of Neural Engineering
           pub_last: Spotlight
-          pub_date: 2023
+          pub_date: 2022
           order: "first"
           abstract: >-
             Objective
@@ -459,7 +473,7 @@ abstracts:
         program: [eeg]
         url: "/publications/abstracts/Abstract.Eva.CalvoMerino.pdf"
         pub_date: 2023
-        book: BCI (Brain-computer interfaces) - Society 2023
+        book: BCI Society Meeting 2023
       - authors: Axel Faes, Benjamin Wittevrongel, Marc M. Van Hulle
         title: Reconstructing single finger trajectories from intracranial brain activity
         program: [tensor]

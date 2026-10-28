@@ -5,7 +5,7 @@ stage: building
 status:
   chips: [parked]
 eli5: "My personal website"
-next: "Keep the website up to date with new information and publications."
+next: "Open: where the CV-only content (experience, awards, extracurricular, talks, education history) lives in oculus."
 links: []
 tags: [personal, website, tex]
 repository:

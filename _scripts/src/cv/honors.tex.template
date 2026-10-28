@@ -2,6 +2,7 @@
 \begin{cvhonors}
 {%
   for i in (data['awards']['content']):
+    if 'hide' in i and i['hide'] == True: continue
     emit_tex('\\cvhonor ')
     emit_braces(i['award'])
     emit_braces(i['event'])

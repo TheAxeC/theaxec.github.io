@@ -92,6 +92,7 @@ for title in data['personal']['titles']:
 \begin{cvoneliners}
 {%
   for i in (data['academic']['content']):
+    if 'hide' in i and i['hide'] == True: continue
     emit_tex('\\cvoneliner ')
     emit_braces(i['title'])
     emit_braces(i['location'])
@@ -110,6 +111,7 @@ for title in data['personal']['titles']:
 \begin{cvoneliners}
 {%
   for i in (data['references']['content']):
+    if 'hide' in i and i['hide'] == True: continue
     emit_tex('\\cvoneliner ')
     emit_braces(i['name'])
     emit_braces(i['email'])

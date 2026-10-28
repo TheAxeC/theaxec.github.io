@@ -2,6 +2,7 @@
 \begin{cvoneliners}
 {%
   for i in (data['extracurricular']['content']):
+    if 'hide' in i and i['hide'] == True: continue
     emit_tex('\\cvoneliner ')
     emit_braces(i['title'] + ", " + i['location'])
     emit_braces(i['about'])

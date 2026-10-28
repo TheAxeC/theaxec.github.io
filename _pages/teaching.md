@@ -57,7 +57,7 @@ keywords: "Axel Faes teaching, teaching philosophy, bioinformatics, data science
   <div class="stmt-sub">Teaching software</div>
   <p>I build platforms that double as research and teaching infrastructure:</p>
   <ul class="stmt-list">
-    <li><strong><a href="https://github.com/TheAxeC/Cardinal" target="_blank" rel="noopener">Cardinal</a></strong> - a clear, well-documented virtual machine and runtime designed explicitly as a platform for MSc theses in programming languages and compilers, and for prototyping new language ideas.</li>
+    <li><strong><a href="https://github.com/TheAxeC/cardinal-revamped" target="_blank" rel="noopener">Cardinal</a></strong> - a clear, well-documented virtual machine and runtime designed explicitly as a platform for MSc theses in programming languages and compilers, and for prototyping new language ideas.</li>
     <li><strong><a href="https://github.com/UHasselt-BiomedicalDataSciences/federated-learning-toolkit" target="_blank" rel="noopener">FLkit</a></strong> (a community toolkit I contribute to) and my <strong><a href="https://github.com/TheAxeC/federated-learning-tutorial" target="_blank" rel="noopener">Federated Learning Tutorial</a></strong> - guided, reproducible materials that make federated learning teachable to life scientists and students.</li>
   </ul>
 

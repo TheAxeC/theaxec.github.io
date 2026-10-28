@@ -48,7 +48,7 @@ footer:
 #########################
 # Homepage data         #
 #########################
-# Research-line labels used for the publication glyphs. tensor/federated/hcc/student-research/clinical-collab match programs.yml in the research hub; eeg/ecg/prognosis are website-only labels.
+# Research-line labels for the publication glyphs. A paper's `program:` list picks keys from here; each key needs a case in _includes/site/program-diagram.html (the glyph) and, for the colour, a `.pcol-<key>` rule in assets/css/site.css. The research page uses the diagrams tensor, federated, hcc and eeg, and the homepage grid carries inline copies of those four by position. These keys are the website's own vocabulary, separate from the pillars in the research hub.
 programs:
   tensor: 'Interpretable models'
   federated: 'Federated learning'

@@ -3,6 +3,7 @@
 \begin{cventries}
 {%
   for i in data['grants']['content']:
+    if 'hide' in i and i['hide'] == True: continue
     emit_tex('\\cventry')
     emit_braces(i['role'])
     emit_braces(i['title'])

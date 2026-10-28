@@ -131,6 +131,10 @@ academic:
     - title: Brain-Computer Interfacing (B-KUL-H08M0A) Guest Lecturer 
       location: "KU Leuven"
       duration: 2022-2025
+    - title: MSc thesis assessor (second reader)
+      location: "UHasselt"
+      duration: "2026"
+      hide: true
 students:
     title: Students
     content:
@@ -188,6 +192,9 @@ students:
 news:
     title: Talks, presentations and other media
     content:
+      - title: "Federate What Transfers: Component-Aware Federation of Self-Supervised Backbones for Longitudinal 3D MRI"
+        duration: 2026
+        location: IEEE FLTA (International Conference on Federated Learning Technologies and Applications)
       - title: Modality-Specific Encoding with a Shared Backbone for Early HCC Prediction from Multi-Modal Liver MRI
         duration: 2026
         location: 4th XAI-NL Meet-Up
@@ -332,19 +339,20 @@ grants:
 projects:
   title: Projects
   content:
-    # Rejected FWO proposal, kept for reference, not shown.
-    # - title: "Federated Learning for Population Health Management (FL4PHM)"
-    #   url: ""
-    #   duration: 2025 - Current
-    #   role: Co-supervisor
-    #   min: true
-    #   about: |
-    #     FWO Senior Research Project (2025)
-    #     Project: "Federated Learning for Population Health Management"
-    #     Role: Co-supervisor
-    #     Team: Prof. Yves Moreau (KU Leuven), Prof. Liesbet M. Peeters (UHasselt), Prof. Bert Vaes (KU Leuven)
-    #     Funding: Research Foundation Flanders (FWO), Belgium (applied, result expected in September 2025)
-    #     Amount: approx. €1,150,000 (including salaries and operational costs for 4 years)
+    # Rejected FWO proposal, kept for reference.
+    - title: "Federated Learning for Population Health Management (FL4PHM)"
+      url: ""
+      duration: 2025 - Current
+      role: Co-supervisor
+      min: true
+      hide: true
+      about: |
+        FWO Senior Research Project (2025)
+        Project: "Federated Learning for Population Health Management"
+        Role: Co-supervisor
+        Team: Prof. Yves Moreau (KU Leuven), Prof. Liesbet M. Peeters (UHasselt), Prof. Bert Vaes (KU Leuven)
+        Funding: Research Foundation Flanders (FWO), Belgium (applied, result expected in September 2025)
+        Amount: approx. €1,150,000 (including salaries and operational costs for 4 years)
     - title: "AI-HCC: Predicting the Development of Primary Liver Cancer Using the AI-HCC Model - ZonMw"
       url: ""
       duration: 2026 - Current
@@ -375,7 +383,7 @@ projects:
         FLkit is designed to help life scientists apply federated learning in their research. It offers guidance, techniques, and tools for working with decentralized and sensitive data, enabling privacy-preserving collaboration and deeper insights without sharing raw data.
         The project is in its early stages and open to contributors. The long-term goal is to make FLkit community-driven, sustained, and governed by researchers and practitioners who want to advance federated learning for life sciences.
     - title: "Cardinal: Educational and Research platform for MSc theses in PL/compilers"
-      url: https://github.com/TheAxeC/Cardinal
+      url: https://github.com/TheAxeC/cardinal-revamped
       duration: Jan. 2015 - Current
       role: Lead Developer
       about: |
@@ -394,21 +402,23 @@ projects:
       about: |
         This repository serves as a step-by-step tutorial for running federated learning studies with the FL4E framework. Using the Wisconsin Breast Cancer dataset as an example, it guides researchers and students through the full workflow.
         Clear documentation and markdown guides explain each step, making it easier for newcomers to understand and apply federated learning in practice.
-    # - title: Reinforcement Learning Agent in Google Deepmind's StarCraft II Framework
-    #   url: ""
-    #   duration: Feb. 2018 - Jul. 2018
-    #   role: Developer
-    #   min: true
-    #   about: |
-    #       Implement reinforcement learning algorithms in PySC2 utilising the KU Leuven supercomputer.
+    - title: Reinforcement Learning Agent in Google Deepmind's StarCraft II Framework
+      url: ""
+      duration: Feb. 2018 - Jul. 2018
+      role: Developer
+      min: true
+      hide: true
+      about: |
+          Implement reinforcement learning algorithms in PySC2 utilising the KU Leuven supercomputer.
 
-    # - title: IoT-platform with pluggable sensors
-    #   url: ""
-    #   duration: Feb. 2017 - Jul. 2017
-    #   role: Developer
-    #   min: true
-    #   about: |
-    #     Large-scale use of Internet of Things sensors
+    - title: IoT-platform with pluggable sensors
+      url: ""
+      duration: Feb. 2017 - Jul. 2017
+      role: Developer
+      min: true
+      hide: true
+      about: |
+        Large-scale use of Internet of Things sensors
 
     - title: ICAL parser for KU Leuven schedules
       url: https://github.com/TheAxeC/ical-kuleuven
@@ -417,14 +427,15 @@ projects:
       about: |
         A Node.js application to create an iCalendar file for courses at KU Leuven. (>1000 active users)
 
-    # - title: "Search and Recommendation System"
-    #   url: ""
-    #   duration: Feb. 2016 - Jul. 2016
-    #   role: Team Member
-    #   min: true
-    #   about: |
-    #     A search and recommendation system for VoD (Video on Demand) for Androme. 
-    #     In production in the Nebula project.
+    - title: "Search and Recommendation System"
+      url: ""
+      duration: Feb. 2016 - Jul. 2016
+      role: Team Member
+      min: true
+      hide: true
+      about: |
+        A search and recommendation system for VoD (Video on Demand) for Androme.
+        In production in the Nebula project.
 
     - title: "Household Survival: Immersive Room-Sized Gaming Using Everyday Objects as Weapons (Unity, Optitrack Motion Capture)"
       url: https://www.youtube.com/watch?v=Q4_rK2upGEY
@@ -435,13 +446,62 @@ projects:
         Demonstrated immersive physical-virtual interactions. 
         Still used in university courses as a teaching example.
 
-    # - title: "Visual Programming IDE"
-    #   url: https://github.com/TheAxeC/AxeSki
-    #   duration: Feb. 2015 - Jul. 2015
-    #   role: Developer
-    #   min: true
-    #   about: |
-    #     A Visual programming IDE (Java)
+    - title: "Cardinal: a small, fully dynamic scripting language"
+      url: https://github.com/TheAxeC/cardinal
+      duration: Sep. 2015 - Oct. 2016
+      role: Lead Developer
+      hide: true
+      about: |
+        A small, fully dynamic scripting language on the Wren VM, with a debugger, an embedding API and optional manual memory management. Superseded by Cardinal (revamped).
+
+    - title: "cv-autogenerator"
+      url: https://github.com/TheAxeC/cv-autogenerator
+      duration: Oct. 2017 - May 2024
+      role: Developer
+      hide: true
+      about: |
+        A Python script that generates a CV from YAML data files and LaTeX templates (Awesome-CV).
+
+    - title: "GitHub profile README"
+      url: https://github.com/TheAxeC/TheAxeC
+      duration: Mar. 2025 - Current
+      role: Developer
+      hide: true
+      about: |
+        Source of the GitHub profile README.
+
+    - title: "Honours project: an optimising compiler for Eff"
+      url: https://github.com/TheAxeC/honoursproject-effect-handler-optimization
+      duration: 2016 - 2017
+      role: Honours student
+      hide: true
+      about: |
+        Honours project (KU Leuven): an optimising compiler for the Eff language that uses its type-and-effect system to remove effect handlers.
+
+    - title: "Honours project: a core language with row-based effects"
+      url: https://github.com/TheAxeC/honoursproject-row-based-effects
+      duration: 2017 - 2018
+      role: Honours student
+      hide: true
+      about: |
+        Honours project (KU Leuven): a core language with row-based effects, designed for optimised compilation of effect handlers.
+
+    - title: "Honours project proposal: quasi-Monte Carlo point sets on collections of triangles"
+      url: https://github.com/TheAxeC/quasi-monte-carlo-points-on-collections-of-triangles
+      duration: 2018
+      role: Honours student
+      hide: true
+      about: |
+        Honours project proposal (KU Leuven, in Dutch): quasi-Monte Carlo point sets on collections of triangles.
+
+    - title: "Visual Programming IDE"
+      url: https://github.com/TheAxeC/AxeSki
+      duration: Feb. 2015 - Jul. 2015
+      role: Developer
+      min: true
+      hide: true
+      about: |
+        A Visual programming IDE (Java)
 
 awards:
   title: Honors & Awards
