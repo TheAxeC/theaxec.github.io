@@ -14,15 +14,15 @@
 
 <div class="listlayout">
   <nav class="secnav">
-    {% for coll in site.data.data %}{% if coll[0] != "personal" %}<a href="#{{ coll[0] }}">{{ coll[1].title }}</a>{% endif %}{% endfor %}
+    {% for coll in site.data.data %}{% if coll[0] != "personal" %}{% assign seckey = coll[0] %}<a href="#{{ coll[0] }}">{{ site.data.website.sections[seckey] }}</a>{% endif %}{% endfor %}
   </nav>
   <div class="listbody">
-    {% for coll in site.data.data %}{% if coll[0] != "personal" %}
+    {% for coll in site.data.data %}{% if coll[0] != "personal" %}{% assign seckey = coll[0] %}
     {% comment %} A section flows into two columns when none of its entries carry a long description. {% endcomment %}
     {% assign hasLong = false %}
     {% for item in coll[1].content %}{% unless item.hide %}{% if item.about and item.about != "" or item.content and item.content != "" %}{% assign hasLong = true %}{% endif %}{% endunless %}{% endfor %}
     <section class="psec" id="{{ coll[0] }}">
-      <h2 class="psec-h">{{ coll[1].title }}</h2>
+      <h2 class="psec-h">{{ site.data.website.sections[seckey] }}</h2>
       {% if hasLong %}
       {% for item in coll[1].content %}{% unless item.hide %}
       <article class="cv-item">

@@ -26,7 +26,7 @@ knows_about:
   - Precision medicine
   - Brain-computer interfaces
 
-# The CV's own parts of its person block, which the research hub writes into _data/data.yml under `personal`, and from which the employer CVs (_data/industry.yml) take the parts the hub's career file names.
+# The CV's own parts of its person block: the CV templates of _scripts/src read them from here, and _industry/cv_pdf_generator.py takes the portrait for the employer CVs.
 cv:
   titles:
     # - Postdoctoral Researcher
@@ -43,7 +43,7 @@ cv:
   author: Axel Faes
   website: https://theaxec.github.io
 
-# The title of each section of the CV (_data/data.yml) and of the publications (_data/publications.yml), by the section's key, which the research hub writes each file with.
+# The title of each section of the CV (_data/data.yml) and of the publications (_data/publications.yml), by the section's key, and `publications`, the title above the groups in the CV. _includes/site/about.html, _includes/site/publications.html and the CV templates of _scripts/src read them from here.
 sections:
   references: References
   experience: Work & Research Experience
@@ -56,6 +56,14 @@ sections:
   awards: Honors & Awards
   extracurricular: Professional Development Activities
   publications: Publications
+  papers-in-review: Papers in Review
+  papers-in-preparation: Papers in Preparation
+  journal: International Journal Papers
+  conference: Conference Papers
+  other-publications: Other publication
+  thesis: Thesis
+  abstracts: Extended Abstracts
+  posters: Posters
 
 research:
   title: Research Diary

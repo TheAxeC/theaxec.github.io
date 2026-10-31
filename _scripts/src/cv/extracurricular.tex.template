@@ -1,4 +1,4 @@
-\cvsection{{% emit(data['extracurricular']['title']) %}}
+\cvsection{{% emit(website['sections']['extracurricular']) %}}
 \begin{cvoneliners}
 {%
   for i in (data['extracurricular']['content']):

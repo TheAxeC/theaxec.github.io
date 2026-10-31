@@ -52,13 +52,13 @@
 %-------------------------------------------------------------------------------
 
 % Available options: circle|rectangle,edge/noedge,left/right
-\photo[circle,edge,left]{{% emit(data['personal']['photo_loc']+data['personal']['portrait_url']) %}}
+\photo[circle,edge,left]{{% emit(data['personal']['photo_loc']+website['cv']['portrait_url']) %}}
 
 \name{{% emit(data['personal']['first-name']) %}}{{% emit(data['personal']['last-name']) %}}
 \position{
 {% 
-nb = len(data['personal']['titles'])
-for title in data['personal']['titles']:
+nb = len(website['cv']['titles'])
+for title in website['cv']['titles']:
   emit(title)
   nb = nb - 1
   if nb > 0:
@@ -88,7 +88,7 @@ for title in data['personal']['titles']:
   {} % \thepage
  
 \input{cv/experience.tex}
-\cvsection{{% emit(data['academic']['title']) %}}
+\cvsection{{% emit(website['sections']['academic']) %}}
 \begin{cvoneliners}
 {%
   for i in (data['academic']['content']):
@@ -107,7 +107,7 @@ for title in data['personal']['titles']:
 \newpage
 {% check_minimal("\\input{cv/publications.tex}") %}
 
-\cvsection{{% emit(data['references']['title']) %}}
+\cvsection{{% emit(website['sections']['references']) %}}
 \begin{cvoneliners}
 {%
   for i in (data['references']['content']):

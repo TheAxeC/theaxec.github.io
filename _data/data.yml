@@ -3,16 +3,6 @@
 personal:
   first-name: Axel
   last-name: Faes
-  titles:
-    - Postdoctoral Researcher in AI for Healthcare
-    - Federated Learning
-    - Precision Medicine
-    - Brain-Computer Interfaces
-  portrait_url: /assets/images/photos/axel.jpg
-  footer: Curriculum Vitae
-  secondary-title: Supervised students, talks and other media
-  author: Axel Faes
-  website: https://theaxec.github.io
   links:
     email: axel.faes[at]utwente.nl
     googlescholar: abRAHJEAAAAJ
@@ -21,7 +11,6 @@ personal:
     homepage: theaxec.github.io
     orcid: 0000-0002-1637-255X
 references:
-  title: References
   content:
     - name: Maryam Amir Haeri
       email: m.amirhaeri@utwente.nl
@@ -36,7 +25,6 @@ references:
       email: yves.moreau[at]kuleuven.be
       reason: Full Professor (Collaborator)
 experience:
-  title: Work & Research Experience
   content:
     - title: "Postdoctoral Researcher: Foundation Models & Multi-Modal Federated Learning for Precision Medicine and Liver Cancer Detection"
       location: University of Twente / Medisch Spectrum Twente
@@ -92,7 +80,6 @@ experience:
         Interfacing between human entity, a drone and virtual objects @ Expertise centre for Digital Media (EDM). 
         (C++, Optitrack motion capture, custom built drone)
 academic:
-  title: Teaching & Academic Activities
   content:
     - title: Bioinformatics (3740) Coordinating lecturer
       location: UHasselt
@@ -126,7 +113,6 @@ academic:
       duration: "2026"
       hide: true
 students:
-  title: Students
   content:
     - title: Brecht Heeren
       location: Federated Machine Learning for Health Data
@@ -180,7 +166,6 @@ students:
       location: Neural Network Approach to the Inverse Problem
       duration: Master of Science in Artificial Intelligence (2020-2021)
 news:
-  title: Talks, presentations and other media
   content:
     - title: "Federate What Transfers: Component-Aware Federation of Self-Supervised Backbones for Longitudinal 3D MRI"
       location: IEEE FLTA (International Conference on Federated Learning Technologies and Applications)
@@ -258,7 +243,6 @@ news:
       duration: 2016
       url: https://www.youtube.com/watch?v=Q4_rK2upGEY
 education:
-  title: Educational background
   content:
     - title: Flemish Sign Language course
       location: Flemish Sign Language Centre
@@ -301,7 +285,6 @@ education:
         Physics and General courses (79% - Magna Cum Laude)
         Thesis: Machine learning techniques for flow-based network intrusion detection systems (on Github)
 grants:
-  title: Grants & Funding
   content:
     - title: "The Self-Explaining Hospital: Readable, Private Clinical Models That Travel Between Institutions"
       url: ""
@@ -318,7 +301,6 @@ grants:
       about: |
         Funder: NWO, Open Competition Domain Science XS (ENW-XS), Life Sciences cluster
 projects:
-  title: Projects
   content:
     - title: Federated Learning for Population Health Management (FL4PHM)
       url: ""
@@ -472,7 +454,6 @@ projects:
       about: |
         A Visual programming IDE (Java)
 awards:
-  title: Honors & Awards
   content:
     - award: Selected for EFSA Framework Contract
       event: European Food Safety Authority
@@ -517,7 +498,6 @@ awards:
       date: 2016-01-01 15:59:00-0400
       location: Brussels, Belgium
 extracurricular:
-  title: Professional Development Activities
   content:
     - title: Twente Health School (summer school)
       location: University of Twente

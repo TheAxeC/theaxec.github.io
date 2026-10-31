@@ -1,4 +1,4 @@
-\cvsection{{% emit(data['grants']['title']) %}}
+\cvsection{{% emit(website['sections']['grants']) %}}
 
 \begin{cventries}
 {%

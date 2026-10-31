@@ -1,4 +1,4 @@
-\cvsection{ {% emit(data['awards']['title']) %} }
+\cvsection{ {% emit(website['sections']['awards']) %} }
 \begin{cvhonors}
 {%
   for i in (data['awards']['content']):

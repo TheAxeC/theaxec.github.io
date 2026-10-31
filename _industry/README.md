@@ -35,9 +35,9 @@ items in `industry.yml`.
 
 ## Where the content lives
 
-All text is in **`../_data/industry.yml`**:
+The text is in **`../_data/industry.yml`**, and the portrait comes from `cv.portrait_url` of **`../_data/website.yml`**:
 
-- `shared.personal`, name, photo, contact links (common to every profile).
+- `shared.personal`, name and contact links (common to every profile).
 - `profiles.<name>`, one block per target. Each supplies its own `titles`,
   `summary`, `skills`, `experience`, `projects`, `education`, `awards`, and a
   `letter` (recipient, date, title, opening, body, closing).

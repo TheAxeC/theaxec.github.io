@@ -7,7 +7,7 @@
 
 <div class="listlayout">
   <nav class="secnav">
-    {% for seckey in section_order %}{% assign coll = site.data.publications[seckey] %}{% if coll %}<a href="#{{ seckey }}">{{ coll.title }}</a>{% endif %}{% endfor %}
+    {% for seckey in section_order %}{% assign coll = site.data.publications[seckey] %}{% if coll %}<a href="#{{ seckey }}">{{ site.data.website.sections[seckey] }}</a>{% endif %}{% endfor %}
   </nav>
   <div class="listbody">
     {% assign i = 0 %}
@@ -15,7 +15,7 @@
     {% assign coll = site.data.publications[seckey] %}
     {% if coll %}
     <section class="psec" id="{{ seckey }}">
-      <h2 class="psec-h">{{ coll.title }}</h2>
+      <h2 class="psec-h">{{ site.data.website.sections[seckey] }}</h2>
       {% for item in coll.papers %}{% unless item.hide %}
       {% assign i = i | plus: 1 %}
       <article class="pitem">

@@ -5,8 +5,9 @@ Reuses the Awesome-CV templating engine from ../_scripts/cv_pdf_generator.py
 (the `Template` class) and the same src/-templates -> _tmp/ -> xelatex pipeline,
 but renders an INDUSTRY-tailored CV instead of the academic one.
 
-A single data file (../_data/industry.yml) holds shared personal info plus one
-block per *profile*. Switch profile with --profile:
+One data file (../_data/industry.yml) holds the shared names and links plus one
+block per *profile*, and the site's own file (../_data/website.yml) gives the
+portrait. Switch profile with --profile:
 
     python cv_pdf_generator.py --profile analyst   # Senior Data Analyst (Guerrilla Games)
     python cv_pdf_generator.py --profile pharma    # Biomedical / pharma data science
@@ -31,10 +32,11 @@ from cv_pdf_generator import Template  # noqa: E402
 
 
 class IndustryGenerate:
-    def __init__(self, src, dst, data_file, profile, latex, quiet=False, compact=False):
+    def __init__(self, src, dst, data_file, site_file, profile, latex, quiet=False, compact=False):
         self.src = src
         self.dst = dst
         self.data_file = data_file
+        self.site_file = site_file
         self.profile = profile
         self.latex = latex
         self.quiet = quiet
@@ -45,6 +47,8 @@ class IndustryGenerate:
     def computeContext(self):
         with open(self.data_file, "r") as stream:
             raw = yaml.safe_load(stream)
+        with open(self.site_file, "r") as stream:
+            site = yaml.safe_load(stream)
 
         if self.profile not in raw["profiles"]:
             available = ", ".join(raw["profiles"].keys())
@@ -57,6 +61,7 @@ class IndustryGenerate:
 
         personal = dict(shared.get("personal", {}))
         personal["titles"] = prof.get("titles", personal.get("titles", []))
+        personal["portrait_url"] = site["cv"]["portrait_url"]
         personal["photo_loc"] = "../../"
 
         data = {"personal": personal}
@@ -192,6 +197,7 @@ def main():
         src="./src/",
         dst="./_tmp/",
         data_file="../_data/industry.yml",
+        site_file="../_data/website.yml",
         profile=args.profile,
         latex="xelatex",
         quiet=args.quiet,

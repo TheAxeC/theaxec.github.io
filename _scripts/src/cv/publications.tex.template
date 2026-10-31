@@ -1,4 +1,4 @@
-\cvsection{ {% emit(publications['title']) %} }
+\cvsection{ {% emit(website['sections']['publications']) %} }
 
 {%
 types = [
@@ -18,7 +18,7 @@ for type in types:
   if len(publications[type]['papers']) <= 0: continue
 
   emit_tex('\\cvsubsection')
-  emit_braces(publications[type]['title'])
+  emit_braces(website['sections'][type])
 
   emit_tex('\\begin{cvpapers}')
   emit('\n')
@@ -27,14 +27,14 @@ for type in types:
     emit_tex('\\cvpaper ')
     emit('\n')
     if "*" in i['authors']:
-        emit_tex('{'+i['authors'].replace(data['personal']['author'], '\\textbf{'+data['personal']['author']+'}')+' (* co-first author)}')
+        emit_tex('{'+i['authors'].replace(website['cv']['author'], '\\textbf{'+website['cv']['author']+'}')+' (* co-first author)}')
     else:
-        emit_tex('{'+i['authors'].replace(data['personal']['author'], '\\textbf{'+data['personal']['author']+'}')+'}')
+        emit_tex('{'+i['authors'].replace(website['cv']['author'], '\\textbf{'+website['cv']['author']+'}')+'}')
     emit('\n')
 
     if 'url' in i and i['url'] != None:
       url = i['url']
-      if url.startswith('/'): url = data['personal']['website'] + url
+      if url.startswith('/'): url = website['cv']['website'] + url
       emit_braces(url)
       emit('\n')
     else:
@@ -59,7 +59,7 @@ for type in types:
   emit_tex('\\end{cvpapers}')
 %}
 
-\cvsection{ {% emit(data['personal']['secondary-title']) %} }
+\cvsection{ {% emit(website['cv']['secondary-title']) %} }
 
 {%
 
@@ -70,7 +70,7 @@ types = [
 for type in types:
     nb = 1
     emit_tex('\\cvsubsection')
-    emit_braces(data[type]['title'])
+    emit_braces(website['sections'][type])
 
     emit_tex('\\begin{cvnews}')
     emit('\n')

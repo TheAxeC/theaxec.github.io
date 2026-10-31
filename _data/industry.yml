@@ -4,9 +4,6 @@ shared:
   personal:
     first-name: Axel
     last-name: Faes
-    portrait_url: /assets/images/photos/axel.jpg
-    author: Axel Faes
-    website: https://theaxec.github.io
     links:
       location: Netherlands | EU citizen (no visa required)
       email: axel.faes[at]gmail.com

@@ -1,4 +1,4 @@
-\cvsection{{% emit(data['experience']['title']) %}}
+\cvsection{{% emit(website['sections']['experience']) %}}
 
 \begin{cventries}
 {%

@@ -1,7 +1,7 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 % Industry-focused CV -- Awesome CV (https://github.com/posquit0/Awesome-CV)
-% Generated from ../_data/industry.yml by ../cv_pdf_generator.py
+% Generated from ../_data/industry.yml and ../_data/website.yml by ../cv_pdf_generator.py
 
 \documentclass[11pt, a4paper]{awesome-cv}
 
