@@ -363,6 +363,11 @@ projects:
       about: |
         This repository serves as a step-by-step tutorial for running federated learning studies with the FL4E framework. Using the Wisconsin Breast Cancer dataset as an example, it guides researchers and students through the full workflow.
         Clear documentation and markdown guides explain each step, making it easier for newcomers to understand and apply federated learning in practice.
+    - title: Oculus
+      url: https://github.com/TheAxeC/oculus
+      duration: 2026 - Current
+      role: Lead Developer
+      about: An open-source desktop workbench that brings the projects, manuscripts, grants, data and code of a research hub into one VS Code-like app.
     - title: Reinforcement Learning Agent in Google Deepmind's StarCraft II Framework
       url: ""
       duration: Feb. 2018 - Jul. 2018
@@ -406,7 +411,7 @@ projects:
       hide: true
       about: |
         A small, fully dynamic scripting language on the Wren VM, with a debugger, an embedding API and optional manual memory management. Superseded by Cardinal (revamped).
-    - title: cv-autogenerator
+    - title: CV Autogenerator
       url: https://github.com/TheAxeC/cv-autogenerator
       duration: Oct. 2017 - May 2024
       role: Developer
