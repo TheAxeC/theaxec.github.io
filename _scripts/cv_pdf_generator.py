@@ -82,8 +82,6 @@ class Template():
             return " and ".join([", ".join(arg[:-1]),arg[-1]] if len(arg) > 2 else arg)
         def check_minimal(arg):
             if not minimal: result.extend(arg)
-        def is_minimal():
-            return minimal
 
         global_context['emit'] = emit
         global_context['fmt_emit'] = fmt_emit
@@ -93,7 +91,6 @@ class Template():
         global_context['to_specific_date'] = to_specific_date
         global_context['list_to_string'] = list_to_string
         global_context['check_minimal'] = check_minimal
-        global_context['is_minimal'] = is_minimal
 
         # run the code
         result = []

@@ -3,7 +3,6 @@
 \begin{cventries}
 {%
   for i in data['experience']['content']:
-    if ('min' in i) and (not i['min']) and is_minimal(): continue
     if 'hide' in i and i['hide'] == True: continue
     emit_tex('\\cventry')
     emit_braces(i['location'])
