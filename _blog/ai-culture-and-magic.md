@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Magic in AI Culture"
-category: research
+category: essay
 publish: True
 date: 2026-10-25
 ---

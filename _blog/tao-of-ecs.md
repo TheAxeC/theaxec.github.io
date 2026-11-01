@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The TAO of ECS"
-category: research
+category: programming
 publish: True
 date: 2026-07-22
 ---

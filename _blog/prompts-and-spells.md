@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Prompts and Spells"
-category: research
+category: essay
 publish: True
 date: 2026-10-26
 ---
