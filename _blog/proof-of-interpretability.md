@@ -10,6 +10,12 @@ A clinician shown a heatmap of what a medical imaging model looked at cannot tel
 
 That baseline holds no information about the individual patient, and it beat almost every saliency method. It scored 0.47 on AUPRC, the area under the precision-recall curve, here a measure of overlap with the radiologists' boxes. Every saliency method tested scored lower except XRAI, at 0.52.
 
+<figure class="chart">
+<img class="only-light" src="{{ '/assets/images/proof-of-interpretability/proof-average-box-light.svg' | relative_url }}" alt="Dot plot. RetinaNet 0.59, XRAI 0.52, average box 0.47, SIG 0.16.">
+<img class="only-dark" src="{{ '/assets/images/proof-of-interpretability/proof-average-box-dark.svg' | relative_url }}" alt="Dot plot. RetinaNet 0.59, XRAI 0.52, average box 0.47, SIG 0.16.">
+<figcaption>Mean AUPRC on pneumonia, with standard deviations of 0.13 to 0.27. The other six saliency methods scored below the average box.</figcaption>
+</figure>
+
 XRAI then failed a test that randomises the numbers a model has learned, on both pneumonia and pneumothorax, a collapsed lung. On pneumonia, two other methods scored higher on randomised models than on trained ones. Overlap with an expert therefore did not track what the model had learned.
 
 No single test proves that a model is interpretable. A defensible claim names the explanation, the model, the purpose and the tests the explanation passed.

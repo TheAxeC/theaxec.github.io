@@ -209,6 +209,12 @@ nav .links a.active{color:var(--ink)}
 .post-meta .cat{color:var(--accent)}
 .post .post-title{margin-bottom:1.6rem}
 .post .post-body h1{font-size:1.85rem;line-height:1.1;margin:2rem 0 .8rem;letter-spacing:-.015em}
+.post .post-body figure.chart{margin:1.6rem 0}
+.post .post-body figure.chart img{display:block;width:100%;max-width:600px;margin:0 auto;border:0;border-radius:0}
+.post .post-body figure.chart img.only-dark{display:none}
+:root[data-theme="dark"] .post .post-body figure.chart img.only-dark{display:block}
+:root[data-theme="dark"] .post .post-body figure.chart img.only-light{display:none}
+.post .post-body figure.chart figcaption{margin-top:.6rem;font-size:.92rem;line-height:1.45;color:var(--muted);text-align:center}
 .post .post-body img{max-width:100%;height:auto;border-radius:10px;border:1px solid var(--line);margin:1.2rem 0}
 .post .post-body pre{background:var(--code-bg);color:#e7ecf2;padding:1rem 1.2rem;border-radius:8px;overflow:auto;font-size:.86rem;margin:1.2rem 0}
 .post .post-body pre code{background:none;color:inherit;padding:0}

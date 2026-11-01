@@ -21,6 +21,12 @@ An early warning paper can be making any of these claims:
 - **Acute alert:** a warning ahead of an event during a hospital stay. For an updated sepsis model, [Wong and colleagues (2026)](https://doi.org/10.1001/jamanetworkopen.2026.0181) reported a lead of 1.9 to 10.3 hours before patients met the sepsis definition and 1.4 to 7.1 hours ahead of clinician recognition. The second range is the one that compares the model with the clinician.
 - **Screening gain:** a diagnosis moves to an earlier date. The comparator is the same patients without screening, and an earlier date may or may not change how long anyone lives.
 
+<figure class="chart">
+<img class="only-light" src="{{ '/assets/images/what-early-means/early-timeline-light.svg' | relative_url }}" alt="Schematic. A future event claim scores an exam before disease starts. A hidden disease claim scores an exam between disease start and the clinician acting. An acute alert speaks shortly before the clinician acts. A screening gain moves the diagnosis earlier and may leave the date of death unchanged.">
+<img class="only-dark" src="{{ '/assets/images/what-early-means/early-timeline-dark.svg' | relative_url }}" alt="Schematic. A future event claim scores an exam before disease starts. A hidden disease claim scores an exam between disease start and the clinician acting. An acute alert speaks shortly before the clinician acts. A screening gain moves the diagnosis earlier and may leave the date of death unchanged.">
+<figcaption>Where each claim sits on one patient's timeline. Schematic, not to scale.</figcaption>
+</figure>
+
 ## Clinician-defined onset
 
 One standard definition of sepsis onset rests on clinician behaviour. In [Seymour and colleagues (2016)](https://doi.org/10.1001/jama.2016.0288), antibiotics and body fluid cultures, lab tests that look for microbes, define suspected infection, and "The "onset" of infection was defined as the time at which the first of these 2 events occurred". On this definition, "before onset" means before a clinician acted.
@@ -41,6 +47,12 @@ The papers below report one model under two designs. In each row the model stays
 | Same, above age 50 | Exclude last 3 months of records | 0.753 | 0.674 | -0.079 |
 | Same, no exclusion | All ages to above age 50 | 0.879 | 0.753 | -0.126 |
 | Mammography, 7 sites | Exclude cancers within 6 months | 0.75-0.84 | 0.69-0.78 | -0.03 to -0.10 by site |
+
+<figure class="chart">
+<img class="only-light" src="{{ '/assets/images/what-early-means/early-design-light.svg' | relative_url }}" alt="Dumbbell chart of the six rows of the table above. Every score falls. The mammography row shows the range across sites before and after.">
+<img class="only-dark" src="{{ '/assets/images/what-early-means/early-design-dark.svg' | relative_url }}" alt="Dumbbell chart of the six rows of the table above. Every score falls. The mammography row shows the range across sites before and after.">
+<figcaption>The rows of the table, AUROC or C-index on one axis. The mammography row shows the range across sites.</figcaption>
+</figure>
 
 The pancreatic rows, from [Placido and colleagues (2023)](https://doi.org/10.1038/s41591-023-02332-5), show that restricting age cost more than the exclusion did. Above age 50, the score fell further with longer exclusions, to 0.646 at 6 months and 0.638 at 12.
 

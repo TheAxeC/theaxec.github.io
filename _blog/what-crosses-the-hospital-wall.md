@@ -19,6 +19,12 @@ For each object, the questions are what it reveals, who has to be watching and w
 
 Three of my own projects release part of a model, a summary and a patient score.
 
+<figure class="chart">
+<img class="only-light" src="{{ '/assets/images/what-crosses-the-hospital-wall/wall-objects-light.svg' | relative_url }}" alt="Six arrows cross the hospital boundary: gradient, model weights, sum under secure aggregation, part of a model, summary in a few components and score for each patient. A published attack was found on all but part of a model.">
+<img class="only-dark" src="{{ '/assets/images/what-crosses-the-hospital-wall/wall-objects-dark.svg' | relative_url }}" alt="Six arrows cross the hospital boundary: gradient, model weights, sum under secure aggregation, part of a model, summary in a few components and score for each patient. A published attack was found on all but part of a model.">
+<figcaption>The six objects that can leave a hospital, and whether I found a published attack on each.</figcaption>
+</figure>
+
 ## Gradients
 
 A gradient is computed on a batch of training examples. In the plainest federated learning, each site sends the server its gradient or its updated weights after each round.
