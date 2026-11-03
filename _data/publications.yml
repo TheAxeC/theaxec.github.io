@@ -173,9 +173,9 @@ papers-in-review:
       abstract: ""
 papers-in-preparation:
   papers:
-    - authors: Jasper van Leengoed, Axel Faes, Maryam Amir Haeri, Donald Bouman, Stephanie van den Berg, Maureen Guichelaar
-      title: "Prediction of hepatocellular carcinoma by MRI: the development of MRI-HCC prediction model"
-      order: coauthor
+    - authors: Axel Faes*, Jasper van Leengoed*, Maryam Amir Haeri, Donald Bouman, Stephanie van den Berg, Maureen Guichelaar
+      title: "Prediction of hepatocellular carcinoma three years ahead from surveillance MRI of the liver parenchyma"
+      order: first
       program:
         - hcc
       book: ""
