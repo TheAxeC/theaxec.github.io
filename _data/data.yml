@@ -28,20 +28,20 @@ experience:
   content:
     - title: "Postdoctoral Researcher: Foundation Models & Multi-Modal Federated Learning for Precision Medicine and Liver Cancer Detection"
       location: University of Twente / Medisch Spectrum Twente
-      duration: January 2026 - Current
+      duration: Jan. 2026 - Current
       about: |
         Developing advanced deep learning and foundation models integrating longitudinal MRI data, multi-omics profiles, and clinical variables for early detection and risk prediction of hepatocellular carcinoma (HCC).
         Building explainable AI (XAI) frameworks that link imaging features and molecular markers to clinically meaningful outcomes in precision oncology within the AI-HCC ZonMw project, in the CoDE group (Cognition, Data and Education).
     - title: "Postdoctoral Researcher: Federated Learning in Healthcare & Real-World Evidence"
       location: UHasselt
-      duration: January 2024 - January 2026 (Research Affiliate from 2026)
-      about: |
+      duration: Jan. 2024 - Jan. 2026
+      about: |-
         Scientific Coordinator of the Flanders AI Research Program Use Case Real World Evidence, leading multi-institutional research on privacy-preserving healthcare analytics. As Technical Machine Learning Lead of the Biomedical Data Sciences Group (Prof. Liesbet Peeters), developed federated learning frameworks enabling collaborative clinical research across Belgian healthcare institutions without sharing sensitive patient data.
 
-        Research encompasses federated tensor regression for longitudinal health data, distributed learning architectures for heterogeneous clinical datasets, and translation of federated AI methods into practical healthcare applications.
+        Research encompasses federated tensor regression for longitudinal health data, distributed learning architectures for heterogeneous clinical datasets, and translation of federated AI methods into practical healthcare applications. Research Affiliate from 2026.
     - title: "Postdoctoral Researcher: Deep Learning & Tensor Regression for Sign Language Alphabet Decoding via Brain-Computer Interfaces"
       location: KU Leuven
-      duration: May 2023 - January 2024
+      duration: May 2023 - Jan. 2024
       about: |
         Developed advanced machine learning methods for decoding sign language alphabet gestures from high-density intracranial brain activity (ECoG). Combined deep learning architectures with tensor regression models to capture complex spatiotemporal patterns in neural signals associated with linguistic motor control.
 
@@ -83,19 +83,19 @@ academic:
   content:
     - title: Bioinformatics (3740) Coordinating lecturer
       location: UHasselt
-      duration: Sept. 2025 - Sept. 2026
+      duration: Sep. 2025 - Sep. 2026
     - title: BKO (Basic Teaching Qualification) - Teacher Professionalization
       location: UHasselt
-      duration: 2025
+      duration: "2025"
     - title: Data Science in Healthcare (4747) Lecturer (teaching team member)
       location: UHasselt
-      duration: Sept. 2025 - Dec. 2025
+      duration: Sep. 2025 - Dec. 2025
     - title: Advanced Topics in Data Science (4569 & 4585) Lecturer Federated Learning (teaching team member)
       location: UHasselt
-      duration: June 2024 - Sept. 2025
+      duration: Jun. 2024 - Sep. 2025
     - title: Bioinformatics (3740) Coordinating lecturer
       location: UHasselt
-      duration: Sept. 2024 - Sept. 2025
+      duration: Sep. 2024 - Sep. 2025
     - title: Guest Associate Editor Use of Big Data and Artificial Intelligence in Multiple Sclerosis
       location: Frontiers in Immunology
       duration: 2024 - 2025
@@ -107,140 +107,142 @@ academic:
       duration: "2024"
     - title: Brain-Computer Interfacing (B-KUL-H08M0A) Guest Lecturer
       location: KU Leuven
-      duration: 2022-2025
+      duration: 2022 - 2025
     - title: MSc thesis assessor (second reader)
       location: UHasselt
       duration: "2026"
-      hide: true
+    - title: Data Science Support for PhD Students (BIOMED), data science expert
+      location: UHasselt
+      duration: "2024"
 students:
   content:
     - title: Brecht Heeren
       location: Federated Machine Learning for Health Data
-      duration: Master of Science in Computer Science (2025-2026)
+      duration: Master of Science in Computer Science (2025 - 2026)
     - title: Denzell Mgbokwere
       location: Optimization and Type Checking in Single-Pass Compilers - a Case Study with the Wren Programming Language
-      duration: Master of Science in Computer Science (2025-2026)
+      duration: Master of Science in Computer Science (2025 - 2026)
     - title: Robert Rysskin
       location: Redesign of Wren Bytecode - Towards More Efficient Execution and Memory Usage
-      duration: Master of Science in Computer Science (2025-2026)
+      duration: Master of Science in Computer Science (2025 - 2026)
     - title: Anh Phuong DO
       location: Individual Reference Intervals for Clinical Event Prediction
-      duration: Doctoral Program in Sciences, Statistics (co-supervisor, 2024 - 2025)
+      duration: Doctoral Program in Sciences, Statistics, co-supervisor (2024 - 2025)
     - title: Matteo Ramina
       location: Estimating Household Wealth in Guyana - Remote Sensing and Convolutional Neural Network Approach
-      duration: Master Statistics & Data Science (2024-2025)
+      duration: Master Statistics & Data Science (2024 - 2025)
     - title: Mohsen Soleimanisemsani
       location: AI for time series imputation
-      duration: Master Statistics & Data Science (2024-2025)
+      duration: Master Statistics & Data Science (2024 - 2025)
     - title: Meseret Assefa Kerga
       location: Predicting Cirrhosis Patient Survival Using Machine Learning - A Data-Driven Approach
-      duration: Master Statistics & Data Science (2024-2025)
+      duration: Master Statistics & Data Science (2024 - 2025)
     - title: Dongho Chun
       location: Clustering with Cardiovascular Health Data
-      duration: Master of Science in Computer Science (2024-2025)
+      duration: Master of Science in Computer Science (2024 - 2025)
     - title: Dries Cornelissen
       location: BTTR for arrhythmia detection/prediction on sinus rhythms
-      duration: Master of Science in Computer Science (2024-2025)
+      duration: Master of Science in Computer Science (2024 - 2025)
     - title: Ward Ceyssens
       location: Cross Subject training for finger movement decoding with high-density ECoG
-      duration: Master of Science in Computer Science (2024-2025)
+      duration: Master of Science in Computer Science (2024 - 2025)
     - title: Qiang Sun
       location: Hand exoskeleton dexterity achieved by shared control with a semi-invasive brain-computer interface
-      duration: Doctoral Program in Biomedical Sciences (daily supervision 2022-2023)
+      duration: Doctoral Program in Biomedical Sciences, daily supervision (2022 - 2023)
     - title: Eva Calvo Merino
       location: Restoring finger dexterity with an exoskeleton controlled by human intracranial recordings
-      duration: Doctoral Program in Biomedical Sciences (daily supervision 2022-2023)
+      duration: Doctoral Program in Biomedical Sciences, daily supervision (2022 - 2023)
     - title: Aurélie de Borman
       location: Investigating the effect of Source Mixing on Directed Connectivity estimated between Simulated Reconstructed EEG Sources
-      duration: Internship Student 2021
+      duration: Internship Student (2021)
     - title: Diogo Sousa Morais
       location: Estimating the effectiveness of source localized EEG for BCIs
-      duration: Internship Student 2021
+      duration: Internship Student (2021)
     - title: Guilherme de Borras Silva
       location: Cluster Permutation Analysis of N-Back related EEG-ERP Data
-      duration: Internship Student 2021
+      duration: Internship Student (2021)
     - title: Iris Vantieghem
       location: Using Neural Networks to derive Directed Connectivity between Reconstructed EEG Sources
-      duration: Master of Science in Artificial Intelligence (2020-2021)
+      duration: Master of Science in Artificial Intelligence (2020 - 2021)
     - title: Didier Quintius
       location: Neural Network Approach to the Inverse Problem
-      duration: Master of Science in Artificial Intelligence (2020-2021)
+      duration: Master of Science in Artificial Intelligence (2020 - 2021)
 news:
   content:
     - title: "Federate What Transfers: Component-Aware Federation of Self-Supervised Backbones for Longitudinal 3D MRI"
       location: IEEE FLTA (International Conference on Federated Learning Technologies and Applications)
-      duration: 2026
+      duration: Oct. 2026
     - title: Modality-Specific Encoding with a Shared Backbone for Early HCC Prediction from Multi-Modal Liver MRI
       location: 4th XAI-NL Meet-Up
-      duration: 2026
+      duration: "2026"
     - title: Optimizing Federated Block-Term Tensor Regression - Strategy Comparisons and Applications
       location: Symposium on Federated Learning and Intelligent Computing Systems (FLICS)
-      duration: 2025
+      duration: "2025"
     - title: Federated Learning for Healthcare - From Brain-Computer Interfaces to Disease Prediction
       location: IEEE FLTA (International Conference on Federated Learning Technologies and Applications)
-      duration: 2025
+      duration: "2025"
     - title: OHDSI Europe Symposium 2025
       location: OHDSI Europe Symposium
-      duration: 2025
+      duration: "2025"
     - title: Guest Lecture "Federated Finger movement decoding - brain-computer interfacing"
       location: KULeuven
-      duration: 2025
+      duration: "2025"
     - title: Use Case - Real-World Evidence
       location: Flanders Artificial Intelligence Research Program (FAIR) Research Day
-      duration: 2024
+      duration: "2024"
     - title: FAIR Use Case Real World Evidence Kick-off Event
       location: Flanders Artificial Intelligence Research Program (FAIR)
-      duration: 2024
+      duration: "2024"
     - title: Decoding finger movements from invasive recordings in human motor cortex
       location: Mindseed event Leuven, NeuroTech Leuven
-      duration: 2023
+      duration: "2023"
       url: https://www.ntxl.org/mindseed
     - title: Guest Lecture "Finger movement decoding - brain-computer interfacing"
       location: KULeuven
-      duration: 2023
+      duration: "2023"
     - title: Coordinated Finger Movements Predicted from Intracranial Brain Activity
       location: "International Congress Humanities vs Sciences & the Knowledge Accelerating in Modern World: Parallels an Interaction,"
-      duration: 2022
+      duration: "2022"
       url: /publications/other/hum-vs-sciences.pdf
     - title: BCI demo - Advanced Engineering, Antwerp Expo
       location: AI Flanders, Flanders Industry 4.0
-      duration: 2022
+      duration: "2022"
       url: https://www.ae-expo.be/en/
     - title: Guest Lecture "Decoding single and coordinated finger actions from intracranial brain activity"
       location: KULeuven
-      duration: 2022
+      duration: "2022"
     - title: Finger abduction trajectory prediction from high-density ECoG
       location: Leuven AI Scientific Workshop
-      duration: 2022
+      duration: "2022"
     - title: Decoding single and coordinated finger actions from intracranial brain activity.
       location: XIV World Scientific Congress - SCIENCE FOR PEACE Modern Science, Global and Regional Theory and Practice
-      duration: 2021
+      duration: "2021"
     - title: Guest Lecture "Finger Movement Decoding - From Source-Localisation to Tensor Regression Modelling"
       location: KULeuven
-      duration: 2021
+      duration: "2021"
     - title: Reconstructing single finger trajectories from intracranial brain activity
       location: III International Conference "Volga Neuroscience Meeting 2021"
-      duration: 2021
+      duration: "2021"
       url: /publications/abstracts/VNM2021.pdf
       about: |
         Leading scientists from all over the world will meet together to discuss topical problems in the field of neuroscience and artificial intelligence. The conference is organized by Lobachevsky State University of Nizhny Novgorod (UNN).
     - title: BCI demo - Day of Science
       location: Technopolis (canceled due to the COVID-19 situation)
-      duration: 2021
+      duration: "2021"
     - title: Presentation "'MINDSPELLER' Medical Research Project on Brain Computer Interfaces" and concert (with Tigran Maytesian and his Mind Speller Chamber Orchestra)
       location: Cathedral of St. Michael and St. Gudula, Brussels
-      duration: 2019
+      duration: "2019"
     - title: Honours student Axel Faes wins bronze medal in ACM SIGPLAN
       location: KU Leuven, Department of Computer Science
-      duration: 2017
+      duration: "2017"
       url: http://wms.cs.kuleuven.be/cs/nieuws/honours-student-axel-faes-wins-bronze-model-in-acm-sigplan
     - title: Student Axel Faes wins bronze medal in the ACM SIGPLAN Student Research Competition in ICFP conference
       location: KU Leuven, Department of Computer Science, DTAI
-      duration: 2017
+      duration: "2017"
       url: https://dtai.cs.kuleuven.be/news/student-axel-faes-wins-bronze-medal-acm-sigplan-student-research-competition-icfp-conference
     - title: Purpose-Centric Appropriation of Everyday Objects as Game Controllers
       location: ACM SIGCHI
-      duration: 2016
+      duration: "2016"
       url: https://www.youtube.com/watch?v=Q4_rK2upGEY
 education:
   content:
@@ -288,14 +290,14 @@ grants:
   content:
     - title: "The Self-Explaining Hospital: Readable, Private Clinical Models That Travel Between Institutions"
       url: ""
-      duration: 2026
+      duration: "2026"
       role: Applicant
       status: Submitted, decision pending
       about: |
         Funder: NWO, Veni scheme (pre-proposal)
     - title: "Before the tumour: an interpretable pre-lesional field trajectory that anticipates lesion emergence in the cirrhotic liver"
       url: ""
-      duration: 2026
+      duration: "2026"
       role: Applicant
       status: Submitted, decision pending
       about: |
@@ -441,7 +443,7 @@ projects:
         Honours project (KU Leuven): a core language with row-based effects, designed for optimised compilation of effect handlers.
     - title: "Honours project proposal: quasi-Monte Carlo point sets on collections of triangles"
       url: https://github.com/TheAxeC/quasi-monte-carlo-points-on-collections-of-triangles
-      duration: 2018
+      duration: "2018"
       role: Honours student
       hide: true
       about: |
@@ -501,11 +503,11 @@ extracurricular:
   content:
     - title: Twente Health School (summer school)
       location: University of Twente
-      duration: 2026
+      duration: "2026"
       about: Interdisciplinary health-research summer school at the University of Twente.
     - title: Mathematics & Natural Sciences Tutor
       location: Freelance
-      duration: Sept. 2015 - 2024
+      duration: Sep. 2015 - 2024
       about: Supporting high school and university students in mastering mathematics (and other natural sciences) through personalized tutoring
     - title: Coach
       location: DjangoGirls

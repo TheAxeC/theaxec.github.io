@@ -174,7 +174,7 @@ papers-in-review:
 papers-in-preparation:
   papers:
     - authors: Axel Faes*, Jasper van Leengoed*, Maryam Amir Haeri, Donald Bouman, Stephanie van den Berg, Maureen Guichelaar
-      title: "Prediction of hepatocellular carcinoma three years ahead from surveillance MRI of the liver parenchyma"
+      title: Prediction of hepatocellular carcinoma three years ahead from surveillance MRI of the liver parenchyma
       order: first
       program:
         - hcc

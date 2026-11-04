@@ -53,14 +53,13 @@ profiles:
       title: Experience
       content:
         - title: Postdoctoral Researcher - AI & Data Science
-          duration: Jan 2026 - Present
           about: |
             Build predictive models over large, longitudinal multi-modal datasets (imaging, molecular, clinical), owning the full pipeline from raw data to validated insight.
             Design explainable analytics that connect model outputs to the outcomes stakeholders care about, communicated to non-technical decision-makers.
           location: University of Twente / Medisch Spectrum Twente
+          duration: Jan. 2026 - Current
         - title: Scientific Coordinator & Machine-Learning Lead - Real-World Evidence
           location: UHasselt (Flanders AI Research Program)
-          duration: Jan 2024 - Jan 2026
           about: |
             Led a ~10-person, 4-institution analytics programme; converted open-ended objectives into concrete, measurable KPIs and well-scoped analyses for diverse stakeholders.
             Built distributed / federated analytics pipelines over heterogeneous, messy real-world datasets; owned data-quality, completeness and reliability checks across sites.
@@ -70,8 +69,8 @@ profiles:
             Led a ~10-person, 4-institution analytics programme; converted open-ended objectives into measurable KPIs and well-scoped analyses, designing the experiments and statistical evaluations to answer them.
             Built distributed / federated pipelines over heterogeneous real-world data; owned data quality across sites and delivered findings as clear recommendations.
             Mentored junior researchers; set reproducibility standards (Git, notebooks).
+          duration: Jan. 2024 - Jan. 2026
         - title: Researcher - Behavioural Signal Decoding (Brain-Computer Interfaces)
-          duration: 2018 - 2024
           about: |
             Analysed high-density behavioural and neural time-series (millions of events per session) to detect patterns and predict actions, using SQL-style querying and aggregation over large event streams.
             Designed and validated instrumentation and event pipelines for real-time behavioural data; monitored signal quality end-to-end.
@@ -80,6 +79,7 @@ profiles:
             Analysed high-density behavioural time-series (millions of events per session) to detect patterns and predict actions, using SQL-style querying and aggregation over large event streams.
             Designed and validated event pipelines and instrumentation; monitored data quality end-to-end and presented results visually to cross-disciplinary audiences.
           location: KU Leuven
+          duration: 2018 - 2024
         - title: Data Science Consultant
           about: |
             Delivered analytics consultancy for external partners: experiment design, signal detection / classification, and pragmatic ML modelling on behavioural sensor data.
@@ -90,48 +90,48 @@ profiles:
       content:
         - role: Researcher / Developer
           title: Household Survival - room-scale game using everyday objects as controllers (Unity, OptiTrack)
-          duration: 2015 - 2016
           about: |
             Built a room-scale game where brooms, fans and vacuums became controllers; 2nd place at the Belgian Game Development Championship and still used as a university teaching example.
           url: https://www.youtube.com/watch?v=Q4_rK2upGEY
+          duration: 2015 - 2016
         - role: Lead Developer
           title: iCal for KU Leuven - schedule generator (Node.js)
-          duration: 2016 - Present
           about: |
             A small product shipped to real users: generates calendar feeds for KU Leuven courses, with 1000+ active users.
           url: https://github.com/TheAxeC/ical-kuleuven
+          duration: 2016 - Current
         - role: Lead Developer
           title: Cardinal - VM & language platform (C++20)
           url: https://github.com/TheAxeC/Cardinal
-          duration: 2015 - Present
           about: |
             A clear, well-documented virtual machine used as a platform for student theses and language / compiler experiments.
+          duration: 2015 - Current
         - role: Author
           title: Reproducible federated-learning tutorial (Wisconsin Breast Cancer)
-          duration: 2025 - Present
           compact: false
           about: |
             Step-by-step, reproducible analysis walkthrough with documented markdown guides for newcomers.
           url: https://github.com/TheAxeC/federated-learning-tutorial
+          duration: 2025 - Current
     education:
       title: Education
       content:
         - title: PhD, Computational Neuroscience
           about: Large-scale time-series & tensor modelling
-          duration: 2018 - 2023
           location: KU Leuven
+          duration: 2018 - 2023
         - title: M.Sc. Artificial Intelligence (Cum Laude)
           about: Engineering & Computer Science
-          duration: 2017 - 2019
           location: KU Leuven
+          duration: 2017 - 2019
         - title: M.Sc. Computer Science Engineering (Cum Laude)
           about: AI & theoretical computer science
-          duration: 2016 - 2018
           location: KU Leuven
+          duration: 2016 - 2018
         - title: B.Sc. Computer Science (Magna Cum Laude)
           about: ""
-          duration: 2013 - 2016
           location: UHasselt
+          duration: 2013 - 2016
     awards:
       title: Awards & Highlights
       content:
@@ -145,17 +145,17 @@ profiles:
           date: "2016"
         - award: Selected (ranked 4th) - EFSA Framework Contract
           event: Statistical & epidemiological analysis
-          date: "2025"
           location: Europe
+          date: "2025"
         - award: 3rd place - ACM SIGPLAN Student Research Competition (ICFP)
           event: Programming languages & compilers
-          date: "2017"
           location: Oxford, UK
+          date: "2017"
         - award: IELTS Academic - 8.0 / 9.0
           event: English proficiency
           location: ""
-          date: "2016"
           compact: false
+          date: "2016"
     letter:
       recipient_name: Guerrilla Games - Analytics Team
       recipient_address: Amsterdam, The Netherlands
@@ -224,80 +224,80 @@ profiles:
       title: Experience
       content:
         - title: Postdoctoral Researcher - AI for Healthcare & Precision Oncology
-          duration: Jan 2026 - Present
           about: |
             Develop deep-learning and foundation models integrating longitudinal MRI, multi-omics and clinical variables for early detection and risk prediction of hepatocellular carcinoma (AI-HCC, ZonMw).
             Build explainable-AI frameworks linking imaging and molecular markers to clinically meaningful outcomes.
           location: University of Twente / Medisch Spectrum Twente
+          duration: Jan. 2026 - Current
         - title: Scientific Coordinator & ML Lead - Real-World Evidence
           location: UHasselt (Flanders AI Research Program)
-          duration: Jan 2024 - Jan 2026
           about: |
             Led multi-institutional privacy-preserving healthcare analytics across Belgian institutions, enabling collaborative clinical research without sharing patient data.
             Developed federated tensor regression for longitudinal health data and distributed learning for heterogeneous clinical datasets; owned data quality and harmonisation.
             Translated federated AI methods into practical applications; mentored junior researchers and students.
+          duration: Jan. 2024 - Jan. 2026
         - title: Researcher - Computational Neuroscience & Biomedical ML
-          duration: 2018 - 2024
           about: |
             Built ML and tensor-regression models for high-density biomedical time-series; designed statistical evaluations and reproducible analysis pipelines.
             Supervised graduate and doctoral students across clinical and engineering projects.
           location: KU Leuven
+          duration: 2018 - 2024
         - title: Statistical & Epidemiological Analysis - EFSA Framework
           location: European Food Safety Authority
-          duration: 2025
           about: |
             Selected (ranked 4th among international contractors) for the EFSA framework; contributed Bayesian spatial modelling and AI / ML for data classification.
+          duration: "2025"
     projects:
       title: Selected Projects
       content:
         - role: Lead Researcher & Developer
           title: Block-Term Tensor Regression (BTTR) - open-source Python package
-          duration: 2022 - Present
           about: |
             Accessible, reproducible tensor-regression tooling for neuroscience and biomedical data.
           url: https://github.com/TheAxeC/block-term-tensor-regression
+          duration: 2022 - Current
         - role: Contributor
           title: Federated Learning Kit (FLkit) for the life sciences
-          duration: 2025 - Present
           about: |
             Guidance, techniques and tools helping life scientists apply privacy-preserving federated learning to sensitive, decentralised data.
           url: https://github.com/UHasselt-BiomedicalDataSciences/federated-learning-toolkit
+          duration: 2025 - Current
         - role: Author
           title: Reproducible federated-learning tutorial (Wisconsin Breast Cancer)
-          duration: 2025 - Present
           about: |
             End-to-end, documented walkthrough of a federated study using the FL4E framework.
           url: https://github.com/TheAxeC/federated-learning-tutorial
+          duration: 2025 - Current
     education:
       title: Education
       content:
         - title: PhD, Computational Neuroscience
           about: Biomedical ML & tensor regression
-          duration: 2018 - 2023
           location: KU Leuven
+          duration: 2018 - 2023
         - title: M.Sc. Artificial Intelligence (Cum Laude)
           about: Engineering & Computer Science
-          duration: 2017 - 2019
           location: KU Leuven
+          duration: 2017 - 2019
         - title: M.Sc. Computer Science Engineering (Cum Laude)
           about: AI & theoretical computer science
-          duration: 2016 - 2018
           location: KU Leuven
+          duration: 2016 - 2018
         - title: B.Sc. Computer Science (Magna Cum Laude)
           about: ""
-          duration: 2013 - 2016
           location: UHasselt
+          duration: 2013 - 2016
     awards:
       title: Awards & Highlights
       content:
         - award: Selected (ranked 4th) - EFSA Framework Contract
           event: Statistical & epidemiological analysis
-          date: "2025"
           location: Europe
+          date: "2025"
         - award: FWO Fundamental Research Grant
           event: Research Foundation Flanders
-          date: "2018"
           location: Belgium
+          date: "2018"
         - award: Bachelor Award in Computer Science
           event: Examination committee distinction
           location: UHasselt
@@ -376,133 +376,133 @@ profiles:
       title: Experience
       content:
         - title: Postdoctoral Researcher - AI & High-Performance Computing
-          duration: Jan 2026 - Present
           about: |
             Design and optimise performance-critical pipelines over large multi-modal datasets, owning the full path from raw data to validated result.
             Write GPU-accelerated (CUDA / PyTorch) code and profile it to hit runtime and memory targets on shared HPC clusters.
           about_compact: |
             Design and optimise performance-critical, GPU-accelerated (CUDA / PyTorch) pipelines over large datasets, profiling to hit runtime and memory targets on HPC clusters.
           location: University of Twente / Medisch Spectrum Twente
+          duration: Jan. 2026 - Current
         - title: Machine-Learning Lead & Scientific Coordinator
           location: UHasselt (Flanders AI Research Program)
-          duration: Jan 2024 - Jan 2026
           about: |
             Led a ~10-person, 4-institution engineering programme; turned open-ended goals into concrete, measurable deliverables.
             Built distributed, multithreaded data pipelines over heterogeneous systems; owned reliability and data quality across sites.
             Set code-review, Git and reproducibility standards; mentored and supported junior engineers and students.
           about_compact: |
             Led a ~10-person, 4-institution programme; built distributed, multithreaded pipelines, set code-review / Git / reproducibility standards, and mentored junior engineers.
+          duration: Jan. 2024 - Jan. 2026
         - title: Postdoctoral Researcher - Deep Learning & Tensor Methods
-          duration: 2023 - 2024
           about: |
             Built GPU deep-learning and tensor-decomposition models for high-density neural time-series (millions of samples per session).
             Implemented block-term tensor decomposition and cross-subject generalisation; profiled and optimised compute- and memory-bound routines.
           about_compact: |
             Built GPU deep-learning and tensor-decomposition models for high-density time-series; implemented block-term decomposition and optimised compute- and memory-bound routines.
           location: KU Leuven
+          duration: 2023 - 2024
         - title: PhD Researcher - High-Performance Numerical & Systems Code
-          duration: 2018 - 2023
           about: |
             Wrote high-performance numerical and tensor code for very large time-series; designed reproducible, version-controlled pipelines.
             Supervised MSc theses on engine-adjacent systems work: single-pass compiler optimisation and a redesign of VM bytecode for faster execution and lower memory use.
           about_compact: |
             Wrote and optimised high-performance numerical / tensor code; supervised MSc theses on single-pass compiler optimisation and VM bytecode redesign for speed and memory.
           location: KU Leuven
+          duration: 2018 - 2023
         - title: Research Stay - Real-Time C++ for Robotic Control
           location: Idrogenet Srl (Gloreha), Italy
-          duration: 2022 - 2023
           about: |
             Developed custom C++ software to control a robotic hand-rehabilitation exoskeleton (R-TOUCH PRO Sinfonia), including real-time device I/O.
           about_compact: |
             Developed custom C++ software for real-time control of a robotic hand-rehabilitation exoskeleton (Gloreha R-TOUCH PRO Sinfonia).
+          duration: 2022 - 2023
         - title: Research Intern - Real-Time C++, Motion Capture & Web Performance
           location: UHasselt (Expertise Centre for Digital Media)
-          duration: 2015 - 2016
           about: |
             Built real-time C++ software interfacing a custom-built drone, human motion and virtual objects through OptiTrack motion capture.
             Profiled and compared HTTP/1.1, HTTPS and HTTP/2 performance in a follow-up web-performance research internship.
           about_compact: |
             Built real-time C++ software interfacing a custom drone, motion and virtual objects via OptiTrack; later profiled HTTP/1.1 vs HTTP/2 performance.
+          duration: 2015 - 2016
     projects:
       title: Selected Projects
       content:
         - role: Lead Developer
           title: Cardinal - C++20 virtual machine & language platform
           url: https://github.com/TheAxeC/Cardinal
-          duration: 2015 - Present
           about: |
             A from-scratch C++20 virtual machine and runtime: bytecode compiler, fiber-based concurrency, managed memory and a clean C embedding API.
             Built for clarity and performance, and used as a platform for MSc theses on compiler optimisation and bytecode efficiency.
+          duration: 2015 - Current
         - role: Researcher / Developer
           title: Household Survival - room-scale game with everyday objects as controllers (Unity, OptiTrack)
-          duration: 2015 - 2016
           about: |
             A room-scale game turning brooms, fans and vacuums into motion-tracked controllers; 2nd place at the Belgian Game Development Championship and still used as a university teaching example.
           url: https://www.youtube.com/watch?v=Q4_rK2upGEY
+          duration: 2015 - 2016
         - role: Supervisor
           title: Wren VM optimisation - bytecode redesign & single-pass compiler tuning (MSc research)
           url: https://github.com/TheAxeC/Cardinal
-          duration: 2025 - Present
           compact: false
           about: |
             Supervised MSc research redesigning VM bytecode for faster execution and lower memory footprint, and optimising a single-pass compiler, directly on runtime performance and memory.
+          duration: 2025 - Current
         - role: Lead Developer
           title: Block-Term Tensor Regression (BTTR) - open-source library
-          duration: 2022 - Present
           compact: false
           about: |
             An open-source library for tensor-based regression: reproducible, documented, and actively maintained for research use.
           url: https://github.com/TheAxeC/block-term-tensor-regression
+          duration: 2022 - Current
         - role: Lead Developer
           title: iCal for KU Leuven - schedule generator (Node.js)
-          duration: 2016 - Present
           compact: false
           about: |
             A small product shipped to real users: generates calendar feeds for KU Leuven courses, with 1000+ active users.
           url: https://github.com/TheAxeC/ical-kuleuven
+          duration: 2016 - Current
     education:
       title: Education
       content:
         - title: PhD, Computational Neuroscience
           about: Large-scale time-series & tensor computation
-          duration: 2018 - 2023
           location: KU Leuven
+          duration: 2018 - 2023
         - title: M.Sc. Artificial Intelligence (Cum Laude)
           about: Engineering & Computer Science
-          duration: 2017 - 2019
           location: KU Leuven
+          duration: 2017 - 2019
         - title: M.Sc. Computer Science Engineering (ir., Cum Laude)
           about: AI & theoretical CS; thesis on algebraic subtyping (type systems / compilers)
-          duration: 2016 - 2018
           location: KU Leuven
+          duration: 2016 - 2018
         - title: Honours Programme, Faculty of Engineering (Research Track)
           about: Compiler research - efficient compilation of algebraic effect handlers
-          duration: 2016 - 2018
           location: KU Leuven
+          duration: 2016 - 2018
         - title: B.Sc. Computer Science (Magna Cum Laude)
           about: Physics & general engineering courses
-          duration: 2013 - 2016
           compact: false
           location: UHasselt
+          duration: 2013 - 2016
     teaching:
       title: Teaching & Mentoring
       content:
         - title: Lecturer & Guest Lecturer
           location: UHasselt / KU Leuven
-          duration: 2022 - Present
           about: |
             Coordinating lecturer in Bioinformatics (UHasselt) and lecturer in Data Science in Healthcare and Advanced Topics in Data Science.
             Guest lecturer in Brain-Computer Interfacing (KU Leuven, 2022 - 2025).
+          duration: 2022 - Current
         - title: Student Supervision
           location: KU Leuven / UHasselt
-          duration: 2020 - Present
           about: |
             Supervised 15+ MSc and PhD students, including theses on compiler optimisation and VM bytecode redesign, tensor methods, and federated learning.
+          duration: 2020 - Current
         - title: Programming Coach & Outreach
           location: CoderDojo, DjangoGirls
-          duration: 2014 - 2025
           about: |
             Taught programming to children and adults (Scratch, Python, Lego Mindstorms) and coached beginners toward confident, independent coding.
+          duration: 2014 - 2025
     awards:
       title: Awards & Highlights
       content:
@@ -512,8 +512,8 @@ profiles:
           date: "2016"
         - award: 3rd place - ACM SIGPLAN Student Research Competition (ICFP)
           event: Programming languages & compilers
-          date: "2017"
           location: Oxford, UK
+          date: "2017"
         - award: 3rd place - ACM CHI Student Design Competition
           event: Everyday objects as game controllers
           location: San Jose, USA
@@ -521,23 +521,23 @@ profiles:
         - award: Finalist - Cyber Security Challenge
           event: Capture-the-Flag, low-level & systems security
           location: Brussels
-          date: "2018"
           compact: false
+          date: "2018"
         - award: FWO Fundamental Research Grant
           event: Research Foundation Flanders
-          date: "2018"
           compact: false
           location: Belgium
+          date: "2018"
         - award: Bachelor Award in Computer Science
           event: Examination committee distinction
           location: UHasselt
-          date: "2016"
           compact: false
+          date: "2016"
         - award: IELTS Academic - 8.0 / 9.0
           event: English proficiency
           location: ""
-          date: "2016"
           compact: false
+          date: "2016"
     letter:
       recipient_name: Larian Studios - Engine Team
       recipient_address: Ghent, Belgium
