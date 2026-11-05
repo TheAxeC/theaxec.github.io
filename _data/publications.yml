@@ -32,7 +32,7 @@ papers-in-review:
       order: first
       program:
         - tensor
-      book: Medical Image Analysis
+      book: Pattern Recognition
       pub_pre: "Submitted to "
       pub_post: (Under review)
       pub_date: 2026
@@ -57,11 +57,11 @@ papers-in-review:
         Code: https://github.com/TheAxeC/bttn-incident-af
       abstract: ""
     - authors: Meseret Assefa Kerga, Axel Faes
-      title: "From Classification to Competing Risks: A Critical Re-Examination of a Widely-Used Cirrhosis Outcome Benchmark"
+      title: "Competing-Risks Modelling of a Widely-Used Cirrhosis Outcome Benchmark: Recovering the Transplant Outcome and Cause-Specific Risk Lost to Classification"
       order: senior
       program:
         - prognosis
-      book: Statistics in Medicine
+      book: Computers in Biology and Medicine
       pub_pre: "Submitted to "
       pub_post: (Under review)
       pub_date: 2026
