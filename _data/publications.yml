@@ -39,6 +39,7 @@ papers-in-review:
       url: ""
       links:
         Preprint: /publications/preprint/raw-pls.pdf
+        Supplementary: /publications/preprint/raw-pls-supplementary.pdf
         Code: https://github.com/TheAxeC/registration-free-tensor-pls
       abstract: ""
     - authors: Axel Faes, Liesbet Peeters
