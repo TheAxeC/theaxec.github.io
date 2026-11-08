@@ -211,15 +211,13 @@ papers-in-preparation:
 journal:
   papers:
     - authors: Dongho Chun, Axel Faes
-      title: Which representation clusters? A chance-corrected benchmark of ECG representations for unsupervised arrhythmia structure on PTB-XL
+      title: Which representation clusters? A chance-corrected benchmark of ECG representations for unsupervised arrhythmia structure
       order: senior
       program:
         - ecg
       book: Biomedical Signal Processing and Control
-      pub_pre: ""
-      pub_post: (Accepted)
       pub_date: 2026
-      url: ""
+      url: https://doi.org/10.1016/j.bspc.2026.111784
       links:
         Preprint: /publications/preprint/dongho-ecg-clustering.pdf
         Code: https://github.com/TheAxeC/ecg-representation-clustering
