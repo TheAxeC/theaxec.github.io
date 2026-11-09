@@ -184,12 +184,12 @@ papers-in-preparation:
       pub_post: (In preparation)
       pub_date: 2026
       url: ""
-    - authors: Axel Faes
+    - authors: Axel Faes, Maryam Amir Haeri
       title: A Generalization Separation for Block-Term Spectral Operators
       order: first
       program:
         - tensor
-      book: Journal of Machine Learning Research
+      book: ""
       pub_pre: ""
       pub_post: (In preparation)
       pub_date: 2026
