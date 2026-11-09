@@ -410,6 +410,7 @@ projects:
       url: https://github.com/TheAxeC/ical-kuleuven
       duration: Aug. 2016 - Current
       role: Lead Developer
+      cv_hide: true
       about: |
         A Node.js application to create an iCalendar file for courses at KU Leuven. (>1000 active users)
     - title: Search and Recommendation System
@@ -424,6 +425,7 @@ projects:
       url: https://www.youtube.com/watch?v=Q4_rK2upGEY
       duration: Sep. 2015 - Dec. 2015
       role: Researcher
+      cv_hide: true
       about: |
         Developed a room-scale AR game using everyday objects as controllers (broom, fan, vacuum, mousetrap). 
         Demonstrated immersive physical-virtual interactions. 

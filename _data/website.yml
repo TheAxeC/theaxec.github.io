@@ -36,6 +36,14 @@ cv:
     - Postdoctoral Researcher in AI for Healthcare
     - Interpretable Tensor Models and Federated Learning for Clinical Prediction
   portrait_url: /assets/images/photos/axel.jpg
+  # The block under the CV's header: one row per part of the research line, with the papers whose `program` holds one of its programs, numbered as the CV numbers them.
+  research_line:
+    title: Research Line
+    summary: "I develop interpretable tensor models and privacy-preserving federated learning for clinical prediction from biomedical signals and imaging, so that clinicians can read the models and the models can move between hospitals without the patient data."
+    parts:
+      - { label: "Interpretable block-term tensor models", programs: [tensor] }
+      - { label: "Federated and privacy-preserving learning", programs: [federated] }
+      - { label: "Clinical use on ECG, liver MRI and patient outcomes", programs: [ecg, hcc, prognosis] }
   footer: Curriculum Vitae
   secondary-title: Supervised students, talks and other media
   author: Axel Faes

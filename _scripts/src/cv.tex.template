@@ -87,6 +87,40 @@ for title in website['cv']['titles']:
   { {% emit(data['personal']['first-name']+" "+data['personal']['last-name']) %}~~~|~~~Curriculum Vitae}
   {} % \thepage
  
+{%
+  line = website['cv'].get('research_line')
+  if line:
+    numbered = []
+    nb = 1
+    for group in ['journal', 'conference', 'papers-in-review']:
+      for paper in publications[group]['papers']:
+        if paper.get('hide') or paper.get('cv_hide'): continue
+        numbered.append((nb, group, paper.get('program') or []))
+        nb = nb + 1
+
+    def spans(numbers):
+      out = []
+      for n in numbers:
+        if out and out[-1][1] == n - 1: out[-1][1] = n
+        else: out.append([n, n])
+      return ', '.join(str(a) if a == b else str(a) + '-' + str(b) for a, b in out)
+
+    emit_tex('\\cvsection{')
+    emit(line['title'])
+    emit_tex('}\n\\par\\noindent\\descriptionstyle{')
+    emit(line['summary'])
+    emit_tex('}\n\\begin{cvitems}\n')
+    for part in line['parts']:
+      hits = [row for row in numbered if set(row[2]) & set(part['programs'])]
+      published = [row[0] for row in hits if row[1] != 'papers-in-review']
+      review = [row[0] for row in hits if row[1] == 'papers-in-review']
+      emit_tex('\\item \\descriptionstyle{\\textbf{')
+      emit(part['label'])
+      emit_tex('}: ')
+      emit('published [' + spans(published) + '], in review [' + spans(review) + ']')
+      emit_tex('}\n')
+    emit_tex('\\end{cvitems}\n')
+%}
 \input{cv/experience.tex}
 \cvsection{{% emit(website['sections']['academic']) %}}
 \begin{cvoneliners}
@@ -102,7 +136,7 @@ for title in website['cv']['titles']:
 {%
   service = [i for i in data.get('service', {}).get('content', []) if not i.get('hide') and not i.get('cv_hide')]
   if service:
-    emit_tex('\\cvsection{')
+    emit_tex('\\filbreak\n\\cvsection{')
     emit(website['sections']['service'])
     emit_tex('}\n\\begin{cvoneliners}\n')
     for i in service:
