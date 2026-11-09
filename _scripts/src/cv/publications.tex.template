@@ -23,7 +23,7 @@ for type in types:
   emit_tex('\\begin{cvpapers}')
   emit('\n')
   for i in publications[type]['papers']:
-    if 'hide' in i and i['hide'] == True: continue
+    if i.get('hide') or i.get('cv_hide'): continue
     emit_tex('\\cvpaper ')
     emit('\n')
     if "*" in i['authors']:
@@ -44,12 +44,13 @@ for type in types:
     emit_braces(i['title'])
     emit('\n')
 
-    if 'book' in i:
-      emit_braces(i['book'])
-      emit('\n')
+    if type == 'papers-in-preparation':
+      venue = i.get('book') or 'In preparation'
     else:
-      emit_braces('')
-      emit('\n')
+      venue = i['book'].strip().rstrip('.')
+      if str(i['pub_date']) not in venue: venue += ', ' + str(i['pub_date'])
+    emit_braces(venue)
+    emit('\n')
 
     emit_braces("[" + str(nb) + "]")
     emit('\n')
@@ -75,7 +76,7 @@ for type in types:
     emit_tex('\\begin{cvnews}')
     emit('\n')
     for i in data[type]['content']:
-        if 'hide' in i and i['hide'] == True: continue
+        if i.get('hide') or i.get('cv_hide'): continue
         emit_tex('\\cvnew ')
         emit('\n')
         emit_braces(i['title'])

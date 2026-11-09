@@ -92,13 +92,26 @@ for title in website['cv']['titles']:
 \begin{cvoneliners}
 {%
   for i in (data['academic']['content']):
-    if 'hide' in i and i['hide'] == True: continue
+    if i.get('hide') or i.get('cv_hide'): continue
     emit_tex('\\cvoneliner ')
     emit_braces(i['title'])
     emit_braces(i['location'])
     emit_braces(i['duration'])
 %}
 \end{cvoneliners}
+{%
+  service = [i for i in data.get('service', {}).get('content', []) if not i.get('hide') and not i.get('cv_hide')]
+  if service:
+    emit_tex('\\cvsection{')
+    emit(website['sections']['service'])
+    emit_tex('}\n\\begin{cvoneliners}\n')
+    for i in service:
+      emit_tex('\\cvoneliner ')
+      emit_braces(i['title'])
+      emit_braces(i.get('location', ''))
+      emit_braces(i.get('duration', ''))
+    emit_tex('\\end{cvoneliners}\n')
+%}
 \input{cv/education.tex}
 \input{cv/grants.tex}
 \input{cv/projects.tex}
@@ -111,7 +124,7 @@ for title in website['cv']['titles']:
 \begin{cvoneliners}
 {%
   for i in (data['references']['content']):
-    if 'hide' in i and i['hide'] == True: continue
+    if i.get('hide') or i.get('cv_hide'): continue
     emit_tex('\\cvoneliner ')
     emit_braces(i['name'])
     emit_braces(i['email'])

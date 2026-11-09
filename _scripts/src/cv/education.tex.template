@@ -3,7 +3,7 @@
 \begin{cventries}
 {%
   for i in data['education']['content']:
-    if 'hide' in i and i['hide'] == True: continue
+    if i.get('hide') or i.get('cv_hide'): continue
     grade = ''
     if ('grade' in i): grade = ' (' + i['grade'] + ')'
     emit_tex('\\cventry')

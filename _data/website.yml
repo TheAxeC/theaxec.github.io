@@ -34,9 +34,7 @@ cv:
     # - Computational Neuroscientist
     # - Computer Engineer
     - Postdoctoral Researcher in AI for Healthcare
-    - Federated Learning
-    - Precision Medicine
-    - Brain-Computer Interfaces
+    - Interpretable Tensor Models and Federated Learning for Clinical Prediction
   portrait_url: /assets/images/photos/axel.jpg
   footer: Curriculum Vitae
   secondary-title: Supervised students, talks and other media
@@ -48,6 +46,7 @@ sections:
   references: References
   experience: Work & Research Experience
   academic: Teaching & Academic Activities
+  service: Academic Service & Peer Review
   students: Students
   news: Talks, presentations and other media
   education: Educational background
