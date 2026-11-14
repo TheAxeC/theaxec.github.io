@@ -315,7 +315,7 @@ grants:
     - title: "The kidney allograft biopsy as a measurement: read as a trajectory, corrected between sites, reported with a stated confidence"
       duration: "2026"
       role: Applicant
-      status: Submission November 2026, decision pending
+      status: Submitted November 2026, decision pending
       about: |
         Funder: FWO, Senior Postdoctoral Fellowship
     - title: "Finger movement decoding: from source-localisation to graph-based regression modelling"

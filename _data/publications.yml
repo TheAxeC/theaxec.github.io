@@ -7,11 +7,13 @@ papers-in-review:
       order: coauthor
       program:
         - federated
-      book: Journal of Medical Internet Research (JMIR)
+      book: JMIR Formative Research
       pub_pre: "Submitted to "
       pub_post: (Under review)
       pub_date: 2026
       url: ""
+      links:
+        Preprint: https://arxiv.org/abs/2606.23500
       abstract: ""
     - authors: Ward Ceyssens, Axel Faes
       title: Behavior-Supervised Alignment for Cross-Subject Neural Decoding across Non-Corresponding Electrode Grids
@@ -455,8 +457,8 @@ abstracts:
       title: High-gamma band event detection improves stability of finger trajectories decoded from ECoG-LMP activity
       program:
         - eeg
-      book: International BCI Meeting 2024
-      pub_date: 2024
+      book: 10th International BCI Meeting 2023
+      pub_date: 2023
       url: /publications/abstracts/High-gamma_band_event_detection_improves_stability_of_finger_trajectories_decoded_from_ECoG-LMP_activity.pdf
     - authors: Qiang Sun, Axel Faes, Marc M. Van Hulle
       title: Individual and Coordinated Finger Movements Decoding from High-Density EEG and Its Implication in Hand Exoskeleton Control
@@ -465,13 +467,6 @@ abstracts:
       book: European Congress of NeuroRehabilitation 2023
       pub_date: 2023
       url: /publications/abstracts/abstract_ECNR_MVH_AF.pdf
-    - authors: Eva Calvo Merino, Axel Faes, Marc M. Van Hulle
-      title: Modulation of LMPs using the gamma band increases the stability of finger trajectories decoded from ECoG
-      program:
-        - eeg
-      book: BCI Society Meeting 2023
-      pub_date: 2023
-      url: /publications/abstracts/Abstract.Eva.CalvoMerino.pdf
     - authors: Axel Faes, Benjamin Wittevrongel, Marc M. Van Hulle
       title: Reconstructing single finger trajectories from intracranial brain activity
       program:
