@@ -60,11 +60,11 @@ papers-in-review:
         Code: https://github.com/TheAxeC/bttn-incident-af
       abstract: ""
     - authors: Meseret Assefa Kerga, Axel Faes
-      title: "Competing-Risks Modelling of a Widely-Used Cirrhosis Outcome Benchmark: Recovering the Transplant Outcome and Cause-Specific Risk Lost to Classification"
+      title: "Classification versus competing-risks models for recovering cause-specific risk: A simulation fitted to a primary biliary cirrhosis cohort"
       order: senior
       program:
         - prognosis
-      book: Computers in Biology and Medicine
+      book: ""
       pub_pre: "Submitted to "
       pub_post: (Under review)
       pub_date: 2026
@@ -181,7 +181,7 @@ papers-in-preparation:
       order: first
       program:
         - hcc
-      book: ""
+      book: JHEP Reports
       pub_pre: ""
       pub_post: (In preparation)
       pub_date: 2026
@@ -191,7 +191,7 @@ papers-in-preparation:
       order: first
       program:
         - tensor
-      book: ""
+      book: Neural Networks
       pub_pre: ""
       pub_post: (In preparation)
       pub_date: 2026
@@ -204,10 +204,21 @@ papers-in-preparation:
       order: first
       program:
         - tensor
-      book: ""
+      book: "Machine Learning: Science and Technology"
       pub_pre: ""
       pub_post: (In preparation)
       pub_date: 2026
+      url: ""
+      abstract: ""
+    - authors: Stéphanie M. van den Berg, Axel Faes, Ulrich Halekoh, Sören Möller, Andreas Kryger Jensen, Jacob von Bornemann Hjelmborg
+      title: A Pretrained Rank-Based Estimator of the Linfoot Informational Correlation
+      order: first
+      program:
+        - tensor
+      book: IEEE Transactions on Neural Networks and Learning Systems
+      pub_pre: ""
+      pub_post: (In preparation)
+      pub_date: 2025
       url: ""
       abstract: ""
 journal:
