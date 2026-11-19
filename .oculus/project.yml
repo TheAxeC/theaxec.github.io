@@ -1,9 +1,9 @@
 title: "theaxec.github.io"
-tier: personal
+tier: software
 lead: [axel-faes]
-stage: building
+stage: released
 status:
-  chips: [parked]
+  chips: []
 eli5: "My personal website"
 next: "Open: where the CV-only content (experience, awards, extracurricular, talks, education history) lives in oculus."
 links: []
