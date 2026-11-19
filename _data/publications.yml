@@ -50,7 +50,7 @@ papers-in-review:
       program:
         - tensor
         - ecg
-      book: Artificial Intelligence in Medicine
+      book: Biomedical Signal Processing and Control
       pub_pre: "Submitted to "
       pub_post: (Under review)
       pub_date: 2026
